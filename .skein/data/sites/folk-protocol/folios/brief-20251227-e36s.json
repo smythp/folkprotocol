@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251227-e36s",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T14:32:24.700052",
+  "created_by": "unknown",
+  "title": "Source type styling",
+  "content": "Visual distinction for source links by type. Studies get one style, traditional texts another, practitioner sources another. Badges or icons. Update CSS and templates.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251227-4lz7",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T14:32:23.385711",
+  "created_by": "unknown",
+  "title": "Where to buy page",
+  "content": "Site-wide sourcing page. Link to quality purveyors: Mountain Rose Herbs, etc. General guidance on what to look for in herb quality. Not per-herb, just general resource.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

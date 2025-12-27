@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251227-q5yu",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T14:32:16.935172",
+  "created_by": "unknown",
+  "title": "Update page templates for new schema",
+  "content": "Update /protocols/[id].astro and /materia/[id].astro to render new schema fields: attributions with quotes/links, evidence summary with trial counts, trying section, typed sources with badges, combinedWith section.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

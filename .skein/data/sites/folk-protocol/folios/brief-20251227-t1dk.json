@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251227-t1dk",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T14:32:20.845332",
+  "created_by": "unknown",
+  "title": "Research first protocol: Sleep",
+  "content": "Create sleep protocol page. Research landscape: which herbs have evidence for sleep (valerian, passionflower, magnolia, chamomile, etc.), categorize by evidence level, note what aspects of sleep each addresses (onset, maintenance, quality).",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

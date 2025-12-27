@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251227-l32p",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T14:32:26.158293",
+  "created_by": "unknown",
+  "title": "Cross-linking system",
+  "content": "Materia pages link to protocols they address (from uses field). Protocol pages list relevant materia with evidence levels. Bidirectional, automatic from schema data.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}
