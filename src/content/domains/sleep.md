@@ -1,6 +1,5 @@
 ---
 title: "Sleep"
-slug: sleep
 summary: "Herbs for falling asleep, staying asleep, and improving sleep quality."
 symptoms:
   - difficulty falling asleep

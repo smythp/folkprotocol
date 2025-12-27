@@ -1,6 +1,5 @@
 ---
 name: "Valerian"
-slug: valerian
 latinName: "Valeriana officinalis"
 commonNames:
   - garden valerian

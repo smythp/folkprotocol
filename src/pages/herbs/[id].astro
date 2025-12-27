@@ -1,0 +1,132 @@
+---
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const herbs = await getCollection('herbs');
+  return herbs.map(herb => ({
+    params: { id: herb.id },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+const { Content } = await render(herb);
+
+const evidenceLevels = {
+  strong: { label: 'Strong', color: '#166534', bg: '#dcfce7' },
+  moderate: { label: 'Moderate', color: '#854d0e', bg: '#fef9c3' },
+  preliminary: { label: 'Preliminary', color: '#9a3412', bg: '#ffedd5' },
+  traditional: { label: 'Traditional', color: '#6b21a8', bg: '#f3e8ff' },
+  weak: { label: 'Weak', color: '#991b1b', bg: '#fee2e2' },
+};
+---
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{herb.data.name} - Folk Protocol</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    .back { margin-bottom: 1rem; }
+    .back a { color: #666; text-decoration: none; }
+    h1 { margin-bottom: 0.25rem; }
+    .latin { font-style: italic; color: #666; margin-bottom: 1rem; }
+    .summary { font-size: 1.1rem; color: #374151; margin-bottom: 2rem; }
+    .section { margin: 2rem 0; }
+    .section h2 { font-size: 1.2rem; border-bottom: 1px solid #ddd; padding-bottom: 0.5rem; }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .prep { background: #f3f4f6; padding: 1rem; border-radius: 8px; margin: 0.5rem 0; }
+    .prep-method { font-weight: 600; }
+    .prep-dosing { font-family: monospace; color: #059669; }
+    .safety-note { background: #fef3c7; padding: 1rem; border-radius: 8px; border-left: 4px solid #f59e0b; }
+  </style>
+</head>
+<body>
+  <div class="back"><a href="/">← Folk Protocol</a></div>
+
+  <h1>{herb.data.name}</h1>
+  {herb.data.latinName && <p class="latin">{herb.data.latinName}</p>}
+  <p class="summary">{herb.data.summary}</p>
+
+  {herb.data.evidenceByDomain && (
+    <div class="section">
+      <h2>Evidence by Domain</h2>
+      {Object.entries(herb.data.evidenceByDomain).map(([domain, level]) => {
+        const style = evidenceLevels[level];
+        return (
+          <span class="badge" style={`background: ${style.bg}; color: ${style.color}`}>
+            {domain}: {style.label}
+          </span>
+        );
+      })}
+    </div>
+  )}
+
+  {herb.data.traditionalUse && (
+    <div class="section">
+      <h2>Traditional Use</h2>
+      {herb.data.traditionalUse.traditions && (
+        <p>Traditions: {herb.data.traditionalUse.traditions.join(', ')}</p>
+      )}
+      {herb.data.traditionalUse.convergent && <p><strong>Multiple traditions agree on use.</strong></p>}
+      {herb.data.traditionalUse.notes && <p>{herb.data.traditionalUse.notes}</p>}
+    </div>
+  )}
+
+  {herb.data.preparations && herb.data.preparations.length > 0 && (
+    <div class="section">
+      <h2>Preparations</h2>
+      {herb.data.preparations.map(prep => (
+        <div class="prep">
+          <span class="prep-method">{prep.method}</span>
+          {prep.dosing && <span class="prep-dosing"> — {prep.dosing}</span>}
+          {prep.notes && <p>{prep.notes}</p>}
+        </div>
+      ))}
+    </div>
+  )}
+
+  <Content />
+
+  {herb.data.safety && (
+    <div class="section">
+      <h2>Safety</h2>
+      <div class="safety-note">
+        {herb.data.safety.generally && <p>Generally considered: <strong>{herb.data.safety.generally}</strong></p>}
+        {herb.data.safety.contraindications && herb.data.safety.contraindications.length > 0 && (
+          <p>Contraindications: {herb.data.safety.contraindications.join(', ')}</p>
+        )}
+        {herb.data.safety.notes && <p>{herb.data.safety.notes}</p>}
+      </div>
+    </div>
+  )}
+
+  {herb.data.sources && herb.data.sources.length > 0 && (
+    <div class="section">
+      <h2>Sources</h2>
+      <ul>
+        {herb.data.sources.map(source => (
+          <li>
+            {source.url ? <a href={source.url}>{source.title}</a> : source.title}
+            {source.type && <span class="badge">{source.type}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</body>
+</html>

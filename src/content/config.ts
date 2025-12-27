@@ -3,12 +3,13 @@ import { defineCollection, z } from 'astro:content';
 /**
  * Problem domains - organized by health concern
  * e.g., "sleep", "cold-symptoms", "persistent-cough"
+ *
+ * Slug is derived from filename (sleep.md -> sleep)
  */
 const domains = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
     summary: z.string().max(200),
 
     // What are we trying to address?
@@ -29,12 +30,13 @@ const domains = defineCollection({
 
 /**
  * Herbs - individual plant monographs
+ *
+ * Slug is derived from filename (valerian.md -> valerian)
  */
 const herbs = defineCollection({
   type: 'content',
   schema: z.object({
     name: z.string(),
-    slug: z.string(),
     latinName: z.string().optional(),
     commonNames: z.array(z.string()).optional(),
 
