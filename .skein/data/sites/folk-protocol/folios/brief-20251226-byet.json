@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251226-byet",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-26T21:03:08.380394",
+  "created_by": "unknown",
+  "title": "Research: Simples (Single-Herb Remedies)",
+  "content": "## Context\n'Simples' are single-herb remedies, as opposed to compound formulas. The term comes from historical herbalism - a 'simpler' was an herbalist who worked with simples.\n\n## Research Questions\n- What's the history of simples vs compound formulas?\n- What's the argument FOR simples? (clarity of effect, easier to assess what's working)\n- What's the argument AGAINST? (synergy, traditional formulas exist for a reason)\n- How does this affect our site structure? (do we focus on single herbs or acknowledge formulas?)\n\n## Relevance to Folk Protocol\nThis affects core architecture. If we're helping people run n=1 experiments, simples are cleaner - you know what variable you're testing. But ignoring formulas ignores a lot of traditional practice.\n\n## Output\nFinding with recommendation on how to handle simples vs formulas in site structure.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

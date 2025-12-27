@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251226-zdea",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-26T21:03:09.365845",
+  "created_by": "unknown",
+  "title": "Research: Herbalism Epistemology",
+  "content": "## Context\nThe core tension: what counts as evidence in herbalism?\n\n## Research Questions\n- How do herbalists think about evidence? (not just 'tradition says' but what makes tradition credible?)\n- What's the case for traditional use as evidence? (convergent traditions, long observation periods, etc.)\n- What are the failure modes? (survivorship bias, placebo, nocebo, regression to mean)\n- How do we weight different evidence types? (RCT > cohort > case study > traditional > mechanistic > in vitro)\n\n## Relevance to Folk Protocol\nThis is the intellectual foundation. We need a clear, defensible epistemology that's not 'only RCTs count' but also not 'grandma said so.'\n\n## Inspiration\nSlime Mold Time Mold's approach: take weird hypotheses seriously, run citizen science, be transparent about uncertainty.\n\n## Output\nPosition paper on Folk Protocol's evidence philosophy. Could become an 'About' page section.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

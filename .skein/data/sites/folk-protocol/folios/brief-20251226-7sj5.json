@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251226-7sj5",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-26T21:03:40.650711",
+  "created_by": "unknown",
+  "title": "Initial Problem Domains",
+  "content": "## Context\nStarting scope: 6-7 problem domains to research and cover initially.\n\n## Proposed Domains\n1. **Common cold symptoms** - congestion, sore throat, general malaise\n2. **Sleep** - falling asleep, staying asleep, quality\n3. **Dreams** - lucid dreaming, dream recall, vivid dreams\n4. **Persistent cough** - post-viral cough, irritation\n5. **Running performance** - endurance, recovery, oxygen utilization (beetroot etc)\n6. **Anti-inflammatory** - general inflammation, joint pain, recovery\n7. **Mood** - mild depression, anxiety, stress resilience\n\n## For Each Domain\n- Environmental scan of existing resources\n- What herbs traditionally used?\n- What does the evidence say?\n- What's worth trying? (low risk, some signal)\n\n## Priority\nStart with 3-4, expand. Suggest: cold symptoms, sleep, persistent cough, mood - these have immediate personal relevance and good herb coverage.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}

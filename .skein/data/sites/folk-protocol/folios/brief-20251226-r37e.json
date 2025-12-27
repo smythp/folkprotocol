@@ -1,0 +1,18 @@
+{
+  "folio_id": "brief-20251226-r37e",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-26T21:03:10.225576",
+  "created_by": "unknown",
+  "title": "Research: Preparation Methods",
+  "content": "## Context\nA major gap in resources like Examine: they cover 'ashwagandha' as a thing, not tincture vs tea vs capsule vs fresh root.\n\n## Research Questions\n- What preparation methods exist? (tincture, decoction, infusion, powder, capsule, extract, fresh, dried, etc.)\n- How do preparations differ in effect? (alcohol extracts different compounds than water, etc.)\n- What does the research say about bioavailability by prep method?\n- What do traditional sources say about 'right' preparation for different herbs?\n\n## Relevance to Folk Protocol\nThis is core differentiator. 'How to actually use this' not just 'what the compound does.'\n\n## Output\n- Taxonomy of preparation methods\n- Template for how each herb page should address preparation\n- Research on whether/how prep method matters",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null
+}
