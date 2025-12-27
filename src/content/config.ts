@@ -1,94 +1,98 @@
 import { defineCollection, z } from 'astro:content';
 
 /**
- * Problem domains - organized by health concern
- * e.g., "sleep", "cold-symptoms", "persistent-cough"
- *
- * Slug is derived from filename (sleep.md -> sleep)
+ * Protocols - organized by health concern/goal
  */
-const domains = defineCollection({
+const protocols = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
     summary: z.string().max(200),
-
-    // What are we trying to address?
     symptoms: z.array(z.string()).optional(),
-
-    // Evidence tier for the domain overall
-    // (how well-studied is this area for herbal interventions?)
     researchDepth: z.enum(['well-studied', 'moderate', 'sparse', 'traditional-only']),
-
-    // Related domains for cross-linking
     related: z.array(z.string()).optional(),
-
-    // Status
     draft: z.boolean().default(true),
-    lastUpdated: z.date().optional(),
   }),
 });
 
 /**
- * Herbs - individual plant monographs
- *
- * Slug is derived from filename (valerian.md -> valerian)
+ * Materia - herb/remedy monographs
  */
-const herbs = defineCollection({
+const materia = defineCollection({
   type: 'content',
   schema: z.object({
     name: z.string(),
     latinName: z.string().optional(),
     commonNames: z.array(z.string()).optional(),
-
-    // Brief description
     summary: z.string().max(300),
 
-    // What domains does this herb address?
-    domains: z.array(z.string()),
+    // What protocols does this address?
+    uses: z.array(z.string()),
 
-    // Evidence assessment per domain
-    // e.g., { "sleep": "moderate", "anxiety": "traditional" }
-    evidenceByDomain: z.record(z.enum([
-      'strong',      // Multiple consistent RCTs
-      'moderate',    // Some human trials, mostly positive
-      'preliminary', // Animal/in-vitro or small human studies
-      'traditional', // Traditional use, convergent sources
-      'weak',        // Conflicting or negative evidence
-    ])).optional(),
-
-    // Traditional use notes
-    traditionalUse: z.object({
-      traditions: z.array(z.string()).optional(), // e.g., ["Ayurveda", "TCM", "Western herbalism"]
-      convergent: z.boolean().optional(), // Do multiple traditions agree?
-      notes: z.string().optional(),
+    // Traditional background
+    traditional: z.object({
+      traditions: z.array(z.string()).optional(),
+      convergent: z.boolean().optional(),
+      attributions: z.array(z.object({
+        source: z.string(),
+        text: z.string(),
+        link: z.string().url().optional(),
+        year: z.string().optional(),
+      })).optional(),
     }).optional(),
 
-    // Preparation info
+    // Evidence summary
+    evidence: z.object({
+      summary: z.string().optional(),
+      trialCount: z.number().optional(),
+      participantCount: z.number().optional(),
+      keyStudies: z.array(z.object({
+        title: z.string(),
+        link: z.string().url().optional(),
+        finding: z.string(),
+        year: z.number().optional(),
+      })).optional(),
+    }).optional(),
+
+    // Preparations with sensory notes
     preparations: z.array(z.object({
-      method: z.enum(['tincture', 'tea', 'decoction', 'capsule', 'powder', 'extract', 'fresh', 'dried', 'topical', 'other']),
-      notes: z.string().optional(),
+      method: z.enum(['tincture', 'tea', 'decoction', 'capsule', 'powder', 'extract', 'fresh', 'topical', 'other']),
       dosing: z.string().optional(),
+      notes: z.string().optional(),
+      taste: z.string().optional(),
     })).optional(),
+
+    // Trying it - the n=1 guidance
+    trying: z.object({
+      duration: z.string().optional(),
+      whatToNotice: z.array(z.string()).optional(),
+      notes: z.string().optional(),
+    }).optional(),
 
     // Safety
     safety: z.object({
       generally: z.enum(['safe', 'caution', 'professional-guidance']).optional(),
       contraindications: z.array(z.string()).optional(),
-      interactions: z.array(z.string()).optional(),
+      pregnancyNursing: z.string().optional(),
       notes: z.string().optional(),
     }).optional(),
 
-    // Sources
-    sources: z.array(z.object({
-      title: z.string(),
-      url: z.string().url().optional(),
-      type: z.enum(['study', 'review', 'book', 'traditional', 'other']).optional(),
+    // Combinations
+    combinedWith: z.array(z.object({
+      herb: z.string(),
+      why: z.string().optional(),
     })).optional(),
 
-    // Status
+    // Sources - typed and linked
+    sources: z.array(z.object({
+      title: z.string(),
+      link: z.string().url().optional(),
+      type: z.enum(['study', 'meta-analysis', 'book', 'traditional-text', 'practitioner', 'other']).optional(),
+      year: z.number().optional(),
+    })).optional(),
+
     draft: z.boolean().default(true),
-    lastUpdated: z.date().optional(),
   }),
 });
 
-export const collections = { domains, herbs };
+export const collections = { protocols, materia };

@@ -1,0 +1,16 @@
+{
+  "folio_id": "playbook-20251227-584u",
+  "type": "playbook",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-27T13:23:26.685408",
+  "created_by": "unknown",
+  "title": "Materia Research Guide",
+  "content": "How to research and write a materia (herb) page for Folk Protocol.\n\n## Sections to Fill\n\n### 1. Overview (in body content)\nShort intro. What is it, what's it for, one-sentence pitch. Keep accessible.\n\n### 2. Uses (frontmatter: uses[])\nLink to protocol pages. Just the condition names that link out.\n\n### 3. Traditional Background (frontmatter: traditional{})\n- Which traditions used it (Ayurveda, TCM, Western herbalism, etc.)\n- Do multiple traditions agree? (convergent: true/false)\n- Attributions with quotes and links: 'Gerard (1597) wrote: \"...\"'\n\n### 4. Evidence (frontmatter: evidence{})\n- Summary sentence\n- Quantify if possible: trialCount, participantCount\n- keyStudies array with title, link, finding, year\n- Be honest about gaps\n\n### 5. Preparations (frontmatter: preparations[])\n- method: tincture/tea/decoction/capsule/powder/extract/fresh/topical\n- dosing: ranges, not single numbers\n- taste: what does it actually taste like?\n- notes: practical tips\n\n### 6. Trying It (frontmatter: trying{})\n- duration: how long to give it\n- whatToNotice: what would indicate it's working\n- notes: practical guidance\n\n### 7. Safety (frontmatter: safety{})\n- generally: safe/caution/professional-guidance\n- contraindications: who shouldn't use it\n- pregnancyNursing: specific note\n- notes: anything else\n\n### 8. Combined With (frontmatter: combinedWith[])\n- herb: name\n- why: brief reason for the combination\n\n### 9. Sources (frontmatter: sources[])\n- title, link, type (study/meta-analysis/book/traditional-text/practitioner), year\n- Link everything linkable\n\n## Research Process\n\n1. Start with Examine.com for evidence summary\n2. Check PubMed for key studies - get actual links\n3. Check Henriette's Herbal for traditional background\n4. Look for traditional text citations (Gerard, Culpeper, King's Dispensatory)\n5. Check safety via NCCIH or MSK databases\n6. Add sensory notes from practitioner sources or personal knowledge\n\n## Attribution Style\n\nDon't say 'traditionally used for X'. Say who said it:\n- 'Dioscorides recommended it for stomach complaints'\n- 'In Ayurveda, classified as a rasayana (rejuvenative)'\n- 'Gerard (1597): \"The juice of Valerian...\"'\n\n## Evidence Honesty\n\nInclude contrary evidence. If 3 studies found effect and 2 didn't, say that. Don't cherry-pick.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null
+}
