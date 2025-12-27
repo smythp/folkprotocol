@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import '../styles/global.css';
 
 const domains = await getCollection('domains');
 const herbs = await getCollection('herbs');
@@ -10,61 +11,34 @@ const herbs = await getCollection('herbs');
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Folk Protocol</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-    }
-    h1 { margin-bottom: 0.5rem; }
-    .tagline { color: #666; margin-bottom: 2rem; }
-    h2 { margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 0.5rem; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 0.5rem 0; }
-    a { color: #2563eb; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .summary { color: #666; font-size: 0.9rem; }
-    .badge {
-      display: inline-block;
-      font-size: 0.75rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 4px;
-      background: #f3f4f6;
-      color: #374151;
-      margin-left: 0.5rem;
-    }
-    .draft { background: #fef3c7; color: #92400e; }
-  </style>
 </head>
 <body>
-  <h1>Folk Protocol</h1>
-  <p class="tagline">Evidence-aware herbalism. Traditional knowledge meets modern curiosity.</p>
+  <div class="container">
+    <h1>Folk Protocol</h1>
+    <p class="summary">Evidence-aware herbalism. Traditional knowledge meets modern curiosity.</p>
 
-  <h2>Problem Domains</h2>
-  <ul>
-    {domains.map(domain => (
-      <li>
-        <a href={`/domains/${domain.id.replace('.md', '')}`}>{domain.data.title}</a>
-        {domain.data.draft && <span class="badge draft">draft</span>}
-        <br />
-        <span class="summary">{domain.data.summary}</span>
-      </li>
-    ))}
-  </ul>
+    <h2>Problem Domains</h2>
+    <ul class="item-list">
+      {domains.map(domain => (
+        <li>
+          <a href={`/domains/${domain.id}`} class="item-title">{domain.data.title}</a>
+          {domain.data.draft && <span class="badge badge-draft">draft</span>}
+          <div class="item-summary">{domain.data.summary}</div>
+        </li>
+      ))}
+    </ul>
 
-  <h2>Herbs</h2>
-  <ul>
-    {herbs.map(herb => (
-      <li>
-        <a href={`/herbs/${herb.id.replace('.md', '')}`}>{herb.data.name}</a>
-        {herb.data.latinName && <em> ({herb.data.latinName})</em>}
-        {herb.data.draft && <span class="badge draft">draft</span>}
-        <br />
-        <span class="summary">{herb.data.summary}</span>
-      </li>
-    ))}
-  </ul>
+    <h2>Herbs</h2>
+    <ul class="item-list">
+      {herbs.map(herb => (
+        <li>
+          <a href={`/herbs/${herb.id}`} class="item-title">{herb.data.name}</a>
+          {herb.data.latinName && <span class="item-latin"> {herb.data.latinName}</span>}
+          {herb.data.draft && <span class="badge badge-draft">draft</span>}
+          <div class="item-summary">{herb.data.summary}</div>
+        </li>
+      ))}
+    </ul>
+  </div>
 </body>
 </html>
