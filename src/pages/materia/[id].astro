@@ -3,15 +3,15 @@ import { getCollection, render } from 'astro:content';
 import '../../styles/global.css';
 
 export async function getStaticPaths() {
-  const herbs = await getCollection('herbs');
-  return herbs.map(herb => ({
-    params: { id: herb.id },
-    props: { herb },
+  const materia = await getCollection('materia');
+  return materia.map(item => ({
+    params: { id: item.id },
+    props: { item },
   }));
 }
 
-const { herb } = Astro.props;
-const { Content } = await render(herb);
+const { item } = Astro.props;
+const { Content } = await render(item);
 
 const evidenceClasses: Record<string, string> = {
   strong: 'badge-evidence-strong',
@@ -26,44 +26,87 @@ const evidenceClasses: Record<string, string> = {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>{herb.data.name} – Folk Protocol</title>
+  <title>{item.data.name} – Folk Protocol</title>
 </head>
 <body>
   <div class="container">
     <a href="/" class="back-link">← Folk Protocol</a>
 
-    <h1>{herb.data.name}</h1>
-    {herb.data.latinName && <p class="meta"><em>{herb.data.latinName}</em></p>}
-    <p class="summary">{herb.data.summary}</p>
+    <h1>{item.data.name}</h1>
+    {item.data.latinName && <p class="meta"><em>{item.data.latinName}</em></p>}
+    {item.data.commonNames && item.data.commonNames.length > 0 && (
+      <p class="meta">Also known as: {item.data.commonNames.join(', ')}</p>
+    )}
+    <p class="summary">{item.data.summary}</p>
 
-    {herb.data.evidenceByDomain && (
+    {item.data.uses && item.data.uses.length > 0 && (
       <div class="meta">
-        {Object.entries(herb.data.evidenceByDomain).map(([domain, level]) => (
-          <span class={`badge ${evidenceClasses[level]}`}>
-            {domain}: {level}
-          </span>
+        <strong>Used for:</strong> {item.data.uses.map(use => (
+          <span class="badge">{use}</span>
         ))}
       </div>
     )}
 
-    {herb.data.traditionalUse && (
+    {item.data.traditional && (
       <section>
         <h2>Traditional Use</h2>
-        {herb.data.traditionalUse.traditions && (
-          <p><strong>Traditions:</strong> {herb.data.traditionalUse.traditions.join(', ')}</p>
+        {item.data.traditional.traditions && (
+          <p><strong>Traditions:</strong> {item.data.traditional.traditions.join(', ')}</p>
         )}
-        {herb.data.traditionalUse.convergent && <p><strong>Multiple traditions agree on use.</strong></p>}
-        {herb.data.traditionalUse.notes && <p>{herb.data.traditionalUse.notes}</p>}
+        {item.data.traditional.convergent && <p><strong>Multiple traditions agree on use.</strong></p>}
+        {item.data.traditional.attributions && item.data.traditional.attributions.length > 0 && (
+          <div>
+            <h3>Historical Attributions</h3>
+            {item.data.traditional.attributions.map(attr => (
+              <blockquote>
+                <p>{attr.text}</p>
+                <footer>
+                  — {attr.source}
+                  {attr.year && ` (${attr.year})`}
+                  {attr.link && <> • <a href={attr.link}>source</a></>}
+                </footer>
+              </blockquote>
+            ))}
+          </div>
+        )}
       </section>
     )}
 
-    {herb.data.preparations && herb.data.preparations.length > 0 && (
+    {item.data.evidence && (
+      <section>
+        <h2>Evidence</h2>
+        {item.data.evidence.summary && <p>{item.data.evidence.summary}</p>}
+        {(item.data.evidence.trialCount || item.data.evidence.participantCount) && (
+          <p class="meta">
+            {item.data.evidence.trialCount && <span>{item.data.evidence.trialCount} trials</span>}
+            {item.data.evidence.participantCount && <span> • {item.data.evidence.participantCount} participants</span>}
+          </p>
+        )}
+        {item.data.evidence.keyStudies && item.data.evidence.keyStudies.length > 0 && (
+          <div>
+            <h3>Key Studies</h3>
+            <ul>
+              {item.data.evidence.keyStudies.map(study => (
+                <li>
+                  {study.link ? <a href={study.link}>{study.title}</a> : study.title}
+                  {study.year && ` (${study.year})`}
+                  {study.finding && <p>{study.finding}</p>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+    )}
+
+    {item.data.preparations && item.data.preparations.length > 0 && (
       <section>
         <h2>Preparations</h2>
-        {herb.data.preparations.map(prep => (
+        {item.data.preparations.map(prep => (
           <div class="prep-card">
             <span class="prep-method">{prep.method}</span>
             {prep.dosing && <span class="prep-dosing"> — {prep.dosing}</span>}
+            {prep.taste && <p><em>Taste:</em> {prep.taste}</p>}
             {prep.notes && <p>{prep.notes}</p>}
           </div>
         ))}
@@ -72,27 +115,68 @@ const evidenceClasses: Record<string, string> = {
 
     <Content />
 
-    {herb.data.safety && (
+    {item.data.trying && (
+      <section>
+        <h2>Trying It</h2>
+        {item.data.trying.duration && <p><strong>Duration:</strong> {item.data.trying.duration}</p>}
+        {item.data.trying.whatToNotice && item.data.trying.whatToNotice.length > 0 && (
+          <div>
+            <p><strong>What to notice:</strong></p>
+            <ul>
+              {item.data.trying.whatToNotice.map(notice => (
+                <li>{notice}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {item.data.trying.notes && <p>{item.data.trying.notes}</p>}
+      </section>
+    )}
+
+    {item.data.combinedWith && item.data.combinedWith.length > 0 && (
+      <section>
+        <h2>Combinations</h2>
+        <ul>
+          {item.data.combinedWith.map(combo => (
+            <li>
+              <strong>{combo.herb}</strong>
+              {combo.why && <span> — {combo.why}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {item.data.safety && (
       <section>
         <h2>Safety</h2>
         <div class="callout-warning">
-          {herb.data.safety.generally && <p><strong>Generally considered:</strong> {herb.data.safety.generally}</p>}
-          {herb.data.safety.contraindications && herb.data.safety.contraindications.length > 0 && (
-            <p><strong>Contraindications:</strong> {herb.data.safety.contraindications.join(', ')}</p>
+          {item.data.safety.generally && <p><strong>Generally considered:</strong> {item.data.safety.generally}</p>}
+          {item.data.safety.contraindications && item.data.safety.contraindications.length > 0 && (
+            <div>
+              <p><strong>Contraindications:</strong></p>
+              <ul>
+                {item.data.safety.contraindications.map(ci => (
+                  <li>{ci}</li>
+                ))}
+              </ul>
+            </div>
           )}
-          {herb.data.safety.notes && <p>{herb.data.safety.notes}</p>}
+          {item.data.safety.pregnancyNursing && <p><strong>Pregnancy/Nursing:</strong> {item.data.safety.pregnancyNursing}</p>}
+          {item.data.safety.notes && <p>{item.data.safety.notes}</p>}
         </div>
       </section>
     )}
 
-    {herb.data.sources && herb.data.sources.length > 0 && (
+    {item.data.sources && item.data.sources.length > 0 && (
       <section>
         <h2>Sources</h2>
         <ul>
-          {herb.data.sources.map(source => (
+          {item.data.sources.map(source => (
             <li>
-              {source.url ? <a href={source.url}>{source.title}</a> : source.title}
+              {source.link ? <a href={source.link}>{source.title}</a> : source.title}
               {source.type && <span class="badge">{source.type}</span>}
+              {source.year && ` (${source.year})`}
             </li>
           ))}
         </ul>

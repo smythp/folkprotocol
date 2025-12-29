@@ -3,45 +3,45 @@ import { getCollection, render } from 'astro:content';
 import '../../styles/global.css';
 
 export async function getStaticPaths() {
-  const domains = await getCollection('domains');
-  return domains.map(domain => ({
-    params: { id: domain.id },
-    props: { domain },
+  const protocols = await getCollection('protocols');
+  return protocols.map(protocol => ({
+    params: { id: protocol.id },
+    props: { protocol },
   }));
 }
 
-const { domain } = Astro.props;
-const { Content } = await render(domain);
+const { protocol } = Astro.props;
+const { Content } = await render(protocol);
 ---
 
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>{domain.data.title} – Folk Protocol</title>
+  <title>{protocol.data.title} – Folk Protocol</title>
 </head>
 <body>
   <div class="container">
     <a href="/" class="back-link">← Folk Protocol</a>
 
-    <h1>{domain.data.title}</h1>
-    <p class="summary">{domain.data.summary}</p>
+    <h1>{protocol.data.title}</h1>
+    <p class="summary">{protocol.data.summary}</p>
 
     <div class="meta">
-      <span class="badge">{domain.data.researchDepth}</span>
-      {domain.data.symptoms && domain.data.symptoms.map(s => (
+      <span class="badge">{protocol.data.researchDepth}</span>
+      {protocol.data.symptoms && protocol.data.symptoms.map(s => (
         <span class="badge">{s}</span>
       ))}
     </div>
 
     <Content />
 
-    {domain.data.related && domain.data.related.length > 0 && (
+    {protocol.data.related && protocol.data.related.length > 0 && (
       <div>
         <h3>Related</h3>
         <ul>
-          {domain.data.related.map(r => (
-            <li><a href={`/domains/${r}`}>{r}</a></li>
+          {protocol.data.related.map(r => (
+            <li><a href={`/protocols/${r}`}>{r}</a></li>
           ))}
         </ul>
       </div>

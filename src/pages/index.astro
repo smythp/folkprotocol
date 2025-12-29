@@ -2,8 +2,8 @@
 import { getCollection } from 'astro:content';
 import '../styles/global.css';
 
-const domains = await getCollection('domains');
-const herbs = await getCollection('herbs');
+const protocols = await getCollection('protocols');
+const materia = await getCollection('materia');
 ---
 
 <html lang="en">
@@ -17,25 +17,25 @@ const herbs = await getCollection('herbs');
     <h1>Folk Protocol</h1>
     <p class="summary">Evidence-aware herbalism. Traditional knowledge meets modern curiosity.</p>
 
-    <h2>Problem Domains</h2>
+    <h2>Protocols</h2>
     <ul class="item-list">
-      {domains.map(domain => (
+      {protocols.map(protocol => (
         <li>
-          <a href={`/domains/${domain.id}`} class="item-title">{domain.data.title}</a>
-          {domain.data.draft && <span class="badge badge-draft">draft</span>}
-          <div class="item-summary">{domain.data.summary}</div>
+          <a href={`/protocols/${protocol.id}`} class="item-title">{protocol.data.title}</a>
+          {protocol.data.draft && <span class="badge badge-draft">draft</span>}
+          <div class="item-summary">{protocol.data.summary}</div>
         </li>
       ))}
     </ul>
 
-    <h2>Herbs</h2>
+    <h2>Materia</h2>
     <ul class="item-list">
-      {herbs.map(herb => (
+      {materia.map(item => (
         <li>
-          <a href={`/herbs/${herb.id}`} class="item-title">{herb.data.name}</a>
-          {herb.data.latinName && <span class="item-latin"> {herb.data.latinName}</span>}
-          {herb.data.draft && <span class="badge badge-draft">draft</span>}
-          <div class="item-summary">{herb.data.summary}</div>
+          <a href={`/materia/${item.id}`} class="item-title">{item.data.name}</a>
+          {item.data.latinName && <span class="item-latin"> {item.data.latinName}</span>}
+          {item.data.draft && <span class="badge badge-draft">draft</span>}
+          <div class="item-summary">{item.data.summary}</div>
         </li>
       ))}
     </ul>
