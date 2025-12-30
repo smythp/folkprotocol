@@ -8,8 +8,8 @@ symptoms:
   - night cough
 researchDepth: moderate
 related:
-  - [[protocols/respiratory]]
-  - [[protocols/post-viral]]
+  - protocols/respiratory
+  - protocols/post-viral
 draft: false
 ---
 
