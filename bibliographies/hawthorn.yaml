@@ -1,0 +1,628 @@
+herb: Hawthorn (Crataegus spp.)
+scientific_names:
+  - Crataegus oxyacantha
+  - Crataegus monogyna
+  - Crataegus laevigata
+  - Crataegus pinnatifida
+
+sources:
+  # Systematic Reviews and Meta-Analyses
+
+  - id: pittler2003
+    type: meta-analysis
+    title: "Hawthorn extract for treating chronic heart failure: meta-analysis of randomized trials"
+    authors:
+      - Pittler MH
+      - Schmidt K
+      - Ernst E
+    journal: American Journal of Medicine
+    year: 2003
+    volume: 114
+    issue: 8
+    pages: 665-674
+    pubmed_id: 12798455
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12798455/
+    study_details:
+      trials_included: 13
+      trials_analyzed: 8
+      total_patients: 632
+      patient_population: "Chronic heart failure NYHA classes I-III"
+    key_findings:
+      - "Maximal workload increased by weighted mean of 7 Watts (95% CI: 3-11 Watts; P < 0.01; n=310)"
+      - "Pressure-heart rate product decreased by weighted mean of -20 (95% CI: -32 to -8; n=264)"
+      - "Dyspnea and fatigue improved significantly with hawthorn treatment vs placebo"
+      - "Adverse events infrequent, mild, and transient (nausea, dizziness, GI complaints)"
+    conclusion: "Significant benefit from hawthorn extract as adjunctive treatment for chronic heart failure"
+
+  - id: daniele2006
+    type: systematic-review
+    title: "Adverse-event profile of Crataegus spp.: a systematic review"
+    authors:
+      - Daniele C
+      - Mazzanti G
+      - Pittler MH
+      - Ernst E
+    journal: Drug Safety
+    year: 2006
+    volume: 29
+    issue: 6
+    pages: 523-535
+    pubmed_id: 16752934
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/16752934/
+    study_details:
+      trials_analyzed: 24
+      total_patients: 5577
+      duration_range: "3 to 24 weeks"
+      dose_range: "160-1800 mg daily"
+    adverse_events:
+      gastrointestinal: 24
+      dizziness_vertigo: 15
+      palpitations: 11
+      headache: 9
+      migraine: 8
+      total_events: 166
+      severity: "Mostly mild to moderate; 8 severe events with LI 132 extract"
+    conclusion: "Hawthorn is well tolerated; some severe adverse events reported suggest further studies needed"
+
+  - id: cloud2020
+    type: systematic-review
+    title: "The effect of hawthorn (Crataegus spp.) on blood pressure: A systematic review"
+    authors:
+      - Cloud AME
+      - Vilcins D
+      - McEwen BJ
+    journal: Advances in Integrative Medicine
+    year: 2020
+    volume: 7
+    issue: 3
+    pages: 167-175
+    key_findings:
+      - "Hawthorn can significantly lower blood pressure in people with mild hypertension"
+      - "Minimum treatment duration of 12 weeks required for effect"
+      - "Studies were few and too heterogeneous to allow meta-analysis"
+    databases_searched: "AMED, CINAHL, EMBASE, PubMed, Cochrane Central"
+    search_date: "Up to September 2016"
+
+  - id: szikora2025
+    type: meta-analysis
+    title: "Hawthorn (Crataegus spp.) Clinically Significantly Reduces Blood Pressure in Hypertension: A Meta-Analysis of Randomized Placebo-Controlled Clinical Trials"
+    authors:
+      - Szikora Z
+      - Mátyus RO
+      - Szabó BV
+      - Csupor D
+      - Tóth B
+    journal: Pharmaceuticals
+    year: 2025
+    volume: 18
+    issue: 7
+    pages: 1027
+    doi: 10.3390/ph18071027
+    url: https://www.mdpi.com/1424-8247/18/7/1027
+    prospero_id: CRD42024557170
+    registration_date: "June 13, 2024"
+    study_details:
+      trials_included: 6
+      total_patients: 428
+    key_findings:
+      - "Evaluated antihypertensive effects and safety of hawthorn in RCTs"
+      - "Demonstrated clinically significant blood pressure reduction"
+
+  - id: cui2024
+    type: comprehensive-review
+    title: "Traditional uses, phytochemistry, pharmacology, and safety concerns of hawthorn (Crataegus genus): A comprehensive review"
+    authors:
+      - Cui M
+      - Cheng L
+      - Zhou Z
+      - Zhu Z
+      - Liu Y
+      - Li C
+      - Liao B
+      - Fan M
+      - Duan B
+    journal: Journal of Ethnopharmacology
+    year: 2024
+    volume: 319
+    issue: "Pt 2"
+    pages: 117229
+    pubmed_id: 37788786
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/37788786/
+    review_scope: "1952-2023"
+    phytochemistry:
+      compounds_identified: 337
+      compound_classes:
+        - Flavonoids
+        - Lignans
+        - Fatty acids and organic acids
+        - Monoterpenoids and sesquiterpenoids
+        - Terpenoids and steroids
+    pharmacological_activities:
+      - Cardiovascular and cerebrovascular system effects
+      - Antitumor activity
+      - Hepatoprotective properties
+      - Antimicrobial effects
+      - Immunomodulatory functions
+      - Anti-inflammatory activities
+    safety: "Hawthorn lacks toxicity"
+
+  - id: holubarsch2018
+    type: evidence-based-review
+    title: "Benefit-Risk Assessment of Crataegus Extract WS 1442: An Evidence-Based Review"
+    authors:
+      - Holubarsch CJF
+      - Colucci WS
+      - Eha J
+    journal: American Journal of Cardiovascular Drugs
+    year: 2018
+    volume: 18
+    issue: 1
+    pages: 25-36
+    pubmed_id: 29080984
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/29080984/
+    study_details:
+      patients_exposed: ">1,300 in clinical trials"
+      includes: "2-year mortality study"
+      patient_population: "Heart failure NYHA classes II-III"
+    efficacy_outcomes:
+      - "Increased functional capacity"
+      - "Alleviated disabling symptoms"
+      - "Improved health-related quality of life"
+      - "Enhanced maximum workload vs placebo"
+      - "Reduced von Zerssen Complaints scores"
+      - "Improved Kansas City Cardiomyopathy Questionnaire metrics"
+    safety:
+      drug_interactions: "None observed"
+      specific_adverse_reactions: "None known to date"
+      profile: "Very favorable safety profile as monotherapy and add-on therapy"
+    conclusion: "Benefit-risk assessment for WS 1442 is positive"
+
+  # Randomized Controlled Trials
+
+  - id: zick2009
+    type: rct
+    title: "Hawthorn Extract Randomized Blinded Chronic Heart Failure (HERB CHF) trial"
+    acronym: HERB CHF
+    authors:
+      - Zick SM
+      - Vautaw BM
+      - Gillespie B
+      - Aaronson KD
+    journal: European Journal of Heart Failure
+    year: 2009
+    volume: 11
+    issue: 10
+    pages: 990-999
+    pubmed_id: 19789403
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19789403/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2754502/
+    study_design: "Randomized, double-blind, placebo-controlled"
+    sample_size: 120
+    patient_population: "Ages ≥18 years with NYHA class II-III heart failure on standard medical therapy"
+    dosing:
+      compound: Hawthorn extract
+      dose: "450 mg twice daily"
+      duration: "6 months"
+      comparison: Placebo
+    primary_outcome:
+      measure: "Change in 6-minute walk distance at 6 months"
+      result: "No significant difference (P = 0.61)"
+    secondary_outcomes:
+      - "Quality of life: no significant differences"
+      - "Functional capacity: no significant differences"
+      - "Neurohormones: no significant differences"
+      - "Oxidative stress: no significant differences"
+      - "Inflammation: no significant differences"
+      - "Modest improvement in LVEF favored hawthorn (P = 0.04)"
+    adverse_events: "More adverse events in hawthorn group (P = 0.02), though most non-cardiac"
+    conclusion: "Hawthorn provides no symptomatic or functional benefit when given with standard medical therapy"
+    note: "Negative trial; represents contemporary evidence-based heart failure therapy context"
+
+  - id: holubarsch2008
+    type: rct
+    title: "The efficacy and safety of Crataegus extract WS 1442 in patients with heart failure: the SPICE trial"
+    acronym: SPICE
+    full_name: "Survival and Prognosis: Investigation of Crataegus Extract WS 1442"
+    authors:
+      - Holubarsch CJF
+      - Colucci WS
+      - Meinertz T
+      - Gaus W
+      - Tendera M
+    journal: European Journal of Heart Failure
+    year: 2008
+    volume: 10
+    issue: 12
+    pages: 1255-1263
+    pubmed_id: 19019730
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19019730/
+    protocol_pmid: 11113721
+    study_design: "Randomized, double-blind, placebo-controlled, multicenter"
+    sample_size: 2681
+    patient_population: "NYHA class II or III heart failure with LVEF ≤35%"
+    treatment_arms:
+      active: 1338
+      placebo: 1343
+    dosing:
+      compound: "Crataegus Special Extract WS 1442"
+      dose: "900 mg/day"
+      standardization: "84.3 mg oligomeric procyanidins"
+      duration: "24 months"
+    primary_endpoint:
+      measure: "Time to first cardiac event"
+      ws1442_result: "620 days average; 27.9% event rate"
+      placebo_result: "606 days average; 28.9% event rate"
+      hazard_ratio: "0.95 (95% CI: 0.82-1.10)"
+      p_value: 0.476
+      significance: "Not statistically significant"
+    secondary_findings:
+      - "Cardiac mortality trended lower with WS 1442 (9.7% at month 24) but not significant (p=0.269)"
+      - "In patients with LVEF ≥25%, WS 1442 reduced sudden cardiac death by 39.7% (HR 0.59; p=0.025)"
+    safety: "Adverse events comparable in both groups"
+
+  - id: degenring2003
+    type: rct
+    title: "A randomised double blind placebo controlled clinical trial of a standardised extract of fresh Crataegus berries (Crataegisan) in the treatment of patients with congestive heart failure NYHA II"
+    authors:
+      - Degenring FH
+      - Suter A
+      - Weber M
+      - Saller R
+    journal: Phytomedicine
+    year: 2003
+    volume: 10
+    issue: 5
+    pages: 363-369
+    pubmed_id: 12833999
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12833999/
+    study_design: "Randomized, double-blind, placebo-controlled"
+    sample_size: 143
+    demographics:
+      men: 72
+      women: 71
+      mean_age: "64.8 ± 8.0 years"
+    treatment_arms:
+      active: 69
+      placebo: 74
+    dosing:
+      preparation: "Fresh Crataegus berry extract (Crataegisan)"
+      dose: "3 times 30 drops daily"
+      duration: "8 weeks"
+    primary_outcome:
+      measure: "Exercise tolerance via bicycle exercise testing"
+      result: "8.3-watt advantage over placebo (p = 0.045)"
+      clinical_effect: "Dyspnoea and fatigue occur at significantly higher wattage"
+    secondary_outcomes:
+      - "Blood pressure-heart rate product showed improvement favoring Crataegus (not statistically significant)"
+    tolerability: "Good tolerability and patient acceptance"
+    conclusion: "NYHA II patients may expect improvement in heart failure condition under long-term therapy"
+
+  - id: leuchtgens1993
+    type: rct
+    title: "Crataegus Special Extract WS 1442 in NYHA II heart failure: A placebo controlled randomized double-blind study"
+    authors:
+      - Leuchtgens H
+    journal: Fortschritte der Medizin
+    year: 1993
+    volume: 111
+    issue: "20-21"
+    pages: 352-354
+    pubmed_id: 8375791
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/8375791/
+    language: German
+    study_design: "Randomized, double-blind, placebo-controlled"
+    sample_size: 30
+    patient_population: "Stage NYHA II cardiac insufficiency"
+    dosing:
+      compound: "Crataegus Special Extract WS 1442"
+      dose: "1 capsule twice daily"
+      duration: "8 weeks"
+    primary_measures:
+      - "Pressure-rate product changes during bicycle ergometer testing (50W load)"
+      - "Subjective symptom improvement score from questionnaire"
+    key_findings:
+      - "Statistically significant advantage over placebo in PRP changes"
+      - "Improvements in heart rate"
+      - "Mild reductions in systolic and diastolic blood pressure in both groups"
+    adverse_events: "None in either group"
+
+  # Pharmacokinetic Studies
+
+  - id: chang2005
+    type: pharmacokinetic-study
+    title: "Comparison of the pharmacokinetics of hawthorn phenolics in extract versus individual pure compound"
+    authors:
+      - Chang Q
+      - Zuo Z
+      - Ho WKK
+      - Chow MSS
+    journal: Journal of Clinical Pharmacology
+    year: 2005
+    volume: 45
+    issue: 1
+    pages: 106-112
+    pubmed_id: 15601812
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/15601812/
+    animal_model: "Male Sprague-Dawley rats (n=5 per group)"
+    compounds_tested:
+      - "(-)-Epicatechin"
+      - "Chlorogenic acid"
+      - "Hyperoside"
+      - "Isoquercitrin"
+    administration_routes:
+      - Oral
+      - Intravenous
+    key_findings:
+      oral:
+        - "Only epicatechin was absorbed from either extract or pure compound"
+        - "Pharmacokinetics generally not significantly different between extract and pure compound"
+      intravenous:
+        - "Extract formulation produced higher plasma concentrations"
+        - "Larger area under curve"
+        - "Longer elimination half-life"
+        - "Smaller volume of distribution"
+        - "Lower total body clearance compared to pure compounds"
+      mechanism: "Co-occurring components in hawthorn phenolic extract affect systemic behavior"
+
+  - id: zuo2006
+    type: absorption-study
+    title: "Intestinal absorption of hawthorn flavonoids--in vitro, in situ and in vivo correlations"
+    authors:
+      - Zuo Z
+      - Zhang L
+      - Zhou L
+      - Chang Q
+      - Chow M
+    journal: Life Sciences
+    year: 2006
+    volume: 79
+    issue: 26
+    pages: 2455-2462
+    pubmed_id: 16989871
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/16989871/
+    study_methods:
+      in_vitro: "Caco-2 monolayer cell model"
+      in_situ: "Rat intestinal perfusion model"
+      in_vivo: "Pharmacokinetic studies in Sprague-Dawley rats"
+    compounds_studied:
+      - Hyperoside
+      - Isoquercitrin
+      - Epicatechin
+    key_findings:
+      permeability: "All three flavonoids have quite limited permeabilities"
+      absorption: "Epicatechin only compound detected in plasma after oral hawthorn extract"
+      metabolism: "EC and isoquercitrin showed more extensive metabolism in in situ and in vivo vs Caco-2"
+      interactions: "Co-occurring components in extract may not significantly affect intestinal absorption"
+
+  - id: xu2008
+    type: absorption-study
+    title: "Assessment of intestinal absorption of vitexin-2''-O-rhamnoside in hawthorn leaves flavonoids in rat using in situ and in vitro absorption models"
+    authors:
+      - Xu YA
+      - Fan G
+      - Gao S
+      - Hong Z
+    journal: Drug Development and Industrial Pharmacy
+    year: 2008
+    volume: 34
+    issue: 2
+    pages: 164-170
+    pubmed_id: 18302035
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18302035/
+    animal_model: Rat
+    compound: "Vitexin-2''-O-rhamnoside"
+    permeability_classification: "High permeability class drug (per BCS)"
+    effective_permeability:
+      value: "(2.18 ± 0.48) to (2.48 ± 0.33) × 10⁻⁵ cm/s"
+      location: "Rat jejunal perfusion"
+      concentration_dependent: "Range tested"
+    transport_mechanisms:
+      primary: "Passive diffusion dominates absorptive transport"
+      efflux: "Absorption and secretion mediated by P-glycoprotein (P-gp)"
+      regional_variation: "No significant differences across intestinal segments (duodenum, jejunum, ileum, colon)"
+      enhancement: "P-gp inhibitors (verapamil, digoxin) significantly enhanced absorption and permeability"
+
+  # Safety and Toxicology Studies
+
+  - id: yao2008
+    type: reproductive-toxicity-study
+    title: "A reproductive screening test of hawthorn"
+    authors:
+      - Yao M
+      - Ritchie HE
+      - Brown-Woodman PD
+    journal: Journal of Ethnopharmacology
+    year: 2008
+    volume: 118
+    issue: 1
+    pages: 127-132
+    pubmed_id: 18485639
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18485639/
+    animal_model: "Pregnant rats"
+    dosing:
+      dose_level: "56 times the human dose"
+      route: "Daily gavage"
+      test_periods:
+        - "GD 1-8 (early pregnancy)"
+        - "GD 8-15 (organogenesis period)"
+    evaluation:
+      in_vivo: "Fetuses examined GD 20 for external, internal, skeletal malformations"
+      in_vitro: "Rat embryos cultured with hawthorn extract for 26 hours"
+    results: "Hawthorn did not have adverse effect on embryonic development in vivo or in vitro"
+    interpretation: "Safety at recommended doses may be due to low bioavailability of some constituents when taken orally"
+    recommendation: "Pharmacokinetic studies recommended to verify safety in humans"
+    contraindication: "Clinically contraindicated in pregnancy (precautionary)"
+
+  # Official Monographs and Guidelines
+
+  - id: commission_e
+    type: monograph
+    title: "German Commission E Monograph - Crataegus leaf with flower"
+    issuing_body: "German Commission E"
+    year: 1978
+    approved_indication: "Mild congestive heart failure and nervous heart complaints"
+    specific_approval: "Decreasing cardiac output as described in functional stage II of NYHA"
+    approved_parts:
+      primary: "Leaf with flower (combined)"
+      note: "Limited scientific support for berry, flower, or leaves alone (as of 1993)"
+    reference: "Expanded Commission E Monographs, Blumenthal M, Goldberg A, Brinckmann J (eds.), Newton, MA: Integrative Medicine Communications; 2000"
+
+  - id: ema_assessment
+    type: regulatory-assessment
+    title: "Assessment report on Crataegus spp., folium cum flore"
+    issuing_body: "European Medicines Agency (EMA)"
+    url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-crataegus-spp-folium-cum-flore_en.pdf
+    note: "Contains therapeutic indications, dosing, safety data, standardization requirements"
+
+  - id: who_monograph
+    type: monograph
+    title: "WHO Monographs on Selected Medicinal Plants - Hawthorn"
+    issuing_body: "World Health Organization"
+    publication: "WHO Monographs on Selected Medicinal Plants, Volume 1"
+    year: 1999
+    publisher: "World Health Organization, Geneva, Switzerland"
+
+  - id: british_herbal
+    type: monograph
+    title: "British Herbal Pharmacopoeia - Hawthorn"
+    issuing_body: "British Herbal Pharmacopoeia"
+    year: 1983
+    parts_cited: "Berries only"
+    note: "Regarded as standard text for professional herbalists for many years"
+
+  - id: ahp_leaf_flower
+    type: monograph
+    title: "American Herbal Pharmacopoeia Monograph - Hawthorn Leaf and Flower"
+    issuing_body: "American Herbal Pharmacopoeia"
+    species:
+      - Crataegus monogyna
+      - Crataegus laevigata
+    url: https://herbal-ahp.org/online-ordering-hawthorn-leaf-flower/
+    note: "Most widely used botanical for supporting cardiovascular system"
+
+  - id: ahp_berry
+    type: monograph
+    title: "American Herbal Pharmacopoeia Monograph - Hawthorn Berry"
+    issuing_body: "American Herbal Pharmacopoeia"
+    url: https://herbal-ahp.org/online-ordering-hawthorn-berry/
+
+  - id: altmed_monograph
+    type: monograph
+    title: "Crataegus oxycantha (Hawthorn) Monograph"
+    journal: Alternative Medicine Review
+    year: 2010
+    volume: 15
+    issue: 2
+    pages: 164-167
+    pubmed_id: 20807002
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/20807002/
+    topics:
+      - Cardiovascular agent use
+      - Heart failure management
+      - Hypertension management
+      - Hyperlipidemia management through phytotherapy
+    note: "Full content requires journal access; PubMed record only shows metadata"
+
+# Standardization and Quality Control
+
+standardization:
+  primary_markers: "Oligomeric procyanidins (OPC)"
+  ws1442_specification:
+    extract_ratio: "4-6.6:1 (leaves with flowers)"
+    extraction_solvent: "Ethanol 45% (w/w)"
+    standardization_range: "17.3-20.1% oligomeric procyanidins"
+  li132_specification:
+    extraction_solvent: "Methanolic extract"
+    standardization: "2.2% flavonoids"
+  regulatory_standards:
+    european_pharmacopoeia: "Requires oligomeric procyanidins content standardization"
+    analytical_methods: "UHPLC with fluorimetric detection, ICH-Q2 validated"
+    procyanidin_range: "DP 2-10 plus polymer fraction"
+
+# Dosing Information from Clinical Studies
+
+clinical_dosing:
+  heart_failure:
+    ws1442:
+      - "450 mg twice daily (900 mg/day)"
+      - "900 mg/day for 24 months (SPICE trial)"
+    li132:
+      - "600 mg daily (3 dragées)"
+      - "160-1800 mg daily range across studies"
+  duration:
+    minimum_effective: "12 weeks for blood pressure effects"
+    typical_trials: "8 weeks to 6 months"
+    long_term_studies: "Up to 24 months"
+  onset: "Slow-acting herb requiring at least 4-8 weeks for full benefit"
+
+# Traditional Uses
+
+traditional_uses:
+  primary: "Cardiovascular support"
+  historical:
+    - Heart failure
+    - Hypertension
+    - Indigestion
+    - Dysmenorrhea
+    - Osteoporosis
+  parts_used:
+    - "Leaf with flower (most studied and approved)"
+    - "Berries (traditional use)"
+    - "Individual leaves or flowers (limited support)"
+
+# Summary of Evidence Quality
+
+evidence_summary:
+  systematic_reviews: 4
+  meta_analyses: 2
+  large_rcts: "2 (SPICE n=2681, HERB CHF n=120)"
+  total_patients_safety: ">7,000 across multiple studies"
+  regulatory_approvals:
+    - "German Commission E (1978)"
+    - "European Medicines Agency"
+  pharmacopoeias: "British, American, European, WHO"
+
+  key_conclusions:
+    efficacy:
+      - "Benefit demonstrated in older trials and meta-analyses for NYHA I-II heart failure"
+      - "Recent HERB CHF trial (2009) showed no benefit with contemporary standard therapy"
+      - "SPICE trial showed no significant benefit on primary endpoint but subgroup benefits"
+      - "Blood pressure reduction in mild hypertension with ≥12 weeks treatment"
+    safety:
+      - "Very favorable safety profile"
+      - "Well-tolerated in studies up to 24 months"
+      - "Adverse events infrequent, mild to moderate"
+      - "No drug interactions observed in trials"
+      - "No reproductive toxicity in animal studies at 56x human dose"
+    bioavailability:
+      - "Epicatechin absorbed in parent form (10.9% extract, 34.2% pure compound)"
+      - "Most flavonoids have limited oral bioavailability"
+      - "Vitexin-2''-O-rhamnoside: high permeability, passive diffusion, 3.57% bioavailability"
+      - "P-glycoprotein efflux affects absorption"
+    standardization:
+      - "Oligomeric procyanidins are primary active markers"
+      - "WS 1442 and LI 132 are well-characterized extracts"
+      - "European Pharmacopoeia requires OPC standardization"
+      - "337 chemical compounds identified as of 2023"
+
+# Research Gaps Identified
+
+research_gaps:
+  - "Efficacy in context of contemporary evidence-based heart failure therapy unclear"
+  - "Optimal effective dosage not fully established"
+  - "Correlation between traditional uses (indigestion, dysmenorrhea, osteoporosis) and modern pharmacology insufficient"
+  - "Need for more studies on blood pressure effects with adequate sample sizes"
+  - "Human pharmacokinetic studies needed to verify safety interpretations from animal studies"
+
+# Web Sources Referenced
+
+web_sources:
+  pubmed: https://pubmed.ncbi.nlm.nih.gov
+  mdpi_pharmaceuticals: https://www.mdpi.com/journal/pharmaceuticals
+  ema: https://www.ema.europa.eu
+  ahp: https://herbal-ahp.org
+  sciencedirect: https://www.sciencedirect.com
+
+compiled_by: "Claude Code Agent"
+compilation_date: "2026-01-08"
+last_updated: "2026-01-08"

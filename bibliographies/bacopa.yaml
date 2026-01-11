@@ -1,0 +1,426 @@
+herb: Bacopa monnieri
+common_names:
+- Brahmi
+- Waterhyssop
+- Thyme-leafed gratiola
+- Indian pennywort
+last_updated: '2026-01-08'
+summary:
+  total_sources: 18
+  systematic_reviews: 4
+  rcts: 11
+  clinical_trials: 1
+clinical_summary:
+  typical_dosing:
+    standardized_extract: 300-450 mg daily
+    bacosides_content: 20-50% bacosides
+    common_preparations:
+    - CDRI 08
+    - Bacumen
+    - KeenMind
+    duration: 12 weeks minimum for cognitive effects
+  safety_profile:
+    overall: Generally well-tolerated in clinical trials
+    common_adverse_effects:
+    - Gastrointestinal discomfort (mild)
+    - Nausea (occasional)
+    contraindications:
+    - May interact with cholinergic medications
+    - Caution with thyroid medications
+    special_populations:
+      children: Studied in ages 6-14 years for attention/hyperactivity
+      elderly: Multiple studies in older adults (>65 years)
+      pregnancy: Insufficient safety data
+  evidence_strength:
+    memory_enhancement: Moderate to strong (multiple RCTs, meta-analyses)
+    cognitive_function: Moderate (consistent improvements in several domains)
+    anxiety_reduction: Preliminary (some positive findings)
+    adhd_symptoms: Mixed results (some positive, requires more research)
+    neuroprotection: Promising preclinical data, limited human evidence
+  bioavailability_notes:
+  - Low oral bioavailability is a known limitation
+  - Various formulation strategies under investigation
+  - Fat-soluble compounds may benefit from administration with meals
+clinical_studies:
+- title: 'Effectiveness of Bacopa Monnieri (Brahmi) in the management of schizophrenia: a systematic review.'
+  authors:
+  - Ayilara G
+  - Owoyele B
+  year: 2025
+  pmid: '39498770'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39498770/
+  journal: Nutritional neuroscience
+  study_type: Systematic Review/Meta-Analysis
+  key_findings:
+  - Despite advancements in pharmacological treatments, many patients with schizophrenia continue to experience significant
+    impairments, and approximately one-third of these patients do not respond to antipsychotic drugs
+  publication_types:
+  - Journal Article
+  - Systematic Review
+- title: 'The Effects of a Bacopa monnieri Extract (Bacumen®) on Cognition, Stress, and Fatigue in Healthy Adults: A Randomized,
+    Double-Blind, Placebo-Controlled Trial.'
+  authors:
+  - Lopresti A
+  - Smith S
+  year: 2025
+  pmid: '41091332'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/41091332/
+  journal: Clinical drug investigation
+  study_type: RCT
+  sample_size: 50
+  dosing:
+  - '300'
+  duration: 12 weeks
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+- title: 'Bacopa monnieri: Preclinical and Clinical Evidence of Neuroactive Effects, Safety of Use and the Search for Improved
+    Bioavailability.'
+  authors:
+  - Gościniak A
+  - Stasiłowicz-Krzemień A
+  - Szeląg M
+  - Pawlak J
+  - Skiera I
+  - Kwiatkowska H
+  year: 2025
+  pmid: '40507208'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40507208/
+  journal: Nutrients
+  study_type: Review
+  publication_types:
+  - Journal Article
+  - Review
+- title: 'Evaluating the effects of Bacopa monnieri on cognitive performance and sleep quality of patients with mild cognitive
+    impairment: A triple-blinded, randomized, placebo-controlled trial.'
+  authors:
+  - Delfan M
+  - Kordestani-Moghaddam P
+  - Gholami M
+  - Kazemi K
+  - Mohammadi R
+  year: 2024
+  pmid: '38538390'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38538390/
+  journal: Explore (New York, N.Y.)
+  study_type: RCT
+  sample_size: 62
+  duration: 2 months
+  key_findings:
+  - 'RESULTS: The results showed no statistically significant difference between two groups in all three time-points in overall
+    cognitive performance score and its 6 parameters (P > 0'
+  - 004), it was significant difference between the study groups
+  - Also, in the field of verbal fluency at the end of the second month, this difference was significant (P = 0
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+- title: 'Bacopa monnieri in Patients with Parkinson''s Disease: A Pilot Study.'
+  authors:
+  - Santos A
+  - Souza M
+  - Amaral E
+  - Albuquerque E
+  - Bortoloti D
+  - Gasparotto Junior A
+  year: 2023
+  pmid: '36800346'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36800346/
+  journal: Journal of medicinal food
+  study_type: RCT
+  dosing:
+  - '450'
+  duration: 90 days
+  publication_types:
+  - Randomized Controlled Trial
+  - Journal Article
+- title: 'Effects of Bacopa monnieri (CDRI 08®) in a population of males exhibiting inattention and hyperactivity aged 6 to
+    14 years: A randomized, double-blind, placebo-controlled trial.'
+  authors:
+  - Kean J
+  - Downey L
+  - Sarris J
+  - Kaufman J
+  - Zangara A
+  - Stough C
+  year: 2022
+  pmid: '35041248'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35041248/
+  journal: 'Phytotherapy research : PTR'
+  study_type: RCT
+  key_findings:
+  - The current study investigated the efficacy of extract of Bacopa monnieri (BM; CDRI 08®) in reducing levels of inattention
+    and hyperactivity in young children
+  - No significant behavioural differences were noted between treatment groups
+  - 04) and increased speed of reaction time in those taking placebo (p =
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+- title: The Safety and Efficacy of Botanicals with Nootropic Effects.
+  authors:
+  - Roe A
+  - Venkataraman A
+  year: 2021
+  pmid: '34315377'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/34315377/
+  journal: Current neuropharmacology
+  study_type: Review
+  publication_types:
+  - Journal Article
+  - Review
+- title: Bacopa monnieri as augmentation therapy in the treatment of anhedonia, preclinical and clinical evaluation.
+  authors:
+  - Micheli L
+  - Spitoni S
+  - Di Cesare Mannelli L
+  - Bilia A
+  - Ghelardini C
+  - Pallanti S
+  year: 2020
+  pmid: '32236999'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32236999/
+  journal: 'Phytotherapy research : PTR'
+  study_type: RCT
+  sample_size: 42
+  dosing:
+  - '50'
+  duration: 1 weeks
+  key_findings:
+  - Several studies highlighted its efficacy in neuropsychiatric diseases but there is no evidence regarding anhedonia
+  - At the sucrose preference test (directly related to the ability for feeling pleasure) the extract treatment (100 and 200
+    mg kg-1 ) counteracted the reduction of sucrose intake induced by LPS (p <
+  - monnieri significantly reduced cytokines, cortisol, and artemin LPS-dependent alterations in plasma while increased the
+    brain-derived neurotrophic factor levels (p <
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+- title: A systematic review of the Ayurvedic medicinal herb Bacopa monnieri in child and adolescent populations.
+  authors:
+  - Kean J
+  - Downey L
+  - Stough C
+  year: 2016
+  pmid: '27912958'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/27912958/
+  journal: Complementary therapies in medicine
+  study_type: Systematic Review/Meta-Analysis
+  key_findings:
+  - Cognitive and behavioural outcomes were grouped into validated constructs and effect sizes were calculated for all significant
+    data to allow for direct comparisons
+  - The results demonstrated significant consistent improvements in the language behaviour cognitive domain and in a number
+    of the memory sub-domains
+  - Significant improvements were also seen in hyperactivity and attention-deficit domains
+  publication_types:
+  - Journal Article
+  - Systematic Review
+- title: 'A Randomized Controlled Trial Investigating the Effects of a Special Extract of Bacopa monnieri (CDRI 08) on Hyperactivity
+    and Inattention in Male Children and Adolescents: BACHI Study Protocol (ANZCTRN12612000827831).'
+  authors:
+  - Kean J
+  - Kaufman J
+  - Lomas J
+  - Goh A
+  - White D
+  - Simpson D
+  year: 2015
+  pmid: '26633481'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/26633481/
+  journal: Nutrients
+  study_type: RCT
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+  - Research Support, Non-U.S. Gov't
+- title: Meta-analysis of randomized controlled trials on cognitive effects of Bacopa monnieri extract.
+  authors:
+  - Kongkeaw C
+  - Dilokthornsakul P
+  - Thanarangsarit P
+  - Limpeanchob N
+  - Norman Scholfield C
+  year: 2014
+  pmid: '24252493'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24252493/
+  journal: Journal of ethnopharmacology
+  study_type: Systematic Review/Meta-Analysis
+  sample_size: 518
+  duration: 12 weeks
+  publication_types:
+  - Journal Article
+  - Meta-Analysis
+  - Review
+- title: An acute, double-blind, placebo-controlled cross-over study of 320 mg and 640 mg doses of Bacopa monnieri (CDRI 08)
+    on multitasking stress reactivity and mood.
+  authors:
+  - Benson S
+  - Downey L
+  - Stough C
+  - Wetherell M
+  - Zangara A
+  - Scholey A
+  year: 2014
+  pmid: '23788517'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/23788517/
+  journal: 'Phytotherapy research : PTR'
+  study_type: RCT
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+  - Research Support, Non-U.S. Gov't
+- title: An open-label study to elucidate the effects of standardized Bacopa monnieri extract in the management of symptoms
+    of attention-deficit hyperactivity disorder in children.
+  authors:
+  - Dave U
+  - Dingankar S
+  - Saxena V
+  - Joseph J
+  - Bethapudi B
+  - Agarwal A
+  year: 2014
+  pmid: '24682000'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24682000/
+  journal: Advances in mind-body medicine
+  study_type: Clinical Trial
+  key_findings:
+  - 'RESULTS: SBME significantly reduced the subtests scores of ADHD symptoms, except for social problems'
+  - It was observed that 74% of the children exhibited up to a 20% reduction, while 26% of children showed between a 21% and
+    a 50% reduction in the total subtests scores
+  publication_types:
+  - Clinical Trial
+  - Journal Article
+- title: An acute, double-blind, placebo-controlled crossover study of 320 mg and 640 mg doses of a special extract of Bacopa
+    monnieri (CDRI 08) on sustained cognitive performance.
+  authors:
+  - Downey L
+  - Kean J
+  - Nemeh F
+  - Lau A
+  - Poll A
+  - Gregory R
+  year: 2013
+  pmid: '23281132'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/23281132/
+  journal: 'Phytotherapy research : PTR'
+  study_type: RCT
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+  - Research Support, Non-U.S. Gov't
+- title: 'The cognitive-enhancing effects of Bacopa monnieri: a systematic review of randomized, controlled human clinical
+    trials.'
+  authors:
+  - Pase M
+  - Kean J
+  - Sarris J
+  - Neale C
+  - Scholey A
+  - Stough C
+  year: 2012
+  pmid: '22747190'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22747190/
+  journal: Journal of alternative and complementary medicine (New York, N.Y.)
+  study_type: Systematic Review/Meta-Analysis
+  dosing:
+  - '300'
+  duration: 12 weeks
+  key_findings:
+  - 'SUBJECTS: The subjects studied were adult humans without dementia or significant cognitive impairment'
+  - Across studies, Bacopa improved performance on 9 of 17 tests in the domain of memory free recall
+  publication_types:
+  - Journal Article
+  - Research Support, Non-U.S. Gov't
+  - Systematic Review
+- title: Does Bacopa monnieri improve memory performance in older persons? Results of a randomized, placebo-controlled, double-blind
+    trial.
+  authors:
+  - Morgan A
+  - Stevens J
+  year: 2010
+  pmid: '20590480'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/20590480/
+  journal: Journal of alternative and complementary medicine (New York, N.Y.)
+  study_type: RCT
+  dosing:
+  - '300'
+  duration: 12 weeks
+  key_findings:
+  - 'Bacopa significantly improved verbal learning, memory acquisition, and delayed recall as measured by the AVLT: trial
+    a4 (p = 0'
+  - CFT, MAC-Q, and TMT scores improved but group differences were not significant
+  - 'CONCLUSIONS: Bacopa significantly improved memory acquisition and retention in healthy older Australians'
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+- title: 'Effects of a standardized Bacopa monnieri extract on cognitive performance, anxiety, and depression in the elderly:
+    a randomized, double-blind, placebo-controlled trial.'
+  authors:
+  - Calabrese C
+  - Gregory W
+  - Leo M
+  - Kraemer D
+  - Bone K
+  - Oken B
+  year: 2008
+  pmid: '18611150'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18611150/
+  journal: Journal of alternative and complementary medicine (New York, N.Y.)
+  study_type: RCT
+  sample_size: 9
+  dosing:
+  - '300'
+  duration: 6 weeks
+  key_findings:
+  - Stroop results were similarly significant, with the Bacopa group improving and the placebo group unchanged
+  - CESD-10 depression scores, combined state plus trait anxiety scores, and heart rate decreased over time for the Bacopa
+    group but increased for the placebo group
+  publication_types:
+  - Journal Article
+  - Randomized Controlled Trial
+  - Research Support, N.I.H., Extramural
+- title: Chronic effects of Brahmi (Bacopa monnieri) on human memory.
+  authors:
+  - Roodenrys S
+  - Booth D
+  - Bulzomi S
+  - Phipps A
+  - Micallef C
+  - Smoker J
+  year: 2002
+  pmid: '12093601'
+  pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12093601/
+  journal: 'Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology'
+  study_type: RCT
+  key_findings:
+  - The results show a significant effect of the Brahmi on a test for the retention of new information
+  publication_types:
+  - Clinical Trial
+  - Journal Article
+  - Randomized Controlled Trial
+traditional_use_notes:
+- Used in Ayurvedic medicine for centuries as a memory enhancer and cognitive tonic
+- Traditional indications include improving intellect, consciousness, mental acuity, and longevity
+- Historically used for anxiety, epilepsy, and as a general tonic
+regulatory_notes:
+- No WHO monograph identified in PubMed search (may require direct WHO database access)
+- Not listed in Commission E monographs (German regulatory system)
+- Listed in Indian Pharmacopoeia
+- Considered dietary supplement in US (not FDA-approved drug)
+standardization_notes:
+- CDRI 08 is a commonly studied standardized extract
+- Typical standardization to bacosides (20-50%)
+- Active compounds include bacoside A and bacoside B
+- Quality varies significantly between commercial preparations
+search_methodology:
+  database: PubMed (NCBI)
+  search_date: '2026-01-08'
+  search_terms:
+  - Bacopa monnieri[Title] AND (randomized controlled trial OR systematic review OR meta-analysis)
+  - Bacopa monnieri AND (dosing OR bioavailability OR pharmacokinetics)
+  - Bacopa monnieri AND (safety OR adverse effects) AND clinical
+  - Bacopa monnieri extract AND standardized
+  inclusion_criteria:
+  - Clinical trials and RCTs using Bacopa monnieri extract
+  - Systematic reviews and meta-analyses
+  - Studies with standardized preparations
+  - Safety and dosing studies
+  total_articles_reviewed: 60
+  articles_included: 18

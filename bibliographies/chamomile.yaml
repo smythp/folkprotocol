@@ -1,0 +1,737 @@
+---
+herb: Chamomile (Matricaria chamomilla / Matricaria recutita)
+last_updated: 2026-01-08
+
+# Official Monographs and Pharmacopoeia
+official_monographs:
+  - source: European Medicines Agency (EMA)
+    type: European Union Herbal Monograph
+    title: "Matricariae flos (Chamomile flower)"
+    year: 2015
+    url: https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos
+    indications:
+      - Minor gastro-intestinal complaints (bloating, minor spasms)
+      - Relief of common cold symptoms
+      - Minor oral and throat ulcers/inflammations
+      - Skin irritation, sunburn, superficial wounds, minor boils
+      - Irritation of genital and anal areas (after medical evaluation)
+    age_recommendation: "Adults and adolescents (above 12 years); some preparations for children under 12"
+    contraindications:
+      - Allergy to Matricaria or Asteraceae family plants
+      - Severe cardiac/circulatory conditions (full baths)
+      - Open wounds, extensive skin damage, acute skin disease (baths)
+      - High fever, severe infections (baths)
+    adverse_effects: "Allergic reactions, sometimes severe, reported following contact with liquid preparations; frequency undetermined"
+    evidence_basis: "Traditional use (30+ years documented, ≥15 years in EU)"
+
+  - source: World Health Organization (WHO)
+    type: Monograph
+    title: "Flos chamomillae"
+    publication: "WHO Monographs on Selected Medicinal Plants"
+    year: 1999
+    publisher: "World Health Organization, Geneva"
+    content_notes: "Provides common names, botanical/microscopic descriptions, specifications for essential oil, purity tests (microbes, pesticides, heavy metals), uses supported by clinical data"
+    drug_definition: "Dry flowering heads of C. recutita (L.) Rauschert (synonyms: M. chamomilla, M. recutita L., M. suaveolens)"
+
+  - source: German Commission E
+    type: Monograph
+    title: "Matricariae flos"
+    preparation_method: "Pour 150 mL boiling water over heaped tablespoon (~3 g) flower heads, steep covered 5-10 min before straining"
+    main_constituents: "(-)-α-bisabolol or (-)-α-bisabololoxides A and B in essential oil"
+    recognition: "Listed in 26 country pharmacopeias (Germany, Belgium, France, UK); mentioned in ESCOP monographs"
+
+  - source: European Pharmacopoeia
+    type: Quality Standard
+    essential_oil_requirement: "≥4 mL/kg blue essential oil"
+
+  - source: US FDA
+    type: Recognition Status
+    status: "Generally Recognized as Safe (GRAS)"
+    category: "Spice, seasoning, or flavoring agent in food"
+
+  - source: Alternative Medicine Review
+    type: Monograph
+    title: "Matricaria chamomilla (German chamomile). Monograph"
+    journal: Alternative Medicine Review
+    year: 2008
+    volume: 13
+    issue: 1
+    pages: "58-62"
+    pmid: 18377104
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18377104/
+    notes: "Full abstract not available on PubMed"
+
+# Chemical Constituents and Standardization
+chemical_profile:
+  total_constituents: ">120 constituents identified"
+  essential_oil_content: "0.24-2.0% of dried flowers"
+  essential_oil_color: "Blue"
+  key_essential_oil_components:
+    - name: "(-)-α-bisabolol"
+      percentage: "Part of 50-65% of total volatile oil"
+    - name: "Chamazulene"
+      percentage: "Part of 50-65% of total volatile oil"
+    - name: "Bisabolone oxide A"
+    - name: "β-farnesene"
+
+  flavonoids:
+    total_content: "Up to 8% flavone glycosides"
+    key_compounds:
+      - name: "Apigenin 7-glucoside (apigenin-7-O-glucoside)"
+        role: "Primary marker compound for standardization"
+      - name: "Apigenin 7-glucoside 6'-acetyl derivative"
+      - name: "Luteolin glucosides"
+      - name: "Quercetin glycosides"
+
+  other_constituents:
+    - name: "Mucilage polysaccharides"
+      content: "Up to 10%"
+    - name: "Coumarins"
+      content: "~0.1%"
+    - name: "Choline"
+      content: "Up to 0.3%"
+    - name: "Phenolic acids"
+    - name: "Organic acids"
+    - name: "Terpenes"
+
+  standardization_marker: "Apigenin content (typically 1.2%)"
+
+# Systematic Reviews and Meta-Analyses
+systematic_reviews:
+  - title: "Therapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality: A systematic review and meta-analysis of randomized trials and quasi-randomized trials"
+    authors:
+      - Truong Hong Hieu
+      - Mahmoud Dibas
+      - Kadek Agus Surya Dila
+      - Nourin Ali Sherif
+      - Muhammad Usman Hashmi
+      - Mostafa Mahmoud
+      - Nguyen Thi Thuy Trang
+      - Lava Abdullah
+      - Thai Le Ba Nghia
+      - Mai Nhu Y
+      - Kenji Hirayama
+      - Nguyen Tien Huy
+    year: 2019
+    pmid: 31006899
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/31006899/
+    study_type: Systematic review and meta-analysis
+    trials_included: 12 RCTs
+    conditions: "State anxiety, generalized anxiety disorder, insomnia, sleep quality"
+    key_findings:
+      sleep_quality:
+        result: "Significant improvement"
+        statistic: "SMD -0.73 (95% CI [-1.23, -0.23], P < 0.005)"
+      generalized_anxiety_disorder:
+        scale: HAM-A
+        week_2: "MD = -1.43, P = 0.007"
+        week_4: "MD = -1.79, P = 0.0097"
+      state_anxiety: "Three trials showed no significant difference"
+      insomnia: "One trial found no change in insomnia severity"
+    safety: "Mild adverse events reported by only 3 RCTs; favorable safety profile"
+
+  - title: "Effects of chamomile (Matricaria chamomilla L.) on sleep: A systematic review and meta-analysis of clinical trials"
+    authors:
+      - Asma Kazemi
+      - Sara Shojaei-Zarghani
+      - Parham Eskandarzadeh
+      - Mohammad Hashem Hashempur
+    year: 2024
+    pmid: 39106912
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39106912/
+    study_type: Systematic review and meta-analysis
+    trials_included: 10 clinical trials
+    sample_size: 772 participants
+    key_findings:
+      psqi_score:
+        result: "Significant reduction"
+        statistic: "WMD: -1.88 (95% CI: -3.46, -0.31)"
+        studies: 5
+      sleep_onset: "Improved in 3 of 4 studies"
+      awakenings: "Improved number of awakenings in 2 of 3 studies"
+      no_effect_on:
+        - Sleep duration
+        - Sleep efficiency percentage
+        - Daytime functioning measures
+    safety: "No adverse events reported in any studies"
+
+  - title: "Anti-inflammatory effect of chamomile from randomized clinical trials: a systematic review and meta-analyses"
+    authors:
+      - Jason Valmy
+      - Stephanie Greenfield
+      - Satoru Shindo
+      - Toshihisa Kawai
+      - Jorge Cervantes
+      - Bo-Young Hong
+    year: 2025
+    pmid: 40665590
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40665590/
+    study_type: Systematic review and meta-analysis
+    trials_included: 11 RCTs
+    key_findings:
+      pain_reduction:
+        result: "Statistically significant"
+        statistic: "Pooled MD -0.61 (95% CI: -0.76 to -0.46)"
+      mucosal_inflammation:
+        result: "Statistically significant reduction"
+        statistic: "Pooled MD -0.70 (95% CI: -1.25 to -0.15)"
+      pain_bleeding_combined:
+        result: "Non-significant"
+        statistic: "Pooled MD -1.57"
+      antimicrobial:
+        result: "No significant effect"
+        statistic: "Pooled MD -3.90"
+    conclusion: "Low-risk antimicrobial and anti-inflammatory agent; warrants larger future studies"
+
+  - title: "The effect of chamomile consumption on glycemic markers in humans and animals: a systematic review and meta-analysis"
+    authors:
+      - Akhgarjand C
+      - Moludi J
+      - Ebrahimi-Mousavi S
+      - Bagheri A
+      - Ghorbani Bavani N
+      - Beigmohammadi MT
+      - Malekahmadi M
+    year: 2024
+    pmid: 38932814
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38932814/
+    study_type: Systematic review and meta-analysis
+    human_rcts: 4
+    animal_studies: 8
+    key_findings:
+      fasting_blood_glucose_humans:
+        result: "Favorable effect"
+        statistic: "SMD -0.65 (95% CI: -1.00 to -0.29, p<0.001)"
+      hba1c_humans:
+        result: "Favorable effect"
+        statistic: "SMD -0.90 (95% CI: -1.39 to -0.40, p<0.001)"
+      blood_glucose_animals:
+        statistic: "SMD -4.37 (95% CI: -5.76 to -2.98, p<0.001)"
+      dose_response_animals: "Each 100 mg/d increase lowered glucose ~54.35 mg/dL (p<0.001)"
+    safety: "No adverse events reported"
+
+  - title: "The Effect of Oral Chamomile on Anxiety: A Systematic Review of Clinical Trials"
+    authors:
+      - Sogand Saadatmand
+      - Foad Zohroudi
+      - Hadith Tangestani
+    year: 2024
+    journal: Clinical Nutrition Research
+    volume: 13
+    issue: 2
+    pages: "139-147"
+    pmid: 38784853
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38784853/
+    study_type: Systematic review
+    trials_included: 10 clinical trials
+    key_findings:
+      efficacy: "9 of 10 studies concluded chamomile effective in reducing anxiety"
+      mechanism: "Active compounds like apigenin may modulate hypothalamic-pituitary-adrenocortical axis"
+    conclusion: "Chamomile potentially has anxiolytic effect; effective and less dangerous compared to pharmaceutical anxiety treatments"
+
+  - title: "Efficacy of Chamomile in the Treatment of Premenstrual Syndrome: A Systematic Review"
+    authors:
+      - Zahra Bostani Khalesi
+      - Soheila Pirdadeh Beiranvand
+      - Mahshid Bokaie
+    year: 2019
+    journal: Journal of Pharmacopuncture
+    volume: 22
+    issue: 4
+    pages: "204-209"
+    pmid: 31970017
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/31970017/
+    study_type: Systematic review
+    trials_included: 8 RCTs
+    conclusion: "Chamomile is effective for the treatment of PMS"
+    mechanisms: "Anti-inflammatory, anti-spasmodic, anti-anxiety effects"
+
+  - title: "The Effect of Chamomile on Pain and Menstrual Bleeding in Primary Dysmenorrhea: A Systematic Review"
+    authors:
+      - Azin Niazi
+      - Maryam Moradi
+    year: 2021
+    pmid: 34222539
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/34222539/
+    study_type: Systematic review
+    trials_included: 7 clinical trials
+    sample_size: 1033 participants
+    study_breakdown:
+      pain_only: 2 studies
+      bleeding_only: 2 studies
+      both: 3 studies
+    conclusion: "Chamomile can be considered effective treatment for primary dysmenorrhea and reducing menstrual bleeding"
+    mechanism: "Ceases production of prostaglandins and leukotrienes"
+
+  - title: "Action of Matricaria recutita (chamomile) in the management of radiochemotherapy oral mucositis: A systematic review"
+    authors:
+      - Juliana Borges de Lima Dantas
+      - Tila Fortuna Costa Freire
+      - Ana Carla Barletta Sanches
+      - Erielma Lomba Dias Julião
+      - Alena Ribeiro Alves Peixoto Medrado
+      - Gabriela Botelho Martins
+    year: 2022
+    pmid: 35129844
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35129844/
+    study_type: Systematic review (PRISMA)
+    trials_included: 6 RCTs
+    sample_size: 492 patients total
+    key_findings: "Topical chamomile effective in prevention/treatment of oral mucositis in 4 of 6 studies"
+    dosing_formulations:
+      concentration_range: "1% to 2.5%"
+      frequency: "Single to 4 times daily"
+      application: Topical
+
+# Randomized Controlled Trials - Generalized Anxiety Disorder
+rct_generalized_anxiety:
+  - title: "Long-term chamomile (Matricaria chamomilla L.) treatment for generalized anxiety disorder: A randomized clinical trial"
+    authors:
+      - Jun J Mao
+      - Sharon X Xie
+      - John R Keefe
+      - Irene Soeller
+      - Qing S Li
+      - Jay D Amsterdam
+    year: 2016
+    pmid: 27912875
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/27912875/
+    study_design: "Two-phase RCT: open-label Phase 1, double-blind placebo-substitution Phase 2"
+    sample_size:
+      enrolled: 179
+      phase1_completers_responders: 93
+      phase2_randomized: 93
+      phase2_chamomile: 46
+      phase2_placebo: 47
+    dosing:
+      amount: "1500 mg daily"
+      formulation: "500 mg capsules, three times daily"
+      phase1_duration: "12 weeks"
+      phase2_duration: "26 weeks"
+    extract_standardization: "Pharmaceutical grade extract with HPLC fingerprinting confirming apigenin-7-glucoside and 7-methoxycoumarin"
+    primary_outcome: "Time to symptom relapse (Cox proportional hazards)"
+    key_findings:
+      relapse_rate_chamomile: "15.2% (7/46)"
+      relapse_rate_placebo: "25.5% (12/47)"
+      mean_time_to_relapse_chamomile: "11.4 ± 8.4 weeks"
+      mean_time_to_relapse_placebo: "6.3 ± 3.9 weeks"
+      hazard_ratio: "0.52 (95% CI, 0.20-1.33; P=0.16) - non-significant"
+    safety: "Both treatments had similar low adverse event rates"
+
+  - title: "A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder"
+    authors:
+      - Jay D Amsterdam
+      - Yimei Li
+      - Irene Soeller
+      - Kenneth Rockwell
+      - Jun James Mao
+      - Justine Shults
+    year: 2009
+    pmid: 19593179
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19593179/
+    study_design: "Randomized, double-blind, placebo-controlled trial"
+    sample_size:
+      enrolled: 61
+      randomized: 57
+      chamomile: 28
+      placebo: 29
+    duration: "8 weeks"
+    dosing_notes: "Specific mg/day not provided in abstract"
+    primary_outcome: "Hamilton Anxiety Rating (HAM-A) scores"
+    key_findings:
+      ham_a: "Significantly greater reduction in mean total HAM-A score during chamomile vs placebo (P = 0.047)"
+      response_50_percent: "Positive trend for 50%+ reduction in baseline HAM-A scores"
+    secondary_outcomes:
+      - Beck Anxiety Inventory
+      - Psychological Well Being scores
+      - Clinical Global Impression Severity scores
+    adverse_events: "One patient per group discontinued due to AEs; no significant difference in AE frequency (P = 0.417)"
+    significance: "First controlled clinical trial of chamomile extract for GAD; modest anxiolytic activity in mild-moderate GAD"
+
+  - title: "Short-term open-label chamomile (Matricaria chamomilla L.) therapy of moderate to severe generalized anxiety disorder"
+    authors:
+      - John R Keefe
+      - Jun J Mao
+      - Irene Soeller
+      - Qing S Li
+      - Jay D Amsterdam
+    year: 2016
+    pmid: 27912871
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/27912871/
+    study_design: "Open-label phase of RCT"
+    sample_size: 179 subjects with moderate-severe GAD
+    dosing: "1500 mg/day pharmaceutical-grade chamomile extract"
+    duration: "Up to 8 weeks"
+    key_findings:
+      response_rate: "58.1% met clinical response criteria"
+      gad7_change: "β=-8.4 (95% CI=-9.1 to -7.7) - significant improvement"
+      secondary_measures: "Statistically significant and clinically meaningful reductions across HAM-A, Beck Anxiety Inventory, Psychological General Well Being Index"
+    safety:
+      treatment_emergent_aes: "11.7% of subjects"
+      serious_aes: "None"
+      premature_discontinuation: "15.6%"
+    conclusion: "Meaningful symptom reduction comparable to conventional anxiolytic medications with favorable safety profile"
+
+# RCTs - Depression and Comorbid Conditions
+rct_depression:
+  - title: "Chamomile (Matricaria recutita) may provide antidepressant activity in anxious, depressed humans: an exploratory study"
+    authors:
+      - Jay D Amsterdam
+      - Justine Shults
+      - Irene Soeller
+      - Jun James Mao
+      - Kenneth Rockwell
+      - Andrew B Newberg
+    year: 2012
+    pmid: 22894890
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22894890/
+    study_design: "Randomized, double-blind, placebo-controlled trial"
+    sample_size:
+      total: 57
+      comorbid_depression: 19
+      past_depression: 16
+      anxiety_only: 22
+    dosing: "220 mg capsules of pharmaceutical-grade chamomile extract standardized to 1.2% apigenin"
+    extract_standardization: "1.2% apigenin content"
+    key_findings:
+      ham_d_overall: "Significant reduction vs placebo (P < .05)"
+      ham_d_comorbid_trend: "Clinically meaningful but nonsignificant trend for greater reduction in comorbid depression group (P = .062)"
+      ham_d_core_mood: "Significant improvement on core mood items vs placebo (P < .05)"
+    safety: "No adverse effects explicitly reported"
+
+# RCTs - Sleep and Insomnia
+rct_sleep:
+  - title: "Preliminary examination of the efficacy and safety of a standardized chamomile extract for chronic primary insomnia: a randomized placebo-controlled pilot study"
+    authors:
+      - Suzanna M Zick
+      - Benjamin D Wright
+      - Ananda Sen
+      - J Todd Arnedt
+    year: 2011
+    pmid: 21939549
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/21939549/
+    study_design: "Randomized, double-blind, placebo-controlled pilot trial"
+    sample_size: 34 patients (ages 18-65) with DSM-IV primary insomnia
+    dosing: "270 mg chamomile extract twice daily (540 mg/day total)"
+    duration: "28 days"
+    primary_outcomes: "No significant differences in total sleep time, sleep efficiency, sleep latency, wake after sleep onset, sleep quality, number of awakenings"
+    secondary_outcomes: "Modest advantage on daytime functioning (not statistically significant); small-to-moderate effect sizes; moderate favorable effects on sleep latency and fatigue severity"
+    safety: "No differences in adverse events between chamomile and placebo groups"
+
+  - title: "The effects of chamomile extract on sleep quality among elderly people: A clinical trial"
+    authors:
+      - Mohsen Adib-Hajbaghery
+      - Seyedeh Nesa Mousavi
+    year: 2017
+    pmid: 29154054
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/29154054/
+    study_design: "Single-blind randomized controlled trial"
+    sample_size: 60 elderly participants (aged 60+)
+    dosing: "200 mg chamomile extract capsules twice daily (400 mg/day)"
+    duration: "28 consecutive days"
+    measurement_tool: Pittsburgh Sleep Quality Index
+    measurement_timepoints:
+      - Baseline
+      - 2 weeks post-start
+      - Immediately post-intervention
+      - 2 weeks post-completion
+    key_findings: "After intervention, sleep quality in treatment group significantly better than controls (P<0.05)"
+    safety: "Can be used as safe modality for promoting elderly sleep; no detailed adverse events reported"
+
+# RCTs - Women's Health
+rct_womens_health:
+  - title: "Efficacy and safety of Matricaria chamomilla intervention in managing menopausal symptoms: a triple-blind clinical trial"
+    authors:
+      - Farideh Mohsenzadeh-Ledari
+      - Mouloud Agajani Delavar
+      - Ali Akbar Moghadamnia
+      - Soraya Khafri
+      - Reza Bekhradi
+      - Fereshteh Behmanesh
+      - Shahla Yazdani
+    year: 2025
+    pmid: 39836709
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39836709/
+    study_design: "Triple-blind randomized controlled trial"
+    sample_size: 80 postmenopausal women (ages 47-62)
+    dosing:
+      formulation: "100 mg capsules containing 1.2% apigenin"
+      regimen: "4 capsules daily (400 mg/day)"
+      duration: "12 weeks"
+    key_findings:
+      overall_symptom_reduction: "-10.36 points (P < 0.001)"
+      vasomotor_symptoms: "-2.25 points (P < 0.001)"
+      psychological_symptoms: "-3.74 points (P < 0.001)"
+      locomotor_symptoms: "-2.70 points (P < 0.001)"
+      urological_symptoms: "-1.89 points (P < 0.001)"
+    safety: "Two participants experienced adverse effects (mouth sores, skin spots, itching) leading to discontinuation; use warrants caution due to associated side effects"
+
+  - title: "Effectiveness of Matricaria chamomilla (chamomile) extract on pain control of cyclic mastalgia: a double-blind randomised controlled trial"
+    authors:
+      - N Saghafi
+      - H Rhkhshandeh
+      - N Pourmoghadam
+      - L Pourali
+      - M Ghazanfarpour
+      - A Behrooznia
+      - F Vafisani
+    year: 2018
+    pmid: 29072514
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/29072514/
+    study_design: "Double-blind randomized controlled trial"
+    sample_size:
+      total: 60 patients
+      chamomile: 30
+      placebo: 30
+    dosing: "5 drops liquid extract three times daily for 2 consecutive months"
+    measurement_tools:
+      - Visual Analogue Scale (VAS)
+      - Breast Pain Chart (BPC) at 8 weeks
+    key_findings:
+      chamomile_decline: "p<0.0001"
+      placebo_decline: "p=0.048"
+      between_group_difference: "p=0.007"
+    safety: "Well-tolerated, secure and effective; no adverse events detailed"
+
+  - title: "Comparison of the effects of Matricaria chamomila (Chamomile) extract and mefenamic acid on the intensity of premenstrual syndrome"
+    authors:
+      - Farangis Sharifi
+      - Masoumeh Simbar
+      - Faraz Mojab
+      - Hamid Alavi Majd
+    year: 2014
+    pmid: 24439651
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24439651/
+    study_design: "Randomized controlled trial, double-blind"
+    sample_size: 90 students in dormitories (Iran)
+    dosing:
+      chamomile: "100 mg capsules, 3x daily"
+      mefenamic_acid_comparison: "250 mg, 3x daily"
+      duration: "Two cycles"
+    key_findings:
+      emotional_symptom_reduction_chamomile: "30.1 ± 26.6% and 33.4 ± 25.3% after two cycles"
+      emotional_symptom_reduction_mefenamic_acid: "11.6 ± 25.7% and 10.7 ± 26.8%"
+      emotional_symptoms_p_value: "p < 0.001"
+      physical_symptoms: "No significant difference (p > 0.05)"
+    safety: "No adverse effects reported"
+
+  - title: "Topical use of Matricaria recutita L (Chamomile) Oil in the Treatment of Monosymptomatic Enuresis in Children: A Double-Blind Randomized Controlled Trial"
+    authors:
+      - Hosein Sharifi
+      - Mohammad Bagher Minaie
+      - Mohammad Javad Qasemzadeh
+      - Nematollah Ataei
+      - Mohammad Gharehbeglou
+      - Mojtaba Heydari
+    year: 2017
+    pmid: 26427789
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/26427789/
+    study_design: "Double-blind randomized placebo-controlled trial, parallel design"
+    sample_size: 80 patients with monosymptomatic nocturnal or daytime enuresis
+    dosing: "Topical chamomile oil application for 6 weeks"
+    key_findings: "Mean frequency of enuresis lower in intervention group at first (P < .001), second (P = .03), and third 2 weeks (P < .001)"
+    safety: "No report of any adverse event in study groups"
+
+# RCTs - Other Conditions
+rct_other:
+  - title: "Comparative Study of the Effects of Chamomile (Matricaria Chamomilla L.) and Cabergoline on Idiopathic Hyperprolactinemia: A Pilot Randomized Controlled Trial"
+    authors:
+      - Marya Kabiri
+      - Mohammad Kamalinejad
+      - Soodabeh Bioos
+      - Mamak Shariat
+      - Farnaz Sohrabvand
+    year: 2019
+    pmid: 32641968
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32641968/
+    study_design: "Randomized controlled clinical trial"
+    sample_size: 56 women with idiopathic hyperprolactinemia
+    dosing: "5 mL chamomile syrup twice daily"
+    duration: "4 weeks"
+    primary_outcome: "Serum prolactin levels at baseline and end of 4 weeks"
+    key_findings: "Prolactin reduction in chamomile group statistically significant (p <0.0001); cabergoline demonstrated greater reduction (p <0.0001 between groups)"
+    safety: "Adverse events recorded; no safety concerns highlighted in abstract"
+
+# Comprehensive Reviews and Chemical Studies
+comprehensive_reviews:
+  - title: "Chamomile (Matricaria chamomilla L.): A Review of Ethnomedicinal Use, Phytochemistry and Pharmacological Uses"
+    authors:
+      - Amina El Mihyaoui
+      - Joaquim C G Esteves da Silva
+      - Saoulajan Charfi
+      - María Emilia Candela Castillo
+      - Ahmed Lamarti
+      - Marino B Arnao
+    year: 2022
+    pmid: 35454969
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35454969/
+    publication: MDPI / PubMed Central
+    constituents: ">120 constituents; terpenoids (α-bisabolol, bisabolone oxide A, chamazulene, β-farnesene); phenolic compounds (phenolic acids, flavonoids, coumarins)"
+    pharmacological_properties:
+      - Antioxidant
+      - Antibacterial
+      - Antifungal
+      - Anti-parasitic
+      - Insecticidal
+      - Anti-diabetic
+      - Anti-cancer
+      - Anti-inflammatory
+
+  - title: "Chamomile: A Review of Its Traditional Uses, Chemical Constituents, Pharmacological Activities and Quality Control Studies"
+    authors:
+      - Yun-Lei Dai
+      - Ying Li
+      - Qi Wang
+      - Feng-Jv Niu
+      - Kun-Wei Li
+      - Yun-Yu Wang
+      - Jian Wang
+      - Chang-Zheng Zhou
+      - Li-Na Gao
+    year: 2022
+    pmid: 36615326
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36615326/
+    publication: PubMed Central
+    chemical_classes:
+      - Flavonoids
+      - Coumarins
+      - Volatile oils
+      - Terpenes
+      - Organic acids
+      - Polysaccharides
+    pharmacological_activities: "Anticancer, anti-infective, anti-inflammatory, antithrombotic, antioxidant, hypolipidaemic, hypoglycaemic, antihypertensive, antidepressant, neuroprotective"
+    recommendation: "More toxicity tests needed to confirm safety; further research needed for concrete scientific evidence"
+
+  - title: "Chamomile"
+    source: "Drugs and Lactation Database (LactMed®)"
+    year: 2021
+    last_updated: "February 15, 2021"
+    pmid: 30000867
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/30000867/
+    publication_type: Review
+    fda_status: "Generally Recognized as Safe (GRAS) for food use"
+    use_in_infants: "Safely and effectively used alone and with other herbs in infants for colic, diarrhea, other conditions"
+    safety_concerns:
+      contamination: "Clostridium botulinum spores found in some loose-leaf chamomile teas in health food stores"
+      topical_sensitization: "Two women developed contact dermatitis of nipples/areolas after applying Kamillosan ointment for cracked nipples"
+      cross_reactivity: "Possible cross-reactivity with other Asteraceae family members (echinacea, feverfew, milk thistle)"
+      quality_control: "Differences often found between labeled and actual ingredients/amounts in dietary supplements"
+
+# Dosing Summary Across Studies
+dosing_summary:
+  generalized_anxiety_disorder:
+    typical_dose: "1500 mg/day"
+    formulation: "500 mg capsules, 3x daily"
+    standardization: "Pharmaceutical-grade extract; 1.2% apigenin; HPLC fingerprinting"
+    duration: "8-38 weeks in clinical trials"
+
+  sleep_disorders:
+    range: "270-400 mg/day"
+    elderly_dose: "200 mg twice daily (400 mg/day)"
+    insomnia_dose: "270 mg twice daily (540 mg/day)"
+    duration: "28 days typical"
+
+  menopausal_symptoms:
+    dose: "400 mg/day"
+    formulation: "100 mg capsules with 1.2% apigenin, 4x daily"
+    duration: "12 weeks"
+
+  premenstrual_syndrome:
+    dose: "100 mg capsules, 3x daily (300 mg/day)"
+    duration: "2 menstrual cycles"
+
+  topical_applications:
+    oral_mucositis:
+      concentration: "1-2.5%"
+      frequency: "Single to 4x daily"
+    enuresis:
+      formulation: "Chamomile oil, topical"
+      duration: "6 weeks"
+    mastalgia:
+      formulation: "5 drops liquid extract, 3x daily"
+      duration: "2 months"
+
+  traditional_tea_preparation:
+    amount: "~3 g (heaped tablespoon) flower heads"
+    water: "150 mL boiling water"
+    steeping: "5-10 minutes, covered, strain before drinking"
+    source: "German Commission E"
+
+# Safety Profile Summary
+safety_profile:
+  general_safety: "Generally recognized as safe (GRAS) by FDA; low intrinsic toxicity"
+
+  adverse_effects_documented:
+    allergic_reactions:
+      severity: "Can be severe in sensitized individuals"
+      frequency: "Undetermined"
+      manifestations:
+        - Contact dermatitis
+        - Anaphylaxis (rare, in sensitized individuals)
+        - Mouth sores
+        - Skin spots
+        - Itching
+      note: "More common with topical preparations on moist internal surfaces"
+
+    cross_reactivity:
+      family: Asteraceae/Compositae
+      related_plants:
+        - Echinacea
+        - Feverfew
+        - Milk thistle
+        - Ragweed
+        - Chrysanthemums
+        - Marigolds
+
+    contamination_risk:
+      pathogen: "Clostridium botulinum spores"
+      source: "Some loose-leaf teas from health food stores"
+
+  contraindications:
+    - Allergy to Matricaria or Asteraceae family
+    - Severe cardiac/circulatory conditions (full baths)
+    - Open wounds, extensive skin damage (baths)
+    - Acute skin disease, high fever, severe infections (baths)
+
+  pregnancy_lactation:
+    lactation_database: "Safely used in infants with/without other herbs for colic, diarrhea"
+    topical_caution: "Risk of nipple/areola contact dermatitis in nursing mothers"
+
+  clinical_trial_safety:
+    generalized_adverse_event_rate: "11.7% treatment-emergent AEs in moderate-severe GAD (1500 mg/day)"
+    serious_adverse_events: "None reported in major GAD trials"
+    discontinuation_due_to_aes: "1-2 patients per study group typically"
+    comparative_safety: "Similar or lower AE rates compared to placebo in most trials"
+
+  quality_concerns: "Labeled ingredients often differ from actual content in supplements"
+
+# Pharmacokinetics and Bioavailability
+pharmacokinetics:
+  note: "Limited comprehensive pharmacokinetic data available in literature"
+  apigenin_properties:
+    description: "Primary flavonoid marker compound"
+    toxicity: "Low intrinsic toxicity"
+    therapeutic_interest: "Health-promoting agent"
+    reference_pmid: 27766890
+  glycemic_dose_response:
+    finding: "Each 100 mg/day increase in extract lowered blood glucose ~54.35 mg/dL in animal studies (p<0.001)"
+    source_pmid: 38932814
+  recommendation: "Further research needed on human ADME properties"
+
+# Notes and Caveats
+notes:
+  - "Standardization to 1.2% apigenin is common in clinical trials"
+  - "Pharmaceutical-grade extracts with HPLC fingerprinting provide highest quality control"
+  - "European Pharmacopoeia requires ≥4 mL/kg blue essential oil"
+  - "Essential oil content varies widely (0.24-2.0%) based on growing conditions and processing"
+  - "Over 120 chemical constituents identified; synergistic effects likely"
+  - "Traditional use basis for EMA approval; more RCT data needed for some indications"
+  - "Quality control remains concern in commercial dietary supplements"
+  - "Allergic reactions possible, especially in Asteraceae-sensitive individuals"
+  - "Topical preparations carry higher sensitization risk than oral preparations"
+  - "Most clinical trials show favorable safety profile comparable to placebo"
+  - "Dose ranges vary significantly by indication: 270-1500 mg/day oral extracts"
+  - "Traditional tea preparation (~3g flowers) differs from standardized extract dosing"
+  - "More toxicity and long-term safety studies recommended"
+  - "Mechanism of action includes anti-inflammatory, anti-spasmodic, anxiolytic, and hormonal modulation effects"
+  - "Listed in 26 country pharmacopeias; WHO, Commission E, and ESCOP monographs available"

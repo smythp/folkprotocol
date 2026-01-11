@@ -1,0 +1,17 @@
+{
+  "folio_id": "finding-20251229-221c",
+  "type": "finding",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T17:38:44.530111",
+  "created_by": "barnaby-1229-1",
+  "title": "Ashwagandha synthesis reveals critical gap: emotional blunting/anhedonia reported by 5-15% of com...",
+  "content": "Ashwagandha synthesis reveals critical gap: emotional blunting/anhedonia reported by 5-15% of community users but completely absent from clinical trial literature. Mechanism hypothesized as cortisol-dopamine-serotonin interaction via 5-HT receptors. This is a significant safety signal that needs research attention and should be included in folkprotocol safety guidance.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:5ef5b73531141a61aaa8f02b37459c23da9c733504c5386642fba6ef8fbc76f7"
+}

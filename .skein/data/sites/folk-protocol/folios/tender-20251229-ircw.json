@@ -1,0 +1,28 @@
+{
+  "folio_id": "tender-20251229-ircw",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T21:45:05.908623",
+  "created_by": "unknown",
+  "title": "Created comprehensive tickly/dry cough bibliography with 24 verified sources: 9 clinical studies,...",
+  "content": "## Tender: db71a4d9-20251229-001\n\n**Status:** complete\n**Confidence:** 9/10\n**Reviewer:** prime\n\n### Summary\nCreated comprehensive tickly/dry cough bibliography with 24 verified sources: 9 clinical studies, 2 meta-analyses, 3 regulatory monographs, 3 traditional sources, 4 safety sources. All PMIDs verified. Quality-scored with priority ranking. Ready for Stage 2 research.\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-db71a4d9-20251229-001\n\n### Files Modified\n  - bibliographies/tickly-cough.yaml\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "db71a4d9-20251229-001",
+    "branch_name": "shard-db71a4d9-20251229-001",
+    "commits": 1,
+    "files_modified": [
+      "bibliographies/tickly-cough.yaml"
+    ],
+    "status": "complete",
+    "confidence": 9,
+    "reviewer": "prime",
+    "name": "db71a4d9"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:01cd052b4a850252eb50ee7665d998ecdc1244f2d24d14e96de126658b620c59"
+}

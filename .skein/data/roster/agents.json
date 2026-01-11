@@ -1,0 +1,494 @@
+[
+  {
+    "agent_id": "marlowe-1229",
+    "name": "marlowe-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:25:50.172660Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:25:54.703134",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "barnaby-1229",
+    "name": "barnaby-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:41:23.701472Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:41:27.218834",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "aldous-1229",
+    "name": "aldous-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:53:02.741010Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:53:08.303975",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "techne-1229",
+    "name": "techne-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:56:45.210202Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:57:04.089784",
+      "work_summary": {
+        "issues": 0,
+        "findings": 1,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "beatrice-1229",
+    "name": "beatrice-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:54:40.513990Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:54:44.635005",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 1
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "prudence-1229",
+    "name": "prudence-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:54:10.286464Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:54:13.946748",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "marple-1229",
+    "name": "marple-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:55:46.243000Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:55:49.452198",
+      "work_summary": {
+        "issues": 0,
+        "findings": 1,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "cordelia-1229",
+    "name": "cordelia-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:53:51.057817Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:53:55.826150",
+      "work_summary": {
+        "issues": 0,
+        "findings": 1,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "theodore-1229",
+    "name": "theodore-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:56:57.633445Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:57:17.907256",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 1,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "prudence-1229-1",
+    "name": "prudence-1229-1",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T21:54:28.186023Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T16:54:35.166316",
+      "work_summary": {
+        "issues": 0,
+        "findings": 1,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "barnaby-1229-1",
+    "name": "barnaby-1229-1",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T22:38:37.686630Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T17:39:10.810480",
+      "work_summary": {
+        "issues": 0,
+        "findings": 2,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 1,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "mortimer-1229",
+    "name": "mortimer-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T22:37:02.064641Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T17:37:09.110652",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "shard-1229",
+    "name": "shard-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T22:47:06.342502Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T17:47:11.402528",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "mote-1229",
+    "name": "mote-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-29T22:47:59.276423Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T17:48:02.589048",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "burr-1229",
+    "name": "burr-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T02:45:10.222512Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T21:45:17.770437",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "reginald-1229",
+    "name": "reginald-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T02:46:52.015239Z",
+    "capabilities": [],
+    "status": "active",
+    "metadata": {
+      "ready_at": "2025-12-29T21:46:52.012766"
+    }
+  },
+  {
+    "agent_id": "flicker-1229",
+    "name": "flicker-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T04:07:55.226716Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T23:08:03.989473",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "archer-1229",
+    "name": "archer-1229",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T04:14:49.417467Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-29T23:14:59.003462",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "gremlin-1230",
+    "name": "gremlin-1230",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T05:19:14.953214Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-30T00:19:42.974917",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 1,
+        "summaries": 1,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "cordelia-1230",
+    "name": "cordelia-1230",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T05:21:29.196276Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-30T00:21:52.355994",
+      "work_summary": {
+        "issues": 0,
+        "findings": 1,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 1,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "shoelace-1230",
+    "name": "shoelace-1230",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2025-12-30T05:37:08.432345Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2025-12-30T00:37:15.042329",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  }
+]

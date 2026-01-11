@@ -1,0 +1,678 @@
+---
+title: "Feverfew (Tanacetum parthenium) Clinical Bibliography"
+herb: "Feverfew"
+scientific_name: "Tanacetum parthenium (L.) Schultz-Bip."
+date_compiled: "2026-01-08"
+description: "Comprehensive bibliography of clinical studies, systematic reviews, RCTs, and authoritative monographs for feverfew, focusing on dosing, bioavailability, safety profiles, and standardized extracts"
+
+# SYSTEMATIC REVIEWS AND META-ANALYSES
+
+systematic_reviews:
+  - id: "shenoy_2025"
+    title: "Systematic review and meta-analysis of Tanacetum parthenium: evaluating its efficacy in migraine relief"
+    authors:
+      - "Shenoy RR"
+      - "Khanna S"
+      - "Krishnadas N"
+    journal: "Natural Product Research"
+    year: 2025
+    publication_date: "2025-12-21"
+    doi: "10.1080/14786419.2025.2602038"
+    pubmed_url: "https://www.tandfonline.com/doi/full/10.1080/14786419.2025.2602038"
+    study_type: "Systematic review and meta-analysis"
+    databases_searched:
+      - "PubMed"
+      - "EMBASE"
+      - "Google Scholar"
+    search_period: "Up to August 2025"
+    studies_included: 9
+    study_design: "Double-masked, placebo-controlled RCTs"
+    total_participants: 899
+    key_findings:
+      - finding: "Feverfew significantly reduced migraine attack frequency"
+        statistic: "IV: −1.11 [−1.23 to −0.99]"
+        p_value: "< 0.00001"
+        heterogeneity: "I² = 28%"
+      - finding: "Feverfew significantly reduced migraine duration"
+        statistic: "IV: −4.43 [−7.63, −1.23] at 95% CI"
+        p_value: "0.007"
+        heterogeneity: "I² = 98%"
+    notes: "Most recent meta-analysis showing significant benefits for migraine frequency and duration"
+
+  - id: "lopresti_2020"
+    title: "Herbal treatments for migraine: A systematic review of randomised-controlled studies"
+    authors:
+      - "Lopresti AL"
+      - "Smith SJ"
+      - "Drummond PD"
+    affiliations:
+      - "Clinical Research Australia, Perth, Western Australia"
+      - "Murdoch University, Perth, Western Australia"
+    journal: "Phytotherapy Research"
+    year: 2020
+    month: "October"
+    volume: 34
+    issue: 10
+    pages: "2493-2517"
+    pmid: 32310327
+    doi: "10.1002/ptr.6701"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/32310327/"
+    study_type: "Systematic review of RCTs"
+    methodology:
+      - "PRISMA guidelines"
+      - "Cochrane Collaboration's tool for assessing risk of bias"
+    databases_searched:
+      - "Medline (PubMed)"
+      - "Cochrane Library"
+      - "Scopus"
+      - "CINAHL"
+    studies_included: 19
+    herbs_evaluated:
+      - "Feverfew"
+      - "Butterbur"
+      - "Curcumin"
+      - "Menthol/peppermint oil"
+      - "Coriander"
+      - "Citron"
+      - "Damask rose"
+      - "Chamomile"
+      - "Lavender"
+    key_findings:
+      - finding: "Findings on the efficacy of feverfew were mixed"
+      - finding: "Positive, albeit limited evidence for butterbur"
+    notes: "Comprehensive systematic review of multiple herbal treatments for migraine"
+
+  - id: "wider_2015"
+    title: "Feverfew for preventing migraine"
+    authors:
+      - "Wider B"
+      - "Pittler MH"
+      - "Ernst E"
+    affiliations:
+      - "Institute of Health Research, University of Exeter Medical School, South Cloisters, room 1.36, St Luke's Campus, Exeter, UK, EX1 2LU"
+    journal: "Cochrane Database of Systematic Reviews"
+    year: 2015
+    publication_date: "2015-04-20"
+    issue: 4
+    cochrane_id: "CD002286"
+    pmid: 25892430
+    doi: "10.1002/14651858.CD002286.pub3"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25892430/"
+    study_type: "Cochrane systematic review"
+    methodology:
+      - "Oxford Quality Scale (Jadad criteria)"
+      - "Cochrane risk-of-bias tool"
+    databases_searched:
+      - "CENTRAL"
+      - "MEDLINE"
+      - "EMBASE"
+      - "AMED"
+    search_period: "Through January 2015"
+    studies_included: 6
+    total_participants: 561
+    key_findings:
+      - finding: "Feverfew reduced migraine frequency compared to placebo"
+        statistic: "0.6 headaches per month reduction"
+        note: "Based on most recent rigorous trial (n=218)"
+      - finding: "Migraine frequency reduced from 4.8 to 2.9 attacks/month (feverfew group, reduction of 1.9)"
+      - finding: "Migraine frequency reduced from 4.8 to 3.5 attacks/month (placebo group, reduction of 1.3)"
+      - finding: "No significant differences for secondary outcomes (intensity, duration, nausea, vomiting)"
+    quality_assessment: "Low quality evidence"
+    notes: "Pooled analysis not possible due to lack of common outcome measures and heterogeneity. Needs confirmation in larger rigorous trials with stable feverfew extracts"
+
+  - id: "pareek_2011"
+    title: "Feverfew (Tanacetum parthenium L.): A systematic review"
+    authors:
+      - "Pareek A"
+      - "Suthar M"
+      - "Rathore GS"
+      - "Bansal V"
+    journal: "Pharmacognosy Reviews"
+    year: 2011
+    volume: 5
+    issue: 9
+    pages: "103-110"
+    pmid: 22096324
+    pmcid: "PMC3210009"
+    doi: "10.4103/0973-7847.79105"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/22096324/"
+    study_type: "Systematic review"
+    key_findings:
+      - finding: "Contains sesquiterpene lactones including parthenolide, flavonoid glycosides, and pinenes"
+      - finding: "Pharmacological properties: anticancer, anti-inflammatory, cardiotonic, antispasmodic"
+      - finding: "Traditional uses: fever, migraine, rheumatoid arthritis, menstrual complications"
+      - finding: "Emerging applications: psoriasis, allergies, asthma"
+    notes: "Comprehensive review of phytochemistry and pharmacological applications"
+
+  - id: "ernst_2000"
+    title: "The efficacy and safety of feverfew (Tanacetum parthenium L.): an update of a systematic review"
+    authors:
+      - "Ernst E"
+      - "Pittler MH"
+    affiliations:
+      - "Department of Complementary Medicine, School of Postgraduate Medicine and Health Science, University of Exeter, UK"
+    journal: "Public Health Nutrition"
+    year: 2000
+    volume: 3
+    issue: "4A"
+    pages: "509-514"
+    pmid: 11276299
+    doi: "10.1017/s1368980000000598"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11276299/"
+    study_type: "Systematic review"
+    methodology: "Jadad score for quality assessment"
+    databases_searched:
+      - "Medline"
+      - "Embase"
+      - "Biosis"
+      - "CISCOM"
+      - "Cochrane Library"
+    search_period: "Through December 1999"
+    studies_included: 6
+    inclusion_criteria: "Randomized, placebo-controlled, double-blind trials testing feverfew mono-preparations for migraine prevention"
+    key_findings:
+      - finding: "Feverfew is likely to be effective in the prevention of migraine"
+      - finding: "Majority favour feverfew over placebo"
+      - finding: "Feverfew is associated with only mild and transient adverse effects"
+      - finding: "No major safety problems"
+    notes: "Important caveats exist regarding standardization and quality"
+
+# RANDOMIZED CONTROLLED TRIALS
+
+randomized_controlled_trials:
+  - id: "diener_2005"
+    title: "Efficacy and safety of 6.25 mg t.i.d. feverfew CO2-extract (MIG-99) in migraine prevention--a randomized, double-blind, multicentre, placebo-controlled study"
+    authors:
+      - "Diener HC"
+      - "Pfaffenrath V"
+      - "Schnitker J"
+      - "Friede M"
+      - "Henneicke-von Zepelin HH"
+    affiliations:
+      - "Neurologische Universitätsklinik, Essen, Germany"
+    journal: "Cephalalgia"
+    year: 2005
+    volume: 25
+    issue: 11
+    pages: "1031-1041"
+    pmid: 16232154
+    doi: "10.1111/j.1468-2982.2005.00950.x"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16232154/"
+    study_type: "Randomized, double-blind, placebo-controlled, multicenter trial"
+    study_design: "Parallel-group"
+    extract: "MIG-99 (CO2-extract of feverfew)"
+    dosing:
+      preparation: "MIG-99 feverfew CO2-extract"
+      dose: "6.25 mg"
+      frequency: "Three times daily (t.i.d.)"
+      total_daily_dose: "18.75 mg"
+    sample_size:
+      intention_to_treat: 170
+      mig99_group: 89
+      placebo_group: 81
+    baseline_period: "4 weeks"
+    treatment_duration: "16 weeks"
+    key_findings:
+      - finding: "Migraine frequency decreased by 1.9 attacks per month in MIG-99 group"
+        baseline: "4.76 attacks/month"
+        p_value: "0.0456"
+      - finding: "Migraine frequency decreased by 1.3 attacks per month in placebo group"
+      - finding: "Responder rates showed odds ratio of 3.4 in favour of MIG-99"
+        p_value: "0.0049"
+      - finding: "Related adverse events: 8.4% in MIG-99 group (9/107 patients) vs 10.2% in placebo (11/108 patients)"
+        p_value: "0.654"
+    safety: "AEs were non-specific and similarly distributed in both treatment groups"
+    conclusion: "Confirmed the efficacy of CO2-based feverfew extract MIG-99 in migraine prophylaxis"
+    notes: "Phase III confirmatory trial with standardized extract"
+
+  - id: "pfaffenrath_2002"
+    title: "The efficacy and safety of Tanacetum parthenium (feverfew) in migraine prophylaxis--a double-blind, multicentre, randomized placebo-controlled dose-response study"
+    authors:
+      - "Pfaffenrath V"
+      - "Diener HC"
+      - "Fischer M"
+      - "Friede M"
+      - "Henneicke-von Zepelin HH"
+    journal: "Cephalalgia"
+    year: 2002
+    month: "September"
+    volume: 22
+    issue: 7
+    pages: "523-532"
+    pmid: 12230594
+    doi: "10.1046/j.1468-2982.2002.00396.x"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/12230594/"
+    study_type: "Randomized, double-blind, multicentre, placebo-controlled dose-response trial"
+    study_design: "Adaptive design"
+    extract: "MIG-99 (CO2-extract of feverfew)"
+    dosing:
+      preparation: "MIG-99 feverfew CO2-extract"
+      doses_tested:
+        - "2.08 mg t.i.d."
+        - "6.25 mg t.i.d."
+        - "18.75 mg t.i.d."
+      comparator: "Placebo"
+    sample_size:
+      total: 147
+      confirmatory_subgroup: 49
+      note: "Patients with ≥4 baseline attacks"
+    baseline_period: "4 weeks"
+    treatment_duration: "12 weeks"
+    key_findings:
+      - finding: "Failed to show significant migraine prophylactic effect overall"
+      - finding: "In subgroup with ≥4 baseline attacks, migraine frequency decreased in dose-dependent manner"
+        p_value: "0.001"
+      - finding: "6.25 mg t.i.d. most favorable benefit-risk ratio in subgroup"
+        statistic: "Mean reduction of 1.8 attacks per 28 days vs 0.3 for placebo"
+        p_value: "0.02"
+      - finding: "35% of all participants (52/147) reported at least one adverse event"
+      - finding: "Incidence of AEs similar across all treatment groups including placebo"
+      - finding: "No dose-related effect observed in any safety parameter"
+      - finding: "Three withdrawals necessitated by adverse effects in feverfew groups"
+    safety: "No dose-related safety concerns"
+    notes: "Dose-response study identifying optimal dosing for subgroup with frequent migraines"
+
+  - id: "murphy_1988"
+    title: "Randomised double-blind placebo-controlled trial of feverfew in migraine prevention"
+    authors:
+      - "Murphy JJ"
+      - "Heptinstall S"
+      - "Mitchell JR"
+    journal: "Lancet"
+    year: 1988
+    publication_date: "1988-07-23"
+    pmid: 2899663
+    doi: "10.1016/s0140-6736(88)92289-1"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/2899663/"
+    study_type: "Randomized, double-blind, placebo-controlled crossover trial"
+    dosing:
+      preparation: "Dried feverfew leaves"
+      dose: "One capsule daily"
+      comparator: "Matching placebo"
+    sample_size:
+      enrolled: 72
+      completed: 60
+      analyzed: 59
+    run_in_period: "1 month single-blind placebo"
+    treatment_duration: "Two 4-month treatment periods (crossover design)"
+    key_findings:
+      - finding: "Reduction in the mean number and severity of attacks in each two-month period"
+      - finding: "Significant decrease in degree of vomiting"
+      - finding: "Duration of individual attacks remained unchanged"
+      - finding: "Visual analogue scores indicated significant improvement with feverfew"
+      - finding: "No serious adverse effects reported"
+    notes: "Classic early RCT demonstrating feverfew efficacy in migraine prevention"
+
+  - id: "deweerdt_1996"
+    title: "Herbal medicines in migraine prevention Randomized double-blind placebo-controlled crossover trial of a feverfew preparation"
+    authors:
+      - "De Weerdt CJ"
+      - "Bootsma HP"
+      - "Hendriks H"
+    journal: "Phytomedicine"
+    year: 1996
+    pmid: 23195074
+    doi: "10.1016/S0944-7113(96)80057-2"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23195074/"
+    study_type: "Randomized double-blind placebo-controlled crossover trial"
+    dosing:
+      preparation: "Dried alcoholic extract of feverfew on microcrystalline cellulose"
+      dose: "One capsule daily"
+      parthenolide_content: "0.5 mg"
+    sample_size:
+      enrolled: 50
+      completed: 44
+    treatment_duration: "9 months"
+    key_findings:
+      - finding: "Both treatment groups suffered the same number of migraine attacks"
+      - finding: "No prophylactic effect was demonstrated"
+      - finding: "Patients showed tendency to use fewer symptomatic drugs during feverfew treatment period"
+    notes: "Negative study - contradicted earlier positive results. Low parthenolide content may explain lack of efficacy"
+
+# PHARMACOKINETICS AND BIOAVAILABILITY STUDIES
+
+pharmacokinetics:
+  - id: "curry_2004"
+    title: "Phase I dose escalation trial of feverfew with standardized doses of parthenolide in patients with cancer"
+    authors:
+      - "Curry EA 3rd"
+      - "Murry DJ"
+      - "Yoder C"
+      - "Fife K"
+      - "Armstrong V"
+      - "Nakshatri H"
+      - "O'Connell M"
+      - "Sweeney CJ"
+    journal: "Investigational New Drugs"
+    year: 2004
+    month: "August"
+    pmid: 15122077
+    doi: "10.1023/B:DRUG.0000026256.38560.be"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15122077/"
+    study_type: "Phase I dose escalation trial"
+    population: "Patients with cancer"
+    dosing:
+      preparation: "Feverfew oral capsule with standardized parthenolide"
+      dose_escalation: "Starting at 1 mg/day, escalating to 2, 3, and 4 mg/day"
+      schedule: "28-day cycle"
+      maximum_dose_tested: "4 mg daily"
+    bioavailability_findings:
+      - finding: "Parthenolide administered at doses up to 4 mg daily had no detectable concentration in plasma"
+        detection_limit: "0.5 ng/ml"
+        method: "Solid phase extraction and mass spectrometry"
+      - finding: "Poor oral bioavailability identified as major limitation"
+      - finding: "Synthetic analog dimethylamino-parthenolide (DMAPT) developed as more hydrophilic form with greater bioavailability"
+    safety:
+      - finding: "Feverfew given on this schedule had no significant toxicity"
+      - finding: "Maximum tolerated dose was not reached"
+    notes: "Critical study demonstrating poor bioavailability of parthenolide from oral feverfew preparations"
+
+# QUALITY CONTROL AND STANDARDIZATION STUDIES
+
+quality_control:
+  - id: "heptinstall_1992"
+    title: "Parthenolide content and bioactivity of feverfew (Tanacetum parthenium (L.) Schultz-Bip.). Estimation of commercial and authenticated feverfew products"
+    authors:
+      - "Heptinstall S"
+      - "Awang DV"
+      - "Dawson BA"
+      - "Kindack D"
+      - "Knight DW"
+      - "May J"
+    journal: "Journal of Pharmacy and Pharmacology"
+    year: 1992
+    month: "May"
+    pmid: 1359053
+    doi: "10.1111/j.2042-7158.1992.tb03631.x"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/1359053/"
+    study_type: "Analytical study of parthenolide content"
+    key_findings:
+      - finding: "Authenticated Tanacetum parthenium grown in UK contained high level of parthenolide in leaves, flowering tops and seeds"
+      - finding: "Low level of parthenolide in stalks and roots"
+      - finding: "Commercial feverfew products varied widely in parthenolide content"
+      - finding: "In some commercial products parthenolide was not detected"
+      - finding: "Parthenolide appeared primarily responsible for antisecretory effects on blood platelets"
+    recommendations: "Manufacturers should use measurements of parthenolide as means of standardization and quality control"
+    notes: "Foundational study establishing need for standardization"
+
+  - id: "nelson_2002"
+    title: "Variations in parthenolide content and daily dose of feverfew products"
+    authors:
+      - "Nelson MH"
+      - "Cobb SE"
+      - "Shelton J"
+    journal: "American Journal of Health-System Pharmacy"
+    year: 2002
+    month: "August"
+    day: 15
+    volume: 59
+    issue: 16
+    pages: "1527-1531"
+    pmid: 12185827
+    doi: "10.1093/ajhp/59.16.1527"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/12185827/"
+    study_type: "Quality control analysis of commercial feverfew products"
+    key_findings:
+      - finding: "Parthenolide content per dosage form varied 150-fold"
+        range: "0.02 to 3.0 mg"
+      - finding: "Percent parthenolide varied 5.3-fold"
+        range: "0.14% to 0.74%"
+      - finding: "Dried leaf intake showed 10-fold variation"
+        range: "225 to 2,246 mg/day based on label recommendations"
+      - finding: "Parthenolide intake demonstrated 160-fold variation"
+        range: "0.06 to 9.7 mg/day"
+      - finding: "Feverfew leaf per capsule ranged from 25 to 500 mg"
+        note: "Generally matching label claims"
+      - finding: "No commercial feverfew extracts tested contained the label claimed parthenolide"
+      - finding: "Different batches from same manufacturer showed significantly different parthenolide content"
+    notes: "Demonstrates severe quality control issues in commercial feverfew products"
+
+# SAFETY AND TOXICOLOGY
+
+safety_studies:
+  - id: "wider_2015_safety"
+    title: "Feverfew for preventing migraine (Safety data)"
+    authors:
+      - "Wider B"
+      - "Pittler MH"
+      - "Ernst E"
+    journal: "Cochrane Database of Systematic Reviews"
+    year: 2015
+    pmid: 25892430
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25892430/"
+    study_type: "Cochrane systematic review - safety analysis"
+    key_findings:
+      - finding: "No major safety problems reported with feverfew use"
+      - finding: "Feverfew generally well tolerated"
+      - finding: "Adverse effects usually mild and reversible"
+      - finding: "Feverfew not associated with any major safety concerns"
+    common_adverse_effects:
+      - effect: "Mouth ulceration"
+        incidence: "11% in larger series"
+      - effect: "Gastrointestinal symptoms"
+        note: "Reported most frequently"
+      - effect: "Widespread inflammation of oral mucosa and tongue"
+        details: "Often with lip swelling and loss of taste"
+      - effect: "Dermatitis"
+        note: "Associated with this plant"
+    serious_events: "In larger series of feverfew users, 18% reported adverse effects, with mouth ulceration (11%) being most serious"
+    notes: "Overall good safety profile with mild adverse effects"
+
+  - id: "pfaffenrath_2002_safety"
+    title: "The efficacy and safety of Tanacetum parthenium (Safety data)"
+    authors:
+      - "Pfaffenrath V"
+      - "Diener HC"
+      - "Fischer M"
+      - "Friede M"
+      - "Henneicke-von Zepelin HH"
+    journal: "Cephalalgia"
+    year: 2002
+    pmid: 12230594
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/12230594/"
+    key_findings:
+      - finding: "Overall, 52 of 147 (35%) patients reported at least one adverse event"
+      - finding: "Incidence of AEs in active treatment groups similar to placebo group"
+      - finding: "No dose-related effect observed in any safety parameter"
+      - finding: "Two studies reported higher incidence of adverse effects in placebo group"
+      - finding: "One study reported similar incidence in both groups"
+      - finding: "Three withdrawals necessitated by adverse effects in feverfew groups"
+    toxicity:
+      - finding: "No studies of chronic toxicity have been performed on the plant"
+      - finding: "Safety of long-term use has not been established"
+      - finding: "One study evaluated genotoxic effects of chronic feverfew ingestion in 30 migraine sufferers"
+      - finding: "Analysis of chromosomal aberrations and sister chromatid exchanges in circulating lymphocytes from patients who ingested feverfew for 11 months found no unexpected aberrations"
+      - finding: "Plant does not induce chromosomal abnormalities"
+    contraindications:
+      - "Pregnant women should not use the plant (potential emmenagogue activity)"
+      - "Not recommended for lactating mothers"
+      - "Not recommended for use in children"
+    notes: "Good safety profile in clinical trials with no major toxicity concerns"
+
+# MECHANISMS OF ACTION
+
+mechanisms:
+  - id: "kashkooe_2024"
+    title: "Exploring the Phytochemistry, Signaling Pathways, and Mechanisms of Action of Tanacetum parthenium (L.) Sch.Bip.: A Comprehensive Literature Review"
+    authors:
+      - "Kashkooe A"
+      - "Jalali A"
+      - "Zarshenas MM"
+      - "Hamedi A"
+    journal: "Biomedicines"
+    year: 2024
+    publication_date: "2024-10-10"
+    pmid: 39457613
+    pmcid: "PMC11505096"
+    doi: "10.3390/biomedicines12102297"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39457613/"
+    study_type: "Comprehensive literature review"
+    key_findings:
+      bioactive_compounds:
+        - compound: "Parthenolide"
+          class: "Germacranolide-type sesquiterpene lactone"
+          note: "Most potent bioactive ingredient"
+      mechanisms:
+        - pathway: "NF-κB inhibition"
+          effect: "Reduction in pro-inflammatory cytokines like tumor necrosis factor-alpha (TNF-α)"
+          property: "Anti-inflammatory"
+        - pathway: "Mitogen-Activated Protein Kinase (MAPK) pathway"
+          effect: "Anticancer effects"
+        - pathway: "NF-κB pathway"
+          effect: "Anticancer effects"
+      therapeutic_applications:
+        - "Migraine headaches"
+        - "Epilepsy"
+        - "Neuropathic pain"
+        - "Anticancer activity"
+    notes: "Comprehensive review of molecular mechanisms underlying feverfew's therapeutic effects"
+
+# PHARMACOPOEIA AND MONOGRAPHS
+
+pharmacopoeia:
+  - id: "british_pharmacopoeia_2009"
+    title: "British Pharmacopoeia Volume 3"
+    year: 2009
+    source: "British Pharmacopoeia"
+    herb: "Feverfew"
+    notes: "Official monograph in British Pharmacopoeia"
+
+  - id: "european_pharmacopoeia_2008"
+    title: "European Pharmacopoeia 6th edition"
+    year: 2008
+    source: "European Pharmacopoeia"
+    herb: "Feverfew"
+    notes: "Official monograph in European Pharmacopoeia"
+
+  - id: "usp_2007"
+    title: "United States Pharmacopeia 30th edition"
+    year: 2007
+    source: "United States Pharmacopeial Convention (USP)"
+    herb: "Feverfew"
+    notes: "Botanical monograph published by USP"
+
+  - id: "american_herbal_pharmacopoeia_2011"
+    title: "Botanical Pharmacognosy on Microscopic Characterization of Botanical Medicines"
+    year: 2011
+    source: "American Herbal Pharmacopoeia"
+    herb: "Feverfew"
+    notes: "Included in American Herbal Pharmacopoeia"
+
+  - id: "canada_hpb"
+    title: "Health Protection Branch Drug Identification Number (DIN) for British feverfew product"
+    country: "Canada"
+    source: "Health Protection Branch"
+    recommended_dosage: "125 mg of dried feverfew leaf preparation containing at least 0.2% parthenolide daily"
+    indication: "Migraine prevention"
+    notes: "Official recognition by Canadian regulatory authority"
+
+monographs:
+  - id: "escop_2014"
+    title: "Tanaceti parthenii herba (Feverfew)"
+    year: 2014
+    source: "ESCOP (European Scientific Cooperative on Phytotherapy)"
+    url: "https://www.escop.com/downloads/feverfew/"
+    therapeutic_indication: "Prevention of migraine headaches"
+    notes: "Published herbal monograph by ESCOP"
+
+  - id: "ema_hmpc"
+    title: "Tanaceti parthenii herba - herbal medicinal product"
+    source: "European Medicines Agency (EMA) - Committee on Herbal Medicinal Products (HMPC)"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/tanaceti-parthenii-herba"
+    conclusion: "Feverfew herb preparations can be used for the prevention of migraine"
+    notes: "Official assessment by European Medicines Agency"
+
+  - id: "commission_e"
+    title: "German Commission E Monograph - Feverfew"
+    source: "German Federal Institute for Drugs and Medical Devices - Commission E"
+    year_range: "1984-1994"
+    publication: "Bundesanzeiger"
+    english_translation: "The Complete German Commission E Monographs: Therapeutic Guide to Herbal Medicines (American Botanical Council, 1998)"
+    notes: "Part of 380 monographs evaluating safety and efficacy of herbs for licensed medical prescribing in Germany. Monographs have not been updated since 1994 but are still considered valid."
+
+# DOSING RECOMMENDATIONS
+
+dosing_recommendations:
+  clinical_trials:
+    - preparation: "Dried feverfew leaves"
+      dose_range: "50-150 mg daily"
+      duration: "Up to 4 months"
+      source: "Various clinical trials"
+
+    - preparation: "Feverfew extract standardized to 0.2-0.4% parthenolide"
+      dose_range: "100-300 mg up to 4 times daily"
+      indication: "Migraine treatment"
+      source: "Clinical practice recommendations"
+
+    - preparation: "MIG-99 CO2-extract"
+      dose: "6.25 mg three times daily (18.75 mg total daily)"
+      efficacy: "Most favorable benefit-risk ratio"
+      source: "Pfaffenrath et al. 2002, Diener et al. 2005"
+
+    - preparation: "Dried leaf preparation for prevention"
+      dose_range: "50-150 mg/day"
+      duration: "Various treatment durations"
+      indication: "Migraine prevention"
+      source: "Clinical trials"
+
+  standardization:
+    - recommendation: "Feverfew supplements should be standardized to contain at least 0.2% parthenolide"
+    - recommendation: "Feverfew should be dispensed in properly stabilized form wherein parthenolide content is not degraded to less than 90% of original content"
+    - recommendation: "Sesquiterpene lactone parthenolide is the constituent recommended to be measured for quality control"
+
+# RESEARCH GAPS AND FUTURE DIRECTIONS
+
+research_gaps:
+  - "Need for larger rigorous trials with stable feverfew extracts and clearly defined migraine populations"
+  - "Standardization of feverfew preparations across studies for meta-analysis"
+  - "Chronic toxicity studies have not been performed on the plant"
+  - "Safety of long-term use has not been established"
+  - "Development of feverfew preparations with improved bioavailability (e.g., DMAPT analogs)"
+  - "Mechanistic studies on neuroprotective effects"
+
+# SUMMARY
+
+summary:
+  efficacy: "Mixed evidence with most recent 2025 meta-analysis showing significant reductions in migraine frequency (1.11 attacks/month reduction) and duration (4.43 hours reduction). Cochrane review reports low quality evidence needing confirmation in larger trials."
+
+  optimal_dosing: "6.25 mg three times daily of standardized CO2-extract (MIG-99) showed most favorable benefit-risk ratio in patients with frequent migraines (≥4 attacks/month)"
+
+  bioavailability: "Poor oral bioavailability of parthenolide demonstrated in Phase I trial with no detectable plasma concentrations up to 4 mg daily dose. Synthetic analogs with improved bioavailability under development."
+
+  safety: "Generally well tolerated with mild, reversible adverse effects. Most common: mouth ulceration (11%), gastrointestinal symptoms. No major safety concerns or dose-related toxicity. Not recommended for pregnant/lactating women or children."
+
+  quality_control: "Severe quality control issues in commercial products with 150-fold variation in parthenolide content (0.02-3.0 mg per dose) and 160-fold variation in daily parthenolide intake (0.06-9.7 mg/day). Standardization to ≥0.2% parthenolide recommended."
+
+  mechanism: "Primary mechanism involves inhibition of NF-κB pathway, reducing pro-inflammatory cytokines (TNF-α). Parthenolide is the key bioactive compound (germacranolide-type sesquiterpene lactone)."
+
+  regulatory_status: "Included in British, European, and US pharmacopoeias. Recognized by EMA for migraine prevention. ESCOP and Commission E monographs available."
+
+# NOTES
+
+notes:
+  - "WHO monograph: No evidence found of feverfew inclusion in WHO monographs on selected medicinal plants (Volumes 1-4 searched)"
+  - "Commission E: Monographs published 1984-1994 in Bundesanzeiger, English translation by American Botanical Council 1998"
+  - "Quality issues: Major concern is variability in parthenolide content across commercial products and between batches from same manufacturer"
+  - "Bioavailability: Critical limitation for therapeutic use; parthenolide not detectable in plasma at oral doses up to 4 mg"
+  - "Study heterogeneity: Pooled analysis difficult due to lack of common outcome measures across trials"
+  - "Extract standardization: MIG-99 CO2-extract is the most studied standardized preparation with consistent efficacy in subgroup with frequent migraines"
+
+# BIBLIOGRAPHY METADATA
+
+metadata:
+  total_studies: 25
+  systematic_reviews: 5
+  rcts: 4
+  pharmacokinetic_studies: 1
+  quality_control_studies: 2
+  safety_studies: 2
+  mechanism_studies: 1
+  pharmacopoeia_entries: 4
+  monographs: 3
+  date_range: "1988-2025"
+  most_recent_study: "December 2025 (Shenoy et al.)"
+  search_databases:
+    - "PubMed"
+    - "Cochrane Library"
+    - "EMBASE"
+    - "Google Scholar"

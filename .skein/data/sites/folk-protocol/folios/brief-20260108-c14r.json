@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20260108-c14r",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2026-01-08T16:20:04.482741",
+  "created_by": "unknown",
+  "title": "Review 16 materia files from 2026-01-08",
+  "content": "## Task\nHardening review of 16 new materia files created via materia-research chain.\n\n## Files to Review\nSequential batch (10):\n- passionflower.md\n- elderberry.md\n- st-johns-wort.md\n- chamomile.md\n- ginger.md\n- turmeric.md\n- milk-thistle.md\n- ginkgo.md\n- holy-basil.md\n- echinacea.md\n\nParallel batch (6):\n- lavender.md\n- peppermint.md\n- feverfew.md\n- butterbur.md\n- saw-palmetto.md\n- bacopa.md\n\n## Review Checklist\n1. **Citation spot-check**: Pick 2-3 claims per file, verify numbers match cited studies\n2. **Tone consistency**: Should be accessible Wikipedia-level, not clinical jargon\n3. **YAML schema**: Verify all enum values match allowed types\n4. **Safety sections**: Contraindications specific and cited\n5. **Traditional vs modern**: Clear distinction where applicable\n6. **No medical advice**: No 'see a doctor if...' sections\n\n## Known Issues\n- ginger.md marked as QC-failed during chain but file appears complete\n- Some herbs had multiple worktree versions (took latest)\n- Batch 2 parallel run (vitex, kava, hawthorn) failed - not included\n\n## Location\n/home/patrick/projects/folkprotocol/src/content/materia/\n\n## Priority\nMedium - content exists and looks solid on spot-check, but no adversarial review yet",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:f6515b8ad42ad0d7bd05c185c1a183c00906eae43ad20b69db11744da9c1a456"
+}

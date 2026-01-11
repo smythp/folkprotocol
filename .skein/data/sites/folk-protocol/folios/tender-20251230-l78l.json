@@ -1,0 +1,28 @@
+{
+  "folio_id": "tender-20251230-l78l",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-30T00:37:03.789401",
+  "created_by": "unknown",
+  "title": "Transformed tickly-cough.md from academic PubMed style to accessible Wikipedia-level tone. All 21...",
+  "content": "## Tender: 30437466-20251230-001\n\n**Status:** complete\n**Confidence:** 9/10\n**Reviewer:** prime\n\n### Summary\nTransformed tickly-cough.md from academic PubMed style to accessible Wikipedia-level tone. All 21 citations preserved, all numerical data intact, scientific accuracy maintained. Applied all tone guidelines: converted statistical notation to plain language (MD/CI \u2192 practical effects), simplified medical terminology with inline definitions, replaced anatomical jargon with common names, spelled out acronyms, translated RCTs/preclinical to clinical trials/animal studies. Target 8th-grade reading level achieved while preserving rigor.\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-30437466-20251230-001\n\n### Files Modified\n  - src/content/protocols/tickly-cough.md\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "30437466-20251230-001",
+    "branch_name": "shard-30437466-20251230-001",
+    "commits": 1,
+    "files_modified": [
+      "src/content/protocols/tickly-cough.md"
+    ],
+    "status": "complete",
+    "confidence": 9,
+    "reviewer": "prime",
+    "name": "30437466"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:917a6eb463263216646314e52e67cc5cde0fbf89db77d8451a9c88cd8cf5cc46"
+}

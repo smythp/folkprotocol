@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-j8bh",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T16:11:47.437879",
+  "created_by": "unknown",
+  "title": "Folk Protocol Content Population Strategy",
+  "content": "## Goal\nAggressively populate folkprotocol site with high-quality herb/materia content using parallel sonnet agents\n\n## Current State\n- Site structure ready (Astro + content schemas)\n- No content yet (empty directories)\n- Minor technical issues (collection name mismatches)\n\n## Proposed Parallel Agent Strategy\n\n### Wave 1: Technical Setup (1 agent)\nFix collection references in pages, create seed examples\n\n### Wave 2: Core Herbs (5 parallel agents, sonnet, shards)\n- Agent 1: Adaptogens (Ashwagandha, Rhodiola, Holy Basil, Ginseng)\n- Agent 2: Nervines (Passionflower, Skullcap, Lemon Balm, Valerian)\n- Agent 3: Immune (Elderberry, Echinacea, Astragalus, Reishi)\n- Agent 4: Digestive (Ginger, Peppermint, Chamomile, Fennel)\n- Agent 5: Anti-inflammatory (Turmeric, Boswellia, Willow Bark)\n\n### Wave 3: Protocols (3 parallel agents, sonnet, shards)\n- Agent 1: Stress/Sleep/Cognitive protocols\n- Agent 2: Digestive/Inflammation/Joint protocols\n- Agent 3: Immune/Energy/Cardiovascular protocols\n\n## Content Philosophy\n- Evidence-aware but not RCT-obsessed\n- Include traditional convergent use\n- Practical self-experimentation guidance\n- Rich sensory descriptions\n- Cross-referenced (herbs <-> protocols)",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:abcef38cfd635e340fbd63b6d0a94faf7f7473834ab08678f9ed98415079e6eb"
+}

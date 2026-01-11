@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-1msq",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T23:16:37.309049",
+  "created_by": "unknown",
+  "title": "Test Pipeline on Core Herbs Batch",
+  "content": "## Context\nThe improved 4-stage content pipeline successfully removed blog voice and preserved citations on tickly-cough protocol. Ready to scale.\n\n## Prompts Ready\n- /home/patrick/projects/folkprotocol/prompts/stage1-bibliography-prompt.md\n- /home/patrick/projects/folkprotocol/prompts/stage2-research-summary-prompt.md  \n- /home/patrick/projects/folkprotocol/prompts/stage3-synthesis-improved.md\n- /home/patrick/projects/folkprotocol/prompts/stage4-qc-edit-prompt.md\n\n## Test Batch\nRun these 5 herbs through the pipeline:\n1. Rhodiola (adaptogen, well-studied)\n2. Elderberry (immune, strong evidence)\n3. Passionflower (anxiety/sleep, moderate evidence)\n4. Ginger (nausea/digestive, extensive use)\n5. Echinacea (immune, controversial evidence)\n\n## Launch Pattern\n```python\nherbs = [\"rhodiola\", \"elderberry\", \"passionflower\", \"ginger\", \"echinacea\"]\nfor herb in herbs:\n    # Stage 1: Bibliography\n    bib_id = spin(f\"Create {herb} bibliography\", prompt_file=\"stage1\", permission=\"shard\", model=\"sonnet\")\n    # Wait then continue stages...\n```\n\n## Success Metrics\n- Citation density >80%\n- Zero blog phrases\n- All numbers preserved from research\n- Traditional claims have sources\n- Cross-references working",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:3caa06e38f6303a020e0319fadd002a4edb4b37497309b00e7b156fb38c2b4c7"
+}

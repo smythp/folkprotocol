@@ -1,0 +1,710 @@
+---
+herb: Vitex agnus-castus
+common_names:
+  - Chaste tree
+  - Chasteberry
+  - Vitex
+  - Agnus castus
+  - Monk's pepper
+
+# Systematic Reviews and Meta-Analyses
+
+systematic_reviews:
+  - title: "Vitex agnus castus effects on hyperprolactinaemia"
+    authors:
+      - Puglia LT
+      - Lowry J
+      - Tamagno G
+    year: 2023
+    journal: "Frontiers in Endocrinology"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38075075/"
+    study_type: "Systematic review"
+    papers_reviewed: 9
+    breakdown: "6 prospective studies, 3 case reports"
+    key_findings:
+      - "Some evidence suggests a possible role of VAC for the management of hyperprolactinaemia in selected patients, though in an inhomogeneous way"
+      - "There are not any large randomized controlled trials supporting this application"
+      - "VAC may represent a potentially useful and safe phytotherapic option for the management of selected patients with mild hyperprolactinaemia"
+      - "Proposed mechanism involves diterpenes interacting with dopamine D2 receptors to inhibit prolactin release"
+    notes: "Review emphasizes need for larger, well-designed studies to establish definitive clinical recommendations"
+
+  - title: "Vitex Agnus-Castus for the Treatment of Cyclic Mastalgia: A Systematic Review and Meta-Analysis"
+    authors:
+      - Ooi SL
+      - Watts S
+      - McClean R
+      - Pak SC
+    year: 2020
+    journal: "Journal of Women's Health"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31464546/"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 25
+    breakdown: "17 RCTs, 8 nonrandomized trials; meta-analysis focused on 6 studies"
+    sample_size: 718
+    treatment_group: 356
+    control_group: 362
+    key_findings:
+      - "Moderate effect size (SMD: 0.67, 95% CI: 0.5-0.85) favoring VAC over placebo"
+      - "Effective at relieving breast pain intensity and lowering elevated serum prolactin levels in reproductive-age women (18-45 years)"
+      - "Seven trials demonstrated VAC as noninferior alternative to pharmaceutical therapies including dopamine agonists, NSAIDs, SSRIs, and hormonal contraceptives"
+      - "Typical dosage: 20-40 mg daily for 3 months duration"
+      - "Safe and associated with only mild and reversible adverse events"
+
+  - title: "Vitex agnus-castus in premenstrual syndrome: A meta-analysis of double-blind randomised controlled trials"
+    authors:
+      - Csupor D
+      - Lantos T
+      - Hegyi P
+      - Benkő R
+      - Viola R
+      - Gyöngyi Z
+      - Csécsei P
+      - Tóth B
+      - Vasas A
+      - Márta K
+      - Rostás I
+      - Szentesi A
+      - Matuz M
+    year: 2019
+    journal: "Complementary Therapies in Medicine"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31780016/"
+    study_type: "Meta-analysis of double-blind RCTs"
+    trials_identified: 21
+    trials_meeting_criteria: 3
+    sample_size: 520
+    key_findings:
+      - "Women receiving VAC were 2.57 (95% CI 1.52-4.35) times more likely to experience remission in symptoms compared to placebo"
+      - "Products studied: Special extracts Ze 440 and BNO 1095"
+      - "Most clinical trials could not serve as evidence due to incomplete reporting, particularly regarding medication characterization"
+    notes: "Strict inclusion criteria based on proper product characterization reduced eligible studies from 21 to 3"
+
+  - title: "The treatment of premenstrual syndrome with preparations of Vitex agnus castus: a systematic review and meta-analysis"
+    authors:
+      - Verkaik S
+      - Kamperman AM
+      - van Westrhenen R
+      - Schulte PFJ
+    year: 2017
+    journal: "American Journal of Obstetrics and Gynecology"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28237870/"
+    study_type: "Systematic review and meta-analysis"
+    trials_identified: 17
+    trials_in_analysis: 14
+    key_findings:
+      - "Substantial pooled effect in placebo-controlled trials: Hedges g = -1.21 (95% CI: -1.53 to -0.88)"
+      - "High risk of bias, high heterogeneity, and risk of publication bias preclude definitive conclusion"
+      - "Results appeared promising but study quality concerns limit conclusions"
+
+  - title: "The effects of Vitex agnus-castus on menstrual bleeding: A systematic review and meta-analysis"
+    authors:
+      - Mollazadeh S
+      - Mirghafourvand M
+      - Ghassab Abdollahi N
+    year: 2019
+    journal: "Journal of Complementary and Integrative Medicine"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31369395/"
+    study_type: "Systematic review and meta-analysis"
+    initial_searches: 8905
+    studies_included: 5
+    key_findings:
+      - "VAC did not have significant effect on amount of menstrual bleeding compared to placebo in first or second menstrual cycles"
+      - "When compared to mefenamic acid, VAC showed higher bleeding scores in first cycle but no significant difference in second cycle"
+      - "Reported side effects limited to nausea and abdominal pain"
+      - "Higher-quality clinical trials needed due to relatively low quality of existing evidence"
+
+  - title: "Vitex agnus-castus extracts for female reproductive disorders: a systematic review of clinical trials"
+    authors:
+      - van Die MD
+      - Burger HG
+      - Teede HJ
+      - Bone KM
+    year: 2013
+    journal: "Planta Medica"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23136064/"
+    study_type: "Systematic review"
+    trials_identified: 13
+    trials_included: 12
+    conditions_studied:
+      premenstrual_syndrome: 8
+      premenstrual_dysphoric_disorder: 2
+      latent_hyperprolactinemia: 2
+    key_findings:
+      - "PMS: Seven of eight trials found Vitex extracts superior to placebo and comparators (pyridoxine, magnesium oxide)"
+      - "PMDD: Mixed results—one study showed equivalence to fluoxetine; other found fluoxetine outperformed herbal extract"
+      - "Latent hyperprolactinemia: One trial demonstrated superiority over placebo for reducing prolactin secretion and normalizing luteal phase; another found extract comparable to bromocriptine"
+      - "Adverse events were mild and generally infrequent"
+
+  - title: "Vitex agnus castus: a systematic review of adverse events"
+    authors:
+      - Daniele C
+      - Thompson Coon J
+      - Pittler MH
+      - Ernst E
+    year: 2005
+    journal: "Drug Safety"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15783241/"
+    study_type: "Systematic review of safety"
+    key_findings:
+      - "Adverse reactions following VAC treatment are mild and reversible"
+      - "Most frequent adverse events: nausea, headache, gastrointestinal disturbances, menstrual disorders, acne, pruritus, erythematous rash"
+      - "No drug interactions reported"
+      - "VAC should be avoided during pregnancy or lactation due to lack of safety data"
+      - "Theoretically might interfere with dopaminergic antagonists"
+      - "Available evidence suggests VAC is a safe herbal medicine"
+    notes: "Authors recommend further rigorous studies to confirm safety"
+
+# Randomized Controlled Trials - Premenstrual Syndrome
+
+rcts_pms:
+  - title: "Dose-dependent efficacy of the Vitex agnus castus extract Ze 440 in patients suffering from premenstrual syndrome"
+    authors:
+      - Schellenberg R
+      - Zimmermann C
+      - Drewe J
+      - Hoexter G
+      - Zahner C
+    year: 2012
+    journal: "Phytomedicine"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23022391/"
+    study_design: "Multicenter, double-blind, placebo-controlled RCT"
+    sample_size: 162
+    age_range: "18-45 years"
+    treatment_groups:
+      - "Placebo"
+      - "Ze 440 8 mg"
+      - "Ze 440 20 mg"
+      - "Ze 440 30 mg"
+    duration: "3 menstrual cycles"
+    extract_type: "Ze 440 (60% ethanol extract, 6-12:1 ratio, standardized for casticin)"
+    key_findings:
+      - "20 mg dose demonstrated significantly greater improvement in total symptom score compared to placebo and 8 mg group"
+      - "30 mg dose did not significantly decrease symptom severity compared to 20 mg treatment"
+      - "All treatments well-tolerated"
+      - "20 mg recommended as optimal daily dose for PMS"
+    dosing_note: "20 mg extract equivalent to 120-240 mg dry weight Vitex agnus-castus"
+
+  - title: "Treatment for the premenstrual syndrome with agnus castus fruit extract: prospective, randomised, placebo controlled study"
+    authors:
+      - Schellenberg R
+    year: 2001
+    journal: "BMJ"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11159568/"
+    study_design: "Randomised, double-blind, placebo-controlled parallel group"
+    sample_size: 170
+    mean_age: 36
+    treatment_groups:
+      active: 86
+      placebo: 84
+    dosage: "One tablet daily of agnus castus dry extract (Ze 440)"
+    duration: "3 consecutive menstrual cycles"
+    key_findings:
+      - "Main efficacy improvement significantly greater in active group (P<0.001)"
+      - "Secondary variables showed significant superiority across all three global impression measures (P<0.001)"
+      - "Responder rates: 52% active treatment vs 24% placebo"
+      - "Adverse events mild and rare (4 in active group, 3 in placebo), none causing discontinuation"
+      - "Extract proved effective and well tolerated treatment"
+
+  - title: "Treatment of premenstrual tension syndrome with Vitex agnus castus controlled, double-blind study versus pyridoxine"
+    authors:
+      - Lauritzen C
+      - Reuter HD
+      - Repges R
+      - Böhnert KJ
+      - Schmidt U
+    year: 1997
+    journal: "Phytomedicine"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23195474/"
+    study_design: "Randomized, controlled, double-blind trial"
+    sample_size: 175
+    treatment_groups:
+      VAC: 90
+      pyridoxine: 85
+    dosage: "VAC: 1 capsule + 1 placebo daily; Pyridoxine: 2 capsules daily"
+    duration: "3 treatment cycles"
+    key_findings:
+      - "PMTS scale scores: VAC decreased 15.2 to 5.1 (-47.4%); pyridoxine 11.9 to 5.1 (-48%)"
+      - "VAC showed considerably more marked alleviation of breast tenderness, edema, inner tension, headache, constipation, depression"
+      - "Investigators rated VAC 'excellent' in 24.5% vs 12.1% for pyridoxine"
+      - "Patient complaint-free rates: 36.1% (VAC) vs 21.3% (pyridoxine)"
+      - "Adverse events: 12 VAC patients, 5 pyridoxine patients; no serious events"
+
+  - title: "Efficacy and safety of Vitex agnus-castus extract for treatment of premenstrual syndrome in Japanese patients: a prospective, open-label study"
+    authors:
+      - Momoeda M
+      - Sasaki H
+      - Tagashira E
+      - Ogishima M
+      - Takano Y
+      - Ochiai K
+    year: 2014
+    journal: "Advances in Therapy"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24604699/"
+    study_design: "Multi-center, prospective, open-label, single-arm phase 3 clinical trial"
+    sample_size: 69
+    age_range: "18-44 years"
+    population: "Japanese women"
+    dosage: "20 mg Vitex agnus-castus extract (Prefemin®) once daily"
+    duration: "3 menstrual cycles"
+    key_findings:
+      - "After first menstrual cycle, statistically significant decrease in total VAS score (P<0.001)"
+      - "Symptom improvement continued across all three cycles"
+      - "Responder rate reached 91% by cycle three"
+      - "Almost all patients were without symptoms or exhibited only mild symptoms"
+      - "Eight patients experienced minor adverse events; one allergic dermatitis case had uncertain causal relationship"
+      - "First study documenting effectiveness in Japanese populations"
+
+# Randomized Controlled Trials - Premenstrual Dysphoric Disorder
+
+rcts_pmdd:
+  - title: "Fluoxetine versus Vitex agnus castus extract in the treatment of premenstrual dysphoric disorder"
+    authors:
+      - Atmaca M
+      - Kumru S
+      - Tezcan E
+    year: 2003
+    journal: "Human Psychopharmacology"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/12672170/"
+    study_design: "Randomized controlled trial, single-blind, rater-blinded, prospective comparison"
+    sample_size: 41
+    diagnostic_criteria: "PMDD per DSM-IV"
+    screening_period: "2 months"
+    treatment_duration: "2 months"
+    outcome_measures:
+      - "Penn daily symptom report"
+      - "Hamilton depression rating scale"
+      - "Clinical Global Impression severity and improvement scales"
+    key_findings:
+      - "Fluoxetine response rate: 68.4% (n=13)"
+      - "Vitex agnus castus response rate: 57.9% (n=11)"
+      - "No statistically significant difference between groups regarding response rates"
+      - "Fluoxetine more effective for psychological symptoms"
+      - "Plant extract showed better effects on physical symptoms"
+      - "Both treatments well-tolerated"
+
+# Randomized Controlled Trials - Cyclic Mastalgia
+
+rcts_mastalgia:
+  - title: "Treatment of cyclical mastalgia with a solution containing a Vitex agnus castus extract: results of a placebo-controlled double-blind study"
+    authors:
+      - Halaska M
+      - Beles P
+      - Gorkow C
+      - Sieder C
+    year: 1999
+    journal: "Breast"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/14731436/"
+    study_design: "Placebo-controlled, randomized, double-blind clinical trial"
+    sample_size: 97
+    treatment_groups:
+      VACS: 48
+      placebo: 49
+    dosage: "2 x 30 drops/day"
+    duration: "3 treatment cycles (with baseline assessment)"
+    key_findings:
+      - "After 1 cycle: VACS 21.4mm pain reduction vs 10.6mm placebo"
+      - "After 2 cycles: VACS 33.7mm reduction vs 20.3mm placebo (p=0.006)"
+      - "After 3 cycles: VACS 34.3mm reduction vs 25.7mm placebo (p=0.064)"
+      - "Adverse events comparable: 5 in VACS, 4 in placebo"
+      - "VACS appears effective and well tolerated"
+
+# Randomized Controlled Trials - Hyperprolactinemia and Luteal Phase Defects
+
+rcts_hyperprolactinemia:
+  - title: "Vitex agnus castus extract in the treatment of luteal phase defects due to latent hyperprolactinemia. Results of a randomized placebo-controlled double-blind study"
+    authors:
+      - Milewicz A
+      - Gejdel E
+      - Sworen H
+      - Sienkiewicz K
+      - Jedrzejak J
+      - Teucher T
+      - Schmitz H
+    year: 1993
+    journal: "Arzneimittelforschung"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/8369008/"
+    study_design: "Randomized placebo-controlled double-blind clinical trial"
+    sample_size: 52
+    complete_cases: 37
+    treatment_groups:
+      placebo: 20
+      treatment: 17
+    dosage: "One capsule daily containing 20 mg Vitex agnus castus preparation"
+    duration: "3 months"
+    key_findings:
+      - "Prolactin release reduced after 3 months in treatment group"
+      - "Shortened luteal phases normalized"
+      - "Deficits in luteal progesterone synthesis eliminated"
+      - "17-beta-estradiol rose in luteal phase in patients receiving verum"
+      - "No adverse effects observed"
+      - "Two women in treatment group became pregnant during study"
+
+# Randomized Controlled Trials - Menopausal Symptoms
+
+rcts_menopause:
+  - title: "Comparison of Vitex agnus-castus Extracts with Placebo in Reducing Menopausal Symptoms: A Randomized Double-Blind Study"
+    authors:
+      - Naseri R
+      - Farnia V
+      - Yazdchi K
+      - Alikhani M
+      - Basanj B
+      - Salemi S
+    year: 2019
+    journal: "Korean Journal of Family Medicine"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31067851/"
+    study_design: "Randomized controlled double-blind clinical trial"
+    sample_size: 52
+    treatment_groups:
+      Vitex: 26
+      placebo: 26
+    duration: "8 weeks"
+    key_findings:
+      - "Mean scores for total menopausal disorder, anxiety, and vasomotor dysfunction significantly lower in Vitex group (P<0.05)"
+      - "Somatic complications, depression, and sexual dysfunction showed no significant differences (P>0.05)"
+      - "Phytoestrogenic medicine can alleviate menopausal symptoms"
+
+# Comparative Trials - Bromocriptine
+
+comparative_bromocriptine:
+  - title: "Comparison of Efficacy of Vitex Agnus Castus Ovitex and Bromocriptine in The Management of Hyperprolactinemia"
+    authors:
+      - Irum S
+      - Farzana F
+      - Gul H
+    year: 2020
+    journal: "Journal of The Society of Obstetricians and Gynaecologists of Pakistan"
+    study_design: "Randomized control trial"
+    sample_size: 88
+    treatment_groups: 2
+    key_findings:
+      - "No significant difference (p>0.05) between groups for prolactin and LH levels after treatment"
+      - "Higher rate of side effects in bromocriptine group compared to Vitex group"
+      - "Vitex agnus castus has efficacy equal to bromocriptine but with fewer side effects"
+      - "Comparable to bromocriptine for reducing serum prolactin levels and ameliorating cyclic mastalgia"
+
+# Pharmacological and Mechanistic Studies
+
+pharmacology:
+  - title: "Chaste tree (Vitex agnus-castus)--pharmacology and clinical indications"
+    authors:
+      - Wuttke W
+      - Jarry H
+      - Christoffel V
+      - Spengler B
+      - Seidlová-Wuttke D
+    year: 2003
+    journal: "Phytomedicine"
+    volume: 10
+    issue: 4
+    pages: "348-57"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/12809367/"
+    key_content:
+      clinical_indications: "Extracts from chaste tree fruits widely used to treat premenstrual symptoms, particularly premenstrual mastodynia (breast pain/tenderness)"
+      mechanism: "Primary mechanism is prolactin suppression via dopaminergic action"
+      active_compounds: "Diterpenes, particularly clerodadienols, function as dopaminergic agents binding to dopamine receptors"
+      findings: "Serum prolactin levels reduced in patients treated with extract; certain diterpenes possess dopaminergic properties almost identical to dopamine itself in prolactin-suppressive action"
+
+# Analytical Methods and Standardization
+
+analytical_methods:
+  - title: "Quality Assessment of Medicinal Product and Dietary Supplements Containing Vitex agnus-castus by HPLC Fingerprint and Quantitative Analyses"
+    authors:
+      - Sogame M
+      - Naraki Y
+      - Sasaki T
+      - Seki M
+      - Yokota K
+      - Masada S
+      - Hakamatsuka T
+    year: 2019
+    journal: "Chemical & Pharmaceutical Bulletin (Tokyo)"
+    volume: 67
+    issue: 6
+    pages: "527-533"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31155557/"
+    study_type: "Analytical quality assessment"
+    methods: "HPLC fingerprinting, quantitative chemical analysis, disintegration testing"
+    products_tested: 11
+    breakdown: "1 medicinal product, 10 dietary supplements"
+    marker_compounds:
+      - agnuside
+      - casticin
+    key_findings:
+      - "Medicinal product HPLC profile aligned with European reference standards"
+      - "Dietary supplements demonstrated significant variability"
+      - "Agnuside and/or casticin not detected in two dietary supplements"
+      - "Marker compound concentrations showed wide fluctuations across products"
+      - "One supplement appeared contaminated with Vitex negundo based on marker ratios"
+      - "Poor disintegration test results for two supplements"
+      - "Concerns about incorrect or poor-quality origin, different contents of active ingredient, and/or unauthorized manufacturing procedures"
+
+  - title: "UHPLC-DAD Method Development and Validation for Vitex agnus-castus"
+    study_type: "Analytical method development"
+    compounds_analyzed:
+      - agnuside
+      - isovitexin
+      - casticin
+      - 5-hydroxykaempferol-3,6,7,4′-tetramethylether
+      - vitetrifolin D
+    methods:
+      column: "Zorbax Eclipse XDB-C18 (50 mm × 2.1 mm, 1.8 μm particle size)"
+      mobile_phase: "Gradient from 0.5% acetic acid to acetonitrile"
+      flow_rate: "0.6 mL/min"
+    validation:
+      intra_day_RSD: "<3.9%"
+      inter_day_RSD: "<6.4%"
+    notes: "Method showed specificity, accuracy, precision, and reproducibility"
+
+# Bioavailability and Pharmacokinetics
+
+pharmacokinetics:
+  - study_type: "Pharmacokinetic study in mice"
+    compound: "agnuside"
+    oral_bioavailability: "0.7%"
+    tmax: "30-45 minutes"
+    notes: "No specific information on pharmacokinetics in humans according to EMA assessment report"
+
+  - title: "Nanoemulsion for improving solubility and permeability of Vitex agnus-castus extract: formulation and in vitro evaluation"
+    year: 2021
+    journal: "PMC"
+    study_type: "Formulation development"
+    rationale: "Many herbal extracts have low in-vivo activity due to poor solubility, absorption, and bioavailability"
+    approach: "Novel nanoemulsion formulation to improve oral delivery and bioavailability"
+
+# Official Monographs and Standards
+
+monographs:
+  european_pharmacopoeia:
+    title: "Agnus Castus Fruit (Agni casti fructus)"
+    reference: "01/2015:2147"
+    description: "Whole, ripe, dried fruit of Vitex agnus-castus L."
+    standardization: "Minimum 0.08% casticin (C19H18O8; Mr 374.3) in dried drug"
+
+  german_commission_e:
+    approval_year: "Pre-2000"
+    approved_uses:
+      - "Menstrual cycle irregularities"
+      - "Premenstrual syndrome"
+      - "Mastalgia"
+      - "Menopausal disorders"
+    dosage_recommendation: "30-40 mg dried fruit extract daily"
+    standardization: "0.6% casticin or agnuside"
+    alternative_forms:
+      - "2.6-4.2 mg dry native extract"
+      - "40 drops tincture"
+    administration: "Once in morning with liquid for several months consecutively"
+    notes: "Considered long-term hormonal balancing herb rather than fast-acting remedy"
+
+  ema_herbal_monograph:
+    authority: "European Medicines Agency (EMA) - Herbal Medicinal Products Committee (HMPC)"
+    title: "European Union herbal monograph on Vitex agnus-castus L., fructus"
+    indication: "Treatment of premenstrual syndrome"
+    status: "Traditional herbal medicinal product based on long-standing use"
+    preparation: "Liquid or dried extracts with ethanol as extraction solvent (50-70% V/V)"
+    daily_dosage: "30-40 mg herbal substance"
+
+  who_monograph:
+    title: "WHO Monographs on Selected Medicinal Plants"
+    volume: 4
+    year: 2004
+    includes: "Vitex agnus-castus"
+
+# Standardized Extract Products
+
+standardized_products:
+  ze_440:
+    extraction: "60% ethanol extract"
+    ratio: "6-12:1"
+    standardization: "casticin"
+    equivalence: "20 mg extract = 120-240 mg dry weight"
+    optimal_dose: "20 mg daily"
+    clinical_evidence: "Dose-finding study demonstrated 20 mg optimal vs 8 mg and 30 mg"
+
+  bno_1095:
+    trade_names:
+      - "Agnucaston"
+      - "Cyclodynon"
+    extraction: "70% ethanol, 30% water extract"
+    ratio: "10:1"
+    equivalence: "4 mg extract = 40 mg dry weight"
+    dose: "4 mg daily"
+    duration: "3 menstrual cycles for PMS treatment"
+
+  prefemin:
+    dose: "20 mg daily"
+    evidence: "Phase 3 clinical trial in Japanese population"
+    responder_rate: "91% by cycle 3"
+
+# Dosing Guidelines Summary
+
+dosing_summary:
+  general_recommendations:
+    dried_extract: "30-40 mg daily"
+    standardization: "0.6% casticin or agnuside"
+    timing: "Once in morning with liquid"
+    duration: "Several months consecutively (minimum 3 menstrual cycles for PMS)"
+
+  condition_specific:
+    premenstrual_syndrome:
+      optimal_dose: "20 mg Ze 440 daily"
+      alternative: "4 mg BNO 1095 daily"
+      duration: "3 menstrual cycles minimum"
+
+    cyclic_mastalgia:
+      dose: "20-40 mg daily or 2 x 30 drops/day"
+      duration: "3 treatment cycles"
+
+    hyperprolactinemia:
+      dose: "20 mg daily"
+      duration: "3 months"
+
+    pmdd:
+      comparison: "57.9% response rate comparable to fluoxetine 68.4%"
+
+    menopausal_symptoms:
+      duration: "8 weeks"
+      effects: "Reduced anxiety and vasomotor symptoms"
+
+# Safety Profile Summary
+
+safety_summary:
+  overall: "Safe herbal medicine with mild and reversible adverse events"
+
+  common_adverse_events:
+    - "Nausea"
+    - "Headache"
+    - "Gastrointestinal disturbances"
+    - "Menstrual disorders"
+    - "Acne"
+    - "Pruritus"
+    - "Erythematous rash"
+
+  contraindications:
+    - "Pregnancy (lack of safety data)"
+    - "Lactation (lack of safety data)"
+
+  drug_interactions:
+    reported: "None in systematic review"
+    theoretical: "Might interfere with dopaminergic antagonists"
+
+  clinical_trial_tolerability:
+    dropout_rate: "Very low - adverse events rarely caused discontinuation"
+    severity: "Mild and generally infrequent"
+
+# Key Active Compounds
+
+active_constituents:
+  diterpenes:
+    - clerodadienols
+    - "Function as dopaminergic agents"
+    - "Bind to dopamine D2 receptors"
+    - "Almost identical prolactin-suppressive properties to dopamine itself"
+
+  marker_compounds:
+    agnuside:
+      role: "Chemotaxonomic marker of genus Vitex"
+      standardization: "Suitable for quality control"
+      detection: "HPLC analysis"
+
+    casticin:
+      role: "Primary standardization marker"
+      european_pharmacopoeia_minimum: "0.08% in dried drug"
+      german_commission_e: "0.6% in extract"
+      detection: "HPLC analysis"
+
+# Clinical Efficacy Summary by Condition
+
+efficacy_by_condition:
+  premenstrual_syndrome:
+    evidence_quality: "Multiple RCTs and meta-analyses"
+    effect_size: "Hedges g = -1.21 (95% CI: -1.53 to -0.88)"
+    responder_rates: "52% vs 24% placebo"
+    remission_likelihood: "2.57x more likely than placebo"
+    superiority: "Superior to pyridoxine and magnesium oxide"
+
+  cyclic_mastalgia:
+    evidence_quality: "Systematic review of 25 studies"
+    effect_size: "SMD: 0.67 (95% CI: 0.5-0.85)"
+    pain_reduction: "33.7mm vs 20.3mm placebo after 2 cycles (p=0.006)"
+    mechanism: "Reduces elevated serum prolactin"
+    comparison: "Noninferior to pharmaceutical therapies"
+
+  premenstrual_dysphoric_disorder:
+    evidence_quality: "Limited RCT data"
+    response_rate: "57.9%"
+    comparison_to_ssri: "No significant difference vs fluoxetine (68.4%)"
+    differential_effects: "Better for physical symptoms; SSRIs better for psychological symptoms"
+
+  hyperprolactinemia:
+    evidence_quality: "Small RCTs"
+    mechanism: "Dopamine D2 receptor activation inhibits prolactin release"
+    effects: "Reduces prolactin, normalizes luteal phase, increases progesterone"
+    comparison_to_bromocriptine: "Equal efficacy, fewer side effects"
+    pregnancy_outcomes: "2 pregnancies in treatment group in one study"
+
+  luteal_phase_defects:
+    evidence_quality: "Small RCTs"
+    effects: "Normalizes shortened luteal phase, eliminates progesterone synthesis deficits"
+
+  menopausal_symptoms:
+    evidence_quality: "Limited RCT data"
+    effective_symptoms: "Anxiety, vasomotor dysfunction"
+    ineffective_symptoms: "Somatic complications, depression, sexual dysfunction"
+
+  menstrual_bleeding:
+    evidence_quality: "Systematic review"
+    finding: "No significant effect on amount of menstrual bleeding vs placebo"
+
+# Research Quality Notes
+
+research_considerations:
+  strengths:
+    - "Multiple systematic reviews and meta-analyses"
+    - "Several well-designed double-blind RCTs"
+    - "Dose-finding studies available"
+    - "Comparative studies with pharmaceutical treatments"
+    - "Long history of traditional use supporting safety"
+
+  limitations:
+    - "High heterogeneity in some meta-analyses"
+    - "Risk of publication bias"
+    - "Many studies have high risk of bias"
+    - "Incomplete product characterization in many trials"
+    - "Lack of large-scale RCTs for hyperprolactinemia"
+    - "No human pharmacokinetic data"
+    - "Quality variability in commercial products"
+
+  future_research_needs:
+    - "Large, well-designed RCTs with proper product characterization"
+    - "Human pharmacokinetic studies"
+    - "Long-term safety studies"
+    - "Standardization and quality control improvement"
+    - "Pregnancy and lactation safety data"
+    - "Drug interaction studies"
+
+# References
+
+sources:
+  - "https://pubmed.ncbi.nlm.nih.gov/38075075/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31464546/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31780016/"
+  - "https://pubmed.ncbi.nlm.nih.gov/28237870/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31369395/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23136064/"
+  - "https://pubmed.ncbi.nlm.nih.gov/15783241/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23022391/"
+  - "https://pubmed.ncbi.nlm.nih.gov/11159568/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23195474/"
+  - "https://pubmed.ncbi.nlm.nih.gov/24604699/"
+  - "https://pubmed.ncbi.nlm.nih.gov/12672170/"
+  - "https://pubmed.ncbi.nlm.nih.gov/14731436/"
+  - "https://pubmed.ncbi.nlm.nih.gov/8369008/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31067851/"
+  - "https://pubmed.ncbi.nlm.nih.gov/12809367/"
+  - "https://pubmed.ncbi.nlm.nih.gov/31155557/"
+  - "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-vitex-agnus-castus-l-fructus-revision-1_en.pdf"
+  - "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-vitex-agnus-castus-l-fructus-revision-1_en.pdf"
+  - "https://jsogp.net/index.php/jsogp/article/view/292"
+
+compilation_date: "2026-01-08"
+compiler_notes: "Comprehensive bibliography focusing on clinical studies, systematic reviews, and standardized preparations with specific dosing information and quantitative findings"

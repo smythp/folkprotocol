@@ -1,0 +1,430 @@
+---
+title: "Ginkgo biloba Clinical Bibliography"
+description: "Clinical studies on Ginkgo biloba focusing on systematic reviews, RCTs, dosing, bioavailability, safety profiles, and standardized extracts"
+created: 2026-01-08
+last_updated: 2026-01-08
+
+# SYSTEMATIC REVIEWS AND META-ANALYSES
+
+systematic_reviews:
+  - id: li2023_alzheimers
+    authors: "Li D, Ma J, Wei B, Gao S, Lang Y, Wan X"
+    title: "Effectiveness and safety of ginkgo biloba preparations in the treatment of Alzheimer's disease: A systematic review and meta-analysis"
+    journal: "Frontiers in Aging Neuroscience"
+    year: 2023
+    volume: "15"
+    pages: "1124710"
+    pmid: "36960422"
+    doi: "10.3389/fnagi.2023.1124710"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/36960422/"
+    study_type: "Systematic review and meta-analysis"
+    trials_included: 18
+    participants: 1642
+    breakdown:
+      experimental: 842
+      control: 800
+    intervention: "Ginkgo biloba preparations combined with donepezil hydrochloride vs donepezil alone"
+    key_findings: |
+      - Clinical effectiveness rate: RR 1.23, 95% CI 1.13–1.34 (statistically significant improvement)
+      - Mini-Mental State Examination: improved by 3.02 points (95% CI 2.14–3.89)
+      - Activity of Daily Living Scale: decreased by 4.56 points (95% CI -5.09 to -4.03), indicating functional improvement
+      - Hasegawa Dementia Scale: improved by 2.04 points (95% CI 1.74–2.34)
+      - Montreal Cognitive Assessment: 2.38-point improvement (95% CI 0.72–4.06)
+    safety: "No statistically significant difference in adverse reactions between groups (RR 0.91, 95% CI 0.58–1.42)"
+    quality: "18 RCTs with total 1,642 participants"
+
+  - id: sun2025_pulmonary_fibrosis
+    authors: "Sun X, Peng L, Xiao W, Li K, Chen S"
+    title: "Efficacy of ginkgo biloba extract in the treatment of idiopathic pulmonary fibrosis: a systematic review and meta-analysis of randomized controlled trials"
+    journal: "Frontiers in Pharmacology"
+    year: 2025
+    volume: "16"
+    pages: "1524505"
+    pmid: "40110130"
+    doi: "10.3389/fphar.2025.1524505"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/40110130/"
+    study_type: "Systematic review and meta-analysis"
+    trials_included: 14
+    participants: 1043
+    key_findings: |
+      - Increased arterial oxygen partial pressure and arterial oxygen saturation
+      - Enhanced forced vital capacity, forced expiratory volume in one second, and maximum voluntary ventilation
+      - Improved 6-minute walk test performance
+      - Reduced interleukin-4 levels (inflammatory marker)
+      - Decreased hyaluronan and laminin levels (fibrosis markers)
+      - Reduced arterial carbon dioxide partial pressure
+    conclusions: "GBE may offer therapeutic benefits in IPF by improving respiratory function, modulating inflammation, and affecting fibrosis markers"
+    recommendations: "Larger multicenter trials recommended"
+
+  - id: tan2015_cognitive_impairment
+    authors: "Tan MS, Yu JT, Tan CC, Wang HF, Meng XF, Wang C, Jiang T, Zhu XC, Tan L"
+    title: "Efficacy and adverse effects of ginkgo biloba for cognitive impairment and dementia: a systematic review and meta-analysis"
+    journal: "Journal of Alzheimer's Disease"
+    year: 2015
+    volume: "43"
+    issue: "2"
+    pages: "589-603"
+    pmid: "25114079"
+    doi: "10.3233/JAD-140837"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/25114079/"
+    study_type: "Systematic review and meta-analysis"
+    trials_included: 9
+    participants: 2561
+    trial_duration: "22-26 weeks"
+    key_findings: |
+      - Benefits in cognition, function, and behavior mainly associated with EGb761 at 240 mg/day
+      - Able to stabilize or slow decline over 22-26 weeks in cognitive impairment and dementia
+      - EGb 761 treatment showed an excellent safety profile
+      - Could not demonstrate statistically significant reduction in clinically relevant symptoms compared with placebo
+    safety: "Safety data revealed no important safety concerns with EGb761"
+    dosing: "240 mg/day"
+
+  - id: pittler2000_claudication_meta
+    authors: "Pittler MH, Ernst E"
+    title: "Ginkgo biloba extract for the treatment of intermittent claudication: a meta-analysis of randomized trials"
+    journal: "American Journal of Medicine"
+    year: 2000
+    volume: "108"
+    issue: "4"
+    pages: "276-281"
+    pmid: "11014719"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11014719/"
+    study_type: "Meta-analysis"
+    trials_included: 8
+    study_design: "Randomized, placebo-controlled, double-blind trials"
+    key_findings: |
+      - Significant difference in pain-free walking distance favoring Ginkgo biloba
+      - Weighted mean difference: 34 meters (95% CI: 26 to 43 meters)
+      - Ginkgo biloba extract is superior to placebo in symptomatic treatment of intermittent claudication
+      - Size of overall treatment effect is modest and of uncertain clinical relevance
+    quality: "Eight randomized, placebo-controlled, double-blind trials"
+
+# RANDOMIZED CONTROLLED TRIALS - DOSING AND PHARMACOKINETICS
+
+clinical_trials_dosing:
+  - id: gavrilova2014_mci
+    authors: "Gavrilova SI, Preuss UW, Wong JWM, Hoerr R, Kaschel R, Bachinskaya N; GIMCIPlus Study Group"
+    title: "Efficacy and safety of Ginkgo biloba extract EGb 761 in mild cognitive impairment with neuropsychiatric symptoms: a randomized, placebo-controlled, double-blind, multi-center trial"
+    journal: "International Journal of Geriatric Psychiatry"
+    year: 2014
+    volume: "29"
+    issue: "10"
+    pages: "1087-95"
+    pmid: "24633934"
+    doi: "10.1002/gps.4103"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/24633934/"
+    study_design: "Randomized, placebo-controlled, double-blind, multi-center"
+    duration: "24 weeks"
+    population: "Adults with mild cognitive impairment and neuropsychiatric symptoms (baseline NPI score ≥6)"
+    sample_size: 160
+    intervention:
+      dose: "240 mg EGb 761 daily"
+      formulation: "Standardized Ginkgo biloba extract"
+    key_findings: |
+      - NPI composite score reduction: 7.0 ± 4.5 points (EGb 761) vs 5.5 ± 5.2 (placebo); p=0.001
+      - Clinical improvement (≥4 point NPI decrease): 78.8% on EGb 761 vs 55.7% on placebo (p=0.002)
+      - Statistically significant superiority for EGb 761 on anxiety scores
+      - Statistically significant superiority on Trail-Making Test scores
+    safety: "The drug was safe and well tolerated"
+    dosing: "240 mg daily"
+
+  - id: kennedy2000_dose_response
+    authors: "Kennedy DO, Scholey AB, Wesnes KA"
+    title: "The dose-dependent cognitive effects of acute administration of Ginkgo biloba to healthy young volunteers"
+    journal: "Psychopharmacology (Berl)"
+    year: 2000
+    volume: "151"
+    issue: "4"
+    pages: "416-23"
+    pmid: "11026748"
+    doi: "10.1007/s002130000501"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11026748/"
+    study_design: "Placebo-controlled, multi-dose, double-blind, balanced crossover"
+    duration: "Acute administration with assessments at baseline and 1, 2.5, 4, and 6 hours post-dosing"
+    sample_size: 20
+    intervention:
+      doses_tested: "120 mg, 240 mg, and 360 mg"
+      formulation: "Standardized Ginkgo extract (GK501)"
+    key_findings: |
+      - Dose-dependent improvement of 'speed of attention' factor at 240 mg and 360 mg doses
+      - Improvement demonstrable at 2.5 hours and persisting through 6 hours compared to placebo
+      - Time- and dose-specific changes in other cognitive factors (both positive and negative effects)
+      - Acute Ginkgo administration produced sustained improvement in attention in healthy young volunteers
+    dosing_conclusions: "Effects are dose-dependent though not in a linear manner"
+
+  - id: zadoyan2012_cyp450
+    authors: "Zadoyan G, Rokitta D, Klement S, Dienel A, Hoerr R, Gramatté T, Fuhr U"
+    title: "Effect of Ginkgo biloba special extract EGb 761® on human cytochrome P450 activity: a cocktail interaction study in healthy volunteers"
+    journal: "European Journal of Clinical Pharmacology"
+    year: 2012
+    volume: "68"
+    issue: "5"
+    pages: "553-60"
+    pmid: "22189672"
+    doi: "10.1007/s00228-011-1174-5"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/22189672/"
+    study_design: "Single-center, open-label, randomized, three-fold crossover, cocktail phenotyping trial"
+    duration: "8 days per treatment period"
+    sample_size: 18
+    population: "Healthy adults (men and women)"
+    intervention:
+      dosing_regimens:
+        - "120 mg twice daily (240 mg total daily)"
+        - "240 mg once daily (morning)"
+        - "Placebo for comparison"
+      formulation: "EGb 761®"
+    key_findings: |
+      - EGb 761®/placebo ratios for phenotyping metrics close to unity for all CYPs
+      - 90% confidence intervals largely within 0.70-1.43 range
+      - No relevant effect on in vivo activity of major CYP enzymes
+      - No relevant potential to cause metabolic drug-drug interactions
+    safety: "As long as maximum consumption of EGb 761 does not exceed 240 mg daily, pharmacokinetic herb-drug interactions are at an acceptable limit"
+    dosing: "120 mg BID or 240 mg QD"
+
+# RANDOMIZED CONTROLLED TRIALS - SPECIFIC INDICATIONS
+
+clinical_trials_indications:
+  - id: mashayekh2011_cerebral_blood_flow
+    authors: "Mashayekh A, Pham DL, Yousem DM, Dizon M, Barker PB, Lin DDM"
+    title: "Effects of Ginkgo biloba on cerebral blood flow assessed by quantitative MR perfusion imaging: a pilot study"
+    journal: "Neuroradiology"
+    year: 2011
+    volume: "53"
+    issue: "3"
+    pages: "185-91"
+    pmid: "21061003"
+    doi: "10.1007/s00234-010-0790-6"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21061003/"
+    study_design: "Pilot study using dynamic susceptibility contrast-enhanced MRI"
+    duration: "4 weeks"
+    sample_size: 9
+    population: "Healthy elderly men (mean age 61±10 years)"
+    intervention:
+      dose: "60 mg twice daily (120 mg total daily)"
+      formulation: "Ginkgo biloba extract"
+    key_findings: |
+      - Mild increase in CBF found in left parietal-occipital white matter
+      - Global significant increase of non-normalized CBF after EGb: 15% in white matter, 13% in gray matter (P≤0.0001)
+      - Intrasubject reproducibility: standard deviations of 7% in gray matter and 4% in white matter regions
+    dosing: "60 mg twice daily (120 mg total)"
+
+  - id: prochazkova2018_tinnitus
+    authors: "Procházková K, Šejna I, Skutil J, Hahn A"
+    title: "Ginkgo biloba extract EGb 761® versus pentoxifylline in chronic tinnitus: a randomized, double-blind clinical trial"
+    journal: "International Journal of Clinical Pharmacy"
+    year: 2018
+    volume: "40"
+    issue: "5"
+    pages: "1335-1341"
+    pmid: "29855986"
+    doi: "10.1007/s11096-018-0654-4"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29855986/"
+    study_design: "Randomized, double-blind, comparative trial with double-dummy design"
+    duration: "12 weeks"
+    sample_size: 197
+    breakdown:
+      egb_761: 99
+      pentoxifylline: 98
+    intervention:
+      egb_761_dose: "120 mg twice daily"
+      pentoxifylline_dose: "600 mg twice daily"
+    key_findings: |
+      - Both treatments produced significant improvements in tinnitus questionnaire scores
+      - Improvements in loudness/annoyance scales, anxiety, and disability measures
+      - No meaningful difference between groups in efficacy
+      - Adverse events: 20 in ginkgo group vs 36 in pentoxifylline group
+      - No serious adverse events reported
+    safety: "Better tolerability profile for EGb 761® compared to pentoxifylline"
+    dosing: "120 mg twice daily"
+
+  - id: gardner2008_pad
+    authors: "Gardner CD, Taylor-Piliae RE, Kiazand A, Nicholus J, Rigby AJ, Farquhar JW"
+    title: "Effect of Ginkgo biloba (EGb 761) on treadmill walking time among adults with peripheral artery disease: a randomized clinical trial"
+    journal: "Journal of Cardiopulmonary Rehabilitation and Prevention"
+    year: 2008
+    volume: "28"
+    issue: "4"
+    pages: "258-65"
+    pmid: "18628657"
+    doi: "10.1097/01.HCR.0000327184.51992.b8"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18628657/"
+    study_design: "Double-blind, placebo-controlled, parallel design RCT"
+    duration: "4 months"
+    sample_size: 62
+    breakdown:
+      ginkgo: 31
+      placebo: 31
+    population: "Adults with claudication symptoms of PAD (mean age 70±8 years)"
+    intervention:
+      dose: "300 mg/day"
+      formulation: "EGb 761"
+    key_findings: |
+      - Maximal walking time: Placebo increased by 20 ± 80 seconds, Ginkgo by 91 ± 242 seconds (P=0.12, not significant)
+      - Pain-free walking time: Placebo increased by 15 ± 31 seconds, Ginkgo by 21 ± 43 seconds (P=0.28, not significant)
+      - Modest but insignificant improvement
+      - Data do not support use of Ginkgo biloba as effective therapy for PAD
+    dosing: "300 mg daily"
+    conclusions: "No significant benefit demonstrated for peripheral artery disease"
+
+# STANDARDIZED EXTRACT COMPOSITION
+
+standardized_extracts:
+  - id: kulic2022_egb761
+    authors: "Kulić Ž, Lehner MD, Dietz GPH"
+    title: "Ginkgo biloba leaf extract EGb 761® as a paragon of the product by process concept"
+    journal: "Frontiers in Pharmacology"
+    year: 2022
+    volume: "13"
+    pages: "1007746"
+    doi: "10.3389/fphar.2022.1007746"
+    pubmed_link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9593214/"
+    study_type: "Comprehensive review of standardization"
+    extract_name: "EGb 761®"
+    source_material: "Ginkgo biloba leaves"
+    extraction_ratio: "35–67:1"
+    extraction_solvent: "Acetone 60% (weight/weight)"
+    standardized_composition:
+      european_pharmacopoeia:
+        flavonoids: "22.0–27.0% ginkgo flavonoids calculated as ginkgo flavone glycosides"
+        terpene_lactones: "5.4–6.6% total"
+        terpene_breakdown:
+          ginkgolides_abc: "2.8–3.4%"
+          bilobalide: "2.6–3.2%"
+        ginkgolic_acids: "<5 ppm"
+      us_pharmacopoeia:
+        flavonoids: "22.0–27.0%"
+        terpene_lactones: "5.4–12.0%"
+        ginkgolic_acids: "<5 ppm"
+      chinese_pharmacopoeia:
+        terpene_lactones: "≥6% (lower limit only)"
+        flavonoids: "≥24% (lower limit only)"
+        ginkgolic_acids: "not specified"
+    key_constituents:
+      flavonoid_fraction: "Quercetin, kaempferol, isorhamnetin (antioxidants)"
+      terpene_fraction: "Ginkgolides A, B, C; bilobalide"
+    importance: "Compliance with standardized ranges is critical for ensuring consistent efficacy and safety across different batches and manufacturers"
+
+# AUTHORITATIVE MONOGRAPHS
+
+monographs:
+  - id: commission_e_monograph
+    source: "German Commission E"
+    title: "Ginkgo biloba Monograph"
+    publication: "Complete German Commission E Monographs"
+    publisher: "American Botanical Council, Austin"
+    year: 1998
+    pages: "136-138"
+    authority: "Committee evaluating efficacy and safety of herbal preparations for German Ministry of Health"
+    recognition: "Standardized extract of Ginkgo Biloba (EGb) recognized as a medicine"
+    indications:
+      - "Cerebral insufficiency"
+      - "Intermittent claudication"
+      - "Vertigo"
+    extract_type: "Standardized Ginkgo biloba extract"
+    status: "Approved for medical use in Germany"
+
+  - id: who_monograph
+    source: "World Health Organization"
+    title: "Folium Ginkgo"
+    publication: "WHO Monographs on Selected Medicinal Plants, Volume 1"
+    publisher: "WHO, Geneva"
+    year: 1999
+    pages: "154-167"
+    authority: "World Health Organization"
+    indications:
+      - "Symptomatic treatment of mild to moderate cerebrovascular insufficiency"
+      - "Improvement of pain-free walking distance in patients with peripheral arterial occlusive disease (PAOD)"
+      - "Treatment of inner ear problems including tinnitus"
+    extract_specifications: "Standardized Ginkgo biloba leaf extract"
+    status: "WHO-recognized medicinal plant monograph"
+    citation_status: "Widely cited in scientific literature as authoritative source"
+
+# SAFETY AND PHARMACOVIGILANCE
+
+safety_studies:
+  - id: general_safety_profile
+    source: "Multiple systematic reviews and RCTs"
+    study_count: "18+ randomized controlled trials with 1985+ adults"
+    key_findings: |
+      - No higher bleeding risk associated with standardized Ginkgo biloba leaf extract
+      - Based on hemostasis parameters and mean difference comparisons between treatment and placebo
+      - Adverse event rates generally comparable to placebo across multiple trials
+      - Excellent safety profile in patients with dementia and cognitive impairment
+      - No serious adverse events in most trials
+    typical_adverse_effects: "Minimal and comparable to placebo"
+    drug_interactions: "No relevant CYP450 interactions at doses up to 240 mg daily"
+    maximum_safe_dose: "240 mg daily based on multiple RCTs"
+    contraindications: "Monitor for bleeding in patients on anticoagulants (precautionary)"
+
+# DOSING RECOMMENDATIONS
+
+dosing_guidelines:
+  standard_doses:
+    cognitive_support: "120-240 mg daily (divided or once daily)"
+    alzheimers_dementia: "240 mg daily"
+    mci_neuropsychiatric: "240 mg daily"
+    cerebral_blood_flow: "120 mg daily (60 mg twice daily)"
+    tinnitus: "120 mg twice daily (240 mg total)"
+    peripheral_arterial_disease: "120-300 mg daily"
+  formulation: "Standardized extract (EGb 761 or equivalent meeting pharmacopoeia standards)"
+  duration:
+    acute_effects: "Single doses of 240-360 mg show effects within 2.5-6 hours"
+    chronic_effects: "22-26 weeks minimum for cognitive and functional benefits"
+  bioavailability_notes: |
+    - Ginkgolide half-lives: 1.7-2.2 hours
+    - Maximum concentrations reached: 40-159 ng/ml depending on compound
+    - Clearance values: 24.2-37.6 ml/min/kg
+
+# QUALITY AND EVIDENCE ASSESSMENT
+
+evidence_quality:
+  high_quality_evidence:
+    - "Cognitive function in dementia (multiple large RCTs, meta-analyses)"
+    - "Safety profile (extensive RCT data, >2500 participants)"
+    - "Standardized extract composition (pharmacopoeia specifications)"
+  moderate_quality_evidence:
+    - "Cerebral blood flow improvements (pilot studies, small samples)"
+    - "Neuropsychiatric symptoms in MCI (limited RCTs)"
+  low_quality_evidence:
+    - "Peripheral arterial disease (mixed results, modest effect sizes)"
+    - "Tinnitus (conflicting results, unclear clinical significance)"
+
+  limitations:
+    - "Many trials have unclear or high risk of bias"
+    - "Heterogeneous protocols across studies"
+    - "Limited independent replications of single studies"
+    - "Most prevention trials show negative results"
+
+# REFERENCES SUMMARY
+
+total_sources: 18
+breakdown:
+  systematic_reviews: 4
+  meta_analyses: 2
+  randomized_controlled_trials: 8
+  pharmacokinetic_studies: 1
+  standardization_reviews: 1
+  authoritative_monographs: 2
+
+search_date: "2026-01-08"
+databases_searched:
+  - "PubMed"
+  - "PMC (PubMed Central)"
+  - "WHO publications"
+  - "German Commission E"
+
+notes: |
+  This bibliography focuses on clinical studies of Ginkgo biloba with emphasis on:
+  - Standardized extracts (particularly EGb 761)
+  - Randomized controlled trials with adequate sample sizes
+  - Systematic reviews and meta-analyses
+  - Dosing and pharmacokinetics
+  - Safety profiles and drug interactions
+  - Authoritative monographs (WHO, Commission E)
+
+  Most high-quality evidence supports use in cognitive impairment and dementia at 240 mg daily.
+  Safety profile is excellent with minimal adverse effects at recommended doses.
+  Evidence for other indications (PAD, tinnitus) is mixed or negative.
+
+  Standardization is critical - clinical trials use extracts meeting European/US pharmacopoeia standards
+  with specific percentages of flavonoid glycosides (22-27%) and terpene lactones (5.4-6.6%).

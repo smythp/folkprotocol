@@ -1,0 +1,824 @@
+---
+botanical_name: Zingiber officinale Roscoe
+common_name: Ginger
+family: Zingiberaceae
+part_used: Rhizome
+bibliography_created: 2026-01-08
+
+# SYSTEMATIC REVIEWS AND META-ANALYSES
+
+systematic_reviews:
+  - id: anh_2020
+    type: Systematic Review
+    title: "Ginger on Human Health: A Comprehensive Systematic Review of 109 Randomized Controlled Trials"
+    authors:
+      - Nguyen Hoang Anh
+      - Sun Jo Kim
+      - Nguyen Phuoc Long
+      - Jung Eun Min
+      - Young Cheol Yoon
+      - Eun Goo Lee
+      - Mina Kim
+      - Tae Joon Kim
+      - Yoon Young Yang
+      - Eui Young Son
+      - Sang Jun Yoon
+      - Nguyen Co Diem
+      - Hyung Min Kim
+      - Sung Won Kwon
+    year: 2020
+    journal: Nutrients
+    volume: 12
+    issue: 1
+    pubmed_id: 31935866
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/31935866/
+    rcts_analyzed: 109
+    quality_assessment: "Only 43 trials (39.4%) met high quality of evidence criteria"
+    key_findings:
+      - "Strong evidence for efficacy in: nausea and vomiting in pregnancy, inflammation, metabolic syndromes, digestive function, and colorectal cancer markers"
+      - "Other expected functions were relatively controversial"
+      - "Significant shortcomings: small populations and unstandardized evaluation systems"
+    dosage_examined: "Ranges of adopted dosage varied across trials"
+
+  - id: rafieipour_2024
+    type: Systematic Review and Meta-Analysis
+    title: "Ginger intervention on body weight and body composition in adults: a GRADE-assessed systematic review and dose-response meta-analysis of 27 randomized controlled trials"
+    authors:
+      - Nastaran Rafieipour
+      - Negin Gharbi
+      - Homan Rahimi
+      - Atefeh Kohansal
+      - Hamed Sadeghi-Dehsahraei
+      - Marjan Fadaei
+      - Marzieh Tahmasebi
+      - Seyed Aref Momeni
+      - Navid Ostovar
+      - Mohammad Ahmadi
+      - Sara Sadeghi Majd
+      - Mohsen Mohammadi-Sartang
+    year: 2024
+    journal: Nutrition Reviews
+    pubmed_id: 38261398
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38261398/
+    rcts_analyzed: 27
+    sample_size: 1309
+    key_findings:
+      body_weight_reduction: "-1.52 kg"
+      bmi_reduction: "-0.58 kg/m²"
+      waist_circumference_reduction: "-1.04 cm"
+      body_fat_reduction: "-0.87%"
+    dosing:
+      effective_dose: "2 g/day"
+      optimal_duration: ">8 weeks"
+      dose_response: "Nonlinear dose-response relationship"
+
+  - id: lin_2024
+    type: Systematic Review and Meta-Analysis
+    title: "Efficacy and Safety of Ginger on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-analysis of Randomized Controlled Trials"
+    authors:
+      - Ching-Yi Lin
+      - Sih-Huan Huang
+      - Ka-Wai Tam
+      - Tsai-Wei Huang
+      - Made Satya Nugraha Gautama
+    year: 2025
+    published_online: "April 2024"
+    journal: Cancer Nursing
+    pubmed_id: 38625733
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38625733/
+    rcts_analyzed: 35
+    intervention_types:
+      - "22 trials: ginger capsules"
+      - "13 trials: ginger-partitioned moxibustion"
+    key_findings:
+      ginger_capsules_with_antiemetics:
+        - "Grade 3 acute nausea reduction: RR 0.19 (p < 0.001)"
+        - "High-grade vomiting reduction: RR 0.47 (p = 0.01)"
+      ginger_partitioned_moxibustion:
+        - "Mild vomiting reduction: RR 0.56 (p = 0.001)"
+        - "Severe vomiting reduction: RR 0.39 (p < 0.00001)"
+      adverse_effects: "Only 2.8% of patients experienced dizziness"
+    recommendation: "Initiate ginger supplements before chemotherapy with standard antiemetics"
+
+  - id: morvaridzadeh_2020
+    type: Systematic Review and Meta-Analysis
+    title: "Effect of ginger (Zingiber officinale) on inflammatory markers: A systematic review and meta-analysis of randomized controlled trials"
+    authors:
+      - Morvaridzadeh M
+      - Fazelian S
+      - Agah S
+      - Khazdouz M
+      - Rahimlou M
+      - Agh F
+      - Potter E
+      - Heshmati S
+      - Heshmati J
+    year: 2020
+    journal: Cytokine
+    volume: 135
+    pubmed_id: 32763761
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32763761/
+    rcts_analyzed: 16
+    sample_size: 1010
+    key_findings:
+      inflammatory_markers:
+        crp:
+          effect: "Significant reduction"
+          smd: -5.11
+          ci_95: "[-7.91, -2.30]"
+        hs_crp:
+          effect: "Substantial decrease"
+          smd: -0.88
+          ci_95: "[-1.63, -0.12]"
+        tnf_alpha:
+          effect: "Notable reduction"
+          smd: -0.85
+          ci_95: "[-1.48, -0.21]"
+        il_6:
+          effect: "No significant impact"
+          smd: -0.45
+          ci_95: "[-1.29, 0.38]"
+
+  - id: jalali_2020
+    type: Systematic Review and Meta-Analysis
+    title: "The effects of ginger supplementation on markers of inflammatory and oxidative stress: A systematic review and meta-analysis of clinical trials"
+    authors:
+      - Mohammad Jalali
+      - Marzieh Mahmoodi
+      - Seyedeh Parisa Moosavian
+      - Ronak Jalali
+      - Gordon Ferns
+      - Abdolhamid Mosallanezhad
+      - Mohammad Hadi Imanieh
+      - Zahra Mosallanezhad
+    year: 2020
+    journal: Phytotherapy Research
+    volume: 34
+    issue: 8
+    pubmed_id: 32147845
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32147845/
+    studies_analyzed: 25
+    articles_reviewed: 20
+    key_findings:
+      - "Total antioxidant capacity (TAC): increased"
+      - "Malondialdehyde (MDA): reduced"
+      - "C-reactive protein (CRP): significantly decreased"
+      - "TNF-α: significantly reduced"
+      - "IL-6: significantly reduced"
+      - "Prostaglandin E2 (PGE2): marginally significant reduction"
+    heterogeneity: "High heterogeneity disappeared in subgroup analysis by age, duration, dosage, and quality"
+
+  - id: daily_2015
+    type: Systematic Review and Meta-Analysis
+    title: "Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea: A Systematic Review and Meta-analysis of Randomized Clinical Trials"
+    authors:
+      - James W Daily
+      - Xin Zhang
+      - Da Sol Kim
+      - Sunmin Park
+    year: 2015
+    journal: Pain Medicine
+    volume: 16
+    issue: 12
+    pages: "2243-2255"
+    pubmed_id: 26177393
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/26177393/
+    rcts_analyzed: 4
+    studies_reviewed: 7
+    key_findings:
+      pain_reduction:
+        risk_ratio: -1.85
+        ci_95: "[-2.87, -0.84]"
+        p_value: 0.0003
+    dosing:
+      dose_range: "750-2000 mg ginger powder"
+      timing: "During first 3-4 days of menstrual cycle"
+    quality: "Six of seven RCTs exhibited low to moderate risk of bias"
+
+  - id: hasani_2019
+    type: Systematic Review and Meta-Analysis
+    title: "Does ginger supplementation lower blood pressure? A systematic review and meta-analysis of clinical trials"
+    authors:
+      - Hossein Hasani
+      - Arman Arab
+      - Amir Hadi
+      - Makan Pourmasoumi
+      - Abed Ghavami
+      - Maryam Miraghajani
+    year: 2019
+    journal: Phytotherapy Research
+    volume: 33
+    issue: 6
+    pubmed_id: 30972845
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30972845/
+    rcts_analyzed: 6
+    sample_size: 345
+    key_findings:
+      systolic_bp_reduction: "-6.36 mmHg"
+      systolic_ci_95: "[-11.27, -1.46]"
+      diastolic_bp_reduction: "-2.12 mmHg"
+      diastolic_ci_95: "[-3.92, -0.31]"
+    dosing:
+      effective_dose: "≥3 g/day"
+      optimal_duration: "≤8 weeks"
+      optimal_age: "≤50 years"
+
+  - id: chang_2019
+    type: Meta-Analysis and Systematic Review
+    title: "Does the Oral Administration of Ginger Reduce Chemotherapy-Induced Nausea and Vomiting?: A Meta-analysis of 10 Randomized Controlled Trials"
+    authors:
+      - Wen P Chang
+      - Yu X Peng
+    year: 2019
+    journal: Cancer Nursing
+    volume: 42
+    issue: 6
+    pubmed_id: 30299420
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30299420/
+    rcts_analyzed: 10
+    key_findings:
+      overall_efficacy:
+        odds_ratio: 0.71
+        ci_95: "[0.54-0.94]"
+        p_value: 0.015
+      acute_cinv:
+        odds_ratio: 0.60
+        ci_95: "[0.42-0.86]"
+        p_value: 0.006
+      acute_vomiting:
+        odds_ratio: 0.58
+        ci_95: "[0.37-0.94]"
+        p_value: 0.025
+    dosing:
+      dose_range: "0.5-2.0 g/day"
+      formulations: "Capsules, extracts, powdered root, 6-gingerol, shogaols"
+    conclusion: "Significant efficacy for acute CINV, less effective for delayed symptoms"
+
+  - id: bartels_2015
+    type: Meta-Analysis
+    title: "Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis of randomized placebo-controlled trials"
+    authors:
+      - E M Bartels
+      - V N Folmer
+      - H Bliddal
+      - R D Altman
+      - C Juhl
+      - S Tarp
+      - W Zhang
+      - R Christensen
+    year: 2015
+    journal: Osteoarthritis and Cartilage
+    volume: 23
+    issue: 1
+    pubmed_id: 25300574
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/25300574/
+    trials_analyzed: 5
+    sample_size: 593
+    key_findings:
+      pain_reduction:
+        smd: -0.30
+        ci_95: "[-0.50 to -0.09]"
+        p_value: 0.005
+        significance: "Statistically significant"
+      disability_reduction:
+        smd: -0.22
+        ci_95: "[-0.39 to -0.04]"
+        p_value: 0.01
+        significance: "Statistically significant"
+      safety:
+        discontinuation_risk: "RR 2.33 (1.04 to 5.22), p=0.04"
+        interpretation: "Patients given ginger were more than twice as likely to discontinue treatment compared to placebo"
+    conclusion: "Modestly efficacious and reasonably safe"
+    evidence_quality: "Moderate"
+
+  - id: ding_2013
+    type: Systematic Review
+    title: "The effectiveness and safety of ginger for pregnancy-induced nausea and vomiting: a systematic review"
+    authors:
+      - Mingshuang Ding
+      - Matthew Leach
+      - Helen Bradley
+    year: 2013
+    journal: Women Birth
+    volume: 26
+    issue: 1
+    pubmed_id: 22951628
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/22951628/
+    trials_analyzed: 4
+    key_findings:
+      efficacy: "Orally administered ginger significantly more effective than placebo in reducing frequency of vomiting and intensity of nausea"
+      adverse_events: "Generally mild and infrequent"
+      research_gaps:
+        - "Uncertainty regarding maximum safe dosage"
+        - "Appropriate duration of treatment"
+        - "Consequences of over-dosage"
+        - "Potential drug-herb interactions"
+    conclusion: "Safe and effective treatment for pregnancy-related nausea and vomiting"
+
+  - id: chen_2021
+    type: Meta-Analysis and Systematic Review
+    title: "The efficacy of ginger for the treatment of migraine: A meta-analysis of randomized controlled studies"
+    authors:
+      - Liyan Chen
+      - Zhiyou Cai
+    year: 2021
+    journal: American Journal of Emergency Medicine
+    volume: 39
+    pubmed_id: 33293189
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33293189/
+    rcts_analyzed: 3
+    key_findings:
+      pain_free_at_2h:
+        rr: 1.79
+        ci_95: "[1.04-3.09]"
+        p_value: 0.04
+        interpretation: "Substantially improved"
+      pain_score_reduction_at_2h:
+        md: -1.27
+        ci_95: "[-1.46 to -1.07]"
+        p_value: "<0.00001"
+      treatment_response:
+        rr: 2.04
+        ci_95: "[0.35-11.94]"
+        p_value: 0.43
+        interpretation: "No obvious impact"
+      nausea_vomiting: "Obviously lower incidence in ginger group than control"
+    safety: "No significant differences in total adverse events"
+
+# PHARMACOKINETIC AND BIOAVAILABILITY STUDIES
+
+pharmacokinetic_studies:
+  - id: zick_2008
+    type: Clinical Trial - Pharmacokinetics
+    title: "Pharmacokinetics of 6-gingerol, 8-gingerol, 10-gingerol, and 6-shogaol and conjugate metabolites in healthy human subjects"
+    authors:
+      - Suzanna M Zick
+      - Zora Djuric
+      - Mack T Ruffin
+      - Amie J Litzinger
+      - Daniel P Normolle
+      - Sara Alrawi
+      - Meihua Rose Feng
+      - Dean E Brenner
+    year: 2008
+    journal: Cancer Epidemiology, Biomarkers & Prevention
+    volume: 17
+    issue: 8
+    pages: "1930-1936"
+    pubmed_id: 18708382
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/18708382/
+    sample_size: 27
+    study_design: "Dose-escalation clinical trial"
+    doses_tested: "100 mg, 250 mg, 500 mg, 1000 mg, 1500 mg, 2000 mg"
+    extract_standardization: "5% gingerols in capsule formulation"
+    key_findings:
+      bioavailability: "No free compounds detected; only glucuronide and sulfate conjugate metabolites detected"
+      cmax_at_2g:
+        six_gingerol: "0.85 ± 0.43 µg/mL"
+        eight_gingerol: "0.23 ± 0.16 µg/mL"
+        ten_gingerol: "0.53 ± 0.40 µg/mL"
+        six_shogaol: "0.15 ± 0.12 µg/mL"
+      tmax: "65-75 minutes across all compounds"
+      half_life: "<2 hours"
+      auc:
+        six_gingerol: "65.6 ± 44.4 µg·hr/mL"
+        eight_gingerol: "18.1 ± 20.3 µg·hr/mL"
+        ten_gingerol: "50.1 ± 49.3 µg·hr/mL"
+        six_shogaol: "10.9 ± 13.0 µg·hr/mL"
+      compound_content_at_1g:
+        six_gingerol: "21.52 mg"
+        eight_gingerol: "7.20 mg"
+        ten_gingerol: "16.76 mg"
+        six_shogaol: "3.68 mg"
+    safety: "No serious adverse effects reported up to 2.0 g"
+
+  - id: yu_2011
+    type: Randomized Controlled Trial - Pharmacokinetics
+    title: "Examination of the pharmacokinetics of active ingredients of ginger in humans"
+    authors:
+      - Yanke Yu
+      - Suzanna Zick
+      - Xiaoqin Li
+      - Peng Zou
+      - Benjamin Wright
+      - Duxin Sun
+    year: 2011
+    journal: AAPS Journal (American Association of Pharmaceutical Scientists)
+    volume: 13
+    issue: 3
+    pubmed_id: 21638149
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/21638149/
+    sample_size: 8
+    dose: "2.0 g ginger extract (oral)"
+    key_findings:
+      ten_gingerol:
+        cmax: "9.5 ± 2.2 ng/mL"
+        tmax: "1 hour"
+      six_shogaol:
+        cmax: "13.6 ± 6.9 ng/mL"
+        tmax: "1 hour"
+      six_gingerol: "Not detected in plasma"
+      eight_gingerol: "Not detected in plasma"
+      metabolites: "Glucuronide and sulfate conjugates detected with higher concentrations than free compounds"
+      half_life: "1-3 hours"
+      tissue_distribution: "Very low concentrations in colon tissues; minimal accumulation after repeated dosing"
+
+  - id: levita_2018
+    type: Pharmacokinetic Study
+    title: "Pharmacokinetics of 10-gingerol and 6-shogaol in the plasma of healthy subjects treated with red ginger (Zingiber officinale var. Rubrum) suspension"
+    authors:
+      - Jutti Levita
+      - Dina Mulyana Syafitri
+      - Rini Daud Supu
+      - Mutakin Mutakin
+      - Sandra Megantara
+      - Maya Febrianti
+      - Ajeng Diantini
+    year: 2018
+    journal: Biomedical Reports
+    volume: 9
+    issue: 6
+    pages: "474-482"
+    pubmed_id: 30546874
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30546874/
+    sample_size: 19
+    dose: "2 g/15 mL red ginger suspension (single dose)"
+    key_findings:
+      ten_gingerol:
+        cmax: "160.49 ng/mL"
+        tmax: "38 minutes"
+        half_life: "336 minutes"
+      six_shogaol:
+        cmax: "453.40 ng/mL"
+        tmax: "30 minutes"
+        half_life: "149 minutes"
+    conclusion: "Both compounds demonstrated absorption and relatively slow elimination half-lives"
+
+# RANDOMIZED CONTROLLED TRIALS - BY INDICATION
+
+rcts_dysmenorrhea:
+  - id: rahnama_2012
+    type: Randomized Controlled Trial
+    title: "Effect of Zingiber officinale R. rhizomes (ginger) on pain relief in primary dysmenorrhea: a placebo randomized trial"
+    authors:
+      - Parvin Rahnama
+      - Ali Montazeri
+      - Hassan Fallah Huseini
+      - Saeed Kianbakht
+      - Mohsen Naseri
+    year: 2012
+    journal: BMC Complementary and Alternative Medicine
+    volume: 12
+    pubmed_id: 22781186
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/22781186/
+    study_design: "Randomized controlled trial, double-blind"
+    sample_size: 120
+    groups:
+      placebo: 46
+      ginger: 56
+    dose: "500 mg capsules of ginger root powder, three times daily"
+    protocols:
+      protocol_1: "Treatment beginning 2 days before menstruation through day 3 (5 days total)"
+      protocol_2: "Treatment only during first 3 menstrual days"
+    key_findings:
+      pain_severity:
+        protocol_1: "Significant difference (p = 0.015)"
+        protocol_2: "Significant difference (p = 0.029)"
+      pain_duration:
+        protocol_1: "Significant difference (p = 0.017)"
+
+rcts_osteoarthritis:
+  - id: baek_2024
+    type: Randomized Controlled Trial
+    title: "Effectiveness and safety of steamed ginger extract on mild osteoarthritis: a randomized, double-blind, placebo-controlled clinical trial"
+    authors:
+      - Hyang-Im Baek
+      - Lei Shen
+      - Ki-Chan Ha
+      - Yu Kyung Park
+      - Cha Soon Kim
+      - Jeong Eun Kwon
+      - Soo Jung Park
+    year: 2024
+    journal: Food & Function
+    pubmed_id: 39212491
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39212491/
+    study_design: "Randomized, double-blind, placebo-controlled"
+    sample_size: 100
+    dose: "0.48 g/day steamed ginger extract (GGE03) within 1.6 g/day total product"
+    duration: "12 weeks"
+    key_findings:
+      outcomes: "Pain VAS, K-WOMAC (total and sub-scores), and PGA decreased in statistically significant manner vs placebo"
+      safety: "No significant changes in any safety endpoint"
+
+rcts_migraine:
+  - id: maghbooli_2014
+    type: Randomized Controlled Trial
+    title: "Comparison between the efficacy of ginger and sumatriptan in the ablative treatment of the common migraine"
+    authors:
+      - Mehdi Maghbooli
+      - Farhad Golipour
+      - Alireza Moghimi Esfandabadi
+      - Mehran Yousefi
+    year: 2014
+    journal: Phytotherapy Research
+    volume: 28
+    issue: 3
+    pubmed_id: 23657930
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/23657930/
+    study_design: "Double-blinded randomized controlled trial"
+    sample_size: 100
+    condition: "Acute migraine without aura"
+    comparison: "Ginger powder vs Sumatriptan"
+    key_findings:
+      efficacy: "Two hours after using either drug, mean headache severity decreased significantly with comparable effectiveness"
+      adverse_effects: "Clinical adverse effects of ginger powder were less than sumatriptan"
+      patient_satisfaction: "Did not differ between groups"
+    conclusion: "Ginger poses a better side effect profile than sumatriptan"
+
+  - id: martins_2019
+    type: Randomized Controlled Trial
+    title: "Double-blind placebo-controlled randomized clinical trial of ginger (Zingiber officinale Rosc.) addition in migraine acute treatment"
+    authors:
+      - Laís Bhering Martins
+      - Ana Maria Dos Santos Rodrigues
+      - Débora Fernandes Rodrigues
+      - Luana Caroline Dos Santos
+      - Antônio Lúcio Teixeira
+      - Adaliene Versiani Matos Ferreira
+    year: 2019
+    journal: Cephalalgia
+    volume: 39
+    issue: 1
+    pubmed_id: 29768938
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29768938/
+    study_design: "Double-blind placebo-controlled randomized clinical trial"
+    sample_size: 60
+    dose: "400 mg ginger extract (5% active ingredient) + 100 mg ketoprofen"
+    comparison: "Placebo + 100 mg ketoprofen"
+    key_findings:
+      at_1_hour: "p = 0.04"
+      at_1_5_hours: "p = 0.01"
+      at_2_hours: "p = 0.04"
+    conclusion: "Significantly better clinical response and reduction in pain with improved functional status at all times assessed"
+
+# OFFICIAL MONOGRAPHS AND PHARMACOPOEIAS
+
+official_monographs:
+  - id: who_1999
+    type: WHO Monograph
+    title: "Rhizome Zingiberis"
+    source: "WHO Monographs on Selected Medicinal Plants, Volume 1"
+    publisher: World Health Organization
+    location: Geneva
+    year: 1999
+    pages: "277-287"
+    url: "http://apps.who.int/medicinedocs/en/d/Js2200e/"
+    botanical_name: "Zingiber officinale Roscoe"
+    family: Zingiberaceae
+    part_used: "Underground stems or rhizomes"
+    traditional_uses:
+      - Anti-inflammatory
+      - Antioxidant
+      - Anti-emetic
+      - Analgesic
+      - Antimicrobial
+    historical_use: "Used as spice and medicine for over 200 years in Traditional Chinese Medicine"
+
+  - id: commission_e_germany
+    type: German Commission E Monograph
+    title: "Zingiber officinale (Ginger)"
+    source: "Complete German Commission E Monographs"
+    regulatory_body: "German Commission E"
+    country: Germany
+    reference_pubmed_id: 12946242
+    reference_link: https://pubmed.ncbi.nlm.nih.gov/12946242/
+    status: "Approved for use by Germany's Commission E"
+    botanical_name: "Zingiber officinale Roscoe"
+    part_used: "Whole or cut rhizome"
+    approved_uses:
+      - Motion sickness prevention
+      - Nausea management
+      - Postoperative nausea
+      - Digestive complaints
+    note: "Referenced in Alternative Medicine Review 2003; 8(3):331-5"
+
+  - id: ema_monograph
+    type: European Medicines Agency Monograph
+    title: "Community Herbal Monograph on Zingiber officinale Roscoe, rhizoma"
+    regulatory_body: "European Medicines Agency (EMA), Committee on Herbal Medicinal Products (HMPC)"
+    region: "European Union"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+    botanical_name: "Zingiber officinale Roscoe"
+    part_used: Rhizome
+    approved_uses_adults:
+      - "Prevention of nausea and vomiting in motion sickness"
+      - "Treatment of mild gastrointestinal complaints (bloating, flatulence)"
+    approved_uses_children: "Treatment of motion sickness symptoms (ages 6 and above)"
+    basis: "Long-standing traditional use"
+
+  - id: usp_monograph
+    type: United States Pharmacopeia Monograph
+    title: "Ginger"
+    source: "United States Pharmacopeia (USP)"
+    publisher: "United States Pharmacopeial Convention"
+    year: 1998
+    url: "https://doi.usp.org/USPNF/USPNF_M34965_02_01.html"
+    botanical_name: "Zingiber officinale Roscoe"
+    family: Zingiberaceae
+    description: "Dried rhizome, scraped, partially scraped, or unscraped"
+    quality_standard: "Unbleached ginger (scraped or unscraped) accepted as medicinal-grade"
+    volatile_oil_requirement: "≥1.5%"
+    reference_standards:
+      - "USP Capsaicin RS"
+      - "USP Ginger Constituent Mixture RS"
+      - "USP Powdered Ginger RS"
+
+  - id: british_herbal_compendium
+    type: British Herbal Compendium Monograph
+    title: "Ginger (Zingiber officinale)"
+    source: "British Herbal Compendium, Volume I"
+    publisher: "British Herbal Medicine Association"
+    year: 1992
+    pages: "114-116"
+    botanical_name: "Zingiber officinale Roscoe"
+    british_pharmacopoeia_definition: "Rhizome of Zingiber officinale Roscoe scraped or unscraped, known in commerce as unbleached ginger"
+
+# SAFETY AND TOXICOLOGY
+
+safety_studies:
+  - id: functional_dyspepsia_safety
+    title: "Evaluation of Adverse Effects and Tolerability of Dietary Ginger Supplementation in Patients With Functional Dyspepsia"
+    pubmed_id: 40474983
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40474983/
+    key_findings:
+      tolerability: "Well tolerated with mild and transient adverse effects"
+      adverse_effects:
+        bloating: "14.9%"
+        heartburn: "12.8%"
+        diarrhea: "10.6%"
+      discontinuations: "None of these adverse events necessitated discontinuation"
+
+  - id: general_safety_profile
+    source: "Multiple systematic reviews and RCTs"
+    references:
+      - 31935866
+      - 25300574
+      - 22951628
+    key_findings:
+      oral_toxicity_rats: "No adverse effects up to 5000 mg/kg"
+      chronic_noael_rats: "1000 mg/kg body weight"
+      human_clinical_trials:
+        - "12-week trial with 70 healthy obese participants: 200 mg/day steamed ginger extract - all clinical tests normal, all participants completed study"
+        - "Up to 2.0 g ginger extract (5% gingerols): no serious adverse effects"
+      common_adverse_effects:
+        - "Gastrointestinal discomfort"
+        - "Heartburn"
+        - "Allergic reactions (rare)"
+      pregnancy_safety: "Adverse events generally mild and infrequent; considered safe and effective for pregnancy-related nausea and vomiting"
+      osteoarthritis_note: "Patients given ginger were more than twice as likely to discontinue treatment compared to placebo (RR 2.33), though ginger was modestly efficacious and reasonably safe"
+
+# STANDARDIZED EXTRACTS AND DOSING
+
+standardized_extracts:
+  - extract_type: "Ginger powder (dried rhizome)"
+    typical_dose_range: "500 mg - 2000 mg per day"
+    divided_doses: "Usually 2-3 times daily"
+    indications:
+      - Dysmenorrhea
+      - Nausea
+      - Osteoarthritis
+
+  - extract_type: "Ginger extract standardized to 5% gingerols"
+    typical_doses:
+      - "200-400 mg per dose"
+      - "Up to 2000 mg per day"
+    indications:
+      - Migraine
+      - Chemotherapy-induced nausea
+      - Inflammatory conditions
+
+  - extract_type: "Steamed ginger extract (GGE03)"
+    typical_dose: "480 mg per day"
+    indication: "Osteoarthritis"
+
+  - extract_type: "Red ginger suspension"
+    typical_dose: "2 g/15 mL"
+    indication: "General use, pharmacokinetic studies"
+
+# DOSING BY INDICATION
+
+dosing_by_indication:
+  dysmenorrhea:
+    dose: "500-1000 mg, three times daily"
+    form: "Ginger root powder capsules"
+    timing: "Starting 2 days before menstruation through day 3, or first 3 days only"
+    evidence_level: "Strong (multiple RCTs)"
+
+  chemotherapy_induced_nausea:
+    dose: "500 mg - 2000 mg per day"
+    form: "Ginger capsules or extract"
+    timing: "Before and during chemotherapy with standard antiemetics"
+    evidence_level: "Strong (multiple meta-analyses)"
+
+  pregnancy_nausea:
+    dose: "750-2000 mg per day"
+    form: "Ginger powder, divided doses"
+    safety_note: "Consider safe, but maximum safe dosage not fully established"
+    evidence_level: "Good (systematic reviews)"
+
+  body_weight_management:
+    optimal_dose: "2 g per day"
+    duration: ">8 weeks"
+    evidence_level: "Moderate (meta-analysis of 27 RCTs)"
+
+  blood_pressure:
+    dose: "≥3 g per day"
+    duration: "≤8 weeks"
+    patient_profile: "Age ≤50 years"
+    evidence_level: "Moderate (meta-analysis of 6 RCTs)"
+
+  migraine_acute_treatment:
+    dose: "400 mg ginger extract (5% active ingredient)"
+    timing: "As add-on to standard treatment at onset"
+    evidence_level: "Moderate (RCTs)"
+
+  migraine_prophylaxis:
+    dose: "200 mg dry extract (5% active ingredient), three times daily"
+    duration: "3 months"
+    evidence_level: "Low (limited efficacy vs placebo)"
+
+  osteoarthritis:
+    dose: "480 mg - 2000 mg per day"
+    form: "Steamed ginger extract or ginger powder"
+    duration: "12 weeks"
+    evidence_level: "Moderate (meta-analysis, RCTs)"
+    note: "Higher discontinuation rates than placebo"
+
+  inflammatory_markers:
+    dose: "Variable (examined across multiple dosing protocols)"
+    duration: "Variable"
+    evidence_level: "Good (multiple meta-analyses)"
+    note: "Effects on CRP, hs-CRP, TNF-α demonstrated"
+
+# KEY ACTIVE CONSTITUENTS
+
+active_constituents:
+  primary_gingerols:
+    - name: "6-gingerol"
+      content_at_1g_extract: "21.52 mg (in 5% standardized extract)"
+      bioavailability: "Extensively metabolized; detected only as glucuronide/sulfate conjugates"
+      pharmacokinetics:
+        cmax: "0.85 ± 0.43 µg/mL (at 2g dose)"
+        tmax: "65-75 minutes"
+        half_life: "<2 hours"
+
+    - name: "8-gingerol"
+      content_at_1g_extract: "7.20 mg"
+      bioavailability: "Detected as conjugates only"
+      pharmacokinetics:
+        cmax: "0.23 ± 0.16 µg/mL (at 2g dose)"
+        tmax: "65-75 minutes"
+        half_life: "<2 hours"
+
+    - name: "10-gingerol"
+      content_at_1g_extract: "16.76 mg"
+      bioavailability: "Some free form detected in plasma"
+      pharmacokinetics:
+        cmax_free: "9.5 ± 2.2 ng/mL to 160.49 ng/mL (varies by study/formulation)"
+        tmax: "38-60 minutes"
+        half_life: "1-3 hours (up to 336 min in some studies)"
+
+  shogaols:
+    - name: "6-shogaol"
+      content_at_1g_extract: "3.68 mg"
+      bioavailability: "Some free form detected in plasma"
+      pharmacokinetics:
+        cmax_free: "13.6 ± 6.9 ng/mL to 453.40 ng/mL (varies by study/formulation)"
+        tmax: "30-60 minutes"
+        half_life: "149-180 minutes"
+      note: "Higher concentrations detected than gingerols in some studies"
+
+  volatile_oils:
+    requirement_usp: "≥1.5% in medicinal-grade ginger"
+
+# NOTES AND CONSIDERATIONS
+
+notes:
+  - "Gingerols and shogaols undergo extensive first-pass metabolism; primarily appear as glucuronide and sulfate conjugates rather than free forms"
+  - "Standardized extracts typically contain 5% gingerols for clinical use"
+  - "Dose-response relationships appear nonlinear for some indications"
+  - "Safety profile generally favorable; most adverse effects are mild gastrointestinal symptoms"
+  - "Evidence quality varies: strongest for nausea/vomiting, inflammation, and metabolic effects"
+  - "Maximum safe dosage and long-term safety in pregnancy require further study"
+  - "Traditional use spans over 200 years, with modern clinical evidence supporting many traditional applications"
+  - "Steaming or drying processes can alter gingerol-to-shogaol ratios"
+
+bibliography_compiled_by: "Claude (Anthropic)"
+compilation_date: "2026-01-08"
+source_databases:
+  - PubMed
+  - WHO
+  - European Medicines Agency
+  - United States Pharmacopeia
+  - German Commission E

@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-ioiu",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T23:16:54.204622",
+  "created_by": "unknown",
+  "title": "Build Cross-Reference System",
+  "content": "## Context\nContent uses [[wiki-style]] cross-references but we need infrastructure to track and create missing content.\n\n## Requirements\n\n### 1. Stub Generation\nWhen [[materia/marshmallow]] referenced but doesn't exist:\n- Auto-generate stub page with:\n  - Title\n  - \"This page is a stub\"\n  - List of pages that reference it\n  - Priority score based on reference count\n\n### 2. Needed Content Tracking\nCreate needed-content.md that lists:\n- Missing pages by reference count\n- Broken links\n- Orphan pages (no incoming links)\n\n### 3. Implementation\n```python\n# Find all cross-references\ngrep -r '\\[\\[.*\\]\\]' content/ | extract_links()\n\n# Check existence\nfor link in links:\n    if not exists(link):\n        create_stub(link)\n        add_to_needed(link)\n\n# Priority scoring\nscore = reference_count * recency_weight\n```\n\n## Deliverables\n- Script to scan and generate stubs\n- needed-content.md auto-updated\n- GitHub action to check on commit\n- Dashboard showing content coverage",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:794fe03bb8edccc97f57a1af77f383bab3e7a07cc659ee480818c89ee03983df"
+}

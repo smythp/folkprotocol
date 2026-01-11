@@ -1,0 +1,17 @@
+{
+  "folio_id": "friction-20251229-py8n",
+  "type": "friction",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T17:38:57.558306",
+  "created_by": "barnaby-1229-1",
+  "title": "shard tender command failed - shard-review site doesn't exist in folk-protocol SKEIN. Unable to c...",
+  "content": "shard tender command failed - shard-review site doesn't exist in folk-protocol SKEIN. Unable to complete standard shard workflow (tender \u2192 review \u2192 merge). Workaround: manual commit + completion. Friction: agents working in shards can't signal 'ready for review' via SKEIN.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:9b01571f23638ef6bef95cef6ee5eef3819a6bb854419a96216e781dbc3a8e6e"
+}

@@ -1,0 +1,465 @@
+---
+herb: Valerian
+scientific_name: Valeriana officinalis L.
+bibliography_type: clinical_and_regulatory
+last_updated: 2025-12-31
+
+# Systematic Reviews and Meta-Analyses
+systematic_reviews:
+  - citation:
+      authors: "Shinjyo N, Waddell G, Green J"
+      title: "Valerian Root in Treating Sleep Problems and Associated Disorders—A Systematic Review and Meta-Analysis"
+      journal: "Journal of Evidence-Based Integrative Medicine"
+      year: 2020
+      volume: "25"
+      pages: "2515690X20967323"
+      pmid: "33086877"
+      doi: "10.1177/2515690X20967323"
+    study_details:
+      studies_included: 60
+      total_participants: 6894
+      meta_analyses_performed:
+        - "Subjective sleep quality (10 studies, n=1065)"
+        - "Anxiety reduction (8 studies, n=535)"
+      key_findings:
+        - "Inconsistent outcomes possibly due to variable quality of herbal extracts"
+        - "More reliable effects from whole root/rhizome preparations"
+        - "No severe adverse events in subjects aged 7-80 years"
+        - "Valerian appears safe and effective for sleep and anxiety support"
+      quality_concerns: "Variable extract quality and standardization across studies"
+
+  - citation:
+      authors: "Bent S, Padula A, Moore D, Patterson M, Mehling W"
+      title: "Valerian for sleep: a systematic review and meta-analysis"
+      journal: "American Journal of Medicine"
+      year: 2006
+      volume: "119"
+      issue: "12"
+      pages: "1005-12"
+      pmid: "17145239"
+      doi: "10.1016/j.amjmed.2006.02.026"
+    study_details:
+      studies_included: 16
+      total_participants: 1093
+      key_findings:
+        - "Statistically significant benefit for sleep (6 studies reporting dichotomous outcomes)"
+        - "Relative risk of improved sleep = 1.8 (95% CI: 1.2-2.9)"
+        - "Evidence of publication bias"
+        - "Valerian might improve sleep quality without side effects"
+      limitations:
+        - "Most studies had methodological weaknesses"
+        - "High variability in preparations and dosing"
+
+  - citation:
+      authors: "Fernández-San-Martín MI, Masa-Font R, Palacios-Soler L, Sancho-Gómez P, Calbó-Caldentey C, Flores-Mateo G"
+      title: "Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials"
+      journal: "Sleep Medicine"
+      year: 2010
+      volume: "11"
+      issue: "6"
+      pages: "505-511"
+      pmid: "20347389"
+      doi: "10.1016/j.sleep.2009.12.009"
+    study_details:
+      studies_included: 18
+      high_quality_studies: 8 # Jadad score 5
+      key_findings:
+        - "Sleep latency: no significant difference vs placebo (MD 0.70 min, 95% CI: -3.44 to 4.83)"
+        - "Subjective quality improvement: RR 1.37 vs placebo"
+        - "No significant objective/quantitative improvements demonstrated"
+        - "Effective for subjective improvement but not objective measures"
+
+# Randomized Controlled Trials
+clinical_trials:
+  - citation:
+      authors: "Shekhar HC, Joshua L, Thomas JV"
+      title: "Standardized Extract of Valeriana officinalis Improves Overall Sleep Quality in Human Subjects with Sleep Complaints: A Randomized, Double-Blind, Placebo-Controlled, Clinical Study"
+      journal: "Advances in Therapy"
+      year: 2024
+      volume: "41"
+      issue: "1"
+      pages: "246-261"
+      pmid: "37899385"
+      doi: "10.1007/s12325-023-02708-6"
+    study_details:
+      design: "Randomized, double-blind, placebo-controlled, parallel trial"
+      duration: "8 weeks"
+      participants: 80 # 72 completed
+      intervention: "Standardized Valeriana officinalis extract"
+      outcomes:
+        primary:
+          - "PSQI Total Score decreased significantly (p<0.05) vs placebo on days 14, 28, 56"
+        secondary:
+          - "Reduced sleep latency"
+          - "Improved sleep efficiency"
+          - "Decreased anxiety scores"
+          - "Lower daytime drowsiness"
+          - "Enhanced feeling of refreshment upon waking"
+      safety: "No adverse events reported"
+      extract_type: "Standardized extract"
+
+  - citation:
+      authors: "Zare Elmi HK, Gholami M, Saki M, Ebrahimzadeh F"
+      title: "Efficacy of Valerian Extract on Sleep Quality after Coronary Artery bypass Graft Surgery: A Triple-Blind Randomized Controlled Trial"
+      journal: "Chinese Journal of Integrative Medicine"
+      year: 2021
+      volume: "27"
+      issue: "1"
+      pages: "7-15"
+      pmid: "33420602"
+      doi: "10.1007/s11655-020-2727-1"
+    study_details:
+      design: "Triple-blind randomized controlled trial"
+      duration: "30 nights"
+      participants: 72 # n=36 valerian, n=36 placebo
+      dosing: "530 mg valerian extract capsules daily"
+      population: "Post-CABG surgery patients"
+      outcomes:
+        - "Significant improvements in total sleep quality"
+        - "Reduced sleep latency"
+        - "Increased sleep duration"
+        - "Improved sleep efficiency"
+        - "Reduced daytime dysfunction"
+      conclusion: "Oral valerian root extract safely improved sleep quality after CABG surgery"
+
+  - citation:
+      authors: "Roh D, Jung JH, Yoon KH, Lee CH, Kang LY, Lee SK, Shin K, Kim DH"
+      title: "Valerian extract alters functional brain connectivity: A randomized double-blind placebo-controlled trial"
+      journal: "Phytotherapy Research"
+      year: 2019
+      volume: "33"
+      issue: "4"
+      pages: "939-948"
+      pmid: "30632220"
+      doi: "10.1002/ptr.6286"
+    study_details:
+      design: "Randomized double-blind placebo-controlled trial"
+      duration: "4 weeks"
+      participants: 64 # nonclinical volunteers with psychological stress
+      dosing: "100 mg valerian root extract (VRE) three times daily"
+      measurement: "EEG functional brain connectivity"
+      outcomes:
+        - "Significantly greater increases in frontal alpha coherence (4 electrode pairs) vs placebo"
+        - "Significantly greater decreases in theta coherence (4 electrode pairs)"
+        - "Alpha coherence changes correlated with anxiety reduction"
+        - "Distinctive neurophysiological changes measurable via EEG"
+
+# Pharmacokinetics and Bioavailability Studies
+pharmacokinetics:
+  - citation:
+      authors: "Anderson GD, Elmer GW, Kantor ED, Templeton IE, Vitiello MV"
+      title: "Pharmacokinetics of valerenic acid after administration of valerian in healthy subjects"
+      journal: "Phytotherapy Research"
+      year: 2005
+      volume: "19"
+      issue: "9"
+      pages: "801-803"
+      pmid: "16220575"
+      doi: "10.1002/ptr.1742"
+    study_details:
+      participants: 6 # healthy adults aged 22-61
+      dosing: "Single 600 mg valerian dose"
+      marker_compound: "Valerenic acid"
+      parameters:
+        tmax: "1-2 hours (5 of 6 subjects)"
+        cmax: "0.9-2.3 ng/mL"
+        t_half: "1.1 ± 0.6 hours"
+        auc: "4.80 ± 2.96 µg/mL·h"
+        detection_window: "At least 5 hours post-dose"
+      key_findings:
+        - "Peak timing consistent with standard dosage recommendation (30 min-2 h before bedtime)"
+        - "No correlation between AUC and age or weight"
+        - "Considerable inter-subject variability"
+
+  - citation:
+      authors: "Anderson GD, Elmer GW, Taibi DM, Vitiello MV, Kantor E, Kalhorn TF, Howald WN, Barsness S, Landis CA"
+      title: "Pharmacokinetics of valerenic acid after single and multiple doses of valerian in older women"
+      journal: "Phytotherapy Research"
+      year: 2010
+      volume: "24"
+      issue: "10"
+      pages: "1442-6"
+      pmid: "20878691"
+      doi: "10.1002/ptr.3151"
+    study_details:
+      population: "Older women"
+      design: "Single dose vs 2 weeks repeated dosing"
+      marker_compound: "Valerenic acid"
+      parameters:
+        comparison: "No statistically significant difference in Cmax, Tmax, AUC, t½, oral clearance between single and multiple dosing"
+        variability: "Large inter- and intra-subject variability in all PK parameters"
+        weight_correlation: "Body weight inversely correlated with concentration and half-life"
+        capsule_consistency: "Excellent (variance <2.3%)"
+      key_findings:
+        - "Large PK variability may contribute to inconsistencies in therapeutic effect"
+        - "No accumulation with repeated dosing"
+        - "Individual differences may explain variable clinical responses"
+
+  - citation:
+      authors: "Not specified in search results"
+      title: "Pharmacokinetics of valerenic acid after intravenous and oral administrations (rat study)"
+      journal: "Mentioned in PubMed"
+      year: 2012
+      pmid: "22411722"
+      note: "Animal study"
+    study_details:
+      species: "Rats"
+      routes: "Intravenous and oral"
+      key_findings:
+        - "Biphasic disposition after IV administration"
+        - "Distribution phase half-life: 6-12 minutes"
+        - "Terminal elimination phase: 6-46 hours"
+        - "Suggests possible large tissue binding"
+
+# Safety and Toxicity Studies
+safety_studies:
+  - citation:
+      authors: "Bao H, Pan X, Tao Q, Zhang G, Ding W, Li G, Peng D, Du B, Li P"
+      title: "Safety evaluation of aqueous extract from Valeriana officinalis L. roots: Genotoxicity, acute, subchronic and teratology toxicity"
+      journal: "Journal of Ethnopharmacology"
+      year: 2024
+      volume: "335"
+      pages: "118687"
+      pmid: "39128798"
+      doi: "10.1016/j.jep.2024.118687"
+    study_details:
+      tests_performed:
+        genotoxicity:
+          - "Bacterial reverse mutation (Ames test)"
+          - "Mouse erythrocyte micronucleus test"
+          - "In vitro mammalian cell chromosome aberration test"
+        acute_toxicity: "14-day oral toxicity in mice at 96 g/kg body weight"
+        subchronic_toxicity: "90-day oral toxicity in rats at 0, 3.5, 7, 14 g/kg body weight"
+        teratogenicity: "Testing in pregnant rats at same dose levels"
+      results:
+        genotoxicity: "No genotoxicity detected in any assay"
+        acute: "No deaths or behavioral abnormalities at highest dose"
+        subchronic: "No dose-related effects on clinical observation, body weight, organ weight, hematology, serum biochemistry, urinalysis"
+        teratogenicity: "No significant toxicological changes in embryonic formation or fetal development"
+        noael: "≥14 g/kg body weight"
+      conclusion: "Aqueous extract demonstrated excellent safety profile across all toxicity endpoints"
+
+  - citation:
+      authors: "Yao M, Ritchie HE, Brown-Woodman PD"
+      title: "A developmental toxicity-screening test of valerian"
+      journal: "Journal of Ethnopharmacology"
+      year: 2007
+      volume: "113"
+      issue: "2"
+      pages: "204-209"
+      pmid: "17611059"
+      doi: "10.1016/j.jep.2007.05.028"
+    study_details:
+      design: "Rat developmental toxicity study"
+      dosing: "Valerian extract in 45% ethanol on gestation days 1-8 or 8-15"
+      assessment: "Fetuses, placentae, ovaries examined on gestation day 20"
+      dose_levels: "Up to 65x human equivalent dose"
+      results:
+        in_vivo: "No adverse effects on fertility or fetal development"
+        maternal: "No maternal toxicity signs"
+        embryo_culture: "Toxicity observed in cultured embryos (day 10.5, 26h exposure)"
+      conclusion: "No reproductive toxicity at high doses in vivo, though extract composition (valepotriate levels) may affect outcomes"
+
+  - citation:
+      source: "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+      title: "Valerian"
+      database: "NCBI Bookshelf"
+      url: "https://www.ncbi.nlm.nih.gov/books/NBK548255/"
+      likelihood_score: "C (probable rare cause)"
+    hepatotoxicity_details:
+      incidence: "Rare"
+      latency: "3-12 weeks post-initiation"
+      pattern: "Hepatocellular or mixed hepatocellular-cholestatic"
+      severity: "Mild-to-moderate in most cases"
+      case_reports:
+        severe_case:
+          patient: "57-year-old woman"
+          timing: "Within 3 weeks of herbal blend containing valerian"
+          presentation: "Jaundice, marked elevations (bilirubin 18.4 mg/dL, ALT 1165 U/L)"
+          progression: "Ascites and hepatic encephalopathy despite discontinuation"
+          recovery: "10 months with incomplete normalization, biopsy-confirmed fibrosis"
+      typical_recovery: "2-4 months, self-limiting"
+      chronic_outcomes: "No cases of chronic hepatitis, cirrhosis, or acute liver failure attributed to valerian alone"
+      note: "Severe cases typically involved concurrent hepatotoxic herbs (skullcap, black cohosh)"
+      mechanism: "Unknown; no specific compound identified as hepatotoxic"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "World Health Organization (WHO)"
+    title: "WHO Monographs on Selected Medicinal Plants, Volume 1"
+    year: 1999
+    location: "Geneva"
+    herb: "Valeriana officinalis L."
+    content_type: "Comprehensive monograph on valerian root"
+    status: "Key reference document cited by multiple health authorities"
+    note: "Full document not directly accessible in search, but widely referenced"
+
+  - authority: "European Medicines Agency (EMA)"
+    title: "European Union herbal monograph on Valeriana officinalis L., radix"
+    document_type: "Community herbal monograph"
+    year: 2016 # superseded version; final version date TBD
+    url: "https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix"
+    preparations:
+      - "Valerian root (Valerianae radix)"
+      - "Valerian dry hydroalcoholic extract"
+      - "Valerian tincture"
+    status: "Official EU regulatory standard for valerian medicinal products"
+
+  - authority: "German Commission E"
+    title: "Commission E Monograph: Valerian root"
+    publication: "The Complete German Commission E Monographs: Therapeutic Guide to Herbal Medicines"
+    publisher: "American Botanical Council, Austin, TX"
+    expanded_version:
+      publication: "Herbal Medicine: Expanded Commission E Monographs"
+      publisher: "Integrative Medicine Communications, Newton, MA"
+      year: 2000
+      pages: "394-400"
+      url: "http://cms.herbalgram.org/expandedE/Valerianroot.html"
+    dosing:
+      tincture: "1-3 mL single dose"
+      fluid_extract: "2-3 mL single dose"
+    content: "107 monographs including chemistry, pharmacology, dosage & administration, references"
+
+  - authority: "Pharmacopoeia entries"
+    regions:
+      - name: "United States Pharmacopeia (USP)"
+        monographs:
+          - "Valerian"
+          - "Powdered Valerian"
+          - "Powdered Valerian Extract"
+          - "Valerian Tablets"
+        reference_standard: "Powdered Valerian Extract RS available (USP-1707931)"
+      - name: "European Pharmacopoeia (Ph. Eur.)"
+        monographs:
+          - "Valerian Root"
+          - "Valerian Dry Hydroalcoholic Extract"
+          - "Valerian Tincture"
+        analytical_method: "Preferred for valerenic acid analysis"
+        official_species: "V. officinalis"
+      - name: "British Pharmacopoeia (BP)"
+        monographs:
+          - "Valerian"
+      - name: "Other national pharmacopoeias"
+        included_in:
+          - "Belgium"
+          - "France"
+          - "Germany"
+          - "Italy"
+          - "Switzerland"
+          - "Japan (Japanese Pharmacopoeia)"
+    note: "Valerian well-established in all major pharmacopoeias with specific quality standards"
+
+  - authority: "American Herbal Pharmacopoeia (AHP)"
+    title: "Valerian Root monograph"
+    year: 1999
+    month: "April"
+    url: "https://www.barnys.cz/img/cms/certifikaty/valerian_USApharmacopeia.pdf"
+    content_type: "Comprehensive quality standards and specifications"
+
+  - authority: "Health Canada"
+    title: "Natural Health Product Monograph: Valerian (Valeriana officinalis)"
+    url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/monoReq.do?id=177&lang=eng"
+    compliance_options: "May comply with BP, EP, or USP specifications"
+    status: "Official Canadian regulatory guidance"
+
+# Dosing and Standardization
+dosing_information:
+  traditional_dosing:
+    - preparation: "Dried root/rhizome"
+      dose_range: "2-3 g"
+      frequency: "Multiple times daily or single dose before bedtime"
+    - preparation: "Tincture (1:5, 45% ethanol)"
+      dose: "1-3 mL"
+    - preparation: "Fluid extract"
+      dose: "2-3 mL"
+    - preparation: "Aqueous extract"
+      dose: "400-900 mg"
+
+  clinical_trial_dosing:
+    - study: "Shekhar 2024"
+      dose: "Standardized extract (dose not specified)"
+      duration: "8 weeks"
+      outcome: "Significant improvement"
+    - study: "Zare Elmi 2021"
+      dose: "530 mg valerian extract capsules"
+      frequency: "Daily for 30 nights"
+      outcome: "Significant improvement"
+    - study: "Roh 2019"
+      dose: "100 mg valerian root extract"
+      frequency: "Three times daily"
+      duration: "4 weeks"
+      outcome: "EEG changes, anxiety reduction"
+    - study: "Anderson 2005 PK study"
+      dose: "600 mg single dose"
+      note: "Standard PK reference dose"
+
+  standardization_considerations:
+    marker_compound: "Valerenic acid"
+    quality_issues:
+      - "Variable extract quality affects clinical outcomes"
+      - "Whole root/rhizome preparations may be more reliable than isolated extracts"
+      - "Valepotriate content varies by preparation method and stability"
+      - "European Pharmacopoeia method preferred for valerenic acid analysis"
+    recommendations:
+      - "Use standardized preparations from reputable manufacturers"
+      - "Follow pharmacopoeial quality standards (USP, EP, BP)"
+      - "Consider whole root preparations for more consistent effects"
+
+# Key Research Gaps and Recommendations
+research_needs:
+  - "Long-term safety studies (>6 months)"
+  - "Standardization of preparations and dosing across trials"
+  - "Clarification of active constituents and mechanisms"
+  - "Resolution of pharmacokinetic variability and clinical implications"
+  - "Head-to-head comparisons of whole root vs standardized extracts"
+  - "Identification of optimal marker compounds for quality control"
+  - "Studies with adequate sample sizes and rigorous methodology"
+  - "Investigation of hepatotoxicity mechanism and risk factors"
+
+# Summary Points
+summary:
+  efficacy:
+    - "Moderate evidence for subjective sleep quality improvement"
+    - "Limited evidence for objective sleep parameter improvements"
+    - "Possible anxiolytic effects"
+    - "Variable clinical outcomes likely due to extract quality differences"
+    - "Whole root/rhizome preparations may be more reliable"
+
+  safety:
+    - "Generally well-tolerated with minimal adverse effects"
+    - "No severe adverse events in subjects aged 7-80 years"
+    - "Rare hepatotoxicity reported (likelihood score C)"
+    - "No reproductive or developmental toxicity at high doses"
+    - "No genotoxicity demonstrated"
+    - "Long-term safety data lacking"
+
+  pharmacokinetics:
+    - "Peak valerenic acid levels at 1-2 hours post-dose"
+    - "Elimination half-life ~1 hour"
+    - "No accumulation with repeated dosing"
+    - "High inter- and intra-subject variability"
+    - "Variability may explain inconsistent clinical effects"
+
+  quality_control:
+    - "Well-established in major pharmacopoeias (USP, EP, BP)"
+    - "Multiple standardized preparations available"
+    - "Valerenic acid used as marker compound"
+    - "Quality variability remains a clinical concern"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2025-12-31)"
+  - "European Medicines Agency (EMA) herbal medicines database"
+  - "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+  - "Commission E Monographs via American Botanical Council"
+  - "Health Canada Natural Health Products database"
+  - "Pharmacopoeia references (USP, EP, BP, AHP)"
+
+# Notes
+notes:
+  - "This bibliography focuses on clinical studies, pharmacokinetic data, safety profiles, and regulatory standards"
+  - "Traditional use information and phytochemistry details intentionally limited per scope"
+  - "Most recent comprehensive systematic review: Shinjyo et al. 2020"
+  - "No systematic reviews from 2023-2025 identified in searches"
+  - "Evidence quality varies considerably across studies"
+  - "Standardization and quality control remain significant challenges"

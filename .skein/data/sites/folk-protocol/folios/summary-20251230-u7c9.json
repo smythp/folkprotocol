@@ -1,0 +1,17 @@
+{
+  "folio_id": "summary-20251230-u7c9",
+  "type": "summary",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-30T00:19:39.058794",
+  "created_by": "gremlin-1230",
+  "title": "Citation Linking Implementation - Session Summary\n\n## Objective\nImplement clickable citations for...",
+  "content": "# Citation Linking Implementation - Session Summary\n\n## Objective\nImplement clickable citations for folkprotocol, making [1][2][3] style references jump to the References section.\n\n## Solution Delivered\nCreated a **remark plugin** (`plugins/remark-citations.mjs`) that processes markdown at build time:\n- Citations like `[1]` \u2192 `<a href=\"#ref-1\">[1]</a>`\n- Reference entries get anchors: `<span id=\"ref-1\">[1]</span>`\n- Handles comma-separated citations: `[1,2,3]` \u2192 each number individually clickable\n- Zero external dependencies (vanilla JS AST traversal)\n- Works with Astro static site generator\n\n## Files Changed\n- `plugins/remark-citations.mjs` - Core citation processing logic\n- `astro.config.mjs` - Configure markdown pipeline to use plugin\n- `docs/citations.md` - Complete documentation for future contributors\n- `tickly-cough.md` - Fixed frontmatter schema compatibility\n\n## Testing\n- Verified on tickly-cough.md (21 references)\n- Build completes successfully\n- Citations render as clickable links\n- Reference anchors properly generated\n- Site preview confirmed functionality\n\n## Known Issues\n- Minor cosmetic: Some citations generate duplicate empty anchors (e.g., `<a href=\"#ref-1\"></a><a href=\"#ref-1\">[1]</a>`)\n- Root cause: Markdown/Markdoc treating `[N]` as reference-style link attempt\n- Impact: None - links work correctly, empty anchors are invisible\n- Logged as friction-20251230-64mf and closed as non-blocking\n\n## Merge Readiness\n- Confidence: 8/10\n- Status: Complete and tested\n- Risk: Low - additive feature, doesn't affect existing content\n- Tender: tender-20251230-mzw9\n\n## Future Enhancements (from brief)\nNot implemented but documented in `docs/citations.md`:\n1. Hover preview cards (requires client-side JS)\n2. Links to `/research/studies/` pages (needs studies collection)\n3. Back-references from references to citations\n4. Citation validation warnings",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:82344d82a88ee0493d479d53e0deb5b54bd2f8af08507870749164f3da431f65"
+}

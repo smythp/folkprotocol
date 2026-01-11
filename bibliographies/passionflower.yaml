@@ -1,0 +1,499 @@
+---
+# Passionflower (Passiflora incarnata) Clinical Bibliography
+# Compiled: 2026-01-08
+# Focus: Clinical trials, systematic reviews, dosing, bioavailability, safety, standardized extracts
+
+systematic_reviews:
+  - id: janda_2020
+    title: "Passiflora incarnata in Neuropsychiatric Disorders-A Systematic Review"
+    authors:
+      - Katarzyna Janda
+      - Karolina Wojtkowska
+      - Karolina Jakubczyk
+      - Justyna Antoniewicz
+      - Karolina Skonieczna-Żydecka
+    year: 2020
+    journal: Nutrients
+    pmid: "33352740"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33352740/"
+    study_type: Systematic Review
+    trials_included: 9
+    key_findings:
+      - "Majority of studies reported reduced anxiety levels following administration of Passiflora incarnata preparations"
+      - "Effect less evident in people with mild anxiety symptoms"
+      - "Study durations ranged from one to 30 days with participants aged 18+"
+      - "No adverse effects observed, including memory loss or collapse of psychometric functions"
+      - "Due to high heterogeneity, it was impossible to perform a meta-analysis"
+    conclusions: "Passionflower preparations may be helpful in treating some symptoms in neuropsychiatric patients, particularly stress-related conditions like anxiety, insomnia, and depression"
+
+  - id: miroddi_2013
+    title: "Passiflora incarnata L.: ethnopharmacology, clinical application, safety and evaluation of clinical trials"
+    authors:
+      - M Miroddi
+      - G Calapai
+      - M Navarra
+      - P L Minciullo
+      - S Gangemi
+    year: 2013
+    journal: Journal of Ethnopharmacology
+    pmid: "24140586"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24140586/"
+    study_type: Systematic Review
+    key_findings:
+      - "Plant showed a good safety profile"
+      - "Preclinical experiments revealed wide spectrum of pharmacological activities: anxiolytic, sedative, antitussive, antiasthmatic, and antidiabetic activities"
+      - "Clinical studies reveal crucial weaknesses: poor details regarding drug extract ratio, limited patient samples, no description of blinding and randomization procedures"
+    conclusions: "New clinical trials should be conducted using a more rigorous methodology to properly evaluate this plant's traditional uses for anxiety and sleep disorders"
+
+  - id: ulbricht_2008
+    title: "An evidence-based systematic review of passion flower (Passiflora incarnata L.) by the Natural Standard Research Collaboration"
+    authors:
+      - Catherine Ulbricht
+      - Ethan Basch
+      - Heather Boon
+      - Kelly Dowhower Karpa
+      - Gerald Gianutsos
+      - Katie Nummy
+      - Erica Seamon
+      - Michael Smith
+      - David Sollars
+      - Shaina Tanguay-Colucci
+      - Minney Varghese
+      - Wendy Weissner
+      - Jen Woods
+    year: 2008
+    journal: Journal of Dietary Supplements
+    pmid: "22432466"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/22432466/"
+    study_type: Systematic Review
+    notes: "Evidence-based methodology for evaluating this herbal remedy across humans and animal studies"
+
+randomized_controlled_trials:
+  anxiety:
+    - id: akhondzadeh_2001_gad
+      title: "Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam"
+      authors:
+        - S Akhondzadeh
+        - H R Naghavi
+        - M Vazirian
+        - A Shayeganpour
+        - H Rashidi
+        - M Khani
+      year: 2001
+      journal: Journal of Clinical Pharmacy and Therapeutics
+      pmid: "11679026"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11679026/"
+      study_type: Double-blind RCT
+      sample_size: 36
+      population: "Outpatients diagnosed with generalized anxiety disorder"
+      intervention:
+        agent: "Passiflora incarnata extract"
+        dose: "45 drops daily"
+        comparator: "Oxazepam 30 mg daily"
+        duration: "4 weeks"
+      key_findings:
+        - "No significant difference was observed between the two protocols in overall efficacy"
+        - "Oxazepam demonstrated faster therapeutic onset"
+        - "Significantly more problems relating to impairment of job performance were encountered with subjects on oxazepam"
+      conclusions: "Passionflower extract showed comparable efficacy to oxazepam without job performance impairment, warrants further investigation through larger-scale trials"
+
+    - id: movafegh_2008
+      title: "Preoperative oral Passiflora incarnata reduces anxiety in ambulatory surgery patients: a double-blind, placebo-controlled study"
+      authors:
+        - Ali Movafegh
+        - Reza Alizadeh
+        - Fatimah Hajimohamadi
+        - Fatimah Esfehani
+        - Mohmad Nejatfar
+      year: 2008
+      journal: Anesthesia and Analgesia
+      pmid: "18499602"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18499602/"
+      study_type: Double-blind, placebo-controlled RCT
+      sample_size: 60
+      population: "Ambulatory surgery patients"
+      intervention:
+        agent: "Passiflora incarnata (Passipy IranDarouk)"
+        dose: "500 mg orally"
+        timing: "90 minutes before surgery"
+        comparator: "Placebo"
+        per_group: 30
+      key_findings:
+        - "Anxiety scores significantly lower in treatment group versus control (P < 0.001)"
+        - "Extract reduces anxiety without inducing sedation"
+        - "Psychomotor recovery was comparable between groups"
+        - "Discharge times were similar"
+      conclusions: "Passiflora functions as an effective anxiolytic for outpatient procedures without sedative effects"
+
+  dental_anxiety:
+    - id: dantas_2017
+      title: "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction"
+      authors:
+        - L-P Dantas
+        - A de Oliveira-Ribeiro
+        - L-M de Almeida-Souza
+        - F-C Groppo
+      year: 2017
+      journal: Med Oral Patol Oral Cir Bucal
+      pmid: "27918731"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27918731/"
+      study_type: Double-blind, crossover RCT
+      sample_size: 40
+      population: "Volunteers undergoing mandibular third molar extraction"
+      intervention:
+        passiflora_dose: "260 mg orally, 30 minutes pre-surgery"
+        midazolam_dose: "15 mg orally, 30 minutes pre-surgery"
+        design: "Crossover (same participants received both interventions)"
+      key_findings:
+        - "Over 70% of volunteers felt quiet or a little anxious under both protocols"
+        - "No significant differences between treatments in blood pressure, heart rate, or oxygen saturation"
+        - "Midazolam caused amnesia in 20% of participants"
+        - "Passiflora showed minimal memory effects"
+        - "Anxiolytic effect similar to midazolam"
+      conclusions: "Passiflora proved safe and effective for conscious sedation"
+
+    - id: kaviani_2013
+      title: "The efficacy of passiflora incarnata linnaeus in reducing dental anxiety in patients undergoing periodontal treatment"
+      authors:
+        - N Kaviani
+        - M Tavakoli
+        - Mr Tabanmehr
+        - Ra Havaei
+      year: 2013
+      journal: J Dent (Shiraz)
+      pmid: "24724122"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24724122/"
+      study_type: Randomized, single-blind clinical trial
+      sample_size: 63
+      population: "Patients undergoing periodontal treatment (3 groups of 21 each)"
+      intervention:
+        agent: "Passion flower extract drops"
+        timing: "Premedication prior to treatment"
+      key_findings:
+        - "Pre-treatment anxiety score: 12.09±2.42"
+        - "Post-treatment anxiety score (passionflower): 8.47±2.58"
+        - "Post-treatment anxiety score (placebo): 10.52±2.11"
+        - "Post-treatment anxiety score (control): 11.23±2.34"
+        - "Significant difference (p< 0.0001) in anxiety levels before and after passionflower administration"
+      conclusions: "Administration of Passion flower as premedication was significantly effective in reducing anxiety"
+
+  opioid_withdrawal:
+    - id: akhondzadeh_2001_opioid
+      title: "Passionflower in the treatment of opiates withdrawal: a double-blind randomized controlled trial"
+      authors:
+        - S Akhondzadeh
+        - L Kashani
+        - M Mobaseri
+        - S H Hosseini
+        - S Nikzad
+        - M Khani
+      year: 2001
+      journal: Journal of Clinical Pharmacy and Therapeutics
+      pmid: "11679027"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11679027/"
+      study_type: Double-blind RCT
+      sample_size: 65
+      population: "Opioid-dependent adults (predominantly male) meeting DSM-IV criteria"
+      intervention:
+        treatment_group: "Passiflora extract (60 drops daily) plus clonidine (maximum 0.8 mg daily in three divided doses)"
+        control_group: "Clonidine plus placebo drops (same dosing)"
+        duration: "14 days"
+      key_findings:
+        - "Both groups showed equal effectiveness for physical withdrawal symptoms"
+        - "Passiflora plus clonidine group showed significant superiority over clonidine alone in management of mental symptoms"
+      conclusions: "Passiflora extract may be an effective adjuvant agent, but larger studies needed to confirm results"
+
+  sleep_studies:
+    - id: lee_2020
+      title: "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study"
+      authors:
+        - Jeewon Lee
+        - Han-Young Jung
+        - Soyoung Irene Lee
+        - Ji Ho Choi
+        - Shin-Gyeom Kim
+      year: 2020
+      journal: International Clinical Psychopharmacology
+      pmid: "31714321"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31714321/"
+      study_type: Double-blind, placebo-controlled RCT
+      sample_size: 110
+      population: "Adult participants (mean age 40.47 ± 11.68 years; 53.6% female)"
+      intervention:
+        agent: "Passionflower extract"
+        comparator: "Placebo"
+        duration: "2 weeks"
+      key_findings:
+        - "Total sleep time increased significantly in passionflower group: 23.05 ± 54.26 vs -0.16 ± 53.12; P = 0.049"
+        - "Sleep efficiency and wake after sleep onset (WASO) showed improvement in passionflower group"
+        - "No statistically significant difference versus placebo for sleep efficiency and WASO"
+      conclusions: "Study demonstrated positive effects of Passionflower on objective sleep parameters including TST on polysomnography"
+
+    - id: ngan_2011
+      title: "A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality"
+      authors:
+        - A Ngan
+        - R Conduit
+      year: 2011
+      journal: Phytotherapy Research
+      pmid: "21294203"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21294203/"
+      study_type: Double-blind, placebo-controlled RCT
+      sample_size: 41
+      population: "Healthy adults ages 18-35; 10 underwent polysomnography"
+      intervention:
+        agent: "Passionflower herbal tea (low dose)"
+        comparator: "Placebo tea"
+        duration: "7 days"
+        design: "Counterbalanced order with 1-week washout"
+      key_findings:
+        - "Sleep quality showed significantly better rating for passionflower: t(40) = 2.70, p < 0.01"
+      conclusions: "Passionflower tea produced short-term subjective sleep benefits for healthy adults with mild fluctuations in sleep quality"
+
+    - id: harit_2024
+      title: "Randomized, Double-Blind, Placebo-Controlled, Clinical Study of Passiflora incarnata in Participants With Stress and Sleep Problems"
+      authors:
+        - Harit MK
+        - Mundhe N
+        - Tamoli S Sr
+        - Pawar V
+        - Bhapkar V
+        - Kolhe G
+        - Mahadik S
+        - Kulkarni A
+        - Agarwal A
+      year: 2024
+      journal: Cureus
+      pmid: "38646244"
+      pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026993/"
+      study_type: Double-blind, placebo-controlled RCT
+      sample_size: 65
+      population: "Participants with stress and sleep problems (32 treatment, 33 placebo)"
+      intervention:
+        agent: "SIVI (Passiflora incarnata aerial parts extract)"
+        dose: "600 mg daily at bedtime"
+        duration: "30 days"
+      key_findings:
+        - "Statistically significant reduction in stress scores versus placebo by day 30"
+        - "Significant increase in mean total sleep time at day 15 and day 30 compared to placebo"
+        - "General health improved significantly on days 15 and 30 using GHQ-12 assessment"
+        - "No adverse effects during study period"
+      conclusions: "600 mg daily SIVI extract effective for stress reduction and sleep improvement with good safety profile"
+
+pharmacology_and_mechanisms:
+  - id: grundmann_2008
+    title: "Anxiolytic activity of a phytochemically characterized Passiflora incarnata extract is mediated via the GABAergic system"
+    authors:
+      - Oliver Grundmann
+      - Jie Wang
+      - Gerard P McGregor
+      - Veronika Butterweck
+    year: 2008
+    journal: Planta Med
+    pmid: "19006051"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19006051/"
+    study_type: In vivo animal study (elevated plus maze test in mice)
+    extract_characterization:
+      method: "HPLC analysis"
+      major_flavonoids:
+        - homoorientin
+        - orientin
+        - vitexin
+        - isovitexin
+    key_findings:
+      - "Passionflower extract exerted anxiolytic effect comparable to diazepam (1.5 mg/kg) at dose of 375 mg/kg"
+      - "First demonstration of in vivo, GABA-mediated anxiolytic activity of characterized passionflower extract"
+      - "Effect effectively antagonized by flumazenil (GABA receptor antagonist)"
+      - "Indicates GABAergic pathway involvement rather than serotonergic mechanisms"
+
+safety_and_toxicity:
+  - id: fisher_2000
+    title: "Toxicity of Passiflora incarnata L"
+    authors:
+      - A A Fisher
+      - P Purcell
+      - D G Le Couteur
+    year: 2000
+    journal: Journal of Toxicology - Clinical Toxicology
+    pmid: "10696928"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/10696928/"
+    study_type: Case Report
+    key_findings:
+      - "34-year-old woman experienced severe nausea, vomiting, drowsiness, prolonged QTc, and episodes of nonsustained ventricular tachycardia"
+      - "Adverse effects occurred at therapeutic doses"
+      - "Required hospitalization for cardiac monitoring and intravenous fluid support"
+      - "Connection between symptoms and herbal remedy not recognized for several days"
+    conclusions: "Passiflora incarnata was associated with significant adverse effects in this patient; highlights importance of asking about herbal medicine use"
+    notes: "Rare case; most studies show good safety profile"
+
+  - id: livertox_2020
+    title: "Passionflower"
+    authors: []
+    year: 2020
+    publication: "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    pmid: "31643352"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31643352/"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK548020/"
+    study_type: Review
+    likelihood_of_liver_injury: "E (unlikely cause of clinically apparent liver injury)"
+    key_findings:
+      - "Passionflower has not been implicated in causing serum enzyme elevations or clinically apparent liver injury"
+      - "Major U.S. prospective study (2004-2013) of 85 cases of herbal/dietary supplement liver injury found passion flower was not implicated in any cases"
+      - "Common side effects: dizziness, sedation, confusion, ataxia (none hepatic)"
+    clinical_cases: "None reported"
+    conclusions: "Despite widespread use, passionflower extracts have not been convincingly linked to clinically apparent liver injury"
+
+regulatory_monographs:
+  - id: ema_assessment_2014
+    title: "Assessment report on Passiflora incarnata L., herba"
+    organization: "European Medicines Agency (EMA), Committee on Herbal Medicinal Products (HMPC)"
+    year: 2014
+    reference: "EMA/HMPC/669738/2013"
+    url: "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-passiflora-incarnata-l-herba_en.pdf"
+    dosing_recommendations:
+      commission_e: "Daily oral dose: 4-8 g or equivalent amount of preparations"
+      who_monographs:
+        sedative_daily_dose: "0.5-2.0 g of aerial parts three to four times"
+        infusion: "2.5 g of aerial parts as an infusion three to four times"
+        tincture: "1.0-4.0 ml tincture (1:8) three to four times"
+      british_herbal_pharmacopoeia_1976:
+        frequency: "3 times daily"
+        infusion: "0.25-1 g"
+        liquid_extract: "0.5-1 ml (1:1 in 25% alcohol)"
+        tincture: "0.5-2 ml (1:8 in 45% alcohol)"
+      hagers_handbuch:
+        daily_dose: "4-8 g crude drug or corresponding extract"
+        tea: "15 g crude drug in 150 ml water"
+    standardization:
+      european_pharmacopoeia: "Minimum 1.5% total flavonoids, expressed as vitexin (dried drug)"
+      extract_specs: "Dry extract prepared with ethanol (40-90% V/V) or methanol (60% V/V), or acetone (40% V/V), containing minimum 2.0% flavonoids expressed as vitexin"
+    pharmacokinetics: "No pharmacokinetic data available regarding passionflower herbal substances/preparations"
+    notes: "Issues of bioavailability, metabolism, and species differences affect clinical correlation"
+
+  - id: ema_community_monograph_2014
+    title: "Community herbal monograph on Passiflora incarnata L., herba"
+    organization: "European Medicines Agency (EMA), Committee on Herbal Medicinal Products (HMPC)"
+    year: 2014
+    reference: "EMA/HMPC/669740/2013"
+    url: "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-passiflora-incarnata-l-herba_en.pdf"
+    indications: "Relief of mild symptoms of mental stress, as a sleep aid, for nervous restlessness, for nervous stomach complaints"
+    traditional_use_criteria: "Based on long-standing use"
+    notes: "Published March 25, 2014"
+
+  - id: commission_e
+    title: "Commission E Monograph: Passionflower"
+    organization: "German Commission E"
+    indications: "Nervous restlessness (possibly associated with pectanginous complaints)"
+    dosing: "Daily dose: 4-8 g"
+    status: "Positive monograph"
+    notes: "Positively assessed the use of passion flower for alleviating nervousness"
+
+  - id: who_monograph
+    title: "WHO Monograph on Passiflora incarnata"
+    organization: "World Health Organization"
+    indications: "Mild symptoms of mental stress, sleep disorders, nervous stomach complaints"
+    status: "Positive monograph"
+
+  - id: escop_monograph
+    title: "ESCOP Monograph: Passiflorae herba (Passionflower herb)"
+    organization: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    url: "https://www.escop.com/downloads/passiflorae-herba-passionflower-herb/"
+    notes: "Selects and summarizes scientific studies and textbooks regarding efficacy, dosage and safety"
+
+pharmacopoeia_status:
+  official_listings:
+    - "European Pharmacopoeia (Ph. Eur. monograph 01/2005:1459)"
+    - "British Pharmacopoeia"
+    - "United States Pharmacopoeia"
+    - "French Pharmacopoeia"
+    - "German Pharmacopoeia"
+    - "Swiss Pharmacopoeia"
+    - "Indian Pharmacopoeia"
+    - "Egyptian Pharmacopoeia"
+  additional_monographs:
+    - "British Herbal Pharmacopoeia (BHP)"
+    - "British Herbal Compendium, Vol. 1"
+    - "German Standard Licenses"
+    - "German Homeopathic Pharmacopoeia"
+    - "Homeopathic Pharmacopoeia of the United States"
+
+standardization_and_bioavailability:
+  standardization:
+    common_standards:
+      - "3.5% flavonoids as vitexin"
+      - "2.5-4% flavonoids as isovitexin"
+      - "European Pharmacopoeia: minimum 1.5% total flavonoids expressed as vitexin"
+    major_flavonoid_compounds:
+      - vitexin
+      - isovitexin
+      - orientin
+      - homoorientin
+      - rutoside
+      - hyperoside
+      - luteolin
+      - kaempferol
+      - kaempferitrin
+      - isoorientin
+    quantitative_content:
+      - "Vitexin: 0.867 ± 0.011%"
+      - "Total flavonoids (as vitexin): 3.762 ± 0.049%"
+      - "Isovitexin: 1.198 g% (major flavonoid in fluidextract)"
+    analytical_methods:
+      technique: "Reverse phase HPLC-UV"
+      column: "Atlantis C18 (250 mm × 4.6 mm × 5 μm)"
+      wavelength: "330 nm (quantification), 350 nm (detection)"
+      mobile_phase: "0.01% formic acid solution and methanol:acetonitrile (25:75)"
+  bioavailability:
+    status: "Lack of pharmacokinetic data"
+    limitations:
+      - "No data on gastrointestinal absorption"
+      - "No data on protein binding"
+      - "No data on plasma clearance"
+      - "Phytochemicals have varying absorption and solubility characteristics"
+    notes: "In vitro and in vivo effects do not always correlate to clinical studies due to bioavailability, metabolism, and species differences"
+
+clinical_evidence_summary:
+  strengths:
+    - "Multiple RCTs demonstrate anxiolytic effects comparable to benzodiazepines"
+    - "Good safety profile with minimal adverse effects in most studies"
+    - "No hepatotoxicity documented despite widespread use"
+    - "No memory impairment unlike benzodiazepines"
+    - "Effective for perioperative anxiety without excessive sedation"
+    - "Positive monographs from WHO, Commission E, ESCOP, EMA"
+    - "Listed in multiple national pharmacopoeias"
+  weaknesses:
+    - "High heterogeneity prevents meta-analysis"
+    - "Many studies have small sample sizes"
+    - "Poor methodological details in some trials (extract ratio, blinding, randomization)"
+    - "No pharmacokinetic data available"
+    - "Lack of standardization across products"
+    - "Clinical evidence remains limited compared to synthetic anxiolytics"
+    - "Optimal dose and frequency not firmly established"
+  typical_doses_used_in_trials:
+    - "45-60 drops daily (liquid extract)"
+    - "260-500 mg orally (standardized extract)"
+    - "600 mg daily (aerial parts extract for sleep/stress)"
+    - "4-8 g daily (crude herb)"
+  adverse_effects:
+    common:
+      - "Drowsiness"
+      - "Dizziness"
+      - "Confusion"
+      - "Ataxia"
+    rare:
+      - "Cardiac effects (prolonged QTc, ventricular tachycardia) - one case report"
+      - "Nausea and vomiting"
+    contraindications:
+      - "Pregnancy (may induce uterine contractions)"
+      - "Use with anesthesia or CNS depressants"
+    drug_interactions:
+      - "May prolong QT interval with large doses"
+      - "Potential interactions with QT-prolonging medications"
+
+notes:
+  - "This bibliography focuses on Passiflora incarnata (purple passionflower), the most studied species"
+  - "Studies show consistent anxiolytic effects across multiple populations"
+  - "Standardization to vitexin or isovitexin content is recommended but not universal"
+  - "GABAergic mechanism established in preclinical studies"
+  - "Clinical utility supported by traditional use and modern clinical trials"
+  - "Further research needed on pharmacokinetics, optimal dosing, and long-term safety"

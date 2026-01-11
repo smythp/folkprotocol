@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-x4f8",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T23:30:04.358867",
+  "created_by": "unknown",
+  "title": "Tone Calibration: Academic to Accessible",
+  "content": "## Problem\nContent reads like a medical journal. Too much jargon, not accessible enough. But we don't want to go back to blog voice.\n\n## Current Examples of Over-Academic Tone\n\n### Too Academic:\n\"A Cochrane review of 6 RCTs (n=899) found honey reduced cough frequency more than no treatment (MD -1.05, 95% CI -1.48 to -0.62)\"\n\n\"Glycyrrhizin has mineralocorticoid-like effects causing hypokalemia, hypertension, cardiac arrhythmia, and myopathy [11]\"\n\n### Better Balance:\n\"A major review of 6 studies with 899 participants found honey reduced cough frequency by about one episode per day compared to no treatment [1]\"\n\n\"Licorice can raise blood pressure and affect heart rhythm due to its active compound glycyrrhizin [11]\"\n\n## Tone Guidelines\n\n### Keep:\n- All citations [1][2][3]\n- Specific numbers (899 participants, 6 studies)\n- Evidence hierarchy (strong/moderate/limited)\n- Dosing specifics\n- Safety warnings with sources\n\n### Simplify:\n- \"RCTs\" \u2192 \"clinical trials\" or \"studies\"\n- \"MD -1.05, 95% CI\" \u2192 \"reduced by about 1 point\" (keep CI in parentheses if needed)\n- \"Mineralocorticoid-like effects\" \u2192 \"affects hormones that control blood pressure\"\n- \"Laryngopharyngeal stimulation\" \u2192 \"throat irritation\"\n- \"I\u00b2=0%\" \u2192 \"very consistent results across studies\"\n\n### Avoid Both Extremes:\n\n\u274c Blog: \"Honey is amazing for cough!\"\n\u274c Academic: \"Heterogeneity analysis revealed I\u00b2=0% indicating minimal inter-study variance\"\n\u2705 Balanced: \"All studies showed similar benefits, making the evidence particularly reliable [1]\"\n\n## Examples to Rewrite\n\n### Mechanisms:\nAcademic: \"Demulcent herbs containing polysaccharides form protective coatings over mucous membranes [6,7]\"\nBalanced: \"Demulcent herbs contain natural compounds that create a protective coating in the throat [6,7]\"\n\n### Statistics:\nAcademic: \"SMD -0.36, 95% CI -0.50 to -0.21\"\nBalanced: \"Small but consistent benefit (effect size -0.36) [2]\"\nOr even: \"Measurable improvement across all studies [2]\"\n\n### Medical Terms:\nAcademic: \"Contraindicated in hypertension, heart failure, pulmonary hypertension\"\nBalanced: \"Not recommended for people with high blood pressure or heart conditions\"\n\n## Implementation\n\n### Stage 3 Prompt Addition:\nAdd tone guidance AFTER citation requirements:\n```\nWrite at an educated lay reader level:\n- Define technical terms on first use\n- Prefer common names over Latin (use Latin in parentheses)\n- Explain mechanisms simply but accurately\n- Keep all numbers and citations\n- Confidence intervals only when emphasizing precision\n```\n\n### Stage 4 QC Addition:\nCheck for jargon density:\n- Flag undefined technical terms\n- Flag excessive use of abbreviations\n- Suggest simpler alternatives\n- Ensure first use includes explanation\n\n## Success Criteria\n- 8th-grade reading level for main content\n- Technical terms explained on first use\n- All citations preserved\n- Evidence still clear and specific\n- Accessible without being condescending\n\n## Test Paragraph\nRewrite one paragraph from tickly-cough.md to show the difference:\n- Original academic version\n- Simplified but still evidence-based\n- Citations intact\n- Technical accuracy maintained",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:973067596e192d3bccd2f54fd23615f4f042b751cb0fe7c8a56f505e892b2872"
+}

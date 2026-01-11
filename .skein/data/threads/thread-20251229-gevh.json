@@ -1,0 +1,10 @@
+{
+  "thread_id": "thread-20251229-gevh",
+  "from_id": "c7f58790",
+  "to_id": "c7f58790",
+  "type": "tag",
+  "content": "{\"tag\": \"shard\", \"shard_id\": \"shard-c7f58790-20251229-001\", \"worktree_name\": \"c7f58790-20251229-001\", \"worktree_path\": \"/home/patrick/projects/folkprotocol/worktrees/c7f58790-20251229-001\", \"branch_name\": \"shard-c7f58790-20251229-001\", \"status\": \"spawned\", \"description\": \"Spindle spool for c7f58790\"}",
+  "weaver": null,
+  "created_at": "2025-12-29T23:04:04.621622",
+  "read_at": null
+}

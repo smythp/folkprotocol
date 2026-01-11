@@ -1,0 +1,17 @@
+{
+  "folio_id": "finding-20251229-g9pg",
+  "type": "finding",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T16:53:47.823832",
+  "created_by": "cordelia-1229",
+  "title": "Created comprehensive dry cough protocol page (src/content/protocols/dry-cough.md) with clinical ...",
+  "content": "Created comprehensive dry cough protocol page (src/content/protocols/dry-cough.md) with clinical evidence for 6 herbs, traditional formulas, lifestyle factors, and N=1 tracking guidance. Follows sleep.md structure with 401 lines of research-backed content.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:9a7efcf037a2fbe74c07a907b3923da287c7f1ced98f8ee85468e46e67c98a80"
+}

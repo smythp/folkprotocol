@@ -1,0 +1,31 @@
+{
+  "folio_id": "tender-20251230-mzw9",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-30T00:19:03.569131",
+  "created_by": "unknown",
+  "title": "Implemented citation linking system using remark plugin. Citations like [1] are now clickable and...",
+  "content": "## Tender: 5bcc3385-20251230-001\n\n**Status:** complete\n**Confidence:** 8/10\n**Reviewer:** prime\n\n### Summary\nImplemented citation linking system using remark plugin. Citations like [1] are now clickable and jump to reference section. Zero-dependency solution, works with Astro static build. Tested on tickly-cough.md. Includes complete documentation.\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-5bcc3385-20251230-001\n\n### Files Modified\n  - astro.config.mjs\n  - docs/citations.md\n  - plugins/remark-citations.mjs\n  - src/content/protocols/tickly-cough.md\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "5bcc3385-20251230-001",
+    "branch_name": "shard-5bcc3385-20251230-001",
+    "commits": 1,
+    "files_modified": [
+      "astro.config.mjs",
+      "docs/citations.md",
+      "plugins/remark-citations.mjs",
+      "src/content/protocols/tickly-cough.md"
+    ],
+    "status": "complete",
+    "confidence": 8,
+    "reviewer": "prime",
+    "name": "5bcc3385"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:10352d04b1ba3e89e240efd5a58f8af13de78e3518f52273485cd29f7a917bc2"
+}

@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-kfay",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T23:17:18.389750",
+  "created_by": "unknown",
+  "title": "Merge Research and Clean Worktrees",
+  "content": "## Context  \nMultiple research worktrees contain valuable content that needs merging or archiving.\n\n## Worktrees to Process\n\n### High Value - Merge Content:\n- 92a03d31: Ashwagandha synthesis (1103 lines)\n- e29c0fb7: Tickly cough synthesis (888 lines)\n- d4fb91fb: Demulcent herbs research (766 lines)\n- 1e3e28a7: Ashwagandha traditional (872 lines)\n\n### Has Commits - Review & Merge:\n- c7f58790: Improved tickly-cough protocol\n- 3c185f67: QC edited version (if complete)\n\n### Archive for Reference:\n- All Stage 1 bibliographies\n- All Stage 2 research summaries\n- Original research from first attempts\n\n## Process\n1. Review each worktree with `skein shard review`\n2. Merge valuable research to research/ directory\n3. Merge improved protocols to content/\n4. Archive raw research for future reference\n5. Clean up worktrees after merging\n\n## Special Attention\n- The ashwagandha synthesis is particularly valuable\n- Multiple demulcent research files should be consolidated\n- Keep bibliographies for future batches\n\n## Commands\n```bash\n# Review\nskein shard triage\n\n# Merge good content\ngit merge shard-[id]\ngit worktree remove worktrees/[id]\n\n# Archive research\nmkdir -p research/archive/2025-12-29/\ncp worktrees/*/research/* research/archive/2025-12-29/\n```",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:32218e0883f053c528f62f558b51a76ab0a333ea45af5697d12bf6d407581d2e"
+}

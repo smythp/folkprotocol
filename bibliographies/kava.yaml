@@ -1,0 +1,533 @@
+# Kava (Piper methysticum) Bibliography
+# Clinical studies, systematic reviews, and monographs
+# Focus: dosing, bioavailability, safety profiles, standardized extracts
+
+systematic_reviews_and_meta_analyses:
+  - title: "Efficacy of kava extract for treating anxiety: systematic review and meta-analysis"
+    authors:
+      - Pittler MH
+      - Ernst E
+    year: 2000
+    journal: "Journal of Clinical Psychopharmacology"
+    pubmed_id: "10653213"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/10653213/"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 7
+    studies_in_meta_analysis: 3
+    key_findings:
+      - finding: "Kava extract was superior to placebo with weighted mean difference of 9.69 points on Hamilton Rating Scale for Anxiety"
+        confidence_interval: "95% CI: 3.54-15.83"
+      - finding: "Represents an herbal treatment option for anxiety worthy of consideration"
+
+  - title: "Meta-analysis of the efficacy of the acetonic kava-kava extract WS1490 in patients with non-psychotic anxiety disorders"
+    authors:
+      - Witte S
+      - Loew D
+      - Gaus W
+    year: 2005
+    journal: "Phytotherapy Research"
+    pubmed_id: "15934028"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15934028/"
+    study_type: "Meta-analysis"
+    studies_included: 6
+    key_findings:
+      - finding: "Effective success rate OR=3.3"
+        confidence_interval: "95% CI: 2.09-5.22"
+      - finding: "Treatment group improved by approximately 5.94 points on Hamilton Anxiety Rating Scale compared to controls"
+      - finding: "Greater response rates in females and younger patients"
+      - finding: "No publication bias, no remarkable heterogeneity, high methodological standards"
+      - finding: "WS1490 represents viable alternative to conventional pharmaceutical treatments"
+
+  - title: "Kava: a comprehensive review of efficacy, safety, and psychopharmacology"
+    authors:
+      - Sarris J
+      - LaPorte E
+      - Schweitzer I
+    year: 2011
+    journal: "Australian and New Zealand Journal of Psychiatry"
+    pubmed_id: "21073405"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21073405/"
+    study_type: "Comprehensive review"
+    key_findings:
+      - finding: "Significant result in 4 of 6 studies reviewed"
+        effect_size: "mean Cohen's d = 1.1"
+      - finding: "Anxiolytic mechanisms: modulation of GABA activity via alteration of lipid membrane structure and sodium channel function, MAO-B inhibition, noradrenaline and dopamine re-uptake inhibition"
+      - finding: "Recommends traditional water soluble extracts of rhizome from appropriate cultivars"
+      - finding: "Cautions: avoid concurrent alcohol use, caution with other psychotropics, avoid high doses before driving, routine liver function tests for regular users"
+
+  - title: "The effectiveness and safety of Kava Kava for treating anxiety symptoms: A systematic review and analysis of randomized clinical trials"
+    authors:
+      - Smith K
+      - Leiras C
+    year: 2018
+    journal: "Complementary Therapies in Clinical Practice"
+    pubmed_id: "30396607"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/30396607/"
+    study_type: "Systematic review"
+    studies_included: 11
+    studies_in_pooled_analysis: 5
+    total_participants: 330
+    key_findings:
+      - finding: "Kava demonstrated superiority over placebo in 3 of 7 trials"
+      - finding: "Risk ratio of 1.50 in favor of intervention from responder rates"
+        confidence_interval: "95% CI: 1.12-2.01"
+      - finding: "Adverse events matched placebo levels"
+        p_value: "p = 0.574"
+      - finding: "No hepatotoxicity marker elevation compared to baseline except in two studies"
+      - finding: "Suitable as short-term treatment for anxiety, not replacement for prolonged anti-anxiety use"
+
+  - title: "Neurocognitive effects of kava (Piper methysticum): a systematic review"
+    authors:
+      - LaPorte E
+      - Sarris J
+      - Stough C
+      - Scholey A
+    year: 2011
+    journal: "Human Psychopharmacology"
+    pubmed_id: "21437989"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21437989/"
+    study_type: "Systematic review"
+    studies_included: 10
+    acute_studies: 7
+    chronic_studies: 3
+    key_findings:
+      - finding: "One acute study showed significantly improved visual attention and working memory processes"
+      - finding: "Another acute study showed increased body sway"
+      - finding: "One chronic study showed significantly impaired visual attention during high-cognitive demand"
+      - finding: "Majority of evidence suggests kava has no replicated significant negative effects on cognition"
+      - finding: "Proposed mechanisms: cognitive improvements from noradrenaline re-uptake inhibition in prefrontal cortex, balance effects from GABA pathway modulation"
+
+randomized_controlled_trials:
+  - title: "Kava in the treatment of generalized anxiety disorder: a double-blind, randomized, placebo-controlled study"
+    authors:
+      - Sarris J
+      - Stough C
+      - Bousman CA
+      - Wahid ZT
+      - Murray G
+      - Teschke R
+      - Savage KM
+      - Dowell A
+      - Ng C
+      - Schweitzer I
+    year: 2013
+    journal: "Journal of Clinical Psychopharmacology"
+    pubmed_id: "23635869"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/23635869/"
+    study_type: "Double-blind, randomized, placebo-controlled trial"
+    sample_size: 75
+    completers: 58
+    duration_weeks: 6
+    dosing: "Aqueous kava extract providing 120-240 mg kavalactones per day depending on response"
+    key_findings:
+      - finding: "Statistically significant anxiety reduction versus placebo"
+        p_value: "p = 0.046"
+        effect_size: "Cohen's d = 0.62"
+      - finding: "Among moderate-to-severe GAD cases, effect size increased"
+        p_value: "p = 0.02"
+        effect_size: "d = 0.82"
+      - finding: "Remission rates: 26% in kava group versus 6% in placebo group"
+        p_value: "p = 0.04"
+      - finding: "GABA transporter polymorphisms predicted treatment response"
+      - finding: "Well-tolerated with more headaches in treatment group"
+        p_value: "p = 0.05"
+      - finding: "No significant liver function test abnormalities"
+
+  - title: "Kava for generalised anxiety disorder: A 16-week double-blind, randomised, placebo-controlled study"
+    authors:
+      - Sarris J
+      - Byrne GJ
+      - Bousman CA
+      - Cribb L
+      - Savage KM
+      - Holmes O
+      - Murphy J
+      - Macdonald P
+      - Short A
+      - Nazareth S
+      - Jennings E
+      - Thomas SR
+      - Ogden E
+      - Chamoli S
+      - Scholey A
+      - Stough C
+    year: 2020
+    journal: "Australian and New Zealand Journal of Psychiatry"
+    pubmed_id: "31813230"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/31813230/"
+    study_type: "Phase III, multi-site, randomised controlled trial"
+    sample_size: 171
+    duration_weeks: 16
+    dosing: "Aqueous extract of dried kava root, twice daily, standardized to 120 mg kavalactones per dose (240 mg/day total)"
+    key_findings:
+      - finding: "No significant advantage over placebo"
+        p_value: "p = 0.25"
+      - finding: "17.4% of kava group achieved remission versus 23.8% of placebo group"
+      - finding: "Memory impairment and tremor occurred more frequently in kava group"
+      - finding: "Liver function abnormalities significantly more frequent in kava group"
+      - finding: "No participant developed clinically significant hepatic injury"
+      - finding: "May help with situational anxiety short-term but not effective for diagnosed GAD with this extract"
+
+  - title: "The Kava Anxiety Depression Spectrum Study (KADSS): a randomized, placebo-controlled crossover trial using an aqueous extract of Piper methysticum"
+    authors:
+      - Sarris J
+      - Kavanagh DJ
+      - Byrne G
+      - Bone KM
+      - Adams J
+      - Deed G
+    year: 2009
+    journal: "Psychopharmacology (Berlin)"
+    pubmed_id: "19430766"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/19430766/"
+    study_type: "Double-blind, placebo-controlled crossover trial"
+    sample_size: 60
+    duration_weeks: 3
+    dosing: "Five kava tablets daily containing 250 mg kavalactones per day"
+    key_findings:
+      - finding: "Hamilton Anxiety Scale reduction: -9.9 (kava) vs -0.8 (placebo) in phase one"
+      - finding: "Hamilton Anxiety Scale reduction: -10.3 (kava) vs +3.3 (placebo) in phase two"
+      - finding: "Pooled effect of kava vs placebo across phases highly significant"
+        p_value: "p < 0.0001"
+        effect_size: "d = 2.24"
+      - finding: "Significant reductions in Beck Anxiety Inventory and Montgomery-Asberg Depression Rating Scale scores"
+      - finding: "No serious adverse effects or clinical hepatotoxicity observed"
+      - finding: "Equivalent efficacy for anxiety with comorbid depression"
+
+  - title: "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial"
+    authors:
+      - Gastpar M
+      - Klimm HD
+    year: 2003
+    journal: "Phytomedicine"
+    pubmed_id: "14692723"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/14692723/"
+    study_type: "Randomized controlled trial, multicenter, double-blind"
+    sample_size: 141
+    duration_weeks: 4
+    dosing: "WS 1490 extract: 3 x 50 mg/day (150 mg/day total)"
+    key_findings:
+      - finding: "73% of patients on WS 1490 showed anxiety score improvements exceeding 5 points versus 56% in placebo group"
+      - finding: "Analysis of variance demonstrated superiority of WS 1490 over placebo"
+        p_value: "p < 0.01"
+      - finding: "Improvements observed on well-being and Clinical Global Impressions scales"
+      - finding: "Well-tolerated with no adverse liver function effects and minimal side effects"
+
+  - title: "Kava-kava extract WS 1490 versus placebo in anxiety disorders--a randomized placebo-controlled 25-week outpatient trial"
+    authors:
+      - Volz HP
+      - Kieser M
+    year: 1997
+    journal: "Pharmacopsychiatry"
+    pubmed_id: "9065962"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/9065962/"
+    study_type: "Randomized placebo-controlled double-blind trial"
+    sample_size: 101
+    duration_weeks: 25
+    key_findings:
+      - finding: "Significant superiority of test drug starting from week 8 on Hamilton Anxiety Scale"
+      - finding: "Superior across multiple secondary measures including HAMA subscores for somatic and psychic anxiety, Clinical Global Impression"
+      - finding: "Adverse events rare and distributed evenly in both groups"
+      - finding: "Treatment alternative to tricyclic antidepressants and benzodiazepines with proven long-term efficacy and no tolerance problems"
+
+  - title: "Clinical efficacy of kava extract WS 1490 in sleep disturbances associated with anxiety disorders: Results of a multicenter, randomized, placebo-controlled, double-blind clinical trial"
+    authors:
+      - Lehrl S
+    year: 2004
+    journal: "Journal of Affective Disorders"
+    pubmed_id: "14706720"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/14706720/"
+    study_type: "Multicenter, randomized, placebo-controlled, double-blind trial"
+    sample_size: 61
+    duration_weeks: 4
+    dosing: "WS 1490: 200 mg daily"
+    key_findings:
+      - finding: "Quality of sleep significantly improved"
+        p_value: "p = 0.007"
+      - finding: "Recuperative effect after sleep significantly improved"
+        p_value: "p = 0.018"
+      - finding: "Hamilton Anxiety Scale psychic anxiety subscale significant reduction"
+        p_value: "p = 0.002"
+      - finding: "Good tolerability with no drug-related adverse events"
+      - finding: "Sleep disturbances associated with non-psychotic anxiety disorders can be effectively and safely treated"
+
+pharmacokinetics_and_bioavailability:
+  - title: "The Pharmacology, Pharmacokinetics, Efficacy, and Adverse Events Associated With Kava"
+    authors:
+      - White CM
+    year: 2018
+    journal: "Journal of Clinical Pharmacology"
+    volume: 58
+    issue: 11
+    pages: "1396-1405"
+    pubmed_id: "29791008"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29791008/"
+    study_type: "Review"
+    key_findings:
+      - finding: "Kavapyrones induce pharmacologic effects and drug interactions through cytochrome P450 and P-glycoprotein systems"
+      - finding: "Clinical trials demonstrate anxiolytic benefits exceeding placebo effects"
+      - finding: "Results don't appear immediately; optimal dose and dosing schedule needs determination"
+      - finding: "Studies lasting approximately 4 weeks showed generally good tolerability and safety"
+      - finding: "Potential complications include dermatologic, hepatologic, and cognitive effects"
+      - finding: "Adverse outcomes stem from kavapyrones themselves or substandard product formulation"
+      - finding: "Significant product variability depending on extraction methods and plant parts used"
+      - finding: "Acetone extract most commonly studied formulation for anxiety treatment"
+
+  - title: "Clinical pharmacokinetics of kavalactones after oral dosing of standardized kava extract in healthy volunteers"
+    authors:
+      - Kanumuri SRR
+      - Mamallapalli J
+      - Nelson R
+      - McCurdy CR
+      - Mathews CA
+      - Xing C
+      - Sharma A
+    year: 2022
+    journal: "Journal of Ethnopharmacology"
+    pubmed_id: "35777607"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/35777607/"
+    study_type: "Clinical pharmacokinetic study"
+    sample_size: 10
+    dosing_regimens:
+      - "Single dose: 225 mg kavalactones"
+      - "Multiple dose: 75 mg three times daily (3 × 75 mg)"
+    key_findings:
+      - finding: "Time to maximum plasma concentration: 1-3 hours"
+      - finding: "Systemic exposure ranking: dihydrokavain > dihydromethysticin > kavain > methysticin > yangonin"
+      - finding: "Dose proportionality established from 75-225 mg kavalactone doses"
+      - finding: "Food significantly reduced absorption extent in multiple-dose study"
+      - finding: "Higher overall exposure observed with single 225 mg dose versus distributed 3 × 75 mg dosing"
+      - finding: "Fast absorption with predictable pharmacokinetics"
+
+  - title: "Pharmacokinetic and pharmacodynamic drug interactions with Kava (Piper methysticum Forst. f.)"
+    authors:
+      - Multiple
+    year: 2004
+    journal: "Journal of Ethnopharmacology"
+    pubmed_id: "15234747"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15234747/"
+    study_type: "Review"
+    key_findings:
+      - finding: "Several kavalactones are potent inhibitors of CYP450 enzymes (CYP1A2, 2C9, 2C19, 2D6, 3A4, 4A9/11)"
+      - finding: "Drug interaction potential through cytochrome P450 system"
+
+  - title: "Permeability studies of Kavalactones using a Caco-2 cell monolayer model"
+    authors:
+      - Multiple
+    year: 2007
+    journal: "Food and Chemical Toxicology"
+    pubmed_id: "17489874"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/17489874/"
+    study_type: "In vitro permeability study"
+    key_findings:
+      - finding: "All kavalactones readily crossed Caco-2 monolayers"
+      - finding: "Apparent permeabilities starting at 42 x 10^-6 cm/s"
+      - finding: "Most exhibited more than 70% crossing within 90 minutes"
+      - finding: "Extraction method (ethanol or water) influences total but not relative concentrations"
+      - finding: "Extraction method does not markedly affect bioavailability"
+
+  - title: "Pharmacokinetics and disposition of the kavalactone kawain: interaction with kava extract and kavalactones in vivo and in vitro"
+    authors:
+      - Multiple
+    year: 2005
+    journal: "Drug Metabolism and Disposition"
+    pubmed_id: "16033948"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/16033948/"
+    study_type: "Pharmacokinetic interaction study"
+    key_findings:
+      - finding: "Kawain well absorbed with >90% of dose eliminated within 72 hours, chiefly in urine"
+      - finding: "Coadministration with kava extract caused tripling of kawain AUC(0-8h)"
+      - finding: "Coadministration caused doubling of kawain C(max) compared to kawain alone"
+      - finding: "Significant interactions between kavalactones when taken together"
+
+safety_and_hepatotoxicity:
+  - title: "Safety review of kava (Piper methysticum) by the Natural Standard Research Collaboration"
+    authors:
+      - Ulbricht C
+      - Basch E
+      - Boon H
+      - Ernst E
+      - Hammerness P
+      - Sollars D
+      - Tsourounis C
+      - Woods J
+      - Bent S
+    year: 2005
+    journal: "Expert Opinion on Drug Safety"
+    pubmed_id: "16011454"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/16011454/"
+    study_type: "Systematic safety review"
+    key_findings:
+      - finding: "Primary concern: potential hepatotoxicity of kava"
+      - finding: "Recommendations: consolidate and analyze existing adverse event reports"
+      - finding: "Implement international postmarket surveillance systems"
+      - finding: "Prevent duplicate reporting and ensure thorough documentation"
+
+  - title: "Kava hepatotoxicity: a clinical survey and critical analysis of 26 suspected cases"
+    authors:
+      - Teschke R
+      - Schwarzenboeck A
+      - Hennermann KH
+    year: 2008
+    journal: "European Journal of Gastroenterology & Hepatology"
+    pubmed_id: "18989142"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18989142/"
+    study_type: "Clinical survey with quantitative causality assessment"
+    cases_analyzed: 26
+    key_findings:
+      - finding: "Causality unassessable, unrelated, or excluded in 16 patients due to temporal or confounding factors"
+      - finding: "Only 1 patient adhering to recommendations (≤120 mg kavapyrones daily, ≤3 months duration) experienced probable kava-related liver injury"
+      - finding: "Among patients with overdose or extended treatment: causality possible (3 cases) or probable (1 case)"
+      - finding: "Kava taken as recommended associated with rare hepatotoxicity"
+      - finding: "Overdose, prolonged use, and concurrent medications increase risk"
+
+  - title: "Kava extracts: safety and risks including rare hepatotoxicity"
+    authors:
+      - Teschke R
+      - Gaus W
+      - Loew D
+    year: 2003
+    journal: "Phytomedicine"
+    pubmed_id: "12834011"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/12834011/"
+    study_type: "Safety review"
+    key_findings:
+      - finding: "Toxicological and clinical studies show kava extracts virtually devoid of toxic effects except rare hepatotoxic side effects"
+      - finding: "Positive reexposure test confirmed kava is potentially hepatotoxic"
+      - finding: "Risk factors: overdose, prolonged treatment, comedication with synthetic drugs and dietary supplements"
+
+  - title: "Kava hepatotoxicity solution: A six-point plan for new kava standardization"
+    authors:
+      - Teschke R
+      - Lebot V
+    year: 2011
+    journal: "Phytomedicine"
+    pubmed_id: "21112196"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21112196/"
+    study_type: "Position paper"
+    key_findings:
+      - recommendation: "1. Use noble kava cultivar such as Borogu, at least 5 years old at harvest"
+      - recommendation: "2. Use peeled and dried rhizomes and roots"
+      - recommendation: "3. Aqueous extraction"
+      - recommendation: "4. Dosage recommendation of ≤250mg kavalactones per day for medicinal use"
+      - recommendation: "5. Systematic rigorous future research"
+      - recommendation: "6. Pan-Pacific regulatory approach"
+      - finding: "Kava-induced liver injury appears caused by inappropriate quality of raw material"
+      - finding: "Hepatotoxicity occurred independently of used solvent, suggesting poor quality as causative factor"
+
+  - title: "Kava for the treatment of generalized anxiety disorder RCT: analysis of adverse reactions, liver function, addiction, and sexual effects"
+    authors:
+      - Sarris J
+      - Stough C
+      - Teschke R
+      - Wahid ZT
+      - Bousman CA
+      - Murray G
+      - Savage KM
+      - Mouatt P
+      - Ng C
+      - Schweitzer I
+    year: 2013
+    journal: "Phytotherapy Research"
+    pubmed_id: "23348842"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/23348842/"
+    study_type: "6-week double-blind RCT safety analysis"
+    sample_size: 75
+    dosing: "120 mg kavalactones daily"
+    key_findings:
+      - finding: "No differences in withdrawal or addiction between groups"
+      - finding: "No sexual dysfunction observed"
+      - finding: "No clinically significant liver function abnormalities"
+
+regulatory_monographs:
+  - title: "German Commission E Monograph: Piperis methystici rhizoma (Kava-Kava Rootstock)"
+    organization: "German Commission E"
+    publication_date: "June 1, 1990"
+    publication: "Bundesanzeiger No. 101"
+    reference_url: "http://cms.herbalgram.org/expandedE/KavaKavarhizome28root29.html"
+    indication: "Nervous anxiety, tension and restlessness"
+    specifications: "Preparations standardized to defined content of total kavalactones"
+    notes:
+      - "First draft in 1988 was negative due to insufficient clinical evidence"
+      - "Changed to positive claim in 1990 after submission of new clinical data"
+      - "Preparations banned in Germany in 2002 and again in 2019 (controversial, contested in courts)"
+
+  - title: "Kava: a review of the safety of traditional and recreational beverage consumption"
+    organization: "FAO/WHO Joint Publication"
+    year: 2016
+    notes:
+      - "Primary WHO-related publication on kava safety"
+      - "Reviews safety of traditional and recreational kava beverage consumption"
+      - "Referenced in international food standards documentation"
+
+  - title: "Assessment report on Piper methysticum G. Forst., rhizoma"
+    organization: "European Medicines Agency (EMA)"
+    reference_url: "https://www.ema.europa.eu/en/documents/herbal-report/draft-assessment-report-piper-methysticum-g-forst-rhizoma_en.pdf"
+    notes:
+      - "European regulatory assessment of kava rhizome"
+      - "Comprehensive evaluation of safety and efficacy data"
+
+  - title: "Piper methysticum Root and Rhizome"
+    organization: "USP Herbal Medicines Compendium"
+    reference_url: "https://hmc.usp.org/monographs/piper-methysticum-root-and-rhizome-0-2"
+    notes:
+      - "United States Pharmacopeia monograph"
+      - "Quality standards for kava root and rhizome materials"
+
+dosing_guidelines:
+  summary: "Clinical trials have used varying doses of standardized kava extracts"
+  common_dosing_ranges:
+    - range: "120-250 mg kavalactones per day"
+      context: "Most common therapeutic dose in clinical trials"
+    - range: "150-300 mg kavalactones per day"
+      context: "Range used in anxiety disorder treatment"
+    - range: "≤250 mg kavalactones per day"
+      context: "Recommended maximum for medicinal use (Teschke & Lebot 2011)"
+    - range: "WS1490 extract: 150-200 mg per day"
+      context: "Standardized German pharmaceutical extract"
+  duration_recommendations:
+    - "≤3 months for continuous use (based on hepatotoxicity prevention)"
+    - "4-6 weeks typical in most clinical trials"
+    - "Onset of effect: typically after 1-8 weeks of use"
+  administration:
+    - "Typically divided into 2-3 doses per day"
+    - "Food reduces absorption - consider taking on empty stomach"
+    - "Aqueous extracts preferred over ethanolic or acetone extracts for safety"
+
+kavalactone_composition:
+  major_kavalactones:
+    - "Kavain"
+    - "Dihydrokavain"
+    - "Methysticin"
+    - "Dihydromethysticin"
+    - "Yangonin"
+    - "Desmethoxyyangonin"
+  bioavailability_ranking: "dihydrokavain > dihydromethysticin > kavain > methysticin > yangonin"
+  time_to_peak: "1-3 hours after oral administration"
+
+quality_considerations:
+  extraction_methods:
+    - type: "Aqueous (water) extraction"
+      notes: "Traditional preparation method, recommended for safety"
+    - type: "Acetone extraction (WS1490)"
+      notes: "Most studied pharmaceutical extract"
+    - type: "Ethanolic extraction"
+      notes: "Common but may have higher hepatotoxicity risk"
+  plant_material_quality:
+    - consideration: "Use noble kava cultivars (e.g., Borogu)"
+    - consideration: "Plant age: at least 5 years old at harvest"
+    - consideration: "Use peeled and dried rhizomes and roots only"
+    - consideration: "Avoid aerial parts (leaves, stems) - associated with toxicity"
+  standardization:
+    - "Products should be standardized to total kavalactone content"
+    - "Typical standardization: 30-70% kavalactones"
+    - "Individual kavalactone profile varies by cultivar"
+
+notes:
+  - "Evidence is mixed on efficacy, with some high-quality trials showing benefit and others not"
+  - "Extraction method, dosing, duration, and patient population affect outcomes"
+  - "Aqueous extracts of noble cultivar rhizomes appear to have best safety profile"
+  - "Hepatotoxicity is rare when recommendations followed but risk increases with overdose, prolonged use, or poor quality material"
+  - "Drug interactions possible via CYP450 enzyme system"
+  - "Traditional Pacific Island use has long safety record when prepared properly"
+  - "Modern commercial extracts vary widely in quality and composition"

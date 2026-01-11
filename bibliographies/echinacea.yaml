@@ -1,0 +1,796 @@
+---
+# Echinacea Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and regulatory monographs
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  plant_name: Echinacea
+  species_included:
+    - Echinacea purpurea
+    - Echinacea angustifolia
+    - Echinacea pallida
+  compiled_date: 2026-01-08
+
+regulatory_monographs:
+  - id: who_1999
+    title: "WHO monographs on selected medicinal plants, Volume 1"
+    organization: World Health Organization
+    year: 1999
+    type: regulatory_monograph
+    location: Geneva, Switzerland
+    species_covered:
+      - Radix Echinaceae (Echinacea root)
+      - Herba Echinaceae Purpureae (E. purpurea aerial parts)
+    recommendation: "Recommends E. angustifolia for medicinal use; advocates echinacea use for the common cold"
+    url: "https://apps.who.int/iris/bitstream/handle/10665/42052/9241545178.pdf"
+    notes: "Draft monographs reviewed by ~100 experts in 40+ countries including WHO Expert Advisory Panels"
+
+  - id: commission_e_german
+    title: "Commission E Monographs"
+    organization: German Commission E (Federal Institute for Drugs and Medical Devices)
+    year: 1978-1998
+    type: regulatory_monograph
+    species_approved:
+      - species: E. purpurea
+        parts: aerial parts
+        form: fresh-pressed juice in 22% alcohol
+        recommended_dose: 900 mg
+      - species: E. pallida
+        parts: root
+        form: water-alcohol extract
+    species_not_approved:
+      - E. purpurea root (lack of clinical trials)
+      - E. angustifolia root (lack of clinical trials)
+    url: "https://chiro.org/Graphics_Box_NUTRITION/FULL/Commission_E_Monographs.html"
+    notes: "Expert committee established 1978 to evaluate safety/efficacy of 380 herbs for licensed medical prescribing in Germany"
+
+systematic_reviews_meta_analyses:
+  - id: pham_2025
+    title: "Efficacy and safety of Echinacea purpurea in treating upper respiratory infections and complications of otitis media in children: Systematic review and meta-analysis"
+    authors:
+      - Pham, Thi-Phuong-Thao
+      - Vu, Thi-Mai-Hoa
+      - Doan, Pham-Minh-Khue
+      - Nguyen, Thi-Thuy-Duong
+      - Bui, Thi-Thu-Thuy
+      - Ha, Thi-Hong-Linh
+      - Hoang, Thi-Kim-Quy
+      - Taufani, Indra Putra
+      - Ha, Hai-Anh
+    year: 2025
+    study_type: systematic_review_meta_analysis
+    pubmed_id: "40311928"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/40311928/"
+    trials_included: 9
+    total_participants: 3169
+    treatment_group: 1518
+    control_group: 1651
+    key_findings:
+      upper_respiratory_tract_infections:
+        - metric: treatment_duration
+          result: "SMD = -0.19"
+          ci_95: "[-0.30; -0.09]"
+          interpretation: reduced
+        - metric: incidence
+          result: "RR = 0.81"
+          ci_95: "[0.75; 0.87]"
+          interpretation: reduced
+        - metric: antibiotic_use
+          result: "RR = 0.18"
+          ci_95: "[0.13; 0.25]"
+          interpretation: "76% reduction in antibiotic use"
+        - metric: adverse_events
+          result: "RR = 1.38"
+          ci_95: "[1.08; 1.78]"
+          interpretation: "moderately increased but remained mild"
+      otitis_media:
+        - metric: episode_incidence
+          result: "RR = 0.56"
+          ci_95: "[0.44; 0.73]"
+          interpretation: "44% reduction"
+        - metric: treatment_duration
+          result: "p = 0.10"
+          interpretation: no_significant_change
+
+  - id: gancitano_2024
+    title: "Echinacea Reduces Antibiotics by Preventing Respiratory Infections: A Meta-Analysis (ERA-PRIMA)"
+    authors:
+      - Gancitano, G
+      - Mucci, N
+      - Stange, R
+      - Ogal, M
+      - Vimalanathan, S
+      - Sreya, M
+      - Booker, A
+      - Hadj-Cherif, B
+      - Albrich, WC
+      - Woelkart-Ardjomand, K
+      - Kreft, S
+      - Vanden Berghe, W
+      - Hoexter, G
+      - Schapowal, A
+      - Johnston, SL
+    year: 2024
+    study_type: meta_analysis
+    pubmed_id: "38667040"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38667040/"
+    trials_included: 30
+    comparisons: 39
+    total_participants: 5652
+    key_findings:
+      - metric: monthly_rti_occurrence
+        result: "RR = 0.68"
+        ci_95: "[0.61-0.77]"
+      - metric: patients_with_one_or_more_rti
+        result: "RR = 0.75"
+        ci_95: "[0.69-0.81]"
+      - metric: recurrent_infections
+        result: "RR = 0.60"
+        ci_95: "[0.46-0.80]"
+      - metric: rti_complications
+        result: "RR = 0.44"
+        ci_95: "[0.36-0.54]"
+      - metric: antibiotic_therapy_need
+        result: "RR = 0.60"
+        ci_95: "[0.39-0.93]"
+      - metric: overall_antibiotic_treatment_days
+        result: "IRR = 0.29"
+        ci_95: "[0.11-0.74]"
+        interpretation: "70% reduction"
+      - metric: antibiotic_days_fresh_ep_alcoholic_extract
+        result: "IRR = 0.21"
+        interpretation: "80% reduction (strongest effect)"
+      - metric: adverse_events
+        interpretation: "equal frequency between Echinacea and control groups"
+    notes: "Alcoholic extracts from fresh E. purpurea showed strongest antibiotic-sparing effects"
+
+  - id: david_2019
+    title: "Echinacea for the prevention and treatment of upper respiratory tract infections: A systematic review and meta-analysis"
+    authors:
+      - David, Sholto
+      - Cunningham, Rebecca
+    year: 2019
+    study_type: systematic_review_meta_analysis
+    pubmed_id: "31126553"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31126553/"
+    key_findings:
+      - metric: prevention_infection_incidence
+        result: "RR = 0.78"
+        ci_95: "[0.68-0.88]"
+        interpretation: "modest preventative effect"
+      - metric: treatment_duration
+        result: "MD = -0.45 days"
+        ci_95: "[-1.85 to -0.94]"
+        interpretation: minimal_impact
+      - metric: safety
+        result: "RR = 1.09"
+        ci_95: "[0.95-1.25]"
+        interpretation: "no apparent short-term safety concerns"
+    conclusion: "Echinacea might have a preventative effect but clinical meaningfulness is debatable; no evidence for treating established infections"
+    limitations: "Methodological heterogeneity and selective reporting risks"
+
+  - id: schapowal_2015
+    title: "Echinacea reduces the risk of recurrent respiratory tract infections and complications: a meta-analysis of randomized controlled trials"
+    authors:
+      - Schapowal, Andreas
+      - Klein, Peter
+      - Johnston, Sebastian L
+    year: 2015
+    study_type: meta_analysis
+    pubmed_id: "25784510"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25784510/"
+    trials_included: 6
+    total_participants: 2458
+    key_findings:
+      - metric: recurrent_respiratory_infections
+        result: "RR = 0.649"
+        ci_95: "[0.545-0.774]"
+        p_value: "< 0.0001"
+      - metric: high_risk_individuals
+        result: "RR = 0.501"
+        ci_95: "[0.380-0.661]"
+        p_value: "< 0.0001"
+        note: "elevated stress or immunological weakness"
+      - metric: virologically_confirmed_recurrent
+        result: "RR = 0.420"
+        ci_95: "[0.222-0.796]"
+        p_value: "= 0.005"
+      - metric: complications
+        result: "RR = 0.503"
+        ci_95: "[0.384-0.658]"
+        p_value: "< 0.0001"
+        note: "pneumonia, otitis media/externa, tonsillitis/pharyngitis"
+    extract_findings: "Ethanolic extracts superior to pressed juices; increased dosing during acute episodes enhances effectiveness"
+
+  - id: shah_2007
+    title: "Evaluation of echinacea for the prevention and treatment of the common cold: a meta-analysis"
+    authors:
+      - Shah, Sachin A
+      - Sander, Stephen
+      - White, C Michael
+      - Rinaldi, Mike
+      - Coleman, Craig I
+    year: 2007
+    study_type: meta_analysis
+    pubmed_id: "17597571"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/17597571/"
+    trials_included: 14
+    key_findings:
+      - metric: likelihood_of_developing_cold
+        result: "OR = 0.42"
+        ci_95: "[0.25-0.71]"
+        interpretation: "58% reduction"
+      - metric: cold_duration
+        result: "WMD = -1.44 days"
+        ci_95: "[-2.24 to -0.64]"
+      - metric: consistency
+        note: "results consistent across subgroup analyses (formulations, combinations, study quality)"
+    conclusion: "Published evidence supports echinacea's benefit in decreasing incidence and duration of common cold"
+
+  - id: schoop_2006
+    title: "Echinacea in the prevention of induced rhinovirus colds: a meta-analysis"
+    authors:
+      - Schoop, Roland
+      - Klein, Peter
+      - Suter, Andy
+      - Johnston, Sebastian L
+    year: 2006
+    study_type: meta_analysis
+    pubmed_id: "16678640"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16678640/"
+    articles_identified: 234
+    studies_pooled: 3
+    key_findings:
+      - metric: clinical_cold_development
+        result: "OR = 1.55"
+        ci_95: "[1.02-2.36]"
+        p_value: "< 0.043"
+        interpretation: "placebo 55% more likely to develop cold than echinacea"
+      - metric: total_symptom_severity
+        result: "difference = -1.96"
+        p_value: "NS (not significant)"
+    conclusion: "Standardized Echinacea extracts effective in preventing cold symptoms after experimental viral inoculation"
+
+  - id: linde_2006_cochrane
+    title: "Echinacea for preventing and treating the common cold"
+    authors:
+      - Linde, K
+      - Barrett, B
+      - Wölkart, K
+      - Bauer, R
+      - Melchart, D
+    year: 2006
+    study_type: cochrane_systematic_review
+    pubmed_id: "16437427"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16437427/"
+    trials_included: 16
+    comparisons: 22
+    key_findings:
+      prevention: "None of 3 comparisons showed effect over placebo"
+      treatment: "9 comparisons showed significant effects, 1 showed trend, 6 showed no difference"
+    conclusion: "E. purpurea aerial parts might be effective for early treatment of colds in adults but results not fully consistent; evidence for other preparations or preventative use not shown in independently replicated, rigorous RCTs"
+
+  - id: melchart_1994
+    title: "Immunomodulation with echinacea - a systematic review of controlled clinical trials"
+    authors:
+      - Melchart, D
+      - Linde, K
+      - Worku, F
+      - Bauer, R
+      - Wagner, H
+    year: 1994
+    study_type: systematic_review
+    pubmed_id: "23195946"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23195946/"
+    trials_included: 26
+    randomized_trials: 18
+    double_blind_trials: 11
+    treatment_strategies: 34
+    key_findings:
+      - metric: superior_efficacy
+        result: "30 of 34 treatment strategies"
+        interpretation: "showed superior efficacy to control groups"
+      - metric: methodological_quality
+        result: "only 8 trials scored > 50% of maximum"
+        interpretation: "low quality in most studies"
+    conclusion: "Evidence still insufficient for clear therapeutic recommendations regarding which preparation to use and which dose for specific indication; need further rigorous RCTs"
+
+randomized_controlled_trials:
+  - id: ogal_2021
+    title: "Echinacea reduces antibiotic usage in children through respiratory tract infection prevention: a randomized, blinded, controlled clinical trial"
+    authors:
+      - Ogal, Mercedes
+      - Johnston, Sebastian L
+      - Klein, Peter
+      - Schoop, Roland
+    year: 2021
+    study_type: randomized_controlled_trial
+    pubmed_id: "33832544"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33832544/"
+    total_participants: 201
+    echinacea_group: 103
+    control_group: 98
+    population: children
+    dosing:
+      product: "freshly harvested Echinacea purpurea alcoholic extract"
+      dose: "400 mg three times daily"
+      duration: "two 2-month prevention periods"
+    key_findings:
+      - metric: rti_episode_prevention
+        result: "32.5%"
+        odds_ratio: 0.52
+      - metric: children_requiring_antibiotics
+        echinacea: "6 (5.8%)"
+        control: "15 (15.3%)"
+        reduction: "76.3%"
+      - metric: total_antibiotic_therapy_days
+        echinacea: 45
+        control: 216
+        reduction: "80.2%"
+      - metric: rti_complications
+        echinacea: 11
+        control: 30
+        types: "otitis media, sinusitis, pneumonia"
+      - metric: influenza_detections
+        echinacea: 3
+        control: 20
+      - metric: enveloped_virus_infections
+        echinacea: 29
+        control: 47
+    conclusion: "Significant prevention of RTIs, especially influenza and enveloped viruses, with substantial antibiotic-sparing effect"
+
+  - id: sumer_2023
+    title: "Novel Echinacea formulations for the treatment of acute respiratory tract infections in adults—A randomized blinded controlled trial"
+    authors:
+      - Sumer
+      - Keckeis
+      - Scanferla
+      - Frischknecht
+      - Notter
+      - Steffen
+      - Kohler
+      - Schmid
+      - Roth
+      - Wissel
+      - Vernazzo
+      - Klein
+      - Schoop
+      - Albrich
+    year: 2023
+    study_type: randomized_controlled_trial
+    pubmed_id: "37138742"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37138742/"
+    randomized: 409
+    treated: 246
+    median_age: 32
+    percent_female: 78
+    dosing:
+      new_formulations:
+        name: "A & B"
+        days_1_3: "16,800 mg/day Echinacea extract"
+        days_subsequent: "2,240-3,360 mg/day"
+      conventional_formulations:
+        name: "C & D"
+        daily: "2,400 mg/day"
+    key_findings:
+      - metric: recovery_by_day_10
+        new: "56%"
+        conventional: "44%"
+      - metric: viral_clearance_day_10
+        new: "70%"
+        conventional: "53%"
+        p_value: "= 0.046"
+      - metric: extrapolated_mean_recovery_time
+        new: "9.6 days"
+        conventional: "11.0 days"
+        p_value: "< 0.001"
+      - metric: adverse_events
+        new: "12%"
+        conventional: "6%"
+        p_value: "= 0.19"
+    conclusion: "Higher initial loading doses associated with faster recovery and better viral clearance"
+
+  - id: jawad_2012
+    title: "Safety and Efficacy Profile of Echinacea purpurea to Prevent Common Cold Episodes: A Randomized, Double-Blind, Placebo-Controlled Trial"
+    authors:
+      - Jawad, M
+      - Schoop, R
+      - Suter, A
+      - Klein, P
+      - Eccles, R
+    year: 2012
+    study_type: randomized_controlled_trial
+    pubmed_id: "23024696"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23024696/"
+    total_participants: 755
+    population: healthy_adults
+    duration: 4_months
+    extract: "alcohol extract from freshly harvested E. purpurea (95% herba, 5% root)"
+    key_findings:
+      - metric: adverse_drug_reactions
+        echinacea: "9%"
+        placebo: "10%"
+        interpretation: "safety noninferior to placebo"
+      - metric: efficacy
+        result: "reduced total cold episodes, cumulative episode days, pain-killer medicated episodes"
+      - metric: virally_confirmed_colds
+        result: "inhibited"
+        p_value: "< 0.05"
+        note: "especially prevented enveloped virus infections"
+    conclusion: "Compliant prophylactic intake over 4 months provided positive risk-to-benefit ratio"
+
+  - id: goel_2004
+    title: "Efficacy of a standardized echinacea preparation (Echinilin) for the treatment of the common cold: a randomized, double-blind, placebo-controlled trial"
+    authors:
+      - Goel, V
+      - Lovlin, R
+      - Barton, R
+      - Lyon, MR
+      - Bauer, R
+      - Lee, TDG
+      - Basu, TK
+    year: 2004
+    study_type: randomized_controlled_trial
+    pubmed_id: "14748902"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/14748902/"
+    total_participants: 282
+    developed_colds: 128
+    echinacea_with_cold: 59
+    placebo_with_cold: 69
+    standardization:
+      alkamides: "0.25 mg/mL"
+      cichoric_acid: "2.5 mg/mL"
+      polysaccharides: "25 mg/mL"
+    dosing:
+      day_1: "10 doses"
+      days_2_8: "4 doses daily"
+    key_findings:
+      - metric: symptom_severity_reduction
+        result: "23.1%"
+        p_value: "< 0.01"
+        note: "among protocol-adherent participants"
+      - metric: adverse_events
+        result: "minimal in both groups"
+    conclusion: "Standardized echinacea preparation significantly reduced symptom severity in treatment group"
+
+  - id: barrett_2010
+    title: "Echinacea for treating the common cold: a randomized trial"
+    authors:
+      - Barrett, Bruce
+      - Brown, Roger
+      - Rakel, Dave
+      - Mundt, Marlon
+      - Bone, Kerry
+      - Barlow, Shari
+      - Ewers, Tola
+    year: 2010
+    study_type: randomized_controlled_trial
+    pubmed_id: "21173411"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21173411/"
+    enrolled: 719
+    completed: 713
+    age_range: "12-80"
+    groups: 4
+    group_names:
+      - no_pills
+      - blinded_placebo
+      - blinded_echinacea
+      - unblinded_echinacea
+    dosing:
+      day_1: "10.2 g dried echinacea root equivalent"
+      days_2_5: "5.1 g daily"
+    key_findings:
+      - metric: mean_global_severity_scores
+        blinded_echinacea: 236
+        unblinded_echinacea: 258
+        blinded_placebo: 264
+        no_pill_control: 286
+        difference: "28 points favoring echinacea"
+        p_value: "= 0.089"
+        interpretation: not_statistically_significant
+      - metric: mean_illness_duration
+        blinded_echinacea: "6.34 days"
+        placebo: "6.87 days"
+        difference: "0.53 days"
+        p_value: "= 0.075"
+        interpretation: not_statistically_significant
+    conclusion: "Illness duration and severity not statistically significant with echinacea compared to placebo"
+
+  - id: grimm_1999
+    title: "A randomized controlled trial of the effect of fluid extract of Echinacea purpurea on the incidence and severity of colds and respiratory infections"
+    authors:
+      - Grimm, W
+      - Müller, HH
+    year: 1999
+    study_type: randomized_controlled_trial
+    pubmed_id: "10230741"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/10230741/"
+    total_participants: 108
+    per_group: 54
+    dosing:
+      amount: "4 mL fluid extract E. purpurea or placebo-juice"
+      frequency: "twice daily"
+      duration: "8 weeks"
+    key_findings:
+      - metric: at_least_one_infection
+        echinacea: "65%"
+        placebo: "74%"
+        relative_risk: 0.88
+      - metric: average_infections_per_patient
+        echinacea: 0.78
+        placebo: 0.93
+      - metric: median_duration
+        echinacea: "4.5 days"
+        placebo: "6.5 days"
+    conclusion: "Treatment with fluid extract of E. purpurea did not significantly decrease incidence, duration or severity of colds and respiratory infections compared to placebo"
+
+bioavailability_pharmacokinetics:
+  - id: woelkart_2006
+    title: "Bioavailability and pharmacokinetics of Echinacea purpurea preparations and their interaction with the immune system"
+    authors:
+      - Woelkart, K
+      - Marth, E
+      - Suter, A
+      - Schoop, R
+      - Raggam, RB
+      - Koidl, C
+      - Kleinhappl, B
+      - Bauer, R
+    year: 2006
+    study_type: pharmacokinetic_study
+    pubmed_id: "16995328"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16995328/"
+    total_participants: 10
+    test_subjects: 8
+    placebo_subjects: 2
+    key_findings:
+      tincture_absorption:
+        - metric: t_max
+          result: "30 min"
+        - metric: c_max
+          result: "0.40 ng/ml serum"
+          compound: "dodeca-2E,4E,8Z,10E/Z-tetraenoic acid isobutylamides"
+      tablet_absorption:
+        - metric: t_max
+          result: "45 min"
+        - metric: c_max
+          result: "0.12 ng/ml"
+          note: "~25% of tincture levels"
+      immunological_effect:
+        result: "both formulations produced equivalent immune responses"
+        cytokines_reduced: "TNF-alpha and IL-8"
+        time_point: "23 hours post-administration"
+    conclusion: "Tincture superior absorption but tablets produce equivalent immune response despite lower alkamide delivery"
+
+  - id: woelkart_2005
+    title: "Bioavailability and pharmacokinetics of alkamides from the roots of Echinacea angustifolia in humans"
+    authors:
+      - Woelkart, Karin
+      - Koidl, Christoph
+      - Grisold, Andrea
+      - Gangemi, J David
+      - Turner, Ronald B
+      - Marth, Egon
+      - Bauer, Rudolf
+    year: 2005
+    study_type: pharmacokinetic_study
+    pubmed_id: "15901750"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15901750/"
+    total_participants: 11
+    population: healthy_subjects
+    extract: "60% ethanolic extract from E. angustifolia roots"
+    dose: "2.5 mL"
+    method: "liquid chromatography electrospray ionization ion-trap mass spectrometry"
+    key_findings:
+      - metric: t_max_major_alkamide
+        result: "30 minutes"
+      - metric: c_max_major_alkamide
+        result: "10.88 ng/mL"
+      - metric: alkamides_identified
+        result: 6
+        classification: "major constituents"
+    conclusion: "Main alkamide reaches peak concentration rapidly within 30 minutes; provides quantitative bioavailability data for alkamides in humans"
+
+  - id: guiotto_2008
+    title: "Pharmacokinetics and immunomodulatory effects of phytotherapeutic lozenges (bonbons) with Echinacea purpurea extract"
+    authors:
+      - Guiotto, P
+      - Woelkart, K
+      - Grabnar, I
+      - Voinovich, D
+      - Perissutti, B
+      - Invernizzi, S
+      - Granzotto, M
+      - Bauer, R
+    year: 2008
+    study_type: pharmacokinetic_immunological_study
+    pubmed_id: "18583121"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18583121/"
+    doses_tested:
+      - 0.07 mg
+      - 0.21 mg
+      - 0.9 mg
+    alkamides_source: "E. purpurea extract"
+    key_findings:
+      pharmacokinetics:
+        - metric: absorption_rate
+          result: "rapidly absorbed, measurable within 10-20 minutes"
+        - metric: c_max_by_dose
+          dose_0_07: "not specified"
+          dose_0_21: "1.00 ng/ml"
+          dose_0_9: "8.88 ng/ml"
+        - metric: absorption_half_life
+          result: "~6 minutes"
+        - metric: absorption_route
+          result: "fraction absorbed through oral mucosa"
+        - metric: pharmacokinetic_pattern
+          result: "linear"
+      immunomodulation:
+        - metric: cytokine_downregulation
+          result: "significant dose-independent"
+          time_point: "24 hours post-administration"
+          cytokines_affected:
+            - IL-12p70
+            - IL-8
+            - IL-6
+            - IL-10
+            - TNF
+    conclusion: "Alkamides rapidly absorbed with partial oral mucosal absorption; significant anti-inflammatory effects regardless of dose"
+
+safety_toxicology:
+  - id: huntley_2005
+    title: "The safety of herbal medicinal products derived from Echinacea species: a systematic review"
+    authors:
+      - Huntley, Alyson L
+      - Thompson Coon, Joanna
+      - Ernst, Edzard
+    year: 2005
+    study_type: systematic_review
+    pubmed_id: "15853441"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15853441/"
+    key_findings:
+      - finding: "gastrointestinal upsets and rashes occur most frequently"
+      - finding: "in rare cases, echinacea can be associated with allergic reactions that may be severe"
+      - finding: "short-term use associated with relatively good safety profile"
+      - finding: "slight risk of transient, reversible adverse events"
+      - recommendation: "patients with allergy or asthma should carefully consider use"
+      - recommendation: "use during pregnancy and lactation inadvisable due to limited safety data"
+
+  - id: ardjomand_woelkart_2016
+    title: "Review and Assessment of Medicinal Safety Data of Orally Used Echinacea Preparations"
+    authors:
+      - Ardjomand-Woelkart, Karin
+      - Bauer, Rudolf
+    year: 2016
+    study_type: literature_review
+    pubmed_id: "26441065"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/26441065/"
+    key_findings:
+      - finding: "no significant inhibition of CYP2D6 and CYP3A4 enzymes in vivo with standardized E. purpurea"
+      - finding: "adverse events generally mild and mostly without causality"
+      - finding: "long-term studies show safety with continuous use up to 6 months, no toxicological concerns"
+      - finding: "no association between pregnancy use and increased risk for major/minor malformations during organogenesis"
+      - conclusion: "well-tolerated herbal medicines in management for children and adults alike"
+
+  - id: mengs_1991
+    title: "Toxicity of Echinacea purpurea. Acute, subacute and genotoxicity studies"
+    authors:
+      - Mengs, U
+      - Clare, CB
+      - Poiley, JA
+    year: 1991
+    study_type: toxicity_assessment
+    pubmed_id: "1799389"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/1799389/"
+    test_subjects: "rats and mice"
+    key_findings:
+      - finding: "single oral or IV doses virtually non-toxic to rats and mice"
+      - finding: "4 weeks oral administration at many times human therapeutic dose: no toxic effects"
+      - finding: "laboratory tests and necropsy: no evidence of toxicity"
+      - finding: "mutagenicity screening: negative across microorganisms, cultured mammalian cells, and mice"
+      - finding: "did not produce malignant transformation in hamster embryo cells"
+    conclusion: "Safety demonstrated at multiples substantially exceeding typical human therapeutic levels"
+
+additional_clinical_studies:
+  - id: di_pierro_2012
+    title: "Use of a standardized extract from Echinacea angustifolia (Polinacea) for the prevention of respiratory tract infections"
+    authors:
+      - Di Pierro, Francesco
+      - Rapacioli, Giuliana
+      - Ferrara, Tarcisio
+      - Togni, Stefano
+ year: 2012
+    study_type: comparative_study
+    pubmed_id: "22502621"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/22502621/"
+    standardization:
+      polysaccharide: IDN5405
+      echinacoside: present
+      alkamides: minimal
+    key_findings:
+      - finding: "preliminary results encouraging for improving immune response to influenza vaccine"
+      - conclusion: "could be used for improving immune response to influenza vaccine"
+      - note: "initial observations requiring further investigation"
+
+summary_notes:
+  dosing_patterns:
+    prevention: "400-900 mg daily, continuous use up to 6 months studied"
+    acute_treatment_loading: "10,200-16,800 mg on day 1"
+    acute_treatment_maintenance: "2,400-5,100 mg daily for 4-7 days"
+    pediatric: "400 mg three times daily"
+    forms_studied:
+      - fresh_pressed_juice
+      - alcoholic_extract
+      - hydroalcoholic_extract
+      - standardized_tablets
+      - lozenges
+
+  standardization_markers:
+    - alkamides: "0.07-0.9 mg per dose"
+    - cichoric_acid: "2.5 mg/mL, or 4%"
+    - polysaccharides: "25 mg/mL"
+    - echinacoside: "present in E. angustifolia"
+
+  bioavailability_summary:
+    - alkamides_t_max: "10-30 minutes"
+    - alkamides_c_max: "0.12-10.88 ng/mL depending on dose and formulation"
+    - tincture_superior_to_tablets: true
+    - oral_mucosal_absorption: true
+    - half_life: "~6 minutes"
+
+  safety_summary:
+    - short_term_safety: good
+    - long_term_safety: "up to 6 months studied, no concerns"
+    - common_adverse_events: "GI upset, rashes (mild, transient)"
+    - rare_adverse_events: "severe allergic reactions possible"
+    - contraindications: "caution in allergy/asthma patients"
+    - pregnancy: "non-teratogenic but caution advised"
+    - drug_interactions: "no verifiable reports"
+    - cytochrome_p450: "no significant inhibition of CYP2D6/CYP3A4"
+
+  efficacy_summary:
+    prevention:
+      - "reduces cold incidence by 20-42%"
+      - "prevents recurrent RTIs (RR 0.60-0.65)"
+      - "reduces complications by 50-56%"
+      - "especially effective against enveloped viruses"
+    treatment:
+      - "reduces duration by 0.5-1.4 days"
+      - "reduces symptom severity by 20-23%"
+      - "results mixed across studies"
+    antibiotic_sparing:
+      - "reduces antibiotic use by 70-80%"
+      - "strongest evidence in pediatric populations"
+      - "fresh E. purpurea alcoholic extracts most effective"
+
+  species_comparison:
+    e_purpurea:
+      - "most studied species"
+      - "aerial parts and root used"
+      - "fresh alcoholic extracts show strongest effects"
+      - "Commission E approved (aerial parts, 900 mg)"
+    e_angustifolia:
+      - "root traditionally used"
+      - "WHO 1999 monograph recommends"
+      - "Commission E did not approve (lack of clinical trials)"
+      - "bioavailability data available"
+    e_pallida:
+      - "Commission E approved (root, water-alcohol extract)"
+      - "less commonly studied"
+
+  extract_type_comparison:
+    alcoholic_extracts:
+      - "superior efficacy to pressed juices"
+      - "80% antibiotic reduction (fresh E. purpurea)"
+      - "better bioavailability"
+    pressed_juice:
+      - "22% alcohol content in approved preparations"
+      - "less effective than alcoholic extracts"
+    standardization:
+      - "standardization to alkamides and cichoric acid common"
+      - "immunological effects may occur with lower alkamide doses"
+
+citations_format: "Author et al. (Year). Title. PubMed ID: [number]. URL: [pubmed link]"
+
+compiled_by: "Claude Code Agent"
+purpose: "Comprehensive bibliography for echinacea clinical research, dosing, bioavailability, and safety data"

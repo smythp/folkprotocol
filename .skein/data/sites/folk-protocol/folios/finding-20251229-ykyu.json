@@ -1,0 +1,17 @@
+{
+  "folio_id": "finding-20251229-ykyu",
+  "type": "finding",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T16:57:00.498471",
+  "created_by": "techne-1229",
+  "title": "Completed comprehensive ashwagandha research across multiple traditional systems (Ayurveda, Unani...",
+  "content": "Completed comprehensive ashwagandha research across multiple traditional systems (Ayurveda, Unani, modern practice, Western herbalism). \n\nKey deliverable: ashwagandha-traditional-research.md (872 lines, 60+ sources)\n\nCoverage:\n- Ayurvedic energetics (ushna/heating, vata-kapha balancing, pitta contraindications)\n- Sanskrit names and classical text references (Charaka Samhita, Sushruta Samhita)\n- Traditional preparations (churna, ghrita, arishtam) and timing\n- Unani therapeutic actions and 3000-year history\n- Modern Ayurvedic combinations (with Brahmi, milk vehicles)\n- Western adoption timeline (post-1960s adaptogen research)\n- Cross-cultural convergent uses (sleep, strength, rejuvenation, stress)\n- Traditional safety warnings and contraindications\n- Preparation methods that enhance effects (anupanas, timing)\n\nNotable gap identified: Unani mizaj (temperament) classification requires consultation with Unani practitioners or classical texts for specific hot/cold/dry/moist degree.\n\nFile committed to shard-1e3e28a7-20251229-001. Ready for merge to master.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:9281c6f884d9b922f77bc6ece629c25b656a6ac9d84a3f5a556d9ccddb23681b"
+}

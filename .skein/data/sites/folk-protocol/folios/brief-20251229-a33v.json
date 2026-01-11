@@ -1,0 +1,19 @@
+{
+  "folio_id": "brief-20251229-a33v",
+  "type": "brief",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T23:28:17.669217",
+  "created_by": "unknown",
+  "title": "Implement Citation Linking System",
+  "content": "## Problem\nCitations are just numbers [1][2][3] that don't link to anything. Readers can't verify claims or explore sources.\n\n## Current State\n- References listed at bottom but no hyperlinks\n- No connection between [1] in text and reference #1\n- Research summaries exist in /research/studies/ but not linked\n\n## Solution Requirements\n\n### 1. Link Citations to References\nMake [1] clickable and jump to reference section:\n```markdown\nHoney reduces cough frequency [1](#ref-1)\n\n...\n\n## References\n<span id=\"ref-1\">[1]</span> Paul IM, et al. Cochrane Database...\n```\n\n### 2. Link References to Summaries\nEach reference should link to detailed summary if available:\n```markdown\n[1] Paul IM, et al. Cochrane Database... [Full Summary](/research/studies/honey_cochrane_2018)\n```\n\n### 3. Consider Hover Cards\nOptional: Show citation preview on hover without leaving page\n- Title, authors, year\n- Key finding\n- Link to full summary\n\n## Implementation Options\n\n### Option A: Markdown Preprocessing\n- Script to transform [1] \u2192 [1](#ref-1) during build\n- Add anchors to reference section\n- Works with static site\n\n### Option B: Astro Component\n```astro\n<Citation num={1} />\n```\nRenders as linked number with hover preview\n\n### Option C: Client-side JavaScript\n- Parse citations after page load\n- Add links and hover behavior\n- More flexible but requires JS\n\n## Deliverables\n1. Working citation links in content pages\n2. References link to research summaries\n3. Optional: Hover preview cards\n4. Build process integration\n\n## Test Case\nIn tickly-cough.md:\n- Click [1] \u2192 jumps to Cochrane reference\n- Click \"Full Summary\" \u2192 opens /research/studies/honey_cochrane_2018\n- Hover [1] \u2192 shows popup with study details",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "questions_enabled": true
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:8d2a2660bb9c9087c7d0524883f7f3806f8352a89475d480a9378303614c89b4"
+}

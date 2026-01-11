@@ -1,0 +1,28 @@
+{
+  "folio_id": "tender-20251229-j5h6",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T17:46:55.164331",
+  "created_by": "unknown",
+  "title": "Created ashwagandha materia page following valerian template - schema validated, ready to publish",
+  "content": "## Tender: 30042fed-20251229-001\n\n**Status:** complete\n**Confidence:** 9/10\n**Reviewer:** prime\n\n### Summary\nCreated ashwagandha materia page following valerian template - schema validated, ready to publish\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-30042fed-20251229-001\n\n### Files Modified\n  - src/content/materia/ashwagandha.md\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "30042fed-20251229-001",
+    "branch_name": "shard-30042fed-20251229-001",
+    "commits": 1,
+    "files_modified": [
+      "src/content/materia/ashwagandha.md"
+    ],
+    "status": "complete",
+    "confidence": 9,
+    "reviewer": "prime",
+    "name": "30042fed"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:4bf88ea7132a33045e5b7162d4a8e1d8c4d1eca8892b3c7905f67aa92fa5f0e1"
+}

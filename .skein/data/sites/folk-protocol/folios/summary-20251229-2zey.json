@@ -1,0 +1,17 @@
+{
+  "folio_id": "summary-20251229-2zey",
+  "type": "summary",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T16:57:14.633675",
+  "created_by": "theodore-1229",
+  "title": "Completed comprehensive research on demulcent herbs for tickly cough. Created demulcent-herbs-tic...",
+  "content": "Completed comprehensive research on demulcent herbs for tickly cough. Created demulcent-herbs-tickly-cough-research.md with deep dive into marshmallow root, slippery elm, and licorice root.\n\nKEY FINDINGS:\n- Marshmallow root is the clear winner: fast-acting, sustainable, safe, easy to prepare\n- Cold infusion is critical for marshmallow - extracts pure mucilage vs hot water extracting starches\n- Coating effect lasts 2-4 hours, requiring frequent dosing (3-6x daily for acute cough)\n- Slippery elm has serious sustainability concerns (Dutch Elm Disease, no cultivation) - should be avoided\n- Licorice has significant safety issues - as little as 100mg glycyrrhizic acid raises blood pressure\n\nPRACTICAL PROTOCOLS DEVELOPED:\n- Acute cough protocol (marshmallow cold infusion every 2-3 hours)\n- Preventive/early intervention protocol\n- Nighttime-specific strategy\n- Travel-friendly preparations\n- Children's protocols\n- When to add expectorants\n\nPREPARATION METHODS:\n- Marshmallow cold infusion (overnight soak - most effective)\n- Marshmallow-honey syrup (concentrated, travel-friendly)\n- Slippery elm gruel technique (paste first to avoid clumps)\n- Proper licorice decoction (max 5 min boil, remove bark)\n\nAll sources cited from EMA, Commission E, PubMed, King's American Dispensatory, practitioner sites.\n\nDocument is ready for integration into folkprotocol materia/protocol content.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:f5d8b3ec728fe06ae75a6c79f28d4ed69c04aab770317468f483576c4ca6733b"
+}

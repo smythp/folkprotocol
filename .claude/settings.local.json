@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYENV_VERSION=speakbot mill chain:*)",
+      "Bash(PYENV_VERSION=speakbot mill crank:*)",
+      "mcp__spindle__spin_sleep",
+      "Bash(PYENV_VERSION=speakbot mill status:*)",
+      "Bash(curl:*)",
+      "Bash(PYENV_VERSION=speakbot mill list:*)"
+    ]
+  }
+}

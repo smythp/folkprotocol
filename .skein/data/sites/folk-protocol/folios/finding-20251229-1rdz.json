@@ -1,0 +1,17 @@
+{
+  "folio_id": "finding-20251229-1rdz",
+  "type": "finding",
+  "site_id": "folk-protocol",
+  "created_at": "2025-12-29T17:38:51.629966",
+  "created_by": "barnaby-1229-1",
+  "title": "Convergence analysis shows remarkable alignment between traditional use (Ayurveda, Unani) and mod...",
+  "content": "Convergence analysis shows remarkable alignment between traditional use (Ayurveda, Unani) and modern clinical evidence for ashwagandha across 6 domains: sleep, strength/vitality, stress/nervous system, sexual health, rejuvenation, and cognitive function. Even etymology validates: Latin 'somnifera'=sleep-inducing, Sanskrit 'ashwa'=horse strength. This level of cross-cultural + clinical convergence is rare and builds high confidence in traditional knowledge.",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {},
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:0c318a6605cf0a7d2db5cb620fb04a730ff8e8aba2a0e6e30fc983266e403822"
+}
