@@ -1,0 +1,30 @@
+{
+  "folio_id": "tender-20260114-fcmz",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2026-01-14T17:46:45.590208",
+  "created_by": "unknown",
+  "title": "Transformed ginger.md, chamomile.md, and lavender.md to match the conversational tone of ashwagan...",
+  "content": "## Tender: bf39ab73-20260114-001\n\n**Status:** complete\n**Confidence:** 9/10\n**Reviewer:** prime\n\n### Summary\nTransformed ginger.md, chamomile.md, and lavender.md to match the conversational tone of ashwagandha.md. All body sections rewritten to use 'you' voice, translate statistics to meaning, create narrative flow. All citations preserved. Net reduction of 220 lines while improving readability.\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-bf39ab73-20260114-001\n\n### Files Modified\n  - src/content/materia/chamomile.md\n  - src/content/materia/ginger.md\n  - src/content/materia/lavender.md\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "bf39ab73-20260114-001",
+    "branch_name": "shard-bf39ab73-20260114-001",
+    "commits": 1,
+    "files_modified": [
+      "src/content/materia/chamomile.md",
+      "src/content/materia/ginger.md",
+      "src/content/materia/lavender.md"
+    ],
+    "status": "complete",
+    "confidence": 9,
+    "reviewer": "prime",
+    "name": "bf39ab73"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:97070db0fb9bb99c6bc1957d6e4f7722cbe2a78b5f95b31313e7c4150be45da3"
+}

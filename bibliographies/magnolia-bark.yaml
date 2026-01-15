@@ -1,0 +1,846 @@
+---
+# Magnolia Bark Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and regulatory monographs
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  plant_name: Magnolia Bark
+  species: Magnolia officinalis Rehder & E.H. Wilson
+  common_names:
+    - Houpo
+    - Houpu
+    - Hou Po
+  family: Magnoliaceae
+  compiled_date: 2026-01-15
+
+regulatory_monographs:
+  - id: chinese_pharmacopoeia_2015
+    title: "Chinese Pharmacopoeia 2015 - Magnoliae Officinalis Cortex"
+    organization: Chinese Pharmacopoeia Commission
+    year: 2015
+    type: regulatory_monograph
+    location: China
+    definition: "Dried bark of Magnolia officinalis Rehd. et wils and M. officinalis Rehd. et wils var. biloba Rehd. et wils"
+    properties:
+      temperature: warm
+      flavor: bitter and acrid
+    traditional_uses:
+      - "Abdominal distention"
+      - "Vomiting and diarrhea"
+      - "Food accumulation and Qi stagnation"
+      - "Constipation"
+      - "Phlegm and fluid retention"
+      - "Cough resulting from asthma"
+    active_constituents:
+      - "Honokiol (1-5% in natural bark)"
+      - "Magnolol (2-10% in natural bark)"
+    notes: "Used in Chinese pharmacopoeia for thousands of years; includes multiple editions with detailed monographs"
+
+  - id: who_status
+    title: "WHO Monograph Status"
+    organization: World Health Organization
+    type: regulatory_note
+    status: "No specific monograph published for Magnolia officinalis"
+    notes: "WHO has not published a dedicated monograph for Magnolia bark as of 2026"
+
+  - id: commission_e_status
+    title: "Commission E Monograph Status"
+    organization: German Commission E
+    type: regulatory_note
+    status: "No monograph published"
+    notes: "Commission E did not evaluate Magnolia officinalis; primarily assessed herbs used in German phytotherapy; M. officinalis is primarily an Asian medicinal plant"
+
+systematic_reviews_meta_analyses:
+  - id: sarrica_2018
+    title: "Safety and Toxicology of Magnolol and Honokiol"
+    authors:
+      - Sarrica, Andrea
+      - Kirika, Natalja
+      - Romeo, Margherita
+      - Salmona, Mario
+      - Diomede, Luisa
+    year: 2018
+    journal: Planta Med
+    volume: 84
+    issue: 16
+    pages: "1151-1164"
+    pubmed_id: "29925102"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29925102/"
+    doi: "10.1055/a-0642-1966"
+    study_type: safety_toxicology_review
+    references_examined: 145
+    key_findings:
+      genotoxicity: "In vitro and in vivo studies indicate concentrated MBE has no mutagenic and genotoxic potential"
+      subchronic_toxicity_noael: ">240 mg/kg body weight per day (OECD guidelines)"
+      human_trials_duration: "Up to 1 year without adverse effects reported"
+      regulatory_status: "Different food safety authorities have evaluated magnolol and honokiol and considered them safe"
+      metabolism: "Glucuronidation metabolism similar to dietary polyphenols; potential for drug interactions cannot be excluded"
+      conclusion: "Magnolol and honokiol considered safe by multiple regulatory authorities"
+
+  - id: poivre_2017
+    title: "Biological activity and toxicity of the Chinese herb Magnolia officinalis Rehder & E. Wilson (Houpo) and its constituents"
+    authors:
+      - Poivre, Mélanie
+      - Duez, Pierre
+    year: 2017
+    journal: Journal of Zhejiang University Science B
+    volume: 18
+    issue: 3
+    pages: "194-214"
+    pubmed_id: "28271656"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28271656/"
+    pmcid: "PMC5365644"
+    doi: "10.1631/jzus.B1600299"
+    study_type: comprehensive_review
+    references_examined: 145
+    key_findings:
+      traditional_uses: "Anxiety, asthma, depression, gastrointestinal disorders, headache (Chinese and Japanese traditional medicine)"
+      pharmacological_activities:
+        - "Antioxidant"
+        - "Anti-inflammatory"
+        - "Antibiotic"
+        - "Antispasmodic"
+      active_constituents: "Magnolol and honokiol (principal phenolic compounds)"
+      toxicity_profile: "In vitro and in vivo toxicity studies indicate some intriguing features requiring consideration"
+
+  - id: li_2024
+    title: "Neolignans in Magnolia officinalis as natural anti-Alzheimer's disease agents: A systematic review"
+    authors:
+      - Li, Na
+      - Liang, Yuanyuan
+      - Zhang, Lijuan
+      - Xu, Changlu
+      - Wang, Lin
+    journal: Ageing Research Reviews
+    volume: 99
+    pages: "102398"
+    year: 2024
+    pubmed_id: "38955265"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38955265/"
+    doi: "10.1016/j.arr.2024.102398"
+    study_type: systematic_review
+    methodology: "PRISMA guidelines; searched PubMed, Web of Science, Google Scholar, Scopus (up to March 1, 2024)"
+    studies_screened: 1172
+    studies_included: 28
+    key_findings:
+      active_compounds:
+        - "Honokiol"
+        - "Magnolol"
+        - "4-O-methylhonokiol"
+        - "Obovatol"
+      effects: "M. officinalis-derived neolignans alleviated behavioral abnormalities, including learning and cognitive impairments, in AD animal models"
+      mechanisms: "Inhibited Aβ generation/aggregation, neuroinflammation, acetylcholinesterase activity; promoted microglial phagocytosis, antioxidative stress; alleviated mitochondrial dysfunction"
+      pathways: "NF-κB, ERK, AMPK/mTOR/ULK1 signaling"
+      study_population: "Pre-clinical studies only"
+      conclusion: "Preclinical evidence promising; exact targets, pharmacokinetics, safety, and clinical efficacy in AD patients need further investigation"
+    notes: "Systematic review focused on Alzheimer's disease applications of magnolia neolignans"
+
+  - id: lin_2021
+    title: "Pharmacology, Toxicity, Bioavailability, and Formulation of Magnolol: An Update"
+    authors:
+      - Lin, Yiping
+      - Li, Yuke
+      - Zeng, Yuanlian
+      - Tian, Bin
+      - Qu, Xiaolan
+      - Yuan, Qianghua
+      - Song, Ying
+    year: 2021
+    journal: Frontiers in Pharmacology
+    volume: 12
+    pages: "632767"
+    pubmed_id: "PMC8010308"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8010308/"
+    doi: "10.3389/fphar.2021.632767"
+    study_type: literature_review
+    period_covered: "January 2011 to October 2020"
+    key_findings:
+      pharmacology: "Anti-inflammatory, antitumor, antioxidant, hypoglycemic, cardiovascular protection, antiangiogenesis, antibacterial activities"
+      mechanisms: "NF-κB, MAPK, PI3K/Akt signaling pathways"
+      toxicity: "No genotoxicity or mutagenic toxicity; fairly nontoxic at therapeutic concentrations"
+      bioavailability: "Poor aqueous solubility; only 4.9% oral bioavailability"
+      formulation_improvements: "Solid dispersions, liposomes, nanoparticles, mixed micelles improved bioavailability up to 2.98-fold"
+
+randomized_controlled_trials:
+  - id: kalman_2008
+    title: "Effect of a proprietary Magnolia and Phellodendron extract on stress levels in healthy women: a pilot, double-blind, placebo-controlled clinical trial"
+    authors:
+      - Kalman, Douglas S
+      - Feldman, Samantha
+      - Feldman, Robert
+      - Schwartz, Howard I
+      - Krieger, Diane R
+      - Garrison, Robert
+    year: 2008
+    journal: Nutrition Journal
+    volume: 7
+    pages: "11"
+    pubmed_id: "18426577"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18426577/"
+    pmcid: "PMC2359758"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled_pilot
+    sample_size_enrolled: 40
+    sample_size_completed: 26
+    population: "Healthy, overweight premenopausal female adults who eat more in response to stress"
+    intervention:
+      product: "Relora (proprietary blend of Magnolia officinalis and Phellodendron amurense extracts)"
+      standardization: "Not less than 1.5% honokiol and 0.1% berberine"
+      dose: "250 mg"
+      frequency: "Three times daily"
+      duration: "6 weeks"
+    key_findings:
+      anxiety_state:
+        result: "Significantly reduced temporary, transitory anxiety versus placebo"
+        measure: "Spielberger STATE anxiety questionnaire"
+        interpretation: "Effective for acute anxiety"
+      anxiety_trait: "No significant effect on trait anxiety"
+      cortisol_amylase: "No significant changes in salivary cortisol or amylase levels"
+      sleep: "No significant changes in sleep quality/latency"
+      appetite_body_composition: "No significant changes"
+      adverse_events: "No adverse events occurred"
+      conclusion: "Relora effective for reducing temporary anxiety; safe and well-tolerated"
+
+  - id: talbott_2013
+    title: "Effect of Magnolia officinalis and Phellodendron amurense (Relora®) on cortisol and psychological mood state in moderately stressed subjects"
+    authors:
+      - Talbott, Shawn M
+      - Talbott, Julie A
+      - Pugh, Mike
+    year: 2013
+    journal: Journal of the International Society of Sports Nutrition
+    volume: 10
+    issue: 1
+    pages: "37"
+    pubmed_id: "23924268"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23924268/"
+    pmcid: "PMC3750820"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 56
+    demographics: "35 men, 21 women screened for moderate stress"
+    intervention:
+      product: "Relora® (Next Pharmaceuticals) - standardized combination of Magnolia bark and Phellodendron bark extracts"
+      duration: "4 weeks"
+    key_findings:
+      cortisol:
+        result: "18% lower (p<0.05)"
+        measure: "Salivary cortisol exposure"
+      mood_state_improvements:
+        - metric: "Overall Stress"
+          result: "11% reduction (p<0.05)"
+        - metric: "Tension"
+          result: "13% reduction (p<0.05)"
+        - metric: "Depression"
+          result: "20% reduction (p<0.05)"
+        - metric: "Anger"
+          result: "42% reduction (p<0.05)"
+        - metric: "Fatigue"
+          result: "31% reduction (p<0.05)"
+        - metric: "Confusion"
+          result: "27% reduction (p<0.05)"
+        - metric: "Global Mood State"
+          result: "11% improvement (p<0.05)"
+        - metric: "Vigor"
+          result: "18% increase (p<0.05)"
+      conclusion: "Daily supplementation with Relora® reduces cortisol exposure and perceived daily stress while improving mood parameters"
+
+  - id: garrison_2006
+    title: "Effect of a proprietary Magnolia and Phellodendron extract on weight management: a pilot, double-blind, placebo-controlled clinical trial"
+    authors:
+      - Garrison, Robert
+      - Chambliss, Walter G
+    year: 2006
+    journal: Alternative Therapies in Health and Medicine
+    volume: 12
+    issue: 1
+    pages: "50-54"
+    pubmed_id: "16454147"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16454147/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled_pilot
+    sample_size: 28
+    population: "Overweight (BMI 25-34.9) premenopausal females aged 20-50 who ate more during stress"
+    intervention:
+      dose: "250 mg capsules"
+      frequency: "Three times daily"
+      duration: "6 weeks"
+    key_findings:
+      weight_change:
+        placebo: "Gained average 1.5 kg (p<0.01)"
+        treatment: "No significant change (p=0.89)"
+        interpretation: "Treatment prevented stress-related weight gain"
+      weight_gain_frequency:
+        placebo: "75% gained ≥1 kg"
+        treatment: "37% gained ≥1 kg"
+        p_value: "<0.04"
+      evening_cortisol:
+        result: "Marginally significant reduction (p=0.06)"
+      safety: "Well tolerated with no adverse effects reported"
+
+  - id: agosta_2011
+    title: "Randomized controlled study on clinical efficacy of isoflavones plus Lactobacillus sporogenes, associated or not with a natural anxiolytic agent in menopause"
+    authors:
+      - Agosta, C
+      - Atlante, M
+      - Benvenuti, C
+    year: 2011
+    journal: Minerva Ginecol
+    volume: 63
+    issue: 1
+    pages: "11-17"
+    pubmed_id: "21311416"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21311416/"
+    study_type: randomized_controlled_trial
+    design: multicenter_parallel_group_placebo_controlled
+    sample_size: 634
+    centers: 91
+    demographics: "Mean age 53.1 years; BMI 25.2 kg/m²; 28% prior HRT users"
+    intervention:
+      group_e: "Isoflavones 60 mg + Lactobacillus sporogenes + calcium + vitamin D3 (Estromineral)"
+      group_es: "Same as Group E plus magnolia bark extract (Estromineral serena)"
+      dosing: "One tablet nightly"
+      duration: "12 weeks"
+      assessment_points: "Weeks 0, 4, 8, 12"
+    key_findings:
+      magnolia_superior_for:
+        - "Insomnia"
+        - "Irritability"
+        - "Anxiety"
+        - "Depressed mood"
+        - "Asthenia"
+        - "Loss of libido"
+      physician_wellbeing_assessment: ">70% of both groups showed positive well-being"
+      adverse_events:
+        group_e: "1%"
+        group_es: "1.2%"
+      conclusion: "Magnolia bark extract enhances benefits beyond isoflavones alone for menopausal psychological symptoms"
+
+  - id: mucci_2006
+    title: "Soy isoflavones, lactobacilli, Magnolia bark extract, vitamin D3 and calcium. Controlled clinical study in menopause"
+    authors:
+      - Mucci, M
+      - Carraro, C
+      - Mancino, P
+      - Monti, M
+      - Papadia, LS
+      - Volpini, G
+      - Benvenuti, C
+    year: 2006
+    journal: Minerva Ginecol
+    volume: 58
+    issue: 4
+    pages: "323-34"
+    pubmed_id: "16957676"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16957676/"
+    study_type: randomized_controlled_trial
+    design: multicenter_controlled
+    sample_size: 89
+    demographics: "Mean age 53.8 years"
+    intervention:
+      es_group: "Soy isoflavones (60 mg) + lactobacilli (500 million spores) + calcium (141 mg) + vitamin D3 (5 mcg) + Magnolia bark extract (60 mg) + magnesium (50 mg)"
+      control_group: "Calcium + vitamin D3 only"
+      frequency: "1 tablet daily"
+      duration: "24 weeks"
+    key_findings:
+      sleep_psychoaffective_outcomes: "Insomnia, anxiety, mood depression, and irritability showed significant decrease in severity with ES versus Ca+D from week 4 onward"
+      wellbeing:
+        es_group: "66.7% rated good/very good"
+        control_group: "20%"
+      efficacy_judgments:
+        es_group: "72.7%"
+        control_group: "17.1%"
+      acceptability:
+        es_group: "93.9%"
+        control_group: "31.4%"
+      conclusion: "Magnolia extract and magnesium effective for psycho-affective and sleep disturbances in menopause, in addition to isoflavone effects on vasomotor symptoms"
+
+  - id: xue_2020
+    title: "A randomized controlled pilot study of the effectiveness of magnolia tea on alleviating depression in postnatal women"
+    authors:
+      - Xue, Lili
+      - Zhang, Jie
+      - Shen, Huaxiang
+      - Ai, Ling
+      - Wu, Rongrong
+    year: 2020
+    journal: Food Science & Nutrition
+    volume: 8
+    issue: 3
+    pages: "1554-1561"
+    pubmed_id: "32180964"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/32180964/"
+    doi: "10.1002/fsn3.1442"
+    study_type: randomized_controlled_trial
+    design: randomized_controlled_pilot
+    sample_size: 143
+    population: "Postpartum women"
+    intervention:
+      product: "Pure magnolia tea (single ingredient)"
+      duration: "3 weeks"
+      control: "Standard postpartum care"
+    key_findings:
+      sleep_quality:
+        result: "Physical sleep inefficiency improved at 3 weeks"
+        statistics: "t=-2.10, p=0.03"
+      fatigue:
+        three_weeks: "t=-2.02, p=0.04"
+        six_weeks: "t=-1.99, p=0.04"
+      depression:
+        measure: "Edinburgh Postnatal Depression Scale"
+        three_weeks: "t=-2.38, p=0.02"
+        six_weeks: "t=-2.13, p=0.02"
+      conclusion: "Drinking single-ingredient magnolia tea for 3 weeks has positive effects on postpartum women; benefits sustained at 6-week follow-up"
+    notes: "Important study as it uses pure magnolia tea, not a combination product"
+
+preclinical_mechanistic_studies:
+  - id: chen_2012
+    title: "Magnolol, a major bioactive constituent of the bark of Magnolia officinalis, induces sleep via the benzodiazepine site of GABA(A) receptor in mice"
+    authors:
+      - Chen, Chang-Rui
+      - Zhou, Xu-Zhao
+      - Luo, Yan-Jia
+      - Huang, Zhi-Li
+      - Urade, Yoshihiro
+      - Qu, Wei-Min
+    year: 2012
+    journal: Neuropharmacology
+    volume: 63
+    issue: 6
+    pages: "1191-9"
+    pubmed_id: "22771461"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/22771461/"
+    doi: "10.1016/j.neuropharm.2012.06.031"
+    study_type: preclinical_mechanistic
+    animal_model: "Male inbred C57BL mice"
+    intervention:
+      compound: "Magnolol"
+      route: "Intraperitoneal"
+      doses: "5 mg/kg and 25 mg/kg"
+    key_findings:
+      mechanism: "Acts via benzodiazepine site of GABA(A) receptor - effects reversed by flumazenil (benzodiazepine antagonist)"
+      sleep_latency: "Significantly shortened at both 5 and 25 mg/kg doses"
+      nrem_sleep: "Increased duration during 3-hour post-administration period"
+      rem_sleep: "Increased duration during 3-hour post-administration period"
+      sleep_architecture:
+        - "Enhanced NREM and REM sleep episode frequency"
+        - "Increased wakefulness bouts while reducing their duration"
+        - "Greater state transitions between wake and NREM sleep stages"
+      conclusion: "Magnolol induces sleep through GABAergic pathway via benzodiazepine receptor site"
+
+  - id: borgonetti_2021
+    title: "A honokiol-enriched Magnolia officinalis Rehder & E.H. Wilson. bark extract possesses anxiolytic-like activity with neuroprotective effect through the modulation of CB1 receptor"
+    authors:
+      - Borgonetti, Vittoria
+      - Governa, Paolo
+      - Manetti, Fabrizio
+      - Miraldi, Elisabetta
+      - Biagi, Marco
+      - Galeotti, Nicoletta
+    year: 2021
+    journal: Journal of Pharmacy and Pharmacology
+    volume: 73
+    issue: 9
+    pages: "1161-1168"
+    pubmed_id: "33950239"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33950239/"
+    doi: "10.1093/jpp/rgab067"
+    study_type: preclinical_mechanistic
+    models:
+      - "SH-SY5Y cells (in vitro neuroprotection assessment)"
+      - "Behavioral assays in mice"
+    key_findings:
+      neuroprotection: "Normalized brain-derived neurotrophic factor (BDNF) release in SH-SY5Y cells"
+      anxiolytic_effect: "Selective anxiolytic-like effect demonstrated across behavioral assessments"
+      mechanism_dual:
+        - "GABA modulation"
+        - "CB1 receptor agonism (confirmed by co-administration with CB1 antagonist AM251)"
+      conclusion: "Honokiol-enriched extract qualifies as an effective and safe anxiolytic candidate with neuroprotective activity"
+
+  - id: alexeev_2012
+    title: "The natural products magnolol and honokiol are positive allosteric modulators of both synaptic and extra-synaptic GABAA receptors"
+    authors:
+      - Alexeev, Mikhail
+      - Grosenbaugh, Denise K
+      - Mott, David D
+      - Fisher, Janet L
+    year: 2012
+    journal: Neuropharmacology
+    volume: 62
+    issue: 8
+    pages: "2507-2514"
+    pubmed_id: "PMC3652012"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3652012/"
+    doi: "10.1016/j.neuropharm.2012.03.002"
+    study_type: preclinical_mechanistic
+    methods: "Whole-cell patch-clamp recordings from rat hippocampal neurons; recombinant GABAA receptors in mammalian cells; site-directed mutagenesis"
+    key_findings:
+      neuronal_effects: "Prolonged decay of evoked inhibitory postsynaptic currents (IPSCs) without changing peak amplitudes"
+      tonic_currents: "Increased tonic currents by approximately 350-400%"
+      mipsc_frequency: "Elevated miniature IPSC frequency, suggesting presynaptic effects"
+      receptor_selectivity: "Broad activity across receptor subtypes regardless of alpha, beta, or gamma subunit identity"
+      delta_receptors: "Substantially greater maximum potentiation at delta-containing receptors (over 2x that of gamma-containing variants)"
+      binding_site: "Novel allosteric site distinct from neurosteroid, anesthetic, ethanol, or picrotoxin binding sites"
+      conclusion: "Magnolol and honokiol act as positive allosteric modulators of GABAA receptors through a unique binding location"
+
+pharmacokinetic_studies:
+  - id: lin_2011
+    title: "Pharmacokinetics, bioavailability, and tissue distribution of magnolol following single and repeated dosing of magnolol to rats"
+    authors:
+      - Lin, Shiuan-Pey
+      - Tsai, Shang-Yuan
+      - Lee Chao, Pei-Dawn
+      - Chen, Ying-Chen
+      - Hou, Yu-Chi
+    year: 2011
+    journal: Planta Medica
+    volume: 77
+    issue: 16
+    pages: "1800-1805"
+    pubmed_id: "21638244"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21638244/"
+    doi: "10.1055/s-0030-1271159"
+    study_type: pharmacokinetic_study
+    animal_model: "Sprague-Dawley male rats"
+    intervention:
+      intravenous: "20 mg/kg bolus"
+      oral: "50 mg/kg (single dose and seven repeated doses)"
+    key_findings:
+      metabolism_iv: "Systemic exposure of magnolol glucuronides (MG) comparable with unmodified magnolol"
+      metabolism_oral: "Magnolol sulfates/glucuronides (MS/G) predominant in bloodstream after oral administration"
+      tissue_distribution: "Unmodified magnolol predominated in organs; liver accumulated highest concentrations among liver, kidney, brain, lung, heart"
+      route_differences: "Different metabolite profiles between IV and oral administration routes"
+      first_pass: "Extensive first-pass metabolism"
+
+  - id: liu_2016
+    title: "Comparative pharmacokinetics and brain distribution of magnolol and honokiol after oral administration of Magnolia officinalis cortex extract and its compatibility with other herbal medicines in Zhi-Zi-Hou-Po Decoction to rats"
+    authors:
+      - Liu, Yuan
+      - Wang, Dan
+      - Yang, Gongjun
+      - Shi, Qingshui
+      - Feng, Fang
+    year: 2016
+    journal: Biomedical Chromatography
+    volume: 30
+    issue: 3
+    pages: "369-375"
+    pubmed_id: "26173910"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/26173910/"
+    doi: "10.1002/bmc.3557"
+    study_type: pharmacokinetic_study
+    animal_model: "Rats"
+    methods: "HPLC with fluorescence detection"
+    key_findings:
+      herb_interactions: "When Magnolia officinalis combined with Gardenia jasminoides, Tmax and AUC(0-τ) significantly increased vs extract alone"
+      brain_distribution_magnolol: "Brain concentration increased substantially with Gardenia addition but decreased when combined with Citrus aurantium"
+      brain_distribution_honokiol: "Showed reduced brain penetration across most herbal combinations, particularly with Citrus aurantium"
+      clinical_relevance: "Herbal formula composition significantly affects bioavailability and tissue distribution"
+      conclusion: "Traditional herbal combinations may enhance or reduce compound bioavailability and target organ distribution"
+
+  - id: zhuang_2019
+    title: "A validated ultra-HPLC-MS/MS method for determination of honokiol in human plasma and its application to a clinical pharmacokinetic study"
+    authors:
+      - Zhuang, Quankun
+      - Pan, Ruili
+      - Liu, Xuemei
+      - Xu, Wen
+      - Wang, Hanping
+      - Zhang, Xiaotong
+      - Lai, Xintian
+      - Wang, Hongyun
+      - Zhang, Li
+      - Jiang, Ji
+    year: 2019
+    journal: Bioanalysis
+    volume: 11
+    issue: 11
+    pages: "1085-1098"
+    pubmed_id: "31251102"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31251102/"
+    doi: "10.4155/bio-2019-0030"
+    study_type: phase_i_clinical_pharmacokinetic
+    population: "Chinese subjects with advanced non-small-cell lung cancer"
+    intervention:
+      drug: "Honokiol liposome injection (HKLI)"
+    key_findings:
+      analytical_method: "Ultra-HPLC-MS/MS (UPLC-MS/MS) with LLOQ of 0.5 ng/ml"
+      sensitivity: "Method was sensitive and selective"
+      application: "Successfully applied to evaluate honokiol pharmacokinetics in first-in-human study"
+      human_pk_data: "This represents one of the first human pharmacokinetic studies of honokiol"
+    notes: "Abstract does not provide specific Cmax, Tmax, AUC, or t1/2 values; full text required for detailed PK parameters"
+
+safety_toxicology_studies:
+  - id: liu_2007
+    title: "Evaluation of short-term and subchronic toxicity of magnolia bark extract in rats"
+    authors:
+      - Liu, Zhaoping
+      - Zhang, Xiaopeng
+      - Cui, Wenming
+      - Zhang, Xin
+      - Li, Ning
+      - Chen, Junshi
+      - Wong, Andrea W
+      - Roberts, Ashley
+    year: 2007
+    journal: Regulatory Toxicology and Pharmacology
+    volume: 49
+    issue: 3
+    pages: "160-171"
+    pubmed_id: "17692445"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/17692445/"
+    doi: "10.1016/j.yrtph.2007.06.006"
+    study_type: toxicology_study
+    design: "21-day pilot study + 90-day subchronic assessment"
+    animal_model: "Sprague-Dawley rats (male and female)"
+    intervention:
+      pilot_doses: "0, 60, 120, 240, or 480 mg/kg body weight/day via diet"
+      subchronic_doses: "0, 60, 120, or 240 mg/kg body weight/day via diet"
+    parameters_measured:
+      - "Clinical observations"
+      - "Hematology"
+      - "Clinical chemistry"
+      - "Urinalysis"
+      - "Coagulation profiles"
+      - "Organ weights"
+      - "Macroscopic pathology"
+      - "Microscopic pathology"
+      - "Body weight"
+      - "Food consumption"
+      - "Ophthalmic assessments"
+    key_findings:
+      mortality: "No mortality in either phase"
+      clinical_observations: "No treatment-related effects"
+      pathology: "No macroscopic or microscopic treatment-related findings"
+      dose_relationship: "Differences between treatment and control not dose-related and not toxicologically significant"
+      noael: "240 mg/kg body weight/day (highest dose tested)"
+      conclusion: "Magnolia bark extract demonstrated safety in both short-term and subchronic toxicity studies"
+
+dosage_summary:
+  traditional_chinese_medicine:
+    - use: "General traditional applications (Houpo)"
+      preparation: "Decoctions and powdered bark"
+      notes: "Used for thousands of years in Chinese medicine"
+
+  clinical_trial_dosages:
+    stress_anxiety_mood:
+      - product: "Relora®"
+        dose: "250 mg three times daily (750 mg/day total)"
+        duration: "4-6 weeks"
+        standardization: "≥1.5% honokiol and 0.1% berberine"
+        studies: ["kalman_2008", "talbott_2013", "garrison_2006"]
+        outcomes: "Reduced anxiety, cortisol, improved mood parameters"
+
+    menopause_insomnia_mood:
+      - product: "Magnolia bark extract in combination formulas"
+        dose: "60 mg magnolia bark extract per day"
+        frequency: "Once nightly"
+        duration: "12-24 weeks"
+        studies: ["agosta_2011", "mucci_2006"]
+        combination_ingredients:
+          - "Soy isoflavones (60 mg)"
+          - "Lactobacilli (500 million spores)"
+          - "Calcium (141 mg)"
+          - "Vitamin D3 (5 mcg)"
+          - "Magnesium (50 mg, in some formulations)"
+        outcomes: "Reduced insomnia, anxiety, irritability, depressed mood"
+
+  standardized_extract_levels:
+    commercial_supplements:
+      - "90% honokiol + magnolol combined (most common)"
+      - "98% honokiol + magnolol combined (high potency)"
+      - "~20% honokiol (lower concentration extracts)"
+    natural_bark_content:
+      - "Honokiol: 1-5% in natural bark"
+      - "Magnolol: 2-10% in natural bark"
+
+bioavailability_notes:
+  honokiol:
+    - "Low oral bioavailability and rapidly metabolized by liver"
+    - "Hepatic extraction ratio in rats: 0.99 ± 0.01; clearance: 35.8 ± 0.04 mL/min"
+    - "Bioavailability in rats: F = 0.007 ± 0.001 (extremely low - 0.7%)"
+    - "Despite low bioavailability, honokiol is orally bioavailable and crosses the blood-brain barrier"
+    - "Protein binding in human plasma: 60-65% at concentrations of 0.5-20 μg/mL"
+    - "Peak plasma: 40.3 ± 30.8 ng/mL at 0.45 h post-oral administration (emulsion, rats)"
+    - "Absolute bioavailability: 5.3 ± 11.7% (oral emulsion, rats)"
+
+  magnolol:
+    - "Poor aqueous solubility; only 4.9% oral bioavailability (Lin 2021)"
+    - "Peak plasma: 426.4 ± 273.8 ng/mL at 1.20 h post-oral administration (emulsion, rats)"
+    - "Absolute bioavailability: 17.5 ± 9.7% (oral emulsion, rats)"
+    - "Extensive first-pass metabolism to sulfates and glucuronides"
+
+  human_data:
+    - "No human pharmacokinetic data available for honokiol as of recent studies (speculative only)"
+    - "No indications on pharmacokinetic profile of magnolol in humans available"
+    - "Only one study with extract containing <90% total neolignans in 7 healthy subjects and 10 asthmatic patients (Saiboku-To extract)"
+
+  formulation_strategies:
+    - "Nanoparticles, liposomes, solid dispersions, nanoemulsions under investigation"
+    - "Nanoemulsion delivery improved bioavailability: magnolol by 3.03-fold, honokiol by 3.47-fold"
+    - "Solid dispersions, phospholipid complexes, emulsions improved bioavailability and stability up to 2.98-fold (Lin 2021)"
+
+  metabolism:
+    - "Different metabolite profiles: IV administration produces magnolol glucuronides; oral produces sulfates/glucuronides in bloodstream"
+    - "CYP2E1 manages oxidation to epoxy metabolites; CYP3A4 responsible for hydrolytic metabolism; CYP1A2 promotes decarboxylation"
+    - "Glucuronidation metabolism similar to dietary polyphenols with relatively quick clearance"
+
+  distribution:
+    - "Tissue distribution: unmodified magnolol/honokiol predominate in organs; liver shows highest accumulation"
+    - "Brain penetration variable; improved when combined with Gardenia jasminoides"
+    - "Oral honokiol distributed rapidly to all organs with highest concentration in brain, liver, kidneys"
+    - "~50% secreted in bile, ~60-65% plasma protein bound, ~27% excreted in urine"
+    - "Elimination half-life (t1/2): 49.05-56.24 minutes (honokiol)"
+
+  processing_effects:
+    - "Processing affects pharmacokinetics: processed MO showed 36% increased AUC and 24% increased Cmax for honokiol versus unprocessed"
+
+safety_summary:
+  general_safety: "Magnolia bark extract and its constituents (magnolol and honokiol) are considered safe by multiple food safety authorities"
+
+  human_clinical_trials:
+    duration: "Up to 1 year without adverse effects reported"
+    adverse_events: "Generally mild and infrequent when reported"
+    specific_trials: "No adverse events in Kalman 2008 study; 1-1.2% adverse events in menopausal studies (comparable to control)"
+
+  toxicology_studies:
+    genotoxicity: "No mutagenic and genotoxic potential demonstrated in vitro and in vivo"
+    noael: ">240 mg/kg body weight per day (OECD guidelines, subchronic study)"
+    long_term_safety: "Intervention trials up to 1 year showed no adverse effects"
+
+  metabolism:
+    pathway: "Glucuronidation similar to dietary polyphenols"
+    clearance: "Rapid clearance"
+    drug_interactions: "Potential interactions with pharmaceutical agents cannot be excluded despite rapid clearance"
+
+  contraindications:
+    - "Pregnancy (insufficient safety data)"
+    - "Lactation (insufficient safety data)"
+
+  potential_concerns:
+    - "High potentiation of aristolochic acid genotoxicity by M. officinalis demonstrated - may explain some Chinese herb nephropathy cases"
+    - "Magnolia bark can be toxic and has been linked to kidney disease and permanent kidney failure in some reports (mechanisms unclear)"
+    - "At elevated concentrations, honokiol may lead to gastrointestinal disturbances and hepatotoxicity (specific doses not established)"
+    - "Although herbs containing magnolia are part of herbal formulae implicated in hepatotoxicities, causality assessment is often lacking"
+
+  hepatoprotective_effects:
+    - "Magnolol reduced acetaminophen-induced liver damage in rats by inhibiting lipid peroxidation and ROS formation"
+    - "Clinical trial: 400 mg/day magnolia extract for 12 weeks reduced liver fat content and liver damage (ALT levels) in 74 people with NAFLD"
+    - "Magnolia officinalis reverses alcoholic fatty liver in preclinical models"
+    - "Evidence suggests hepatoprotective rather than hepatotoxic effects at therapeutic doses"
+
+  special_considerations:
+    - "Well-tolerated in menopausal women"
+    - "Safe for stress and anxiety management in clinical trials"
+    - "No serious adverse events in preclinical sleep studies"
+
+quality_standardization:
+  active_constituents:
+    primary:
+      - "Honokiol (neolignan)"
+      - "Magnolol (neolignan)"
+
+  quality_control_methods:
+    - method: "High-performance liquid chromatography (HPLC-DAD)"
+      application: "Quantification of magnolol and honokiol"
+    - method: "1H Nuclear magnetic resonance spectroscopy (1H NMR)"
+      application: "Identification and quantification of lignans in dietary supplements"
+      notes: "Developed as alternative/complementary to HPLC; can separate and purify honokiol to >98% purity in under 1 hour"
+
+  standardization_markers: "Honokiol and magnolol used as marker compounds for quality assessment and batch discrimination"
+
+  commercial_products_studied:
+    - name: "Relora®"
+      manufacturer: "Next Pharmaceuticals"
+      standardization: "≥1.5% honokiol and 0.1% berberine (includes Phellodendron)"
+      indications: "Stress, anxiety, cortisol reduction, weight management"
+      studies: ["kalman_2008", "talbott_2013", "garrison_2006"]
+
+    - name: "Estromineral serena"
+      manufacturer: "Rottapharm Madaus"
+      composition: "60 mg magnolia bark extract + isoflavones + lactobacilli + calcium + vitamin D3 + magnesium"
+      indications: "Menopausal symptoms, insomnia, mood disturbances"
+      studies: ["agosta_2011", "mucci_2006"]
+
+mechanisms_of_action:
+  gaba_receptor_modulation:
+    - compound: "Magnolol and Honokiol"
+      receptor: "GABA(A) receptor"
+      site: "Benzodiazepine site and unique undescribed site"
+      evidence: "Effects reversed by flumazenil (benzodiazepine antagonist) and bicuculline (GABA(A) antagonist)"
+      effects: "Anxiolytic, sedative, neuroprotective, anti-convulsant"
+      advantage: "Potentially fewer side effects than traditional benzodiazepines"
+
+  cannabinoid_receptor_modulation:
+    - compound: "Honokiol"
+      receptor: "CB1 receptor"
+      mechanism: "CB1 agonism"
+      evidence: "Effects blocked by CB1 antagonist AM251"
+      effects: "Anxiolytic, neuroprotective"
+
+  neuroprotection:
+    - compound: "Honokiol-enriched extract"
+      mechanism: "Normalizes brain-derived neurotrophic factor (BDNF) release"
+      model: "SH-SY5Y cells"
+      significance: "Dual anxiolytic and neuroprotective properties"
+
+research_gaps:
+  - "Human pharmacokinetic data for honokiol and magnolol are lacking or speculative - practically no clinical studies published in English (Poivre & Duez 2017)"
+  - "Most human clinical trials use combination products (Relora with Phellodendron; menopausal formulas with multiple ingredients), making it difficult to isolate magnolia bark-specific effects"
+  - "Limited data on magnolia bark extract alone (not in combination) for clinical applications - Xue 2020 magnolia tea study is rare exception"
+  - "No large-scale RCTs on magnolia bark for sleep disorders, despite preclinical mechanistic evidence via GABA receptors"
+  - "Optimal dosing and standardization levels not yet established through dose-response studies"
+  - "Phase 2 dose-ranging clinical trials not identified in literature"
+  - "Long-term safety data beyond 1 year needed"
+  - "Formulation strategies for enhanced bioavailability require clinical validation (currently only preclinical data)"
+  - "Drug interaction potential needs systematic investigation given CYP450 and glucuronidation metabolism"
+  - "Mechanism of action studies primarily in animal models; human mechanistic studies needed"
+  - "Clinical trials in populations beyond stressed women and menopausal women would expand evidence base"
+  - "Exact targets, pharmacokinetics, safety, and clinical efficacy in AD patients need further investigation (Li 2024)"
+  - "Mechanisms underlying some toxicity concerns (e.g., potential Chinese herb nephropathy association) not fully elucidated"
+  - "No Commission E or WHO monographs exist - further validation may facilitate wider acceptance"
+
+key_citations_by_topic:
+  clinical_efficacy_stress_anxiety:
+    - "Talbott 2013 (PMID: 23924268) - 18% cortisol reduction, 42% anger reduction, 4-week RCT"
+    - "Kalman 2008 (PMID: 18426577) - Reduced temporary anxiety, 6-week RCT"
+
+  clinical_efficacy_menopause:
+    - "Mucci 2006 (PMID: 16957676) - 60 mg/day magnolia, 66.7% wellbeing improvement, 24-week RCT"
+    - "Agosta 2011 (PMID: 21311416) - Superior for insomnia, anxiety, mood in 634 women, 12-week RCT"
+
+  clinical_efficacy_postpartum:
+    - "Xue 2020 (PMID: 32180964) - Pure magnolia tea reduced depression, improved sleep in 143 women"
+
+  mechanism_gaba:
+    - "Chen 2012 (PMID: 22771461) - Magnolol acts via benzodiazepine site of GABA_A receptor"
+    - "Alexeev 2012 (PMC3652012) - Positive allosteric modulation, unique binding site, 350-400% increase in tonic currents"
+
+  pharmacokinetics:
+    - "Lin 2011 (PMID: 21638244) - 4.9% bioavailability, extensive first-pass metabolism"
+    - "Liu 2016 (PMID: 26173910) - Herb combinations affect brain distribution and bioavailability"
+
+  safety_toxicology:
+    - "Liu 2007 (PMID: 17692445) - NOAEL >240 mg/kg/day, no adverse effects in 90-day study"
+    - "Sarrica 2018 (PMID: 29925102) - Safe up to 1 year in humans, no genotoxicity"
+
+  comprehensive_reviews:
+    - "Poivre 2017 (PMID: 28271656) - Comprehensive review of biological activity and toxicity"
+    - "Lin 2021 (PMC8010308) - Pharmacology, toxicity, bioavailability update 2011-2020"
+    - "Li 2024 (PMID: 38955265) - Systematic review for Alzheimer's disease applications"
+
+notes:
+  - "Magnolia officinalis bark (Houpo/厚朴) has been used in Chinese and Japanese traditional medicine for thousands of years"
+  - "Official in Chinese Pharmacopoeia (multiple editions including 2010, 2015) and European Pharmacopoeia - minimum 2.0% total honokiol and magnolol"
+  - "No WHO or Commission E monographs exist (not traditionally used in Western/German phytotherapy)"
+  - "Primary traditional uses: anxiety, asthma, depression, GI disorders, headache - partially supported by modern clinical evidence"
+  - "Most robust clinical evidence for stress reduction, cortisol reduction, anxiety relief, and menopausal mood/sleep symptoms"
+  - "Standardization to honokiol and magnolol content (typically 90% combined in supplements; 2.0% minimum in pharmacopoeia) improves quality consistency"
+  - "Extremely low oral bioavailability (magnolol 4.9%; honokiol 0.7% in rats) remains major challenge, yet oral activity is clearly demonstrated"
+  - "Dual GABA_A and CB1 receptor modulation provides unique anxiolytic profile distinct from benzodiazepines - potentially fewer side effects"
+  - "Novel binding site on GABA_A receptor distinct from benzodiazepines, neurosteroids, anesthetics, and ethanol"
+  - "Safety profile excellent based on available data: no serious adverse events in human trials up to 1 year, NOAEL >240 mg/kg/day in animals"
+  - "Quality control using HPLC and 1H NMR methods ensures consistent product standardization"
+  - "Practically no clinical studies published in English; most research in Chinese/Japanese languages or preclinical"
+  - "Xue 2020 study important as rare example of pure magnolia (not combination product) in clinical trial"
+  - "Future research priorities: human PK studies, magnolia-only formulations, enhanced bioavailability strategies, sleep disorder RCTs, dose-ranging studies, long-term safety beyond 1 year"

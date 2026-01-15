@@ -490,5 +490,77 @@
       "chain_id": null,
       "yield_stored": false
     }
+  },
+  {
+    "agent_id": "marlowe-0114",
+    "name": "marlowe-0114",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2026-01-14T22:46:50.014880Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2026-01-14T17:46:53.994460",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "eugenia-0114",
+    "name": "eugenia-0114",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2026-01-14T23:19:18.277611Z",
+    "capabilities": [],
+    "status": "retired",
+    "metadata": {
+      "torched_at": "2026-01-14T18:19:25.490005",
+      "work_summary": {
+        "issues": 0,
+        "findings": 0,
+        "plans": 0,
+        "briefs": 0,
+        "notions": 0,
+        "frictions": 0,
+        "summaries": 0,
+        "tenders": 0
+      },
+      "chain_id": null,
+      "yield_stored": false
+    }
+  },
+  {
+    "agent_id": "crumb-0114",
+    "name": "crumb-0114",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2026-01-14T23:29:03.067228Z",
+    "capabilities": [],
+    "status": "active",
+    "metadata": {
+      "ready_at": "2026-01-14T18:29:03.060539"
+    }
+  },
+  {
+    "agent_id": "tendril-0114",
+    "name": "tendril-0114",
+    "agent_type": null,
+    "description": null,
+    "registered_at": "2026-01-14T23:29:06.376099Z",
+    "capabilities": [],
+    "status": "active",
+    "metadata": {
+      "ready_at": "2026-01-14T18:29:06.373264"
+    }
   }
 ]

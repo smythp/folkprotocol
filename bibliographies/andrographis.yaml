@@ -1,0 +1,1420 @@
+---
+# Andrographis Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and regulatory monographs
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  plant_name: Andrographis
+  species: Andrographis paniculata (Burm.f.) Wall. ex Nees
+  common_names:
+    - Kalmegh
+    - King of Bitters
+    - Chuan Xin Lian
+  family: Acanthaceae
+  compiled_date: 2026-01-14
+  last_updated: 2026-01-15
+  update_notes: "Enhanced with additional PubMed clinical studies, COVID-19 meta-analysis, pharmacokinetic precision medicine study, triglyceride RCT"
+
+regulatory_monographs:
+  - id: who_2002
+    title: "WHO monographs on selected medicinal plants, Volume 2 - Herba Andrographidis"
+    organization: World Health Organization
+    year: 2002
+    type: regulatory_monograph
+    location: Geneva, Switzerland
+    definition: "Dried aerial parts of Andrographis paniculata (Burm. f.) Nees (Acanthaceae)"
+    traditional_uses_clinical_data_supported:
+      - Prophylaxis and symptomatic treatment of upper respiratory infections (common cold)
+      - Uncomplicated sinusitis, bronchitis, and pharyngotonsillitis
+      - Lower urinary tract infections
+      - Acute diarrhea
+    dosage_recommendations:
+      - condition: pyrexia
+        dose: "3g crude drug decoction, twice daily"
+      - condition: common_cold
+        dose: "1.5-3.0g powdered crude drug three times daily, after meals and at bedtime"
+      - condition: diarrhea
+        dose: "3-9g crude drug decoction as single dose as needed, or two 500mg tablets four times daily after meals"
+    contraindications:
+      - Pregnancy
+      - Lactation
+    url: "https://www.ethnopharmacologia.org/bibliotheque-ethnopharmacologie/who-monographs-on-selected-medicinal-plants-volume-2/"
+    isbn: "9789241545372"
+    notes: "Approved by 120+ experts in 50+ countries; includes pharmacopoeial quality assurance and clinical applications"
+
+  - id: usp_dietary_supplement
+    title: "United States Pharmacopeia - Powdered Andrographis Extract Reference Standard"
+    organization: United States Pharmacopeial Convention
+    type: regulatory_monograph
+    reference_standard: "USP-1034873"
+    cas_number: "90244-84-1"
+    specification: "14-deoxy-11,12-didehydroandrographolide not more than 15% of total diterpene lactones"
+    url: "https://store.usp.org/product/1034873"
+    notes: "USP publishes monographs for Andrographis, Powdered Andrographis, and Powdered Andrographis Extract in Dietary Supplements Compendium (DSC)"
+
+  - id: commission_e_status
+    title: "Commission E Monograph Status"
+    organization: German Commission E
+    type: regulatory_note
+    status: "No monograph published"
+    notes: "Commission E did not evaluate Andrographis paniculata; primarily assessed herbs used in German phytotherapy; A. paniculata is primarily an Asian medicinal plant"
+
+systematic_reviews_meta_analyses:
+  - id: worakunphanich_2021
+    title: "Safety of Andrographis paniculata: A systematic review and meta-analysis"
+    authors:
+      - Worakunphanich, Wiwan
+      - Thavorncharoensap, Montarat
+      - Youngkong, Sitaporn
+      - Thadanipon, Kunlawat
+      - Thakkinstian, Ammarin
+    year: 2021
+    journal: Pharmacoepidemiology and Drug Safety
+    volume: 30
+    issue: 6
+    pages: "727-739"
+    pubmed_id: "33372366"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33372366/"
+    doi: "10.1002/pds.5220"
+    study_type: systematic_review_meta_analysis
+    studies_included: 13
+    rcts_included: 10
+    monitoring_studies: 3
+    key_findings:
+      serious_adverse_events:
+        - metric: pooled_incidence_per_1000
+          result: 0.02
+          ci_95: "[0.0, 0.5]"
+          interpretation: "Extremely rare"
+      nonserious_adverse_events:
+        - metric: pooled_incidence_per_1000
+          result: 102.6
+          ci_95: "[10.7, 256.1]"
+          interpretation: "Frequent but mild"
+      common_side_effects:
+        - "Gastrointestinal disorders"
+        - "Skin and subcutaneous disorders"
+      conclusion: "May be generally safe, though patients require close monitoring"
+
+  - id: shang_2022
+    title: "Adverse Effects of Andrographolide Derivative Medications Compared to the Safe use of Herbal Preparations of Andrographis paniculata: Results of a Systematic Review and Meta-Analysis of Clinical Studies"
+    authors:
+      - Shang, Ya-Xi
+      - Shen, Chen
+      - Stub, Trine
+      - Zhu, Si-Jia
+      - Qiao, Shu-Yu
+      - Li, Yu-Qi
+      - Wang, Rui-Ting
+      - Li, Jing
+      - Liu, Jian-Ping
+    year: 2022
+    journal: Frontiers in Pharmacology
+    volume: 13
+    pubmed_id: "35153776"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/35153776/"
+    doi: "10.3389/fphar.2022.749411"
+    study_type: systematic_review_meta_analysis
+    studies_included: 262
+    rcts: 125
+    non_randomized_trials: 23
+    case_series: 6
+    case_reports: 108
+    key_findings:
+      andrographolide_derivative_injections:
+        participants: 9490
+        overall_adr_rate: "4.04% (383 cases)"
+        specific_rates:
+          andrographolide_sulfonate: "5.48%"
+          potassium_sodium_dehydroandrographolide_succinate: "3.69%"
+          potassium_dehydroandrographolide_succinate: "5.33%"
+        serious_events:
+          anaphylactic_shock: 55
+          deaths: 3
+      herbal_preparations:
+        formulations_analyzed: 9
+        studies: 10
+        safety_profile: "Essentially safe - predominantly mild to moderate gastrointestinal and skin issues"
+      conclusion: "ADRs of andrographolide derivative medications are few but can be life-threatening; herbal preparations of AP are essentially safe"
+
+  - id: hu_2017
+    title: "Andrographis paniculata (Chuān Xīn Lián) for symptomatic relief of acute respiratory tract infections in adults and children: A systematic review and meta-analysis"
+    authors:
+      - Hu, Xiao-Yang
+      - Wu, Ruo-Han
+      - Logue, Martin
+      - Blondel, Clara
+      - Lai, Lily Yuen Wan
+      - Stuart, Beth
+      - Flower, Andrew
+      - Fei, Yu-Tong
+      - Moore, Michael
+      - Shepherd, Jonathan
+      - Liu, Jian-Ping
+      - Lewith, George
+    year: 2017
+    journal: PLoS One
+    volume: 12
+    issue: 8
+    pubmed_id: "28783743"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28783743/"
+    doi: "10.1371/journal.pone.0181780"
+    study_type: systematic_review_meta_analysis
+    trials_included: 33
+    total_participants: 7175
+    key_findings:
+      cough:
+        - metric: standardized_mean_difference
+          result: -0.39
+          ci_95: "[-0.67, -0.10]"
+          participants: 596
+          interpretation: "Significant improvement"
+      sore_throat:
+        - metric: standardized_mean_difference
+          result: -1.13
+          ci_95: "[-1.37, -0.89]"
+          participants: 314
+          interpretation: "Significant improvement"
+      adverse_events: "Mainly gastrointestinal, minimal"
+      limitations: "Poor study quality and heterogeneity limit confidence"
+
+  - id: poolsup_2004
+    title: "Andrographis paniculata in the symptomatic treatment of uncomplicated upper respiratory tract infection: systematic review of randomized controlled trials"
+    authors:
+      - Poolsup, N
+      - Suthisisang, C
+      - Prathanturarug, S
+      - Asawamekin, A
+      - Chanchareon, U
+    year: 2004
+    journal: Journal of Clinical Pharmacy and Therapeutics
+    volume: 29
+    issue: 1
+    pages: "37-45"
+    pubmed_id: "14748896"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/14748896/"
+    study_type: systematic_review
+    trials_included: 4
+    trials_analyzed: 3
+    total_participants: 433
+    key_findings:
+      combination_with_acanthopanax:
+        - metric: mean_difference_symptom_score
+          result: 2.13
+          ci_95: "[1.00, 3.26]"
+          p_value: 0.0002
+          interpretation: "Superior to placebo"
+      andrographis_alone:
+        - metric: mean_difference_symptom_score
+          result: 10.85
+          ci_95: "[10.36, 11.34]"
+          p_value: "<0.0001"
+          interpretation: "Significant advantage versus placebo"
+      conclusion: "May be appropriate alternative treatment of uncomplicated acute URTI"
+
+  - id: coon_2004
+    title: "Andrographis paniculata in the treatment of upper respiratory tract infections: a systematic review of safety and efficacy"
+    authors:
+      - Coon, Joanna Thompson
+      - Ernst, Edzard
+    year: 2004
+    journal: Planta Med
+    volume: 70
+    issue: 4
+    pages: "293-298"
+    pubmed_id: "15095142"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15095142/"
+    study_type: systematic_review
+    trials_included: 7
+    total_participants: 896
+    key_findings:
+      safety: "Adverse events were generally mild and infrequent"
+      efficacy: "Superior to placebo in alleviating subjective symptoms of uncomplicated URTI"
+      prevention: "Preliminary evidence suggesting preventative benefits"
+      conclusion: "May be safe and efficacious treatment for relief of URTI symptoms"
+
+  - id: prabhakornritta_2025
+    title: "Exploring the clinical effects of Andrographis paniculata-derived compounds, its extract, or derivatives for the treatment of COVID-19: a systematic review and meta-analysis"
+    authors:
+      - Prabhakornritta, Waranuch
+      - Fuangchan, Aphichat
+      - Srikham, Suriyan
+      - Boonpattharatthiti, Eakkapon
+      - Barnig, Cindy
+      - Boonyasuppayakorn, Siwaporn
+      - Pitaksuteepong, Thaweesak
+      - Bhattarakosol, Prasert
+      - Moulari, Bertrand
+      - Pellequer, Yves
+      - Dhippayom, Teerapon
+    year: 2025
+    journal: Frontiers in Pharmacology
+    volume: 16
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12351123/"
+    doi: "10.3389/fphar.2025.1598255"
+    study_type: systematic_review_meta_analysis
+    trials_included: 6
+    total_participants: 660
+    meta_analysis_trials: 2
+    meta_analysis_participants: 228
+    database_search: "PubMed, EMBASE, CENTRAL, EBSCO Open Dissertations (January 2020 - October 2024)"
+    key_findings:
+      fever_resolution:
+        - metric: relative_risk
+          result: 1.12
+          ci_95: "[0.90, 1.38]"
+          interpretation: "No significant difference vs antivirals"
+      cough_resolution:
+        - metric: relative_risk
+          result: 0.98
+          ci_95: "[0.74, 1.31]"
+          interpretation: "No significant difference vs antivirals"
+      inflammatory_markers:
+        serum_crp:
+          - metric: mean_difference
+            result: -0.04
+            ci_95: "[-0.26, 0.18]"
+            interpretation: "No significant difference"
+        il_6: "Comparable levels between groups"
+      symptom_improvement: "Early improvements within 7 days diminished by day 14 in individual studies"
+      adverse_events: "Mild, primarily transient liver enzyme elevations, no serious complications"
+      conclusion: "Trends indicating possible benefits as adjunctive COVID-19 therapy, but evidence remains inconclusive"
+
+  - id: tian_2022
+    title: "Pharmacological effects and safety of Andrographis paniculata (Burm.f.) Nees"
+    authors:
+      - Tian, Jingzhuo
+      - Li, Chunying
+      - Meng, Jing
+      - Wang, Lianmei
+      - Tong, Yan
+      - Zhao, Yong
+      - Yi, Yan
+      - Zhang, Yushi
+      - Xian, Zhong
+      - Pan, Chen
+      - Liu, Suyan
+      - Han, Jiayin
+      - Liang, Aihua
+    year: 2022
+    journal: Phytotherapy Research
+    volume: 36
+    issue: 2
+    pages: "598-613"
+    pubmed_id: "35166368"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/35166368/"
+    doi: "10.1002/ptr.7346"
+    study_type: experimental_research
+    methods: "Bioinformatic pathway analysis combined with pharmacodynamics and toxicity testing in rodents and dogs"
+    key_findings:
+      mechanism_of_action:
+        - "Primary action: anti-inflammatory via IL-8 pathway"
+        - "Targets: AR, AKT, BAX pathways"
+        - "Pathway analysis identified key therapeutic targets"
+      acute_toxicity:
+        single_dose: "10 g/kg produced no death or abnormal consequences"
+        maximum_tolerated_dose: "10 g/kg"
+      repeated_dose_toxicity:
+        dose: "1 g/kg daily for 8 weeks"
+        result: "No adverse effects observed"
+        subjects: "Rodents and dogs"
+      conclusion: "Safe at therapeutic doses while supporting anti-inflammatory applications for treating inflammatory conditions"
+      clinical_relevance: "Comprehensive mechanistic understanding with robust safety data"
+
+  - id: zeng_2022
+    title: "Andrographolide: A review of its pharmacology, pharmacokinetics, toxicity and clinical trials and pharmaceutical researches"
+    authors:
+      - Zeng, Bin
+      - Wei, Ailing
+      - Zhou, Qiang
+      - Yuan, Minghao
+      - Lei, Kelu
+      - Liu, Yushi
+      - Song, Jiawen
+      - Guo, Li
+      - Ye, Qiang
+    year: 2022
+    journal: Phytotherapy Research
+    volume: 36
+    issue: 1
+    pages: "336-364"
+    pubmed_id: "34818697"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34818697/"
+    study_type: comprehensive_review
+    references_examined: 226
+    key_findings:
+      pharmacological_properties:
+        - "Anti-inflammatory"
+        - "Antioxidant"
+        - "Anticancer"
+        - "Antimicrobial"
+        - "Antidiabetic"
+        - "Hypoglycemic"
+      safety_concerns:
+        - "Nephrotoxicity (easily ignored)"
+        - "Reproductive toxicity (easily ignored)"
+      clinical_data_quality: "Current extensive clinical data do not have sufficient rigor and documented details"
+      recommendation: "Higher-quality investigations required before full clinical integration"
+
+randomized_controlled_trials:
+  - id: kanokkangsadal_2023
+    title: "Andrographis paniculata extract versus placebo in the treatment of COVID-19: a double-blinded randomized control trial"
+    authors:
+      - Kanokkangsadal, Puritat
+      - Mingmalairak, Chatchai
+      - Mukkasombat, Nichamon
+      - Kuropakornpong, Pranporn
+      - Worawattananutai, Patsorn
+      - Khawcharoenporn, Thana
+      - Sakpakdeejaroen, Intouch
+      - Davies, Neal M
+      - Itharat, Arunporn
+    year: 2023
+    journal: Research in Pharmaceutical Sciences
+    volume: 18
+    issue: 4
+    pages: "445-456"
+    pubmed_id: "39005565"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39005565/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 165
+    treatment_group: 83
+    placebo_group: 82
+    intervention:
+      type: "Andrographis paniculata ethanolic extract"
+      dose: "60 mg andrographolide, three times daily"
+      total_daily_dose: "180 mg andrographolide"
+      duration: "5 days"
+    key_findings:
+      covid_progression: "No significant reduction in disease progression"
+      symptom_relief:
+        - metric: headache_relief
+          timepoint: "Day 1"
+          result: "Significantly relieved versus placebo"
+        - metric: olfactory_loss_relief
+          timepoint: "Day 2"
+          result: "Significantly relieved versus placebo"
+      global_recovery: "80.7% total recovery after treatment"
+      adverse_effects: "Mild diarrhea (most common, resolved within days)"
+      toxicity: "No hepatic or renal toxicity observed"
+
+  - id: siripongboonsitti_2023
+    title: "Efficacy of Andrographis paniculata extract treatment in mild to moderate COVID-19 patients being treated with favipiravir: A double-blind, randomized, placebo-controlled study (APFaVi trial)"
+    authors:
+      - Siripongboonsitti, T
+      - Ungtrakul, T
+      - Tawinprai, K
+      - Auewarakul, C
+      - Chartisathian, W
+      - Jansala, T
+      - Julsawad, R
+      - Soonklang, K
+      - Mahanonda, N
+      - Mahidol, C
+    year: 2023
+    journal: Phytomedicine
+    volume: 121
+    pubmed_id: "37625206"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37625206/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 146
+    treatment_group: 73
+    placebo_group: 73
+    intervention:
+      type: "Andrographis paniculata extract plus favipiravir"
+      dose: "180 mg/day APE plus favipiravir"
+      comparator: "Placebo plus favipiravir"
+    key_findings:
+      clinical_progression_prevention_day4:
+        treatment: "98.63%"
+        placebo: "97.26%"
+        p_value: 1.000
+        interpretation: "No significant difference"
+      interleukin_1b: "Significantly lower in extract group throughout study"
+      clinical_benefit: "APE treatment did not demonstrate additional clinical and virological benefits"
+      safety: "No substantial adverse events in either group"
+
+  - id: bertoglio_2016
+    title: "Andrographis paniculata decreases fatigue in patients with relapsing-remitting multiple sclerosis: a 12-month double-blind placebo-controlled pilot study"
+    authors:
+      - Bertoglio, JC
+      - Baumgartner, M
+      - Palma, R
+      - Ciampi, E
+      - Carcamo, C
+      - Cáceres, DD
+      - Acosta-Jamett, G
+      - Hancke, JL
+      - Burgos, RA
+    year: 2016
+    journal: BMC Neurology
+    volume: 16
+    issue: 77
+    pubmed_id: "27215274"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27215274/"
+    doi: "10.1186/s12883-016-0595-2"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled_pilot
+    sample_size: 25
+    analyzed: 22
+    intervention:
+      type: "Andrographis paniculata dried extract tablet"
+      dose: "170 mg twice daily (340 mg/day)"
+      route: oral
+      duration: "12 months"
+    key_findings:
+      fatigue_severity_score:
+        - metric: reduction_at_12_months
+          result: "44%"
+          comparison: "versus placebo"
+          interpretation: "Significant reduction in fatigue"
+      relapse_rate: "No statistically significant differences"
+      edss_scores: "No statistically significant differences"
+      new_lesions: "Trend toward reduction in treatment group"
+      adverse_events: "One patient experienced mild, transient skin rash managed with antihistamines"
+      tolerability: "Well tolerated overall"
+
+  - id: burgos_2009
+    title: "Efficacy of an Andrographis paniculata composition for the relief of rheumatoid arthritis symptoms: a prospective randomized placebo-controlled trial"
+    authors:
+      - Burgos, RA
+      - Hancke, JL
+      - Bertoglio, JC
+      - Aguirre, V
+      - Arriagada, S
+      - Calvo, M
+      - Cáceres, DD
+    year: 2009
+    journal: Clinical Rheumatology
+    volume: 28
+    issue: 8
+    pages: "931-946"
+    pubmed_id: "19408036"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19408036/"
+    doi: "10.1007/s10067-009-1180-5"
+    study_type: randomized_controlled_trial
+    design: prospective_double_blind_placebo_controlled
+    sample_size: 60
+    intervention:
+      type: "Andrographis paniculata extract tablets (Paractin)"
+      standardization: "30% total andrographolides"
+      frequency: "Three times daily"
+      duration: "14 weeks"
+      washout_period: "2 weeks"
+    key_findings:
+      tender_joint_count:
+        - metric: decrease_per_week
+          result: 0.13
+          p_value: 0.001
+          interpretation: "Significant improvement"
+      swollen_joint_count:
+        - metric: decrease_per_week
+          result: 0.15
+          p_value: 0.02
+          interpretation: "Significant improvement"
+      health_assessment_questionnaire:
+        - metric: improvement_points
+          result: 0.52
+          p_value: "<0.001"
+      quality_of_life_sf36:
+        p_value: "<0.001"
+        interpretation: "Improved"
+      biomarkers:
+        - "Reductions in rheumatoid factor"
+        - "Reductions in IgA"
+        - "Reductions in C4"
+      conclusion: "Could be useful natural complement; larger trials needed"
+
+  - id: melchior_2000
+    title: "Double-blind, placebo-controlled pilot and phase III study of activity of standardized Andrographis paniculata Herba Nees extract fixed combination (Kan jang) in the treatment of uncomplicated upper-respiratory tract infection"
+    authors:
+      - Melchior, J
+      - Spasov, AA
+      - Ostrovskij, OV
+      - Bulanov, AE
+      - Wikman, G
+    year: 2000
+    journal: Phytomedicine
+    volume: 7
+    issue: 5
+    pages: "341-350"
+    pubmed_id: "11081985"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11081985/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled_pilot_phase_iii
+    sample_size_pilot: 46
+    sample_size_phase_iii: 179
+    intervention:
+      type: "Standardized extract (SHA-10) of Andrographis paniculata fixed combination (Kan jang)"
+      frequency: "Three times daily"
+      duration_pilot: "3-8 days"
+      duration_phase_iii: "3 days"
+    key_findings:
+      pilot_study:
+        - metric: total_symptom_score
+          result: "Tendency toward improvement"
+          p_value: 0.08
+      phase_iii:
+        - metric: total_symptom_score
+          result: "Highly significant improvement"
+          p_value: "≤0.0006"
+        - metric: diagnosis_score
+          p_value: 0.003
+          interpretation: "Significant improvement versus placebo"
+      most_improved_symptom: "Throat symptoms showed most significant improvement in both studies"
+
+  - id: sandborn_2013
+    title: "Andrographis paniculata extract (HMPL-004) for active ulcerative colitis"
+    authors:
+      - Sandborn, William J
+      - Targan, Stephan R
+      - Byers, Vera S
+      - Rutty, Dean A
+      - Mu, Hua
+      - Zhang, Xun
+      - Tang, Tom
+    year: 2013
+    journal: American Journal of Gastroenterology
+    volume: 108
+    issue: 1
+    pages: "90-98"
+    pubmed_id: "23044768"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23044768/"
+    doi: "10.1038/ajg.2012.340"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 224
+    condition: "Mild-to-moderate ulcerative colitis"
+    intervention:
+      dose_low: "1200 mg daily"
+      dose_high: "1800 mg daily"
+      placebo: "Placebo group"
+      duration: "8 weeks"
+    key_findings:
+      clinical_response_1800mg:
+        result: "60%"
+        placebo: "40%"
+        p_value: 0.0183
+        interpretation: "Statistically significant"
+      clinical_remission_1800mg:
+        result: "38%"
+        placebo: "25%"
+      adverse_events: "Comparable across all groups (53-60%)"
+
+  - id: hancke_2019
+    title: "A double-blind, randomized, placebo-controlled study to assess the efficacy of Andrographis paniculata standardized extract (ParActin®) on pain reduction in subjects with knee osteoarthritis"
+    authors:
+      - Hancke, Juan L
+      - Srivastav, Shalini
+      - Cáceres, Dante D
+      - Burgos, Rafael A
+    year: 2019
+    journal: Phytotherapy Research
+    volume: 33
+    issue: 5
+    pages: "1469-1479"
+    pubmed_id: "30968986"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/30968986/"
+    doi: "10.1002/ptr.6339"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 103
+    condition: "I-II osteoarthritis of knee joint"
+    intervention:
+      product: "ParActin®"
+      dose_low: "300 mg/day"
+      dose_high: "600 mg/day"
+      duration: "84 days"
+      measurement_timepoints: "Days 28, 56, 84"
+    key_findings:
+      pain_reduction: "Significant reduction in both treatment groups versus placebo at all timepoints"
+      womac_stiffness: "Improved significantly in both treatment groups"
+      physical_function: "Improved significantly in both treatment groups"
+      fatigue_scores: "Meaningful improvement versus placebo"
+      quality_of_life:
+        - metric: sf36
+          result: "Improved significantly"
+        - metric: facit
+          result: "Improved significantly"
+      conclusion: "Effective and safe in reducing pain in mild to moderate knee osteoarthritis"
+
+  - id: melchior_1997
+    title: "Controlled clinical study of standardized Andrographis paniculata extract in common cold - a pilot trial"
+    authors:
+      - Melchior, J
+      - Palm, S
+      - Wikman, G
+    year: 1997
+    journal: Phytomedicine
+    volume: 4
+    issue: 2
+    pages: "101-104"
+    pubmed_id: "23195187"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23195187/"
+    study_type: randomized_controlled_trial
+    design: controlled_double_blind_pilot
+    sample_size: 50
+    intervention:
+      product: "Kanjang® tablets"
+      type: "Standardized Andrographis paniculata extract"
+      condition: "Common cold and sinusitis"
+    key_findings:
+      subjective_symptoms: "Significantly reduced"
+      symptom_duration: "Significantly reduced"
+      sick_leave: "Period significantly shortened"
+      historical_use: "Used in Nordic countries for over 12 years prior to publication with positive results"
+
+  - id: phunikhom_2015
+    title: "Effect of Andrographis paniculata Extract on Triglyceride Levels of the Patients with Hypertriglyceridemia: A Randomized Controlled Trial"
+    authors:
+      - Phunikhom, Kutcharin
+      - Khampitak, Kovit
+      - Aromdee, Chantana
+      - Arkaravichien, Tarinee
+      - Sattayasai, Jintana
+    year: 2015
+    journal: Journal of the Medical Association of Thailand
+    volume: 98
+    issue: Suppl 9
+    pages: "S41-47"
+    pubmed_id: "26434249"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/26434249/"
+    study_type: randomized_controlled_trial
+    design: parallel_group_rct
+    sample_size: 60
+    condition: "Hypertriglyceridemia"
+    intervention:
+      low_dose_ape:
+        andrographolide: "71.64-72.36 mg/day"
+      high_dose_ape:
+        andrographolide: "119.64-120.36 mg/day"
+      comparator_gemfibrozil: "300 mg/day"
+      duration: "8 weeks"
+    key_findings:
+      triglyceride_reduction:
+        high_dose_ape:
+          mean_reduction: "41.6 ± 86.3 mg/dL"
+          p_value: 0.0442
+          interpretation: "Significant reduction"
+        gemfibrozil:
+          mean_reduction: "57.1 ± 94.9 mg/dL"
+          p_value: 0.0145
+          interpretation: "Significant reduction"
+        low_dose_ape: "Not statistically significant"
+      conclusion: "High-dose APE (120 mg/day andrographolide) and gemfibrozil both significantly reduced triglyceride levels"
+      clinical_relevance: "Demonstrates potential lipid-lowering effects at high doses"
+
+  - id: okonogi_2023
+    title: "Efficacy of Andrographis paniculata spray in acute pharyngitis: A randomized controlled trial"
+    authors:
+      - Okonogi, Risa
+      - Thampanya, Vich
+      - Okonogi, Siriporn
+    year: 2023
+    journal: Drug Discov Ther
+    volume: 17
+    issue: 5
+    pages: "345-350"
+    pubmed_id: "37821383"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37821383/"
+    study_type: randomized_controlled_trial
+    design: double_blind
+    sample_size: 60
+    condition: "Acute viral pharyngitis"
+    intervention:
+      type: "Andrographis paniculata spray"
+      comparator: "Chamomile spray (positive control)"
+      assessment: "11-point numeric rating scale for symptoms; 0-3 scale for physical examination"
+    key_findings:
+      treatment_response_duration:
+        andrographis: "1.9 ± 0.7 days"
+        chamomile: "2.5 ± 1.2 days"
+        p_value: 0.049
+        interpretation: "Faster symptom relief with A. paniculata"
+      symptom_reduction: "Significant in both groups (p < 0.05)"
+      adverse_events: "None noted in either group"
+      conclusion: "Safe and faster relief than chamomile for acute viral pharyngitis"
+
+  - id: rajanna_2021
+    title: "Immunomodulatory effects of Andrographis paniculata extract in healthy adults – An open-label study"
+    authors:
+      - Rajanna, M
+      - Bharathi, B
+      - Shivakumar, BR
+      - Deepak, M
+      - D'Souza Prashanth
+      - Prabakaran, D
+      - Vijayabhaskar, T
+      - Arun, B
+    year: 2021
+    journal: Journal of Ayurveda and Integrative Medicine
+    pubmed_id: "PMC8377179"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8377179/"
+    study_type: open_label_clinical_study
+    sample_size: 30
+    condition: "Healthy adults"
+    intervention:
+      type: "Standardized A. paniculata extract (SAPE)"
+      dose: "200 mg daily (two 100 mg capsules)"
+      timing: "Morning and evening"
+      duration: "30 days"
+    clinic_visits: "Baseline, day 3, day 7, day 30"
+    key_findings:
+      nk_cells: "Trend increase but not statistically significant (p=0.45 at day 30)"
+      t_cells_cd3:
+        baseline: "1915.2 cells/μL"
+        endpoint: "2134.4 cells/μL"
+        p_value: 0.06
+      t_helper_cd3cd4:
+        baseline: "1058.4 cells/μL"
+        endpoint: "1199.8 cells/μL"
+        p_value: 0.087
+      ifn_gamma:
+        baseline: "7.39 pg/mL"
+        endpoint: "20.82 pg/mL"
+        p_value: 0.0001
+        interpretation: "Highly significant increase"
+      il4:
+        baseline: "1.55 pg/mL"
+        endpoint: "3.46 pg/mL"
+        p_value: 0.0007
+        interpretation: "Highly significant increase"
+      il2:
+        baseline: "2.7 pg/mL"
+        endpoint: "0.9 pg/mL"
+        p_value: "<0.0001"
+        interpretation: "Highly significant decrease"
+      adverse_events: "No treatment-related adverse effects"
+      conclusion: "Immunomodulatory effects without adverse events"
+
+  - id: tang_2011
+    title: "Randomised clinical trial: herbal extract HMPL-004 in active ulcerative colitis - a double-blind comparison with sustained release mesalazine"
+    authors:
+      - Tang, T
+      - Targan, SR
+      - Li, ZS
+      - Xu, C
+      - Byers, VS
+      - Sandborn, WJ
+    year: 2011
+    journal: Alimentary Pharmacology & Therapeutics
+    volume: 33
+    issue: 2
+    pages: "194-202"
+    pubmed_id: "21114791"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21114791/"
+    doi: "10.1111/j.1365-2036.2010.04515.x"
+    study_type: randomized_controlled_trial
+    design: double_blind_active_comparator
+    sample_size: 120
+    sites: "Five centers in China"
+    condition: "Mild-to-moderately active ulcerative colitis"
+    intervention:
+      hmpl004: "1200 mg/day"
+      mesalazine: "4500 mg/day slow-release granules"
+      duration: "8 weeks"
+    key_findings:
+      clinical_remission:
+        hmpl004: "21%"
+        mesalazine: "16%"
+      clinical_response:
+        hmpl004: "76%"
+        mesalazine: "82%"
+      colonoscopic_remission:
+        hmpl004: "28%"
+        mesalazine: "24%"
+      colonoscopic_response:
+        hmpl004: "74%"
+        mesalazine: "71%"
+      safety: "No significant difference between treatment groups"
+      conclusion: "May be efficacious alternative to mesalazine in ulcerative colitis"
+
+  - id: ciampi_2020
+    title: "Efficacy of andrographolide in not active progressive multiple sclerosis: a prospective exploratory double-blind, parallel-group, randomized, placebo-controlled trial"
+    authors:
+      - Ciampi, Ethel
+      - Uribe-San-Martin, Reinaldo
+      - Cárcamo, Claudia
+      - Cruz, Juan Pablo
+      - Reyes, Ana
+      - Reyes, Diego
+      - Pinto, Carmen
+      - Vásquez, Macarena
+      - Burgos, Rafael A
+      - Hancke, Juan
+    year: 2020
+    journal: BMC Neurology
+    volume: 20
+    pubmed_id: "32380977"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/32380977/"
+    doi: "10.1186/s12883-020-01737-5"
+    clinicaltrials_gov: "NCT02273635"
+    study_type: randomized_controlled_trial
+    design: prospective_exploratory_double_blind_placebo_controlled
+    sample_size: 44
+    groups:
+      andrographolide: 23
+      placebo: 21
+    condition: "Not active primary or secondary progressive MS"
+    intervention:
+      dose: "140 mg oral andrographolide"
+      frequency: "Twice daily (280 mg/day)"
+      duration: "24 months"
+    key_findings:
+      brain_atrophy:
+        andrographolide: "-0.679% annualized mean percentage brain volume change"
+        placebo: "-1.069%"
+        relative_reduction: "36.5%"
+        p_value: 0.08
+        interpretation: "Not statistically significant but trend favoring treatment"
+      disability_progression:
+        andrographolide: "30%"
+        placebo: "41%"
+      edss_change:
+        andrographolide: "-0.025"
+        placebo: "+0.352"
+        p_value: 0.042
+        interpretation: "Significant improvement in disability scores"
+      adverse_events: "Mild rash and dysgeusia (taste disturbance)"
+      tolerability: "Well tolerated"
+      conclusion: "Potential effect in reducing brain atrophy and disability progression; larger trial needed"
+
+  - id: jayakumar_2013
+    title: "Experimental and Clinical Pharmacology of Andrographis paniculata and Its Major Bioactive Phytoconstituent Andrographolide"
+    authors:
+      - Jayakumar, Thanasekaran
+      - Hsieh, Cheng-Ying
+      - Lee, Jie-Jen
+      - Sheu, Joen-Rong
+    year: 2013
+    journal: Evidence-based Complementary and Alternative Medicine
+    pubmed_id: "PMC3619690"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3619690/"
+    doi: "10.1155/2013/846740"
+    study_type: comprehensive_review_with_clinical_trial_data
+    clinical_trials_summarized:
+      hiv_study:
+        participants: "13 HIV-positive patients, 5 healthy controls"
+        dose: "Escalating 5→10→20 mg/kg body weight over 9 weeks"
+        cd4_baseline: "405 cells/mm³"
+        cd4_endpoint: "501 cells/mm³"
+        hiv_rna: "No significant change"
+        note: "Study discontinued early due to side effects despite CD4 improvements"
+      pharyngotonsillitis:
+        participants: 152
+        population: "Thai adults with pharyngotonsillitis"
+        dose: "6 g/day for 7 days"
+        outcome: "Similar efficacy to acetaminophen in symptom relief"
+    pharmacokinetic_data:
+      iv_rat_10mg_kg: "Blood concentration approximately 11 μg/mL (approximately 30 μM)"
+      in_vitro_cytotoxicity: "No cytotoxic effects on platelets at 35-150 mM"
+    key_findings:
+      pharmacology: "Anti-inflammatory, antioxidant, anticancer, antimicrobial properties"
+      clinical_applications: "Respiratory infections, rheumatoid arthritis, potential HIV adjunct"
+
+pharmacokinetic_studies:
+  - id: songvut_2023
+    title: "Comparative pharmacokinetics and safety evaluation of high dosage regimens of Andrographis paniculata aqueous extract after single and multiple oral administration in healthy participants"
+    authors:
+      - Songvut, Phanit
+      - Rangkadilok, Nuchanart
+      - Pholphana, Nanthanit
+      - Suriyo, Tawit
+      - Panomvana, Duangchit
+      - Puranajoti, Porranee
+      - Akanimanee, Jaratluck
+      - Satayavivad, Jutamaad
+    year: 2023
+    journal: Frontiers in Pharmacology
+    volume: 14
+    pubmed_id: "37663270"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37663270/"
+    doi: "10.3389/fphar.2023.1244179"
+    study_type: clinical_pharmacokinetic_safety_study
+    sample_size: "11-12 healthy participants per group"
+    intervention:
+      single_doses:
+        - "60 mg andrographolide"
+        - "120 mg andrographolide"
+      multiple_doses:
+        - "180 mg/day (60 mg × 3)"
+        - "360 mg/day (120 mg × 3)"
+    key_findings:
+      dose_proportionality: "Twofold increase in dose demonstrated twofold higher plasma concentrations of four major diterpenoid compounds and metabolites"
+      linearity: "Dose-proportional behavior observed"
+      safety: "Occasional adverse events at high doses were mild, infrequent, and reversible"
+
+  - id: tee_2025
+    title: "Clinical pharmacokinetics and pharmacometabolomics of Andrographis paniculata capsules: Bridging drug disposition and metabolic response to precision medicine"
+    authors:
+      - Tee, Khim Boon
+      - Haron, Didi Erwandi Mohamad
+      - Jamil, Ili Nadhirah
+      - Chong, Wei Lim
+      - Zakaria, Zaril Harza
+      - Lim, Lee-Ling
+      - Hashim, Najihah Mohd
+      - Huri, Hasniza Zaman
+    year: 2025
+    journal: Naunyn Schmiedebergs Arch Pharmacol
+    pubmed_id: "41039060"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41039060/"
+    study_type: clinical_pharmacokinetic_pharmacometabolomic_study
+    sample_size: 12
+    condition: "Healthy volunteers under fasting conditions"
+    intervention:
+      doses:
+        - "1000 mg"
+        - "2000 mg"
+    key_findings:
+      pharmacokinetics:
+        andrographolide:
+          cmax: "10.15 ng/mL"
+          tmax: "1.5 hours"
+        deoxyandrographolide:
+          cmax: "7.02 ng/mL"
+          tmax: "1.5 hours"
+        neoandrographolide:
+          cmax: "58.45 ng/mL"
+          tmax: "1.5 hours"
+      metabolic_effects:
+        dose_2000mg: "Broader metabolic shifts including enhanced fatty acid and amino acid metabolism"
+        dose_1000mg: "Selectively enhanced steroid hormone biosynthesis"
+
+  - id: panossian_2000
+    title: "Pharmacokinetic and oral bioavailability of andrographolide from Andrographis paniculata fixed combination Kan Jang in rats and human"
+    authors:
+      - Panossian, A
+      - Hovhannisyan, A
+      - Mamikonyan, G
+      - Abrahamian, H
+      - Hambardzumyan, E
+      - Gabrielian, E
+      - Goukasova, G
+      - Wikman, G
+      - Wagner, H
+    year: 2000
+    journal: Phytomedicine
+    volume: 7
+    issue: 5
+    pages: "351-364"
+    pubmed_id: "11081986"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11081986/"
+    study_type: pharmacokinetic_study
+    subjects: "Rats and human volunteers"
+    intervention:
+      product: "Kan Jang fixed combination"
+      human_single_dose: "Four tablets (20 mg andrographolide equivalent)"
+      human_routine_regimen: "3 × 4 tablets/day (~1 mg/kg/day)"
+      rat_doses:
+        - "20 mg/kg body weight"
+        - "200 mg/kg body weight"
+    key_findings:
+      human_pharmacokinetics:
+        cmax: "~393 ng/mL (~1.12 μM)"
+        tmax: "1.5-2 hours"
+        half_life: "6.6 hours"
+        mean_residence_time: "10.0 hours"
+        steady_state_concentration: "~660 ng/mL (1.9 μM)"
+      rat_pharmacokinetics:
+        absorption: "Rapid"
+        bioavailability_change_high_dose: "Four-fold decrease at higher doses"
+        plasma_protein_binding: "55%"
+
+  - id: songvut_2025
+    title: "Non-linear oral bioavailability and clinical pharmacokinetics of high-dose Andrographis paniculata ethanolic extract: relevant dosage implications for COVID-19 treatment"
+    authors:
+      - Songvut, Phanit
+      - Akanimanee, Jaratluck
+      - Suriyo, Tawit
+      - Pholphana, Nanthanit
+      - Rangkadilok, Nuchanart
+      - Panomvana, Duangchit
+      - Puranajoti, Porranee
+      - Satayavivad, Jutamaad
+    year: 2025
+    journal: Pharmaceutical Biology
+    pubmed_id: "39760215"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39760215/"
+    study_type: clinical_pharmacokinetic_study
+    design: "Open-label, single-dose and repeated-dose trial in healthy volunteers"
+    intervention:
+      doses:
+        - "60 mg andrographolide per dose (180 mg/day total)"
+        - "120 mg andrographolide per dose (360 mg/day total)"
+      frequency: "Every 8 hours"
+      duration: "7 days"
+    key_findings:
+      bioavailability: "Non-linear proportionality - doubling dose does not proportionally increase blood levels"
+      plasma_concentrations:
+        single_60mg:
+          cmax: "6.44 μg/L"
+        repeated_60mg:
+          cmax: "11.62 μg/L"
+        single_120mg:
+          cmax: "6.97 μg/L"
+        repeated_120mg:
+          cmax: "15.03 μg/L"
+      interpretation: "Low plasma levels of major diterpenoids; modest increases with dose doubling"
+
+  - id: songvut_2024
+    title: "Enhancing oral bioavailability of andrographolide using solubilizing agents and bioenhancer: comparative pharmacokinetics of Andrographis paniculata formulations in beagle dogs"
+    authors:
+      - Songvut, Phanit
+      - Boonyarattanasoonthorn, Tussapon
+      - Nuengchamnong, Nitra
+      - Junsai, Thammaporn
+      - Kongratanapasert, Teetat
+      - Supannapan, Kittitach
+      - Khemawoot, Phisit
+    year: 2024
+    journal: Pharmaceutical Biology
+    volume: 62
+    issue: 1
+    pages: "121-132"
+    pubmed_id: "38351624"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38351624/"
+    doi: "10.1080/13880209.2024.2309989"
+    study_type: comparative_pharmacokinetic_study
+    subjects: "Beagle dogs"
+    formulations:
+      control: "A. paniculata powder alone"
+      formulation_1: "A. paniculata with 50% β-cyclodextrin"
+      formulation_2: "A. paniculata with 1% sodium dodecyl sulfate (SDS)"
+      formulation_3: "A. paniculata with 1% SDS plus 10% piperine"
+    key_findings:
+      bioavailability_enhancement: "Co-administration with either 50% w/w β-cyclodextrin or 1% w/w SDS significantly increased systemic andrographolide exposure by 131.01% to 196.05%"
+      comparison: "Superior absorption versus plant powder alone"
+      mechanism: "Combined solubilizing agents and bioenhancer approach"
+
+  - id: suriyo_2017
+    title: "Clinical Parameters following Multiple Oral Dose Administration of a Standardized Andrographis paniculata Capsule in Healthy Thai Subjects"
+    authors:
+      - Suriyo, Tawit
+      - Pholphana, Nanthanit
+      - Ungtrakul, Teerapat
+      - Rangkadilok, Nuchanart
+      - Panomvana, Duangchit
+      - Thiantanawat, Apinya
+      - Pongpun, Wanwisa
+      - Satayavivad, Jutamaad
+    year: 2017
+    journal: Planta Med
+    volume: 83
+    issue: 3-4
+    pages: "249-256"
+    pubmed_id: "28249303"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28249303/"
+    doi: "10.1055/s-0042-112030"
+    study_type: clinical_trial
+    sample_size: 20
+    demographics: "10 males, 10 females"
+    intervention:
+      dose: "12 capsules daily (4.2g total A. paniculata)"
+      schedule: "4 capsules of 1.4g, three times daily at 8-hour intervals"
+      duration: "3 consecutive days"
+    key_findings:
+      clinical_parameters: "All measured clinical parameters within normal ranges after treatment"
+      white_blood_cells: "Induction of WBC and neutrophil count observed"
+      alkaline_phosphatase: "Plasma reduction"
+      urine_ph: "Elevation"
+      blood_pressure: "Rapid, transient reduction at 30 minutes post-administration; significant mean systolic BP decrease"
+      adverse_events: "No serious adverse events during treatment period"
+
+safety_toxicology_studies:
+  - id: worasuttayangkurn_2019
+    title: "Acute oral toxicity evaluation of Andrographis paniculata-standardized first true leaf ethanolic extract"
+    authors:
+      - Worasuttayangkurn, L
+      - Nakareangrit, W
+      - Kwangjai, J
+      - Sritangos, P
+      - Pholphana, N
+      - Watcharasit, P
+      - Rangkadilok, N
+      - Thiantanawat, A
+      - Satayavivad, J
+    year: 2019
+    journal: Toxicology Reports
+    volume: 6
+    pages: "426-433"
+    pubmed_id: "31193040"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31193040/"
+    doi: "10.1016/j.toxrep.2019.05.003"
+    study_type: acute_oral_toxicity_study
+    guideline: "OECD Test Guideline No. 420"
+    test_article: "Standardized first true leaf ethanolic extract (FTLEE)"
+    doses: "0, 300, 2000, 5000 mg/kg body weight (single oral administration)"
+    key_findings:
+      survival: "All treated animals survived"
+      adverse_effects: "No apparent adverse effects observed"
+      organ_examination: "No lesions detected"
+      ld50: "Not established; no toxicity at maximum tested dose"
+      upper_limit: "5000 mg/kg BW showed no significant acute toxicological effects"
+      conclusion: "Standardized FTLEE demonstrates high safety margin in acute exposure"
+
+  - id: chandrasekaran_2009
+    title: "Evaluation of the genotoxic potential and acute oral toxicity of standardized extract of Andrographis paniculata (KalmCold)"
+    authors:
+      - Chandrasekaran, C V
+      - Thiyagarajan, P
+      - Sundarajan, K
+      - Goudar, Krishna S
+      - Deepak, M
+      - Murali, B
+      - Allan, Joshua J
+      - Agarwal, Amit
+    year: 2009
+    journal: Food and Chemical Toxicology
+    volume: 47
+    issue: 8
+    pages: "1892-1902"
+    pubmed_id: "19447157"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19447157/"
+    doi: "10.1016/j.fct.2009.05.006"
+    study_type: genotoxicity_and_acute_toxicity_study
+    test_article: "KalmCold (standardized extract)"
+    genotoxicity_tests:
+      ames_test:
+        doses: "5000 to 16 µg/mL"
+        result: "Did not induce mutations with or without S9 activation"
+      chromosome_aberration:
+        doses: "80 to 5.1 µg/mL"
+        result: "No clastogenic effects in cultured cells"
+      micronucleus_test:
+        result: "No genotoxic effects"
+    acute_oral_toxicity:
+      dose: "5000 mg/kg in female rats"
+      observation_period: "14 days"
+      result: "No treatment-related toxic effects"
+    conclusion: "KalmCold is genotoxically safe at tested concentrations and well-tolerated in acute exposure"
+
+dosage_summary:
+  traditional_uses:
+    pyrexia: "3g crude drug decoction, twice daily"
+    common_cold: "1.5-3.0g powdered crude drug three times daily"
+    diarrhea: "3-9g crude drug decoction as single dose; or 500mg tablets, two tablets four times daily"
+
+  standardized_extracts_clinical_trials:
+    upper_respiratory_infections:
+      - dose: "180 mg andrographolide/day"
+        frequency: "60 mg three times daily"
+        studies: ["kanokkangsadal_2023", "siripongboonsitti_2023"]
+      - dose: "340 mg/day (dried extract)"
+        frequency: "170 mg twice daily"
+        study: "bertoglio_2016"
+      - dose: "Kan Jang: 20 mg andrographolide per dose"
+        frequency: "Three times daily"
+        study: "melchior_2000"
+
+    rheumatoid_arthritis:
+      - dose: "30% andrographolides extract"
+        frequency: "Three times daily"
+        duration: "14 weeks"
+        study: "burgos_2009"
+
+    multiple_sclerosis_fatigue:
+      - dose: "170 mg dried extract"
+        frequency: "Twice daily (340 mg/day)"
+        duration: "12 months"
+        study: "bertoglio_2016"
+
+    osteoarthritis:
+      - dose: "300-600 mg/day ParActin®"
+        duration: "84 days"
+        study: "hancke_2019"
+
+    ulcerative_colitis:
+      - dose: "1200-1800 mg/day HMPL-004"
+        duration: "8 weeks"
+        effective_dose: "1800 mg/day showed statistical significance"
+        study: "sandborn_2013"
+
+    high_dose_studies:
+      - dose: "180-360 mg/day andrographolide equivalent"
+        context: "COVID-19 treatment studies"
+        studies: ["songvut_2023", "songvut_2025"]
+      - dose: "4.2g/day crude herb (multiple capsules)"
+        duration: "3 days"
+        context: "Safety evaluation"
+        study: "suriyo_2017"
+
+bioavailability_notes:
+  - "Andrographolide exhibits poor oral bioavailability (~1.19% in rats)"
+  - "Non-linear dose-proportionality: doubling dose does not double blood levels"
+  - "Peak plasma levels reached at 1.5-2 hours post-administration"
+  - "Half-life: approximately 6.6 hours in humans"
+  - "Bioavailability can be enhanced 131-196% with β-cyclodextrin or SDS solubilizers"
+  - "Plasma protein binding: 55% (rat studies)"
+  - "Low water solubility limits bioavailability"
+
+safety_summary:
+  general_safety: "Herbal preparations generally safe; adverse events mild and infrequent"
+  serious_adverse_events: "Extremely rare (0.02 per 1000 patients from RCT meta-analysis)"
+  common_mild_effects:
+    - "Gastrointestinal disorders (most common)"
+    - "Skin reactions (mild, transient)"
+    - "Mild diarrhea (resolves within days)"
+
+  injectable_derivatives:
+    caution: "Andrographolide derivative injections carry risk of life-threatening reactions"
+    serious_reactions:
+      - "55 cases anaphylactic shock"
+      - "3 deaths attributed to injections"
+      - "Overall ADR rate 4.04% for injectable forms"
+    recommendation: "Avoid injectable forms; use oral herbal preparations"
+
+  contraindications:
+    - "Pregnancy"
+    - "Lactation"
+
+  special_warnings:
+    - "Nephrotoxicity concerns noted in comprehensive reviews (easily ignored clinical issue)"
+    - "Reproductive toxicity concerns (easily ignored clinical issue)"
+    - "One anaphylactic reaction reported in HIV trial (interrupted at 6 weeks)"
+
+  high_dose_safety:
+    - "Doses up to 360 mg/day andrographolide tolerated without serious adverse events"
+    - "Adverse events at high doses: mild intensity, infrequent, reversible"
+    - "No hepatic or renal toxicity in COVID-19 trials at 180 mg/day for 5 days"
+    - "4.2g/day crude herb for 3 days: all clinical parameters remained normal"
+
+quality_standardization:
+  active_constituents:
+    primary: "Andrographolide (major diterpene lactone)"
+    secondary:
+      - "14-deoxyandrographolide"
+      - "Neoandrographolide"
+      - "14-deoxy-11,12-didehydroandrographolide"
+
+  standardization_levels:
+    common: "30% total andrographolides"
+    usp_specification: "14-deoxy-11,12-didehydroandrographolide not more than 15% of total diterpene lactones"
+
+  commercial_products_studied:
+    - name: "Kan Jang"
+      standardization: "SHA-10 standardized extract"
+      studies_count: "Multiple RCTs"
+    - name: "ParActin®"
+      standardization: "30% total andrographolides"
+      indication: "Osteoarthritis, rheumatoid arthritis"
+    - name: "HMPL-004"
+      indication: "Ulcerative colitis"
+    - name: "Kanjang®"
+      standardization: "Standardized extract"
+      indication: "Common cold, URTI"
+
+research_gaps:
+  - "Current extensive clinical data lack sufficient rigor and documented details"
+  - "Poor study quality and heterogeneity in many trials limit confidence"
+  - "Need for larger, higher-quality RCTs with standardized preparations"
+  - "Long-term safety data needed, especially regarding nephrotoxicity and reproductive effects"
+  - "Mechanism studies needed to understand non-linear bioavailability"
+  - "Optimal extraction methods and formulations for enhanced bioavailability"
+  - "Dose-response relationships need further clarification"
+
+notes:
+  - "Andrographis paniculata is official in WHO Volume 2 monograph (2002) and USP"
+  - "No Commission E monograph exists (herb not traditionally used in German phytotherapy)"
+  - "Primary traditional use: upper respiratory infections, supported by modern clinical evidence"
+  - "Safety profile favors oral herbal preparations over injectable derivative forms"
+  - "Standardization to andrographolide content (typically 30%) improves quality consistency"
+  - "Poor bioavailability remains significant challenge; formulation strategies under investigation"
+  - "Most robust evidence for: URTI symptom relief, anti-inflammatory effects"
+  - "Emerging evidence for: rheumatoid arthritis, ulcerative colitis, osteoarthritis, MS fatigue"
+  - "COVID-19 studies show limited clinical benefit but good safety profile"
+  - "Non-linear bioavailability: doubling dose does not proportionally increase plasma levels"
+  - "Traditional use in Ayurveda (Kalmegh) and Traditional Chinese Medicine (Chuan Xin Lian)"
+  - "Animal studies show hepatoprotective rather than hepatotoxic properties"
+  - "Contraindicated in pregnancy due to abortifacient effects in animal studies"
+  - "Main bioactive: andrographolide (diterpenoid lactone); secondary: 14-deoxyandrographolide, neoandrographolide"
+
+web_sources:
+  systematic_reviews:
+    - "[Safety of Andrographis paniculata: A systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/33372366/)"
+    - "[Andrographis paniculata for symptomatic relief of acute respiratory tract infections - PubMed](https://pubmed.ncbi.nlm.nih.gov/28783743/)"
+    - "[Systematic review of uncomplicated upper respiratory tract infection - PubMed](https://pubmed.ncbi.nlm.nih.gov/14748896/)"
+    - "[Treatment of upper respiratory tract infections: systematic review - PubMed](https://pubmed.ncbi.nlm.nih.gov/15095142/)"
+    - "[Adverse Effects of Andrographolide Derivatives vs Herbal Preparations - PubMed](https://pubmed.ncbi.nlm.nih.gov/35153776/)"
+    - "[COVID-19 systematic review and meta-analysis - Frontiers](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1598255/full)"
+
+  covid19_trials:
+    - "[Andrographis extract versus placebo in COVID-19 - PubMed](https://pubmed.ncbi.nlm.nih.gov/39005565/)"
+    - "[Andrographis extract with favipiravir for COVID-19 (APFaVi trial) - PubMed](https://pubmed.ncbi.nlm.nih.gov/37625206/)"
+
+  ulcerative_colitis:
+    - "[HMPL-004 for active ulcerative colitis - PubMed](https://pubmed.ncbi.nlm.nih.gov/23044768/)"
+    - "[HMPL-004 vs mesalazine in ulcerative colitis - PubMed](https://pubmed.ncbi.nlm.nih.gov/21114791/)"
+
+  musculoskeletal:
+    - "[Rheumatoid arthritis randomized placebo-controlled trial - PubMed](https://pubmed.ncbi.nlm.nih.gov/19408036/)"
+    - "[ParActin® for knee osteoarthritis pain - PubMed](https://pubmed.ncbi.nlm.nih.gov/30968986/)"
+
+  multiple_sclerosis:
+    - "[Andrographis decreases fatigue in relapsing-remitting MS - PubMed](https://pubmed.ncbi.nlm.nih.gov/27215274/)"
+    - "[Andrographolide in progressive multiple sclerosis - PubMed](https://pubmed.ncbi.nlm.nih.gov/32380977/)"
+
+  other_applications:
+    - "[Andrographis spray in acute pharyngitis - PubMed](https://pubmed.ncbi.nlm.nih.gov/37821383/)"
+    - "[Immunomodulatory effects in healthy adults - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8377179/)"
+    - "[Triglyceride reduction in hypertriglyceridemia - PubMed](https://pubmed.ncbi.nlm.nih.gov/26434249/)"
+
+  pharmacokinetics_bioavailability:
+    - "[Non-linear oral bioavailability and high-dose pharmacokinetics - PubMed](https://pubmed.ncbi.nlm.nih.gov/39760215/)"
+    - "[Clinical pharmacokinetics and pharmacometabolomics - PubMed](https://pubmed.ncbi.nlm.nih.gov/41039060/)"
+    - "[Comparative pharmacokinetics of high dosage regimens - PubMed](https://pubmed.ncbi.nlm.nih.gov/37663270/)"
+    - "[Enhancing oral bioavailability with solubilizing agents - PubMed](https://pubmed.ncbi.nlm.nih.gov/38351624/)"
+    - "[Pharmacokinetics and bioavailability of Kan Jang - PubMed](https://pubmed.ncbi.nlm.nih.gov/11081986/)"
+
+  comprehensive_reviews:
+    - "[Experimental and Clinical Pharmacology of Andrographis - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3619690/)"
+    - "[Andrographolide: pharmacology, pharmacokinetics, toxicity review - PubMed](https://pubmed.ncbi.nlm.nih.gov/34818697/)"
+    - "[Pharmacological effects and safety review - PubMed](https://pubmed.ncbi.nlm.nih.gov/35166368/)"
+
+  pharmacopoeia_monographs:
+    - "[WHO Monographs on Selected Medicinal Plants Volume 2](https://www.ethnopharmacologia.org/bibliotheque-ethnopharmacologie/who-monographs-on-selected-medicinal-plants-volume-2/)"
+    - "[Alternative to Thai Herbal Pharmacopoeia Method - Thai Journal](https://he01.tci-thaijo.org/index.php/JTTAM/article/view/115106)"
+    - "[Phytopharmaceutical ingredients in Indian Pharmacopoeia - PDF](https://www.rroij.com/open-access/phytopharmaceuitcals-ingredients--a-new-category-ofmonographs-in-indian-pharmacopoeia.pdf)"
+    - "[USP Powdered Andrographis Extract Reference Standard](https://store.usp.org/product/1034873)"
+
+  safety_toxicology:
+    - "[Acute oral toxicity of standardized extract - PubMed](https://pubmed.ncbi.nlm.nih.gov/31193040/)"
+    - "[Genotoxic potential and acute toxicity of KalmCold - PubMed](https://pubmed.ncbi.nlm.nih.gov/19447157/)"
+    - "[Safety evaluation of high dosages - PubMed](https://pubmed.ncbi.nlm.nih.gov/28249303/)"
+
+key_takeaways:
+  strongest_evidence:
+    - "Upper respiratory tract infections (7000+ participants across 33 RCTs)"
+    - "Safety profile (13 studies meta-analysis: serious AEs 0.02/1000 patients)"
+
+  emerging_applications:
+    - "Ulcerative colitis (HMPL-004 1800mg: 60% response vs 40% placebo, p=0.0183)"
+    - "Osteoarthritis pain (ParActin 300-600mg: significant WOMAC improvement)"
+    - "Multiple sclerosis fatigue (44% FSS reduction at 12 months)"
+    - "Rheumatoid arthritis (significant joint count and functional improvement)"
+
+  pharmacokinetic_insights:
+    - "Poor oral bioavailability (~1.19% in rats); non-linear dose-proportionality"
+    - "Tmax 1.5-2 hours; half-life 6.6 hours"
+    - "Bioavailability enhanced 131-196% with β-cyclodextrin or SDS"
+    - "Glucuronidation primary metabolic pathway"
+
+  safety_considerations:
+    - "Herbal preparations essentially safe (mild GI and skin reactions)"
+    - "Injectable andrographolide derivatives: 4.04% ADR rate, 55 anaphylactic shocks, 3 deaths"
+    - "Contraindicated in pregnancy (animal abortifacient data) and lactation"
+    - "No hepatotoxicity in clinical trials; hepatoprotective in animal studies"
+
+  dosing_guidance:
+    - "URTI: 48-60mg andrographolides/day divided doses"
+    - "COVID-19: 180-360mg andrographolide/day (limited benefit)"
+    - "Ulcerative colitis: HMPL-004 1800mg/day most effective"
+    - "Osteoarthritis: ParActin 300-600mg/day"
+    - "MS fatigue: 340mg/day dried extract"
+
+  quality_standards:
+    - "Standardize to 30% total andrographolides (typical)"
+    - "Monitor 4 biomarkers: andrographolide, andrograpanin, neo-andrographolide, 14-deoxy-11,12-didehydroandrographolide"
+    - "USP specification: 14-deoxy-11,12-didehydroandrographolide ≤15% of total diterpene lactones"

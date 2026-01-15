@@ -1,0 +1,31 @@
+{
+  "folio_id": "tender-20260114-maad",
+  "type": "tender",
+  "site_id": "folk-protocol",
+  "created_at": "2026-01-14T18:19:08.824097",
+  "created_by": "unknown",
+  "title": "Early cold protocol: conversational decision-support guidance for echinacea prevention, elderberr...",
+  "content": "## Tender: 5896fcf8-20260114-001\n\n**Status:** complete\n**Confidence:** 9/10\n**Reviewer:** prime\n\n### Summary\nEarly cold protocol: conversational decision-support guidance for echinacea prevention, elderberry/andrographis acute treatment, 48h timing guidance, full citations\n\n### Changes\n- **Commits:** 1\n- **Branch:** shard-5896fcf8-20260114-001\n\n### Files Modified\n  - bibliographies/early-cold-protocol.yaml\n  - research/protocols/early-cold/data_extraction.md\n  - research/protocols/early-cold/tone_critique.md\n  - src/content/protocols/early-cold.md\n",
+  "status": "open",
+  "assigned_to": null,
+  "target_agent": null,
+  "omlet": null,
+  "archived": false,
+  "metadata": {
+    "worktree_name": "5896fcf8-20260114-001",
+    "branch_name": "shard-5896fcf8-20260114-001",
+    "commits": 1,
+    "files_modified": [
+      "bibliographies/early-cold-protocol.yaml",
+      "research/protocols/early-cold/data_extraction.md",
+      "research/protocols/early-cold/tone_critique.md",
+      "src/content/protocols/early-cold.md"
+    ],
+    "status": "complete",
+    "confidence": 9,
+    "reviewer": "prime",
+    "name": "5896fcf8"
+  },
+  "acknowledged_at": null,
+  "content_hash": "folio:sha256:c1f5fd2c5a70e7800c12233f9baa0e90052bb385c926901e60420e6f436db97a"
+}

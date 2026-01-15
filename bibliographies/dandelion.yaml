@@ -1,0 +1,648 @@
+---
+herb: Dandelion (Taraxacum officinale)
+last_updated: 2026-01-15
+
+# Official Monographs and Pharmacopoeia
+official_monographs:
+  - source: German Commission E
+    type: Monograph
+    title: "Taraxacum officinale root with herb"
+    year: 1984
+    indications:
+      - Disturbances of bile flow
+      - Diuretic stimulation
+      - Loss of appetite
+      - Dyspepsia
+    dosage_root: "3-4 g of the root or 10-15 drops of root tincture twice daily"
+    notes: "Approved as nonprescription medicine; prepared as infusion, decoction, or tincture"
+    url: https://bionutricia.com/2024/10/05/article-dandelion-taraxacum-officinale/
+
+  - source: German Commission E
+    type: Monograph
+    title: "Taraxacum officinale herb (leaf)"
+    year: 1992
+    indications:
+      - Loss of appetite
+      - Dyspepsia
+      - Bloating
+      - Flatulence
+    dosage_leaf: "4-10 g of the leaves or 2-5 mL of leaf tincture 3 times daily"
+    notes: "Additional approval for leaf preparations specifically"
+    url: https://bionutricia.com/2024/10/05/article-dandelion-taraxacum-officinale/
+
+  - source: European Medicines Agency (EMA)
+    type: Assessment Report
+    title: "Assessment report on Taraxacum officinale F.H. Wigg., radix"
+    year: 2016
+    url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-fh-wigg-radix_en.pdf
+    indications:
+      - Relief of symptoms related to mild digestive disorders
+      - Diuretic
+    dosage: "1.7-8.7 g in 250 mL water as infusion or decoction"
+    traditional_use_status: "Used as traditional herbal medicinal product for at least 30 years including at least 15 years in EU"
+    age_recommendation: "Adults and adolescents; children under 12 not established due to lack of data"
+    contraindications:
+      - Obstruction of bile duct
+      - Cholangitis
+      - Liver disease
+      - Gallstones
+    adverse_effects: "Allergic reactions may occur; sesquiterpene lactones (taraxinic acid) can cause allergic contact dermatitis"
+    duration_limit: "2 weeks for leaf preparations due to lack of clinical safety studies"
+    notes: "No data available on clinical studies; well-established use cannot be supported"
+
+  - source: European Medicines Agency (EMA)
+    type: Assessment Report
+    title: "Assessment report on Taraxacum officinale Weber ex Wigg., folium"
+    url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-weber-ex-wigg-folium_en.pdf
+    dosage_leaf: "4-10 g dried leaves daily or by infusion"
+    duration_limit: "Maximum 2 weeks"
+
+  - source: European Pharmacopoeia
+    type: Quality Standard
+    title: "Taraxaci radix"
+    quality_standard: "Root quality specifications established"
+    url: https://www.altmeyers.org/en/naturopathy/taraxaci-radix-158093
+
+  - source: Chinese Pharmacopoeia
+    type: Pharmacopoeia Entry
+    title: "Taraxacum officinale"
+    year: 2020
+    edition: "2020 edition of the Pharmacopoeia of the People's Republic of China"
+    notes: "Currently recorded in official Chinese pharmacopoeia"
+
+# Systematic Reviews and Meta-Analyses
+systematic_reviews:
+  - authors: "Sweeney B, Vora M, Ulbricht C, Basch E"
+    title: "Evidence-based systematic review of dandelion (Taraxacum officinale) by natural standard research collaboration"
+    journal: "Journal of Herbal Pharmacotherapy"
+    year: 2005
+    volume: "5"
+    issue: "1"
+    pages: "79-93"
+    pmid: "16093238"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/16093238/
+    study_type: "Systematic review"
+    mesh_terms:
+      - Evidence-based medicine
+      - Phytotherapy standards
+      - Plant extracts
+      - Medicinal plants
+      - Dose-response relationships
+    notes: "No abstract available in PubMed; evaluated adverse effects, pharmacology, and standards"
+
+  - authors: "Martinez M, Poirrier P, Chamy R, Prüfer D, Schulze-Gronover C, Jorquera L, Ruiz G"
+    title: "Taraxacum officinale and related species-An ethnopharmacological review and its potential as a commercial medicinal plant"
+    journal: "Journal of Ethnopharmacology"
+    year: 2015
+    volume: "169"
+    pages: "244-262"
+    pmid: "25858507"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25858507/
+    study_type: "Ethnopharmacological review"
+    key_findings:
+      - "Contains sesquiterpenes, saponins, phenolic compounds, flavonoids, and sugars"
+      - "Less than 1% of over 2,500 identified Taraxacum species have been studied"
+      - "Pharmacology is main research area but less than enthusiastic interest in human clinical trials"
+      - "Traditionally considered natural remedy but low commercial applicability until extraction yields improve"
+    research_gaps: "Human clinical trials needed only after achieving commercially attractive compound recovery methods"
+
+  - authors: "Sharifi-Rad M, Roberts TH, Matthews KR, Bezerra CF, Morais-Braga MFB, Coutinho HDM, Sharopov F, Salehi B, Yousaf Z, Sharifi-Rad M, Contreras MDM, Varoni EM, Verma DR, Iriti M, Sharifi-Rad J"
+    title: "Ethnobotany of the genus Taraxacum-Phytochemicals and antimicrobial activity"
+    journal: "Phytotherapy Research"
+    year: 2018
+    volume: "32"
+    issue: "11"
+    pages: "2131-2145"
+    pmid: "30039597"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/30039597/
+    doi: "10.1002/ptr.6157"
+    study_type: "Ethnobotanical and antimicrobial review"
+    key_findings:
+      - "Aqueous and organic extracts exhibit promising in vitro antimicrobial activity"
+      - "Effective against fungi and Gram-positive and Gram-negative bacteria"
+      - "Potential source of bioactive phytochemicals with broad-spectrum antimicrobial activity"
+    limitations: "Clinical evidence remains sparse and human safety data limited despite traditional use suggesting safety"
+
+# Clinical Trials - Human Studies
+clinical_trials:
+  - authors: "Clare BA, Conroy RS, Spelman K"
+    title: "The Diuretic Effect in Human Subjects of an Extract of Taraxacum officinale Folium over a Single Day"
+    journal: "Journal of Alternative and Complementary Medicine"
+    year: 2009
+    volume: "15"
+    issue: "8"
+    pages: "929-934"
+    pmid: "19678785"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19678785/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3155102/
+    study_type: "Pilot study - human clinical trial"
+    study_design: "Pilot study conducted over 4 days with healthy female volunteers aged 18-65"
+    sample_size: "17 subjects completed (28 initially enrolled; 11 withdrew due to difficulty with measurement procedures)"
+    preparation: "Fresh leaf ethanolic extract (1 g to 1 mL of 95% EtOH menstruum)"
+    dosage: "8 mL three times daily at 8:00 AM, 1:00 PM, and 6:00 PM on treatment day"
+    key_findings:
+      - "Significant increase (p < 0.05) in urination frequency during 5-hour period following first dose"
+      - "Significant increase (p < 0.001) in excretion ratio (urine output/fluid intake) during 5-hour period after second dose"
+      - "Third dose produced no significant changes in measured parameters"
+      - "No adverse events reported"
+    notes: "Ethanolic extract showed promise as diuretic in humans"
+
+  - study_id: "NCT00442091"
+    title: "Dandelion Juice in the Treatment of Dyshidrotic Hand Eczema"
+    institution: "Odense University Hospital"
+    clinicaltrials_url: https://clinicaltrials.gov/study/NCT00442091
+    study_type: "Pilot study - clinical trial"
+    condition: "Dyshidrotic hand eczema (vesicular palmoplantar eczema)"
+    eligibility:
+      - "Adult patients with dyshidrotic eczema for at least 1 year"
+      - "Negative patch test reactions to Compositae (tested within last 3 years)"
+      - "Normal renal and hepatic blood tests"
+    treatment_duration: "20-30 days of dandelion juice"
+    background: "Dandelion juice used in herbal medicine for at least 1000 years; one case report showed beneficial effect"
+    purpose: "Test whether beneficial effect from case report can be retrieved in other patients"
+    notes: "Only patients with negative patch tests to Compositae offered treatment; results not published in search"
+    references:
+      - journal: "Contact Dermatitis"
+        year: 2020
+        authors: "Paulsen E"
+        title: "Oral ingestion of dandelion juice for vesicular hand eczema: Treatment or challenge?"
+        doi: "10.1111/cod.13473"
+
+# Pharmacokinetic Studies
+pharmacokinetic_studies:
+  - authors: "Zhu M, Wong PY, Li RC"
+    title: "Effects of taraxacum mongolicum on the bioavailability and disposition of ciprofloxacin in rats"
+    journal: "Journal of Pharmaceutical Sciences"
+    year: 1999
+    volume: "88"
+    issue: "6"
+    pages: "632-634"
+    pmid: "10350500"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/10350500/
+    study_type: "Pharmacokinetic study - animal (rats)"
+    species: "Sprague Dawley rats"
+    dosage:
+      - "Ciprofloxacin: 20 mg/kg oral dose"
+      - "Taraxacum mongolicum extract: 2 g crude drug/kg concomitant oral administration"
+    key_findings:
+      - "Maximum plasma concentration (Cmax) significantly lowered by 73% with concurrent herbal dosing"
+      - "Distribution volume increased approximately 3-fold (92.0 vs 30.8 L/kg)"
+      - "Half-life extended 3-fold (5.71 vs 1.96 hours)"
+      - "Relative bioavailability (AUC0→∞) remained similar between groups"
+    clinical_significance: "Demonstrates drug-drug interactions; implications of concomitant dosing should not be overlooked"
+
+# Dosing and Bioavailability Studies
+dosing_studies:
+  - source: "Dandelion (Taraxacum Genus): A Review of Chemical Constituents and Pharmacological Effects"
+    journal: "Molecules"
+    year: 2023
+    volume: "28"
+    issue: "13"
+    article: "5022"
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10343869/
+    study_type: "Comprehensive review"
+    recommended_daily_dose: "10-15 g"
+    clinical_trial_identified:
+      - study_id: "NCT00442091"
+        condition: "Dyshidrotic hand eczema"
+        institution: "Odense University Hospital"
+    research_dosages:
+      - "Acute toxicity: 8 g/kg body weight for one month in mice and rats"
+      - "Hepatoprotective studies: 100, 250, 300, 500, and 750 mg/kg oral administration"
+      - "Anti-inflammatory studies: 50, 100, and 200 mg/kg doses"
+    safety_profile:
+      - "LD50 = 27.2 g·kg⁻¹ body weight for dandelion grass fluid extracts"
+      - "Doses of 100-750 mg/kg considered safe with good prognosis"
+    drug_interactions: "Extract may interact with ciprofloxacin due to mineral content"
+    bioavailability_markers:
+      - "LogP values: 2.93, 2.37, and 4.12 (within optimal range of 2-5)"
+      - "Suggests favorable lipophilicity for tissue permeability"
+    research_gaps: "Large number of in vivo animal models and proper clinical investigation needed before widespread therapeutic application"
+
+# Safety and Toxicology Studies
+safety_studies:
+  - source: "EMA Assessment Report on Taraxacum officinale radix"
+    year: 2016
+    url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-fh-wigg-radix_en.pdf
+    study_type: "Regulatory safety assessment"
+    acute_toxicity:
+      - "Doses up to 1000 mg/kg body weight: no mortality via oral route"
+      - "Doses of 1600, 2900, and 5000 mg/kg BW: no mortality"
+      - "Extract showed very low toxicity up to 10 g/kg (per os) and 4 g/kg (intraperitoneal) in rats and mice"
+      - "LD50 ranged between 500-5000 mg/kg (intraperitoneal)"
+    undesirable_effects:
+      - "Allergic reactions may occur"
+      - "Most undesirable effects related to pollen allergies or leaf contact"
+      - "Hives, asthma, and toxic epidermal necrosis reported"
+      - "Sesquiterpene lactones (taraxinic acid) cause allergic contact dermatitis"
+      - "Few reports: tachycardia, strong hypoglycemic effects, hypokalemia"
+    reproductive_toxicity: "Tests on reproductive toxicity, genotoxicity and carcinogenicity have not been performed"
+    pregnancy_lactation: "Use during pregnancy and lactation cannot be recommended due to no information on reproductive/developmental toxicity"
+    contraindications:
+      - "Bile duct obstruction"
+      - "Cholangitis"
+      - "Liver disease"
+      - "Gallstones (due to possible stimulation on bile secretion)"
+    pediatric_use: "Not recommended in children under 12 years due to lack of adequate data"
+    overall_assessment: "Clinical safety data limited; no serious side effects reported to date; low toxicity with multi-target biological activity"
+
+# Hepatoprotective Studies
+hepatoprotective_studies:
+  - authors: "Jia YY, Guan RF, Wu YH, et al."
+    title: "Taraxacum mongolicum extract exhibits a protective effect on hepatocytes and an antiviral effect against hepatitis B virus in animal and human cells"
+    journal: "Molecular Medicine Reports"
+    year: 2014
+    volume: "9"
+    issue: "4"
+    pages: "1381-1387"
+    pmid: "24481875"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24481875/
+    doi: "10.3892/mmr.2014.1925"
+    study_type: "In vitro experimental research"
+    cell_models:
+      - "Chemically-injured neonatal rat hepatocytes"
+      - "Duck hepatitis B virus (DHBV)-infected duck fetal hepatocytes"
+      - "HBV-transfected HepG2.2.15 cells (human hepatoma cells)"
+    dosage: "100 µg/mL concentration"
+    key_findings:
+      - "Markedly inhibited DHBV DNA replication"
+      - "Reduced HBsAg and HBeAg levels with inhibition rates of 91.39% and 91.72% at 100 µg/mL"
+      - "Protection rates of 42.2%, 34.6%, and 43.8% against D-galactosamine, thioacetamide, and tert-butyl hydroperoxide injury models"
+    mechanisms:
+      - "Operates through oxidative stress reduction"
+      - "Blocks protein synthesis steps and DNA replication (antiviral)"
+
+  - authors: "Abd El-Ghffar EA, El-Nashar HAS, Abu Zeid EH, Khamis T, Farag MR, Hussein EA, Di Cerbo A, Naiel MAE, Maodaa SN, Batiha GE, Mahmoud HI"
+    title: "Protective Effects of Taraxacum officinale L. (Dandelion) Root Extract in Experimental Acute on Chronic Liver Failure"
+    journal: "Antioxidants"
+    year: 2021
+    volume: "10"
+    issue: "4"
+    article: "504"
+    pmid: "33804908"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33804908/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8063808/
+    doi: "10.3390/antiox10040504"
+    study_type: "Animal study - rat experimental model"
+    model: "Acute on chronic liver failure (ACLF) in rats"
+    groups: "Five groups of male Wistar rats"
+    dosage: "Three doses tested: 200 mg, 100 mg, 50 mg/kg body weight/day"
+    treatment_protocol: "Ethanolic dandelion root extract (TOERE) administered before ACLF induction"
+    key_findings:
+      - "All three doses significantly prevented ACLF-induced liver damage"
+      - "100 mg TOERE/kg b.w./day had best inhibitory effect"
+      - "Reduced serum liver injury markers: AST, ALT, ALP, GGT, total bilirubin"
+      - "Reduced renal tests: creatinine, urea"
+      - "Reduced oxidative stress tests"
+    mechanisms: "Antioxidant and anti-inflammatory activities; taraxasterol modulates inflammatory and oxidative stress pathways"
+    notes: "Hepatoprotective effects confirmed in animal studies; no clinical study on efficacy in humans exists"
+
+# Antidiabetic Studies
+antidiabetic_studies:
+  - authors: "Murtaza I, Laila O, Drabu I, Ahmad A, Charifi W, Popescu SM, Mansoor S"
+    title: "Nutritional Profiling, Phytochemical Composition and Antidiabetic Potential of Taraxacum officinale, an Underutilized Herb"
+    journal: "Molecules"
+    year: 2022
+    volume: "27"
+    issue: "17"
+    article: "5380"
+    pmid: "36080148"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36080148/
+    pmc_url: https://ncbi.nlm.nih.gov/pmc/articles/PMC9457557/
+    doi: "10.3390/molecules27175380"
+    study_type: "Comparative in vitro analysis"
+    materials: "Fresh versus shade-dried dandelion leaves"
+    phytochemical_content_shade_dried:
+      - "Total phenols: 5833.12 ± 4.222 mg/100 g"
+      - "Total flavonoids: 188.84 ± 0.019 mg/100 g"
+      - "Ascorbic acid: 34.70 ± 0.026 mg/100 g"
+      - "Contains quercetin (medicinally important antidiabetic flavonoid)"
+    key_findings:
+      - "Shade-dried leaves superior to fresh material"
+      - "Aqueous extract demonstrated potent antidiabetic activity in vitro in dose-dependent manner"
+      - "Inhibited α-amylase and α-glucosidase enzymes involved in carbohydrate metabolism"
+      - "Potential to suppress post-prandial glucose rise"
+    research_gaps: "Further research needed before phytotherapy for diabetes can be advanced to clinic; extensive in vitro, in vivo, and clinical research required"
+
+  - authors: "Li J, Luo J, Chai Y, Guo Y, Tianzhi Y, Bao Y"
+    title: "Hypoglycemic effect of Taraxacum officinale root extract and its synergism with Radix Astragali extract"
+    journal: "Food Science & Nutrition"
+    year: 2021
+    volume: "9"
+    issue: "4"
+    pages: "2075-2085"
+    pmid: "33841825"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33841825/
+    pmc_url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8020951/
+    doi: "10.1002/fsn3.2176"
+    study_type: "In vitro cell culture study"
+    preparation: "Water extract of dandelion root (DRE-w)"
+    composition:
+      - "Polysaccharides: 63.92 ± 1.82 mg/g"
+      - "Total flavonoid: 2.57 ± 0.06 mg/g"
+    key_findings:
+      - "DRE-w showed inhibitory effects on α-glucosidase and α-amylase enzymes"
+      - "Combined with Radix Astragali extract (RAE): more significantly increased glucose consumption and intracellular glycogen content"
+      - "Combination improved enzyme activity (hexokinase and pyruvate kinase) in insulin-resistant liver cells"
+      - "Both individual and combined extracts relieved insulin resistance in experimental cell models"
+    clinical_potential: "Merits development as therapeutic agents or functional foods for diabetes management"
+    human_evidence: "No completed human clinical trials examining effects on glucose in diabetic patients; existing evidence primarily from laboratory and animal studies"
+
+# Anti-Inflammatory Studies
+anti_inflammatory_studies:
+  - authors: "Jeon D, Kim SJ, Kim HS"
+    title: "Anti-inflammatory evaluation of the methanolic extract of Taraxacum officinale in LPS-stimulated human umbilical vein endothelial cells"
+    journal: "BMC Complementary and Alternative Medicine"
+    year: 2017
+    volume: "17"
+    issue: "1"
+    article: "508"
+    pmid: "29187173"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/29187173/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5707789/
+    doi: "10.1186/s12906-017-2022-7"
+    publication_date: "2017-11-29"
+    study_type: "In vitro - human cell study"
+    cell_model: "LPS-stimulated human umbilical vein endothelial cells (HUVECs)"
+    preparation: "Methanolic extract of Taraxacum officinale"
+    key_findings:
+      - "Pro-inflammatory cytokines TNF-α, IL-1β, and IL-6 were induced by 9-, 157-, and 30-fold respectively"
+      - "Cytokine mRNA expression levels markedly reduced by T. officinale pretreatment (p < 0.001)"
+      - "Dramatically inhibited LPS-induced endothelial cell-monocyte interactions"
+      - "Reduced vascular cell adhesion molecule-1 and monocyte chemoattractant protein-1"
+      - "Suppressed LPS-induced nuclear translocation of NF-κB"
+    mechanisms: "Could attenuate LPS-induced endothelial cell activation by inhibiting the NF-κB pathway"
+
+  - authors: "Koh YJ, Cha DS, Ko JS, Park HJ, Choi HD"
+    title: "Anti-inflammatory effect of Taraxacum officinale leaves on lipopolysaccharide-induced inflammatory responses in RAW 264.7 cells"
+    journal: "Journal of Medicinal Food"
+    year: 2010
+    volume: "13"
+    issue: "4"
+    pages: "870-878"
+    pmid: "20673058"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/20673058/
+    doi: "10.1089/jmf.2009.1249"
+    study_type: "In vitro - macrophage cell study"
+    cell_model: "RAW 264.7 macrophage cells"
+    preparation: "Chloroform fraction of dandelion leaves"
+    ic50_values:
+      - "Nitric oxide (NO): 66.51 µg/mL"
+      - "Prostaglandin E2 (PGE₂): 90.96 µg/mL"
+      - "TNF-alpha: 114.76 µg/mL"
+      - "IL-1beta: 171.06 µg/mL"
+    key_findings:
+      - "Chloroform fraction significantly suppressed production of NO, PGE₂, TNF-α, and IL-1β in dose-dependent manner"
+      - "Reduced expression of inflammatory enzymes iNOS and COX-2"
+    mechanisms: "Anti-inflammatory properties function via inactivation of the MAP kinase signal pathway"
+
+# Immunomodulatory Studies
+immunomodulatory_studies:
+  - authors: "Wang L, Li L, Gao J, Huang J, Yang Y, Xu Y, Liu S, Yu W"
+    title: "Characterization, antioxidant and immunomodulatory effects of selenized polysaccharides from dandelion roots"
+    journal: "Carbohydrate Polymers"
+    year: 2021
+    volume: "260"
+    article: "117796"
+    pmid: "33712144"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33712144/
+    doi: "10.1016/j.carbpol.2021.117796"
+    publication_date: "2021-05-15"
+    study_type: "In vitro - polysaccharide characterization"
+    polysaccharides_tested:
+      - name: "DRP (native)"
+        molecular_weight: "8700 Da"
+      - name: "sDRP-1"
+        molecular_weight: "7900 Da"
+        selenium_content: "170 ± 1.13 µg/g"
+      - name: "sDRP-2"
+        molecular_weight: "5600 Da"
+        selenium_content: "710 ± 4.00 µg/g"
+    key_findings:
+      - "Selenized polysaccharides possessed greater antioxidant and immunomodulatory activities than native polysaccharide"
+      - "Could be used as new-type immunoenhancers"
+      - "Showed better immunomodulatory ability"
+
+  - authors: "Li Z, Li X, Shi P, et al."
+    title: "Modulation of Acute Intestinal Inflammation by Dandelion Polysaccharides: An In-Depth Analysis of Antioxidative, Anti-Inflammatory Effects and Gut Microbiota Regulation"
+    journal: "International Journal of Molecular Sciences"
+    year: 2024
+    volume: "25"
+    issue: "3"
+    article: "1429"
+    pmid: "38338707"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38338707/
+    doi: "10.3390/ijms25031429"
+    publication_date: "2024-01-24"
+    study_type: "Animal study - mouse model"
+    model: "LPS-induced acute enteritis in mice"
+    groups: "48 mice randomly divided into 6 groups (control, LPS-induced model, positive control, low-dose DPS, medium-dose DPS, high-dose DPS)"
+    key_findings:
+      - "Down-regulated expression of TNF-α, IL-6, IL-1β"
+      - "Up-regulated IL-22 anti-inflammatory factor"
+      - "Repaired intestinal barrier damaged by LPS exposure"
+      - "Improved antioxidant capacity of the body"
+      - "Improved structure of intestinal flora"
+    conclusion: "DPS demonstrated effectiveness in both prevention and treatment of LPS-induced acute enteritis"
+
+# Antimicrobial Studies
+antimicrobial_studies:
+  - authors: "Kenny O, Brunton NP, Walsh D, Hewage CM, McLoughlin P, Smyth TJ"
+    title: "Characterisation of antimicrobial extracts from dandelion root (Taraxacum officinale) using LC-SPE-NMR"
+    journal: "Phytotherapy Research"
+    year: 2015
+    volume: "29"
+    issue: "4"
+    pages: "526-532"
+    pmid: "25644491"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25644491/
+    doi: "10.1002/ptr.5276"
+    study_type: "In vitro antimicrobial assay"
+    bacterial_strains_tested:
+      - "Staphylococcus aureus"
+      - "Methicillin-resistant S. aureus (MRSA)"
+      - "Bacillus cereus"
+      - "Additional Gram-positive and Gram-negative bacterial strains"
+    preparation: "Methanol hydrophobic crude extract from dandelion root"
+    key_findings:
+      - "Methanol hydrophobic crude extract demonstrated strongest inhibition of microbial growth against S. aureus, MRSA, and B. cereus strains"
+      - "Further fractionation yielded compounds with enhanced activity"
+    active_compounds_identified:
+      - "9-hydroxyoctadecatrienoic acid"
+      - "9-hydroxyoctadecadienoic acid"
+      - "Vanillin"
+      - "Coniferaldehyde"
+      - "p-methoxyphenylglyoxylic acid"
+    notes: "Specific MIC values not available in abstract; full article needed for quantitative data"
+
+# Research Gaps and Limitations
+research_gaps:
+  - category: "Clinical Evidence"
+    gap: "No well-controlled randomized clinical trials for most therapeutic applications"
+    source: "Multiple systematic reviews and EMA assessment reports"
+    notes: "Most current studies focus on in vitro cell experiments; research results lack clinical applicability"
+
+  - category: "Standardization"
+    gap: "Lack of standardized extracts and variable bioavailability"
+    source: "Clinical translation remains limited"
+    notes: "Rigorous preclinical studies and well-controlled clinical investigations urgently needed to validate efficacy, safety, and pharmacokinetics"
+
+  - category: "Safety Data"
+    gap: "Limited human safety data despite traditional use"
+    specific_gaps:
+      - "No data on reproductive and developmental toxicity"
+      - "Tests on reproductive toxicity, genotoxicity and carcinogenicity have not been performed"
+      - "Use during pregnancy and lactation cannot be recommended"
+      - "No data in children under 12 years"
+
+  - category: "Dosing"
+    gap: "Precise prophylactic and treatment doses currently unknown"
+    notes: "Effects on human hemostasis only evaluated in vitro; more randomized clinical trials with larger groups needed"
+
+  - category: "Diabetes Applications"
+    gap: "No completed human clinical trials examining effects on glucose in diabetic patients"
+    notes: "Extensive in vitro, in vivo, and clinical research required to investigate pharmacological, physiological, and biochemical mechanisms underlying effects of dandelion-derived compounds on type 2 diabetes"
+
+  - category: "Hepatoprotective Effects"
+    gap: "No clinical studies on hepatoprotective efficacy despite strong preclinical evidence"
+    notes: "Designing large human clinical studies essential given emerging evidence on hepatoprotective effects"
+
+  - category: "Infectious Diseases"
+    gap: "Limited information on oral bioavailability, pharmacological activities, and safety in humans for antimicrobial applications"
+    notes: "Clinical evidence for activity of bioactive compounds still scant for infectious diseases"
+
+# Traditional Uses and Historical Context
+traditional_uses:
+  - use: "Diuretic"
+    historical_duration: "Used in herbal medicine for at least 1000 years"
+    commission_e_approval: "1984 (root with herb)"
+
+  - use: "Digestive aid"
+    indications:
+      - "Loss of appetite"
+      - "Dyspepsia"
+      - "Bloating"
+      - "Flatulence"
+    commission_e_approval: "1992 (herb/leaf)"
+
+  - use: "Bile flow stimulation"
+    indications:
+      - "Disturbances of bile flow"
+      - "Cholelithiasis"
+    commission_e_approval: "1984"
+
+  - use: "Hepatoprotective"
+    traditional_applications:
+      - "Liver damage from toxic agents"
+      - "Alcohol-induced liver injury"
+      - "Carbon tetrachloride exposure"
+      - "Paracetamol toxicity"
+    evidence_basis: "Preclinical studies only; no human clinical trials"
+
+# Key Bioactive Compounds
+bioactive_compounds:
+  - compound: "Taraxasterol"
+    activities:
+      - "Anti-inflammatory (modulates inflammatory and oxidative stress pathways)"
+      - "Hepatoprotective"
+      - "Anticancer (inhibits tumor cell proliferation)"
+    mechanisms:
+      - "Suppressing NF-κB and MAPK signaling pathways"
+      - "Regulating proinflammatory cytokine and mediator production"
+
+  - compound: "Sesquiterpene lactones"
+    primary_compound: "Taraxinic acid"
+    activities:
+      - "Various medicinal properties"
+    safety_concern: "Cause of allergic contact dermatitis"
+
+  - compound: "Polysaccharides"
+    content: "63.92 ± 1.82 mg/g in water extract"
+    activities:
+      - "Immunomodulatory"
+      - "Antioxidant"
+      - "Anti-inflammatory"
+      - "Intestinal barrier protection"
+      - "Gut microbiota regulation"
+
+  - compound: "Flavonoids"
+    content: "Total flavonoids 2.57 ± 0.06 mg/g in root water extract; 188.84 ± 0.019 mg/100 g in shade-dried leaves"
+    key_flavonoid: "Quercetin (medicinally important antidiabetic flavonoid)"
+    activities:
+      - "Antidiabetic (α-amylase and α-glucosidase inhibition)"
+      - "Antioxidant"
+
+  - compound: "Phenolic compounds"
+    content: "Total phenols 5833.12 ± 4.222 mg/100 g in shade-dried leaves"
+    specific_compounds:
+      - "Chlorogenic acid"
+      - "Chicoric acid"
+    activities:
+      - "Antioxidant"
+      - "Anticancer (inhibiting tumor cell proliferation and modulating oncogenic pathways)"
+
+  - compound: "Fatty acid derivatives"
+    compounds:
+      - "9-hydroxyoctadecatrienoic acid"
+      - "9-hydroxyoctadecadienoic acid"
+    activities:
+      - "Antimicrobial (particularly against S. aureus, MRSA, B. cereus)"
+
+  - compound: "Phenolic aldehydes"
+    compounds:
+      - "Vanillin"
+      - "Coniferaldehyde"
+      - "p-methoxyphenylglyoxylic acid"
+    activities:
+      - "Antimicrobial"
+
+# Sources and References
+sources:
+  - "[The Role of Dandelion (Taraxacum officinale) in Liver Health and Hepatoprotective Properties](https://www.mdpi.com/1424-8247/18/7/990)"
+  - "[The Role of Dandelion (Taraxacum officinale) in Liver Health and Hepatoprotective Properties - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12299503/)"
+  - "[Investigation of the Anti-Lung Cancer Mechanisms of Taraxacum officinale - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12114748/)"
+  - "[Dandelion (Taraxacum officinale L.) as a Source of Biologically Active Compounds Supporting the Therapy of Co-Existing Diseases in Metabolic Syndrome - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498421/)"
+  - "[Evidence-based systematic review of dandelion (Taraxacum officinale) by natural standard research collaboration - PubMed](https://pubmed.ncbi.nlm.nih.gov/16093238/)"
+  - "[The Diuretic Effect in Human Subjects of an Extract of Taraxacum officinale Folium over a Single Day - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3155102/)"
+  - "[Taraxacum officinale and related species-An ethnopharmacological review - PubMed](https://pubmed.ncbi.nlm.nih.gov/25858507/)"
+  - "[Dandelion (Taraxacum Genus): A Review of Chemical Constituents and Pharmacological Effects - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10343869/)"
+  - "[Nutritional Profiling, Phytochemical Composition and Antidiabetic Potential of Taraxacum officinale - PubMed](https://pubmed.ncbi.nlm.nih.gov/36080148/)"
+  - "[Hypoglycemic effect of Taraxacum officinale root extract and its synergism with Radix Astragali extract - PubMed](https://pubmed.ncbi.nlm.nih.gov/33841825/)"
+  - "[Protective Effects of Taraxacum officinale L. (Dandelion) Root Extract in Experimental Acute on Chronic Liver Failure - PubMed](https://pubmed.ncbi.nlm.nih.gov/33804908/)"
+  - "[Ethnobotany of the genus Taraxacum-Phytochemicals and antimicrobial activity - PubMed](https://pubmed.ncbi.nlm.nih.gov/30039597/)"
+  - "[Characterisation of antimicrobial extracts from dandelion root using LC-SPE-NMR - PubMed](https://pubmed.ncbi.nlm.nih.gov/25644491/)"
+  - "[Anti-inflammatory evaluation of the methanolic extract of Taraxacum officinale in HUVECs - PubMed](https://pubmed.ncbi.nlm.nih.gov/29187173/)"
+  - "[Anti-inflammatory effect of Taraxacum officinale leaves on RAW 264.7 cells - PubMed](https://pubmed.ncbi.nlm.nih.gov/20673058/)"
+  - "[Characterization, antioxidant and immunomodulatory effects of selenized polysaccharides from dandelion roots - PubMed](https://pubmed.ncbi.nlm.nih.gov/33712144/)"
+  - "[Modulation of Acute Intestinal Inflammation by Dandelion Polysaccharides - PubMed](https://pubmed.ncbi.nlm.nih.gov/38338707/)"
+  - "[Effects of taraxacum mongolicum on the bioavailability and disposition of ciprofloxacin in rats - PubMed](https://pubmed.ncbi.nlm.nih.gov/10350500/)"
+  - "[Taraxacum mongolicum extract exhibits protective effect on hepatocytes and antiviral effect against hepatitis B virus - PubMed](https://pubmed.ncbi.nlm.nih.gov/24481875/)"
+  - "[EMA Assessment Report on Taraxacum officinale F.H. Wigg., radix](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-fh-wigg-radix_en.pdf)"
+  - "[EMA Assessment Report on Taraxacum officinale Weber ex Wigg., folium](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-weber-ex-wigg-folium_en.pdf)"
+  - "[Dandelion Juice in the Treatment of Dyshidrotic Hand Eczema - ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT00442091)"
+
+# Notes
+notes: |
+  This bibliography focuses on clinical studies, systematic reviews, and official monographs for dandelion (Taraxacum officinale).
+
+  KEY FINDINGS:
+  - Only ONE human clinical trial found (Clare et al. 2009) on diuretic effects; all other studies are in vitro or animal models
+  - Strong preclinical evidence for hepatoprotective, anti-inflammatory, antimicrobial, and antidiabetic effects
+  - Lack of standardized extracts and comprehensive human clinical trials is major research gap
+  - Traditional use well-documented (Commission E, EMA, WHO, Chinese Pharmacopoeia)
+  - Safety profile appears favorable with low toxicity, though comprehensive reproductive/genotoxicity studies lacking
+  - Drug interactions documented (particularly with ciprofloxacin)
+  - Allergic reactions possible, particularly in those sensitive to Asteraceae family plants
+
+  CRITICAL GAPS:
+  - No human clinical trials for hepatoprotective, antidiabetic, antimicrobial, or anticancer applications
+  - Precise therapeutic dosing not established for most conditions
+  - Bioavailability data limited
+  - Pregnancy/lactation safety not established
+  - Pediatric use not established
+
+  DOSING GUIDANCE (Traditional):
+  - Root: 3-4 g or 10-15 drops tincture twice daily (Commission E)
+  - Leaf: 4-10 g or 2-5 mL tincture three times daily (Commission E)
+  - Infusion/decoction: 1.7-8.7 g in 250 mL water (EMA)
+  - Duration: Maximum 2 weeks for leaf preparations (EMA)

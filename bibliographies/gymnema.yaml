@@ -1,0 +1,316 @@
+sources:
+  # Systematic Reviews and Meta-Analyses
+
+  - title: "The effect of Gymnema sylvestre supplementation on glycemic control in type 2 diabetes patients: A systematic review and meta-analysis"
+    authors:
+      - "Suneel Devangan"
+      - "Bincy Varghese"
+      - "Ebin Johny"
+      - "Surender Gurram"
+      - "Ramu Adela"
+    year: 2021
+    pmid: "34467577"
+    link: "https://pubmed.ncbi.nlm.nih.gov/34467577/"
+    study_type: "Systematic review and meta-analysis"
+    sample_size: 419
+    key_findings: "Meta-analysis of 10 studies showed GS supplementation significantly reduces fasting blood glucose (1.57 mg/dl, p<0.0001), postprandial blood glucose (1.04 mg/dl, p<0.0001), HbA1c (3.91%, p<0.0001), triglycerides (1.81 mg/dl, p<0.0001), and total cholesterol (4.10 mg/dl, p<0.0001) in type 2 diabetes patients."
+    notes: "Comprehensive analysis demonstrating effectiveness in improving glycemic control across multiple studies."
+
+  - title: "The effects of Gymnema Sylvestre supplementation on lipid profile, glycemic control, blood pressure, and anthropometric indices in adults: A systematic review and meta-analysis"
+    authors:
+      - "Mohammad Zamani"
+      - "Damoon Ashtary-Larky"
+      - "Saeed Nosratabadi"
+      - "Reza Bagheri"
+      - "Alexei Wong"
+      - "Mohammad Mahdi Rafiei"
+      - "Mojtaba Mahdavi Asiabar"
+      - "Pardis Khalili"
+      - "Omid Asbaghi"
+      - "Sayed Hosein Davoodi"
+    year: 2023
+    pmid: "36580574"
+    link: "https://pubmed.ncbi.nlm.nih.gov/36580574/"
+    study_type: "Systematic review and meta-analysis of RCTs"
+    sample_size: 6
+    key_findings: "GS supplementation significantly reduced triglycerides (p<0.001), total cholesterol (p<0.001), LDL (p<0.001), fasting blood sugar (p<0.001), and diastolic blood pressure (p=0.003). Analysis of 6 randomized controlled trials."
+    notes: "Demonstrates cardiometabolic benefits beyond glucose control."
+
+  - title: "A systematic review of Gymnema sylvestre in obesity and diabetes management"
+    authors:
+      - "Ramesh Pothuraju"
+      - "Raj Kumar Sharma"
+      - "Jayasimha Chagalamarri"
+      - "Surender Jangra"
+      - "Praveen Kumar Kavadi"
+    year: 2014
+    pmid: "24166097"
+    link: "https://pubmed.ncbi.nlm.nih.gov/24166097/"
+    study_type: "Systematic review"
+    sample_size: "Multiple studies reviewed"
+    key_findings: "Gymnemic acid demonstrates anti-obesity and antidiabetic properties, decreases body weight, inhibits glucose absorption, prevents triglyceride accumulation in muscle and liver, and decreases fatty acid accumulation in circulation."
+    notes: "Comprehensive review of mechanisms and clinical applications."
+
+  - title: "Gymnema sylvestre for diabetes mellitus: a systematic review"
+    authors:
+      - "Matthew J Leach"
+    year: 2007
+    pmid: "18047444"
+    link: "https://pubmed.ncbi.nlm.nih.gov/18047444/"
+    study_type: "Systematic review"
+    sample_size: "Multiple studies reviewed"
+    key_findings: "Review of best available evidence on gymnema for diabetes management, examining its potential as a therapeutic option for diabetes treatment."
+    notes: "Early systematic review establishing clinical potential."
+
+  # Randomized Controlled Trials - Type 2 Diabetes and Metabolic Syndrome
+
+  - title: "Effect of Gymnema sylvestre Administration on Metabolic Syndrome, Insulin Sensitivity, and Insulin Secretion"
+    authors:
+      - "Laura Y Zuñiga"
+      - "Manuel González-Ortiz"
+      - "Esperanza Martínez-Abundis"
+    year: 2017
+    pmid: "28459647"
+    link: "https://pubmed.ncbi.nlm.nih.gov/28459647/"
+    study_type: "Randomized, double-blind, placebo-controlled clinical trial"
+    sample_size: 24
+    key_findings: "600 mg/day (300 mg BID) for 12 weeks in metabolic syndrome patients. Significant decreases in body weight (81.3±10.6 vs 77.9±8.4 kg, p=0.02), BMI (31.2±2.5 vs 30.4±2.2 kg/m², p=0.02), and VLDL (0.45±0.15 vs 0.35±0.15 mmol/dL, p=0.05). No significant changes in metabolic syndrome components, insulin secretion, or insulin sensitivity."
+    notes: "Demonstrated weight loss benefits but limited metabolic improvements in this cohort."
+
+  - title: "Effect of Gymnema sylvestre Administration on Glycemic Control, Insulin Secretion, and Insulin Sensitivity in Patients with Impaired Glucose Tolerance"
+    authors:
+      - "Luis A Gaytán Martínez"
+      - "Luis A Sánchez-Ruiz"
+      - "Laura Y Zuñiga"
+      - "Manuel González-Ortiz"
+      - "Esperanza Martínez-Abundis"
+    year: 2021
+    pmid: "32460589"
+    link: "https://pubmed.ncbi.nlm.nih.gov/32460589/"
+    study_type: "Randomized, double-blind, placebo-controlled trial"
+    sample_size: 30
+    key_findings: "300 mg BID in IGT patients. Significant improvements: 2-hour OGTT (9.1±1.2 vs 7.8±1.7 mmol/L, p=0.003), A1C (5.8±0.3% vs 5.4±0.4%, p=0.025), Matsuda index (1.8±0.8 vs 2.4±1.2, p=0.008). 46.7% of treatment patients achieved normal A1C. Also reduced body weight, BMI, and LDL cholesterol."
+    notes: "Strong evidence for preventing progression from IGT to diabetes."
+
+  - title: "Efficacy and Tolerability of a Food Supplement Based on Zea mays L., Gymnema sylvestre (Retz.) R.br.ex Sm, Zinc and Chromium for the Maintenance of Normal Carbohydrate Metabolism: A Monocentric, Randomized, Double-Blind, Placebo-Controlled Clinical Trial"
+    authors:
+      - "Daniele Giuseppe Buccato"
+      - "Hammad Ullah"
+      - "Lorenza Francesca De Lellis"
+      - "Maria Vittoria Morone"
+      - "Danaé S Larsen"
+      - "Alessandro Di Minno"
+      - "Marcello Cordara"
+      - "Roberto Piccinocchi"
+      - "Alessandra Baldi"
+      - "Agostino Greco"
+      - "Salvatore Santonastaso"
+      - "Roberto Sacchi"
+      - "Maria Daglia"
+    year: 2024
+    pmid: "39125340"
+    link: "https://pubmed.ncbi.nlm.nih.gov/39125340/"
+    study_type: "Monocentric, randomized, double-blind, placebo-controlled trial"
+    sample_size: 81
+    key_findings: "81 individuals with mildly impaired FBG (98-125 mg/dL) received combination supplement with Gymnema sylvestre, Zea mays, zinc, and chromium. One tablet/day group showed significant FBG and HbA1c reduction vs placebo (p<0.001). No biochemical evidence of kidney or liver toxicity."
+    notes: "Multi-ingredient formulation; specific Gymnema contribution unclear but well-tolerated."
+
+  - title: "Effect of Gymnema sylvestre, Citrullus colocynthis and Artemisia absinthium on Blood Glucose and Lipid Profile in Diabetic Human"
+    authors:
+      - "Youshan Li"
+      - "Min Zheng"
+      - "Xing Zhai"
+      - "Youliang Huang"
+      - "Anwar Khalid"
+      - "Aneela Malik"
+      - "Pervaiz Shah"
+      - "Sabiha Karim"
+      - "Saira Azhar"
+      - "Xiaobing Hou"
+    year: 2015
+    pmid: "26665406"
+    link: "https://pubmed.ncbi.nlm.nih.gov/26665406/"
+    study_type: "Clinical trial"
+    sample_size: 32
+    key_findings: "1 gram/day (capsule, BID) for 30 days in type 2 diabetics (ages 30-60). Gymnema sylvestre reduced glucose 37%, triglycerides 5%, cholesterol 13%, and LDL cholesterol 19%."
+    notes: "Comparative study with other herbs; demonstrates strong glucose and lipid effects."
+
+  # Clinical Trials - Type 1 Diabetes
+
+  - title: "Use of Gymnema sylvestre leaf extract in the control of blood glucose in insulin-dependent diabetes mellitus"
+    authors:
+      - "E R Shanmugasundaram"
+      - "G Rajeswari"
+      - "K Baskaran"
+      - "B R Rajesh Kumar"
+      - "K Radha Shanmugasundaram"
+      - "B Kizar Ahmath"
+    year: 1990
+    pmid: "2259216"
+    link: "https://pubmed.ncbi.nlm.nih.gov/2259216/"
+    study_type: "Clinical trial"
+    sample_size: 27
+    key_findings: "400 mg/day GS4 (water-soluble extract) in IDDM patients on insulin therapy. Insulin requirements decreased along with fasting blood glucose, HbA1c, and glycosylated plasma proteins. Serum lipids returned to near-normal. Proposed mechanism: enhancement of endogenous insulin possibly through beta cell regeneration/revitalization."
+    notes: "GS4 extract; landmark study showing potential in type 1 diabetes."
+
+  - title: "Antidiabetic effect of a leaf extract from Gymnema sylvestre in non-insulin-dependent diabetes mellitus patients"
+    authors:
+      - "K Baskaran"
+      - "B Kizar Ahamath"
+      - "K Radha Shanmugasundaram"
+      - "E R Shanmugasundaram"
+    year: 1990
+    pmid: "2259217"
+    link: "https://pubmed.ncbi.nlm.nih.gov/2259217/"
+    study_type: "Clinical trial"
+    sample_size: 22
+    key_findings: "400 mg/day GS4 extract for 18-20 months as supplement to conventional antidiabetic drugs in type 2 diabetes. Significant reduction in blood glucose, HbA1c, and glycosylated plasma proteins. 5 of 22 patients discontinued conventional medication while maintaining glucose control with GS4 alone. Increased serum insulin levels suggest beta cell regeneration/repair."
+    notes: "GS4 extract; demonstrates potential for drug reduction/replacement in type 2 diabetes."
+
+  - title: "A novel Gymnema sylvestre extract stimulates insulin secretion from human islets in vivo and in vitro"
+    authors:
+      - "A Al-Romaiyan"
+      - "B Liu"
+      - "H Asare-Anane"
+      - "C R Maity"
+      - "S K Chatterjee"
+      - "N Koley"
+      - "T Biswas"
+      - "A K Chatterji"
+      - "G-C Huang"
+      - "S A Amiel"
+      - "S J Persaud"
+      - "P M Jones"
+    year: 2010
+    pmid: "20812281"
+    link: "https://pubmed.ncbi.nlm.nih.gov/20812281/"
+    study_type: "Clinical trial with in vitro component"
+    sample_size: "Small cohort (exact N not specified)"
+    key_findings: "1 g/day OSA® (high molecular weight GS extract) for 60 days. Significant increases in circulating insulin and C-peptide, with significant reductions in fasting and postprandial blood glucose. 10 of 11 patients showed significant glycemic control improvements."
+    notes: "OSA® extract (Om Santal Adivasi); novel high molecular weight formulation."
+
+  - title: "An open label study on the supplementation of Gymnema sylvestre in type 2 diabetics"
+    authors:
+      - "Smriti Nanda Kumar"
+      - "Uliyar Vitaldas Mani"
+      - "Indirani Mani"
+    year: 2010
+    pmid: "22432517"
+    link: "https://pubmed.ncbi.nlm.nih.gov/22432517/"
+    study_type: "Controlled clinical trial (open label)"
+    sample_size: "Not specified"
+    key_findings: "500 mg/day for 3 months in type 2 diabetics. Reduced polyphagia, fatigue, blood glucose (fasting and postprandial), glycated hemoglobin, and favorable shifts in lipid profiles and other clinical/biochemical markers."
+    notes: "Open label design; demonstrates symptom improvement beyond glucose control."
+
+  # Obesity and Body Composition
+
+  - title: "Comparative Effects of Gymnema sylvestre and Berberine on Adipokines, Body Composition, and Metabolic Parameters in Obese Patients: A Randomized Study"
+    authors:
+      - "Cindy Bandala"
+      - "Jazmín Carro-Rodríguez"
+      - "Noemí Cárdenas-Rodríguez"
+      - "Itzel Peña-Montero"
+      - "Modesto Gómez-López"
+      - "Ana Paola Hernández-Roldán"
+      - "Juan Carlos Huerta-Cruz"
+      - "Felipe Muñoz-González"
+      - "Iván Ignacio-Mejía"
+      - "Brayan Domínguez"
+      - "Eleazar Lara-Padilla"
+    year: 2024
+    pmid: "39064727"
+    link: "https://pubmed.ncbi.nlm.nih.gov/39064727/"
+    study_type: "Randomized controlled trial (comparative)"
+    sample_size: 50
+    key_findings: "3-month treatment in obese Mexican adults. GS significantly decreased (p<0.05) body fat percentage, fasting glucose, glycosylated hemoglobin, and resistin gene expression, while increasing basal insulin. Berberine showed stronger effects on body weight, blood pressure, and certain adipokines. GI symptoms most common adverse effect, resolving within first month."
+    notes: "Direct comparison with berberine; demonstrates differential effects on adipokines and body composition."
+
+  # Sweet Taste and Craving Studies
+
+  - title: "Consuming Gymnema sylvestre Reduces the Desire for High-Sugar Sweet Foods"
+    authors:
+      - "Sophie Turner"
+      - "Charles Diako"
+      - "Rozanne Kruger"
+      - "Marie Wong"
+      - "Warrick Wood"
+      - "Kay Rutherfurd-Markwick"
+      - "Ajmol Ali"
+    year: 2020
+    pmid: "32290122"
+    link: "https://pubmed.ncbi.nlm.nih.gov/32290122/"
+    study_type: "Single-blind, crossover design"
+    sample_size: 56
+    key_findings: "4 mg gymnemic acids per dissolving tablet. Within 15 minutes, chocolate consumption decreased 0.48 bars (21.3%, p=0.006), desire to eat more high-sugar sweet food significantly reduced (p=0.011), and pleasantness ratings decreased (p<0.001). Participants with 'sweet tooth' showed greater reductions in chocolate pleasantness (p=0.037) and desire (p=0.004)."
+    notes: "Standardized to gymnemic acids; acute effects on sweet taste perception and consumption."
+
+  - title: "The Effect of a 14-Day gymnema sylvestre Intervention to Reduce Sugar Cravings in Adults"
+    authors:
+      - "Sophie Turner"
+      - "Charles Diako"
+      - "Rozanne Kruger"
+      - "Marie Wong"
+      - "Warrick Wood"
+      - "Kay Rutherfurd-Markwick"
+      - "Eric Stice"
+      - "Ajmol Ali"
+    year: 2022
+    pmid: "36558446"
+    link: "https://pubmed.ncbi.nlm.nih.gov/36558446/"
+    study_type: "Randomized controlled trial"
+    sample_size: 58
+    key_findings: "4 mg Gymnema sylvestre with 75% gymnemic acids daily for 14 days. Day 0 post-dosing: intervention group consumed fewer chocolate bars (2.65±0.21 vs 3.15±0.24, p=0.02). Effect disappeared by day 15 (2.77±0.22 vs 2.78±0.22, p=0.81). Small substantive effects on pleasantness and desire ratings (r<0.3). No significant differences in 9 food categories or low-sugar healthy food consumption."
+    notes: "75% gymnemic acid standardization; shows acute but not sustained effects on sugar craving reduction."
+
+  # Mechanistic Studies (Animal Models with Clinical Relevance)
+
+  - title: "Gymnemic acid alleviates inflammation and insulin resistance via PPARδ- and NFκB-mediated pathways in db/db mice"
+    authors:
+      - "Yumeng Li"
+      - "Yao Xiao"
+      - "Wenge Gao"
+      - "Jiahui Pan"
+      - "Qi Zhao"
+      - "Zesheng Zhang"
+    year: 2019
+    pmid: "31464308"
+    link: "https://pubmed.ncbi.nlm.nih.gov/31464308/"
+    study_type: "Animal study (mechanistic)"
+    sample_size: "db/db mice (obesity-induced diabetes model)"
+    key_findings: "Gymnemic acid reduced fasting blood glucose from 26.3±4.09 to 17.4±3.38 mmol/L. Improved oral glucose tolerance and insulin tolerance, enhanced fatty acid oxidation and lipid transport, reduced lipid accumulation, suppressed inflammatory cytokines via PPARδ and NFκB pathways, increased insulin-to-glucagon ratio, regulated insulin signal transduction with reduced IRS-1 (Ser) phosphorylation and increased IRS (Tyr) phosphorylation."
+    notes: "Elucidates molecular mechanisms of anti-diabetic and anti-inflammatory action."
+
+  # Safety and Toxicology Studies
+
+  - title: "Gymnema sylvestre leaf extract: a 52-week dietary toxicity study in Wistar rats"
+    authors:
+      - "Yukio Ogawa"
+      - "Kiyoshi Sekita"
+      - "Takashi Umemura"
+      - "Minoru Saito"
+      - "Atsushi Ono"
+      - "Yasushi Kawasaki"
+      - "Osayuki Uchida"
+      - "Yuko Matsushima"
+      - "Tohru Inoue"
+      - "Jun Kanno"
+    year: 2004
+    pmid: "15168555"
+    link: "https://pubmed.ncbi.nlm.nih.gov/15168555/"
+    study_type: "Toxicology study (animal)"
+    sample_size: "Male and female Wistar rats"
+    key_findings: "52-week dietary supplementation. No deaths, no exposure-related changes in body weight, food consumption, hematological examinations, or serum biochemical examinations. No histopathological alterations. No-observable-effect level (NOEL): 1.00% in diet = 504 mg/kg/day (males), 563 mg/kg/day (females)."
+    notes: "Long-term safety data; establishes high safety margin for chronic use."
+
+  - title: "Toxic hepatitis induced by Gymnema sylvestre, a natural remedy for type 2 diabetes mellitus"
+    authors:
+      - "Arthur Shiyovich"
+      - "Ignacio Sztarkier"
+      - "Lior Nesher"
+    year: 2010
+    pmid: "20856101"
+    link: "https://pubmed.ncbi.nlm.nih.gov/20856101/"
+    study_type: "Case report"
+    sample_size: 1
+    key_findings: "Single case of drug-induced liver injury (DILI) in patient treated with Gymnema sylvestre for diabetes. Authors note this appears to be the first reported case of liver injury associated with G. sylvestre despite widespread traditional use. 35-48% of diabetic patients use complementary and alternative therapies; over 800 plants traditionally used for diabetes."
+    notes: "Rare adverse event; establishes need for liver monitoring in susceptible individuals but suggests overall low hepatotoxicity risk."

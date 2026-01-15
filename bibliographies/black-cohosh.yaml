@@ -1,508 +1,498 @@
 ---
 # Black Cohosh (Cimicifuga racemosa / Actaea racemosa) Bibliography
-# Clinical studies, systematic reviews, pharmacokinetics, safety profiles, and traditional monographs
+# Focus: Clinical studies, systematic reviews, RCTs, standardized extracts, dosing, bioavailability, safety
 
 systematic_reviews_meta_analyses:
-  - pmid: "33021111"
-    title: "Review & meta-analysis: isopropanolic black cohosh extract iCR for menopausal symptoms - an update on the evidence"
-    authors: "Beer AM, Osmers R, Schnitker J, Bai W, Mueck AO, Meden H"
-    year: 2021
-    journal: "Climacteric"
-    volume: "24"
-    issue: "2"
-    pages: "109-119"
-    doi: "10.1080/13697137.2020.1820477"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33021111/"
-    full_text: "https://www.tandfonline.com/doi/full/10.1080/13697137.2020.1820477"
-    study_type: "Systematic review and meta-analysis"
-    sample_size: "43,759 women total, 13,096 treated with isopropanolic Cimicifuga racemosa extract (iCR)"
-    studies_included: "35 clinical studies and 1 meta-analysis"
+  - id: sadahiro2023
+    title: "Black cohosh extracts in women with menopausal symptoms: an updated pairwise meta-analysis"
+    authors: "Sadahiro R, Matsuoka LN, Zeng B-S, Chen K-H, Zeng B-Y, Wang H-Y, et al."
+    year: 2023
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37192826/"
+    study_type: "Pairwise meta-analysis of RCTs"
+    studies_included: 22
+    sample_size: 2310
     key_findings:
-      - "Compared to placebo, iCR significantly superior for treating neurovegetative and psychological menopausal symptoms (SMD -0.694, p<0.0001)"
-      - "Effect sizes larger with higher dosages: iCR monotherapy (SMD -1.020) and iCR+St. John's wort (SMD -0.999), suggesting dose-dependency"
-      - "Efficacy comparable to low-dose transdermal estradiol or tibolone, with better tolerability profile than tibolone"
-      - "No evidence of hepatotoxicity in clinical data"
-      - "No effects on estrogen-sensitive tissues (breast, endometrium)"
-    standardization: "Isopropanolic extract of Cimicifuga racemosa"
-    dosing: "Higher dosages showed greater effect"
+      - "Overall menopausal symptoms: Hedges' g = 0.575, p < 0.001"
+      - "Hot flashes: g = 0.315, p = 0.003"
+      - "Somatic symptoms: g = 0.418, p = 0.001"
+      - "No significant improvement in anxiety (p = 0.438) or depression (p = 0.131)"
+      - "Dropout rates comparable to placebo"
+    notes: "Most comprehensive recent meta-analysis of black cohosh for menopausal symptoms"
 
-  - pmid: "18585461"
+  - id: castelo-branco2021
+    title: "Review & meta-analysis: isopropanolic black cohosh extract iCR for menopausal symptoms - an update on the evidence"
+    authors: "Castelo-Branco C, Gambacciani M, Cano A, Minkin MJ, Rachoń D, Ruan X, Beer A-M, Schnitker J, Henneicke-von Zepelin H-H, Pickartz S"
+    year: 2021
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33021111/"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 35
+    sample_size: 43759
+    treated_with_icr: 13096
+    key_findings:
+      - "iCR superior to placebo: standardized mean difference -0.694 (p < 0.0001)"
+      - "Dose-dependent effect: higher doses showed SMD of -1.020 and -0.999"
+      - "Efficacy comparable to low-dose estradiol and tibolone"
+      - "Superior tolerability to hormone therapy"
+      - "No evidence of hepatotoxicity"
+      - "Combination with St. John's wort more effective for psychological symptoms"
+    extract_type: "Isopropanolic Cimicifuga racemosa extract (iCR)"
+    notes: "Largest systematic review; demonstrates extract-specific efficacy"
+
+  - id: fan2022
+    title: "Systematic Review of Black Cohosh (Cimicifuga racemosa) for Management of Polycystic Ovary Syndrome-Related Infertility"
+    authors: "Fan CW, Cieri-Hutcherson NE, Hutcherson TC"
+    year: 2022
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33926292/"
+    study_type: "Systematic review"
+    studies_included: 5
+    key_findings:
+      - "Improved hormone regulation vs clomiphene citrate alone"
+      - "Improved endometrial thickness vs clomiphene citrate"
+      - "Three RCTs reported improved pregnancy rates with black cohosh + CC combination"
+      - "No differences in adverse events"
+      - "Insufficient high-quality evidence for definitive conclusions"
+    indication: "PCOS-related infertility"
+    notes: "Emerging application beyond menopausal symptoms"
+
+  - id: shams2010
+    title: "Efficacy of black cohosh-containing preparations on menopausal symptoms: a meta-analysis"
+    authors: "Shams T, Setia MS, Hemmings R, McCusker J, Sewitch M, Ciampi A"
+    year: 2010
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20085176/"
+    study_type: "Meta-analysis"
+    studies_included: 9
+    studies_analyzed: 7
+    key_findings:
+      - "Six of nine trials showed significant improvement vs placebo"
+      - "Combined estimate: 26% improvement (95% CI 11%-40%)"
+      - "Significant heterogeneity between trials noted"
+    limitations: "Heterogeneity suggests extract standardization issues"
+
+  - id: borrelli2008_efficacy
     title: "Black cohosh (Cimicifuga racemosa) for menopausal symptoms: a systematic review of its efficacy"
     authors: "Borrelli F, Ernst E"
     year: 2008
-    journal: "Pharmacol Res"
-    volume: "58"
-    issue: "1"
-    pages: "8-14"
-    doi: "10.1016/j.phrs.2008.05.008"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18585461/"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18585461/"
     study_type: "Systematic review of RCTs"
-    sample_size: "1,112 peri- and post-menopausal women across 6 RCTs"
-    databases_searched: "Medline, Embase, Amed, Phytobase, Cochrane Library"
+    studies_included: 6
+    sample_size: 1112
     key_findings:
       - "Evidence does not consistently demonstrate effect on menopausal symptoms"
-      - "Beneficial effect in peri-menopausal women cannot be excluded"
-      - "High heterogeneity between studies limits conclusions"
+      - "Beneficial effect in perimenopausal women cannot be excluded"
       - "Further rigorous trials warranted"
+    notes: "Earlier systematic review; mixed conclusions reflect extract heterogeneity"
 
-  - pmid: "18984078"
+  - id: borrelli2008_safety
     title: "Black cohosh (Cimicifuga racemosa): a systematic review of adverse events"
     authors: "Borrelli F, Ernst E"
     year: 2008
-    journal: "Am J Obstet Gynecol"
-    volume: "199"
-    issue: "5"
-    pages: "455-466"
-    doi: "10.1016/j.ajog.2008.05.007"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18984078/"
-    study_type: "Systematic review of safety"
-    databases_searched: "Medline, Embase, Amed, Phytobase, Cochrane Library"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18984078/"
+    study_type: "Systematic safety review"
+    studies_reviewed: 28
+    breakdown:
+      clinical_trials: 13
+      postmarketing_surveillance: 3
+      case_series: 4
+      case_reports: 8
     key_findings:
-      - "13 clinical trials all indicated relative safety"
-      - "3 postmarketing surveillance studies identified"
-      - "4 case series and 8 single case reports reviewed"
-      - "Clinical studies suggest black cohosh is safe"
-      - "Case reports have problematic causal attribution"
-      - "Most commonly reported side effects: gastrointestinal upset and rashes (mild and transient)"
-      - "At least 83 cases of liver damage described worldwide, but no evidence of causal relationship"
+      - "Clinical trials suggest black cohosh to be safe"
+      - "Case reports show problematic causal attribution"
+      - "Serious safety concerns require further investigation"
+    notes: "Highlights gap between controlled trial safety and case report concerns"
 
-  - pmid: "33926292"
-    title: "Systematic Review of Black Cohosh (Cimicifuga racemosa) for Management of Polycystic Ovary Syndrome-Related Infertility"
-    authors: "Fan CW, Cieri-Hutcherson NE, Hutcherson TC"
-    year: 2021
-    journal: "J Pharm Pract"
-    volume: "35"
-    issue: "6"
-    pages: "991-999"
-    doi: "10.1177/08971900211012244"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33926292/"
-    full_text: "https://journals.sagepub.com/doi/10.1177/08971900211012244"
-    study_type: "Systematic review"
-    condition: "PCOS-related infertility"
-    databases_searched: "Medline, Embase, IPA, Science Direct, CINAHL, ClinicalTrials.gov, ICTRP"
-    search_period: "Origin to December 19, 2020"
-    studies_included: "2 RCTs plus 4 additional studies from trial registries (3 published)"
+  - id: naser2022
+    title: "Weight gain in menopause: systematic review of adverse events in women treated with black cohosh"
+    authors: "Naser B, Castelo-Branco C, Meden H, Minkin MJ, Rachoń D, Beer A-M, Pickartz S"
+    year: 2022
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34608830/"
+    study_type: "Systematic review of adverse events"
+    studies_reviewed: 31
+    cases_reviewed: 30
+    sample_size: 1839
+    duration: "Up to 12 months treatment"
     key_findings:
-      - "Improvement in hormone regulation compared to clomiphene citrate"
-      - "Increased endometrial thickness compared to clomiphene citrate"
-      - "Three RCTs reported improved pregnancy rates using black cohosh plus clomiphene citrate"
-      - "No differences in adverse events"
-      - "Lack of high-quality evidence for improving pregnancy rates"
-      - "Short-term use appears safe"
+      - "30 spontaneous weight gain reports over 15 years"
+      - "Causality not certain/likely in any case"
+      - "Only 2 of 31 trials reported weight gain as adverse event"
+      - "No significant weight differences between groups in trials"
+      - "No scientific evidence that black cohosh causes weight gain"
+    notes: "Addresses common patient concern; refutes weight gain association"
 
 randomized_controlled_trials:
-  - pmid: "15863547"
-    title: "Efficacy and safety of isopropanolic black cohosh extract for climacteric symptoms"
-    authors: "Osmers R, Friede M, Liske E, Schnitker J, Freudenstein J, Henneicke-von Zepelin HH"
-    year: 2005
-    journal: "Obstet Gynecol"
-    volume: "105"
-    issue: "5 Pt 1"
-    pages: "1074-83"
-    doi: "10.1097/01.AOG.0000158865.98070.89"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15863547/"
-    study_type: "Randomized, multicenter, double-blind, placebo-controlled trial"
-    sample_size: "304 patients"
+  - id: schellenberg2012
+    title: "Dose-Dependent Effects of the Cimicifuga racemosa Extract Ze 450 in the Treatment of Climacteric Complaints: A Randomized, Placebo-Controlled Study"
+    authors: "Schellenberg R, Saller R, Hess L, Melzer J, Zimmermann C, Drewe J, Zahner C"
+    year: 2012
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23346194/"
+    study_type: "RCT, double-blind, placebo-controlled, three-arm"
+    sample_size: 180
+    extract: "Ze 450"
+    doses:
+      - "6.5 mg CR extract"
+      - "13.0 mg CR extract"
+      - "Placebo"
     duration: "12 weeks"
-    intervention: "40 mg/day isopropanolic black cohosh extract vs placebo"
-    primary_outcome: "Menopause Rating Scale I"
-    secondary_outcomes: "Kupperman Index, safety variables"
+    primary_outcome: "Kupperman Menopausal Index"
     key_findings:
-      - "Isopropanolic extract effective in relieving climacteric symptoms"
-      - "Especially effective in early climacteric women"
-      - "Good criterion-oriented validity with Kupperman Index"
-      - "Safety monitored via adverse events, liver enzymes, vital signs"
-      - "Well tolerated with no significant safety concerns"
-    standardization: "Isopropanolic extract of black cohosh root stock"
-    dosing: "40 mg/day"
+      - "13.0 mg dose: mean absolute difference 17.0 points (95% CI 14.65-19.35, p < 0.0001) vs placebo"
+      - "6.5 mg dose: mean absolute difference 8.47 points (95% CI 5.55-11.39, p = 0.0003) vs placebo"
+      - "Clear dose-dependent response"
+      - "No safety concerns in adverse events or lab testing"
+    notes: "Key dose-finding study; demonstrates dose-response relationship"
 
-  - pmid: "24499633"
-    title: "Efficacy of black cohosh (Cimicifuga racemosa L.) in treating early symptoms of menopause: a randomized clinical trial"
-    authors: "Mohammad-Alizadeh-Charandabi S, Shahnazi M, Nahaee J, Bayatipayan S"
-    year: 2013
-    journal: "Chin Med"
-    volume: "8"
-    issue: "1"
-    pages: "20"
-    doi: "10.1186/1749-8546-8-20"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/24499633/"
-    pmc: "PMC4029542"
-    full_text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4029542/"
-    study_type: "Randomized, double-blind, placebo-controlled trial"
-    location: "Tehran, Iran (2011-2012)"
-    sample_size: "84 early post-menopausal participants"
-    inclusion_criteria: "Greene climacteric scale (GCS) scores 15-42"
-    duration: "8 weeks"
-    intervention: "6.5 mg dried extract of black cohosh roots daily vs placebo"
-    randomization: "1:1 ratio"
-    primary_outcome: "Greene Climacteric Scale total score and subscales"
+  - id: nappi2005
+    title: "Efficacy of Cimicifuga racemosa on climacteric complaints: a randomized study versus low-dose transdermal estradiol"
+    authors: "Nappi RE, Malavasi B, Brundu B, Facchinetti F"
+    year: 2005
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15969244/"
+    study_type: "RCT, comparative"
+    sample_size: 64
+    interventions:
+      black_cohosh: "40 mg isopropanolic aqueous extract daily"
+      estradiol: "25 mcg transdermal every 7 days + dihydrogesterone 10 mg/day for final 12 days"
+    duration: "3 months"
     key_findings:
-      - "At weeks 4 and 8: 51% and 77% reductions in GCS total score (treatment) vs 27% and 38% (control)"
-      - "Vasomotor symptom score reductions: 61% and 86% (treatment) vs 27% and 29% (control)"
-      - "Significant reductions in all GCS subscale scores at weeks 4 and 8"
-      - "Black cohosh effective for early menopausal symptoms"
-    standardization: "Dried extract of black cohosh roots"
-    dosing: "6.5 mg/day"
+      - "Hot flushes: both reduced significantly (p < 0.001), no difference between groups"
+      - "Vasomotor symptoms: both groups p < 0.001"
+      - "Anxiety and depression: both decreased (p < 0.001)"
+      - "Black cohosh increased HDL-cholesterol (p < 0.04)"
+      - "Both lowered LDL-cholesterol (black cohosh p < 0.003; estradiol p < 0.002)"
+      - "No effect on endometrial thickness in either group"
+    notes: "Demonstrates equivalence to low-dose HRT for primary symptoms"
 
-  - pmid: "25276716"
+  - id: frei-kleiner2005
+    title: "Cimicifuga racemosa dried ethanolic extract in menopausal disorders: a double-blind placebo-controlled clinical trial"
+    authors: "Frei-Kleiner S, Schaffner W, Rahlfs VW, Bodmer C, Birkhäuser M"
+    year: 2005
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16039414/"
+    study_type: "RCT, multicenter, double-blind, placebo-controlled"
+    sample_size: 122
+    extract_type: "Dried ethanolic extract"
+    duration: "12 weeks"
+    primary_outcomes:
+      - "Weekly weighted score of hot flashes"
+      - "Kupperman Index"
+    key_findings:
+      - "No overall superiority vs placebo in full cohort"
+      - "Subgroup with Kupperman Index ≥20: 47% decrease (black cohosh) vs 21% (placebo), p < 0.018"
+      - "Adverse events: no difference in prevalence or intensity vs placebo"
+    notes: "Demonstrates efficacy in more symptomatic women; ethanolic vs isopropanolic extract"
+
+  - id: tanmahasamut2015
+    title: "Cimicifuga racemosa extract for relieving menopausal symptoms: a randomized controlled trial"
+    authors: "Tanmahasamut P, Vichinsartvichai P, Rattanachaiyanont M, Techatraisak K, Dangrat C, Sardod P"
+    year: 2015
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24941138/"
+    study_type: "RCT, double-blind, placebo-controlled"
+    sample_size: 54
+    dose: "40 mg/day black cohosh extract"
+    key_findings:
+      - "Kupperman Index: improved in both groups, no significant difference"
+      - "Hot flush frequency: improved similarly across groups"
+      - "QOL: no significant between-group differences"
+      - "No serious adverse events"
+      - "No significant change in liver function tests"
+    population: "Thai women"
+    notes: "Negative study; possible population or extract differences"
+
+  - id: shahnazi2013
     title: "Effect of black cohosh (cimicifuga racemosa) on vasomotor symptoms in postmenopausal women: a randomized clinical trial"
     authors: "Shahnazi M, Nahaee J, Mohammad-Alizadeh-Charandabi S, Bayatipayan S"
     year: 2013
-    journal: "J Caring Sci"
-    volume: "2"
-    issue: "2"
-    pages: "105-113"
-    doi: "10.5681/jcs.2013.013"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/25276716/"
-    pmc: "PMC4161092"
-    full_text: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161092/"
-    study_type: "Randomized, double-blind, placebo-controlled trial"
-    location: "Tabriz, Iran"
-    sample_size: "84 postmenopausal women (42 per group)"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25276716/"
+    study_type: "RCT, double-blind, placebo-controlled"
+    sample_size: 84
+    dose: "One black cohosh tablet daily"
     duration: "8 weeks"
-    intervention: "One black cohosh tablet daily (6.5 mg dried extract) vs placebo"
-    product: "Cimifugol (Goldaru Pharmaceutical Company, Iran)"
     key_findings:
-      - "Black cohosh effective as alternative medicine for relieving vasomotor symptoms"
-      - "Significant reduction in hot flashes and night sweats"
-      - "Well tolerated with minimal side effects"
-    standardization: "6.5 mg dried extract per tablet"
-    dosing: "6.5 mg/day"
+      - "Significant difference in severity and number of hot flashes at weeks 4 and 8"
+      - "Repeated measures ANOVA showed significant reduction in vasomotor symptoms"
+      - "Effective alternative for menopausal vasomotor symptoms"
+    notes: "Positive study for vasomotor symptoms specifically"
 
-  - pmid: "16449108"
-    title: "Black cohosh and St. John's wort for climacteric complaints: a randomized trial"
-    authors: "Uebelhack R, Blohmer JU, Graubaum HJ, Busch R, Gruenwald J, Wernecke KD"
-    year: 2006
-    journal: "Obstet Gynecol"
-    volume: "107"
-    issue: "2 Pt 1"
-    pages: "247-255"
-    doi: "10.1097/01.AOG.0000197985.49083.2d"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/16449108/"
-    pmc: "PMC2628120"
-    study_type: "Double-blind, randomized, placebo-controlled trial"
-    sample_size: "301 women with climacteric complaints and psychological symptoms"
-    duration: "16 weeks"
-    intervention: "Fixed combination of ethanolic St. John's wort extract and isopropanolic black cohosh extract vs placebo"
-    primary_outcomes: "Menopause Rating Scale (MRS), Hamilton Depression Rating Scale (HAMD)"
+  - id: fernandes2020
+    title: "Effectiveness of the short-term use of Cimicifuga racemosa in the endothelial function of postmenopausal women: a double-blind, randomized, controlled trial"
+    authors: "Fernandes ES, Celani MFS, Fistarol M, Geber S"
+    year: 2020
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31691621/"
+    study_type: "RCT, double-blind, placebo-controlled"
+    sample_size: 62
+    dose: "160 mg dry extract containing 4 mg triterpene glycosides"
+    duration: "28 days"
+    primary_outcome: "Flow-mediated dilation (endothelial function)"
     key_findings:
-      - "MRS score decreased 50% (treatment) vs 19.6% (placebo)"
-      - "HAMD total score decreased 41.8% (treatment) vs 12.7% (placebo)"
-      - "Treatment significantly superior to placebo for both measures"
-      - "No relevant group differences in adverse events, laboratory values, or tolerability"
-      - "Fixed combination superior to placebo for climacteric complaints including psychological component"
-    combination: "Black cohosh + St. John's wort (Hypericum perforatum)"
+      - "Treatment group: significant increase in flow-mediated dilation (p = 0.006)"
+      - "Placebo group: no changes (p ≥ 0.05)"
+      - "Between-group comparison: p = 0.018"
+      - "Beneficially influences endothelial function and brachial artery elasticity"
+    notes: "Novel cardiovascular mechanism; short-term vascular benefits"
 
-  - pmid: "24941138"
-    title: "Cimicifuga racemosa extract for relieving menopausal symptoms: a randomized controlled trial"
-    authors: "Rotem C, Kaplan B"
-    year: 2007
-    journal: "Isr Med Assoc J"
-    volume: "9"
-    issue: "11"
-    pages: "751-756"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/24941138/"
-    study_type: "Randomized, double-blind, placebo-controlled trial"
-    location: "Thailand (2011-2013)"
-    sample_size: "54 Thai women (27 per group)"
-    inclusion_criteria: "Moderate to severe menopausal symptoms"
-    duration: "12 weeks"
-    intervention: "Black cohosh extract 40 mg/day vs placebo"
+  - id: xi2014
+    title: "Effect of Isopropanolic Cimicifuga racemosa Extract on Uterine Fibroids in Comparison with Tibolone among Patients of a Recent Randomized, Double Blind, Parallel-Controlled Study in Chinese Women with Menopausal Symptoms"
+    authors: "Xi S, Liske E, Wang S, Liu J, Zhang Z, Geng L, Hu L, Jiao C, Zheng S, Henneicke-von Zepelin H-H, Bai W"
+    year: 2014
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24719645/"
+    study_type: "RCT, double-blind, parallel-controlled"
+    sample_size: 62
+    interventions:
+      icr: "40 mg crude drug daily (n=34)"
+      tibolone: "2.5 mg daily (n=28)"
     key_findings:
-      - "Effectiveness evaluated for relieving menopausal symptoms in Thai women"
-      - "40 mg/day dosage studied"
-      - "Double-blind placebo-controlled design"
-    standardization: "Black cohosh extract"
-    dosing: "40 mg/day"
+      - "iCR: median fibroid volume decreased -30% (p = 0.016)"
+      - "Tibolone: median fibroid volume increased +4.7%"
+      - "iCR provides symptom relief while inhibiting myoma growth"
+    population: "Chinese women with uterine fibroids"
+    notes: "Important safety finding; contrasts with tibolone's proliferative effect"
 
-  - pmid: "17587516"
-    title: "Efficacy and tolerability of a medicinal product containing an isopropanolic black cohosh extract in Chinese women with menopausal symptoms: a randomized, double blind, parallel-controlled study versus tibolone"
-    authors: "Wuttke W, Gorkow C, Seidlová-Wuttke D"
-    year: 2007
-    journal: "Maturitas"
-    volume: "58"
-    issue: "1"
-    pages: "31-41"
-    doi: "10.1016/j.maturitas.2007.04.009"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/17587516/"
-    study_type: "Randomized, double-blind, parallel-controlled trial"
-    sample_size: "244 Chinese menopausal patients aged 40-60 years (122 per group)"
-    duration: "Not specified"
-    intervention: "Remifemin 40 mg crude drug/day vs tibolone 2.5 mg/day"
+  - id: geller2009
+    title: "Safety and efficacy of black cohosh and red clover for the management of vasomotor symptoms: a randomized controlled trial"
+    authors: "Geller SE, Shulman LP, van Breemen RB, Banuvar S, Zhou Y, Epstein G, Hedayat S, Nikolic D, Krause EC, Piersen CE, Bolton JL, Pauli GF, Farnsworth NR"
+    year: 2009
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19609225/"
+    study_type: "RCT, double-blind, four-arm"
+    sample_size: 89
+    interventions:
+      - "Standardized black cohosh extract"
+      - "Red clover extract"
+      - "Placebo"
+      - "CEE/MPA (0.625 mg + 2.5 mg)"
+    duration: "12 months"
     key_findings:
-      - "Efficacy of Remifemin as good as tibolone for climacteric complaints"
-      - "Remifemin clearly superior regarding safety profile"
-      - "Well tolerated in Chinese population"
-      - "Comparable efficacy to hormonal therapy without hormonal side effects"
-    product: "Remifemin (isopropanolic black cohosh extract)"
-    standardization: "40 mg crude drug equivalent per day"
-    dosing: "40 mg/day"
+      - "Symptom reduction: black cohosh 34%, red clover 57%, placebo 63%, CEE/MPA 94%"
+      - "Only CEE/MPA significantly different from placebo"
+      - "Both botanicals safe as administered"
+      - "No improvements in other menopausal symptoms for botanical groups"
+    notes: "Negative efficacy study; both botanicals not superior to placebo"
 
-  - pmid: "16020404"
-    title: "The effects of remifemin on subjective symptoms of menopause"
-    authors: "Osmers R, Friede M, Liske E, Schnitker J, Freudenstein J, Henneicke-von Zepelin HH"
-    year: 2005
-    journal: "Adv Ther"
-    volume: "22"
-    issue: "2"
-    pages: "148-163"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/16020404/"
-    study_type: "Observational study"
-    sample_size: "2,016 Hungarian women aged 40-65 years"
-    inclusion_criteria: "Kupperman Index ≥20"
-    duration: "12 weeks"
-    intervention: "Isopropanol extract of Cimicifuga racemosa (Remifemin)"
-    primary_outcome: "Kupperman Index"
-    key_findings:
-      - "Average decrease in Kupperman Index: 17.64 points (p<0.001)"
-      - "Most favorable changes: hot flashes (-6.31 points), sweating (-2.86 points), insomnia (-2.27 points), anxiety (-2.00 points)"
-      - "Large-scale confirmation of efficacy in real-world clinical setting"
-      - "Significant improvements across multiple menopausal symptom domains"
-    product: "Remifemin"
-    standardization: "Isopropanol extract of Cimicifuga racemosa"
-
-pharmacokinetics_bioavailability:
-  - pmid: "20032972"
-    title: "Pharmacokinetics of 23-epi-26-deoxyactein in women after oral administration of a standardized extract of black cohosh"
-    authors: "Reame NE, Lukacs JL, Padmanabhan V, Eyvazzadeh AD, Smith YR, Zubieta JK"
-    year: 2010
-    journal: "Clin Pharmacol Ther"
-    volume: "83"
-    issue: "3"
-    pages: "408-416"
-    doi: "10.1038/sj.clpt.6100462"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/20032972/"
-    pmc: "PMC3635811"
-    full_text: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3635811/"
-    study_type: "Pharmacokinetic study"
-    sample_size: "15 healthy menopausal women"
-    intervention: "Single doses containing 1.4, 2.8, or 5.6 mg of 23-epi-26-deoxyactein"
-    key_compounds: "23-epi-26-deoxyactein (major triterpene glycoside)"
-    key_findings:
-      - "No acute toxicity or estrogenic hormone effects observed"
-      - "Maximum concentration and AUC increased proportionately with dosage"
-      - "Half-life approximately 2 hours for all dosages"
-      - "Peak serum concentration reached between 2.0-2.9 hours post-administration"
-      - "Peak serum concentration dose-dependent: 2.2 ng/mL (3.3 nM) to 12.4 ng/mL (18.8 nM)"
-      - "Rapid increase during first hour, slower increase second hour"
-      - "Less than 0.01% of 23-epi-26-deoxyactein recovered in urine 24h post-administration"
-      - "Non-linear absorption with over-proportional AUC at higher doses (saturable elimination)"
-      - "Terminal half-life increased with dose: 2.1h (1.4 mg) to 3.0h (5.6 mg)"
-    bioavailability: "Low urinary recovery (<0.01%) suggests extensive metabolism or alternative elimination routes"
-    half_life: "Approximately 2 hours (range 2.1-3.0h depending on dose)"
-    tmax: "2.0-2.9 hours"
-    standardization: "75% ethanol extract of black cohosh"
-
-safety_hepatotoxicity:
-  - pmid: "21228727"
-    title: "Suspected black cohosh hepatotoxicity: no evidence by meta-analysis of randomized controlled clinical trials for isopropanolic black cohosh extract"
-    authors: "Naser B, Schnitker J, Minkin MJ, de Arriba SG, Nolte KU, Osmers R"
-    year: 2011
-    journal: "Menopause"
-    volume: "18"
-    issue: "4"
-    pages: "366-375"
-    doi: "10.1097/gme.0b013e3181fcb2a9"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21228727/"
-    study_type: "Meta-analysis of RCTs"
-    trials_analyzed: "5 randomized, double-blind, controlled trials"
-    sample_size: "1,117 women"
-    intervention: "Isopropanolic black cohosh extract (iCR / Remifemin)"
-    key_findings:
-      - "No evidence that iCR has any adverse effect on liver function"
-      - "No significant changes in mean ALT, AST, or GGT levels between black cohosh and placebo"
-      - "Among 7 patients with significant rises in liver tests, none judged related to black cohosh"
-      - "Follow-up study of 107 women treated ≥1 year: none had clinical or biochemical evidence of liver injury"
-      - "Meta-analysis contradicts case reports of hepatotoxicity"
-    conclusion: "Isopropanolic black cohosh extract does not appear to cause hepatotoxicity in controlled clinical trials"
-    product: "Remifemin (isopropanolic extract)"
-
-  - pmid: "20216279"
-    title: "Black cohosh and suspected hepatotoxicity: inconsistencies, confounding variables, and prospective use of a diagnostic causality algorithm. A critical review"
-    authors: "Teschke R, Schmidt-Taenzer W, Wolff A"
-    year: 2011
-    journal: "Menopause"
-    volume: "18"
-    issue: "4"
-    pages: "456-465"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/20216279/"
-    study_type: "Critical review with causality assessment"
-    cases_reviewed: "69 cases with liver disease"
-    key_findings:
-      - "Using hepatotoxicity-specific causality assessment methods: excluded, unlikely, unrelated, or unassessable causality in 68 of 69 cases"
-      - "Among 4 cases reported to Health Canada: none contained authentic black cohosh (product contamination)"
-      - "Expert committee review of 30 reports: none considered 'certain' or 'probable'"
-      - "Inconsistencies in case reports and confounding variables make causal attribution problematic"
-      - "Recommendations for cautionary labeling not supported by rigorous causality assessment"
-    conclusion: "Causal relationship between authentic black cohosh and hepatotoxicity not established"
-
-clinical_dosing_standardization:
-  - reference: "NIH Office of Dietary Supplements - Black Cohosh Health Professional Fact Sheet"
-    url: "https://ods.od.nih.gov/factsheets/BlackCohosh-HealthProfessional/"
-    key_findings:
-      - "Clinical trial dosages: 8-160 mg/day black cohosh extract, median 40 mg/day"
-      - "Study durations: 8-54 weeks, mean 22.8 weeks"
-      - "Most commonly recommended dose: 40 mg/day"
-      - "Product-recommended daily doses: 40-120 mg/day"
-      - "Standardization: typically to 2.5% triterpene glycosides (1 mg/dose)"
-      - "Commission E recommendation: 40 mg/day of alcohol extracts, not to exceed 6 months"
-      - "Most studies used Remifemin (isopropanolic extract, standardized to 1 mg triterpene glycosides per 20-mg tablet)"
-    standardization: "2.5% triterpene glycosides (typically 1 mg per dose)"
-    typical_dosing: "40 mg/day"
-    max_duration: "6 months (Commission E recommendation)"
-
-  - reference: "Black Cohosh - StatPearls NCBI Bookshelf"
-    url: "https://www.ncbi.nlm.nih.gov/books/NBK470187/"
-    pmid: "29261886"
-    key_findings:
-      - "Dosage comparison study: Remifemin 40 mg vs 127 mg daily for 6 months showed similar safety and efficacy"
-      - "Current recommendation: 40 mg/day based on clinical trials"
-      - "Recent manufacturer information: 20 mg twice daily may be as effective as 40 mg twice daily"
-      - "Standardized extracts generally contain 1 mg terpene glycosides per 20 mg tablet"
-      - "Black cohosh treatment (40 mg/day for 12 weeks) had no effect on spontaneous LH pulsatility or estrogen concentrations"
-
-traditional_pharmacopoeia_monographs:
-  - reference: "WHO Monographs on Selected Medicinal Plants Vol. 2"
-    organization: "World Health Organization (WHO)"
-    year: 2002
-    plant: "Cimicifuga racemosa (black cohosh)"
-    url: "Referenced in academic literature"
-    key_content:
-      - "International standard monograph on black cohosh"
-      - "Used by healthcare practitioners and researchers worldwide"
-      - "Comprehensive assessment of botanical, chemical, and therapeutic properties"
-
-  - reference: "The Complete German Commission E Monographs: Therapeutic Guide to Herbal Medicines"
-    organization: "German Commission E"
-    publisher: "American Botanical Council, Boston, MA"
-    year: 1998
-    plant: "Cimicifuga racemosa"
-    key_content:
-      - "Approved for treatment of premenstrual syndrome and dysmenorrhoea"
-      - "Approved for menopausal symptoms"
-      - "Recommended dosage: 40 mg/day of alcohol extracts"
-      - "Duration: Not to exceed 6 months of use"
-      - "Authoritative German regulatory body for herbal medicines"
-
-  - reference: "Black Cohosh Rhizome, Actaea racemosa L., syn. Cimicifuga racemosa (L.) Nutt.: Standards of Analysis, Quality Control, and Therapeutics"
-    organization: "American Herbal Pharmacopoeia (AHP)"
-    editor: "Upton R"
-    publisher: "American Herbal Pharmacopoeia, Santa Cruz, CA"
-    year: 2002
-    url: "https://herbal-ahp.com/products/black-cohosh-rhizome"
-    availability: "Print and PDF from herbal-ahp.com"
-    key_content:
-      - "Comprehensive resource on known adulterants"
-      - "Botanical, microscopic, and chemical analyses of black cohosh"
-      - "HPTLC method developed by CAMAG for comparing batches against known samples"
-      - "Standards include actein and 27-deoxyactein"
-      - "HP-TLC method for caffeic acid analysis"
-      - "Quality control standards for therapeutic use"
-      - "Addresses adulteration issues in black cohosh products"
-
-  - reference: "Cimicifugae rhizoma - European Medicines Agency (EMA) Herbal Monograph"
-    organization: "European Medicines Agency (EMA)"
-    url: "https://www.ema.europa.eu/en/medicines/herbal/cimicifugae-rhizoma"
-    plant: "Cimicifugae rhizoma (black cohosh rhizome)"
-    key_content:
-      - "European regulatory assessment of black cohosh"
-      - "Herbal medicinal product monograph"
-      - "Standards for traditional and well-established use"
-
-  - reference: "Cimicifugae rhizoma (Black Cohosh) - ESCOP Monograph"
-    organization: "European Scientific Cooperative on Phytotherapy (ESCOP)"
-    url: "https://www.escop.com/downloads/black-cohosh/"
-    plant: "Cimicifugae rhizoma"
-    key_content:
-      - "Scientific assessment of therapeutic use"
-      - "Evidence-based monograph for healthcare professionals"
-      - "European phytotherapy standards"
-
-additional_clinical_studies:
-  - pmid: "22157510"
-    title: "Menopause: a standardized isopropanolic black cohosh extract (remifemin) is found to be safe and effective for menopausal symptoms"
-    authors: "Rostock M, Fischer J, Mumm A, Stammwitz U, Saller R, Bartsch HH"
-    year: 2011
-    journal: "Evid Based Complement Alternat Med"
-    sample_size: "304 postmenopausal women"
-    study_type: "Randomized, double-blind, placebo-controlled, multicenter trial"
-    duration: "12 weeks"
-    key_findings:
-      - "Standardized isopropanolic black cohosh extract (Remifemin) confirmed safe and effective"
-      - "Efficacy particularly for hot flashes"
-      - "Multicenter confirmation of earlier findings"
-    product: "Remifemin"
-
-  - pmid: "19745648"
+  - id: amsterdam2009
     title: "Randomized, double-blind, placebo-controlled trial of Cimicifuga racemosa (black cohosh) in women with anxiety disorder due to menopause"
     authors: "Amsterdam JD, Yao Y, Mao JJ, Soeller I, Rockwell K, Shults J"
     year: 2009
-    journal: "J Clin Psychopharmacol"
-    volume: "29"
-    issue: "5"
-    pages: "478-483"
-    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/19745648/"
-    study_type: "Randomized, double-blind, placebo-controlled trial"
-    sample_size: "28 women (15 black cohosh, 13 placebo)"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19745648/"
+    study_type: "RCT, double-blind, placebo-controlled"
+    sample_size: 28
+    dose: "Pharmaceutical-grade black cohosh extract"
     duration: "Up to 12 weeks"
-    condition: "Anxiety disorder due to menopause"
-    intervention: "Pharmaceutical-grade black cohosh extract vs placebo"
+    indication: "Anxiety disorder due to menopause"
     key_findings:
-      - "Examined black cohosh for menopause-related anxiety"
-      - "Pharmaceutical-grade extract used"
-      - "Small pilot study suggesting potential for anxiety symptoms"
+      - "No statistically significant anxiolytic effect (p = 0.294)"
+      - "No difference in proportion achieving ≥50% anxiety reduction (p = 0.79)"
+      - "Comparable tolerability to placebo"
+      - "3.6% discontinued due to adverse events"
+    limitations: "Small sample size, choice of preparation, dosage"
+    notes: "Negative study for anxiety; does not support anxiolytic use"
 
-notes_on_standardization:
-  - "Most clinical studies use isopropanolic extracts (e.g., Remifemin)"
-  - "Standardization typically to 2.5% triterpene glycosides, equivalent to 1 mg per 20 mg extract"
-  - "Key marker compounds: 23-epi-26-deoxyactein, actein, 27-deoxyactein"
-  - "Ethanolic (alcohol) extracts also used in some studies"
-  - "Adulteration with other Actaea/Cimicifuga species is a known quality control issue"
-  - "American Herbal Pharmacopoeia monograph provides detailed analytical methods for authentication"
+hepatotoxicity_safety_studies:
+  - id: naser2011
+    title: "Suspected black cohosh hepatotoxicity: no evidence by meta-analysis of randomized controlled clinical trials for isopropanolic black cohosh extract"
+    authors: "Naser B, Schnitker J, Minkin MJ, de Arriba SG, Nolte K-U, Osmers R"
+    year: 2011
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21228727/"
+    study_type: "Meta-analysis of RCTs"
+    trials_analyzed: 5
+    sample_size: 1117
+    completed: 1020
+    treatment_duration: "3-6 months"
+    liver_enzymes_measured:
+      - "Aspartate aminotransferase (AST)"
+      - "Alanine aminotransferase (ALT)"
+      - "γ-glutamyltranspeptidase (GGT)"
+    key_findings:
+      - "No significant effects on liver enzymes"
+      - "AST: overall fixed effect 0.055 ± 0.062 (p = 0.37)"
+      - "ALT: overall fixed effect 0.063 ± 0.062 (p = 0.31)"
+      - "No difference between treatment and placebo groups"
+      - "No evidence of hepatotoxicity for isopropanolic extract"
+    notes: "Definitive meta-analysis refuting hepatotoxicity concerns for iCR extract"
 
-clinical_evidence_summary:
-  efficacy:
-    - "Meta-analysis of 43,759 women shows significant benefit for neurovegetative and psychological menopausal symptoms (SMD -0.694, p<0.0001)"
-    - "Effect appears dose-dependent, with higher dosages showing greater efficacy"
-    - "Comparable efficacy to low-dose hormone therapy (estradiol, tibolone) with better safety profile"
-    - "Individual RCTs show mixed results, with high heterogeneity between studies"
-    - "Most consistent benefits for vasomotor symptoms (hot flashes, night sweats)"
-    - "Potential benefits for PCOS-related infertility when combined with clomiphene citrate"
+  - id: nasr2009
+    title: "Influence of black cohosh (Cimicifuga racemosa) use by postmenopausal women on total hepatic perfusion and liver functions"
+    authors: "Nasr A, Nafeh H"
+    year: 2009
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19539907/"
+    study_type: "Prospective longitudinal trial"
+    sample_size: 87
+    dose: "40 mg daily (Klimadynon dry extract)"
+    duration: "12 consecutive months"
+    assessments:
+      - "Total hepatic blood flow (color Doppler ultrasound)"
+      - "Prothrombin time and concentration"
+      - "Serum albumin, bilirubin"
+      - "Gamma-glutamyltransferase, alkaline phosphatase"
+      - "Alanine and aspartate aminotransferase"
+    key_findings:
+      - "No significant changes in hepatic blood flow"
+      - "No changes in any liver function tests"
+      - "Safe for long-term use in healthy postmenopausal women"
+    notes: "Long-term safety study; comprehensive hepatic assessment"
 
-  safety:
-    - "13 clinical trials indicate relative safety"
-    - "Most common side effects: mild, transient gastrointestinal upset and rashes"
-    - "Meta-analysis of 1,117 women: no evidence of hepatotoxicity in controlled trials"
-    - "Case reports of liver injury have problematic causality assessment; contamination suspected in some cases"
-    - "No effects on estrogen-sensitive tissues (breast, endometrium)"
-    - "Commission E recommends not exceeding 6 months of continuous use"
+pharmacokinetics_bioavailability:
+  - id: vanbreemen2010
+    title: "Pharmacokinetics of 23-epi-26-deoxyactein in women after oral administration of a standardized extract of black cohosh"
+    authors: "van Breemen RB, Liang W, Banuvar S, Shulman LP, Pang Y, Tao Y, Nikolic D, Krock KM, Fabricant DS, Chen S-N, Hedayat S, Bolton JL, Pauli GF, Piersen CE, Krause EC, Geller SE, Farnsworth NR"
+    year: 2010
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20032972/"
+    study_type: "Phase I RCT, pharmacokinetic study"
+    sample_size: 15
+    doses_tested:
+      - "1.4 mg 23-epi-26-deoxyactein"
+      - "2.8 mg 23-epi-26-deoxyactein"
+      - "5.6 mg 23-epi-26-deoxyactein"
+    compound: "23-epi-26-deoxyactein (triterpene glycoside)"
+    pk_parameters:
+      cmax: "Increased proportionately with dosage"
+      auc: "Increased proportionately with dosage"
+      half_life: "Approximately 2 hours (all doses)"
+      urinary_excretion: "Less than 0.01% in 24 hours"
+    key_findings:
+      - "Linear dose-proportional pharmacokinetics"
+      - "Short half-life (~2h) suggests multiple daily dosing beneficial"
+      - "Minimal urinary excretion indicates extensive metabolism or tissue distribution"
+      - "No acute toxicity or estrogenic hormone effects observed"
+      - "No phase I or phase II metabolites detected in clinical specimens or in vitro"
+    notes: "Only published PK study for specific black cohosh triterpene; limited metabolic transformation"
 
-  pharmacokinetics:
-    - "Oral bioavailability: peak concentration at 2-2.9 hours, half-life ~2 hours"
-    - "Dose-proportional absorption with saturable elimination at higher doses"
-    - "Minimal urinary excretion (<0.01%), suggesting extensive metabolism"
-    - "No acute estrogenic effects observed in pharmacokinetic studies"
+extract_specific_evidence:
+  - id: beer2013
+    title: "Differentiated Evaluation of Extract-Specific Evidence on Cimicifuga racemosa's Efficacy and Safety for Climacteric Complaints"
+    authors: "Beer A-M, Neff A"
+    year: 2013
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24062793/"
+    study_type: "Review of extract-specific evidence"
+    key_findings:
+      isopropanolic_extract:
+        patients: ">11,000"
+        evidence_level: "1b efficacy, 1a safety"
+        recommendation_grade: "A"
+        description: "Consistent confirmatory evidence"
+      ethanolic_extract_bno1055:
+        patients: ">500"
+        evidence_level: "2b"
+        recommendation_grade: "B"
+        description: "Weaker evidence base"
+      critical_finding: "Only registered CR medicinal products able to prove efficacy"
+    notes: "Emphasizes extract-specific evidence; pharmaceutical quality critical for efficacy"
 
-  standardization_dosing:
-    - "Most studied preparation: Remifemin (isopropanolic extract, 40 mg/day)"
-    - "Typical standardization: 2.5% triterpene glycosides (1 mg per 20 mg extract)"
-    - "Clinical dose range: 8-160 mg/day (median and most common: 40 mg/day)"
-    - "Study durations: 8-54 weeks (mean: 22.8 weeks)"
-    - "Higher doses show greater efficacy in meta-analysis"
+monographs_regulatory:
+  - id: who2002
+    title: "WHO Monographs on Selected Medicinal Plants, Volume 2 - Rhizoma Cimicifugae racemosae"
+    organization: "World Health Organization"
+    year: 2002
+    location: "Geneva, Switzerland"
+    notes: "WHO official monograph on black cohosh rhizome"
 
-# Sources and web links
-sources:
-  - "[Review & meta-analysis: isopropanolic black cohosh extract iCR for menopausal symptoms - PubMed](https://pubmed.ncbi.nlm.nih.gov/33021111/)"
-  - "[Full article: Review & meta-analysis isopropanolic black cohosh extract](https://www.tandfonline.com/doi/full/10.1080/13697137.2020.1820477)"
-  - "[Black cohosh for menopausal symptoms: systematic review - PubMed](https://pubmed.ncbi.nlm.nih.gov/18585461/)"
-  - "[Black cohosh: systematic review of adverse events - PubMed](https://pubmed.ncbi.nlm.nih.gov/18984078/)"
-  - "[Systematic Review of Black Cohosh for PCOS - PubMed](https://pubmed.ncbi.nlm.nih.gov/33926292/)"
-  - "[Black cohosh and St. John's wort randomized trial - PubMed](https://pubmed.ncbi.nlm.nih.gov/16449108/)"
-  - "[Pharmacokinetics of 23-epi-26-deoxyactein - PubMed](https://pubmed.ncbi.nlm.nih.gov/20032972/)"
-  - "[Black cohosh hepatotoxicity meta-analysis - PubMed](https://pubmed.ncbi.nlm.nih.gov/21228727/)"
-  - "[NIH Black Cohosh Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/BlackCohosh-HealthProfessional/)"
-  - "[Black Cohosh - StatPearls NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK470187/)"
-  - "[Black Cohosh - LiverTox NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK547990/)"
-  - "[American Herbal Pharmacopoeia - Black Cohosh Rhizome](https://herbal-ahp.com/products/black-cohosh-rhizome)"
-  - "[European Medicines Agency - Cimicifugae rhizoma](https://www.ema.europa.eu/en/medicines/herbal/cimicifugae-rhizoma)"
-  - "[ESCOP - Black Cohosh Monograph](https://www.escop.com/downloads/black-cohosh/)"
+  - id: commission_e
+    title: "The Complete German Commission E Monographs – Therapeutic Guide to Herbal Medicines"
+    organization: "German Federal Institute for Drugs and Medical Devices"
+    publisher: "American Botanical Council"
+    year: 1998
+    location: "Austin, TX"
+    approved_indications:
+      - "Premenstrual discomfort"
+      - "Dysmenorrhea"
+      - "Climacteric (menopausal) neurovegetative ailments"
+    recommended_dose: "40 mg/day alcohol extracts"
+    maximum_duration: "6 months"
+    notes: "Authoritative German regulatory approval for menopausal use"
+
+  - id: usp_monograph
+    title: "United States Pharmacopeia - Black Cohosh"
+    organization: "United States Pharmacopeia"
+    source: "USP-NF (United States Pharmacopeia-National Formulary)"
+    url: "https://doi.usp.org/USPNF/USPNF_M9820_01_01.html"
+    definition: "Dried rhizome and roots of Actaea racemosa L. [Cimicifuga racemosa (L.) Nutt.] (Ranunculaceae)"
+    standardization: "NLT 0.4% triterpene glycosides, calculated as 23-epi-26-deoxyactein (C37H56O10) on dried basis"
+    harvest_time: "Summer"
+    safety_label: "Discontinue use and consult healthcare practitioner if you have liver disorder or develop symptoms of liver trouble (abdominal pain, dark urine, jaundice)"
+    historical_note: "Official entries in USP until 1926"
+    pubmed_safety_review: "https://pubmed.ncbi.nlm.nih.gov/18340277/"
+    notes: "Current USP monograph includes liver cautionary statement based on case reports"
+
+  - id: british_herbal_compendium
+    title: "British Herbal Compendium - Black Cohosh"
+    organization: "British Herbal Medicine Association"
+    recommended_dose: "40-200 mg dried herb daily, divided into multiple doses"
+    notes: "Traditional British pharmacopoeia entry"
+
+dosing_summary:
+  standardized_extracts:
+    isopropanolic_extract:
+      typical_dose: "40 mg daily"
+      studied_range: "40-80 mg daily"
+      evidence_quality: "High (>11,000 patients)"
+    ethanolic_extract:
+      typical_dose: "40 mg daily"
+      studied_range: "40-160 mg daily"
+      evidence_quality: "Moderate (>500 patients)"
+    ze450_extract:
+      low_dose: "6.5 mg (effective, p = 0.0003)"
+      high_dose: "13.0 mg (more effective, p < 0.0001)"
+      note: "Demonstrates dose-response relationship"
+  triterpene_standardization: "0.4% minimum (USP); 4 mg triterpenes in 160 mg extract (some studies)"
+  duration_studied: "Up to 12 months in safety studies; typically 12 weeks in efficacy studies"
+  maximum_recommended: "6 months continuous use (Commission E)"
+
+key_safety_findings:
+  controlled_trials:
+    - "No hepatotoxicity in meta-analysis of 5 RCTs (n=1,020)"
+    - "12-month use showed no liver function changes (n=87)"
+    - "Adverse event rates comparable to placebo"
+    - "No weight gain causation (31 trials, n=1,839)"
+    - "No effect on endometrial thickness"
+    - "Reduces uterine fibroid volume (-30%)"
+  case_reports:
+    - "Case reports of hepatotoxicity exist but causality attribution problematic"
+    - "69 suspected hepatotoxicity cases: 68/69 had excluded, unlikely, or unassessable causality"
+  cardiovascular:
+    - "Improves endothelial function and arterial elasticity"
+    - "Increases HDL-cholesterol"
+    - "Decreases LDL-cholesterol"
+
+efficacy_summary:
+  effective_for:
+    - "Overall menopausal symptoms (26-57.5% improvement, extract-dependent)"
+    - "Hot flashes (moderate effect, g = 0.315)"
+    - "Somatic symptoms (g = 0.418)"
+    - "Vasomotor symptoms (multiple positive RCTs)"
+    - "Comparable to low-dose estradiol for hot flashes"
+  not_effective_for:
+    - "Anxiety symptoms (multiple negative RCTs)"
+    - "Depression symptoms (meta-analysis: p = 0.131)"
+  mixed_evidence:
+    - "Overall efficacy varies by extract type and standardization"
+    - "Beneficial effects more consistent in perimenopausal vs postmenopausal women"
+    - "Higher baseline symptom severity shows better response"
+
+mechanisms:
+  proposed:
+    - "Not estrogenic (no effect on reproductive tissues)"
+    - "Triterpene glycosides as active constituents"
+    - "Possible serotonergic activity"
+    - "Endothelial function modulation"
+    - "Anti-proliferative effect on uterine fibroids"
+  compounds_studied:
+    - "23-epi-26-deoxyactein (primary triterpene marker)"
+    - "Triterpene glycoside complex"
+
+extract_standardization_importance:
+  - "Isopropanolic extract (iCR) has strongest evidence base"
+  - "Ethanolic extracts show variable efficacy"
+  - "Only registered medicinal products with pharmaceutical quality demonstrate consistent efficacy"
+  - "Significant heterogeneity in meta-analyses reflects extract differences"
+  - "No universally accepted triterpene standardization method"
+
+research_gaps:
+  - "Comprehensive bioavailability studies lacking"
+  - "Tissue distribution unknown"
+  - "Mechanism of action incompletely understood"
+  - "Long-term safety beyond 12 months not well studied"
+  - "Optimal dosing and duration need refinement"
+  - "Population-specific responses (ethnicity) require investigation"
+
+clinical_bottom_line:
+  - "Isopropanolic extract (40-80 mg daily) has strongest evidence for menopausal symptoms"
+  - "Effect size moderate for vasomotor symptoms, stronger for overall menopausal symptom burden"
+  - "Safety profile favorable in controlled trials; hepatotoxicity case reports not supported by trial data"
+  - "Not effective for anxiety or depression"
+  - "Extract quality and standardization critical for efficacy"
+  - "Duration: typically 12 weeks to assess response; up to 12 months studied for safety"

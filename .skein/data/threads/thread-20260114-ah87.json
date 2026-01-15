@@ -1,0 +1,10 @@
+{
+  "thread_id": "thread-20260114-ah87",
+  "from_id": "8315017c",
+  "to_id": "8315017c",
+  "type": "tag",
+  "content": "{\"tag\": \"shard\", \"shard_id\": \"shard-8315017c-20260114-001\", \"worktree_name\": \"8315017c-20260114-001\", \"worktree_path\": \"/home/patrick/projects/folkprotocol/worktrees/8315017c-20260114-001\", \"branch_name\": \"shard-8315017c-20260114-001\", \"status\": \"spawned\", \"description\": \"Spindle spool for 8315017c\"}",
+  "weaver": null,
+  "created_at": "2026-01-14T18:28:40.841414",
+  "read_at": null
+}

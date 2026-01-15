@@ -1,0 +1,1044 @@
+---
+# PMS Protocol Bibliography
+# Compiled from systematic reviews, clinical trials, and mechanism studies
+# Focus: comparative effectiveness, combination formulas, symptom-specific treatments
+
+meta:
+  protocol_name: PMS Protocol
+  indication: Premenstrual syndrome (PMS) and premenstrual dysphoric disorder (PMDD)
+  compiled_date: 2026-01-15
+  search_focus:
+    - Systematic reviews on herbal treatments for PMS
+    - Head-to-head trials comparing herbs for PMS
+    - Traditional formulas used for PMS
+    - Mechanism studies (hormonal, neurotransmitter pathways)
+    - Comparative effectiveness
+    - Combination formulas
+    - Symptom-specific treatments
+
+systematic_reviews_meta_analyses:
+  - id: herbal_nutritional_pms_2022
+    title: "A Systematic Review and Meta-Analysis of Premenstrual Syndrome with Special Emphasis on Herbal Medicine and Nutritional Supplements"
+    journal: Pharmaceuticals
+    year: 2022
+    volume: 15
+    issue: 11
+    pubmed_id: "36355543"
+    study_type: systematic_review_meta_analysis
+    database_search_period: "Screened 754 articles"
+    trials_included: 15
+    sample_size: 1211
+    key_findings:
+      overall_effect: "Herbal medicine and nutritional supplements may be effective and safe for PMS"
+      symptom_reduction: "Reduced symptom scores with substantial heterogeneity"
+      most_studied_herb: "Vitex agnus castus (4 trials, ~500 women)"
+      vitex_effectiveness: "Consistently ameliorated PMS better than placebo"
+      other_effective_herbs:
+        - "Ginkgo biloba (single trial)"
+        - "Crocus sativus/saffron (single trial)"
+      adverse_events: "Mild adverse events reported by 4 RCTs"
+      safety: "None of the herbs associated with major health risks"
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9699062/"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/36355543/"
+    url: "https://www.mdpi.com/1424-8247/15/11/1371"
+
+  - id: herbal_treatments_systematic_2011
+    title: "Herbal treatments for alleviating premenstrual symptoms: A systematic review"
+    journal: Journal of Psychosomatic Obstetrics & Gynecology
+    year: 2011
+    pubmed_id: "21171936"
+    study_type: systematic_review
+    key_findings:
+      effective_herbs:
+        - "Vitex agnus-castus"
+        - "Hypericum perforatum (St. John's wort)"
+        - "Matricaria chamomilla (Chamomile)"
+        - "Crocus sativus (Saffron)"
+        - "Curcumin"
+        - "Melissa officinalis (Lemon balm)"
+        - "Zataria multiflora"
+        - "Wheat Germ Extract"
+        - "Echinophora platyloba"
+        - "Foeniculum vulgare (Fennel)"
+        - "Valerian root extract"
+        - "Citrus sinensis"
+        - "Zingiber (Ginger)"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/21171936/"
+    researchgate_url: "https://www.researchgate.net/publication/49696440_Herbal_treatments_for_alleviating_premenstrual_symptoms_A_systematic_review"
+
+  - id: traditional_herbal_interventions_2024
+    title: "Traditional herbal interventions for premenstrual syndrome management: A comprehensive literature review"
+    journal: International Journal of Chemical and Biochemical Sciences
+    year: 2024
+    study_type: comprehensive_literature_review
+    researchgate_url: "https://www.researchgate.net/publication/378736891_Traditional_herbal_interventions_for_premenstrual_syndrome_management_A_comprehensive_literature_review"
+
+  - id: iranian_herbal_pms_2018
+    title: "The effectiveness and safety of Iranian herbal medicines for treatment of premenstrual syndrome: A systematic review"
+    journal: Avicenna Journal of Phytomedicine
+    year: 2018
+    study_type: systematic_review
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5885324/"
+
+  - id: dietary_supplements_pms_2006
+    title: "Dietary supplements and herbal remedies for premenstrual syndrome (PMS): a systematic research review of the evidence for their efficacy"
+    authors:
+      - Stevinson, Clare
+      - Ernst, Edzard
+    journal: Journal of Reproductive and Infant Psychology
+    year: 2006
+    volume: 24
+    issue: 4
+    study_type: systematic_review
+    ncbi_url: "https://www.ncbi.nlm.nih.gov/books/NBK72353/"
+    tandfonline_url: "https://www.tandfonline.com/doi/abs/10.1080/02646830600974170"
+
+traditional_formulas:
+  - id: jia_wei_xiao_yao_san
+    name: "Jia-Wei-Xiao-Yao-San (JWXYS)"
+    traditional_name:
+      chinese: "加味逍遥散"
+      pinyin: "Jia Wei Xiao Yao San"
+    status: "Most commonly prescribed Chinese herbal formula for PMS"
+    prevalence: "37.5% of all PMS prescriptions in Taiwan study"
+    prescribing_pattern: "Core of prescription network for PMS"
+    composition:
+      - name: "Chai Hu"
+        species: "Bupleurum chinense"
+        common_name: "Bupleurum root"
+      - name: "Dang Gui"
+        species: "Angelica sinensis"
+        common_name: "Chinese Angelica root"
+      - name: "Bai Shao"
+        species: "Paeonia lactiflora"
+        common_name: "White Peony root"
+      - name: "Bai Zhu"
+        species: "Atractylodes macrocephala"
+        common_name: "Atractylodes rhizome"
+      - name: "Fu Ling"
+        species: "Poria cocos"
+        common_name: "Poria fungus"
+      - name: "Gan Cao"
+        species: "Glycyrrhiza uralensis"
+        common_name: "Licorice root"
+      - name: "Mu Dan Pi"
+        species: "Paeonia suffruticosa"
+        common_name: "Moutan bark"
+      - name: "Zhi Zi"
+        species: "Gardenia jasminoides"
+        common_name: "Gardenia fruit"
+    common_two_herb_combinations:
+      - combination: "JWXYS + Cyperus rotundus L."
+        prevalence: "7.7% of all prescriptions"
+      - combination: "JWXYS + Leonurus heterophyllus Sweet"
+        prevalence: "5.9%"
+      - combination: "Cyperus rotundus L. + Leonurus heterophyllus Sweet"
+        prevalence: "5.6%"
+    tcm_theory: "Addresses liver's failure to discharge and store blood, liver-spleen disharmony"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4099402/"
+      - biomedcentral_url: "https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/1472-6882-14-206"
+
+  - id: chaihu_shugan_powder
+    name: "Chaihu Shugan Powder (CSP)"
+    traditional_name:
+      chinese: "柴胡疏肝散"
+      pinyin: "Chai Hu Shu Gan San"
+    status: "Representative traditional Chinese medicine formula for PMS"
+    traditional_use: "Liver detoxification and depression alleviation"
+    components: "7 traditional Chinese medicine herbs"
+    key_findings:
+      - "Widely used formula for treating PMS"
+      - "Active ingredients and pharmacological mechanisms systematically studied"
+      - "Effective for depression associated with PMS and menopause"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11460882/"
+      - pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39465719/"
+
+  - id: chinese_herbal_combination_clinical
+    title: "A controlled trial of Chinese herbal medicine for premenstrual syndrome"
+    study_type: randomized_controlled_trial
+    duration: "3 months"
+    key_findings:
+      physical_symptoms: "Significant differences (p < 0.01) favoring herbal medicine"
+      psychological_symptoms: "Significant differences (p < 0.01) favoring herbal medicine"
+      depression: "Significantly improved"
+      anxiety: "Significantly improved"
+      anger: "Significantly improved"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18608825/"
+
+head_to_head_comparisons:
+  - id: vitex_vs_fluoxetine_atmaca_2002
+    title: "Vitex agnus castus versus fluoxetine for PMDD"
+    study: "Atmaca et al, 2002"
+    study_type: randomized_controlled_trial
+    sample_size: 41
+    condition: "PMDD"
+    duration: "2 months"
+    comparison:
+      intervention: "Vitex agnus castus"
+      comparator: "Fluoxetine (SSRI)"
+    key_findings:
+      fluoxetine_effect: "Helped psychological symptoms"
+      vitex_effect: "Reduced physical symptoms"
+      conclusion: "Different symptom profiles for each treatment"
+
+  - id: vitex_vs_fluoxetine_general
+    title: "Vitex agnus-castus compared to fluoxetine and vitamin B6"
+    study_type: controlled_comparative_trials
+    number_of_trials: 2
+    key_findings:
+      vs_fluoxetine: "Chasteberry showed equivalent efficacy to fluoxetine"
+      vs_vitamin_b6: "Chasteberry showed equivalent efficacy to vitamin B6"
+      note: "Vitamin B6 is not considered a proven remedy for PMS, so equal effectiveness less meaningful"
+
+  - id: vitex_meta_analysis_2019
+    title: "Vitex agnus-castus in premenstrual syndrome: A meta-analysis of double-blind randomised controlled trials"
+    authors:
+      - Cerqueira, Rafael O
+      - Frey, Benicio N
+      - Leclerc, Erika
+      - Brietzke, Elisa
+    journal: Phytomedicine
+    year: 2019
+    pubmed_id: "31780016"
+    study_type: meta_analysis
+    design: double_blind_randomized_controlled_trials
+    key_findings:
+      efficacy: "Women taking VAC 2.57 (95% CI 1.52-4.35) times more likely to experience symptom remission vs placebo"
+      positive_studies: "13 of 14 studies reported positive effects on total premenstrual symptoms"
+      comparators: "Compared to placebo, dietary supplements, or active comparators (oral contraceptives, SSRIs)"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31780016/"
+    sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S0965229919306053"
+
+individual_herbs_mechanisms:
+  vitex_agnus_castus:
+    species: "Vitex agnus-castus"
+    common_names:
+      - "Chasteberry"
+      - "Chaste tree berry"
+    active_compounds:
+      primary: "Dopaminergic compounds"
+    mechanism_of_action:
+      hormonal:
+        primary_action: "Modulates stress-induced prolactin secretion via dopaminergic actions"
+        prolactin_effect: "Decreases prolactin levels"
+        downstream_effects:
+          - "Reversal of LH suppression"
+          - "Full development of corpus luteum"
+          - "Increased progesterone levels"
+          - "Reduced PMS symptoms"
+        fsh_lh_effects: "Reduces FSH, increases LH"
+        estrogen_progesterone: "Decreased estrogen, increased progesterone"
+        hyperfolliculinism: "Reduces synthesis of FSH and estrogen (one cause of PMS)"
+      receptor_interactions:
+        - "μ (mu)-opioid receptors"
+        - "δ (delta)-opioid receptors"
+        - "Dopamine receptors"
+    clinical_applications:
+      breast_pain: "Dopaminergic compounds improve premenstrual mastodynia"
+      general_pms: "Possibly improves other PMS symptoms"
+    evidence_quality: "Most studied herb for PMS, 4 trials with ~500 women"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494412/"
+      - drugbank_url: "https://go.drugbank.com/drugs/DB13193"
+
+  saffron:
+    species: "Crocus sativus"
+    common_name: "Saffron"
+    active_compounds:
+      primary:
+        - "Crocin"
+        - "Picrocrocin"
+        - "Safranal"
+    mechanism_of_action:
+      neurotransmitter_modulation:
+        - "Inhibition of dopamine reuptake"
+        - "Inhibition of norepinephrine reuptake"
+        - "Inhibition of serotonin reuptake"
+      hormonal:
+        - "Increased cortisol levels (saffron odor exposure)"
+        - "Decreased 17-β estradiol levels"
+        - "Reduced anxiety scores in both follicular and luteal phases"
+      antioxidant:
+        - "Strong antioxidant properties"
+        - "Crocin, crocetin, and safranal as main active ingredients"
+    clinical_trials:
+      agha_hosseini_2008:
+        design: "Double-blind, randomized, placebo-controlled"
+        dose: "30 mg/day (15 mg twice daily)"
+        duration: "Two menstrual cycles"
+        outcomes:
+          - "Significant differences in Total Premenstrual Daily Symptoms"
+          - "Significant differences in Hamilton Depression Rating Scale"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18271889/"
+      student_study:
+        sample_size: 78
+        dose: "30 mg dried saffron extract once daily"
+        statistical_significance: "P < 0.001 compared to placebo"
+        sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S187638201530010X"
+      pmdd_study:
+        sample_size: 120
+        condition: "PMDD"
+        comparison: "Saffron vs fluoxetine vs placebo"
+        outcomes:
+          - "Saffron significantly reduced symptom severity vs placebo"
+          - "Saffron as effective as fluoxetine in improving PMDD symptoms"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792881/"
+    sources:
+      - researchgate_url: "https://www.researchgate.net/publication/300379660_Crocus_sativus_L_saffron_in_the_treatment_of_premenstrual_syndrome_a_double_blind_randomized_and_placebo_controlled_trial"
+
+  st_johns_wort:
+    species: "Hypericum perforatum"
+    common_name: "St. John's wort"
+    standardization:
+      hypericin: "0.18%"
+      hyperforin: "3.38%"
+    clinical_trials:
+      hicks_2010:
+        title: "The efficacy of Hypericum perforatum (St John's wort) for the treatment of premenstrual syndrome"
+        design: "Randomized, double-blind, placebo-controlled, crossover"
+        sample_size: 36
+        age_range: "18-45 years"
+        condition: "Mild PMS"
+        dose: "900 mg/day"
+        duration: "Two menstrual cycles per treatment"
+        study_period: "November 2005 - June 2007"
+        key_findings:
+          mood_pain_symptoms: "No significant effects vs placebo"
+          anxiety: "No significant difference"
+          depression: "No significant difference"
+          aggression: "No significant difference"
+          impulsivity: "No significant difference"
+          physical_symptoms: "Statistically superior to placebo"
+          behavioral_symptoms: "Improved vs placebo"
+        conclusion: "Superior for physical symptoms but not for depressive, anxiety, or irritability symptoms"
+        clinical_recommendation: "SSRIs better first-line option for PMDD"
+        trial_registration: "ISRCTN31487459"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20155996/"
+        sources:
+          - springer_url: "https://link.springer.com/article/10.2165/11530120-000000000-00000"
+          - researchgate_url: "https://www.researchgate.net/publication/41434442_The_Efficacy_of_Hypericum_perforatum_St_John's_Wort_for_the_Treatment_of_Premenstrual_Syndrome"
+
+  ginkgo_biloba:
+    species: "Ginkgo biloba"
+    extract: "EGb 761 (standardized extract)"
+    clinical_trials:
+      ozgoli_2009:
+        title: "A randomized, placebo-controlled trial of Ginkgo biloba L. in treatment of premenstrual syndrome"
+        design: "Single-blind, randomized, placebo-controlled"
+        population: "Students with PMS in medical university dormitories, Tehran"
+        study_period: "November 2007 - April 2008"
+        dose: "40 mg leaf extract tablets, three times daily"
+        timing: "From 16th day of menstrual cycle to 5th day of next cycle"
+        key_findings:
+          symptom_reduction: "Mean decrease in symptom severity significantly more in Ginkgo group (p < 0.001)"
+          congestive_symptoms: "Particularly effective for reducing congestive symptoms"
+          breast_pain: "Effective for breast pain/tenderness"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19678774/"
+      tamborini_taurelle_1993:
+        title: "Value of standardized Ginkgo biloba extract (EGb 761) in the management of congestive symptoms of premenstrual syndrome"
+        design: "Controlled multicentric double-blind study versus placebo"
+        sample_size: 165
+        age_range: "18-45 years"
+        key_findings:
+          acceptability: "Good"
+          breast_symptoms: "Statistical significance between EGb 761 and placebo"
+          congestive_symptoms: "Effective against congestive symptoms of PMS"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/8235261/"
+    mechanism:
+      primary_effect: "Effective for congestive symptoms including mastalgia"
+    sources:
+      - researchgate_url: "https://www.researchgate.net/publication/26740095_A_Randomized_Placebo-Controlled_Trial_of_Ginkgo_biloba_L_in_Treatment_of_Premenstrual_Syndrome"
+
+  fennel:
+    species: "Foeniculum vulgare"
+    common_name: "Fennel"
+    clinical_trials:
+      meta_analysis_2020:
+        title: "Fennel for Reducing Pain in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+        trials_included: 12
+        key_findings:
+          dysmenorrhea: "Decreased intensity significantly vs placebo (SMD -0.632; CI: -0.827 to -0.436; p<0.001)"
+          vs_conventional_drugs: "Effect similar to conventional therapies (n=502, SMD: 0.07, 95% CI: -0.08 to 0.21)"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7697926/"
+      primary_dysmenorrhea_study:
+        design: "Placebo-controlled trial"
+        sample_size: 50
+        intervention: "30 mg fennel extract capsules"
+        placebo: "Wheat flour capsules"
+        duration: "Two consecutive menstrual cycles"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3611645/"
+      student_study:
+        sample_size: 80
+        dose: "30 mg fennel soft capsule every 4 hours"
+        timing: "3 days before menstruation until 5th day"
+        duration: "3 months"
+        outcomes:
+          pelvic_pain: "P < 0.001"
+          lethargy: "P < 0.0001"
+          depression: "P < 0.05"
+        sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S1083318813003513"
+    efficacy_evidence:
+      pms_symptoms: "Confirmed for management of dysmenorrhea and PMS"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6487283/"
+
+  valerian:
+    species: "Valeriana officinalis"
+    common_name: "Valerian root"
+    active_compounds:
+      primary: "Valrnik acid"
+    mechanism_of_action:
+      gabaergic:
+        - "Inhibits GABA catabolizing enzymes"
+        - "Increases GABA concentration in brain"
+        - "Increased GABA decreases neuronal irritability"
+        - "Reduces anxiety"
+        - "Decreases sleep onset time"
+        - "Improves sleep disorder"
+        - "Avoids frequent waking during sleep"
+        - "Improves quality of sleep"
+    clinical_trials:
+      double_blind_2016:
+        title: "The effect of Valerian root extract on the severity of pre menstrual syndrome symptoms"
+        design: "Double-blind clinical trial"
+        sample_size: 100
+        population: "Female students with PMS"
+        dose: "2 pills daily"
+        timing: "Last seven days of menstrual cycle"
+        duration: "3 cycles"
+        key_findings:
+          emotional_symptoms: "Significant difference before and after intervention (P < 0.001)"
+          behavioral_symptoms: "Significant difference (P < 0.001)"
+          physical_symptoms: "Significant difference (P < 0.001)"
+        conclusion: "May reduce emotional, physical, and behavioral symptoms of PMS"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27419099/"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4936757/"
+    dosage:
+      clinical_trials: "300-600 mg daily for up to 6 weeks"
+    safety: "Generally safe for short-term use"
+    sources:
+      - researchgate_url: "https://www.researchgate.net/publication/291387804_The_effect_of_Valerian_root_extract_on_the_severity_of_pre_menstrual_syndrome_symptoms"
+
+  curcumin:
+    species: "Curcuma longa"
+    common_name: "Turmeric"
+    active_compound: "Curcumin"
+    clinical_trials:
+      randomized_trials: "10 RCTs evaluated effectiveness"
+      positive_results: "6 of 10 trials reported significant decrease in PMS and dysmenorrhea symptoms"
+      key_study:
+        design: "Randomized, double-blind, placebo-controlled"
+        dose: "500 mg curcuminoid + piperine, or placebo, daily"
+        timing: "From 7 days before until 3 days after menstruation"
+        duration: "Three consecutive menstrual cycles"
+        outcomes:
+          mood_symptoms: "Significant reductions vs placebo"
+          behavioral_symptoms: "Significant reductions"
+          physical_symptoms: "Significant reductions"
+    mechanism_of_action:
+      anti_inflammatory:
+        - "Modulation of neurotransmitters"
+        - "Anti-inflammatory effects"
+        - "Antioxidant properties"
+        - "Analgesic properties"
+      inflammatory_markers:
+        affected:
+          - "Nitric oxide metabolites (NOx)"
+          - "BDNF"
+          - "IgE"
+          - "IL-10"
+          - "IL-12"
+          - "hs-CRP"
+          - "Vitamin D status"
+        nox_correlation: "Significant correlation between PMS pain reduction and NOx decrease"
+    sources:
+      - pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34708460/"
+      - pubmed_url2: "https://pubmed.ncbi.nlm.nih.gov/26051565/"
+      - sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S096522991500059X"
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12639325/"
+      - pmc_url2: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10315327/"
+      - pmc_url3: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10973707/"
+
+  lemon_balm:
+    species: "Melissa officinalis"
+    common_name: "Lemon balm"
+    mechanism_of_action:
+      gabaergic:
+        - "Increases GABA concentration via GABA neurotransmitters"
+        - "Reduces neurological symptoms of PMS"
+    clinical_trials:
+      rct_pms:
+        design: "Randomized controlled trial"
+        dose: "1200 mg M. officinalis essence daily"
+        timing: "First to last day of menstrual cycle"
+        duration: "Three consecutive cycles"
+        key_findings:
+          first_month: "Mean score decrease of -55.5 points"
+          second_month: "Mean score decrease of -57.3 points"
+          significance: "Significantly reduced PMS symptoms vs placebo"
+      adolescent_study:
+        sample_size: 200
+        population: "Adolescent females up to age 18"
+        dose: "1200 mg lemon balm daily"
+        duration: "Three consecutive menstrual cycles"
+        outcomes:
+          insomnia: "Significantly decreased"
+          anxiety: "Significantly decreased"
+          depression: "Significantly decreased"
+          social_dysfunction: "Significantly decreased"
+      meta_analysis:
+        key_findings:
+          anxiety: "SMD: -0.98; 95% CI: -1.63 to -0.33; p = 0.003"
+          depression: "SMD: -0.47; 95% CI: -0.73 to -0.21; p = 0.0005"
+          serious_side_effects: "None reported"
+    sources:
+      - sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S2210803316300562"
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510126/"
+      - pmc_url2: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4557408/"
+
+  dong_quai:
+    species: "Angelica sinensis"
+    common_name: "Dong quai"
+    traditional_use: ">2000 years in traditional Chinese medicine"
+    clinical_trials:
+      menstrual_cramps_2004:
+        design: "Clinical study"
+        dose: "Concentrated dose twice daily"
+        improvement_rate: "39% reported improvement in abdominal pain"
+        outcome: "Normalizing of menstrual cycle"
+        limitation: "Results too similar to control group to conclude direct effect"
+      perimenopausal_rcts:
+        trials: 3
+        conditions:
+          - "Perimenopausal symptoms"
+          - "Menstrual migraine"
+        vasomotor_reduction: "20-35% of patients in several studies"
+        menstrual_migraine: "56% reduction in menstrually associated migraine attacks"
+        negative_results: "One study failed to show significant difference vs placebo"
+      menopausal_double_blind:
+        design: "Double-blind, placebo-controlled"
+        estrogenic_activity: "No estrogenic responses in endometrial thickness or vaginal maturation"
+        menopausal_symptoms: "No more helpful than placebo"
+    mechanism:
+      phytoestrogen_status: "Does not qualify as phytoestrogen"
+      hormone_like_actions: "Does not appear to have hormone-like actions"
+    research_status: "Limited and inconsistent clinical evidence despite long traditional use"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2811999/"
+      - pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/9418683/"
+
+  peony:
+    species: "Paeonia lactiflora"
+    common_name: "White peony"
+    mechanism_of_action:
+      hormonal:
+        - "Supports aromatase enzyme (converts testosterone to estradiol)"
+        - "Lowers total testosterone production"
+        - "Increases progesterone"
+        - "Lowers prolactin"
+      dopaminergic:
+        - "Increases dopamine D2 receptors (when combined with licorice)"
+        - "Reduces antipsychotic-induced hyperprolactinemia"
+    clinical_trials:
+      peony_licorice_prolactin:
+        title: "Peony-glycyrrhiza decoction for antipsychotic-related hyperprolactinemia"
+        design: "Randomized controlled trial"
+        population: "Women with schizophrenia"
+        comparison: "Peony-licorice decoction vs bromocriptine"
+        key_findings:
+          prolactin_reduction: "21-28% from baseline at 4 and 8 weeks"
+          both_treatments: "Effective"
+      pcos_rct:
+        title: "Combined lifestyle and herbal medicine in overweight women with PCOS"
+        design: "Randomized controlled trial"
+      pcos_combination:
+        combination: "Paeonia lactiflora + Glycyrrhiza glabra extract"
+        outcomes:
+          - "Normalized menstrual cycles"
+          - "Improved hormonal balance in PCOS patients"
+      ovulation_study:
+        paeonia_glycyrrhiza: "Improved ovulation induction"
+        paeonia_alone: "Increased both estradiol and progesterone"
+    applications: "Powerful treatment for women with PCOS and hormonal imbalances"
+    sources:
+      - naturobest_url: "https://naturobest.com/blogs/fertility-preconception/2-renowned-herbs-for-pcos"
+      - pcosfertility_url: "https://pcosfertilitynutrition.com/peony-and-pcos-could-this-be-the-missing-link-to-help-you-ovulate/"
+
+  passionflower:
+    species: "Passiflora incarnata"
+    common_name: "Passionflower"
+    active_compounds:
+      - "Flavonoids (chrysin, homoorientin, orientin, vitexin, isovitexin)"
+      - "Oleamide (CB1 receptor affinity)"
+      - "GABA"
+    mechanism_of_action:
+      gabaergic:
+        - "Inhibits binding to both GABAA and GABAB receptors"
+        - "Inhibits GABA uptake into rat cortical synaptosomes"
+        - "Elicits GABA currents in hippocampal neurons in vitro"
+        - "Binds to GABA-site of GABAA receptor (flumazenil attenuates effects)"
+        - "Positive modulation of GABAA receptors by flavonoids"
+      other_mechanisms:
+        - "Involvement of adenosine receptors"
+        - "Oleamide with CB1 receptor affinity (cannabimimetic pathways)"
+        - "Modulates opioidergic and nicotinic cholinergic systems"
+        - "Modulates monoaminergic pathways (dopamine, norepinephrine, serotonin)"
+        - "Modulates glutamate system"
+    clinical_trials:
+      anxiety_trials:
+        effectiveness: "Majority of studies reported reduced anxiety levels"
+        note: "Effect less evident in people with mild anxiety"
+      passionflower_vs_oxazepam:
+        design: "Pilot double-blind randomized controlled trial"
+        condition: "Generalized anxiety disorder"
+        key_findings: "Passionflower extract and oxazepam equally effective, no significant difference"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11679026/"
+      stress_sleep_study:
+        outcomes:
+          stress: "Statistically significant reduction on Perceived Stress Scale"
+          psychological_health: "Significantly improved vs placebo"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026993/"
+    pms_pmdd_use: "Used as remedy for painful menstruation, but specific PMS/PMDD trials not found"
+    primary_applications: "Anxiety, sleep disorders, stress management"
+    sources:
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7766837/"
+      - mdpi_url: "https://www.mdpi.com/2673-6411/5/3/21"
+      - pmc_url2: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2941540/"
+
+  bupleurum:
+    species: "Bupleurum chinense"
+    traditional_name:
+      chinese: "柴胡"
+      pinyin: "Chai Hu"
+    common_name: "Bupleurum root"
+    tcm_status: "King Herb for relieving Liver Qi Stagnation"
+    traditional_functions:
+      - "Soothes the liver"
+      - "Promotes smooth flow of Qi (energy)"
+      - "Alleviates symptoms related to liver stagnation"
+    liver_qi_stagnation_symptoms:
+      - "Rib or side pain"
+      - "Emotional depression"
+      - "Frequent sighing"
+      - "Irregular periods"
+      - "Breast tenderness"
+    clinical_applications:
+      pms_depression: "Especially effective for depression during PMS and menopause"
+      menstrual_irregularities: "Commonly treated with Chai Hu formulations when associated with stress and liver Qi stagnation"
+    common_formulas:
+      - name: "Chai Hu Shu Gan San"
+        indications: "PMS-related depression, stress, tension headaches, menstrual pain"
+      - name: "Xiao Yao San"
+        functions:
+          - "Soothes liver, relieves depression"
+          - "Nourishes blood, strengthens spleen"
+        treats: "Liver stagnation, blood deficiency, spleen weakness"
+        symptoms: "Irregular periods, breast tenderness"
+    mechanism:
+      autophagy: "Chaihu-induced autophagy may relieve liver disease through anti-inflammatory, organ-protective, and aggregate removal functions"
+      tcm_correlation: "Related to alleviation of gan qi (liver qi) stagnation"
+    sources:
+      - url: "https://1stchineseherbs.com/bupleurum-liver-soothing-chai-hu-shu-gan-wan-200-pills-plum-flwr/"
+      - url: "https://www.whiterabbitinstituteofhealing.com/herbs/bupleurum/"
+      - url: "https://www.traditional-acupuncture-clinic.com.au/herbs-for-liver-qi-stagnation"
+
+  chamomile:
+    species: "Matricaria chamomilla"
+    common_names:
+      - "German chamomile"
+      - "Chamomile"
+    active_compounds:
+      primary:
+        - "Chamazulene (anti-inflammatory)"
+        - "Apigenin (anti-inflammatory and analgesic)"
+        - "Flavonoids (anti-inflammatory and anti-anxiety)"
+      other:
+        - "Matrisin"
+        - "Bisabolol"
+    mechanism_of_action:
+      anti_inflammatory:
+        - "Interrupts cyclooxygenase"
+        - "Interrupts lipoxygenase"
+        - "Stops production of prostaglandins and leukotrienes"
+      neurotransmitter:
+        - "Modulates dopamine actions"
+        - "Modulates serotonin actions"
+        - "Helps offset or reduce depressive symptoms"
+      antispasmodic: "Relieves painful cramps associated with menstrual periods"
+    clinical_trials:
+      systematic_review_dysmenorrhea:
+        title: "The Effect of Chamomile on Pain and Menstrual Bleeding in Primary Dysmenorrhea"
+        study_type: "Systematic review"
+        studies_included: 7
+        key_findings: "Chamomile more effective than placebo and NSAIDs for pain relief in primary dysmenorrhea"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242407/"
+      systematic_review_pms:
+        title: "Efficacy of Chamomile in the Treatment of Premenstrual Syndrome"
+        study_type: "Systematic review"
+        rcts_examined: 8
+        key_findings: "Chamomile more effective than placebo in menstrual pain reduction"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6970572/"
+        pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31970017/"
+      chamomile_vs_mefenamic_acid:
+        design: "Comparative trial"
+        key_findings:
+          psychological_behavioral: "More effective than mefenamic acid"
+          physical_symptoms: "Similar to mefenamic acid in relieving physical symptoms"
+          overall_pms: "Alleviated general physical and psychological PMS symptoms"
+        sciencedirect_url: "https://www.sciencedirect.com/science/article/abs/pii/S1744388113000662"
+      menstrual_mood_disorders:
+        title: "The effect of Matricaria chamomile on menstrual related mood disorders"
+        pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8526954/"
+      anxiety_study:
+        condition: "Generalized anxiety disorder"
+        outcome: "Significant reduction in anxiety with long-term chamomile treatment"
+    sources:
+      - researchgate_url: "https://www.researchgate.net/publication/286965003_Chamomile_tea_for_relief_of_primary_dysmenorrhea"
+
+nutritional_supplements_comparative:
+  calcium:
+    dosage: "1200 mg daily"
+    evidence_quality: "Large, rigorous, double-blind, placebo-controlled trial"
+    key_findings:
+      water_retention: "Significant reductions"
+      food_cravings: "Significant reductions"
+      pain: "Significant reductions"
+      overall_symptom_severity: "Significant reductions"
+    treatment_duration: "At least three cycles to be beneficial"
+    recommendation: "Data supports use of calcium for PMS"
+
+  magnesium:
+    dosage: "250 mg daily"
+    evidence_quality: "Limited evidence, mixed results"
+    study_results:
+      positive: 2
+      nonpositive: 2
+    preliminary_findings: "Regular supplementation decreases severity of PMS symptoms"
+    combination_effect: "Magnesium + vitamin B6 showed highest effectiveness"
+
+  vitamin_b6:
+    evidence_quality: "Conflicting results from trials"
+    study_results:
+      positive: 5
+      nonpositive: 5
+    meta_analysis:
+      studies: "12 case-control studies"
+      finding: "Significant improvement in both physical and psychological symptoms of PMS"
+    combination_studies:
+      calcium_b6:
+        outcome: "Overall symptoms of PMS decreased more significantly with combined calcium and vitamin B6"
+    recommendation: "Suggests vitamin B6 may be effective"
+
+  evening_primrose_oil:
+    active_compound: "Gamma-linolenic acid (GLA)"
+    mechanism: "Essential fatty acid that may reduce inflammation"
+    evidence_quality: "Randomized controlled trials produced conflicting results"
+
+  comparative_effectiveness:
+    herbs_vs_nutrients:
+      chasteberry: "Efficacy found for irritability and mood swings"
+      limitation: "No comparative studies with SSRIs and oral contraceptive pills conducted"
+    herbal_uncertainty: "Variety of herbal products suggested but efficacy uncertain due to lack of consistent data"
+    sources:
+      - tandfonline_url: "https://www.tandfonline.com/doi/abs/10.1080/07315724.2000.10718907"
+      - pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19923637/"
+      - frontiers_url: "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1079417/full"
+      - pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4794546/"
+      - pmc_url2: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4161081/"
+      - pmc_url3: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3208934/"
+
+dosage_timing_protocols:
+  general_timing:
+    start_timing: "Start taking herbs a week before onset of menstruation"
+    cycle_timing: "Beginning when PMS symptoms typically appear"
+    mid_cycle_approach: "10-14 days from mid-cycle until a day or two after period"
+
+  treatment_duration:
+    minimum: "One menstrual cycle"
+    recommended: "At least one month, ideally 3 months for lasting change"
+    range: "Clinical studies show 1 menstrual cycle to 12 months"
+    calcium_specific: "At least three cycles to be beneficial"
+
+  herbal_preparations:
+    teas_infusions:
+      preparation: "1 teaspoon chopped herbs per cup boiling water"
+      steep_time: "20-30 minutes"
+      frequency: "1 cup 2-3 times daily before meals"
+    tinctures:
+      dose: "1 teaspoon per cup water, 2-3 times daily"
+      alternative: "Approximately 30 drops 2-3 times per day"
+    valerian_specific:
+      dose: "1/2 to 1 teaspoon of tincture"
+      acute_cramping: "May be taken in 1/2 teaspoon doses every 2-3 hours until cramping subsides"
+
+  specific_herb_dosages:
+    vitex_agnus_castus:
+      typical: "Not specified in search results"
+      note: "Most studied herb, typically standardized extracts"
+    saffron:
+      clinical_dose: "30 mg/day (15 mg twice daily)"
+      duration: "Two menstrual cycles minimum"
+    st_johns_wort:
+      dose: "900 mg/day"
+      standardization: "0.18% hypericin, 3.38% hyperforin"
+      duration: "Two menstrual cycles"
+    ginkgo_biloba:
+      dose: "40 mg leaf extract, three times daily (120 mg total)"
+      timing: "From 16th day of cycle to 5th day of next cycle"
+    fennel:
+      dose: "30 mg fennel extract"
+      frequency: "Every 4 hours"
+      timing: "3 days before menstruation until 5th day"
+      duration: "3 months"
+    valerian:
+      dose: "2 pills daily (dosage not specified)"
+      timing: "Last seven days of menstrual cycle"
+      duration: "3 cycles"
+    curcumin:
+      dose: "500 mg curcuminoid + piperine daily"
+      timing: "From 7 days before until 3 days after menstruation"
+      duration: "Three consecutive menstrual cycles"
+    lemon_balm:
+      dose: "1200 mg daily"
+      timing: "First to last day of menstrual cycle"
+      duration: "Three consecutive cycles"
+
+symptom_specific_recommendations:
+  psychological_symptoms:
+    mood_depression:
+      most_effective:
+        - herb: "Saffron"
+          evidence: "As effective as fluoxetine for PMDD"
+        - herb: "Vitex agnus-castus"
+          evidence: "Helps with fluoxetine for psychological symptoms"
+      supporting:
+        - "Lemon balm (anxiety, depression)"
+        - "Bupleurum formulas (PMS-related depression)"
+    anxiety:
+      most_effective:
+        - "Lemon balm (SMD: -0.98; p = 0.003)"
+        - "Passionflower (equal to oxazepam)"
+        - "Chamomile (generalized anxiety)"
+    irritability_mood_swings:
+      most_effective:
+        - "Vitex agnus-castus (efficacy found)"
+        - "Saffron"
+
+  physical_symptoms:
+    breast_pain_mastalgia:
+      most_effective:
+        - herb: "Vitex agnus-castus"
+          mechanism: "Dopaminergic compounds improve premenstrual mastodynia"
+        - herb: "Ginkgo biloba"
+          evidence: "Particularly effective for breast symptoms (statistical significance vs placebo)"
+      supporting:
+        - "White peony (in combinations)"
+    menstrual_pain_dysmenorrhea:
+      most_effective:
+        - herb: "Fennel"
+          evidence: "Similar effect to conventional drugs (SMD: 0.07)"
+        - herb: "Chamomile"
+          evidence: "More effective than placebo and NSAIDs"
+      supporting:
+        - "Curcumin (analgesic properties)"
+        - "Ginger (traditionally for pelvic circulation)"
+    congestive_symptoms:
+      most_effective:
+        - "Ginkgo biloba EGb 761 (statistical significance)"
+
+  behavioral_symptoms:
+    general_behavioral:
+      most_effective:
+        - "St. John's wort (improved behavioral symptoms vs placebo)"
+        - "Valerian (significant improvement P < 0.001)"
+    sleep_disturbances:
+      most_effective:
+        - "Valerian (improves sleep quality)"
+        - "Lemon balm (insomnia reduction: 42%, p < 0.01)"
+
+  combination_approaches:
+    physical_plus_psychological:
+      - herb: "Chamomile"
+        evidence: "Alleviated general physical and psychological PMS symptoms"
+      - herb: "Curcumin"
+        evidence: "Significant reductions in mood, behavioral, and physical symptoms"
+      - herb: "Valerian"
+        evidence: "Reduced emotional, physical, and behavioral symptoms"
+
+traditional_medicine_patterns:
+  tcm_liver_qi_stagnation:
+    symptoms:
+      - "Rib or side pain"
+      - "Emotional depression"
+      - "Frequent sighing"
+      - "Irregular periods"
+      - "Breast tenderness"
+    primary_formula: "Jia-Wei-Xiao-Yao-San (JWXYS)"
+    key_herbs:
+      - "Bupleurum (Chai Hu)"
+      - "White Peony (Bai Shao)"
+      - "Dong Quai (Dang Gui)"
+    principle: "Soothe liver, promote smooth flow of Qi"
+
+  tcm_liver_spleen_disharmony:
+    description: "Liver's failure to discharge and store blood with spleen weakness"
+    formula: "Xiao Yao San"
+    functions:
+      - "Soothe liver"
+      - "Relieve depression"
+      - "Nourish blood"
+      - "Strengthen spleen"
+
+safety_contraindications:
+  general_safety:
+    mild_adverse_events: "Reported by 4 RCTs in herbal PMS meta-analysis"
+    major_health_risks: "None of the herbs associated with major health risks"
+    limitation: "Reduced number of tested patients does not allow definitive conclusions on safety"
+
+  specific_herbs:
+    st_johns_wort:
+      limitation: "Not effective for mood symptoms (anxiety, depression, irritability)"
+      recommendation: "SSRIs better first-line option for PMDD"
+    dong_quai:
+      evidence_quality: "Limited and inconsistent despite long traditional use"
+      hormonal_effect: "Does not appear to have hormone-like actions"
+
+  pregnancy_lactation:
+    note: "Most herbal treatments for PMS not studied in pregnancy/lactation"
+    recommendation: "Consult healthcare provider before use if pregnant or breastfeeding"
+
+comparative_effectiveness_summary:
+  tier_1_highest_evidence:
+    - herb: "Vitex agnus-castus"
+      evidence: "4 trials, ~500 women; 2.57x more likely to experience remission vs placebo"
+      best_for: "Overall PMS symptoms, especially physical symptoms and breast pain"
+      mechanism: "Dopaminergic; reduces prolactin, increases progesterone"
+    - herb: "Saffron (Crocus sativus)"
+      evidence: "Multiple RCTs; as effective as fluoxetine for PMDD"
+      best_for: "Psychological symptoms, depression, PMDD"
+      mechanism: "Inhibits reuptake of dopamine, norepinephrine, serotonin"
+
+  tier_2_good_evidence:
+    - herb: "Curcumin"
+      evidence: "6 of 10 RCTs positive; significant reductions in mood, behavioral, physical symptoms"
+      best_for: "Overall PMS symptoms"
+      mechanism: "Anti-inflammatory, modulates neurotransmitters"
+    - herb: "Ginkgo biloba"
+      evidence: "RCTs showing effectiveness, particularly for congestive symptoms"
+      best_for: "Breast pain/tenderness, congestive symptoms"
+      mechanism: "Improves circulation, reduces inflammation"
+    - herb: "Lemon balm"
+      evidence: "RCTs; significant reductions in anxiety (SMD: -0.98), insomnia (42% reduction)"
+      best_for: "Anxiety, depression, insomnia, behavioral symptoms"
+      mechanism: "GABAergic (increases GABA concentration)"
+
+  tier_3_promising_evidence:
+    - herb: "Fennel"
+      evidence: "Meta-analysis of 12 RCTs; similar to conventional drugs for dysmenorrhea"
+      best_for: "Menstrual pain, pelvic pain, lethargy"
+    - herb: "Chamomile"
+      evidence: "Systematic review of 8 RCTs; more effective than placebo for pain"
+      best_for: "Menstrual pain, general physical and psychological symptoms"
+    - herb: "Valerian"
+      evidence: "Double-blind trial; significant improvements in all symptom categories"
+      best_for: "Emotional, behavioral, physical symptoms"
+    - herb: "White Peony (Paeonia lactiflora)"
+      evidence: "RCTs for hormonal balance; reduces prolactin, increases progesterone"
+      best_for: "Hormonal imbalances, PCOS-related symptoms"
+    - herb: "Bupleurum (Chai Hu)"
+      evidence: "Traditional use; key component of most effective TCM formulas"
+      best_for: "Liver Qi stagnation pattern, PMS-related depression"
+
+  tier_4_limited_evidence:
+    - herb: "St. John's wort"
+      note: "Effective for physical and behavioral symptoms but NOT for mood/anxiety"
+      limitation: "SSRIs preferred for psychological symptoms"
+    - herb: "Dong Quai"
+      note: "Traditional use extensive but clinical evidence limited and inconsistent"
+    - herb: "Passionflower"
+      note: "Effective for anxiety but specific PMS/PMDD trials lacking"
+
+  best_traditional_combinations:
+    top_tier:
+      - formula: "Jia-Wei-Xiao-Yao-San (JWXYS)"
+        prevalence: "37.5% of all PMS prescriptions"
+        evidence: "Clinical trial: p < 0.01 for physical, psychological symptoms"
+        components: "8 herbs including Bupleurum, White Peony, Dong Quai"
+      - formula: "Chaihu Shugan Powder"
+        evidence: "Widely used, especially for PMS-related depression"
+    common_additions:
+      - "JWXYS + Cyperus rotundus (7.7% of prescriptions)"
+      - "JWXYS + Leonurus heterophyllus (5.9%)"
+
+  nutrient_combinations:
+    - combination: "Calcium + Vitamin B6"
+      evidence: "Overall symptoms decreased more significantly with combination"
+    - combination: "Magnesium + Vitamin B6"
+      evidence: "Highest effectiveness in relieving PMS symptoms"
+
+research_gaps:
+  - "Limited head-to-head trials comparing different herbs for PMS"
+  - "Most research compares herbs to placebo rather than to each other"
+  - "No comparative studies of Vitex with SSRIs and oral contraceptive pills"
+  - "Optimal dosages and treatment durations not well established for many herbs"
+  - "Need for larger, higher-quality RCTs with standardized preparations"
+  - "Mechanism studies needed for many traditional combinations"
+  - "Long-term safety data needed (most studies 3 months or less)"
+  - "Differential effectiveness for specific PMS symptom clusters needs more research"
+
+clinical_practice_recommendations:
+  first_line_single_herbs:
+    for_overall_pms:
+      - "Vitex agnus-castus (best evidence for overall PMS)"
+    for_psychological_symptoms:
+      - "Saffron 30 mg/day (for PMDD, as effective as fluoxetine)"
+      - "Lemon balm 1200 mg/day (for anxiety, depression, insomnia)"
+    for_physical_symptoms:
+      - "Ginkgo biloba 120 mg/day (for breast pain, congestive symptoms)"
+      - "Fennel 30 mg extract (for menstrual pain)"
+
+  first_line_traditional_formulas:
+    - "Jia-Wei-Xiao-Yao-San (for liver Qi stagnation pattern)"
+    - "Chaihu Shugan Powder (for PMS-related depression)"
+
+  second_line_options:
+    - "Curcumin 500 mg/day (for overall symptoms)"
+    - "Chamomile (for pain and general symptoms)"
+    - "Valerian (for emotional, behavioral, physical symptoms)"
+    - "St. John's wort 900 mg/day (for physical symptoms only, not mood)"
+
+  nutrient_support:
+    - "Calcium 1200 mg/day (at least 3 cycles)"
+    - "Magnesium + Vitamin B6 combination"
+
+  treatment_approach:
+    assessment: "Identify dominant symptom pattern (psychological vs physical vs mixed)"
+    selection: "Choose herb(s) based on symptom profile and evidence quality"
+    timing: "Start 7-14 days before expected symptoms, continue through first days of period"
+    duration: "Minimum 3 menstrual cycles to assess effectiveness"
+    monitoring: "Track symptom severity, side effects, menstrual cycle changes"
+    adjustment: "If insufficient response after 3 cycles, consider changing herbs or adding combination"
+
+  tcm_pattern_approach:
+    liver_qi_stagnation:
+      symptoms: "Breast tenderness, irritability, depression, irregular periods"
+      formula: "Jia-Wei-Xiao-Yao-San or Chaihu Shugan Powder"
+    liver_spleen_disharmony:
+      symptoms: "Fatigue, digestive issues, emotional symptoms"
+      formula: "Xiao Yao San variations"
+
+notes:
+  - "Vitex agnus-castus has the most robust evidence for overall PMS treatment"
+  - "Saffron shows promise as effective as SSRIs for PMDD with better side effect profile"
+  - "Traditional Chinese Medicine formulas (especially JWXYS) have good evidence for PMS"
+  - "Combination approaches may offer synergistic benefits over single herbs"
+  - "Symptom-specific herb selection improves outcomes (e.g., ginkgo for breast pain, fennel for dysmenorrhea)"
+  - "Herbal treatments generally have favorable safety profiles with mild adverse events"
+  - "Treatment duration of at least 3 cycles recommended before assessing effectiveness"
+  - "Quality and standardization of commercial products varies significantly"
+  - "TCM pattern differentiation approach may improve treatment specificity"
+  - "Nutrients (calcium, magnesium, B6) can complement herbal treatments"
+  - "SSRIs remain first-line for severe PMDD, but herbs may be alternative for milder cases"
+  - "Most effective herbs have multi-target mechanisms (hormonal, neurotransmitter, anti-inflammatory)"

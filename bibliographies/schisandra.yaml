@@ -1,0 +1,1064 @@
+---
+# Schisandra Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and regulatory monographs
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  plant_name: Schisandra
+  species: Schisandra chinensis (Turcz.) Baill.
+  related_species: Schisandra sphenanthera Rehder & E.H.Wilson
+  common_names:
+    - Wu Wei Zi (Five Flavor Fruit)
+    - Chinese Magnolia Vine
+    - Omija (Korean)
+  family: Schisandraceae
+  compiled_date: 2026-01-15
+
+regulatory_monographs:
+  - id: who_2007
+    title: "WHO monographs on selected medicinal plants, Volume 3 - Schisandrae chinensis fructus"
+    organization: World Health Organization
+    year: 2007
+    type: regulatory_monograph
+    location: Geneva, Switzerland
+    publication: "International Pharmacopoeia"
+    definition: "Dried ripe fruit of Schisandra chinensis (Turcz.) Baill."
+    notes: "First official internationally recognized monograph on Schisandra fruit; accepted by International Pharmacopoeia edited by WHO"
+    url: "https://apps.who.int/iris/bitstream/handle/10665/42052/9789241547024_eng.pdf"
+
+  - id: european_pharmacopoeia_2008
+    title: "European Pharmacopoeia - Schisandrae chinensis fructus"
+    organization: European Directorate for the Quality of Medicines & HealthCare
+    year: 2008
+    type: pharmacopoeial_monograph
+    edition: "6th edition, Supplement 6.3"
+    current_edition: "8th edition (2013, valid since 2014)"
+    notes: "Monograph appeared for first time in 2008; remains in unchanged form in 8th edition"
+
+  - id: chinese_pharmacopoeia_2005
+    title: "Chinese Pharmacopoeia - Schisandrae Chinensis Fructus"
+    organization: Chinese Pharmacopoeia Commission
+    year: 2005
+    type: pharmacopoeial_monograph
+    notes: "Recognizes S. chinensis and S. sphenanthera as two different raw materials since 2005"
+
+  - id: american_pharmacopoeia_1999
+    title: "American Pharmacopoeia - Schisandrae fruit"
+    organization: American Pharmacopoeia
+    year: 1999
+    type: pharmacopoeial_monograph
+    notes: "First monograph on Schisandrae fruit in American Pharmacopoeia"
+
+  - id: ahp_monograph
+    title: "Schisandra Berry Schisandra Chinensis: Analytical, Quality Control, and Therapeutic Monograph"
+    organization: American Herbal Pharmacopoeia
+    author: Roy Upton
+    type: herbal_monograph
+    isbn: "978-1929425051"
+    content_includes:
+      - History and nomenclature
+      - Identification and commercial sources
+      - Constituents and analytical methods
+      - Therapeutics
+      - Safety profile
+      - International statutes
+    url: "https://herbal-ahp.org/"
+    notes: "Developed and peer-reviewed by international multi-disciplinary collective of medicinal plant experts"
+
+  - id: japanese_pharmacopoeia_2006
+    title: "Japanese Pharmacopoeia - Schisandra fruit"
+    organization: Ministry of Health, Labour and Welfare (Japan)
+    year: 2006
+    type: pharmacopoeial_monograph
+
+  - id: korean_pharmacopoeia_2002
+    title: "Korean Pharmacopoeia - Schisandra fruit"
+    organization: Korea Food and Drug Administration
+    year: 2002
+    type: pharmacopoeial_monograph
+
+  - id: russian_pharmacopoeia_1990
+    title: "Russian Pharmacopoeia - Schisandra fruit"
+    organization: Ministry of Health (Russia)
+    year: 1990
+    type: pharmacopoeial_monograph
+
+  - id: commission_e_status
+    title: "Commission E Monograph Status"
+    organization: German Commission E
+    type: regulatory_note
+    status: "No monograph published"
+    notes: "Commission E did not evaluate Schisandra chinensis; primarily assessed herbs used in German phytotherapy"
+
+systematic_reviews_meta_analyses:
+  - id: huang_2025
+    title: "Efficacy of Schisandra chinensis in liver injury: a systematic review and preclinical meta-analysis"
+    authors:
+      - Huang, Bo-Hao
+      - Lv, Bo-Han
+      - Wu, Dong-Jie
+      - Xiong, Fei-Yang
+      - Li, Yan-Bo
+      - Lu, Yan-Ping
+      - Lv, Wen-Liang
+    year: 2025
+    journal: Frontiers in Pharmacology
+    pubmed_url: "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1627081/full"
+    doi: "10.3389/fphar.2025.1627081"
+    study_type: systematic_review_preclinical_meta_analysis
+    databases_searched: 8
+    studies_included: 54
+    total_animals: 1314
+    animal_models:
+      - "C57BL/6 mice (13 studies)"
+      - "ICR mice (20 studies)"
+      - "Kunming rats (5 studies)"
+      - "Sprague-Dawley rats (6 studies)"
+      - "BALB/c mice (1 study)"
+      - "Wistar rats (1 study)"
+    liver_injury_models:
+      - Acetaminophen-induced
+      - CCl4-induced
+      - D-galactosamine-induced
+      - Ethanol-induced
+    key_findings:
+      liver_enzyme_reduction:
+        - metric: ALT_reduction
+          smd: -4.74
+          ci_95: "[-5.42, -4.06]"
+          p_value: "<0.001"
+          heterogeneity_i2: "90.8%"
+        - metric: AST_reduction
+          smd: -5.10
+          ci_95: "[-5.84, -4.37]"
+          p_value: "<0.001"
+          heterogeneity_i2: "91.7%"
+        - metric: ALP_reduction
+          smd: -3.11
+          ci_95: "[-4.86, -1.37]"
+          p_value: "<0.001"
+          heterogeneity_i2: "87.0%"
+      oxidative_stress_markers:
+        - metric: SOD_increase
+          smd: 4.37
+          ci_95: "[3.38, 5.37]"
+          p_value: "<0.001"
+          heterogeneity_i2: "89.3%"
+        - metric: MDA_decrease
+          smd: -3.42
+          ci_95: "[-4.16, -2.69]"
+          p_value: "<0.001"
+          heterogeneity_i2: "89.7%"
+        - metric: GSH_increase
+          smd: 3.07
+          ci_95: "[2.35, 3.80]"
+          p_value: "<0.001"
+          heterogeneity_i2: "84.0%"
+      inflammatory_markers:
+        - metric: TNF_alpha_reduction
+          smd: -2.85
+          ci_95: "[-3.73, -1.96]"
+          p_value: "<0.001"
+          heterogeneity_i2: "76.3%"
+        - metric: IL6_reduction
+          smd: -3.30
+          ci_95: "[-4.43, -2.17]"
+          p_value: "<0.001"
+          heterogeneity_i2: "86.7%"
+        - metric: IL1_beta_reduction
+          smd: -2.41
+          ci_95: "[-3.75, -1.07]"
+          p_value: "<0.001"
+          heterogeneity_i2: "85.4%"
+      conclusion: "Schisandra chinensis bioactive compounds significantly reduced liver injury markers across multiple animal models"
+      limitations: "High heterogeneity; limited human clinical trial data"
+
+  - id: hong_2021
+    title: "Systematic analysis of the pharmacological function of Schisandra as a potential exercise supplement"
+    authors:
+      - Hong, Bok Sil
+      - Baek, Suji
+      - Kim, Myoung-Ryu
+      - Park, Sun Mi
+      - Kim, Bom Sahn
+      - Kim, Jisu
+      - Lee, Kang Pa
+    year: 2021
+    journal: Physical Activity and Nutrition
+    volume: 25
+    issue: 4
+    pubmed_id: "35152622"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/35152622/"
+    study_type: systematic_pharmacological_network_analysis
+    methodology: "Bioinformatics and network pharmacology analysis"
+    active_compounds_identified: 8
+    target_genes_identified: 21
+    key_findings:
+      biological_functions:
+        - function: postsynaptic_neurotransmitter_receptor_activity
+          percentage: 53.85
+        - function: intracellular_steroid_hormone_receptor_signaling
+          percentage: 36.46
+        - function: endopeptidase_activity
+          percentage: 10.0
+      therapeutic_potential:
+        - Immunity and inflammation regulation
+        - Liver metabolism promotion
+        - Fatigue improvement
+        - Steroid receptor function regulation
+      conclusion: "Schisandra shows promise as exercise supplement through multiple pharmacological pathways"
+
+  - id: ehambarampillai_2025
+    title: "A comprehensive review of Schisandra chinensis lignans: pharmacokinetics, pharmacological mechanisms, and future prospects in disease prevention and treatment"
+    authors:
+      - Ehambarampillai, Danushiya
+      - Wan, Murphy Lam Yim
+    year: 2025
+    journal: Chinese Medicine
+    pubmed_id: "40205412"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11984061/"
+    study_type: comprehensive_systematic_review
+    articles_analyzed: 168
+    key_lignans_reviewed:
+      - Schisandrin
+      - Schisandrin A
+      - Schisandrin B
+      - Schisandrin C
+      - Gomisin A
+      - Gomisin B
+      - Gomisin C
+      - Gomisin K3
+    pharmacokinetics:
+      absorption:
+        sites: "Duodenum and jejunum (primary); colon and rectum (secondary)"
+        bioavailability_challenges: "Poor water solubility; extensive first-pass metabolism"
+      distribution:
+        primary_organs: "Liver and kidneys"
+        secondary_organs: "Lungs, heart, spleen"
+        bbb_penetration: "Schisandrin and Schisandrin A cross blood-brain barrier"
+      bioavailability_sex_differences:
+        - compound: Schisandrin B
+          female_rats: "55.0%"
+          male_rats: "19.3%"
+          note: "Significant sex-dependent variation"
+      metabolism:
+        pathways: "Phase I: demethylation and hydroxylation"
+        enzymes: "CYP3A4, CYP2C9"
+      excretion:
+        routes: "Bile, feces, urine"
+        amount: "Very low amounts typically excreted"
+      physicochemical_properties:
+        solubility: "Poorly soluble"
+        lipophilicity: "Moderate to high (consensus LogP 3.53-4.40)"
+    pharmacological_activities:
+      - Antioxidant
+      - Anti-inflammatory
+      - Neuroprotective
+      - Hepatoprotective
+      - Antibacterial and antiviral
+      - Antidiabetic
+      - Anticancer
+    limitations: "Human clinical trial data remain limited; bioavailability challenges require advanced drug delivery systems"
+
+  - id: wu_2024
+    title: "Schisandrol A, the Major Active Constitute in Schisandra chinensis: A Review of Its Preparation, Biological Activities, and Pharmacokinetics Analysis"
+    authors:
+      - Wu, Ying
+      - Ding, Chao
+      - Liu, Chenwang
+      - Dan, Linwei
+      - Xu, Haonan
+      - Li, Xinzhuo
+      - Li, Yuze
+      - Song, Xiaomei
+      - Zhang, Dongdong
+    year: 2024
+    journal: American Journal of Chinese Medicine
+    volume: 52
+    issue: 3
+    pages: "717-752"
+    pubmed_id: "38716620"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38716620/"
+    study_type: literature_review
+    focus_compound: Schisandrol A
+    key_findings:
+      pharmacokinetics:
+        absorption: "Rapid absorption"
+        distribution: "Wide distribution; maximal concentration in liver"
+        excretion: "Primarily renal excretion"
+        bioavailability_factors: "Hepatic and intestinal first-pass metabolism affect bioavailability"
+      pharmacopoeial_specification:
+        compound: Schisandrol A
+        minimum_content: "Not less than 0.40%"
+        analytical_method: "High-performance liquid chromatography (HPLC)"
+      biological_activities:
+        - Anti-inflammatory
+        - Hepatoprotective
+        - Cardiovascular protective
+        - Antitumor
+        - Neuroprotective (neurodegenerative diseases)
+
+randomized_controlled_trials:
+  - id: park_2016
+    title: "A randomized, double-blind, placebo-controlled trial of Schisandra chinensis for menopausal symptoms"
+    authors:
+      - Park, J Y
+      - Kim, K H
+    year: 2016
+    journal: Climacteric
+    volume: 19
+    issue: 6
+    pages: "574-580"
+    pubmed_id: "27763802"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27763802/"
+    doi: "10.1080/13697137.2016.1238453"
+    study_type: randomized_double_blind_placebo_controlled
+    study_period: "January 2014 to January 2015"
+    sample_size:
+      enrolled: 36
+      completed: 36
+      treatment_group: 18
+      placebo_group: 18
+    intervention:
+      extract: "BMO-30 extract from Schisandra chinensis"
+      treatment_duration: "6 weeks"
+      followup_duration: "12 weeks"
+      standardization: Not specified
+    primary_outcomes:
+      - metric: Kupperman Index (KI) total scores
+        result: "Significantly lower in BMO-30 group"
+        p_value: 0.042
+        statistical_note: "Evaluated with respect to group and time"
+    symptoms_improved:
+      - "Hot flushes (particularly effective)"
+      - "Sweating (particularly effective)"
+      - "Heart palpitations (particularly effective)"
+    safety:
+      serious_adverse_events: None reported
+      conclusion: "Safe and effective complementary medicine for menopausal symptoms"
+
+  - id: park_2020
+    title: "Effect of Schisandra chinensis Extract Supplementation on Quadriceps Muscle Strength and Fatigue in Adult Women: A Randomized, Double-Blind, Placebo-Controlled Trial"
+    authors:
+      - Park, Jinkee
+      - Han, Seoungho
+      - Park, Hyuntae
+    year: 2020
+    journal: International Journal of Environmental Research and Public Health
+    volume: 17
+    issue: 9
+    pubmed_id: Not specified
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177795/"
+    doi: "10.3390/ijerph17093110"
+    study_type: randomized_double_blind_placebo_controlled
+    sample_size:
+      enrolled: 45
+      treatment_group: 24
+      placebo_group: 21
+      population: "Healthy post-menopausal women"
+    intervention:
+      dose: "1000 mg/day (500 mg twice daily)"
+      duration: "12 weeks"
+      standardization: "4.92 ± 0.06 mg/g schizandrin content"
+      placebo: "1000 mg/day starch"
+    primary_outcomes:
+      - metric: Quadriceps muscle strength
+        result: "7.7% improvement"
+        p_value: "<0.001"
+        group: Treatment
+      - metric: Resting lactate level
+        result: "Significantly decreased"
+        p_value: 0.045
+        group: Treatment
+    safety:
+      adverse_events: None reported
+      dropouts: 7
+      dropout_reasons: "Unclear adherence and withdrawal of consent (unrelated to safety)"
+      conclusion: "Safety of human body confirmed through institutional review"
+
+  - id: chiu_2013
+    title: "Improvement of liver function in humans using a mixture of schisandra fruit extract and sesamin"
+    authors:
+      - Chiu, Hui-Fang
+      - Chen, Tzy-Yen
+      - Tzeng, Yu-Te
+      - Wang, Chin-Kun
+    year: 2013
+    journal: Phytotherapy Research
+    volume: 27
+    issue: 3
+    pages: "368-373"
+    pubmed_id: "22610748"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/22610748/"
+    study_type: randomized_parallel_placebo_controlled
+    sample_size:
+      total: 40
+      treatment_group: 20
+      placebo_group: 20
+      population: "Subjects with borderline high liver enzymes"
+    intervention:
+      formulation: "Schisandra fruit extract + sesamin mixture"
+      dose: "Four tablets daily"
+      duration: "5 months"
+    outcomes:
+      liver_enzymes:
+        - metric: ALT
+          result: "Clearly reduced"
+        - metric: AST
+          result: "Clearly reduced"
+        - metric: Bilirubin
+          result: "Remained unchanged"
+      antioxidant_markers:
+        - metric: Glutathione peroxidase activity
+          result: "Significantly increased"
+        - metric: Glutathione reductase activity
+          result: "Significantly increased"
+        - metric: Free radical levels
+          result: "Decreased"
+        - metric: LDL oxidation lag time
+          result: "Increased"
+      imaging_findings:
+        - metric: Fatty liver
+          result: "Significantly improved"
+    safety:
+      adverse_events: None reported
+
+  - id: song_2015
+    title: "Schisandra chinensis fruit modulates the gut microbiota composition in association with metabolic markers in obese women: a randomized, double-blind placebo-controlled study"
+    authors:
+      - Song, Mi-young
+      - Wang, Jing-hua
+      - Eom, Taewoong
+      - Kim, Hojun
+    year: 2015
+    journal: Nutritional Research
+    volume: 35
+    issue: 8
+    pages: "655-663"
+    pubmed_id: "26048342"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/26048342/"
+    study_type: randomized_double_blind_placebo_controlled
+    sample_size:
+      total: 28
+      population: "Obese women"
+    intervention:
+      material: "Schisandra chinensis fruit (SCF)"
+      duration: "12 weeks"
+      dose: Not specified
+      standardization: Not specified
+    outcomes:
+      anthropometric_metabolic:
+        - metric: Waist circumference
+          result: "Greater decrease in SCF group (not statistically significant)"
+        - metric: Fat mass
+          result: "Greater decrease in SCF group (not statistically significant)"
+        - metric: Fasting blood glucose
+          result: "Greater decrease in SCF group (not statistically significant)"
+        - metric: Triglycerides
+          result: "Greater decrease in SCF group (not statistically significant)"
+        - metric: Liver enzymes (AST, ALT)
+          result: "Greater decrease in SCF group (not statistically significant)"
+      microbiota_changes:
+        - bacteria: Bacteroides and Bacteroidetes
+          change: Increased
+          correlation: "Negative correlation with fat mass and liver markers"
+        - bacteria: Ruminococcus
+          change: Decreased
+          correlation: "Negative correlation with blood glucose and HDL cholesterol"
+    conclusion: "SCF not sufficient to induce significant changes in obesity-related parameters compared with placebo despite microbiota modulation"
+    safety:
+      adverse_events: None reported
+
+  - id: yoon_2022
+    title: "Efficacy and Safety of Omija (Schisandra chinensis) Extract Mixture on the Improvement of Hyperglycemia: A Randomized, Double-Blind, and Placebo-Controlled Clinical Trial"
+    authors: Multiple (not fully extracted)
+    year: 2022
+    journal: Nutrients
+    volume: 14
+    issue: 15
+    article: 3159
+    pubmed_id: "35956334"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/35956334/"
+    doi: "10.3390/nu14153159"
+    study_type: randomized_double_blind_placebo_controlled
+    sample_size:
+      total: 80
+      population: "Participants with fasting plasma glucose 100-140 mg/dL"
+    intervention:
+      formulation: "Omija (Schisandra chinensis) extract + soybean mixture (OSM)"
+      duration: "12 weeks"
+      dose: Not specified
+      standardization: Not specified
+    outcomes:
+      glycemic_control:
+        - metric: Fasting plasma glucose (FPG)
+          result: "Significantly decreased"
+        - metric: Postprandial glucose at 30 min
+          result: "Significantly decreased"
+        - metric: Postprandial glucose at 60 min
+          result: "Significantly decreased"
+        - metric: Postprandial insulin at 60 min
+          result: "Significantly decreased"
+        - metric: Insulin area under curve (AUC)
+          result: "Significantly decreased"
+        - metric: Fructosamine
+          result: "Significantly decreased"
+      lipid_profile:
+        - metric: LDL cholesterol
+          result: "Significantly decreased"
+    safety:
+      adverse_events: "No clinically significant changes in any safety parameter"
+      conclusion: "Safe and effective for improving hyperglycemia"
+
+  - id: aslanyan_2010
+    title: "Double-blind, placebo-controlled, randomised study of single dose effects of ADAPT-232 on cognitive functions"
+    authors:
+      - Aslanyan, G
+      - Amroyan, E
+      - Gabrielyan, E
+      - Nylander, M
+      - Wikman, G
+      - Panossian, A
+    year: 2010
+    journal: Phytomedicine
+    volume: 17
+    issue: 7
+    pages: "494-499"
+    pubmed_id: "20374974"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20374974/"
+    study_type: randomized_double_blind_placebo_controlled_pilot
+    phase: IIa
+    sample_size:
+      total: 40
+      population: "Healthy females, ages 20-68"
+    intervention:
+      formulation: "ADAPT-232 (combination of Rhodiola rosea, Schisandra chinensis, and Eleutherococcus senticosus extracts)"
+      dose: "270 mg tablet (single dose)"
+      assessment_timing: "Baseline and 2 hours post-treatment"
+    outcomes:
+      - test: "d2 Test of Attention"
+        metric: "TN-E scores (attention, speed, accuracy)"
+        result: "Significant difference"
+        p_value: "<0.05"
+        direction: "Improved attention; increased speed and accuracy; tendency to reduce error percentages"
+    safety:
+      serious_adverse_events: None
+      minor_adverse_events: "Sleepiness and cold extremities observed in both treatment and placebo groups"
+
+  - id: cho_2021
+    title: "Effect of Schisandra chinensis Baillon extracts and regular low-intensity exercise on muscle strength and mass in older adults: a randomized, double-blind, placebo-controlled trial"
+    authors:
+      - Cho, Young H
+      - Lee, Sang Y
+      - Lee, Chang-Hyung
+      - Park, Jong-Hwan
+      - So, Yong S
+    year: 2021
+    journal: American Journal of Clinical Nutrition
+    volume: 114
+    issue: 3
+    pages: "1142-1154"
+    pubmed_id: "33710261"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33710261/"
+    doi: "10.1093/ajcn/nqab108"
+    study_type: randomized_double_blind_placebo_controlled
+    sample_size:
+      total: 54
+      population: "Adults >50 years with relatively low muscle mass"
+    intervention:
+      dose: "1 g/day Schisandra chinensis extract"
+      duration: "12 weeks"
+      exercise: "30-60 min walking >3 days/week"
+    primary_outcomes:
+      - metric: Right knee extensor strength
+        result: "10.2 Nm greater increase vs placebo"
+        p_value: 0.003
+      - metric: Left knee extensor strength
+        result: "6.7 Nm greater increase vs placebo"
+        p_value: 0.041
+      - metric: Muscle mass
+        result: "No difference between groups"
+    secondary_outcomes:
+      - metric: Anti-inflammatory markers
+        result: "No difference"
+      - metric: Antioxidative markers
+        result: "No difference"
+    safety:
+      adverse_events: "No adverse events reported in either group"
+    conclusion: "SCe supplementation enhanced skeletal muscle strength but not mass in older adults performing low-intensity exercise"
+
+pharmacokinetic_studies:
+  - id: xin_2007
+    title: "Effects of Schisandra sphenanthera extract on the pharmacokinetics of tacrolimus in healthy volunteers"
+    authors:
+      - Xin, Hua-Wen
+      - Wu, Xiao-Chun
+      - Li, Qing
+      - Yu, Ai-Rong
+      - Zhu, Min
+      - Shen, Yang
+      - Su, Dan
+      - Xiong, Lei
+    year: 2007
+    journal: British Journal of Clinical Pharmacology
+    volume: 64
+    issue: 4
+    pages: "469-475"
+    pubmed_id: "17506780"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/17506780/"
+    doi: "10.1111/j.1365-2125.2007.02672.x"
+    study_type: pharmacokinetic_drug_interaction_study
+    sample_size:
+      total: 12
+      population: "Healthy male volunteers"
+    intervention:
+      extract: "Schisandra sphenanthera extract (SchE)"
+      dose: "Three capsules twice daily"
+      duration: "13 days"
+      substrate_drug: "Tacrolimus 2 mg oral"
+    pharmacokinetic_outcomes:
+      - metric: AUC increase
+        result: "164.2%"
+        ci_95: "[70.1, 258.4]"
+      - metric: Cmax increase
+        result: "227.1%"
+        ci_95: "[155.8, 298.4]"
+      - metric: Tmax increase
+        result: "36.8%"
+        ci_95: "[13.4, 60.2]"
+      - metric: CL/F decrease
+        result: "49.0%"
+        ci_95: "[31.1, 66.9]"
+      - metric: V/F decrease
+        result: "53.7%"
+        ci_95: "[40.1, 67.4]"
+    mechanism:
+      enzymes_affected:
+        - CYP3A
+        - P-glycoprotein (P-gp)
+      interaction_type: Inhibition
+    clinical_significance: "Schisandra extract increases tacrolimus oral bioavailability via inhibition of P-gp-mediated efflux and CYP3A-mediated metabolism"
+    safety_implications: "Blood tacrolimus concentrations occasionally markedly increased in transplant recipients receiving concomitant SchE; monitoring required"
+
+  - id: li_2018
+    title: "Pharmacokinetics of Schizandrin and Its Pharmaceutical Products Assessed Using a Validated LC-MS/MS Method"
+    authors:
+      - Li, Chi-Lin
+      - Cheng, Yung-Yi
+      - Hsieh, Chen-Hsi
+      - Tsai, Tung-Hu
+    year: 2018
+    journal: Molecules
+    volume: 23
+    issue: 4
+    pubmed_id: "29342955"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29342955/"
+    doi: "10.3390/molecules23040791"
+    study_type: analytical_validation_pharmacokinetic_study
+    model: Rat
+    methodology:
+      analytical_method: LC-MS/MS
+      linear_range: "5.0-1000 ng/mL"
+      r_squared: ">0.999"
+      validation: "FDA guideline compliant"
+    dosing_regimens:
+      - dose: "3 g/kg Schisandra chinensis extract (5.2 mg/kg schizandrin)"
+        cmax: "0.08 ± 0.07 μg/mL"
+      - dose: "10 g/kg Schisandra chinensis extract (17.3 mg/kg schizandrin)"
+        cmax: "0.15 ± 0.09 μg/mL"
+    bioavailability:
+      schizandrin_pure: "15.56 ± 10.47%"
+      note: "Herbal extract bioavailability exceeded isolated compound"
+    key_findings:
+      - "Low oral bioavailability attributed to hepatic first-pass and intestinal effects"
+      - "Rapid metabolism results in minimal schizandrin entering circulation"
+      - "Extract form shows better bioavailability than isolated compound"
+
+  - id: xu_2013
+    title: "Gender-dependent pharmacokinetics of lignans in rats after single and multiple oral administration of Schisandra chinensis extract"
+    authors:
+      - Xu, Haiyan
+      - Gan, Jingjing
+      - Liu, Xiaohong
+      - Wu, Ruiyang
+      - Jin, Yi
+      - Li, Mi
+      - Yuan, Bo
+    year: 2013
+    journal: Journal of Ethnopharmacology
+    volume: 147
+    issue: 1
+    pages: "47-53"
+    pubmed_id: "23501155"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23501155/"
+    doi: "10.1016/j.jep.2013.02.010"
+    study_type: comparative_pharmacokinetic_study
+    model: "Male and female rats"
+    intervention:
+      extract: "Schisandra chinensis extract"
+      regimen: "Single and multiple oral administration"
+    key_findings:
+      half_life:
+        result: "t1/2 in female rats 2-9 times longer than male rats"
+        note: "Applies to all tested schisandra lignans"
+      bioavailability:
+        cmax_auc: "5-50 times higher in females vs males"
+        exception: "Schisantherin A showed comparable levels"
+      repeated_dosing:
+        result: "Comparable PK profiles between single and multiple doses in both sexes"
+        exception: "γ-schisandrin showed slower elimination in females after repeated administration"
+      conclusion: "Female rats exhibited slower elimination and higher bioavailability of schisandra lignans compared to males"
+      clinical_relevance: "Sex-dependent pharmacokinetics may require dose adjustments based on patient sex"
+
+literature_reviews:
+  - id: zhu_2019
+    title: "Schisandra fruits for the management of drug-induced liver injury in China: A review"
+    authors:
+      - Zhu, Peili
+      - Li, Junkui
+      - Fu, Xiuqiong
+      - Yu, Zhiling
+    year: 2019
+    journal: Phytomedicine
+    volume: 59
+    pubmed_id: "31004881"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31004881/"
+    doi: "10.1016/j.phymed.2018.11.027"
+    study_type: literature_review
+    focus: Drug-induced liver injury management
+    key_findings:
+      clinical_efficacy:
+        description: "Schisandra-derived medications inhibit drug-induced elevation of serum levels of alanine aminotransferase, aspartate transaminase and total bilirubin"
+      mechanisms_of_action:
+        - Regulating cytochrome P450 enzyme activity
+        - Antioxidant protection
+        - Reducing inflammation
+        - Promoting liver tissue regeneration
+      limitations: "High-quality clinical studies needed to verify efficacy"
+
+  - id: rybnikar_2019
+    title: "Schisandra chinensis and its phytotherapeutical applications"
+    authors:
+      - Rybnikář, Michal
+      - Šmejkal, Karel
+      - Žemlička, Milan
+    year: 2019
+    journal: Česká a slovenská farmacie
+    volume: 68
+    issue: 3
+    pages: "95-118"
+    pubmed_id: "31431019"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31431019/"
+    study_type: literature_review
+    active_constituents:
+      primary: "Dibenzocyclooctadiene lignans"
+      secondary: "Polysaccharides"
+    pharmacological_effects_confirmed:
+      - Adaptogenic effects
+      - Central nervous system stimulation
+      - Hepatoprotective effects
+      - Potential anticancer activity
+    content: "Overview of clinical studies and in vitro tests with insights into mechanisms of action"
+
+  - id: yang_2022
+    title: "A comprehensive review of ethnopharmacology, phytochemistry, pharmacology, and pharmacokinetics of Schisandra chinensis (Turcz.) Baill. and Schisandra sphenanthera Rehd. et Wils"
+    authors:
+      - Yang, Ke
+      - Qiu, Jing
+      - Huang, Zecheng
+      - Yu, Ziwei
+      - Wang, Wenjun
+      - Hu, Huiling
+      - You, Yu
+    year: 2022
+    journal: Journal of Ethnopharmacology
+    volume: 284
+    pubmed_id: "34678416"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34678416/"
+    doi: "10.1016/j.jep.2021.114741"
+    study_type: comprehensive_review
+    scope: "Ethnopharmacology, phytochemistry, pharmacology, and pharmacokinetics"
+    compounds_identified:
+      s_chinensis: 306
+      s_sphenanthera: 238
+    compound_classes:
+      - Lignans (primary)
+      - Triterpenoids
+      - Essential oils
+      - Phenolic acids
+      - Flavonoids
+      - Phytosterols
+    traditional_uses:
+      - "Treatment of coughs"
+      - "Palpitation"
+      - "Spermatorrhea"
+      - "Insomnia"
+      - "Tonic applications (Russia, Japan, Korea)"
+    pharmacological_activities:
+      - Hepatoprotection
+      - Neuroprotection
+      - Cardioprotection
+      - Anticancer
+      - Antioxidation
+      - Anti-inflammation
+      - Hypoglycemic effect
+      - Immunomodulatory (S. chinensis)
+      - Antimicrobial (S. chinensis)
+    drug_interactions:
+      enzymes: "CYP3A and P-gp inhibition"
+      clinical_significance: "Potential undesirable drug-drug interactions through altered substrate metabolism and efflux"
+    conclusion: "Comprehensive evidence for multiple pharmacological activities; drug interaction monitoring required"
+
+dosing_standardization:
+  traditional_dosing:
+    - form: Crude drug decoction
+      dose_range: "1.5-6 g/day"
+      source: "Traditional Chinese Medicine"
+    - form: Powdered crude drug (boiled tea)
+      dose_range: "500-1500 mg/day"
+      source: "Clinical references"
+    - form: Extract
+      dose_range: "200 mg/day"
+      source: "Clinical references"
+
+  clinical_trial_dosing:
+    - indication: Menopausal symptoms
+      dose: "BMO-30 extract (dose not specified)"
+      duration: "6 weeks"
+      study: park_2016
+    - indication: Muscle strength and fatigue
+      dose: "1000 mg/day extract (4.92 mg/g schizandrin)"
+      duration: "12 weeks"
+      study: park_2020
+    - indication: Athletic performance
+      dose: "91.1 mg extract per tablet (3.1 mg schizandrin + gamma-schizandrin per tablet)"
+      study: "Referenced in dosing literature"
+    - indication: Liver function improvement
+      dose: "Four tablets daily (schisandra + sesamin mixture)"
+      duration: "5 months"
+      study: chiu_2013
+    - indication: Hyperglycemia
+      dose: "Omija extract + soybean mixture (dose not specified)"
+      duration: "12 weeks"
+      study: yoon_2022
+    - indication: Drug interaction studies
+      dose: "300 mg twice daily"
+      duration: "14 days"
+      study: xin_2007
+    - indication: Hepatitis
+      dose: "20 mg lignan content (equivalent to 1.5 g crude schisandra) daily"
+      source: "Clinical dosing references"
+
+  standardization_markers:
+    primary_lignans:
+      - Schizandrin (Schisandrin)
+      - Gamma-schizandrin
+      - Schisandrin A
+      - Schisandrin B
+      - Schisandrin C
+      - Gomisin A
+      - Gomisin B
+      - Gomisin C
+    pharmacopoeial_specification:
+      - compound: Schisandrol A
+        minimum_content: "≥0.40%"
+        method: HPLC
+
+  extract_forms:
+    - "Crude dried fruit"
+    - "Aqueous decoction"
+    - "Hydroalcoholic extract"
+    - "Standardized lignan extract"
+    - "Combination formulas (e.g., with sesamin, soybean)"
+
+safety_toxicology:
+  general_safety_profile:
+    assessment: "Generally considered safe at moderate doses; appears entirely free of toxicity in recommended dosage range"
+    study_limitations: "Not well studied in humans; long-term safety data limited"
+
+  adverse_events:
+    serious_adverse_events:
+      frequency: "Rare to none reported in clinical trials"
+    nonserious_adverse_events:
+      common:
+        - "Heartburn"
+        - "Upset stomach"
+        - "Decreased appetite"
+        - "Stomach pain"
+        - "Skin rash"
+        - "Itching"
+        - "Sleepiness"
+        - "Cold extremities"
+      frequency: "Mild and infrequent"
+    overdose_symptoms:
+      - "Restlessness"
+      - "Insomnia"
+      - "Dyspnea"
+
+  toxicology_data:
+    acute_toxicity_mice:
+      - route: Oral
+        minimum_toxic_dose: "3.6 g/kg"
+      - route: Intraperitoneal
+        effects_high_dose:
+          - effect: Convulsions
+            ed50: "175 mg/kg"
+          - effect: Paresis
+            ed50: "370 mg/kg"
+        effects_normal_parameters: "No effects on blood pressure, breath, or motility"
+    repeated_dose_toxicity:
+      - species: SD Rat
+        duration: "13 weeks"
+        route: Oral
+        noael: "250 mg/kg/day"
+
+  contraindications:
+    - "Pregnancy (POSSIBLY UNSAFE - may cause uterine contractions leading to miscarriage)"
+    - "Lactation (limited safety data)"
+
+  drug_interactions:
+    cyp450_interactions:
+      enzymes_affected:
+        - CYP1A2
+        - CYP3A4
+        - CYP3A5
+      interaction_type: Inhibition
+      clinical_significance: "May reduce effectiveness of some drugs or increase adverse effects"
+
+    p_glycoprotein:
+      interaction_type: Inhibition
+      clinical_significance: "May increase risk of side effects of P-gp substrate drugs"
+
+    specific_drug_interactions:
+      - drug: Tacrolimus
+        effect: "Increased blood levels"
+        mechanism: "Inhibition of CYP3A and P-gp"
+        population: "Liver transplant patients"
+        clinical_action: "Blood level monitoring required"
+        pk_changes:
+          - AUC increase: "164.2%"
+          - Cmax increase: "227.1%"
+
+  long_term_safety_concerns:
+    - "Data on long-term safety, particularly with concentrated extracts or lignan-rich supplements, remains limited"
+    - "Prolonged consumption at high doses raises concerns about potential adverse effects"
+    - "Comprehensive toxicological and pharmacokinetic studies needed for widespread clinical adoption"
+
+bioavailability_pharmacokinetics:
+  absorption:
+    primary_sites: "Duodenum and jejunum"
+    secondary_sites: "Colon and rectum"
+    characteristics: "Readily absorbed from GI tract"
+
+  distribution:
+    primary_accumulation: "Liver and kidneys"
+    secondary_distribution: "Lungs, heart, spleen"
+    bbb_penetration: "Schisandrin and Schisandrin A cross blood-brain barrier (neuroprotective applications)"
+
+  bioavailability:
+    challenges:
+      - "Poor water solubility"
+      - "Extensive first-pass metabolism (hepatic and intestinal)"
+      - "Moderate to high lipophilicity (LogP 3.53-4.40)"
+    sex_differences:
+      - compound: Schisandrin B
+        female_rats: "~55.0%"
+        male_rats: "~19.3%"
+        note: "Significant sex-dependent bioavailability variation"
+
+  metabolism:
+    phase_1_pathways:
+      primary_reactions:
+        - Demethylation
+        - Hydroxylation
+      enzymes: "CYP3A4, CYP2C9"
+
+  excretion:
+    routes: "Bile, feces, urine"
+    amount: "Very low amounts typically excreted"
+
+  drug_delivery_considerations:
+    challenges: "Poor solubility and extensive first-pass metabolism limit oral bioavailability"
+    solutions: "Advanced drug delivery systems to enhance therapeutic efficacy"
+
+clinical_applications_evidence_grades:
+  mental_fatigue:
+    evidence_grade: B
+    basis: "Nonrandomized clinical trials"
+    studies: "7 trials (N=1,712) single dose; 1 trial (n=665) repeated administration"
+    outcomes: "Improvement in endurance and mental performance"
+    evidence_level: "IIa to III"
+
+  asthenia_fatigue_weakness:
+    evidence_grade: "B/C"
+    basis: "5 trials (N=406)"
+    evidence_level: "IIa to III"
+    note: "Well-conducted studies available but lack of randomized trials"
+
+  liver_protection:
+    evidence_basis: "Preclinical meta-analysis (54 animal studies); limited human trials"
+    human_evidence: "Small trials show improved liver enzymes in hepatitis and NAFLD but limited quality and sample size"
+    conclusion: "Insufficient clinical evidence from well-designed, large-scale human trials"
+
+  menopausal_symptoms:
+    evidence_grade: "B (based on single RCT)"
+    study: park_2016
+    outcomes: "Effective for hot flushes, sweating, heart palpitations"
+
+  muscle_strength_exercise:
+    evidence_grade: "B (based on single RCT)"
+    study: park_2020
+    outcomes: "7.7% improvement in quadriceps muscle strength; reduced lactate"
+
+future_research_needs:
+  clinical_trials:
+    - "Well-designed, large-scale RCTs for liver disease applications"
+    - "Long-term safety studies with standardized extracts"
+    - "Dose-response studies to establish optimal dosing"
+    - "Bioavailability enhancement studies in humans"
+
+  mechanistic_research:
+    - "Precise molecular mechanisms of hepatoprotection"
+    - "Sex-dependent bioavailability mechanisms"
+    - "Drug-drug interaction profiles (comprehensive)"
+
+  product_development:
+    - "Advanced drug delivery systems to enhance bioavailability"
+    - "Standardization protocols for lignan content"
+    - "Quality control methods for commercial products"
+
+sources:
+  systematic_reviews:
+    - https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1627081/full
+    - https://pubmed.ncbi.nlm.nih.gov/35152622/
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC11984061/
+    - https://pubmed.ncbi.nlm.nih.gov/38716620/
+
+  rcts:
+    - https://pubmed.ncbi.nlm.nih.gov/27763802/
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC7177795/
+    - https://pubmed.ncbi.nlm.nih.gov/33710261/
+    - https://pubmed.ncbi.nlm.nih.gov/22610748/
+    - https://pubmed.ncbi.nlm.nih.gov/26048342/
+    - https://pubmed.ncbi.nlm.nih.gov/35956334/
+    - https://pubmed.ncbi.nlm.nih.gov/20374974/
+
+  pharmacokinetics:
+    - https://pubmed.ncbi.nlm.nih.gov/17506780/
+    - https://pubmed.ncbi.nlm.nih.gov/29342955/
+    - https://pubmed.ncbi.nlm.nih.gov/23501155/
+
+  reviews:
+    - https://pubmed.ncbi.nlm.nih.gov/31004881/
+    - https://pubmed.ncbi.nlm.nih.gov/31431019/
+    - https://pubmed.ncbi.nlm.nih.gov/34678416/
+
+  pharmacopoeias:
+    - https://apps.who.int/iris/bitstream/handle/10665/42052/9789241547024_eng.pdf
+    - https://link.springer.com/article/10.1007/s11101-016-9470-4
+    - https://herbal-ahp.org/
+
+  general_references:
+    - https://www.mskcc.org/cancer-care/integrative-medicine/herbs/schisandra
+    - https://www.drugs.com/npp/schisandra.html
+    - https://www.webmd.com/vitamins/ai/ingredientmono-376/schisandra

@@ -1,0 +1,547 @@
+---
+# Lion's Mane (Hericium erinaceus) Clinical Bibliography
+# Focus: Clinical studies, systematic reviews, pharmacokinetics, safety, standardized extracts
+# Compiled: 2026-01-15
+
+systematic_reviews:
+  - id: menon_2025
+    title: "Benefits, side effects, and uses of Hericium erinaceus as a supplement: a systematic review"
+    authors:
+      - Menon, Arya
+      - Jalal, Ayesha
+      - Arshad, Zara
+      - Nawaz, Faisal A
+      - Kashyap, Rahul
+    year: 2025
+    journal: Frontiers in Nutrition
+    doi: 10.3389/fnut.2025.1641246
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40959699/
+    study_type: Systematic review (PRISMA guidelines)
+    studies_included:
+      randomized_controlled_trials: 5
+      pilot_clinical_trials: 3
+      laboratory_studies: 15
+      cohort_studies: 1
+      case_reports: 1
+      computer_analyses: 1
+    key_findings:
+      cognitive_improvement: "Combined weighted mean increase of 1.17 in Mini-Mental State Examination scores from one RCT and one PCT"
+      mechanisms: "Enhanced BDNF production demonstrated for mood benefits (depression, anxiety, sleep disorders)"
+      anticancer: "Erinacine A inhibited gastric cancer cell invasiveness and activated apoptotic pathways"
+      safety: "Potential side effects include stomach discomfort, headache, and allergic reactions (commonly unreported)"
+
+  - id: spangenberg_2025
+    title: "Unveiling the role of erinacines in the neuroprotective effects of Hericium erinaceus: a systematic review in preclinical models"
+    authors:
+      - Spangenberg, E T
+      - Moneypenny, A
+      - Bozzo, G G
+      - Perreault, M L
+    year: 2025
+    journal: Frontiers in Pharmacology
+    doi: 10.3389/fphar.2025.1582081
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40626304/
+    study_type: Systematic review (preclinical)
+    references_cited: 62
+    key_findings:
+      mechanism: "Erinacine A and C uniquely induced accumulation of Nrf2 transcription factor, key regulator of antioxidant response"
+      behavioral_effects: "Dose-dependent benefits in motor, cognitive, and depression-like behaviours in animal models"
+      pathways: "Antioxidant responses and pro-survival signaling pathway activation"
+      therapeutic_potential: "Accessible, cost-effective interventions for aging-related and neurodegenerative conditions"
+
+randomized_controlled_trials:
+  - id: li_2020_alzheimers
+    title: "Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study"
+    authors:
+      - Li, I-Chen
+      - Chang, Han-Hsin
+      - Lin, Chuan-Han
+      - Chen, Wan-Ping
+      - Lu, Tsung-Han
+      - Lee, Li-Ya
+      - Chen, Yu-Wen
+      - Chen, Yen-Po
+      - Chen, Chin-Chu
+      - Lin, David Pei-Cheng
+    year: 2020
+    journal: Frontiers in Aging Neuroscience
+    doi: 10.3389/fnagi.2020.00155
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32581767/
+    study_type: Double-blind, placebo-controlled pilot trial
+    sample_size: Not specified
+    population: Patients with mild Alzheimer's Disease
+    intervention:
+      dose: "Three 350 mg capsules daily"
+      erinacine_a_content: "5 mg/g"
+      total_daily_dose: "1050 mg H. erinaceus mycelia (containing ~5.25 mg erinacine A)"
+      duration: "49 weeks"
+      screening_period: "3 weeks"
+    outcomes:
+      mmse: "Significant improvement in Mini-Mental State Examination score in EAHE group vs decline in placebo"
+      iadl: "Significant Instrumental Activities of Daily Living score difference between groups favoring intervention"
+      visual_function: "Enhanced contrast sensitivity in intervention arm vs placebo"
+    safety:
+      adverse_events: "4 subjects dropped out due to abdominal discomfort, nausea, and skin rash"
+      other_events: "No other adverse events reported"
+
+  - id: mori_2009
+    title: "Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial"
+    authors:
+      - Mori, Koichiro
+      - Inatomi, Satoshi
+      - Ouchi, Kenzi
+      - Azumi, Yoshihito
+      - Tuchida, Takashi
+    year: 2009
+    journal: Phytotherapy Research
+    doi: 10.1002/ptr.2634
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18844328/
+    study_type: Double-blind, placebo-controlled RCT
+    sample_size: 30 (15 per group)
+    population: "Men and women aged 50-80 years with mild cognitive impairment"
+    intervention:
+      dose: "Four 250 mg tablets, three times daily"
+      total_daily_dose: "3000 mg (3 g)"
+      content: "96% Yamabushitake (H. erinaceus) dry powder"
+      duration: "16 weeks treatment + 4 weeks observation"
+    outcomes:
+      cognitive_scale: "Yamabushitake group showed significantly increased scores on cognitive function scale at weeks 8, 12, and 16 vs placebo"
+      dose_response: "Improvements increased with longer intake duration"
+      persistence: "Scores declined significantly 4 weeks after cessation"
+    safety:
+      findings: "No adverse effect of Yamabushitake observed in laboratory testing"
+
+  - id: saitsu_2019
+    title: "Improvement of cognitive functions by oral intake of Hericium erinaceus"
+    authors:
+      - Saitsu, Yuusuke
+      - Nishide, Akemi
+      - Kikushima, Kenji
+      - Shimizu, Kuniyoshi
+      - Ohnuki, Koichiro
+    year: 2019
+    journal: Biomedical Research
+    doi: 10.2220/biomedres.40.125
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/31413233/
+    study_type: Double-blind, placebo-controlled, parallel-group RCT
+    sample_size: Not specified
+    intervention:
+      preparation: "Supplements containing fruiting body of H. erinaceus"
+      duration: "12 weeks"
+    outcomes:
+      mmse: "MMSE showed that oral intake of H. erinaceus significantly improved cognitive functions and prevented deterioration"
+      mechanisms: "Various chemical compounds, including hericenones, in the mushroom have multiple effects on brain neural networks"
+      conclusion: "Safe and convenient method for dementia prevention"
+
+  - id: docherty_2023
+    title: "The Acute and Chronic Effects of Lion's Mane Mushroom Supplementation on Cognitive Function, Stress and Mood in Young Adults: A Double-Blind, Parallel Groups, Pilot Study"
+    authors:
+      - Docherty, Sarah
+      - Doughty, Faye L
+      - Smith, Ellen F
+    year: 2023
+    journal: Nutrients
+    doi: 10.3390/nu15224842
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38004235/
+    study_type: Double-blind, placebo-controlled, parallel-groups pilot RCT
+    sample_size: 41
+    population: "Healthy adults aged 18-45 years"
+    intervention:
+      dose: "1.8 g Hericium erinaceus"
+      acute_assessment: "60 minutes post-dose"
+      chronic_duration: "28 days"
+    outcomes:
+      acute_cognition: "Improved speed on Stroop task performance (p = 0.005) at 60 minutes post single dose"
+      chronic_stress: "Trend toward reduced subjective stress (p = 0.051) after 28 days"
+      limitations: "Null and limited negative findings also observed; recommend further investigation in larger sample sizes"
+
+  - id: surendran_2025
+    title: "Acute effects of a standardised extract of Hericium erinaceus (Lion's Mane mushroom) on cognition and mood in healthy younger adults: a double-blind randomised placebo-controlled study"
+    authors:
+      - Surendran
+      - Saye
+      - Binti Mohd Jalil
+      - Spreadborough
+      - Duong
+      - Shatwan
+      - Lilley
+      - Heinrich
+      - Dodd
+      - Surendran
+    year: 2025
+    journal: Frontiers in Nutrition
+    doi: 10.3389/fnut.2025.1405796
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40276537/
+    study_type: Double-blind, randomized, placebo-controlled, crossover intervention
+    sample_size: 18
+    population: "Healthy participants aged 18-35 years"
+    intervention:
+      dose: "3 grams"
+      extract_ratio: "10:1 fruiting body extract"
+      administration: "Acute single dose"
+    outcomes:
+      global_measures: "No significant effect for composite measures of global cognitive function and mood"
+      specific_tasks: "Improved performance on pegboard testing at 90 minutes post-consumption"
+      conclusion: "Acute supplementation benefits may be task or domain specific"
+
+  - id: nagano_2010
+    title: "Reduction of depression and anxiety by 4 weeks Hericium erinaceus intake"
+    authors:
+      - Nagano, Mayumi
+      - Shimizu, Kuniyoshi
+      - Kondo, Ryuichiro
+      - Hayashi, Chickako
+      - Sato, Daigo
+      - Kitagawa, Katsuyuki
+      - Ohnuki, Koichiro
+    year: 2010
+    journal: Biomedical Research
+    doi: 10.2220/biomedres.31.231
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/20834180/
+    study_type: Double-blind RCT
+    sample_size: 30 females
+    intervention:
+      preparation: "H. erinaceus cookies"
+      duration: "4 weeks"
+    outcomes:
+      depression: "Depression scores (CES-D) significantly decreased following treatment"
+      anxiety: "Anxiety and related complaints notably reduced vs baseline"
+      specific_symptoms: "Two symptom categories ('insentive' and 'palpitatio') showed significantly lower scores in HE group vs placebo"
+      trends: "Three measures ('concentration,' 'irritating,' 'anxious') demonstrated trends toward improvement"
+
+pharmacokinetics_bioavailability:
+  - id: tsai_2021
+    title: "Preclinical Bioavailability, Tissue Distribution, and Protein Binding Studies of Erinacine A, a Bioactive Compound from Hericium erinaceus Mycelia Using Validated LC-MS/MS Method"
+    authors:
+      - Tsai, Pei-Ching
+      - Wu, Yi-Kai
+      - Hu, Jun-Hao
+      - Li, I-Chen
+      - Lin, Ting-Wei
+      - Chen, Chin-Chu
+      - Kuo, Chia-Feng
+    year: 2021
+    journal: Molecules
+    doi: 10.3390/molecules26154510
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/34361662/
+    study_type: Preclinical pharmacokinetic study (rats)
+    analytical_method: "Validated LC-MS/MS (liquid chromatography-tandem mass spectrometry)"
+    dosing:
+      oral: "2.381 g/kg body weight H. erinaceus extract (equivalent to 50 mg/kg erinacine A)"
+      intravenous: "5 mg/kg pure erinacine A"
+    key_findings:
+      absolute_bioavailability: "24.39%"
+      brain_penetration: "Erinacine A penetrated brain within 1 hour after oral dosing"
+      peak_concentration: "Reached peak brain concentrations at 8 hours"
+      elimination: "Feces identified as primary elimination route"
+
+  - id: hu_2019
+    title: "Absolute Bioavailability, Tissue Distribution, and Excretion of Erinacine S in Hericium erinaceus Mycelia"
+    authors:
+      - Hu, Jun-Hao
+      - Li, I-Chen
+      - Lin, Ting-Wei
+      - Chen, Wan-Ping
+      - Lee, Li-Ya
+      - Chen, Chin-Chu
+      - Kuo, Chia-Feng
+    year: 2019
+    journal: Molecules
+    doi: 10.3390/molecules24081624
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/31022946/
+    study_type: Pharmacokinetic study (Sprague-Dawley rats)
+    dosing:
+      oral: "2.395 g/kg body weight extract (equivalent to 50 mg/kg Erinacine S)"
+      intravenous: "5 mg/kg Erinacine S"
+    key_findings:
+      absolute_bioavailability: "15.13%"
+      distribution: "Maximum stomach concentration at 2 hours post-oral; maximum tissue concentrations (brain, heart, lung, liver, kidney, intestines) at 8 hours"
+      bbb_penetration: "Successfully crossed blood-brain barrier"
+      excretion: "Only 0.1% of oral dose eliminated unchanged in feces and urine within 24 hours"
+
+standardization_extraction:
+  - id: liu_2024
+    title: "Isolation and Evaluation of Erinacine A Contents in Mycelia of Hericium erinaceus Strains"
+    authors:
+      - Liu, Mengchen
+      - Liu, Liangliang
+      - Song, Xiaoya
+      - Zhou, Yingjun
+      - Peng, Yuande
+      - Xie, Chunliang
+      - Gong, Wenbing
+    year: 2024
+    journal: Foods
+    doi: 10.3390/foods13111649
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38890878/
+    study_type: Experimental research on bioactive compound isolation and strain screening
+    method: "High-speed counter current chromatography (HSCCC)"
+    key_findings:
+      purity_achieved: "Over 95% erinacine A purity using HSCCC"
+      strain_variation: "Content and yield of erinacine A varied greatly among surveyed strains"
+      best_strain: "Wild strain HeG achieved 42.16 mg/g content and 358.78 mg/L yield"
+      significance: "Results surpassed previous submerged cultivation outcomes; establishes scalable extraction methodology"
+
+toxicology_safety:
+  - id: li_2014_toxicity
+    title: "Evaluation of the toxicological safety of erinacine A-enriched Hericium erinaceus in a 28-day oral feeding study in Sprague-Dawley rats"
+    authors:
+      - Li, I-Chen
+      - Chen, Yen-Lien
+      - Lee, Li-Ya
+      - Chen, Wan-Ping
+      - Tsai, Yueh-Ting
+      - Chen, Chin-Chu
+      - Chen, Chin-Shuh
+    year: 2014
+    journal: Food and Chemical Toxicology
+    doi: 10.1016/j.fct.2014.04.040
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24810469/
+    study_type: Sub-acute toxicity assessment (28-day repeated oral administration)
+    test_article: "H. erinaceus mycelium enriched with 5 mg/g erinacine A"
+    dose_groups:
+      - "1 g/kg body weight/day"
+      - "2 g/kg body weight/day"
+      - "3 g/kg body weight/day"
+      - "Control: distilled water"
+    key_findings:
+      survival: "100% survival; all animals completed 28-day study"
+      clinical_signs: "No abnormal changes observed"
+      laboratory_parameters: "No treatment-related differences in urinalysis, blood chemistry, or hematology"
+      pathology: "Absence of gross and histological pathological findings between treatment and control groups"
+      noael: "Greater than 3 g/kg body weight/day (highest dose tested)"
+
+  - id: lee_2019_toxicity
+    title: "Thirteen-Week Oral Toxicity Evaluation of Erinacine A-Enriched Lion's Mane Medicinal Mushroom, Hericium erinaceus (Agaricomycetes), Mycelia in Sprague-Dawley Rats"
+    authors:
+      - Lee, Li-Ya
+      - Li, I-Chen
+      - Chen, Wan-Ping
+      - Tsai, Yueh-Ting
+      - Chen, Chin-Chu
+      - Tung, Kwong-Chung
+    year: 2019
+    journal: International Journal of Medicinal Mushrooms
+    doi: 10.1615/IntJMedMushrooms.2019030320
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/31002635/
+    study_type: Subchronic oral toxicity evaluation
+    duration: "13 weeks"
+    dose_groups:
+      - "0 mg/kg (control)"
+      - "875 mg/kg body weight"
+      - "1,750 mg/kg body weight"
+      - "2,625 mg/kg body weight"
+    key_findings:
+      mortality: "No mortalities observed"
+      toxicological_effects: "No noticeable toxicological effects during study period"
+      body_weight_feed: "Body weight and feed consumption remained unaffected"
+      hematology_biochemistry: "No significant differences between treatment and control groups"
+      histopathology: "No treatment-related changes"
+      conclusion: "EAHE mycelia could be relatively unharmful when used over extended period"
+      implied_noael: "2,625 mg/kg body weight (highest tested dose)"
+
+  - id: chen_2022_toxicity
+    title: "Subchronic toxicity and genotoxicity studies of Hericium erinaceus β-glucan extract preparation"
+    authors:
+      - Chen, S N
+      - Chang, C S
+      - Yang, M F
+      - Chen, S
+      - Soni, M
+      - Mahadevan, B
+    year: 2022
+    journal: Current Research in Toxicology
+    doi: 10.1016/j.crtox.2022.100068
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35341120/
+    study_type: Subchronic toxicity and genotoxicity assessment
+    test_article: "H. erinaceus β-glucan extract preparation"
+    duration: "90 days (gavage administration in rats)"
+    dose_groups:
+      - "0 mg/kg/day (control)"
+      - "500 mg/kg/day"
+      - "1,000 mg/kg/day"
+      - "2,000 mg/kg/day"
+    key_findings:
+      toxicity: "No toxicologically significant treatment-related changes in clinical observations, body weights, organ weights, or pathology"
+      genotoxicity: "No mutagenic effects in genotoxicity testing"
+      noael: "2,000 mg/kg body weight/day (highest tested dose)"
+
+  - id: livertox_2024
+    title: "Lion's Mane - LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    authors: "National Institute of Diabetes and Digestive and Kidney Diseases"
+    year: 2024
+    last_updated: "January 5, 2024"
+    publication_year_range: "2012-"
+    source_url: https://www.ncbi.nlm.nih.gov/books/NBK599740/
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38289992/
+    study_type: Clinical safety monograph
+    key_findings:
+      safety_classification: "Generally recognized as safe"
+      likelihood_score: "E (unlikely cause of clinically apparent liver injury)"
+      hepatotoxicity: "Has not been linked to serum enzyme elevations during therapy nor to episodes of clinically apparent liver injury"
+      registry_data: "No reported cases in major hepatotoxicity registries or systematic reviews"
+      gastrointestinal_effects: "Mild complaints in <10% of treated subjects (abdominal discomfort, nausea, diarrhea)"
+      hypersensitivity: "One acute hypersensitivity reaction documented"
+      discontinuation: "Most adverse events do not require discontinuation"
+
+mechanisms_ngf:
+  - id: mori_2008_ngf
+    title: "Nerve growth factor-inducing activity of Hericium erinaceus in 1321N1 human astrocytoma cells"
+    authors:
+      - Mori, Koichiro
+      - Obara, Yutaro
+      - Hirota, Mitsuru
+      - Azumi, Yoshihito
+      - Kinugasa, Satomi
+      - Inatomi, Satoshi
+      - Nakahata, Norimichi
+    year: 2008
+    journal: Biological & Pharmaceutical Bulletin
+    doi: 10.1248/bpb.31.1727
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18758067/
+    study_type: In vitro and in vivo experimental research
+    key_findings:
+      specificity: "Among four edible mushroom extracts tested, only H. erinaceus demonstrated concentration-dependent NGF mRNA promotion in astrocytoma cells"
+      protein_secretion: "Extract enhanced NGF protein secretion; conditioned medium subsequently stimulated neurite outgrowth in PC12 cells"
+      active_compounds: "Individual hericenone compounds (C, D, E) failed to promote NGF gene expression, suggesting unidentified active constituents"
+      mechanism: "JNK pathway activation; enhancement inhibited by c-jun N-terminal kinase (JNK) inhibitor SP600125"
+      in_vivo: "Mice consuming 5% H. erinaceus powder for one week showed increased hippocampal NGF mRNA expression"
+
+  - id: brandalise_2017
+    title: "Dietary Supplementation of Hericium erinaceus Increases Mossy Fiber-CA3 Hippocampal Neurotransmission and Recognition Memory in Wild-Type Mice"
+    authors:
+      - Brandalise, Federico
+      - Cesaroni, Valentina
+      - Gregori, Andrej
+      - Repetti, Margherita
+      - Romano, Chiara
+      - Orrù, Germano
+      - Botta, Laura
+      - Girometta, Carolina
+      - Guglielminetti, Maria Lidia
+      - Savino, Elena
+      - Rossi, Paola
+    year: 2017
+    journal: Evidence-Based Complementary and Alternative Medicine
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/28115973/
+    study_type: Preclinical - Animal Study (mice)
+    sample_size:
+      emergence_test: "n=12 control, n=22 supplemented"
+      novel_object_recognition: "n=10 control, n=15 supplemented"
+      electrophysiology: "n=6-8 per group"
+    key_findings:
+      behavioral: "Significant improvement in recognition memory via novel object recognition test"
+      neurophysiological: "Increased spontaneous and evoked excitatory synaptic currents at mossy fiber-CA3 hippocampal synapses"
+      significance: "Cognitive benefits observed in healthy mice, not just disease models, suggesting preventive potential"
+
+gut_microbiota:
+  - id: xie_2021
+    title: "Influence of Short-Term Consumption of Hericium erinaceus on Serum Biochemical Markers and the Changes of the Gut Microbiota: A Pilot Study"
+    authors:
+      - Xie, Xiao-Qian
+      - Geng, Yan
+      - Guan, Qijie
+      - Ren, Yilin
+      - Guo, Lin
+      - Lv, Qiqi
+      - Lu, Zhen-Ming
+      - Shi, Jin-Song
+      - Xu, Zheng-Hong
+    year: 2021
+    journal: Nutrients
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33800983/
+    study_type: Pilot intervention study
+    study_design: "Three phases - baseline, intervention, wash-out"
+    sample_size: 13
+    population: "Healthy adults"
+    intervention:
+      preparation: "H. erinaceus powder as dietary supplement"
+      duration: "7 days"
+    key_findings:
+      microbiota_diversity: "Increased alpha diversity within gut microbiota community following daily supplementation"
+      upregulated_scfa_bacteria:
+        - "Kineothrix alysoides"
+        - "Gemmiger formicilis"
+        - "Fusicatenibacter saccharivorans"
+        - "Eubacterium rectale"
+        - "Faecalibacterium prausnitzii"
+      downregulated_pathobionts:
+        - "Streptococcus thermophilus"
+        - "Bacteroides caccae"
+        - "Romboutsia timonensis"
+      biochemical_markers:
+        significant_changes: "Alkaline phosphatase (ALP), low-density lipoprotein (LDL), uric acid (UA), and creatinine (CREA) all showed significant changes (p < 0.01 or p < 0.001)"
+        correlations: "Changes within gut microbiota correlated with blood chemical indices"
+      conclusion: "Short-term H. erinaceus consumption positively modulates gut microbiota composition and associated metabolic markers"
+
+traditional_medicine:
+  - id: khan_2013
+    title: "Hericium erinaceus: an edible mushroom with medicinal values"
+    authors:
+      - Khan, Md Asaduzzaman
+      - Tania, Mousumi
+      - Liu, Rui
+      - Rahman, Mohammad Mijanur
+    year: 2013
+    journal: Journal of Complementary and Integrative Medicine
+    doi: 10.1515/jcim-2013-0001
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/23735479/
+    study_type: Review article
+    key_findings:
+      traditional_use: "Long history of usage in traditional Chinese medicine (documented over 1000 years); used for dyspepsia and gastric ulcers"
+      primary_constituents: "β-glucan polysaccharides responsible for therapeutic properties"
+      documented_activities:
+        - "Anti-cancer potential"
+        - "Immune-modulating effects"
+        - "Hypolipidemic activity"
+        - "Antioxidant capabilities"
+        - "Neuroprotective function"
+        - "Anti-microbial, anti-hypertensive, anti-diabetic properties"
+        - "Wound healing support"
+
+notes:
+  pharmacopoeia_status: "No WHO or Commission E monographs identified for H. erinaceus. Included in Chinese Pharmacopoeia; widely used in traditional Chinese medicine, Japanese Kampo medicine, and Korean traditional medicine."
+
+  standardization_challenges: "Significant variation in erinacine A content across strains (Liu 2024). Standardization methods using HPLC, LC-MS/MS established but not universally applied in commercial products."
+
+  dosing_summary: |
+    Clinical trials used varied doses:
+    - Cognitive impairment: 3,000 mg/day (96% dry powder) for 16 weeks (Mori 2009)
+    - Early Alzheimer's: 1,050 mg/day mycelia (5 mg/g erinacine A) for 49 weeks (Li 2020)
+    - Acute cognitive effects: 1,800 mg single dose (Docherty 2023) to 3,000 mg single dose (Surendran 2025)
+    - Mood/anxiety: Cookies containing H. erinaceus for 4 weeks (Nagano 2010, dose not specified)
+
+  bioavailability_summary: |
+    - Erinacine A: 24.39% absolute bioavailability (Tsai 2021)
+    - Erinacine S: 15.13% absolute bioavailability (Hu 2019)
+    - Both compounds cross blood-brain barrier
+    - Peak brain concentrations at 8 hours post-oral dose
+
+  safety_summary: |
+    - NOAEL >3,000 mg/kg/day in 28-day rat study (Li 2014)
+    - NOAEL ≥2,625 mg/kg/day in 13-week rat study (Lee 2019)
+    - NOAEL 2,000 mg/kg/day for β-glucan extract in 90-day study (Chen 2022)
+    - Generally recognized as safe; no hepatotoxicity (LiverTox 2024)
+    - Main adverse effects: mild GI symptoms (<10% subjects), rare hypersensitivity
+
+  research_gaps: |
+    - Limited large-scale clinical trials
+    - Need for standardization of extraction methods
+    - Pharmacokinetics in humans not fully elucidated
+    - Active constituents beyond erinacines and hericenones not fully identified (Mori 2008)
+    - Optimal dosing and treatment duration require further investigation
+    - Meta-analyses limited by incomplete reporting in existing studies (Menon 2025)
+    - Lack of standardized testing methods for bioactive compounds
+    - Most mycelium products grown on grain substrates; difficult to separate from fillers
+    - Need for minimum effective concentrations of erinacines, hericenones, and polysaccharides
+    - Long-term safety data beyond 49 weeks needed
+
+  compound_comparison: |
+    Fruiting body vs. Mycelium:
+    - Fruiting body: Rich in hericenones (<20 to 500 µg/g dry weight)
+    - Mycelium: Rich in erinacines (~150 µg/g)
+    - Both contain β-glucan polysaccharides (beta 1-3, 1-6 glucan)
+    - Erinacines show greater NGF secretion in bioassays than hericenones
+    - Both compound types are low molecular weight and can cross blood-brain barrier
+    - Erinacine A bioavailability (24.39%) higher than Erinacine S (15.13%)
+    - Peak brain concentrations for erinacines occur at 8 hours post-oral dose

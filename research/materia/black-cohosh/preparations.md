@@ -1,294 +1,329 @@
-# Black Cohosh - Preparations & Dosing
+# Black Cohosh - Preparations and Dosing
 
-## Clinical Standardized Extracts
+## Clinical Trial-Based Preparations
 
-### Isopropanolic Extracts (Most Studied)
+### Isopropanolic Extract (iCR) - Gold Standard
 
-#### Remifemin (Primary Clinical Product)
-- **Solvent**: Isopropanol (isopropyl alcohol)
-- **Standardization**: 1 mg triterpene glycosides per 20 mg tablet (2.5% triterpene glycosides)
-- **Standard dose**: 40 mg/day (typically 1 tablet = 20 mg, taken twice daily)
-- **Equivalent triterpene glycoside intake**: 2 mg/day
-- **Form**: Tablet
-- **Duration**: 8-54 weeks in studies (Commission E recommends max 6 months)
+**Evidence Base:**
+- **Patients Studied:** >11,000 in clinical trials
+- **Evidence Level:** 1b efficacy, 1a safety (Beer 2013)
+- **Recommendation Grade:** A
+- **Description:** Consistent confirmatory evidence; strongest clinical evidence base
 
-**Clinical evidence**:
-- Most extensive evidence base among black cohosh products
-- Used in Beer 2021 meta-analysis (43,759 women)
-- Osmers 2005 RCT: 304 patients, 40 mg/day, 12 weeks
-- Wuttke 2007 RCT: 244 Chinese patients, 40 mg/day
-- Naser 2011 safety meta-analysis: 1,117 women, no hepatotoxicity
+**Typical Dosing:**
+- **Standard Dose:** 40 mg daily
+- **Studied Range:** 40-80 mg daily
+- **Duration:** 12 weeks for efficacy assessment; safe up to 12 months
 
-**Frequency**:
-- Manufacturer recommendation: 1 tablet (20 mg) twice daily = 40 mg/day
-- Recent data suggests 20 mg twice daily may be as effective as 40 mg twice daily (StatPearls)
+**Standardization:**
+- Isopropanolic extraction process
+- Often standardized to triterpene glycoside content
+- **USP Minimum:** ≥0.4% triterpene glycosides (calculated as 23-epi-26-deoxyactein)
 
-**Sources**: PMID 33021111, PMID 15863547, PMID 17587516, PMID 21228727, PMID 29261886
+**Commercial Examples (from trials):**
+- Klimadynon (40 mg daily in Nasr 2009 12-month safety study)
+- Various iCR preparations in meta-analyses
 
-#### Higher Dose Isopropanolic Extracts
-- **Dose range studied**: 40-160 mg/day
-- **127 mg/day vs 40 mg/day**: Similar safety and efficacy for 6 months (StatPearls)
-- **Meta-analysis finding**: Higher dosages showed greater effect sizes
-  - iCR monotherapy high dose: SMD -1.020
-  - Standard doses: SMD -0.694
-- **Interpretation**: Dose-dependent efficacy, but 40 mg/day remains standard recommendation
+**Clinical Performance:**
+- **Castelo-Branco 2021:** 13,096 patients; SMD -0.694 (p < 0.0001) vs placebo
+- **Higher Doses:** SMD -1.020 and -0.999 (dose-dependent effect)
+- **Equivalence to HRT:** Comparable to low-dose estradiol and tibolone (Nappi 2005)
 
-**Sources**: PMID 33021111, PMID 29261886
+**Reference:**
+- Beer 2013: https://pubmed.ncbi.nlm.nih.gov/24062793/
+- Castelo-Branco 2021: https://pubmed.ncbi.nlm.nih.gov/33021111/
 
-### Ethanolic (Alcohol) Extracts
+---
 
-#### German Commission E Recommendation
-- **Solvent**: Ethanol (ethyl alcohol)
-- **Dose**: 40 mg/day of alcohol extracts
-- **Duration**: Not to exceed 6 months of continuous use
-- **Part used**: Black cohosh rhizome (root stock)
-- **Standardization**: Not specified in Commission E, but typically 2.5% triterpene glycosides
+### Ethanolic Extract
 
-**Source**: German Commission E Monographs (1998)
+**Evidence Base:**
+- **Patients Studied:** >500 in clinical trials
+- **Evidence Level:** 2b (Beer 2013)
+- **Recommendation Grade:** B
+- **Description:** Weaker evidence base compared to isopropanolic extract
 
-#### Pharmacokinetic Study Extract (Reame 2010)
-- **Solvent**: 75% ethanol
-- **Doses studied**: Containing 1.4, 2.8, or 5.6 mg of 23-epi-26-deoxyactein
-- **Purpose**: Single-dose PK study (not for clinical dosing recommendations)
-- **Finding**: Half-life ~2 hours, Tmax 2-2.9 hours
+**Typical Dosing:**
+- **Standard Dose:** 40 mg daily
+- **Studied Range:** 40-160 mg daily
 
-**Source**: PMID 20032972
+**Example Studies:**
+- **Frei-Kleiner 2005:** Dried ethanolic extract, 12 weeks
+  - No overall superiority vs placebo in full cohort
+  - Effective in subgroup with severe symptoms (Kupperman Index ≥20): 47% decrease vs 21% placebo (p < 0.018)
+- **Fernandes 2020:** 160 mg dry extract containing 4 mg triterpene glycosides for 28 days
+  - Significant improvement in endothelial function (p = 0.018)
 
-### Dried Extracts (Concentrated Powders)
+**Clinical Implication:** Variable efficacy; may be effective in women with higher symptom burden; less consistent than iCR
 
-#### Iranian Clinical Studies Preparation
-- **Product**: Cimifugol (Goldaru Pharmaceutical Company, Iran)
-- **Form**: Tablet containing dried extract
-- **Dose**: 6.5 mg/day (1 tablet daily)
-- **Part used**: Dried extract of black cohosh roots
-- **Duration**: 8 weeks
+---
 
-**Clinical evidence**:
-- Mohammad-Alizadeh-Charandabi 2013: 84 participants
-  - Week 4: 51% reduction in Greene climacteric scale (treatment) vs 27% (control)
-  - Week 8: 77% reduction (treatment) vs 38% (control)
-- Shahnazi 2013: 84 participants
-  - Significant reduction in hot flashes and night sweats
-  - Well tolerated with minimal side effects
+### Ze 450 Extract - Dose-Response Data
 
-**Interpretation**: 6.5 mg dried extract appears roughly equivalent to 40 mg isopropanolic extract, suggesting approximately 6:1 concentration ratio.
+**Dose-Finding Study (Schellenberg 2012):**
+- **Sample:** 180 participants, 12-week RCT
+- **Extract:** Ze 450 (proprietary standardized extract)
 
-**Sources**: PMID 24499633, PMID 25276716
+**Doses and Outcomes:**
 
-## Combination Products
+**13.0 mg CR extract (high dose):**
+- Mean absolute difference: 17.0 points on Kupperman Index (95% CI 14.65-19.35)
+- Statistical significance: p < 0.0001 vs placebo
+- **Clinical Interpretation:** Strong effect; highly significant symptom reduction
 
-### Black Cohosh + St. John's Wort (Clinical Evidence)
+**6.5 mg CR extract (low dose):**
+- Mean absolute difference: 8.47 points on Kupperman Index (95% CI 5.55-11.39)
+- Statistical significance: p = 0.0003 vs placebo
+- **Clinical Interpretation:** Effective but approximately half the effect of high dose
 
-#### Uebelhack 2006 Combination Study
-- **Preparation**: Fixed combination of:
-  - Ethanolic St. John's wort extract (Hypericum perforatum)
-  - Isopropanolic black cohosh extract
-- **Sample**: 301 women with climacteric complaints and psychological symptoms
-- **Duration**: 16 weeks
-- **Design**: Double-blind, randomized, placebo-controlled
+**Key Finding:** Clear dose-dependent response; higher dose nearly twice as effective
 
-**Results**:
-- Menopause Rating Scale (MRS) decreased 50% (treatment) vs 19.6% (placebo)
-- Hamilton Depression Rating Scale (HAMD) decreased 41.8% (treatment) vs 12.7% (placebo)
-- No relevant group differences in adverse events, laboratory values, or tolerability
-- Superior to placebo for climacteric complaints with psychological component
+**Safety:** No safety concerns at either dose level
 
-**Clinical indication**: Menopausal symptoms with significant mood/psychological component (depression, anxiety, irritability)
+**Clinical Recommendation:** For Ze 450 specifically, 13.0 mg superior to 6.5 mg if higher symptom relief needed
 
-**Source**: PMID 16449108
+**Reference:** https://pubmed.ncbi.nlm.nih.gov/23346194/
+
+---
+
+## Dosing by Clinical Indication
+
+### Menopausal Symptoms (Hot Flashes, Somatic Symptoms)
+
+**First-Line Recommendation: Isopropanolic Extract (iCR)**
+- **Starting Dose:** 40 mg daily
+- **Frequency:** Once daily (standard in trials)
+- **Duration to Assess Response:** 12 weeks
+- **Maximum Studied Duration:** 12 months (safe)
+- **Regulatory Maximum:** 6 months continuous (Commission E); reassess and consider break
+
+**Alternative: Ethanolic Extract**
+- **Dose:** 40-160 mg daily
+- **Patient Selection:** May be more effective in women with severe symptoms (Kupperman Index ≥20)
+
+**Dose Optimization (if using Ze 450):**
+- **Initial:** 6.5 mg daily
+- **If Inadequate Response:** Increase to 13.0 mg daily
+- **Evidence:** Dose-dependent effect demonstrated (Schellenberg 2012)
+
+---
+
+### Cardiovascular Benefits (Endothelial Function)
+
+**Short-Term Use (Fernandes 2020):**
+- **Dose:** 160 mg dry extract containing 4 mg triterpene glycosides
+- **Frequency:** Daily
+- **Duration:** 28 days showed significant improvement in flow-mediated dilation
+- **Clinical Context:** Short-term vascular benefits; not primary indication but favorable side effect
+
+---
+
+### Uterine Fibroids + Menopausal Symptoms
+
+**Isopropanolic Extract (iCR) - Xi 2014:**
+- **Dose:** 40 mg crude drug daily
+- **Evidence:** 30% reduction in fibroid volume (p = 0.016) while providing symptom relief
+- **Clinical Advantage:** Safe option for women with fibroids (contrasts with tibolone which increased fibroid volume by 4.7%)
+
+---
+
+### PCOS-Related Infertility (Emerging, Limited Evidence)
+
+**Combination Therapy (Fan 2022 systematic review):**
+- **Intervention:** Black cohosh + clomiphene citrate (CC)
+- **Evidence:** 3 RCTs reported improved pregnancy rates vs CC alone
+- **Dose:** Not standardized across trials in systematic review
+- **Status:** Insufficient high-quality evidence for definitive dosing recommendations
+- **Clinical Implication:** May be considered as adjunct; individualized approach recommended
+
+---
+
+## Standardized Extract Specifications
+
+### Triterpene Standardization
+
+**USP Monograph Standard:**
+- **Minimum:** ≥0.4% triterpene glycosides (calculated as 23-epi-26-deoxyactein, C₃₇H₅₆O₁₀)
+- **Plant Material:** Dried rhizome and roots of *Actaea racemosa* L.
+- **Harvest:** Summer
+
+**Clinical Trial Range:**
+- **Low End:** 0.4% triterpenes (USP minimum)
+- **High End:** 2.5% triterpenes (e.g., Fernandes 2020: 4 mg in 160 mg extract)
+
+**Clinical Recommendation:** Choose products standardized to minimum 0.4% triterpene glycosides; higher standardization may provide greater effect
+
+---
+
+## Traditional Preparation Methods (From Regulatory Monographs)
+
+### Dried Herb (British Herbal Compendium)
+
+**Dose:** 40-200 mg dried herb daily
+**Administration:** Divided into multiple doses
+**Plant Part:** Dried rhizome and roots
+
+**Preparation Methods (Inferred):**
+- **Decoction:** Simmer dried rhizome/roots in water; strain
+- **Infusion:** Steep in hot water (less common for roots; decoction preferred)
+- **Divided Dosing:** 2-3 times daily (aligns with 2-hour half-life of triterpenes)
+
+**Modern Equivalent:**
+- Capsules or tablets of powdered dried herb
+- Less standardized than extracts; variable triterpene content
+- **Clinical Note:** Dried herb preparations have less robust clinical evidence than standardized extracts
+
+---
+
+### Alcohol Extracts (Commission E, Historical Use)
+
+**Traditional Tincture Preparation:**
+- **Menstruum:** Alcohol (ethanol) for extraction
+- **Commission E Dose:** 40 mg/day alcohol extracts
+- **Modern Clinical Continuation:** Ethanolic and isopropanolic extracts derive from traditional alcohol extraction
+
+**Tincture Ratio (Not Specified in Bibliography):**
+- Traditional tinctures often 1:5 or 1:10 (herb:menstruum)
+- Specific ratio for black cohosh not detailed in clinical research bibliography
+- **Clinical Gap:** Modern trials use standardized extracts; traditional tincture ratios not rigorously studied
+
+**Dosing Traditional Tincture (Extrapolated):**
+- If 40 mg extract equivalent desired:
+  - Depends on extraction ratio and triterpene content
+  - **Recommendation:** Use pharmaceutical-grade standardized extracts for predictable dosing
+
+---
+
+### Tea/Decoction (Not Well-Studied)
+
+**Traditional Method (Inferred from Dried Herb Use):**
+- **Dose:** 40-200 mg dried rhizome/root
+- **Preparation:** Simmer in water 10-20 minutes (decoction method for roots)
+- **Frequency:** 2-3 times daily
+
+**Clinical Evidence:** No RCTs on tea/decoction form; all modern evidence uses standardized extracts
+
+**Limitations:**
+- Triterpene extraction efficiency in water unknown
+- Bioavailability of water-extracted triterpenes not studied
+- Variable dosing
+
+**Clinical Recommendation:** Tea/decoction not recommended as primary form; standardized extracts have evidence base
+
+---
+
+## Dosing Frequency and Timing
+
+### Pharmacokinetic Rationale
+
+**Half-Life Data (van Breemen 2010):**
+- **23-epi-26-deoxyactein Half-Life:** ~2 hours
+- **Implication:** Short half-life suggests multiple daily doses may optimize sustained effect
+
+**Clinical Trial Practice:**
+- **Standard:** Once-daily dosing in majority of trials (e.g., 40 mg iCR once daily)
+- **Divided Dosing:** British Herbal Compendium recommends divided doses
+
+**Clinical Recommendation:**
+- **Start:** Once daily (supported by trial evidence)
+- **Optimize:** If inadequate response, consider dividing total daily dose into 2 doses (morning and evening) to maintain more consistent blood levels
+- **Example:** 40 mg total dose = 20 mg twice daily
+
+---
+
+## Duration of Use
+
+### Efficacy Assessment
+- **Minimum Trial Period:** 12 weeks (standard in RCTs)
+- **Clinical Recommendation:** Assess response after 12 weeks; if inadequate, consider dose adjustment or alternative
+
+### Safety-Established Duration
+- **Clinical Trials:** Safe up to 12 months (Nasr 2009 safety study n=87; Geller 2009 n=89)
+- **Regulatory Recommendation:** German Commission E maximum 6 months continuous use
+
+### Clinical Practice
+- **Initial Course:** 12 weeks to 6 months
+- **Reassessment:** After 6 months, evaluate continued need
+- **Periodic Breaks:** Consider 1-2 month break after 6 months continuous use, then resume if needed
+- **Long-Term Use:** Data supports up to 12 months; beyond 12 months not well-studied
+
+---
+
+## Combination Preparations
+
+### Black Cohosh + St. John's Wort
+
+**Evidence (Castelo-Branco 2021 Meta-Analysis):**
+- **Finding:** Combination with St. John's wort more effective for psychological symptoms than black cohosh alone
+- **Clinical Context:** Addresses both vasomotor symptoms (black cohosh) and mood (St. John's wort)
+
+**Dosing (Not Specified in Bibliography):**
+- Black cohosh: 40 mg iCR daily
+- St. John's wort: Typical standardized dose (e.g., 300 mg 3x daily, 0.3% hypericin)
+
+**Caution:** St. John's wort has significant drug interactions (CYP3A4 inducer); screen for medication interactions
+
+---
 
 ### Black Cohosh + Clomiphene Citrate (PCOS)
 
-#### Fan 2021 Systematic Review - PCOS-Related Infertility
-- **Combination**: Black cohosh plus clomiphene citrate
-- **Population**: Women with PCOS-related infertility
-- **Evidence**: Three RCTs reported improved pregnancy rates
-- **Safety**: No differences in adverse events
-- **Benefits**:
-  - Improvement in hormone regulation compared to clomiphene citrate alone
-  - Increased endometrial thickness compared to clomiphene citrate alone
+**Evidence (Fan 2022):**
+- Improved pregnancy rates in 3 RCTs vs clomiphene alone
+- Improved endometrial thickness
 
-**Clinical indication**: PCOS-related infertility as adjunct to clomiphene citrate
+**Dosing:** Not standardized in trials; requires clinical individualization
 
-**Source**: PMID 33926292
+**Clinical Context:** Emerging use; consult fertility specialist for combination protocols
 
-## Dosing Guidelines by Source
+---
 
-### NIH Office of Dietary Supplements
-- **Clinical trial dosages**: 8-160 mg/day black cohosh extract
-- **Median dose**: 40 mg/day
-- **Most commonly recommended**: 40 mg/day
-- **Product-recommended daily doses**: 40-120 mg/day
-- **Standardization**: Typically 2.5% triterpene glycosides (1 mg/dose)
-- **Study durations**: 8-54 weeks, mean 22.8 weeks
+## Product Selection Guidance
 
-**Source**: NIH ODS Black Cohosh Health Professional Fact Sheet
+### Quality Markers
 
-### German Commission E
-- **Approved uses**:
-  - Premenstrual syndrome
-  - Dysmenorrhea (painful menstruation)
-  - Menopausal symptoms
-- **Dose**: 40 mg/day of alcohol extracts
-- **Maximum duration**: 6 months (not to exceed)
+**Prefer Products With:**
+1. **Extract Type:** Isopropanolic extract (iCR) for strongest evidence
+2. **Standardization:** Minimum 0.4% triterpene glycosides (USP standard)
+3. **Pharmaceutical Grade:** Registered medicinal products (Beer 2013: "only registered CR medicinal products able to prove efficacy")
+4. **Third-Party Testing:** USP, NSF, or ConsumerLab verification
+5. **Clinical Trial Brands:** Products used in published RCTs (e.g., Klimadynon, Remifemin)
 
-**Source**: German Commission E Monographs (1998)
+**Avoid:**
+- Non-standardized crude herb powders (variable triterpene content)
+- Products without triterpene standardization claims
+- Proprietary blends with undisclosed black cohosh content
 
-### StatPearls NCBI Recommendations
-- **Current recommendation**: 40 mg/day based on clinical trials
-- **Alternative dosing**: 20 mg twice daily may be as effective as 40 mg twice daily
-- **Standardized extracts**: Generally contain 1 mg terpene glycosides per 20 mg tablet
-- **Comparison study**: 40 mg vs 127 mg daily for 6 months showed similar safety and efficacy
+---
 
-**Source**: PMID 29261886
+## Summary: Preparation and Dosing Recommendations
 
-## Traditional Preparations (Limited Data in Bibliography)
+### First-Line Preparation
+- **Type:** Isopropanolic Cimicifuga racemosa extract (iCR)
+- **Standardization:** Minimum 0.4% triterpene glycosides
+- **Dose:** 40 mg daily
+- **Frequency:** Once daily (may divide into twice daily if optimizing)
+- **Duration:** 12 weeks to assess response; safe up to 12 months; consider break after 6 months
 
-**Note**: The bibliography focuses on standardized clinical extracts. Traditional preparation methods (tinctures, teas, decoctions) are not detailed in the clinical studies reviewed. The following represents regulatory and traditional references only:
+### Dose Optimization
+- **If Inadequate Response at 40 mg:**
+  - Increase to 80 mg daily (upper range of studied iCR doses)
+  - Or use Ze 450 extract: increase from 6.5 mg to 13.0 mg
+  - Consider twice-daily dosing (pharmacokinetic rationale)
 
-### Alcohol Tinctures
-- **Traditional method**: Alcohol extraction of black cohosh rhizome
-- **Dose**: 40 mg/day equivalent (Commission E)
-- **Specific tincture ratios**: Not provided in bibliography
-- **Note**: Tincture dosing would depend on concentration ratio (e.g., 1:2, 1:5, 1:10)
+### Alternative Preparations
+- **Ethanolic Extract:** 40-160 mg daily; weaker evidence; may work in severe symptoms
+- **Dried Herb:** 40-200 mg daily, divided doses; minimal clinical trial support
 
-### Teas / Decoctions
-- **Traditional method**: Hot water extraction (decoction) of rhizome
-- **Specific dosing**: Not provided in clinical bibliography
-- **Note**: Water extracts may have different constituent profiles than alcohol extracts
-- **Clinical evidence**: None in this bibliography (all studies used alcohol or isopropanol extracts)
-
-### Powdered Rhizome
-- **Traditional form**: Ground dried rhizome in capsules
-- **Specific dosing**: Not provided in clinical bibliography
-- **Note**: Whole herb powder would be less concentrated than extracts
-
-**To obtain traditional preparation details, ethnobotanical sources, traditional herbalist texts, and pharmacopoeial monographs with preparation methods would be needed.**
-
-## Dosing by Indication
-
-### Menopausal Symptoms (Vasomotor, Psychological)
-- **Standard dose**: 40 mg/day isopropanolic or ethanolic extract
-- **Alternative**: 6.5 mg/day dried extract (if using concentrated preparation like Cimifugol)
-- **Duration**: 8-12 weeks minimum for assessment, up to 6 months (Commission E limit)
-- **Frequency**: Once daily or divided into twice-daily dosing (20 mg twice daily)
-- **Standardization**: 2.5% triterpene glycosides (1 mg per 20 mg extract)
-
-**Expected timeline**:
-- Some effect may be seen at 4 weeks
-- Full effect typically by 8-12 weeks
-
-**Sources**: Multiple RCTs, PMID 33021111, PMID 24499633
-
-### Menopausal Symptoms with Depression/Anxiety
-- **Recommended**: Combination product with St. John's wort
-- **Evidence**: Uebelhack 2006 - 301 women, 16 weeks
-- **Results**: 50% reduction in Menopause Rating Scale, 41.8% reduction in depression scores
-- **Dosing**: Fixed combination product (specific doses not detailed in abstract)
-
-**Source**: PMID 16449108
-
-### PCOS-Related Infertility
-- **Recommended**: Black cohosh as adjunct to clomiphene citrate
-- **Population**: Women with PCOS trying to conceive
-- **Evidence**: Three RCTs showing improved pregnancy rates
-- **Benefits**: Better hormone regulation, increased endometrial thickness
-- **Safety**: No increased adverse events
-- **Note**: Specific black cohosh doses not detailed in systematic review abstract
-
-**Source**: PMID 33926292
-
-### Premenstrual Syndrome (PMS)
-- **Dose**: 40 mg/day alcohol extracts (Commission E approval)
-- **Clinical trial evidence**: Limited in this bibliography
-- **Traditional approval**: German Commission E (1998)
-
-**Source**: German Commission E Monographs (1998)
-
-### Dysmenorrhea (Painful Menstruation)
-- **Dose**: 40 mg/day alcohol extracts (Commission E approval)
-- **Clinical trial evidence**: Limited in this bibliography
-- **Traditional approval**: German Commission E (1998)
-
-**Source**: German Commission E Monographs (1998)
-
-## Pharmacokinetic Implications for Dosing
-
-### Short Half-Life (~2 Hours)
-- **Finding**: 23-epi-26-deoxyactein has ~2-hour half-life (Reame 2010)
-- **Implication**: Might suggest need for twice-daily dosing for sustained levels
-- **Clinical reality**: Many studies show efficacy with once-daily dosing
-- **Interpretation**:
-  - Active metabolites may have longer half-lives (not measured)
-  - Cumulative receptor-level changes over time
-  - Constant serum levels may not be required for efficacy
-
-**Source**: PMID 20032972
-
-### Dose Proportionality
-- **Finding**: Cmax and AUC increase proportionately with dose
-- **Saturable elimination**: Higher doses show over-proportional AUC
-- **Implication**: Higher doses (80-160 mg/day) may achieve disproportionately greater exposure
-- **Meta-analysis support**: Higher dosages showed greater effect sizes (SMD -1.020 vs -0.694)
-
-**Sources**: PMID 20032972, PMID 33021111
-
-## Product Selection Guidelines
-
-### Highest Clinical Evidence
-1. **Remifemin** (isopropanolic extract)
-   - Most extensive clinical evidence
-   - 40 mg/day, standardized to 1 mg triterpene glycosides per 20 mg tablet
-   - Used in Beer 2021 meta-analysis (43,759 women)
-
-2. **Alcohol extracts** (German Commission E approved)
-   - 40 mg/day
-   - Traditional European phytotherapy standard
-
-3. **Dried extracts** (Iranian studies)
-   - 6.5 mg/day (concentrated preparation)
-   - Evidence in 168 participants across 2 RCTs
+### Special Populations
+- **Uterine Fibroids:** iCR 40 mg daily (safe; may reduce fibroid volume)
+- **PCOS + Infertility:** Consider as adjunct to clomiphene citrate (emerging evidence; individualize)
 
 ### Quality Assurance
-- **Use authenticated products**: Adulteration with other Actaea/Cimicifuga species is common
-- **Standardization**: Verify 2.5% triterpene glycosides
-- **Third-party testing**: Prefer products with independent quality verification
-- **Analytical methods**: HPTLC for authentication (AHP standard)
-
-**Source**: American Herbal Pharmacopoeia (2002), Teschke 2011 (PMID 20216279)
-
-## Dosing Summary Table
-
-| **Indication** | **Dose** | **Form** | **Duration** | **Frequency** | **Evidence Level** |
-|----------------|----------|----------|--------------|---------------|-------------------|
-| Menopausal symptoms | 40 mg/day | Isopropanolic extract | 8-12 weeks (max 6 months) | Once or twice daily | Strong (meta-analysis, multiple RCTs) |
-| Menopausal symptoms | 6.5 mg/day | Dried extract | 8 weeks | Once daily | Moderate (2 RCTs, 168 participants) |
-| Menopause + depression/anxiety | Combination product | Black cohosh + St. John's wort | 16 weeks | As directed | Moderate (1 RCT, 301 participants) |
-| PCOS-related infertility | Variable (with clomiphene) | Standardized extract | Study-dependent | As directed | Limited (systematic review, small RCTs) |
-| PMS | 40 mg/day | Alcohol extract | As needed | Once daily | Traditional (Commission E approval) |
-| Dysmenorrhea | 40 mg/day | Alcohol extract | As needed | Once daily | Traditional (Commission E approval) |
-
-## Administration Recommendations
-
-### Timing
-- **With or without food**: Not specified in clinical studies
-- **Time of day**: Not critical (short half-life, but once-daily dosing effective)
-- **Consistency**: Daily use, not as-needed
-
-### Duration to Assess Efficacy
-- **Minimum trial**: 4 weeks
-- **Full effect**: 8-12 weeks
-- **Reassess**: If no benefit after 12 weeks, consider discontinuation or dose increase
+- Choose pharmaceutical-grade, standardized extracts
+- Verify triterpene standardization (≥0.4%)
+- Prefer clinical trial brands when available
 
 ### Maximum Duration
-- **Commission E**: 6 months maximum
-- **Clinical data**: Up to 1 year safe (107 women, no adverse effects)
-- **Recommendation**: Re-evaluate need for continued use at 6 months
-
-### Dose Escalation
-- **Starting dose**: 40 mg/day (or 6.5 mg/day if dried extract)
-- **If insufficient response at 8-12 weeks**: Consider increasing to 80-127 mg/day
-- **Evidence**: Higher doses show greater efficacy (Beer 2021 meta-analysis)
-- **Safety**: 127 mg/day shown safe for 6 months (StatPearls)
-
-**Sources**: PMID 33021111, PMID 29261886, German Commission E (1998)
+- **Evidence-Based:** 12 months safe
+- **Regulatory:** 6 months (Commission E); reassess and consider break
+- **Clinical Practice:** 6-month initial course; break 1-2 months; resume if needed

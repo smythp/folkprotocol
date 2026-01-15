@@ -228,6 +228,26 @@ rcts_pms:
       - "Patient complaint-free rates: 36.1% (VAC) vs 21.3% (pyridoxine)"
       - "Adverse events: 12 VAC patients, 5 pyridoxine patients; no serious events"
 
+  - title: "Treatment of moderate to severe premenstrual syndrome with Vitex agnus castus (BNO 1095) in Chinese women"
+    authors:
+      - Ma L
+      - Lin S
+      - Chen R
+      - Wang X
+    year: 2010
+    journal: "Gynecological Endocrinology"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20334585/"
+    study_design: "Prospective randomized double-blind placebo-controlled trial"
+    sample_size: 67
+    extract_type: "BNO 1095"
+    dosage: "One tablet once daily"
+    duration: "3 menstrual cycles"
+    key_findings:
+      - "PMSD sum score decreased from 29.38 to 4.28 in treatment group vs 28.76 to 11.79 in placebo"
+      - "Significant difference in PMSD sum score, negative affect, and water retention"
+      - "Especially effective for symptoms of negative affect and water retention"
+      - "Well-tolerated with mild adverse events"
+
   - title: "Efficacy and safety of Vitex agnus-castus extract for treatment of premenstrual syndrome in Japanese patients: a prospective, open-label study"
     authors:
       - Momoeda M
@@ -385,6 +405,29 @@ comparative_bromocriptine:
 # Pharmacological and Mechanistic Studies
 
 pharmacology:
+  - title: "Vitex agnus castus Extract Ze 440: Diterpene and Triterpene's Interactions with Dopamine D2 Receptor"
+    authors:
+      - Reinhardt JK
+      - Schertler L
+      - Bussmann H
+      - Sellner M
+      - Smiesko M
+      - Boonen G
+      - Potterat O
+      - Hamburger M
+      - Butterweck V
+    year: 2024
+    journal: "International Journal of Molecular Sciences"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39519010/"
+    study_type: "Pre-clinical in vitro research using functional bioassay in CHO-K1 cells overexpressing human D2 receptor"
+    key_findings:
+      - "Viteagnusin I most potent diterpene: EC50 6.6 µM"
+      - "Rotundifuran: EC50 12.8 µM"
+      - "Vitexilactone: >50 µM (inactive)"
+      - "3-epi-maslinic acid (triterpene): EC50 5.1 µM (most active overall compound)"
+      - "First documentation of dopaminergic contribution of triterpenes"
+      - "Dopaminergic activity depends on configuration and ring substitution in side chain"
+
   - title: "Chaste tree (Vitex agnus-castus)--pharmacology and clinical indications"
     authors:
       - Wuttke W
@@ -403,6 +446,83 @@ pharmacology:
       mechanism: "Primary mechanism is prolactin suppression via dopaminergic action"
       active_compounds: "Diterpenes, particularly clerodadienols, function as dopaminergic agents binding to dopamine receptors"
       findings: "Serum prolactin levels reduced in patients treated with extract; certain diterpenes possess dopaminergic properties almost identical to dopamine itself in prolactin-suppressive action"
+
+  - title: "Agnus castus extracts inhibit prolactin secretion of rat pituitary cells"
+    authors:
+      - Sliutz G
+      - Speiser P
+      - Schultz AM
+      - Spona J
+      - Zeillinger R
+    year: 1993
+    journal: "Hormone and Metabolic Research"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/8330858/"
+    study_type: "In vitro experimental study using primary rat pituitary cell culture"
+    key_findings:
+      - "Vitex extracts significantly inhibited basal and TRH-stimulated prolactin secretion"
+      - "Effect blocked by dopamine receptor blocker, confirming dopaminergic mechanism"
+      - "Comparable to synthetic dopamine agonists (Lisuride)"
+      - "Established mechanism operates through dopamine receptor activation"
+      - "Supports use as phytotherapeutic alternative for slight hyperprolactinemia"
+
+# Phytochemistry and Active Constituents
+
+phytochemistry:
+  - title: "Diterpenoids and flavonoids from the fruits of Vitex agnus-castus and antioxidant activity of the fruit extracts and their constituents"
+    authors:
+      - Hajdú Z
+      - Hohmann J
+      - Forgo P
+      - Martinek T
+      - Dervarics M
+      - Zupkó I
+      - Falkay G
+      - Cossuta D
+      - Máthé I
+    year: 2007
+    journal: "Phytotherapy Research"
+    volume: 21
+    issue: 4
+    pages: "391-394"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/17262892/"
+    study_type: "Phytochemical isolation and antioxidant activity assessment"
+    diterpenes_identified:
+      - "Vitetrifolin B (novel labdane-type)"
+      - "Vitetrifolin C (novel labdane-type)"
+      - "Rotundifuran"
+      - "Vitexilactone"
+      - "Spathulenol"
+    flavonoids_identified:
+      - "Eupatorin (first identification in this species)"
+      - "Casticin"
+      - "Penduletin"
+      - "Vitexin"
+      - "Orientin"
+    antioxidant_activity:
+      - "Ethyl acetate extract IC50: 68 μg/mL (DPPH assay)"
+      - "Casticin lipid peroxidation inhibition IC50: 0.049 mM"
+      - "Casticin superior to ascorbic acid control (IC50: 0.703 mM)"
+      - "Significant concentration-dependent antioxidant effect"
+
+  - title: "BNO 1095, a Standardized Dry Extract from the Fruits of Vitex agnus-castus, Impairs Angiogenesis-related Endothelial Cell Functions In Vitro"
+    authors:
+      - Bischoff-Kont I
+      - Brabenec L
+      - Ingelfinger R
+      - Nausch B
+      - Fürst R
+    year: 2021
+    journal: "Planta Medica"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33530113/"
+    study_type: "In vitro experimental research on BNO 1095 standardized extract"
+    standardization: "Approved herbal medicinal product for PMS treatment"
+    key_findings:
+      - "Reduced undirected and chemotactic cell migration in primary human endothelial cells"
+      - "Inhibited endothelial cell proliferation"
+      - "Reduced tube-like structure formation on Matrigel"
+      - "Nearly blocked sprouting in 3D collagen gel models"
+      - "New insights into anti-angiogenic actions of BNO 1095"
+      - "Suggests potential therapeutic applications requiring anti-angiogenic properties"
 
 # Analytical Methods and Standardization
 
@@ -458,10 +578,25 @@ analytical_methods:
 # Bioavailability and Pharmacokinetics
 
 pharmacokinetics:
-  - study_type: "Pharmacokinetic study in mice"
-    compound: "agnuside"
-    oral_bioavailability: "0.7%"
-    tmax: "30-45 minutes"
+  - title: "Plasma pharmacokinetics, bioavailability and tissue distribution of agnuside following peroral and intravenous administration in mice using liquid chromatography tandem mass spectrometry"
+    authors:
+      - Ramakrishna R
+      - Bhateria M
+      - Singh R
+      - Puttrevu SK
+      - Bhatta RS
+    year: 2016
+    journal: "Journal of Pharmaceutical and Biomedical Analysis"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27018507/"
+    study_type: "Pharmacokinetic validation study in mice"
+    compound: "agnuside (iridoid glycoside, chemotaxonomic marker of Vitex)"
+    key_findings:
+      - "Mean absolute bioavailability of agnuside: ~0.7%"
+      - "Tmax: 30-45 minutes (maximal concentrations in plasma and tissues)"
+      - "Tissue distribution (highest to lowest): intestine > kidney > liver > spleen > brain > lungs > heart"
+      - "LC-MS/MS method validated with linear range 1-4000 ng/mL, LLOQ 1 ng/mL"
+      - "First report demonstrating pharmacokinetics of agnuside in biomatrices"
+      - "Poor bioavailability may contribute to inconsistent clinical trial results"
     notes: "No specific information on pharmacokinetics in humans according to EMA assessment report"
 
   - title: "Nanoemulsion for improving solubility and permeability of Vitex agnus-castus extract: formulation and in vitro evaluation"
@@ -579,17 +714,56 @@ safety_summary:
     - "Pruritus"
     - "Erythematous rash"
 
+  hepatotoxicity:
+    human_evidence: "Unlikely cause of clinically apparent liver injury (LiverTox Score: E)"
+    clinical_trials: "No hepatotoxicity or ALT elevations reported"
+    case_reports: "Single case reports exist but other diagnoses not adequately excluded"
+    animal_studies: "Signs of liver toxicity observed in repeat-dose toxicity studies in rats (4 weeks, 26 weeks)"
+    recommendations: "Use discouraged in persons with preexisting liver disease"
+
+  pregnancy_lactation_safety:
+    - title: "Safety and efficacy of chastetree (Vitex agnus-castus) during pregnancy and lactation"
+      authors:
+        - Dugoua JJ
+        - Seely D
+        - Perri D
+        - Koren G
+        - Mills E
+      year: 2008
+      journal: "Canadian Journal of Clinical Pharmacology"
+      pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18204102/"
+      study_type: "Systematic review"
+      pregnancy_findings:
+        - "Poor evidence based on theoretical and expert opinion and in vitro studies"
+        - "May have estrogenic and progesteronic activity"
+        - "Potential uterine stimulant activity"
+        - "Emmenagogue activity reported"
+        - "May prevent miscarriages (theoretical)"
+      lactation_findings:
+        - "Conflicting expert opinions on whether increases or decreases lactation"
+        - "Use to support lactation should be discouraged until further studies conducted"
+      recommendations:
+        - "Practitioners should be aware of common use among women of childbearing age"
+        - "Exercise caution when prescribing to women planning pregnancy"
+        - "Risk of consuming while unknowingly pregnant"
+
   contraindications:
     - "Pregnancy (lack of safety data)"
     - "Lactation (lack of safety data)"
+    - "Preexisting liver disease"
+    - "While taking birth control pills (may interfere)"
 
   drug_interactions:
     reported: "None in systematic review"
-    theoretical: "Might interfere with dopaminergic antagonists"
+    theoretical:
+      - "Might interfere with dopaminergic antagonists"
+      - "May interfere with oral contraceptives"
+      - "In vitro CYP enzyme inhibition (1A2, 2C19, 2D6, 3A4) - clinical significance uncertain"
 
   clinical_trial_tolerability:
     dropout_rate: "Very low - adverse events rarely caused discontinuation"
     severity: "Mild and generally infrequent"
+    large_study_data: "In survey of 1634 women, adverse events reported in only 1.2% of patients, none serious"
 
 # Key Active Compounds
 
@@ -684,6 +858,21 @@ research_considerations:
 
 # References
 
+  livertox:
+    title: "Chaste Tree"
+    source: "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    organization: "National Institutes of Health (NIH) - National Library of Medicine"
+    ncbi_bookshelf_id: "NBK588847"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK588847/"
+    last_updated: 2023
+    likelihood_score: "E (unlikely cause of clinically apparent liver injury)"
+    key_content:
+      hepatotoxicity: "Little evidence that chaste tree in conventional oral doses causes clinically apparent liver injury with jaundice in humans"
+      clinical_trials: "No mention of hepatotoxicity or ALT elevations"
+      case_reports: "Single case reports exist but other diagnoses not adequately excluded"
+      dosing_range: "20 mg to 100 mg daily; up to 1 gram three times daily"
+      contraindications: "Use discouraged in preexisting liver disease; not recommended during pregnancy, breastfeeding, or while taking birth control"
+
 sources:
   - "https://pubmed.ncbi.nlm.nih.gov/38075075/"
   - "https://pubmed.ncbi.nlm.nih.gov/31464546/"
@@ -702,9 +891,21 @@ sources:
   - "https://pubmed.ncbi.nlm.nih.gov/31067851/"
   - "https://pubmed.ncbi.nlm.nih.gov/12809367/"
   - "https://pubmed.ncbi.nlm.nih.gov/31155557/"
+  - "https://pubmed.ncbi.nlm.nih.gov/27018507/"
+  - "https://pubmed.ncbi.nlm.nih.gov/19269753/"
+  - "https://pubmed.ncbi.nlm.nih.gov/29063202/"
+  - "https://pubmed.ncbi.nlm.nih.gov/28243425/"
+  - "https://pubmed.ncbi.nlm.nih.gov/10787228/"
+  - "https://pubmed.ncbi.nlm.nih.gov/39519010/"
+  - "https://pubmed.ncbi.nlm.nih.gov/8330858/"
+  - "https://pubmed.ncbi.nlm.nih.gov/20334585/"
+  - "https://pubmed.ncbi.nlm.nih.gov/17262892/"
+  - "https://pubmed.ncbi.nlm.nih.gov/33530113/"
+  - "https://pubmed.ncbi.nlm.nih.gov/18204102/"
+  - "https://www.ncbi.nlm.nih.gov/books/NBK588847/"
   - "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-vitex-agnus-castus-l-fructus-revision-1_en.pdf"
   - "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-vitex-agnus-castus-l-fructus-revision-1_en.pdf"
   - "https://jsogp.net/index.php/jsogp/article/view/292"
 
-compilation_date: "2026-01-08"
-compiler_notes: "Comprehensive bibliography focusing on clinical studies, systematic reviews, and standardized preparations with specific dosing information and quantitative findings"
+compilation_date: "2026-01-15"
+compiler_notes: "Comprehensive bibliography focusing on clinical studies, systematic reviews, and standardized preparations with specific dosing information and quantitative findings. Updated 2026-01-15 to include: detailed pharmacokinetics data, hepatotoxicity assessment from LiverTox, additional RCT details with sample sizes and specific numeric findings, 2024 D2 receptor interaction study with EC50 values, 1993 prolactin inhibition mechanism study, 2021 BNO 1095 anti-angiogenic research, 2010 Chinese women PMS trial, 2007 phytochemical isolation and antioxidant study, and 2008 pregnancy/lactation safety systematic review."

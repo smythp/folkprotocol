@@ -1,0 +1,1003 @@
+---
+# Astragalus Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and regulatory monographs
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  plant_name: Astragalus
+  species: Astragalus membranaceus (Fisch.) Bge. and Astragalus membranaceus (Fisch.) Bge. var. mongholicus (Bge.) Hsiao
+  common_names:
+    - Huangqi
+    - Huang Qi
+    - Radix Astragali
+    - Milk Vetch Root
+  family: Fabaceae (Leguminosae)
+  compiled_date: 2026-01-15
+  last_updated: 2026-01-15
+  update_notes: "Enhanced with additional systematic reviews, RCTs, pharmacokinetic data, and safety studies from PubMed search"
+
+regulatory_monographs:
+  - id: chinese_pharmacopoeia_2020
+    title: "Chinese Pharmacopoeia - Radix Astragali (Huangqi)"
+    organization: Chinese Pharmacopoeia Commission
+    year: 2020
+    type: regulatory_monograph
+    location: Beijing, China
+    definition: "Dried root of Astragalus membranaceus (Fisch.) Bge. var. mongholicus (Bge.) Hsiao or Astragalus membranaceus (Fisch.) Bge."
+    physical_specifications:
+      shape: "Cylindrical"
+      length: "30-90 cm"
+      diameter: "1-3.5 cm"
+      surface_color: "Light brownish yellow or light brownish"
+      characteristics: "Irregular longitudinal wrinkles or grooves; fracture surface with strong fiber texture showing powdery appearance"
+    dosage_recommendations:
+      - condition: general_use
+        dose: "9-30 g daily"
+        administration: "Decoction"
+    notes: "AR listed in 204 species of patented traditional Chinese medicines, accounting for approximately 14% of total number of traditional medicines (2015 edition)"
+    url: "https://cmjournal.biomedcentral.com/articles/10.1186/s13020-024-00977-z"
+
+  - id: who_monograph_status
+    title: "WHO Monograph Status"
+    organization: World Health Organization
+    type: regulatory_note
+    status: "No monograph published as of 2026"
+    notes: "Astragalus has not been included in WHO Selected Medicinal Plants monograph series (Volumes 1-4); primarily used in Traditional Chinese Medicine systems rather than European/Western herbal medicine where WHO monographs focused"
+
+  - id: commission_e_status
+    title: "Commission E Monograph Status"
+    organization: German Commission E
+    type: regulatory_note
+    status: "No monograph published"
+    notes: "Commission E did not evaluate Astragalus membranaceus; primarily assessed herbs used in German phytotherapy; Astragalus is primarily an Asian medicinal plant"
+
+systematic_reviews_meta_analyses:
+  - id: zhang_2023_immune
+    title: "The Effect of Astragalus on Humoral and Cellular Immune Response: A Systematic Review and Meta-Analysis of Human Studies"
+    authors:
+      - Zhang, Xueling
+      - Qu, Xixi
+      - Zou, Yu
+    year: 2023
+    journal: Complement Med Res
+    volume: 30
+    issue: 6
+    pages: "535-543"
+    pubmed_id: "37952511"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37952511/"
+    doi: "10.1159/000534826"
+    study_type: systematic_review_meta_analysis
+    studies_included: 19
+    total_participants: 1094
+    key_findings:
+      humoral_immunity:
+        - metric: proinflammatory_cytokines_reduction
+          result: "SMD -2.8765"
+          ci_95: "[-3.2385, -2.5145]"
+          p_value: "<0.0001"
+          markers: "IL-2, IL-4, IL-6, IL-10, TNF-α, IFN-γ"
+          interpretation: "Significant reduction in proinflammatory cytokines"
+      cellular_immunity:
+        - metric: cd3_and_cd4_cd8_ratio_increase
+          result: "SMD 2.4629"
+          ci_95: "[1.9598, 2.9661]"
+          interpretation: "Significantly increased CD3 levels and CD4/CD8 ratio"
+      limitations: "Substantial heterogeneity observed among included studies"
+      conclusion: "Astragalus demonstrated immunomodulatory effects on both humoral and cellular immune response"
+
+  - id: hong_2024_diabetes
+    title: "The Efficacy and Safety of Astragalus as an Adjuvant Treatment for Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis"
+    authors:
+      - Hong, Kin-Fong
+      - Liu, Pei-Yu
+      - Zhang, Wei
+      - Gui, Ding-Kun
+      - Xu, You-Hua
+    year: 2024
+    journal: Journal of Integrative and Complementary Medicine
+    pubmed_id: "37433206"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37433206/"
+    study_type: systematic_review_meta_analysis
+    studies_included: 20
+    total_participants: 953
+    key_findings:
+      fasting_plasma_glucose:
+        - metric: weighted_mean_difference
+          result: "-0.67 mmol/L"
+          ci_95: "[-1.13, -0.20]"
+          p_value: 0.005
+          interpretation: "Significant reduction"
+      postprandial_glucose_2h:
+        - metric: weighted_mean_difference
+          result: "-0.67 mmol/L"
+          ci_95: "[-1.13, -0.20]"
+          p_value: 0.005
+          interpretation: "Significant reduction"
+      hba1c:
+        - metric: weighted_mean_difference
+          result: "-0.93%"
+          ci_95: "[-1.22, -0.64]"
+          p_value: "<0.001"
+          interpretation: "Significant reduction"
+      insulin_sensitivity_index:
+        - metric: weighted_mean_difference
+          result: "+0.42"
+          ci_95: "[0.13, 0.72]"
+          p_value: 0.004
+          interpretation: "Significant improvement"
+      overall_effectiveness:
+        - metric: risk_ratio
+          result: "1.33"
+          ci_95: "[1.26, 1.40]"
+          p_value: "<0.001"
+          interpretation: "Treatment group superior to control"
+      conclusion: "Astragalus may benefit T2DM patients as adjuvant treatment; certainty of evidence fell short of optimal performance"
+
+  - id: sheng_2025_cancer_fatigue
+    title: "Efficacy of Astragalus Membranaceus (Huang Qi) for Cancer-Related Fatigue: A Systematic Review and Meta-Analysis of Randomized Controlled Studies"
+    authors:
+      - Sheng, Xia
+      - Yang, Liu
+      - Huang, Bichun
+      - Lin, Guijiao
+      - Wang, Yajiao
+      - Wu, Xinlei
+      - Lin, RuJia
+    year: 2025
+    journal: Integrative Cancer Therapy
+    pubmed_id: "40302232"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/40302232/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 8
+    key_findings:
+      cancer_related_fatigue_reduction:
+        - metric: standardized_mean_difference
+          result: "-1.63"
+          ci_95: "[-1.90, -1.36]"
+          p_value: "<0.00001"
+          interpretation: "Significant reduction in fatigue"
+      fatigue_efficacy_rate:
+        - metric: risk_ratio
+          result: "1.55"
+          ci_95: "[1.19, 2.02]"
+          p_value: 0.001
+      quality_of_life_improvement:
+        - metric: standardized_mean_difference
+          result: "0.86"
+          ci_95: "[0.17, 1.55]"
+          p_value: 0.01
+      quality_of_life_efficacy_rate:
+        - metric: risk_ratio
+          result: "1.57"
+          ci_95: "[1.10, 2.23]"
+          p_value: 0.01
+      limitations: "Insufficient evidence due to small sample sizes, low study quality, and inconsistent cancer types"
+      conclusion: "Results supportive but insufficient to strongly recommend clinical use at this time"
+
+  - id: lin_2024_diabetic_nephropathy
+    title: "Efficacy of astragalus combined with renin-angiotensin-aldosterone system blockers in the treatment of stage III diabetic nephropathy: a systematic review and meta-analysis"
+    authors:
+      - Lin, Yu-Qiong
+      - Yu, Feng
+      - Chen, Hui-Jun
+      - Deng, Yuan-Rong
+      - Lin, Jin
+      - Xu, Ying
+      - Zheng, Xin
+      - Zhang, Jing-Wen
+      - Liu, Jun-Feng
+    year: 2024
+    journal: Renal Failure
+    pubmed_id: "38836372"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38836372/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 32
+    total_participants: 2462
+    intervention_group: 1244
+    control_group: 1218
+    key_findings:
+      total_effective_rate:
+        - metric: odds_ratio
+          result: "3.63"
+          ci_95: "[2.59, 5.09]"
+          p_value: "<0.00001"
+      urinary_protein_excretion:
+        - metric: mean_difference
+          result: "-24.76"
+          ci_95: "[-27.12, -22.39]"
+          p_value: "<0.00001"
+          interpretation: "Significant reduction"
+      serum_creatinine:
+        - metric: mean_difference
+          result: "-3.50"
+          ci_95: "[-4.91, -2.09]"
+          p_value: "<0.00001"
+      blood_urea_nitrogen:
+        - metric: mean_difference
+          result: "-0.35"
+          ci_95: "[-0.50, -0.19]"
+          p_value: "<0.00001"
+      hba1c:
+        - metric: mean_difference
+          result: "-0.17"
+          ci_95: "[-0.27, -0.07]"
+          p_value: 0.0006
+      conclusion: "Combination safe and improves outcomes; need for larger, rigorous trials"
+
+  - id: cheng_2021_gastric_cancer
+    title: "Efficacy and Safety of Astragalus-Containing Traditional Chinese Medicine Combined With Platinum-Based Chemotherapy in Advanced Gastric Cancer: A Systematic Review and Meta-Analysis"
+    authors:
+      - Cheng, Mengqi
+      - Hu, Jiaqi
+      - Zhao, Yuwei
+      - Jiang, Juling
+      - Qi, Runzhi
+      - Chen, Shuntai
+      - Li, Yaoyuan
+      - Zheng, Honggang
+      - Liu, Rui
+      - Guo, Qiujun
+      - Zhang, Xing
+      - Qin, Yinggang
+      - Hua, Baojin
+    year: 2021
+    journal: Frontiers in Oncology
+    pubmed_id: "34422628"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34422628/"
+    study_type: systematic_review_meta_analysis
+    key_findings:
+      objective_response_rate:
+        - metric: risk_ratio
+          result: "1.24"
+          interpretation: "Increased tumor response"
+      disease_control_rate:
+        - metric: risk_ratio
+          result: "1.10"
+          interpretation: "Improved disease control"
+      one_year_survival_rate:
+        - metric: relative_increase
+          result: "41%"
+      two_year_survival_rate:
+        - metric: relative_increase
+          result: "3.13"
+      quality_of_life:
+        - metric: risk_ratio
+          result: "2.03"
+          interpretation: "Substantially better outcomes"
+      immune_function: "Elevated CD3+ T cells, CD4+ T cells, and natural killer cell proportions"
+      safety: "Lower incidence of adverse drug reactions compared to chemotherapy-only treatment"
+      evidence_quality: "Current low to moderate evidence; additional high-quality research recommended"
+
+  - id: li_2025_malignant_tumors
+    title: "Efficacy and safety of astragalus polysaccharides in patients with malignant tumors: A systematic review and meta-analysis"
+    authors:
+      - Li, Qiaoyue
+      - Li, Jing
+      - Wang, Yongxin
+      - Wu, Fangyu
+      - Li, Tao
+    year: 2025
+    journal: Naunyn Schmiedebergs Arch Pharmacol
+    pubmed_id: "40208321"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/40208321/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 31
+    total_participants: 2648
+    key_findings:
+      treatment_efficacy:
+        - metric: risk_ratio
+          result: "1.30"
+          ci_95: "[1.21, 1.39]"
+          p_value: "<0.01"
+      immune_function_improvements:
+        cd3_t_cells:
+          - metric: mean_difference
+            result: "8.79"
+            ci_95: "[6.15, 11.43]"
+        cd4_t_cells:
+          - metric: mean_difference
+            result: "7.94"
+            ci_95: "[5.27, 10.61]"
+        cd4_cd8_ratio:
+          - metric: mean_difference
+            result: "0.40"
+            ci_95: "[0.28, 0.52]"
+        cd8_t_cells:
+          p_value: 0.242
+          interpretation: "No significant difference"
+      safety: "Incidence of symptoms such as hand-foot numbness and weakness was low, indicating high safety profile"
+
+  - id: zhang_2014_chronic_kidney_disease
+    title: "Astragalus (a traditional Chinese medicine) for treating chronic kidney disease"
+    authors:
+      - Zhang, Hong Wei
+      - Lin, Zhi Xiu
+      - Xu, Chuanshan
+      - Leung, Connie
+      - Chan, Lai Sum
+    year: 2014
+    journal: "Cochrane Database of Systematic Reviews"
+    pubmed_id: "25335553"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25335553/"
+    study_type: cochrane_systematic_review
+    studies_included: 22
+    total_participants: 1323
+    dialysis_patients: 241
+    intervention: "Astragalus (huang qi) alone or as extract vs placebo/no treatment/conventional therapy"
+    key_findings:
+      creatinine_clearance:
+        - metric: increase
+          result: "5.75 mL/min"
+          studies: 4
+      serum_creatinine:
+        - metric: decrease
+          result: "21.39 µmol/L"
+          studies: 13
+      proteinuria_24h:
+        - metric: reduction
+          result: "0.53 g/24h"
+          studies: 10
+          interpretation: "Significant decrease"
+      hemoglobin:
+        - metric: increase
+          result: "9.51 g/L"
+      serum_albumin:
+        - metric: increase
+          result: "3.55 g/L"
+          studies: 9
+      systolic_blood_pressure:
+        - metric: decrease
+          result: "16.65 mm Hg"
+      diastolic_blood_pressure:
+        - metric: decrease
+          result: "6.02 mm Hg"
+      safety:
+        - "Six studies reported no adverse effects"
+        - "16 studies lacked safety documentation"
+      limitations: "Suboptimal methodological quality and poor reporting; definitive conclusions not possible"
+      conclusion: "Results suggestive of benefits but require higher-quality RCTs for confirmation"
+
+  - id: yoshino_2022_ckd_case_series
+    title: "Oral Astragalus Root Supplementation for Mild to Moderate Chronic Kidney Disease: A Self-Controlled Case-Series"
+    authors:
+      - Yoshino, Takao
+      - Horiba, Yuko
+      - Mimura, Masaru
+      - Watanabe, Kenji
+    year: 2022
+    journal: "Frontiers in Pharmacology"
+    volume: 13
+    pages: 775798
+    pubmed_url: "https://www.frontiersin.org/articles/10.3389/fphar.2022.775798"
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8921640/"
+    study_type: self_controlled_case_series
+    sample_size: 37
+    population: "Mild to moderate chronic kidney disease (eGFR 15-89 mL/min/1.73m²)"
+    intervention:
+      form: "Astragalus-containing herbal preparations (boiogito, hochuekkito, ogikenchuto)"
+      dose: "Median 3.0 g daily (IQR 3.0-4.0 g)"
+      duration: "Median 3.4 months (IQR 2.4-5.2 months)"
+    key_findings:
+      egfr_improvement:
+        - metric: pre_vs_post
+          pre: "66 ± 12 mL/min/1.73m²"
+          post: "70 ± 14 mL/min/1.73m²"
+          p_value: "<0.001"
+          interpretation: "Significant improvement in kidney function"
+      hemoglobin: "No significant changes"
+      albumin: "No significant changes"
+      safety: "No severe adverse reactions documented"
+    notes: "Early intervention in mild-moderate CKD stages G2-G3; suggests potential for preventive therapy"
+
+  - id: piao_2014_viral_myocarditis
+    title: "Astragalus membranaceus injection combined with conventional treatment for viral myocarditis: a systematic review of randomized controlled trials"
+    authors:
+      - Piao, Yuan-lin
+      - Liang, Xiao-chun
+    year: 2014
+    journal: "Chinese Journal of Integrative Medicine"
+    pubmed_id: "25098261"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/25098261/"
+    study_type: systematic_review
+    studies_included: 6
+    total_participants: 639
+    intervention: "Astragalus membranaceus injection + conventional treatment vs conventional treatment alone"
+    key_findings:
+      effectiveness: "Superior recovery metrics in combined treatment group"
+      adverse_effects:
+        - "Two RCTs reported no adverse effects from combined treatment"
+      safety_assessment: "Safety remains uncertain due to limited reporting"
+      limitations:
+        - "Low methodological quality"
+        - "Publication bias risks"
+        - "Insufficient safety documentation"
+      conclusion: "Findings should be interpreted cautiously; higher-quality trials needed"
+
+randomized_controlled_trials:
+  - id: latour_2021_exercise
+    title: "Standardized astragalus extract for attenuation of the immunosuppression induced by strenuous physical exercise: randomized controlled trial"
+    authors:
+      - Latour, Ewa
+      - Arlet, Jaroslaw
+      - Latour, Emilia E
+      - Juszkiewicz, Artur
+      - Łuczkowska, Karolina
+      - Marcinkiewicz, Anita
+      - Basta, Piotr
+      - Trzeciak, Jerzy
+      - Machaliński, Bogusław
+      - Skarpańska-Stejnborn, Anna
+    year: 2021
+    journal: Journal of the International Society of Sports Nutrition
+    pubmed_id: "34271953"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34271953/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 18
+    intervention_group: 10
+    placebo_group: 8
+    population: "Polish rowing team members"
+    intervention:
+      type: "Standardized Astragalus Membranaceus Root (AMR)"
+      dose: "500 mg daily"
+      standardization: "0.5% 3-hydroxy 7-methoxy isoflavonoids"
+      duration: "6 weeks intensive training camp"
+    key_findings:
+      il2_post_exertion_decrease:
+        - metric: effect_size
+          result: "d = 1.22"
+          p_value: 0.02
+          interpretation: "Significant difference"
+      il2_il10_ratio_after_recovery:
+        - metric: effect_size
+          result: "d = 1.61"
+          p_value: "<0.01"
+      treg_tγδ_ratio:
+        - metric: effect_size
+          result: "d = 0.86"
+          p_value: 0.09
+          interpretation: "Approached significance"
+      immune_stabilization: "AMR maintained natural killer cell and regulatory T cell baseline levels while placebo group experienced decline"
+      conclusion: "AMR stabilizes immune system in athletes by restoring immunological balance towards Th1 response during restitution after strenuous exercise"
+
+  - id: li_2018_diastolic_dysfunction
+    title: "Astragalus Membranaceus Improving Asymptomatic Left Ventricular Diastolic Dysfunction in Postmenopausal Hypertensive Women with Metabolic Syndrome: A Prospective, Open-Labeled, Randomized Controlled Trial"
+    authors:
+      - Li, Ning-Yin
+      - Yu, Heng
+      - Li, Xiu-Li
+      - Wang, Qiong-Ying
+      - Zhang, Xiao-Wei
+      - Ma, Rui-Xin
+      - Zhao, Yang
+      - Xu, Han
+      - Liang, Wei
+      - Bai, Feng
+      - Yu, Jing
+    year: 2018
+    journal: Chinese Medical Journal (English)
+    pubmed_id: "29483384"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29483384/"
+    study_type: randomized_controlled_trial
+    design: prospective_open_label
+    sample_size: 154
+    duration: "12 months"
+    population: "Postmenopausal hypertensive women with metabolic syndrome"
+    intervention:
+      control_group: "Conventional medical therapy only"
+      am_group_1: "Conventional therapy + 5 g/day astragalus capsules"
+      am_group_2: "Conventional therapy + 10 g/day astragalus capsules"
+    key_findings:
+      early_diastolic_mitral_velocity_e_prime:
+        - metric: comparison
+          am_group_2: "0.065 ± 0.007 m/s"
+          control: "0.061 ± 0.008 m/s"
+          p_value: 0.014
+      e_e_prime_ratio:
+        - metric: comparison
+          am_group_2: "10.70 ± 1.30"
+          control: "11.37 ± 1.73"
+          p_value: 0.031
+      conclusion: "Conventional medical plus AM therapy improved diastolic function; waist circumference and waist-to-hip ratio identified as potential risk factors"
+
+  - id: banihashemi_2025_post_covid_fatigue
+    title: "Chronic fatigue syndrome post-COVID-19: triple-blind randomised clinical trial of Astragalus root extract"
+    authors:
+      - Banihashemi, Zahra-Sadat
+      - Azizi-Fini, Ismail
+      - Rajabi, Mahdi
+      - Maghami, Mahboobeh
+      - Yadollahi, Safoura
+    year: 2025
+    journal: BMJ Support Palliat Care
+    pubmed_id: "38834234"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38834234/"
+    study_type: randomized_controlled_trial
+    design: triple_blind
+    sample_size: 64
+    intervention_group: 32
+    control_group: 32
+    population: "Nurses with post-COVID-19 chronic fatigue syndrome"
+    intervention:
+      type: "Astragalus root extract"
+      dose: "500 mg twice daily"
+      location: "Iran, 2023"
+      measurement_timepoints: "Before intervention, at conclusion, 1 month post-intervention"
+    key_findings:
+      chronic_fatigue_prevalence_reduction:
+        - metric: intervention_group_decrease_at_end
+          result: "13.8%"
+        - metric: intervention_group_decrease_at_1_month_followup
+          result: "17.2%"
+      control_group_change:
+        - metric: chronic_fatigue_change
+          result: "72.2%"
+          p_value: 0.003
+      risk_factors:
+        - metric: underlying_disease
+          odds_ratio: "2.33"
+          p_value: 0.04
+        - metric: control_group_assignment
+          odds_ratio: "12.36"
+          p_value: 0.01
+        - metric: time_duration_protective
+          odds_ratio: "0.50"
+          p_value: 0.0001
+      conclusion: "Astragalus root extract reduces chronic fatigue in nurses with post-COVID-19 chronic fatigue syndrome"
+
+  - id: lee_2018_height_growth
+    title: "Effects of Astragalus Extract Mixture HT042 on Height Growth in Children with Mild Short Stature: A Multicenter Randomized Controlled Trial"
+    authors:
+      - Lee, Donghun
+      - Lee, Sun Haeng
+      - Song, Jungbin
+      - Jee, Hee-Jung
+      - Cha, Sung Ho
+      - Chang, Gyu Tae
+    year: 2018
+    journal: Phytotherapy Research
+    pubmed_id: "29130588"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29130588/"
+    study_type: randomized_controlled_trial
+    design: multicenter_double_blind_placebo_controlled_parallel
+    sample_size: 129
+    age_group: "6-8 years with height below 25th percentile"
+    duration: "24 weeks"
+    intervention:
+      product: "HT042 extract mixture"
+      composition: "Astragalus membranaceus, Eleutherococcus senticosus, and Phlomis umbrosa"
+    key_findings:
+      height_gain_all_children:
+        - metric: mean_difference
+          result: "0.29 cm"
+          ci_95: "[0.01, 0.57]"
+          p_value: 0.027
+          interpretation: "Significantly greater in HT042 group"
+      height_gain_below_10th_percentile:
+        - metric: mean_difference
+          result: "0.45 cm"
+          ci_95: "[0.04, 0.87]"
+          p_value: 0.031
+          interpretation: "More pronounced effect in shorter children"
+      bone_age_advancement: "Lower in treatment group"
+      serum_igf1_and_igfbp3: "Increased significantly within HT042 group"
+      conclusion: "HT042 supplementation helped increase height growth in children without skeletal maturation; more effective in much shorter children"
+
+  - id: zheng_2020_polysaccharide_review
+    title: "A Review of the Pharmacological Action of Astragalus Polysaccharide"
+    authors:
+      - Zheng, Yisheng
+      - Ren, Wenkang
+      - Zhang, Liang
+      - Zhang, Yanyan
+      - Liu, Dongyan
+      - Liu, Yajun
+    year: 2020
+    journal: "Frontiers in Pharmacology"
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7105737/"
+    study_type: pharmacological_review
+    compound: "Astragalus polysaccharide (APS)"
+    dosing_studies:
+      tumor_inhibition:
+        - model: "Mouse ascites tumors"
+          dose: "50 mg/kg"
+          result: "55.47% inhibitory rate"
+      diabetic_colitis:
+        - model: "Rats"
+          low_dose: "100 mg/kg"
+          high_dose: "200 mg/kg"
+      antimicrobial_in_vitro:
+        - concentration: "20-40 mg/L"
+          effect: "Significant bacterial inhibition"
+      antiviral_in_vitro:
+        - concentration: "30 μg/ml"
+      broiler_immune_response:
+        - threshold: ">1 g/kg"
+          note: "Excessive doses did not further improve serum IgA, IgM, IgG"
+    molecular_characteristics:
+      molecular_weight: "10-50 kDa (APS extracts); 8.7-4,800 kDa (heteropolysaccharides)"
+      composition: "Main monosaccharide components identified"
+    safety: "Low toxicity and side effects, non-residue, non-tolerance"
+    clinical_use:
+      - "APS injection (Chinese medicine standard Z20040086)"
+      - "Used to improve immunity and assist in cancer/diabetes treatment"
+      - "2019 trial: APS significantly improves cancer symptom clusters in metastatic disease patients"
+
+pharmacokinetic_studies:
+  - id: gu_2004_astragaloside_iv_bioavailability
+    title: "Transport and bioavailability studies of astragaloside IV, an active ingredient in Radix Astragali"
+    authors:
+      - Gu, Yongchuan
+      - Wang, Guangji
+      - Pan, Guoyu
+      - Fawcett, J Paul
+      - A, Jiye
+      - Sun, Jianguo
+    year: 2004
+    journal: Basic and Clinical Pharmacology & Toxicology
+    pubmed_id: "15569275"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/15569275/"
+    doi: "10.1111/j.1742-7843.2004.t01-1-pto950508.x"
+    study_type: comparative_pharmacokinetic_study
+    key_findings:
+      oral_bioavailability_rats:
+        - metric: absolute_bioavailability
+          result: "2.2%"
+          interpretation: "Notably poor oral absorption"
+      permeability_caco2_cells:
+        - metric: mean_papp
+          result: "6.7 ± 1.0 × 10⁻⁸ cm/sec"
+          interpretation: "Very low permeability value"
+      absorption_perfused_rat_intestine:
+        - metric: absorption_aqueous_solution
+          result: "Minimal"
+        - metric: absorption_radix_astragali_extract
+          result: "Significantly higher than aqueous solution"
+      bile_duct_ligation_effect: "Did not affect absorption"
+      p_glycoprotein: "Uptake unaffected by inhibitors; does not rely on active efflux transporters"
+      conclusion: "In vitro absorption studies effectively predict bioavailability in traditional Chinese medicine formulations"
+
+  - id: zhang_2006_astragaloside_iv_tissue_distribution
+    title: "Preclinical pharmacokinetics and tissue distribution of a natural cardioprotective agent astragaloside IV in rats and dogs"
+    authors:
+      - Zhang, Wei-Dong
+      - Zhang, Chuan
+      - Liu, Run-Hui
+      - Li, Hui-Liang
+      - Zhang, Jin-Tao
+      - Mao, Chen
+      - Moran, Sara
+      - Chen, Chun-Lin
+    year: 2006
+    journal: Life Sciences
+    volume: 79
+    issue: 8
+    pages: "808-815"
+    pubmed_id: "16564551"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16564551/"
+    doi: "10.1016/j.lfs.2006.02.032"
+    study_type: preclinical_pharmacokinetic_study
+    key_findings:
+      oral_bioavailability:
+        - species: rats
+          result: "2.2%"
+        - species: beagle_dogs
+          result: "7.4%"
+      half_life_male_rats:
+        - dose: "0.75 mg/kg"
+          t_half: "98.1 min"
+        - dose: "1.5 mg/kg"
+          t_half: "67.2 min"
+        - dose: "3.0 mg/kg"
+          t_half: "71.8 min"
+      half_life_female_rats:
+        - dose: "0.75 mg/kg"
+          t_half: "34.0 min"
+        - dose: "1.5 mg/kg"
+          t_half: "66.9 min"
+        - dose: "3.0 mg/kg"
+          t_half: "131.6 min"
+      systemic_clearance_dogs:
+        - metric: clearance_rate
+          result: "~0.004 l/kg/min"
+          interpretation: "Slowly cleared via hepatic clearance"
+      plasma_protein_binding: "Approximately 83%"
+      tissue_distribution: "Highest concentrations in lung and liver; limited distribution to brain suggests difficulty crossing blood-brain barrier"
+      elimination: "Only 50% recovered in urine and feces combined"
+      human_study_note: "One human study attempted to measure astragalosides in serum but could not find any"
+
+  - id: livertox_2020_hepatotoxicity
+    title: "Astragalus - LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    source: "NCBI Bookshelf"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK548582/"
+    year: 2020
+    publication: "LiverTox Database"
+    study_type: clinical_safety_database_review
+    key_findings:
+      hepatotoxicity_association: "Not associated with serum enzyme elevations during therapy"
+      liver_injury: "Not associated with clinically apparent liver injury"
+      published_reports: "No published reports of hepatotoxicity"
+      herbal_liver_injury_cases:
+        - timeframe: "2004-2013"
+          total_cases: 85
+          astragalus_cases: 0
+          interpretation: "Among 85 herbal/dietary supplement liver injury cases, none involved astragalus"
+      likelihood_score: "E (unlikely cause of clinically apparent liver injury)"
+      adverse_effects:
+        - "Large doses may cause gastrointestinal upset"
+        - "One trial reported mild diarrhea in 2 subjects"
+      drug_interactions:
+        - "Inhibitory activity against several CYP enzyme isoforms"
+        - "Potential for herb-drug interactions (theoretical)"
+        - "No clinically documented interactions to date"
+      notes: "Excellent hepatic safety record; theoretical contamination risk due to unregulated commercial preparations"
+
+safety_toxicology_studies:
+  - id: szabo_2014_cycloastragenol_safety
+    title: "Dietary safety of cycloastragenol from Astragalus spp.: subchronic toxicity and genotoxicity studies"
+    authors:
+      - Szabo, Nancy J
+    year: 2014
+    journal: Food and Chemical Toxicology
+    pubmed_id: "24316212"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24316212/"
+    study_type: subchronic_toxicity_genotoxicity_study
+    species: "Sprague-Dawley rats"
+    duration: "≥91 consecutive days"
+    dosing_levels:
+      oral_gavage: "0, 40, 80, or 150 mg/kg/day"
+      bacterial_assay: "Up to 5000 μg/plate"
+      micronucleus_assay: "2000 mg/kg intraperitoneal injection"
+    key_findings:
+      noael:
+        - metric: no_observed_adverse_effect_level
+          result: ">150 mg/kg/day"
+          interpretation: "In both male and female rats"
+      mortality: "No treatment-related mortalities occurred"
+      cardiac_effects: "No cardiac effects identified"
+      statistically_significant_changes: "None was adverse"
+      bacterial_mutagenicity: "Negative results across all doses"
+      chromosome_aberration: "Moderately positive response at one intermediate concentration; negative elsewhere"
+      micronucleus_testing: "No clastogenicity observed in peripheral erythrocytes"
+      conclusion: "High safety profile for cycloastragenol at doses exceeding typical dietary levels"
+
+  - id: yu_2007_radix_astragali_toxicity
+    title: "Subchronic toxicity studies of Radix Astragali extract in rats and dogs"
+    authors:
+      - Yu, Shu-Yi
+      - Ouyang, Hong-Tao
+      - Yang, Ju-Yun
+      - Huang, Xiao-Liang
+      - Yang, Ting
+      - Duan, Jun-Ping
+      - Cheng, Jun-Ping
+      - Chen, Yu-Xiang
+      - Yang, Yong-Jia
+      - Qiong, Pang
+    year: 2007
+    journal: Journal of Ethnopharmacology
+    pubmed_id: "17052876"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/17052876/"
+    study_type: subchronic_toxicity_study
+    species: "Sprague-Dawley rats and beagle dogs"
+    duration: "Three consecutive months"
+    dosing_levels:
+      rats: "5.7-39.9 g/kg"
+      dogs: "2.85-19.95 g/kg"
+    key_findings:
+      toxicity: "No distinct toxicity demonstrated"
+      body_weight: "Normal between experimental and control groups"
+      organ_weights: "Normal for principal organs"
+      hematology: "Comparable results between groups"
+      histopathology: "Comparable results between groups"
+      safety_margin: "Established dosage range represents approximately 70× (rats) and 35× (dogs) the human equivalent dose"
+      conclusion: "Radix Astragali extract shows excellent safety profile at doses far exceeding human use levels"
+
+  - id: song_2017_ht042_safety
+    title: "Safety evaluation of Astragalus extract mixture HT042 and its constituent herbs in Sprague-Dawley rats"
+    authors:
+      - Song, Jungbin
+      - Lee, Donghun
+      - Min, Byoungjae
+      - Bae, Jin-Sook
+      - Chang, Gyu Tae
+      - Kim, Hocheol
+    year: 2017
+    journal: Phytomedicine
+    volume: 32
+    pages: "59-67"
+    pubmed_id: "28732808"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28732808/"
+    doi: "10.1016/j.phymed.2017.03.005"
+    study_type: preclinical_toxicity_assessment
+    composition: "HT042: Astragalus membranaceus root, Eleutherococcus senticosus stem, and Phlomis umbrosa root"
+    dosing_levels:
+      acute_study: "Single doses up to 5,000 mg/kg"
+      subchronic_study: "Repeated doses up to 4,000 mg/kg/day"
+    key_findings:
+      approximate_lethal_dose: ">5,000 mg/kg"
+      noael:
+        - metric: no_observed_adverse_effect_level
+          result: "4,000 mg/kg/day"
+          interpretation: "In both male and female rats"
+      acute_toxicity: "No deaths occurred; no indication of toxicity"
+      subchronic_toxicity: "No deaths; no changes in clinical signs"
+      treatment_related_alterations: "Minor changes remained within normal ranges or recovered during observation periods"
+      conclusion: "HT042 demonstrates favorable safety profile"
+
+  - id: animal_ld50_compilation
+    title: "LD50 and Acute Toxicity Studies - Compilation"
+    sources:
+      - "Examine.com Research Database"
+      - "Alz Discovery Cognitive Vitality Review"
+      - "Various PubMed-indexed animal studies"
+    study_type: toxicological_data_compilation
+    ld50_values:
+      intravenous_kunming_mice:
+        - ld50: "90.39 g/kg"
+          ci_95: "87.57-93.31 g/kg"
+      intraperitoneal_kunming_mice:
+        - ld50: "108.11 g/kg"
+          ci_95: "102.90-113.58 g/kg"
+      injection_mice_general:
+        - ld50: "40 g/kg"
+    animal_safety_studies:
+      rats_oral:
+        - dose: "Up to 100 g/kg by gavage"
+          result: "No adverse effects"
+          interpretation: "Very high safety margin"
+      beagle_dogs:
+        - safety_range: "2.85-19.95 g/kg"
+          comparison: "35-70× standard human dose"
+          result: "No toxicity observed"
+    general_conclusions:
+      - "Low acute and chronic toxicity"
+      - "High safety even at high doses for short periods"
+    cautions:
+      - "Long-term high-dose use may be associated with organ toxicity, mutagenicity, developmental toxicity (animal studies)"
+      - "Potentially toxic to fetus during pregnancy in animal studies"
+      - "Human relevance of high-dose animal findings uncertain"
+
+dosage_summary:
+  traditional_chinese_medicine:
+    - condition: general_use
+      dose: "9-30 g daily"
+      form: "Decoction of dried root"
+      source: "Chinese Pharmacopoeia 2020"
+
+  standardized_extracts_clinical_trials:
+    immunomodulation_exercise:
+      - dose: "500 mg daily"
+        standardization: "0.5% 3-hydroxy 7-methoxy isoflavonoids"
+        duration: "6 weeks"
+        study: "latour_2021_exercise"
+
+    cardiovascular_diastolic_function:
+      - dose_low: "5 g/day astragalus capsules"
+        dose_high: "10 g/day astragalus capsules"
+        duration: "12 months"
+        study: "li_2018_diastolic_dysfunction"
+
+    post_covid_fatigue:
+      - dose: "500 mg twice daily (1,000 mg/day)"
+        form: "Astragalus root extract"
+        duration: "Variable; measurements at intervention end and 1 month follow-up"
+        study: "banihashemi_2025_post_covid_fatigue"
+
+    pediatric_growth:
+      - product: "HT042 extract mixture"
+        composition: "Astragalus + Eleutherococcus + Phlomis"
+        duration: "24 weeks"
+        age_group: "6-8 years"
+        study: "lee_2018_height_growth"
+
+bioavailability_notes:
+  astragaloside_iv:
+    - "Oral bioavailability extremely low: 2.2% in rats, 7.4% in dogs"
+    - "Very low permeability in Caco-2 cell model (Papp 6.7 × 10⁻⁸ cm/sec)"
+    - "Absorption minimal from aqueous solution but significantly increased in whole extract"
+    - "Not affected by P-glycoprotein; does not rely on active efflux"
+    - "Half-life in rats: 34-131 minutes depending on dose and sex"
+    - "Systemic clearance in dogs: ~0.004 l/kg/min (slow hepatic clearance)"
+    - "Plasma protein binding: ~83%"
+    - "Highest tissue distribution: lung and liver"
+    - "Limited brain distribution (does not readily cross blood-brain barrier)"
+    - "Only 50% recovered in urine and feces combined"
+    - "Human serum levels: one study could not detect astragalosides in human serum"
+
+  astragalus_polysaccharides:
+    - "Low bioavailability due to excessive molecular weight, bulky structure, low solubility, and negatively charged characteristics"
+
+safety_summary:
+  general_safety: "Astragalus considered generally safe without major adverse effects"
+  clinical_trial_safety: "Few human studies reporting no serum enzyme elevations during therapy; no mention of serious adverse events or hepatotoxicity"
+  dose_range_safety: "Taking up to 60 grams per day for as long as 4 months appears safe; clinical trials show doses 30 mg to 7.5 g daily for 1-3 months generally safe"
+
+  animal_toxicity_studies:
+    cycloastragenol:
+      - noael: ">150 mg/kg/day in rats"
+      - genotoxicity: "Not mutagenic at ≤5000 μg/plate in bacterial strains"
+    radix_astragali_extract:
+      - safety_margin: "70× human dose in rats, 35× in dogs with no adverse effects"
+      - duration: "3 months continuous administration"
+      - findings: "No changes in body weight, organ weights, hematology, or histopathology"
+    ht042_mixture:
+      - acute_lethal_dose: ">5,000 mg/kg"
+      - noael: "4,000 mg/kg/day"
+      - findings: "No deaths, no toxicity, minor treatment-related alterations within normal ranges"
+
+  hepatotoxicity: "Not associated with serum enzyme elevations or clinically apparent liver injury; LiverTox database records no significant hepatotoxicity"
+
+  cancer_patient_safety: "Low incidence of hand-foot numbness and weakness; high safety profile in malignant tumor patients receiving astragalus polysaccharides"
+
+  limitations: "Long-term effects not examined; lack of information on adverse effects in combination with other herbs and supplements"
+
+  contraindications:
+    - "Use caution in pregnancy and lactation (insufficient safety data)"
+    - "Potential autoimmune considerations (due to immunostimulatory effects)"
+
+quality_standardization:
+  active_constituents:
+    primary_compounds:
+      - "Astragalosides (saponins) - particularly astragaloside IV"
+      - "Astragalus polysaccharides (APS)"
+    secondary_compounds:
+      - "Flavonoids (isoflavonoids)"
+      - "3-hydroxy 7-methoxy isoflavonoids"
+
+  pharmacopoeia_specifications:
+    chinese_pharmacopoeia_2020:
+      - botanical_source: "A. membranaceus var. mongholicus or A. membranaceus"
+      - physical_characteristics: "Cylindrical, 30-90 cm × 1-3.5 cm, light brownish yellow surface"
+      - daily_dosage: "9-30 g"
+      - astragaloside_iv_content: "≥0.080% by HPLC"
+      - isoflavone_glucoside_content: "≥0.020%"
+      - quality_control:
+          moisture: "≤10-13%"
+          total_ash: "≤5-7%"
+          acid_insoluble_ash: "≤1-2%"
+          lead: "≤5 mg/kg"
+          cadmium: "≤0.3-1 mg/kg"
+          arsenic: "≤2-3 mg/kg"
+    japanese_pharmacopoeia:
+      - permitted_species: "A. membranaceus, A. chrysopterus, A. floridus, A. tongolensis"
+    european_pharmacopoeia:
+      - marker_compound: "Astragaloside"
+      - status: "Recorded as marker component"
+    british_pharmacopoeia:
+      - marker_compound: "Astragaloside"
+
+  commercial_standardization_examples:
+    - product: "Standardized AMR extract"
+      standardization: "0.5% 3-hydroxy 7-methoxy isoflavonoids"
+      study: "latour_2021_exercise"
+    - product: "HT042 mixture"
+      composition: "Astragalus membranaceus + Eleutherococcus senticosus + Phlomis umbrosa"
+      studies: "lee_2018_height_growth, song_2017_ht042_safety"
+
+research_gaps:
+  - "Oral bioavailability of astragaloside IV extremely low (2.2-7.4%); need for formulation strategies to enhance absorption"
+  - "Human pharmacokinetic data limited; one study could not detect astragalosides in human serum"
+  - "Long-term safety data (>4 months) lacking"
+  - "Mechanism of immunomodulatory effects requires further elucidation"
+  - "Optimal dosing for different conditions not well-established"
+  - "Interactions with other herbs and conventional medications understudied"
+  - "Quality control and standardization methods need harmonization across studies"
+  - "Astragalus polysaccharide bioavailability challenges require investigation"
+  - "Limited data on pregnancy/lactation safety"
+  - "Need for larger, higher-quality RCTs with standardized preparations"
+  - "Tissue-specific effects and distribution in humans unclear"
+
+notes:
+  - "Radix Astragali (Huangqi) official in Chinese Pharmacopoeia 2020 edition"
+  - "No WHO or Commission E monographs exist (herb primarily used in Traditional Chinese Medicine, not European phytotherapy)"
+  - "Listed in 204 patented traditional Chinese medicines (~14% of total in Chinese Pharmacopoeia 2015)"
+  - "Two species recognized: A. membranaceus and A. membranaceus var. mongholicus"
+  - "Primary traditional uses: immune support, qi tonification, cardiovascular support"
+  - "Modern evidence strongest for: immunomodulation, adjuvant diabetes treatment, cancer-related fatigue, diabetic nephropathy"
+  - "Bioavailability of astragaloside IV remarkably poor despite being considered an active constituent"
+  - "Whole extract absorption superior to isolated compounds, suggesting synergistic effects"
+  - "Safety profile excellent in animal studies at doses 35-70× human equivalent"
+  - "Clinical evidence growing but limited by study quality heterogeneity"
+  - "Astragalus polysaccharides show promise in cancer immunotherapy applications"
+  - "Root extract form appears safer and more effective than isolated derivative compounds"

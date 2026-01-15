@@ -1,0 +1,622 @@
+---
+herb: Cat's Claw
+botanical_names:
+  - Uncaria tomentosa (Willd. ex Schult.) DC.
+  - Uncaria guianensis (Aubl.) J.F. Gmel.
+last_updated: 2026-01-15
+
+sources:
+  # Systematic Reviews and Meta-Analyses
+
+  - id: arado_2024_systematic_review
+    title: "Anti-inflammatory and/or immunomodulatory activities of Uncaria tomentosa (cat's claw) extracts: A systematic review and meta-analysis of in vivo studies"
+    authors:
+      - Gustavo Marin Arado
+      - Pedro de Padua G Amatto
+      - Mozart Marins
+      - Elen Sanchez Rizzi
+      - Suzelei de Castro França
+      - Juliana da Silva Coppede
+      - Fábio Carmona
+      - Ana Maria Soares Pereira
+    year: 2024
+    journal: Frontiers in Pharmacology
+    volume: 15
+    article: "1378408"
+    doi: 10.3389/fphar.2024.1378408
+    pmid: 38881881
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38881881/
+    study_type: Systematic Review and Meta-Analysis
+    registration: PROSPERO CRD42023450869
+    databases_searched:
+      - PubMed
+      - Embase
+      - Scopus
+    search_date: "2023-07-26"
+    studies_included: 24
+    total_screened: 523
+    key_findings:
+      - "Statistically significant reductions in IL-6: SMD -0.72 (p = 0.001)"
+      - "Statistically significant reductions in NF-κB: SMD -1.19 (p = 0.001)"
+      - "Non-significant changes for IL-1, IL-10, and TNF-α"
+      - "Extracts of stem bark, roots, and leaves exhibited anti-inflammatory and/or immunomodulatory activities with low toxicity"
+    notes: "First systematic review and meta-analysis of anti-inflammatory effects in animal models"
+
+  - id: lopes_2025_cytotoxic_review
+    title: "Cytotoxic effect of different Uncaria tomentosa (cat's claw) extracts, fractions on normal and cancer cells: a systematic review"
+    authors:
+      - Adriana A Lopes
+      - Juliana da Silva Coppede
+      - Pedro de Pádua G Amatto
+      - Davi Casale Aragon
+      - Suzelei de Castro França
+      - Fabio Carmona
+      - Ana Maria S Pereira
+    year: 2025
+    journal: Frontiers in Pharmacology
+    volume: 16
+    article: "1584840"
+    doi: 10.3389/fphar.2025.1584840
+    pmid: 40438596
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40438596/
+    study_type: Systematic Review
+    databases_searched:
+      - PubMed
+      - Embase
+      - Scielo
+    search_date: "2025-01"
+    studies_included: 13
+    key_findings:
+      - "POA-rich extracts showed highest anticancer potential, particularly against prostate cancer and leukemia"
+      - "Crude aqueous bark extracts (72h incubation) effective against squamous cell carcinoma"
+      - "TOA and PAC fractions showed limited cytotoxic effects"
+      - "Most extracts non-toxic to normal cell lines; crude aqueous bark extract toxic to keratinocytes (IC50 < 10 μg/mL on HaCaT cells)"
+      - "Cytotoxic effects vary considerably depending on extraction method and chemical composition"
+    notes: "Highlights importance of extract standardization for anticancer research"
+
+  # Randomized Controlled Trials
+
+  - id: mur_2002_ra_trial
+    title: "Randomized double blind trial of an extract from the pentacyclic alkaloid-chemotype of uncaria tomentosa for the treatment of rheumatoid arthritis"
+    authors:
+      - Erich Mur
+      - Frank Hartig
+      - Günther Eibl
+      - Michael Schirmer
+    year: 2002
+    journal: Journal of Rheumatology
+    volume: 29
+    issue: 4
+    pages: 678-681
+    pmid: 11950006
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/11950006/
+    study_type: Randomized Controlled Trial
+    design: Double-blind, placebo-controlled, two-phase
+    sample_size: 40
+    population: Patients with active rheumatoid arthritis receiving sulfasalazine or hydroxychloroquine
+    duration_weeks: 52
+    phase_1_weeks: 24
+    phase_2_weeks: 28
+    intervention: Pentacyclic alkaloid-chemotype extract of Uncaria tomentosa
+    key_findings:
+      - "24 weeks treatment: painful joints reduced 53.2% vs 24.1% placebo (p = 0.044)"
+      - "Phase 2: painful joints reduction (p = 0.003)"
+      - "Phase 2: swollen joints reduction (p = 0.007)"
+      - "Phase 2: Ritchie Index reduction (p = 0.004)"
+      - "Only minor side effects observed"
+    conclusion: "Demonstrated relative safety and modest benefit to tender joint count in active RA patients on concurrent conventional therapy"
+
+  - id: piscoya_2001_osteoarthritis
+    title: "Efficacy and safety of freeze-dried cat's claw in osteoarthritis of the knee: mechanisms of action of the species Uncaria guianensis"
+    authors:
+      - J Piscoya
+      - Z Rodriguez
+      - S A Bustamante
+      - N N Okuhama
+      - M J Miller
+      - M Sandoval
+    year: 2001
+    journal: Inflammation Research
+    volume: 50
+    issue: 9
+    pages: 442-448
+    doi: 10.1007/PL00000268
+    pmid: 11603848
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/11603848/
+    study_type: Randomized Controlled Trial
+    design: Multicenter
+    sample_size: 45
+    treatment_group: 30
+    placebo_group: 15
+    duration_weeks: 4
+    intervention: Freeze-dried Uncaria guianensis extract
+    key_findings:
+      - "Pain associated with activity significantly reduced, benefits within first week"
+      - "Medical and patient assessment scores significantly reduced"
+      - "Resting pain and nighttime pain not significantly reduced during 4-week trial"
+      - "Knee circumference not significantly reduced"
+      - "No deleterious effects on blood or liver function vs placebo"
+      - "No significant side effects vs placebo"
+    notes: "Species comparison showed U. guianensis and U. tomentosa equiactive in DPPH radical quenching and TNF-alpha inhibition"
+
+  - id: depaula_2015_cancer_qol
+    title: "Uncaria tomentosa (cat's claw) improves quality of life in patients with advanced solid tumors"
+    authors:
+      - Larissa Carvalho Lopes de Paula
+      - Fernando Fonseca
+      - Fabio Perazzo
+      - Felipe Melo Cruz
+      - Daniel Cubero
+      - Damila Cristina Trufelli
+      - Suelen Patrícia Dos Santos Martins
+      - Patrícia Xavier Santi
+      - Eliana Araújo da Silva
+      - Auro Del Giglio
+    year: 2015
+    journal: Journal of Alternative and Complementary Medicine
+    volume: 21
+    issue: 1
+    pages: 22-30
+    doi: 10.1089/acm.2014.0127
+    pmid: 25495394
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25495394/
+    study_type: Phase II Clinical Trial
+    sample_size: 51
+    median_age: 64
+    age_range: "33-85"
+    female_percent: 47
+    dosing: "100 mg dry extract three times daily (300 mg/day)"
+    key_findings:
+      - "Overall quality of life improved (p = 0.0411) per EORTC QLQ C-30"
+      - "Social functioning improved (p = 0.0341)"
+      - "Fatigue reduced (p = 0.0496) per Chalder Fatigue Questionnaire"
+      - "No tumor response per RECIST criteria"
+      - "Disease stabilization >8 months in 4 participants"
+      - "Well tolerated by most patients, no serious adverse events"
+
+  - id: araujo_2012_breast_cancer
+    title: "Uncaria tomentosa-Adjuvant Treatment for Breast Cancer: Clinical Trial"
+    authors:
+      - Maria do Carmo Santos Araújo
+      - Iria Luiza Farias
+      - Jessie Gutierres
+      - Sergio L Dalmora
+      - Nélia Flores
+      - Julia Farias
+      - Ivana de Cruz
+      - Juarez Chiesa
+      - Vera Maria Morsch
+      - Maria Rosa Chitolina Schetinger
+    year: 2012
+    journal: Evidence-Based Complementary and Alternative Medicine
+    volume: 2012
+    article: "676984"
+    doi: 10.1155/2012/676984
+    pmid: 22811748
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22811748/
+    study_type: Randomized Clinical Trial
+    population: Patients with Invasive Ductal Carcinoma-Stage II
+    dosing: "300 mg dry Uncaria tomentosa extract daily"
+    chemotherapy_regimen: FAC (Fluorouracil, Doxorubicin, Cyclophosphamide)
+    duration: 6 chemotherapy cycles
+    key_findings:
+      - "Reduced neutropenia caused by chemotherapy"
+      - "Restored cellular DNA damage"
+    notes: "Positive protective effects against chemotherapy-induced hematologic toxicity"
+
+  - id: farias_2012_colorectal_cancer
+    title: "Uncaria tomentosa for Reducing Side Effects Caused by Chemotherapy in CRC Patients: Clinical Trial"
+    authors:
+      - I L G Farias
+      - M C S Araújo
+      - J G Farias
+      - L V Rossato
+      - L I Elsenbach
+      - S L Dalmora
+      - N M P Flores
+      - M Durigon
+      - I B M Cruz
+      - V M Morsch
+      - M R C Schetinger
+    year: 2012
+    journal: Evidence-Based Complementary and Alternative Medicine
+    volume: 2012
+    article: "892182"
+    doi: 10.1155/2012/892182
+    pmid: 21869902
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/21869902/
+    study_type: Randomized Clinical Trial
+    sample_size: 43
+    population: Colorectal cancer patients
+    dosing: "300 mg daily"
+    chemotherapy_regimen: FOLFOX4 (5-Fluorouracil/leucovorin + oxaliplatin)
+    duration: 6 cycles
+    key_findings:
+      - "300 mg daily Uncaria tomentosa during 6 cycles FOLFOX4 did not change analyzed parameters"
+      - "No toxic effects observed"
+      - "No significant differences in hematological parameters, oxidative stress markers, antioxidant enzyme activity, or immunologic parameters between groups"
+    notes: "Negative trial - no benefit observed for colorectal cancer patients, but confirmed safety"
+
+  # Pharmacokinetics and Bioavailability
+
+  - id: chen_2020_pharmacokinetics
+    title: "Simultaneous Determination of Six Uncaria Alkaloids in Mouse Blood by UPLC-MS/MS and Its Application in Pharmacokinetics and Bioavailability"
+    authors:
+      - L Chen
+      - J Ma
+      - X Wang
+      - M Zhang
+    year: 2020
+    journal: Biomedical Research International
+    volume: 2020
+    article: "1030269"
+    doi: 10.1155/2020/1030269
+    pmid: 32879877
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32879877/
+    study_type: Pharmacokinetic Study
+    model: Mouse
+    method: UPLC-MS/MS
+    alkaloids_studied:
+      - Rhynchophylline
+      - Isorhynchophylline
+      - Corynoxeine
+      - Isocorynoxeine
+      - Hirsutine
+      - Hirsuteine
+    oral_dose: "5 mg/kg"
+    iv_dose: "1 mg/kg"
+    sample_size: 6 mice per route
+    key_findings:
+      bioavailability:
+        corynoxeine: 27.3%
+        isocorynoxeine: 32.7%
+        rhynchophylline: 49.4%
+        isorhynchophylline: 29.5%
+        hirsutine: 68.9%
+        hirsuteine: 51.0%
+      half_life_range: "0.6 - 4.4 hours"
+      cmax_range: "305.3 ± 68.8 to 524.5 ± 124.5 ng/mL"
+      human_intestinal_absorption: ">81% (predicted)"
+      calibration_range: "1-1000 ng/mL"
+      correlation_coefficient: "r² = 0.995"
+      accuracy: "86.5% to 110.4%"
+      precision_intraday: "≤15%"
+      precision_interday: "≤15%"
+      recovery: "64.4-86.8%"
+      matrix_effects: "94.1-109.4%"
+    notes: "Demonstrates satisfactory oral absorption of each alkaloid; rapid metabolism in mice"
+
+  # Comparative Studies
+
+  - id: sandoval_2002_comparative
+    title: "Anti-inflammatory and antioxidant activities of cat's claw (Uncaria tomentosa and Uncaria guianensis) are independent of their alkaloid content"
+    authors:
+      - M Sandoval
+      - NN Okuhama
+      - XJ Zhang
+      - LA Condezo
+      - J Lao
+      - FM Angeles
+      - RA Musah
+      - P Bobrowski
+      - MJS Miller
+    year: 2002
+    journal: Phytomedicine
+    volume: 9
+    issue: 4
+    pages: 325-337
+    doi: 10.1078/0944-7113-00117
+    pmid: 12120814
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12120814/
+    study_type: Comparative Study
+    species_compared:
+      - Uncaria tomentosa
+      - Uncaria guianensis
+    key_findings:
+      - "U. tomentosa alkaloid content 35-fold higher than U. guianensis"
+      - "U. guianensis demonstrated superior potency in all antioxidant assays (p < 0.01)"
+      - "TNF-alpha inhibition IC50: U. guianensis 9.5 ng/mL vs U. tomentosa 14.1 ng/mL (p < 0.01)"
+      - "Alkaloid-rich and alkaloid-depleted fractions showed comparable anti-inflammatory effects"
+      - "Therapeutic activity independent of alkaloid content"
+    methods:
+      - DPPH radical scavenging
+      - Hydroxyl radical scavenging
+      - Lipid peroxidation inhibition
+      - TNF-alpha production inhibition via ELISA
+      - In vivo gastritis model (indomethacin, 3-day oral pretreatment in rats)
+
+  - id: aguilar_2002_extract_comparison
+    title: "Anti-inflammatory activity of two different extracts of Uncaria tomentosa (Rubiaceae)"
+    authors:
+      - José L Aguilar
+      - Percy Rojas
+      - Adolfo Marcelo
+      - Alberto Plaza
+      - Rudolf Bauer
+      - Eveline Reininger
+      - Christoph A Klaas
+      - Irmgard Merfort
+    year: 2002
+    journal: Journal of Ethnopharmacology
+    volume: 81
+    issue: 2
+    pages: 271-276
+    doi: 10.1016/s0378-8741(02)00093-4
+    pmid: 12065162
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12065162/
+    study_type: Comparative Study
+    extracts_compared:
+      - Spray-dried hydroalcoholic extract
+      - Aqueous freeze-dried extract
+    model: Carrageenan-induced paw edema in mice
+    key_findings:
+      - "Hydroalcoholic extract showed significantly superior anti-inflammatory activity vs aqueous extract (p < 0.05)"
+      - "Little inhibitory activity on cyclooxygenase-1 and -2"
+      - "Anti-inflammatory effects operate through alternative pathways (not COX inhibition)"
+
+  # In Vitro Studies - Antiviral
+
+  - id: delima_2024_chikungunya
+    title: "Antiviral and Virucidal Activities of Uncaria tomentosa (Cat's Claw) against the Chikungunya Virus"
+    authors:
+      - Raquel Curtinhas de Lima
+      - Ligia Maria Marino Valente
+      - Débora Familiar Macedo
+      - Luzia Maria de-Oliveira-Pinto
+      - Flavia Barreto Dos Santos
+      - José Luiz Mazzei
+      - Antonio Carlos Siani
+      - Priscila Conrado Guerra Nunes
+      - Elzinandes Leal de Azeredo
+    year: 2024
+    journal: Viruses
+    volume: 16
+    issue: 3
+    article: "369"
+    doi: 10.3390/v16030369
+    pmid: 38543735
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38543735/
+    study_type: In Vitro Experimental
+    virus: Chikungunya virus (Brazilian strain)
+    cell_line: Vero cells
+    methods:
+      - RT-qPCR
+      - Flow cytometry
+      - Plaque reduction assay
+      - MTT cytotoxicity assay
+    key_findings:
+      - "At 100 μg/mL: antiviral activity >90% via plaque reduction assay"
+      - "Reduced viral cytopathic effect at non-cytotoxic dosage"
+      - "Significant virucidal effects at 24h and 48h post-infection at 100 μg/mL"
+      - "Dose-dependent inhibition of CHIKV infection"
+    notes: "First report on antiviral activity of UT against CHIKV infection"
+
+  # Safety and Toxicology
+
+  - id: livertox_cats_claw
+    title: "Cat's Claw"
+    source: LiverTox - Clinical and Research Information on Drug-Induced Liver Injury
+    publisher: National Institute of Diabetes and Digestive and Kidney Diseases
+    url: https://www.ncbi.nlm.nih.gov/books/NBK548323/
+    likelihood_score: E (unlikely cause of clinically apparent liver injury)
+    key_findings:
+      - "Cat's claw has not been implicated in causing liver injury"
+      - "No reported cases of clinically apparent hepatotoxicity"
+      - "Osteoarthritis studies (45-107 patients): no serious adverse events or changes in ALT/AST"
+      - "RA trial (40 patients, 30mg daily): no laboratory changes"
+      - "No liver enzyme elevations documented across reviewed studies"
+    minor_side_effects:
+      - Nausea
+      - Gastrointestinal upset
+      - Diarrhea
+    drug_interactions:
+      - "Inhibits CYP 3A4 activity - potential herb-drug interactions"
+    contraindications:
+      - Pregnancy
+      - Lactation
+      - Organ transplant recipients
+      - Potential contraindication with anticoagulants
+    typical_dosing: "30-300 mg extract once daily (varies by preparation)"
+
+  # Review Articles
+
+  - id: erowele_2009_review
+    title: "Pharmacology and therapeutic uses of cat's claw"
+    authors:
+      - Goldina Ikezuagu Erowele
+      - Abolanle O Kalejaiye
+    year: 2009
+    journal: American Journal of Health-System Pharmacy
+    volume: 66
+    issue: 11
+    pages: 992-995
+    doi: 10.2146/ajhp080443
+    pmid: 19451609
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19451609/
+    study_type: Review
+    notes: "Comprehensive review of pharmacology and clinical applications"
+
+  # Official Monographs
+
+  - id: who_2007_monograph
+    title: "Cortex Uncariae"
+    source: WHO Monographs on Selected Medicinal Plants
+    volume: 3
+    publisher: World Health Organization
+    location: Geneva, Switzerland
+    year: 2007
+    url: https://apps.who.int/iris/bitstream/handle/10665/42052/9241545178.pdf
+    traditional_uses:
+      - Arthritis
+      - Rheumatism
+      - Gastric ulcers
+      - Abscesses
+      - Asthma
+      - Fevers
+      - Urinary tract infections
+      - Viral infections
+      - Wounds
+      - Emmenagogue
+    notes: "Comprehensive scientific reference including quality control parameters and traditional uses documented by indigenous Amazonian groups"
+
+  - id: ema_2015_assessment
+    title: "Assessment report on Uncaria tomentosa (Willd. ex Schult.) DC., cortex"
+    organization: European Medicines Agency (EMA)
+    committee: Committee on Herbal Medicinal Products (HMPC)
+    reference: EMA/HMPC/259598/2014
+    date: 2015-03-10
+    url: https://www.ema.europa.eu/en/documents/herbal-report/draft-assessment-report-uncaria-tomentosa-willd-ex-schult-dc-cortex_en.pdf
+    notes: "Official European assessment of therapeutic indications, quality standards, and safety data"
+
+# Dosing Information from Clinical Studies
+
+dosing_summary:
+  clinical_trial_doses:
+    - condition: Rheumatoid Arthritis
+      dose: "30-60 mg daily (pentacyclic alkaloid-chemotype extract)"
+      duration: "52 weeks"
+      source: mur_2002_ra_trial
+
+    - condition: Osteoarthritis
+      dose: "Freeze-dried extract (dose not specified)"
+      duration: "4 weeks"
+      source: piscoya_2001_osteoarthritis
+      notes: "Benefits within first week"
+
+    - condition: Advanced Solid Tumors
+      dose: "100 mg three times daily (300 mg/day dry extract)"
+      source: depaula_2015_cancer_qol
+
+    - condition: Breast Cancer (adjuvant)
+      dose: "300 mg daily dry extract"
+      duration: "6 chemotherapy cycles"
+      source: araujo_2012_breast_cancer
+
+    - condition: Colorectal Cancer (adjuvant)
+      dose: "300 mg daily"
+      duration: "6 chemotherapy cycles"
+      source: farias_2012_colorectal_cancer
+
+  traditional_dosing:
+    - "1 gram root bark 2-3 times daily"
+    - "20-30 mg root bark extract daily"
+
+  standardized_extracts:
+    - specification: "8-10% carboxy alkyl esters, <0.5% oxindole alkaloids"
+      dose: "250-300 mg"
+      sources: "Multiple clinical studies"
+
+    - specification: "Pentacyclic alkaloid (POA) chemotype preferred"
+      notes: "Should contain <0.02% tetracyclic oxindole alkaloids (TOA)"
+
+    - specification: "POA-rich extracts"
+      notes: "Show highest anticancer potential; TOA and POA mixtures unsuitable unless TOA <0.02%"
+
+# Extract Standardization
+
+standardization:
+  chemotypes:
+    - name: "Pentacyclic Oxindole Alkaloids (POA)"
+      preferred: true
+      therapeutic_uses: "Anti-inflammatory, immunomodulatory, anticancer"
+      note: "Two POA chemotypes exist"
+
+    - name: "Tetracyclic Oxindole Alkaloids (TOA)"
+      preferred: false
+      note: "Should be <0.02% in therapeutic preparations; TOA/POA mixtures unsuitable"
+
+  key_alkaloids:
+    - Rhynchophylline
+    - Isorhynchophylline
+    - Corynoxeine
+    - Isocorynoxeine
+    - Hirsutine
+    - Hirsuteine
+
+  other_constituents:
+    - Carboxy alkyl esters (8-10% in standardized extracts)
+    - Proanthocyanidins (PAC)
+    - Quinovic acid glycosides
+
+# Safety Profile Summary
+
+safety:
+  overall: "Good safety profile; unlikely cause of liver injury (LiverTox Score E)"
+
+  clinical_trial_safety:
+    - "No serious adverse events in osteoarthritis trials (45-107 patients)"
+    - "Only minor side effects in RA trial (40 patients)"
+    - "Well tolerated in cancer trials (300 mg/day)"
+    - "No toxic effects in colorectal cancer trial (43 patients, 6 cycles)"
+    - "No hepatotoxicity: no changes in ALT/AST across multiple trials"
+
+  common_minor_effects:
+    - Nausea
+    - Gastrointestinal upset
+    - Diarrhea
+    - Dyspepsia (uncommon)
+    - Pruritus (uncommon)
+
+  contraindications:
+    - Pregnancy
+    - Lactation
+    - Organ transplant recipients
+    - Use with caution with anticoagulants
+
+  drug_interactions:
+    mechanism: "Inhibits CYP 3A4"
+    concern: "Potential interactions with medications metabolized via CYP 3A4 pathway"
+
+  duration_safety:
+    - "6 months: possibly safe for most people"
+    - "6 weeks at 350 mg/day: no toxic symptoms"
+    - "12 weeks at 300 mg/day: no toxic symptoms"
+
+# Species Comparison
+
+species_notes:
+  uncaria_tomentosa:
+    alkaloid_content: "High (35-fold > U. guianensis)"
+    geographic_origin: "Peru, Amazon basin"
+    traditional_use: "Ashaninka Indians - 'savéntaro' (powerful plant)"
+
+  uncaria_guianensis:
+    alkaloid_content: "Low"
+    antioxidant_activity: "Superior to U. tomentosa (p < 0.01)"
+    anti_inflammatory: "More potent than U. tomentosa"
+    tnf_alpha_ic50: "9.5 ng/mL (vs 14.1 ng/mL for U. tomentosa)"
+    equivalence: "Equiactive with U. tomentosa for DPPH radical quenching and TNF-alpha inhibition in some studies"
+
+# Key Research Gaps
+
+research_needs:
+  - "Human pharmacokinetic studies (currently only animal data)"
+  - "Large-scale RCTs for specific conditions"
+  - "Standardization protocols for POA/TOA ratios"
+  - "Long-term safety data (>6 months)"
+  - "Mechanism of action studies (non-COX pathways)"
+  - "Optimal dosing for different conditions"
+  - "Bioavailability enhancement strategies"
+
+notes: |
+  This bibliography focuses on clinical studies with human subjects, pharmacokinetic data,
+  systematic reviews, and official monographs. Cat's claw shows promise for anti-inflammatory
+  and immunomodulatory effects with good safety profile. Key considerations:
+
+  1. Extract standardization critical - POA chemotype preferred
+  2. Wide dosing range in studies (30-300 mg/day)
+  3. Generally well-tolerated with minimal adverse effects
+  4. No hepatotoxicity in clinical trials
+  5. Limited high-quality human RCTs available
+  6. Bioavailability of alkaloids ranges 27-69% (animal data)
+  7. Species comparison: U. guianensis may be more potent for antioxidant/anti-inflammatory effects
+
+  Clinical evidence strongest for:
+  - Rheumatoid arthritis (modest benefit)
+  - Osteoarthritis (pain with activity)
+  - Quality of life in cancer patients
+  - Reducing chemotherapy-induced neutropenia (breast cancer)
+
+  Insufficient evidence for:
+  - Colorectal cancer chemotherapy side effects
+  - Aromatase inhibitor-induced arthralgia

@@ -1,0 +1,741 @@
+---
+herb: Panax quinquefolius
+common_names:
+  - American ginseng
+  - Xi Yang Shen
+  - North American ginseng
+  - Wisconsin ginseng
+
+# Systematic Reviews and Meta-Analyses
+
+systematic_reviews:
+  - title: "Effects of Ginseng on Cognitive Function: A Systematic Review and Meta-Analysis"
+    authors:
+      - Zeng M
+      - Zhang K
+      - Yang J
+      - Zhang Y
+      - You P
+      - Yan L
+      - Weng Y
+    year: 2024
+    journal: "Phytotherapy Research"
+    volume: 38
+    issue: 12
+    pages: "6023-6034"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39474788/"
+    doi: "10.1002/ptr.8359"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 15
+    breakdown: "15 randomized controlled trials"
+    sample_size: 671
+    key_findings:
+      - "Significant effect on memory improvement: SMD = 0.19 (95%CI: 0.02-0.36, p < 0.05)"
+      - "High-dose preparations showed stronger effects: SMD = 0.33 (95%CI: 0.04-0.61)"
+      - "No positive effects on overall cognition, attention, or executive function"
+      - "Lower doses (100-400 mg) enhanced attentional and working memory performance in healthy adults"
+    notes: "Meta-analysis included both Panax ginseng and Panax quinquefolius studies"
+
+  - title: "Safety Analysis of Panax Ginseng in Randomized Clinical Trials: A Systematic Review"
+    authors:
+      - Kim YS
+      - Woo JY
+      - Han CK
+      - Chang IM
+    year: 2015
+    journal: "Medicines (Basel)"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28930204/"
+    study_type: "Systematic review of safety in RCTs"
+    trials_reviewed: 44
+    time_period: "2005-2014"
+    key_findings:
+      - "5 studies reported no adverse events; 16 documented adverse events; 23 did not mention adverse events"
+      - "Main adverse events: hot flushes, insomnia, dyspepsia"
+      - "No significant difference in frequency and symptoms between ginseng and placebo groups"
+      - "Symptoms were mild and temporary with no serious or severe adverse events"
+      - "One case of hypoglycemia; two instances of vaginal bleeding reported"
+      - "Panax ginseng showed a very safe profile across reviewed trials"
+    notes: "Primarily focused on Panax ginseng but relevant to ginseng safety profile generally"
+
+  - title: "Ginseng supplementation and vascular function: a systematic review and meta-analysis of clinical trials"
+    authors: (Not fully extracted)
+    year: 2025
+    journal: "BMC Complementary Medicine and Therapies"
+    pubmed_url: "https://link.springer.com/article/10.1186/s12906-025-04936-5"
+    study_type: "Systematic review and meta-analysis"
+    key_findings:
+      - "Pooled analysis showed significant increase in FMD (flow-mediated dilation) level"
+      - "Significant increase in endothelium-derived nitric oxide levels"
+      - "Ginseng appears to have neutral vascular effects overall"
+    notes: "Searched databases through February 2025"
+
+  - title: "The effect of ginseng (genus Panax) on blood pressure: a systematic review and meta-analysis of randomized controlled clinical trials"
+    authors: (Not fully extracted)
+    year: 2016
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27074879/"
+    study_type: "Systematic review and meta-analysis"
+    key_findings:
+      - "No significant effect on systolic blood pressure (SBP), diastolic blood pressure (DBP) and mean arterial pressure (MAP)"
+      - "Stratified analysis favoured systolic BP improvement in diabetes, metabolic syndrome and obesity"
+      - "Ginseng should not be discouraged for concern of increased blood pressure"
+    notes: "Covered both Panax ginseng and Panax quinquefolius"
+
+# Randomized Controlled Trials - Cancer-Related Fatigue
+
+rcts_cancer_fatigue:
+  - title: "Wisconsin Ginseng (Panax quinquefolius) to improve cancer-related fatigue: a randomized, double-blind trial, N07C2"
+    authors:
+      - Barton DL
+      - Liu H
+      - Dakhil SR
+      - Linquist B
+      - Sloan JA
+      - Nichols CR
+      - McGinn TW
+      - Stella PJ
+      - Seeger GR
+      - Sood A
+      - Loprinzi CL
+    year: 2013
+    journal: "Journal of the National Cancer Institute"
+    volume: 105
+    issue: 16
+    pages: "1230-8"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23853057/"
+    study_design: "Phase III randomized, double-blind, multicenter clinical trial"
+    sample_size: 364
+    institutions: 40
+    dosage: "2000 mg daily"
+    duration: "8 weeks"
+    key_findings:
+      - "At 4 weeks: ginseng group 14.4-point improvement vs 8.2 points placebo (p=0.07, not significant)"
+      - "At 8 weeks: ginseng group 20-point improvement (SD=27) vs 10.3 (SD=26.1) placebo (p=0.003, statistically significant)"
+      - "Greater benefit in patients receiving active cancer treatment vs those who had completed treatment"
+      - "No statistically significant toxicity differences between groups"
+    notes: "Largest RCT of American ginseng for cancer-related fatigue"
+
+  - title: "Pilot study of Panax quinquefolius (American ginseng) to improve cancer-related fatigue: a randomized, double-blind, dose-finding evaluation: NCCTG trial N03CA"
+    authors:
+      - Barton DL
+      - Soori GS
+      - Bauer BA
+      - Sloan JA
+      - Johnson PA
+      - Figueras C
+      - Duane S
+      - Mattar B
+      - Liu H
+      - Atherton PJ
+      - Christensen B
+      - Loprinzi CL
+    year: 2010
+    journal: "Supportive Care in Cancer"
+    volume: 18
+    issue: 2
+    pages: "179-87"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/19415341/"
+    study_design: "Phase III pilot study, randomized, double-blind, dose-finding"
+    sample_size: 290
+    treatment_groups:
+      - "Placebo"
+      - "750 mg/day"
+      - "1,000 mg/day"
+      - "2,000 mg/day"
+    dosing_frequency: "Twice daily"
+    duration: "8 weeks"
+    key_findings:
+      - "Activity interference scores: placebo/750-mg group 460-467 vs 480-551 for 1,000-2,000 mg groups"
+      - "SF-36 vitality subscale change: 7.3-7.8 points (placebo/750-mg) vs 10.5-14.6 points (higher-dose groups)"
+      - "Over twice as many patients on ginseng perceived benefit and were satisfied compared to placebo"
+      - "No significant toxicity differences between groups"
+      - "Tolerable toxicity at 1,000-2,000 mg/day doses"
+    notes: "Dose-finding study established 2,000 mg/day for subsequent Phase III trial"
+
+# Randomized Controlled Trials - Type 2 Diabetes and Glycemic Control
+
+rcts_diabetes:
+  - title: "Efficacy and safety of American ginseng (Panax quinquefolius L.) extract on glycemic control and cardiovascular risk factors in individuals with type 2 diabetes: a double-blind, randomized, cross-over clinical trial"
+    authors:
+      - Vuksan V
+      - Xu ZZ
+      - Jovanovski E
+      - Jenkins AL
+      - Beljan-Zdravkovic U
+      - Sievenpiper JL
+      - Stavro PM
+      - Zurbau A
+      - Duvnjak L
+      - Li MZC
+    year: 2019
+    journal: "European Journal of Nutrition"
+    volume: 58
+    issue: 3
+    pages: "1237-1245"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29478187/"
+    study_design: "Double-blind, randomized, cross-over controlled trial"
+    sample_size: 24
+    demographics: "11 female, 13 male; mean age 64±7 years"
+    dosage: "1 gram per meal (3 grams daily)"
+    duration: "8 weeks, followed by washout period and crossover"
+    key_findings:
+      - "HbA1c reduction: -0.29% (p=0.041)"
+      - "Fasting blood glucose reduction: -0.71 mmol/L (p=0.008)"
+      - "Systolic blood pressure reduction: -5.6±2.7 mmHg (p<0.001)"
+      - "LDL-C reduction: -12.3±3.9%"
+      - "Serum NOx increase: +1.85±2.13 µmol/L (p<0.03)"
+    notes: "Demonstrated cardiovascular benefits alongside glycemic control"
+
+  - title: "American ginseng (Panax quinquefolius L.) attenuates postprandial glycemia in a time-dependent but not dose-dependent manner in healthy individuals"
+    authors:
+      - Vuksan V
+      - Sievenpiper JL
+      - Wong J
+      - Xu Z
+      - Beljan-Zdravkovic U
+      - Arnason JT
+      - Assinewe V
+      - Stavro MP
+      - Jenkins AL
+      - Leiter LA
+      - Francis T
+    year: 2001
+    journal: "American Journal of Clinical Nutrition"
+    volume: 73
+    issue: 4
+    pages: "753-8"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/11273850/"
+    study_design: "Randomized controlled trial"
+    sample_size: 12
+    demographics: "Mean age 42±7 years; BMI 24.1±1.1 kg/m²"
+    treatments: "16 treatments total"
+    dosages: "0 (placebo), 1, 2, or 3 g"
+    timing: "40, 20, 10, or 0 min before 25-g oral glucose challenge"
+    key_findings:
+      - "All three ginseng doses reduced postprandial glycemia compared to placebo during final 45 minutes"
+      - "Area under curve reductions: 14.4±6.5% (1g), 10.6±4.0% (2g), 9.1±6% (3g)"
+      - "No significant differences between doses"
+      - "Optimal timing: 40 minutes before glucose challenge significantly better than 20, 10, or 0 minutes"
+    notes: "First study demonstrating time-dependent glycemic effects; established optimal pre-meal timing"
+
+  - title: "American Ginseng Extract (Panax quinquefolius L.) Is Safe in Long-Term Use in Type 2 Diabetic Patients"
+    authors:
+      - Mucalo I
+      - Jovanovski E
+      - Vuksan V
+      - Božikov V
+      - Romić Ž
+      - Rahelić D
+    year: 2014
+    journal: "Evidence-Based Complementary and Alternative Medicine"
+    volume: 2014
+    pages: "969168"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/24891873/"
+    doi: "10.1155/2014/969168"
+    study_design: "Double-blind, randomized, placebo-controlled, parallel design trial"
+    sample_size: 74
+    breakdown: "35 intervention, 39 control"
+    demographics: "Mean age 63±9.5 years, BMI 32±5"
+    dosage: "500 mg capsules taken three times daily with meals (3 g/day)"
+    standardization: "10% ginsenosides"
+    duration: "12 weeks"
+    key_findings:
+      - "No significant changes in AST (P=0.107) or ALT (P=0.763) - hepatic safety confirmed"
+      - "No changes in serum urates (P=0.498) or creatinine (P=0.808) - renal safety confirmed"
+      - "No changes in prothrombin time (P=0.469) or INR (P=0.413) - haemostatic safety confirmed"
+      - "Only one adverse event: stomach heaviness in one participant who continued treatment"
+      - "Twelve weeks supplementation demonstrated clinical safety"
+    notes: "Important safety study for long-term use in diabetic patients"
+
+# Randomized Controlled Trials - Cardiovascular Effects
+
+rcts_cardiovascular:
+  - title: "Effect of American ginseng (Panax quinquefolius L.) on arterial stiffness in subjects with type-2 diabetes and concomitant hypertension"
+    authors:
+      - Mucalo I
+      - Jovanovski E
+      - Rahelić D
+      - Božikov V
+      - Romić Z
+      - Vuksan V
+    year: 2013
+    journal: "Journal of Ethnopharmacology"
+    volume: 150
+    issue: 1
+    pages: "148-53"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23973636/"
+    study_design: "Randomized controlled trial (double-blind, placebo-controlled, parallel design)"
+    sample_size: 64
+    demographics: "22 male, 42 female; mean age 63±9.3 years"
+    baseline_characteristics: "BP 145±10.8/84±8.0 mmHg; HbA1c 7.0±1.3%; fasting glucose 8.1±2.3 mmol/L"
+    dosage: "3 grams daily"
+    duration: "12 weeks as adjunct to existing therapy"
+    key_findings:
+      - "Radial augmentation index reduced by 5.3% compared to placebo (P=0.041)"
+      - "Systolic blood pressure decreased by 11.7% (P<0.001)"
+      - "No significant effect on diastolic blood pressure"
+    notes: "First study examining arterial stiffness effects of American ginseng in diabetic hypertensive patients"
+
+# Randomized Controlled Trials - Neurocognitive Function
+
+rcts_cognitive:
+  - title: "Effects of American ginseng (Panax quinquefolius) on neurocognitive function: an acute, randomised, double-blind, placebo-controlled, crossover study"
+    authors:
+      - Scholey A
+      - Ossoukhova A
+      - Owen L
+      - Ibarra A
+      - Pipingas A
+      - He K
+      - Roller M
+      - Stough C
+    year: 2010
+    journal: "Psychopharmacology (Berlin)"
+    volume: 212
+    issue: 3
+    pages: "345-56"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20676609/"
+    study_design: "Randomized controlled trial (acute, crossover, double-blind)"
+    sample_size: 32
+    population: "Healthy young adults"
+    extract: "Cereboost™ (standardized American ginseng extract)"
+    standardization: "10.65% ginsenosides"
+    dosages: "100 mg, 200 mg, 400 mg"
+    measurement_times: "1, 3, and 6 hours post-administration"
+    key_findings:
+      - "Significant improvement of working memory (WM) performance associated with P. quinquefolius"
+      - "Corsi block performance improved across all doses at all testing times"
+      - "Choice reaction time accuracy and calmness significantly improved with 100 mg dose"
+      - "No changes in blood glucose levels observed"
+    notes: "Demonstrated acute cognitive effects independent of glucose regulation"
+
+# Randomized Controlled Trials - Respiratory Infections
+
+rcts_respiratory:
+  - title: "Efficacy and Safety of CVT-E002, a Proprietary Extract of Panax quinquefolius in the Prevention of Respiratory Infections in Influenza-Vaccinated Community-Dwelling Adults: A Multicenter, Randomized, Double-Blind, and Placebo-Controlled Trial"
+    authors:
+      - McElhaney JE
+      - Simor AE
+      - McNeil S
+      - Predy GN
+    year: 2011
+    journal: "Influenza Research and Treatment"
+    volume: 2011
+    pages: "759051"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/23074661/"
+    study_design: "Multicenter, randomized, double-blind, placebo-controlled trial"
+    sample_size: 783
+    population: "Community-dwelling adults aged ≥65 years (748 in primary analysis)"
+    treatment_groups:
+      - "Placebo"
+      - "400 mg/day CVT-E002"
+      - "800 mg/day CVT-E002"
+    duration: "6 months"
+    key_findings:
+      - "Laboratory-confirmed clinical URI incidence: 5.5% (placebo), 5.2% (400mg), 4.6% (800mg); P=0.89 - not significant"
+      - "Jackson-confirmed URIs (study completers): 28.9% (placebo), 20.0% (400mg), 19.4% (800mg); P<0.04 - significant"
+      - "CVT-E002 reduced relative risk of Jackson-confirmed URIs by 31-33%"
+      - "Number needed to treat: 10.5-11.2"
+      - "No significant differences in adverse events; well tolerated at both doses"
+    notes: "Demonstrated efficacy for reducing respiratory infection severity and duration in elderly population"
+
+  - title: "Safety and tolerability of North American ginseng extract in the treatment of pediatric upper respiratory tract infection: a phase II randomized, controlled trial of 2 dosing schedules"
+    authors: (Not fully extracted)
+    year: 2008
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18676527/"
+    study_design: "Phase II randomized controlled trial"
+    population: "Children 3 to 12 years of age"
+    treatment_groups:
+      - "Standard dose"
+      - "Low dose"
+      - "Placebo"
+    key_findings:
+      - "Documented safety and tolerability of 2 weight-based dosing schedules"
+    notes: "Pediatric safety study"
+
+# Randomized Controlled Trials - Pharmacokinetics and Drug Interactions
+
+rcts_pharmacokinetics:
+  - title: "Pharmacokinetic and metabolic effects of American ginseng (Panax quinquefolius) in healthy volunteers receiving the HIV protease inhibitor indinavir"
+    authors:
+      - Andrade ASA
+      - Hendrix C
+      - Parsons TL
+      - Caballero B
+      - Yuan CS
+      - Flexner CW
+      - Dobs AS
+      - Brown TT
+    year: 2008
+    journal: "BMC Complementary and Alternative Medicine"
+    volume: 8
+    pages: "50"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/18713456/"
+    study_design: "Controlled clinical trial"
+    sample_size: "13 for pharmacokinetic analysis; 11 for insulin sensitivity assessment"
+    dosing_regimen:
+      - "Indinavir: 800 mg every 8 hours for 3 days, then continued for 14 additional days"
+      - "American ginseng: 1 gram every 8 hours for 14 days (co-administered with indinavir)"
+    key_findings:
+      - "No significant difference in indinavir concentrations with ginseng co-administration"
+      - "Insulin sensitivity decreased 14.8% (±5.9%) after 3 days of indinavir alone (p=0.03)"
+      - "Insulin sensitivity remained unchanged when ginseng was added to indinavir therapy"
+    notes: "Important drug interaction study; suggests American ginseng may counteract metabolic side effects of protease inhibitors"
+
+# Bioavailability and Pharmacokinetics Studies
+
+pharmacokinetics:
+  - title: "A systematic study of the dissolution and relative bioavailability of four ginsenosides in the form of ultrafine granular powder, common powder and traditional pieces of Panax quinquefolius L, in vitro and in beagles"
+    authors: (Not fully extracted)
+    year: 2016
+    journal: "Journal of Ethnopharmacology"
+    pubmed_url: "https://www.sciencedirect.com/science/article/abs/pii/S0378874116301386"
+    study_type: "Bioavailability and formulation study"
+    key_findings:
+      - "Ultrafine granular powder had highest bioavailability"
+      - "Ultrafine formulation showed greatest extent and fastest dissolution in vitro"
+      - "Improved formulations of P. quinquefolius could facilitate dissolution and promote absorption"
+    notes: "Demonstrates importance of formulation for bioavailability"
+
+  - title: "In vivo metabolism, pharmacokinetics, and pharmacological activities of ginsenosides from ginseng"
+    authors: (Not fully extracted)
+    year: 2025
+    journal: "Journal of Ginseng Research"
+    pubmed_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12365553/"
+    study_type: "Review of ginsenoside pharmacokinetics"
+    key_findings:
+      - "Bioavailability of ginsenosides Rb1, Rb2, and Rd is less than 5% in rats"
+      - "PPD exhibits significantly higher bioavailability of 36.8%"
+      - "Ginsenoside Rb1: Tmax of 1.5 h, bioavailability 1.2-4.3%"
+      - "Ginsenosides Rg1 and Re: Tmax of 1 h, bioavailability 18.4% and 7.1% respectively"
+      - "Low bioavailability of ginsenosides is major hurdle for clinical advancement"
+    notes: "Highlights need for improved formulations and delivery methods"
+
+  - title: "Effects of processing method on the pharmacokinetics and tissue distribution of orally administered ginseng"
+    authors: (Not fully extracted)
+    year: 2018
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/29348719/"
+    study_type: "Pharmacokinetic study"
+    key_findings:
+      - "Different processing methods affect pharmacokinetics and oral bioavailability of ginseng"
+      - "Processing impacts tissue concentrations of Rg1, Re, Rd, and Rb1"
+    notes: "Processing method matters for bioavailability"
+
+# Analytical Methods and Standardization
+
+analytical_methods:
+  - title: "Determination of major ginsenosides in Panax quinquefolius (American ginseng) using high-performance liquid chromatography"
+    authors: (Not fully extracted)
+    year: 2005
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16042154/"
+    study_type: "Analytical method development"
+    method: "HPLC with UV photodiode array detection"
+    ginsenosides_analyzed: "Rb1, Rb2, Rc, Rd, Re, Rf, Rg1"
+    key_findings:
+      - "Gradient HPLC method developed for separation and quantification"
+      - "All ginseng saponins baseline-resolved"
+      - "Detection limits of 1.0 µg/mL or less"
+    notes: "Standard analytical method for American ginseng quality control"
+
+  - title: "Determination of ginsenosides in plant extracts from Panax ginseng and Panax quinquefolius L. by LC/MS/MS"
+    authors: (Not fully extracted)
+    year: 1999
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/10221076/"
+    study_type: "Analytical method development"
+    method: "LC/MS/MS"
+    key_findings:
+      - "Ginsenosides Re and Rb1 identified as two main ginseng saponins in American ginseng root"
+    notes: "Important for product authentication and quality control"
+
+  - title: "Differentiation and authentication of Panax ginseng, Panax quinquefolius, and ginseng products by using HPLC/MS"
+    authors: (Not fully extracted)
+    year: 2000
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/10740871/"
+    study_type: "Authentication method"
+    method: "HPLC/MS"
+    key_findings:
+      - "Method developed to differentiate P. ginseng from P. quinquefolius"
+      - "Important for detecting adulteration"
+    notes: "Addresses widespread adulteration issue in American ginseng products"
+
+  - title: "LC-MS Analysis of Ginsenosides in Different Parts of Panax quinquefolius and Their Potential for Coronary Disease Improvement"
+    authors: (Not fully extracted)
+    year: 2023
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/36940929/"
+    study_type: "Analytical and bioactivity study"
+    method: "LC-QTOF MS/MS"
+    key_findings:
+      - "Seven main ginsenosides identified from root, leaf and flower: Re, Rb1, pseudoginsenoside F11, Rb2, Rb3, Rd, F2"
+    notes: "Comprehensive analysis of ginsenoside distribution in plant parts"
+
+# Official Monographs and Standards
+
+monographs:
+  american_herbal_pharmacopoeia:
+    title: "American Herbal Pharmacopoeia and Therapeutic Compendium: American ginseng Root (Panax quinquefolius L.) - Standards of Analysis, Quality Control, and Therapeutics"
+    editor: "R. Upton"
+    publisher: "American Herbal Pharmacopoeia"
+    location: "Santa Cruz, California"
+    year: 2012
+    pages: 76
+    isbn_10: "1929425317"
+    isbn_13: "978-1929425310"
+    content:
+      - "Standards for assuring authenticity, purity, and quality control"
+      - "Multiple methods of analysis including physical and chemical tests"
+      - "Therapeutic Compendium reviewing pharmacological and safety data"
+      - "Pharmacokinetics, pharmacodynamics, actions, medical indications"
+      - "Historical and modern traditional use"
+      - "Dosages, interactions, side effects, contraindications and toxicology"
+    notes: "Released to address American ginseng being one of most widely adulterated herbs on market"
+
+  chinese_pharmacopoeia:
+    title: "Pharmacopoeia of the People's Republic of China"
+    volume: 1
+    edition: "English edition 2020"
+    publisher: "The State Pharmacopoeia Commission of the People's Republic of China"
+    name_chinese: "Xi Yang Shen (西洋参 Radix Panacis Quinquefolii)"
+    notes: "Traditional Chinese medicine is the only codified system of medicine wherein qualities and therapeutic actions of American ginseng are presently classified in national pharmacopoeia"
+
+  who_monograph:
+    reference: "WHO Monographs on Selected Medicinal Plants"
+    notes: "American ginseng root has no contraindications and serious adverse effects associated with its use according to WHO monograph"
+
+  us_pharmacopoeia_historical:
+    period: "1840-1870"
+    indication: "Mild stimulant and digestion aid"
+    notes: "American ginseng appeared briefly on U.S. pharmacopoeia then was removed"
+
+# Traditional Use
+
+traditional_use:
+  chinese_medicine:
+    category: "Tonic herbs for Qi Deficiency - nourishing yin"
+    properties: "Cooling and moistening (differs from Asian ginseng's warming properties)"
+    traditional_name: "Xi Yang Shen (西洋参)"
+    added_to_materia_medica: "Following commercial trade beginning in 1718 CE"
+    indications:
+      - "Excess heat or dryness in body"
+      - "Chronic dry cough"
+      - "Effects of chemotherapy and radiation in cancer remission patients"
+    trade_history: "Commercial wild collection by Indigenous Peoples for export to China began 1718 CE in Montreal; firmly became part of Chinese Materia Medica over 300 years"
+
+# Dosing Guidelines Summary
+
+dosing_summary:
+  cancer_related_fatigue:
+    dose: "2000 mg daily"
+    duration: "8 weeks minimum"
+    evidence: "Phase III RCT with 364 participants"
+
+  type_2_diabetes_glycemic_control:
+    dose: "1 gram per meal (3 grams daily)"
+    timing: "40 minutes before meals for optimal postprandial glycemic effect"
+    duration: "8-12 weeks"
+    evidence: "Multiple RCTs demonstrating HbA1c reduction and cardiovascular benefits"
+
+  cognitive_function:
+    dose: "100-400 mg acute dose"
+    standardization: "10.65% ginsenosides (Cereboost™)"
+    evidence: "RCT with 32 participants showing working memory improvement"
+
+  respiratory_infection_prevention:
+    dose: "400-800 mg daily"
+    duration: "6 months (through cold/flu season)"
+    population: "Community-dwelling adults ≥65 years"
+    evidence: "Multicenter RCT with 783 participants"
+
+  general_range:
+    typical_clinical_doses: "400-3000 mg daily"
+    most_common: "1000-2000 mg daily in divided doses"
+
+# Safety Profile Summary
+
+safety_summary:
+  overall: "Very safe profile with mild and temporary adverse events; no serious or severe adverse events in clinical trials"
+
+  common_adverse_events:
+    - "Hot flushes"
+    - "Insomnia"
+    - "Dyspepsia"
+    - "Stomach heaviness (rare)"
+    - "Nausea"
+
+  hepatic_safety:
+    finding: "No significant changes in AST or ALT in 12-week trial with diabetic patients"
+    conclusion: "Safe for hepatic function"
+
+  renal_safety:
+    finding: "No changes in serum urates or creatinine"
+    conclusion: "Safe for renal function"
+
+  haemostatic_safety:
+    finding: "No changes in prothrombin time or INR"
+    conclusion: "Safe for patients on anticoagulation (though monitoring advised)"
+
+  cardiovascular_safety:
+    finding: "Neutral or beneficial effects on blood pressure; reduces arterial stiffness in diabetic hypertensive patients"
+    conclusion: "Should not be discouraged for concern of increased blood pressure"
+
+  hypoglycemia_risk:
+    finding: "Reduces postprandial and fasting blood glucose"
+    precaution: "Monitor blood glucose in diabetic patients; may require adjustment of diabetes medications"
+
+  drug_interactions:
+    indinavir: "No significant interaction; may counteract metabolic side effects"
+    warfarin: "Theoretical interaction - monitor INR"
+    antidiabetic_medications: "May enhance hypoglycemic effects - monitor closely"
+
+  contraindications:
+    - "Pregnancy (lack of safety data)"
+    - "Lactation (lack of safety data)"
+
+  clinical_trial_tolerability:
+    dropout_rate: "Very low - adverse events rarely caused discontinuation"
+    severity: "Mild and generally infrequent"
+
+# Key Active Compounds
+
+active_constituents:
+  ginsenosides:
+    primary_markers:
+      - name: "Ginsenoside Re"
+        note: "One of two main saponins in American ginseng; higher in P. quinquefolius than P. ginseng"
+      - name: "Ginsenoside Rb1"
+        note: "One of two main saponins in American ginseng"
+      - name: "Ginsenoside Rg1"
+      - name: "Ginsenoside Rd"
+      - name: "Ginsenoside Rb2"
+      - name: "Ginsenoside Rc"
+      - name: "Ginsenoside Rf"
+      - name: "Pseudoginsenoside F11"
+        note: "Found in leaf and flower extracts"
+
+  standardization:
+    typical_percentage: "10% ginsenosides for extracts"
+    common_markers: "Rb1 and Re used for quality control and authentication"
+
+  bioavailability_notes:
+    - "Rb1, Rb2, Rd: <5% bioavailability"
+    - "Rg1: 18.4% bioavailability, Tmax 1h"
+    - "Re: 7.1% bioavailability, Tmax 1h"
+    - "Metabolite PPD: 36.8% bioavailability"
+    - "Low parent compound bioavailability may contribute to variable clinical effects"
+
+# Clinical Efficacy Summary by Condition
+
+efficacy_by_condition:
+  cancer_related_fatigue:
+    evidence_quality: "High - Phase III multicenter RCT (n=364)"
+    effect_size: "20-point improvement vs 10.3 placebo at 8 weeks (p=0.003)"
+    optimal_dose: "2000 mg daily"
+    time_to_effect: "8 weeks"
+    population_response: "Greater benefit in patients receiving active cancer treatment"
+
+  type_2_diabetes:
+    evidence_quality: "Multiple RCTs with consistent findings"
+    glycemic_effects:
+      - "HbA1c reduction: -0.29% (p=0.041)"
+      - "Fasting blood glucose: -0.71 mmol/L (p=0.008)"
+      - "Postprandial glucose: 9-14% reduction in area under curve"
+    cardiovascular_effects:
+      - "Systolic BP reduction: -5.6 to -11.7 mmHg"
+      - "LDL-C reduction: -12.3%"
+      - "Arterial stiffness reduction: -5.3%"
+    timing_importance: "40 minutes pre-meal optimal for glycemic control"
+    safety: "Excellent - 12-week study showed no hepatic, renal, or haemostatic concerns"
+
+  cognitive_function:
+    evidence_quality: "Systematic review/meta-analysis plus acute RCT"
+    effects:
+      - "Working memory improvement (Corsi block performance)"
+      - "Choice reaction time accuracy improvement"
+      - "Increased calmness"
+    dose_range: "100-400 mg acute dosing"
+    mechanism: "Independent of blood glucose effects"
+    note: "Meta-analysis showed memory improvement SMD=0.19, stronger with high doses SMD=0.33"
+
+  respiratory_infections:
+    evidence_quality: "Large multicenter RCT (n=783)"
+    effects:
+      - "31-33% relative risk reduction for Jackson-confirmed URIs"
+      - "Reduced severity and duration of infections"
+    population: "Community-dwelling adults ≥65 years with influenza vaccination"
+    dose: "400-800 mg daily"
+    duration: "6 months"
+    number_needed_to_treat: "10.5-11.2"
+
+  arterial_stiffness_hypertension:
+    evidence_quality: "RCT in diabetic hypertensive patients (n=64)"
+    effects:
+      - "Radial augmentation index: -5.3% (p=0.041)"
+      - "Systolic BP: -11.7% (p<0.001)"
+    population: "Type 2 diabetes with concomitant hypertension"
+    dose: "3 grams daily"
+    duration: "12 weeks"
+
+# Research Quality Notes
+
+research_considerations:
+  strengths:
+    - "Multiple well-designed double-blind RCTs"
+    - "Large Phase III trials for cancer fatigue (n=364) and respiratory infections (n=783)"
+    - "Dose-finding studies available (750-2000 mg range)"
+    - "Timing studies for glycemic effects (pre-meal administration)"
+    - "Systematic reviews and meta-analyses available"
+    - "Safety studies in vulnerable populations (diabetics, cancer patients, elderly)"
+    - "Pharmacokinetic and drug interaction data"
+    - "Traditional use history supporting safety (300+ years in Chinese medicine)"
+
+  limitations:
+    - "Low bioavailability of parent ginsenosides (<5% for most)"
+    - "Limited human pharmacokinetic data"
+    - "Product quality and adulteration concerns (addressed by AHP monograph)"
+    - "Formulation variability affects bioavailability"
+    - "Most cognitive studies are acute; limited long-term data"
+    - "Lack of pregnancy and lactation safety data"
+    - "Need for more standardization across products"
+
+  future_research_needs:
+    - "Human pharmacokinetic studies with standardized extracts"
+    - "Long-term cognitive function trials"
+    - "Formulation optimization for improved bioavailability"
+    - "Pregnancy and lactation safety studies"
+    - "Mechanism of action studies for cancer fatigue"
+    - "Comparative effectiveness trials vs. pharmaceutical agents"
+    - "Quality control and authentication standards enforcement"
+
+# Sources
+
+sources:
+  - "https://pubmed.ncbi.nlm.nih.gov/39474788/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23853057/"
+  - "https://pubmed.ncbi.nlm.nih.gov/19415341/"
+  - "https://pubmed.ncbi.nlm.nih.gov/29478187/"
+  - "https://pubmed.ncbi.nlm.nih.gov/11273850/"
+  - "https://pubmed.ncbi.nlm.nih.gov/24891873/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23973636/"
+  - "https://pubmed.ncbi.nlm.nih.gov/20676609/"
+  - "https://pubmed.ncbi.nlm.nih.gov/23074661/"
+  - "https://pubmed.ncbi.nlm.nih.gov/18713456/"
+  - "https://pubmed.ncbi.nlm.nih.gov/28930204/"
+  - "https://pubmed.ncbi.nlm.nih.gov/27074879/"
+  - "https://pubmed.ncbi.nlm.nih.gov/18676527/"
+  - "https://pubmed.ncbi.nlm.nih.gov/16042154/"
+  - "https://pubmed.ncbi.nlm.nih.gov/10221076/"
+  - "https://pubmed.ncbi.nlm.nih.gov/10740871/"
+  - "https://pubmed.ncbi.nlm.nih.gov/36940929/"
+  - "https://pubmed.ncbi.nlm.nih.gov/29348719/"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC12365553/"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC4033486/"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC3447298/"
+  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC5533164/"
+  - "https://link.springer.com/article/10.1186/s12906-025-04936-5"
+  - "https://www.sciencedirect.com/science/article/abs/pii/S0378874116301386"
+  - "https://www.nutraingredients-usa.com/Article/2012/01/12/AHP-releases-monograph-for-one-of-the-most-widely-adulterated-herbs-on-the-market/"
+  - "https://herbal-ahp.org/online-ordering-american-ginseng-root/"
+  - "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ginseng.american2&lang=eng"
+  - "https://www.meandqi.com/herb-database/american-ginseng"
+  - "https://folklife.si.edu/magazine/mysterious-medicinal-economic-powers-american-ginseng"
+
+compilation_date: "2026-01-15"
+compiler_notes: "Comprehensive bibliography of American ginseng (Panax quinquefolius) clinical studies focusing on RCTs, systematic reviews, standardized preparations, dosing studies, bioavailability, and safety profiles. Emphasis on quantitative findings with specific numbers from high-quality trials. Includes traditional use history, official monographs (AHP, Chinese Pharmacopoeia, WHO), analytical methods, and product standardization information. Notable findings: excellent safety profile, well-established efficacy for cancer-related fatigue (2000mg daily), glycemic control in diabetes (3g daily, 40min pre-meal), cognitive enhancement (100-400mg), and respiratory infection prevention in elderly (400-800mg daily). Key limitation: low bioavailability of parent ginsenosides (<5%) suggests importance of formulation quality."

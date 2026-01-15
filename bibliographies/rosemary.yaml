@@ -1,0 +1,783 @@
+---
+botanical_name: Rosmarinus officinalis L. (syn. Salvia rosmarinus Spenn.)
+common_name: Rosemary
+family: Lamiaceae
+part_used: Leaf, essential oil
+bibliography_created: 2026-01-15
+
+# SYSTEMATIC REVIEWS AND META-ANALYSES
+
+systematic_reviews:
+  - id: ulbricht_2010
+    type: Evidence-Based Systematic Review
+    title: "An evidence-based systematic review of rosemary (Rosmarinus officinalis) by the Natural Standard Research Collaboration"
+    authors:
+      - Catherine Ulbricht
+      - Tracy R. Abrams
+      - Amy Brigham
+      - et al.
+    year: 2010
+    journal: Journal of Dietary Supplements
+    volume: 7
+    issue: 4
+    pages: 351-413
+    pubmed_id: 22432564
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/22432564/
+    methodology: "Written and statistical analysis of scientific literature, expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing"
+    key_findings:
+      - "Comprehensive evidence-based review of rosemary phytotherapy applications"
+      - "Covered plant extract pharmacology and therapeutic uses"
+      - "Addressed traditional medicine approaches alongside modern evidence"
+
+  - id: hussain_2022
+    type: Systematic Review and Meta-Analysis
+    title: "Cognition enhancing effect of rosemary (Rosmarinus officinalis L.) in lab animal studies: a systematic review and meta-analysis"
+    authors:
+      - S. M. Hussain
+      - A. F. Syeda
+      - M. Alshammari
+      - S. Alnasser
+      - N. D. Alenzi
+      - S. T. Alanazi
+      - K. Nandakumar
+    year: 2022
+    journal: Brazilian Journal of Medical and Biological Research
+    pubmed_id: 35170682
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35170682/
+    studies_reviewed: 23
+    meta_analysis_comparisons: 35
+    databases_searched: "Google Scholar and PubMed (through June 2020)"
+    key_findings:
+      normal_animals_effect_size: "1.19 (95% CI: 0.74-1.64)"
+      impaired_animals_effect_size: "0.57 (95% CI: 0.19-0.96)"
+      robustness: "Positive effect across species, extract type, treatment duration, and memory type"
+    limitations: "Substantial unexplained heterogeneity among studies"
+
+  - id: acimovic_2025
+    type: Systematic Review
+    title: "Systematic Evaluation of Rosemary Essential Oil in Aromatherapy Practice: A Review"
+    authors:
+      - Milica Aćimović
+      - Ana Miljković
+    year: 2025
+    journal: SAGE Journals
+    references_analyzed: 39
+    key_findings:
+      - "Benefits for cognitive function, sleep quality, mood, and pain management"
+      - "Therapeutic applications in aromatherapy documented"
+      - "Balanced documentation of health benefits and potential adverse effects"
+    safety_notes: "Contact dermatitis from prolonged topical application, hypersensitivity reactions, rare anaphylaxis cases"
+
+  - id: ghasemzadeh_2025
+    type: Comprehensive Safety Review
+    title: "Toxicity and safety of rosemary (Rosmarinus officinalis): a comprehensive review"
+    authors:
+      - M. Ghasemzadeh Rahbardar
+      - H. Hosseinzadeh
+    year: 2025
+    journal: Naunyn-Schmiedeberg's Archives of Pharmacology
+    volume: 398
+    issue: 1
+    pages: 9-23
+    pubmed_id: 39096378
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39096378/
+    databases_searched: "Google Scholar, PubMed, Scopus, Web of Science (inception through February 2024)"
+    key_findings:
+      general_safety: "Generally safe at normal doses"
+      hepatorenal_effects: "Atrophic/degenerative changes in liver and kidney tissue with high doses; elevated BUN and liver enzymes"
+      reproductive_toxicity: "Decreased spermatogenesis, testosterone, sperm density and motility with chronic/high doses"
+      genotoxicity: "DNA fragmentation, apoptotic body formation, and fetal anomalies possible with high/chronic exposure"
+      dermatologic: "Allergic reactions and dermatitis reported in some individuals"
+    conclusions: "Caution warranted for chronic and high doses due to potential adverse effects on kidneys, liver, reproductive system, and teratology"
+
+# RANDOMIZED CONTROLLED TRIALS
+
+clinical_trials:
+  # COGNITIVE FUNCTION AND MENTAL HEALTH
+
+  - id: pengelly_2012
+    type: Randomized Controlled Trial
+    study_design: "Randomized, placebo-controlled, double-blinded, repeated-measures crossover study"
+    title: "Short-term study on the effects of rosemary on cognitive function in an elderly population"
+    authors:
+      - Andrew Pengelly
+      - Jacqueline Snow
+      - Simon Y. Mills
+      - Andrew Scholey
+      - Keith Wesnes
+      - Lara R. Butler
+    year: 2012
+    journal: Journal of Medicinal Food
+    volume: 15
+    issue: 1
+    pages: 10-17
+    pubmed_id: 21877951
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/21877951/
+    sample_size: 28
+    population: "Older adults with mean age 75 years"
+    intervention: "Dried rosemary leaf powder"
+    doses_tested:
+      - 750 mg
+      - "Additional intermediate doses (values not specified)"
+      - 6000 mg
+    duration: "Single dose with 7-day washout between visits"
+    primary_outcome: "Cognitive performance measures, particularly speed of memory"
+    key_findings:
+      low_dose_750mg: "Statistically significant beneficial effect on speed of memory vs placebo (p=0.01)"
+      high_dose_6000mg: "Significant impairing effect on speed of memory (p<0.01)"
+      general_finding: "Deleterious effects on other cognitive measures at high doses"
+    conclusions: "Lower doses approximating normal culinary consumption showed promise for further long-term investigation"
+
+  - id: nematolahi_2018
+    type: Randomized Controlled Trial
+    study_design: "Double-blinded randomized controlled trial"
+    title: "Effects of Rosmarinus officinalis L. on memory performance, anxiety, depression, and sleep quality in university students: A randomized clinical trial"
+    authors:
+      - P. Nematolahi
+      - M. Mehrabani
+      - S. Karami-Mohajeri
+      - F. Dabaghzadeh
+    year: 2018
+    journal: Complementary Therapies in Clinical Practice
+    volume: 30
+    pages: 24-28
+    pubmed_id: 29389474
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29389474/
+    sample_size: 68
+    population: "University students"
+    intervention: "Rosemary capsules"
+    dosing:
+      amount: "500 mg"
+      frequency: "Twice daily"
+      total_daily: "1000 mg/day"
+    duration: "1 month"
+    outcomes_assessed:
+      - "Prospective and retrospective memory (questionnaire)"
+      - "Anxiety and depression (Hospital Anxiety and Depression Scale)"
+      - "Sleep quality (Pittsburgh Sleep Quality Inventory)"
+    key_findings:
+      memory: "Significant improvement in both prospective and retrospective memory"
+      anxiety: "Significantly reduced anxiety scores vs control"
+      depression: "Significantly reduced depression scores vs control"
+      sleep: "Significantly improved overall sleep quality (all subscales except sleep latency and duration)"
+    conclusions: "Rosemary supplementation may boost memory performance, reduce anxiety and depression, and improve sleep quality"
+
+  - id: araki_2020
+    type: Randomized Controlled Trial (Post-hoc Analysis)
+    title: "Effects of Continuous Intake of Rosemary Extracts on Mental Health in Working Generation Healthy Japanese Men"
+    authors:
+      - R. Araki
+      - et al.
+    year: 2020
+    journal: Nutrients
+    volume: 12
+    issue: 11
+    pages: 3551
+    pubmed_id: 33233510
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33233510/
+    sample_size: 21
+    population: "Working-age Japanese men with elevated baseline mood disturbance scores"
+    groups:
+      rosemary: 8
+      control: 13
+    duration: "4 weeks continuous intake"
+    key_findings:
+      between_group_improvements:
+        - "Total mood disturbance scores significantly decreased (p < 0.05)"
+        - "Confusion-Bewilderment decreased (p < 0.05)"
+        - "Vigor-Activity increased (p < 0.01)"
+      within_group_rosemary:
+        - "Tension-anxiety reduced (p < 0.05)"
+        - "Vigor-activity improved (p < 0.05)"
+        - "Fatigue on awakening reduced (p < 0.05)"
+        - "Daytime sleepiness reduced (p < 0.05)"
+        - "Psychomotor speed improved (p < 0.05)"
+    conclusions: "Rosemary extracts effective for improving mental energy and sleep quality in work-age men with poor mental health"
+
+  - id: azizi_2022
+    type: Randomized Controlled Trial
+    study_design: "Randomized, double-blind, placebo-controlled trial"
+    title: "Rosemary as an adjunctive treatment in patients with major depressive disorder: A randomized, double-blind, placebo-controlled trial"
+    authors:
+      - S. Azizi
+      - et al.
+    year: 2022
+    journal: Complementary Therapies in Clinical Practice
+    volume: 49
+    pages: 101685
+    pubmed_id: 36343423
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/36343423/
+    population: "Patients with major depressive disorder"
+    intervention: "Rosemary capsules (dried plant material)"
+    dosing:
+      frequency: "One capsule twice daily"
+      total_daily: "2 capsules/day"
+      rosmarinic_acid_content: "21.13 ± 0.56 mg/g dried plant"
+    duration: "8 weeks"
+    assessment_points: "Baseline, week 4, week 8"
+    outcome_measures:
+      - "Beck Depression Inventory—Second Edition"
+      - "Hospital Anxiety and Depression Scale (anxiety subscale)"
+    key_findings:
+      - "Anxiety subscale scores significantly decreased in rosemary group vs control at 8 weeks"
+      - "Beck Depression Inventory scores significantly decreased in rosemary group vs control at 8 weeks"
+      - "Memory improvement observed during trial"
+    conclusions: "Rosemary effective as adjunctive treatment for depression"
+
+  - id: kuwata_2025
+    type: Randomized Controlled Trial
+    study_design: "Two-part study: Open-label safety trial + Randomized double-blind crossover"
+    title: "Safety and stress-reducing effects of rosemary extract: an open-label trial and randomized double-blind crossover study"
+    authors:
+      - H. Kuwata
+      - et al.
+    year: 2025
+    journal: Journal of Clinical Biochemistry and Nutrition
+    volume: 77
+    issue: 3
+    pages: 280-287
+    pubmed_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12646844/
+    study_1_safety:
+      design: "Single-arm, open-label safety evaluation"
+      sample_size: 22 (21 completed)
+      duration: "4 weeks"
+      dosing:
+        capsules: "10 capsules daily"
+        rosmarinic_acid: "25 mg/day total (2.5 mg per capsule)"
+        diterpenes: "40 mg/day total (4 mg carnosic acid + carnosol per capsule)"
+      safety_findings: "No clinically relevant adverse events or abnormal laboratory findings"
+    study_2_efficacy:
+      design: "Randomized, double-blind, placebo-controlled crossover"
+      sample_size: 40 randomized (38 analyzed)
+      duration: "4 weeks continuous intake with 4-week washout"
+      dosing:
+        capsules: "2 capsules daily"
+        rosmarinic_acid: "5 mg/day total (2.5 mg per capsule)"
+        diterpenes: "8 mg/day total (4 mg carnosic acid + carnosol per capsule)"
+      outcomes:
+        trait_anxiety: "Significant reduction in RME group vs placebo after 4 weeks (p=0.014)"
+        state_anxiety: "Significantly lower anxiety in RME group after single dose before work task (p=0.041)"
+        heart_rate_variability: "Significant reduction in LF/HF ratio with RME vs placebo (p=0.019)"
+        salivary_cortisol: "No significant differences"
+    conclusions: "Rosemary extract safe and effective for reducing stress and anxiety markers"
+
+  # DERMATOLOGY AND HAIR
+
+  - id: panahi_2015
+    type: Randomized Controlled Trial
+    study_design: "Randomized comparative trial"
+    title: "Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia: a randomized comparative trial"
+    authors:
+      - Yunes Panahi
+      - Mohsen Taghizadeh
+      - Eisa Tahmasbpour Marzony
+      - Amirhossein Sahebkar
+    year: 2015
+    journal: Skinmed
+    pubmed_id: 25842469
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/25842469/
+    sample_size: 100
+    groups:
+      rosemary_oil: 50
+      minoxidil_2_percent: 50
+    duration: "6 months"
+    assessment_points: "Baseline, 3 months, 6 months"
+    evaluation_method: "Standardized professional microphotographic assessment"
+    key_findings:
+      month_3: "No significant change in hair count in either group (p > 0.05)"
+      month_6: "Both groups experienced significant increase in hair count vs baseline and 3-month (p < 0.05)"
+      comparison: "No significant difference between rosemary oil and minoxidil groups at months 3 or 6"
+      adverse_effects:
+        scalp_itching: "Increased significantly in both groups by months 3 and 6 (p < 0.05); more frequent in minoxidil group"
+        other: "Dry hair, greasy hair, and dandruff showed no significant changes"
+    conclusions: "Rosemary oil as effective as minoxidil 2% for androgenetic alopecia with less scalp itching"
+
+  - id: patel_2025
+    type: Randomized Controlled Trial
+    study_design: "Double-blind, randomized, three-armed, placebo-controlled clinical trial"
+    title: "Rosmagain™ as a Natural Therapeutic for Hair Regrowth and Scalp Health: A Double-Blind, Randomized, Three-Armed, Placebo-Controlled Clinical Trial"
+    authors:
+      - M. N. Patel
+      - N. Tuli
+      - N. Patel
+      - A. Merja
+    year: 2025
+    journal: Cureus
+    volume: 17
+    issue: 6
+    pages: e85906
+    pubmed_id: 40656290
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40656290/
+    trial_registration: "CTRI/2024/07/071115"
+    sample_size: 90
+    population: "Healthy participants aged 18-55 years"
+    groups: "Three arms randomized equally"
+    intervention: "Rosmagain™ (rosemary-lavender oil formulation)"
+    duration: "90 days"
+    key_findings:
+      hair_growth_rate: "Increased from 0.22 ± 0.04 mm/day to 0.34 ± 0.05 mm/day; 57.73% change from baseline (p<0.0001)"
+      hair_thickness: "68.70% improvement (p<0.0001)"
+      hair_density: "32.21% increase (p<0.0001)"
+      hair_length: "28.78% increase (p<0.0001)"
+      hair_fall: "Reduction exceeded 40% (p<0.0001)"
+    conclusions: "Rosemary-lavender oil significantly effective for hair regrowth and scalp health"
+
+  - id: draelos_2025
+    type: Randomized Controlled Trial
+    study_design: "Single-center, double-blinded, randomized, placebo-controlled trial"
+    title: "A Single-center, Double-blinded, Randomized, Placebo-controlled Trial Evaluating the Safety and Efficacy of a Dietary Supplement Containing Rosemary Extract on Visible Facial Skin Quality"
+    authors:
+      - Z. D. Draelos
+      - A. Gueniche
+      - M. Yatskayer
+      - D. B. Nelson
+    year: 2025
+    journal: Journal of Clinical and Aesthetic Dermatology
+    volume: 18
+    issue: 3
+    pages: 28-33
+    pubmed_id: 40135175
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40135175/
+    sample_size: 104
+    population: "Female participants aged 40-65 years"
+    groups:
+      rosemary_extract: 52
+      placebo: 52
+    intervention: "BioR (rosemary extract dietary supplement)"
+    dosing_schedule:
+      weeks_1_4: "Two capsules three times daily (6 capsules/day)"
+      weeks_5_8: "Two capsules twice daily (4 capsules/day)"
+      weeks_9_12: "One capsule twice daily (2 capsules/day)"
+      administration: "All capsules taken with food"
+    duration: "12 weeks"
+    primary_outcomes: "Visible facial skin quality parameters"
+    key_findings:
+      week_12_improvements:
+        skin_dullness: "Significant improvement (p=0.04)"
+        roughness_texture: "Significant improvement (p=0.001)"
+        erythema: "Significant improvement (p=0.05)"
+        pore_size: "Significant improvement (p=0.04)"
+        global_skin_quality: "Significant improvement (p=0.002)"
+        uneven_pigmentation: "No significant difference"
+    safety: "Well tolerated; one participant discontinued due to moderate GI upset possibly related to treatment"
+    conclusions: "Rosemary extract dietary supplement effective for improving facial skin quality"
+
+  - id: sadati_2024
+    type: Randomized Controlled Trial
+    study_design: "Double-blind randomized controlled clinical trial"
+    title: "Efficacy of Topical Rosemary Extract Lotion versus Topical 2% Ketoconazole Lotion in the Treatment of Seborrheic Dermatitis: A Double-Blind Randomized Controlled Clinical Trial"
+    authors:
+      - M. S. Sadati
+      - F. Alesana
+      - M. Hekmat
+      - M. M. Parvizi
+    year: 2024
+    journal: Dermatology Practical & Conceptual
+    volume: 14
+    issue: 4
+    pages: e2024242
+    pubmed_id: 39652968
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39652968/
+    sample_size: 42
+    population: "Patients with scalp seborrheic dermatitis"
+    groups:
+      rosemary_extract_lotion: 21
+      ketoconazole_2_percent_lotion: 21
+    dosing: "Both lotions applied twice daily"
+    duration: "2 months"
+    assessment_points: "Baseline, 1 month, 2 months"
+    outcome_measures:
+      - "Flaking scores"
+      - "Itching severity"
+      - "Quality of life (DLQI)"
+    key_findings:
+      ketoconazole_superiority: "Better reduction in flaking scores (p=0.011)"
+      rosemary_superiority: "Significantly greater itching reduction at 1 and 2 months (p<0.001)"
+      quality_of_life: "No significant difference between treatments at 1 and 2 months"
+    conclusions: "Rosemary extract superior for itching relief; ketoconazole superior for flaking reduction"
+
+# PHARMACOKINETICS AND BIOAVAILABILITY
+
+pharmacokinetic_studies:
+  - id: hitl_2021
+    type: Review
+    title: "Rosmarinic Acid-Human Pharmacokinetics and Health Benefits"
+    authors:
+      - Maja Hitl
+      - Nebojša Kladar
+      - Neda Gavarić
+      - Biljana Božin
+    year: 2021
+    journal: Planta Medica
+    volume: 87
+    issue: 4
+    pages: 273-282
+    pubmed_id: 33285594
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33285594/
+    key_findings:
+      source: "Commonly found in Lamiaceae (Labiateae) plant species"
+      absorption: "Peroral application main route of entry; metabolized by gut microflora into simple, more easily absorbed phenolic units"
+      metabolism: "Structural changes and conjugation reactions (glucuronidation, methylation)"
+      elimination: "Renal excretion represents main elimination pathway"
+      health_benefits:
+        - "Dermatological conditions"
+        - "Allergic disorders"
+        - "Osteoarthritic conditions"
+        - "Cognitive performance improvement"
+        - "Metabolic syndrome management"
+      safety: "No serious adverse effects reported in herbal remedies containing rosmarinic acid"
+
+  - id: doolaege_2011
+    type: Pharmacokinetic Study
+    study_design: "Animal pharmacokinetic study (rats)"
+    title: "Absorption, distribution and elimination of carnosic acid, a natural antioxidant from Rosmarinus officinalis, in rats"
+    authors:
+      - E. H. A. Doolaege
+      - K. Raes
+      - F. De Vos
+      - R. Verhé
+      - S. De Smet
+    year: 2011
+    journal: Plant Foods and Human Nutrition
+    volume: 66
+    issue: 2
+    pages: 196-202
+    pubmed_id: 21751091
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/21751091/
+    model: "Rat model"
+    sample_size:
+      intravenous: 4 rats
+      oral: 9 rats
+    dosing:
+      intravenous: "20.5 ± 4.2 mg/kg"
+      oral: "64.3 ± 5.8 mg/kg"
+    key_findings:
+      bioavailability: "40.1% after 360 minutes of oral administration"
+      distribution: "Traces detected in intestinal content, liver, and skeletal muscle tissue"
+      form: "Exists in free (unmetabolized) form in vivo"
+      elimination: "Primary route is fecal (15.6 ± 8.2% recovered in feces at 24h), not urinary"
+    conclusions: "Carnosic acid is bioavailable after oral administration and exists in free form in vivo"
+
+  - id: veenstra_2021
+    type: Pharmacokinetic and Efficacy Study
+    study_design: "Animal pharmacokinetic analysis with colitis model"
+    title: "Pharmacokinetic Analysis of Carnosic Acid and Carnosol in Standardized Rosemary Extract and the Effect on the Disease Activity Index of DSS-Induced Colitis"
+    authors:
+      - J. P. Veenstra
+      - et al.
+    year: 2021
+    journal: Nutrients
+    volume: 13
+    issue: 3
+    pages: 773
+    pubmed_id: 33673488
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33673488/
+    model: "Mouse model"
+    compounds_analyzed: "Carnosic acid and carnosol via LC-MS/MS"
+    dosing:
+      high_dose: "100 mg/kg rosemary extract daily"
+      low_dose: "10 mg/kg rosemary extract daily"
+    pharmacokinetic_timepoints: "0.25, 0.5, 1, 2, 4, 6, 12, and 24 hours"
+    key_findings:
+      disease_activity: "100 mg/kg significantly improved DAI in DSS-induced colitis vs negative control"
+      sestrin_2: "Reduced protein expression elevated by DSS exposure"
+      intestinal_barrier: "Enhanced integrity via decreased FITC-dextran permeability"
+      tight_junctions: "Increased zonula occludens-1 expression at both 10 and 100 mg/kg doses"
+    conclusions: "Rosemary extract bioavailable and effective for inflammatory bowel conditions"
+
+# SPECIALIZED APPLICATIONS
+
+specialized_studies:
+  - id: ahmed_2020
+    type: Literature Review
+    title: "Investigation of rosemary herbal extracts (Rosmarinus officinalis) and their potential effects on immunity"
+    authors:
+      - H. M. Ahmed
+      - M. Babakir-Mina
+    year: 2020
+    journal: Phytotherapy Research
+    volume: 34
+    issue: 8
+    pages: 1829-1837
+    pubmed_id: 32086980
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32086980/
+    databases_searched: "Science Direct, Web of Science, Wiley, Elsevier, PubMed, Scopus, Google Scholar"
+    key_findings:
+      in_vitro_animal: "Stimulatory effect of rosemary and active compounds on immune system found in multiple studies"
+      human_evidence: "Lack of evidence in humans for supporting immunity effects"
+    research_gap: "Human studies needed; double-blind randomized controlled trials would be ideal"
+
+# PHARMACOPOEIA AND REGULATORY MONOGRAPHS
+
+monographs:
+  - id: ema_hmpc_2010
+    type: Community Herbal Monograph
+    title: "Community herbal monograph on Rosmarinus officinalis L., folium"
+    organization: "European Medicines Agency (EMA) - Herbal Medicinal Products Committee (HMPC)"
+    document_reference: "EMA/HMPC/13633/2009"
+    date: "15 July 2010"
+    pubmed_link: https://www.e-lactancia.org/media/papers/Romero-EMEA2010.pdf
+    ema_link: https://www.ema.europa.eu/en/medicines/herbal/rosmarini-folium
+    herbal_substance: "Rosmarini folium (rosemary leaf)"
+    pharmacopoeial_quality: "Defined in European Pharmacopoeia (Ph. Eur.)"
+    traditional_uses:
+      internal:
+        - "Dyspeptic complaints"
+        - "Digestive support"
+        - "Gastrointestinal comfort"
+      external:
+        - "Rheumatic diseases"
+        - "Circulatory complaints"
+    sections_covered:
+      - "4.2 Posology and method of administration"
+      - "4.3 Contraindications"
+      - "4.4 Special warnings and precautions for use"
+      - "4.6 Pregnancy and lactation"
+
+  - id: ema_hmpc_2010_oil
+    type: Community Herbal Monograph
+    title: "Assessment report on Rosmarinus officinalis L., aetheroleum"
+    organization: "European Medicines Agency (EMA) - Herbal Medicinal Products Committee (HMPC)"
+    herbal_substance: "Rosmarini aetheroleum (rosemary essential oil)"
+    pharmacopoeial_quality: "Defined in European Pharmacopoeia (Ph. Eur.)"
+    ema_link: https://www.ema.europa.eu/en/medicines/herbal/rosmarini-aetheroleum
+    traditional_uses:
+      internal:
+        - "Dyspeptic complaints"
+      external:
+        - "Rheumatic diseases"
+        - "Circulatory complaints"
+        - "Antiseptic for wound healing"
+
+  - id: commission_e
+    type: Monograph
+    title: "Commission E Monograph: Rosmarini folium (Rosemary Leaf)"
+    organization: "German Commission E"
+    traditional_uses:
+      internal:
+        - "Dyspeptic complaints"
+        - "Liver and gallbladder function improvement"
+      external:
+        - "Rheumatic diseases"
+        - "Circulatory complaints"
+    reference: "Cited in ESCOP and HMPC monographs"
+
+  - id: who_monograph
+    type: Monograph
+    title: "WHO Monographs on Selected Medicinal Plants"
+    organization: "World Health Organization (WHO)"
+    publisher: "WHO Press, Geneva, Switzerland"
+    year: 2009
+    botanical_name: "Rosmarinus officinalis L."
+    note: "Standards align with British Pharmacopoeia specifications"
+
+  - id: european_pharmacopoeia
+    type: Pharmacopoeia Entry
+    title: "European Pharmacopoeia (Ph. Eur.)"
+    organization: "European Directorate for the Quality of Medicines & HealthCare (EDQM)"
+    entries:
+      - "Rosmarini folium (Rosemary Leaf)"
+      - "Rosmarini aetheroleum (Rosemary Essential Oil)"
+    note: "Defines quality standards for rosemary leaf and essential oil"
+
+# ACTIVE CONSTITUENTS AND STANDARDIZATION
+
+phytochemistry:
+  primary_active_compounds:
+    phenolic_diterpenes:
+      - compound: "Carnosic acid"
+        content_dried_leaf: "1.5-2.5%"
+        standardization_levels: "Up to 20% in extracts (commonly standardized level)"
+        bioavailability: "40.1% at 360 min (rat study); 65.09% absolute (alternate study)"
+        notes: "Primary antioxidant; higher bioavailability than rosmarinic acid due to increased glucuronidation"
+      - compound: "Carnosol"
+        content: "Present in rosemary extracts"
+        notes: "Acts through different mechanisms than carnosic acid"
+    phenolic_acids:
+      - compound: "Rosmarinic acid"
+        content_dried_plant: "21.13 ± 0.56 mg/g (from Azizi 2022 study)"
+        metabolism: "Metabolized by gut microflora into simple phenolic units"
+        elimination: "Primarily renal excretion"
+        notes: "Lower bioavailability than carnosic acid"
+    triterpenes:
+      - "Ursolic acid"
+      - "Betulinic acid"
+    other:
+      - "Rosmanol"
+
+  standardized_extracts:
+    - "Rosemary extract standardized to 20% carnosic acid (commercial products)"
+    - "Combined carnosic acid and carnosol content up to 33%"
+    - "Rosmarinic acid 2.5-5 mg per capsule (clinical trials)"
+    - "Diterpenes (carnosic acid + carnosol) 4-8 mg per dose (clinical trials)"
+
+# DOSING INFORMATION FROM CLINICAL TRIALS
+
+dosing_summary:
+  cognitive_function:
+    - formulation: "Dried rosemary leaf powder"
+      dose: "750 mg single dose"
+      population: "Elderly (mean age 75)"
+      outcome: "Beneficial effect on speed of memory"
+      source: "Pengelly 2012"
+      caution: "High doses (6000 mg) showed impairing effects"
+
+    - formulation: "Rosemary capsules"
+      dose: "500 mg twice daily (1000 mg/day)"
+      duration: "1 month"
+      population: "University students"
+      outcomes: "Improved memory, reduced anxiety/depression, better sleep"
+      source: "Nematolahi 2018"
+
+  mental_health:
+    - formulation: "Rosemary extract capsules"
+      dose: "2 capsules daily"
+      rosmarinic_acid: "5 mg/day"
+      diterpenes: "8 mg/day (carnosic acid + carnosol)"
+      duration: "4 weeks"
+      population: "Healthy adults with stress"
+      outcomes: "Reduced anxiety, improved heart rate variability"
+      source: "Kuwata 2025"
+
+    - formulation: "Rosemary capsules (dried plant)"
+      dose: "1 capsule twice daily (2 capsules/day)"
+      rosmarinic_acid_content: "21.13 ± 0.56 mg/g dried plant"
+      duration: "8 weeks"
+      population: "Major depressive disorder patients"
+      outcomes: "Reduced depression and anxiety scores, improved memory"
+      source: "Azizi 2022"
+
+  hair_growth:
+    - formulation: "Rosemary essential oil (topical)"
+      comparison: "Equal efficacy to minoxidil 2%"
+      duration: "6 months"
+      population: "Androgenetic alopecia"
+      outcomes: "Significant increase in hair count; less scalp itching than minoxidil"
+      source: "Panahi 2015"
+
+    - formulation: "Rosemary-lavender oil (Rosmagain)"
+      duration: "90 days"
+      population: "Healthy adults 18-55 years"
+      outcomes: "57.73% increase in growth rate, 68.70% thickness improvement, 40%+ reduction in hair fall"
+      source: "Patel 2025"
+
+  skin_health:
+    - formulation: "Rosemary extract dietary supplement"
+      schedule:
+        - "Weeks 1-4: 6 capsules/day (2 caps × 3 times)"
+        - "Weeks 5-8: 4 capsules/day (2 caps × 2 times)"
+        - "Weeks 9-12: 2 capsules/day (1 cap × 2 times)"
+      duration: "12 weeks"
+      population: "Women aged 40-65"
+      outcomes: "Improved skin dullness, texture, erythema, pore size, global quality"
+      source: "Draelos 2025"
+
+    - formulation: "Rosemary extract lotion (topical)"
+      dose: "Twice daily application"
+      duration: "2 months"
+      population: "Scalp seborrheic dermatitis"
+      outcomes: "Superior itching relief vs ketoconazole"
+      source: "Sadati 2024"
+
+# SAFETY DATA
+
+safety_profile:
+  general_safety: "Generally recognized as safe at normal culinary and therapeutic doses"
+
+  no_observed_adverse_effect_level:
+    - study: "13-week repeated oral dose toxicity in rats"
+      noael: ">4000 mg/kg/day in both sexes (rosemary concentrate with 50% ursolic acid)"
+      reference: "Cited in toxicity reviews"
+
+  clinical_trial_adverse_events:
+    - trial: "Kuwata 2025 (high-dose safety study)"
+      dose: "25 mg rosmarinic acid + 40 mg diterpenes daily"
+      duration: "4 weeks"
+      sample: "22 adults"
+      findings: "No clinically relevant adverse events or abnormal laboratory findings"
+
+    - trial: "Draelos 2025 (skin quality)"
+      sample: "104 women"
+      duration: "12 weeks"
+      findings: "Well tolerated; one participant discontinued due to moderate GI upset possibly related to treatment; six possibly related transient GI events, all resolved"
+
+    - trial: "Lin 2024 meta-analysis (ginger, but relevant for comparison)"
+      finding: "Only 2.8% of patients experienced dizziness with herbal treatment"
+
+  contraindications_and_warnings:
+    high_chronic_doses:
+      - "Hepatorenal effects: atrophic/degenerative changes, elevated BUN and liver enzymes"
+      - "Reproductive toxicity: decreased spermatogenesis, testosterone, sperm density/motility"
+      - "Genotoxicity and teratology: DNA fragmentation, apoptotic bodies, fetal anomalies"
+
+    allergic_reactions:
+      - "Contact dermatitis from prolonged topical application"
+      - "Hypersensitivity reactions to essential oil compounds"
+      - "Rare cases of anaphylaxis reported"
+
+    pregnancy_lactation: "Caution warranted; see HMPC monograph section 4.6"
+
+    scalp_application: "May cause itching (less than minoxidil 2%)"
+
+  drug_interactions: "Not extensively documented in provided studies; consult comprehensive resources"
+
+# REFERENCES AND RESOURCES
+
+additional_resources:
+  escop_monographs: "European Scientific Cooperative on Phytotherapy (ESCOP) monographs covering internal and external uses"
+
+  altmeyers_encyclopedia:
+    - "Rosmarini folium monograph: https://www.altmeyers.org/en/naturopathy/rosmarini-folium-143921"
+    - "Rosmarini aetheroleum monograph: https://www.altmeyers.org/en/naturopathy/rosmarini-aetheroleum-155586"
+
+  comprehensive_reviews:
+    - "Rosmarinus officinalis L.: an update review of its phytochemistry and biological activity (PMC5905578)"
+    - "Rosemary as therapeutic and prophylactic agent (Journal of Biomedical Science, 2019)"
+    - "Therapeutic effects on nervous system disorders (PMC7491497)"
+    - "Topical applications review (PMC7284349)"
+
+# SEARCH SOURCES
+
+search_metadata:
+  databases_searched:
+    - "PubMed"
+    - "PubMed Central (PMC)"
+    - "European Medicines Agency (EMA)"
+    - "WHO publications"
+
+  search_date: "2026-01-15"
+
+  search_terms:
+    - "rosemary clinical trial"
+    - "Rosmarinus officinalis RCT"
+    - "rosemary systematic review meta-analysis"
+    - "rosemary extract dosing"
+    - "rosmarinic acid pharmacokinetics"
+    - "carnosic acid bioavailability"
+    - "rosemary safety toxicity"
+    - "WHO monographs rosemary"
+    - "Commission E rosemary"
+    - "standardized rosemary extract"
+
+  focus_areas:
+    - "Systematic reviews and meta-analyses"
+    - "Randomized controlled trials (RCTs)"
+    - "Pharmacokinetic and bioavailability studies"
+    - "Safety and toxicity profiles"
+    - "Standardized extract preparations"
+    - "Dosing studies with specific outcomes"
+    - "Regulatory monographs (WHO, Commission E, EMA/HMPC)"
+    - "Pharmacopoeia standards"
+
+# NOTES
+
+notes:
+  - "Taxonomy update: Rosmarinus officinalis L. has been reclassified as Salvia rosmarinus Spenn. in recent phylogenetic analysis"
+  - "Active constituents responsible for biological activity: phenolic diterpenes (carnosic acid, carnosol), phenolic acids (rosmarinic acid), and triterpenes (ursolic acid, betulinic acid)"
+  - "Dose-response relationship: Lower doses (750 mg) beneficial for cognition; very high doses (6000 mg) showed impairing effects"
+  - "Bioavailability hierarchy: Carnosic acid has higher oral bioavailability than rosmarinic acid due to increased glucuronidation"
+  - "Primary metabolism: Gut microflora metabolize rosmarinic acid into simpler phenolic units"
+  - "Elimination routes: Rosmarinic acid primarily renal; carnosic acid primarily fecal"
+  - "Standardization: Commercial extracts commonly standardized to 20% carnosic acid; clinical trials used various formulations"
+  - "Safety emphasis: Generally safe at normal doses; caution with chronic/high doses due to organ toxicity and reproductive effects"
+  - "Research gaps: More human studies needed for immunity claims; long-term safety data limited for high-dose chronic use"

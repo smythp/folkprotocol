@@ -1,0 +1,1011 @@
+---
+# Cordyceps Bibliography
+# Compiled from PubMed clinical studies, systematic reviews, and pharmacopoeia entries
+# Focus: dosing, bioavailability, safety, standardized extracts
+
+meta:
+  species:
+    primary: Cordyceps sinensis (Berk.) Sacc. / Ophiocordyceps sinensis
+    secondary: Cordyceps militaris (L.) Fr.
+  common_names:
+    - Dong Chong Xia Cao (冬虫夏草)
+    - Winter Worm Summer Grass
+    - Caterpillar Fungus
+    - Yarsagumba (Tibetan)
+  family: Ophiocordycipitaceae
+  compiled_date: 2026-01-15
+
+regulatory_monographs:
+  - id: chinese_pharmacopoeia_1964
+    title: "Chinese Pharmacopoeia - Cordyceps sinensis (Dong Chong Xia Cao)"
+    organization: Chinese Pharmacopoeia Commission
+    year: 1964
+    type: regulatory_monograph
+    status: "Official herbal drug since 1964"
+    definition: "Dried fungus-larva complex of Ophiocordyceps sinensis infecting Hepialus larvae"
+    traditional_properties:
+      taste: sweet
+      nature: neutral
+      meridians: "Lung and Kidney"
+    traditional_uses:
+      - "Replenish kidney (补肾)"
+      - "Soothe lung (润肺)"
+      - "Stop bleeding (止血)"
+      - "Eliminate phlegm (化痰)"
+    clinical_applications:
+      - "Fatigue and weakness"
+      - "Chronic cough"
+      - "Hyposexuality"
+      - "Asthenia after severe illness"
+      - "Renal dysfunction and renal failure"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK92758/"
+    notes: "Only Cordyceps sinensis officially recorded in Chinese Pharmacopoeia; wild yield decreased >90% in past 25 years; price reached ~US$25,000/kg in 2007"
+
+  - id: commission_e_status
+    title: "Commission E Monograph Status"
+    organization: German Commission E
+    type: regulatory_note
+    status: "No monograph published"
+    notes: "Commission E did not evaluate Cordyceps species; primarily assessed herbs used in German phytotherapy; Cordyceps is primarily an Asian medicinal fungus"
+
+  - id: who_status
+    title: "WHO Monograph Status"
+    organization: World Health Organization
+    type: regulatory_note
+    status: "No specific WHO monograph found"
+    notes: "No official WHO monograph identified for Cordyceps sinensis or C. militaris as of 2025; primarily documented in Chinese traditional medicine sources"
+
+systematic_reviews_meta_analyses:
+  - id: wu_2025_renal
+    title: "Efficacy of traditional Chinese medicine Cordyceps sinensis as an adjunctive treatment in patients with renal dysfunction: a systematic-review and meta-analysis"
+    authors:
+      - Wu, Fenfang
+      - Xu, Chunhua
+      - Si, Xinlei
+      - He, Fei
+      - Xu, Kang
+      - Zhang, Yu
+      - Lin, Shan
+    year: 2025
+    journal: Frontiers in Medicine
+    volume: 11
+    pubmed_id: "39839641"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39839641/"
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11747039/"
+    doi: "10.3389/fmed.2024.1477569"
+    study_type: systematic_review_meta_analysis
+    studies_included: 15
+    total_participants: 1310
+    databases_searched: "PubMed, Web of Science, Cochrane Library, Embase, CNKI, Wanfang Data, VIP, CBM through March 25, 2024"
+    key_findings:
+      pooled_sensitivity: 0.89
+      pooled_sensitivity_ci: "[0.84-0.93]"
+      pooled_specificity: 0.69
+      pooled_specificity_ci: "[0.59-0.77]"
+      diagnostic_odds_ratio: 18.0
+      dor_ci: "[8.0-39.0]"
+      area_under_curve: 0.88
+      auc_ci: "[0.85-0.90]"
+      positive_likelihood_ratio: 2.8
+      plr_ci: "[2.1-3.9]"
+      negative_likelihood_ratio: 0.16
+      nlr_ci: "[0.10-0.27]"
+      clinical_improvements:
+        - "Significantly reduced blood creatinine levels"
+        - "Shortened oliguria period"
+        - "Increased urine osmolality"
+        - "Improved creatinine clearance rate"
+        - "Reduced blood urea nitrogen (BUN)"
+      adverse_events: "None explicitly mentioned; no complications reported"
+      preparations_included:
+        - "Bailing Capsule"
+        - "Jinshuibao"
+        - "Zhiling formulations"
+
+  - id: wang_2024_lung_cancer
+    title: "Adjuvant treatment with Cordyceps sinensis for lung cancer: A systematic review and meta-analysis of randomized controlled trials"
+    authors:
+      - Wang, Canran
+      - Wang, Jiawei
+      - Qi, Yuanfu
+    year: 2024
+    journal: Phytomedicine
+    pubmed_id: "38484953"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38484953/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 12
+    total_participants: 928
+    databases_searched: "PubMed, EMBASE, Cochrane Library, Chinese databases through June 2022"
+    key_findings:
+      tumor_response_rate:
+        relative_risk: 1.17
+        ci_95: "[1.05-1.29]"
+        interpretation: "Improved tumor response"
+      immune_function_cd4:
+        mean_difference: 4.98
+        ci_95: "[1.49-8.47]"
+        unit: "percentage points"
+      immune_function_nk_cells:
+        mean_difference: 4.17
+        ci_95: "[2.26-6.08]"
+        unit: "percentage points"
+      immunoglobulin_igg:
+        mean_difference: 3.95
+        ci_95: "[0.98-6.92]"
+        unit: "g/L"
+      quality_of_life_kps:
+        mean_difference: 8.20
+        ci_95: "[6.87-9.53]"
+        interpretation: "Significant improvement in Karnofsky Performance Status"
+      adverse_reaction_reductions:
+        myelosuppression_rr: 0.38
+        myelosuppression_ci: "[0.19-0.75]"
+        leukopenia_rr: 0.76
+        leukopenia_ci: "[0.63-0.92]"
+        radiation_pneumonitis_rr: 0.74
+        radiation_pneumonitis_ci: "[0.62-0.88]"
+      optimal_dosing: "6 g/day for 21 days per cycle, 3-4 cycles"
+
+  - id: yu_2019_copd
+    title: "Effectiveness and Safety of Oral Cordyceps sinensis on Stable COPD of GOLD Stages 2-3: Systematic Review and Meta-Analysis"
+    authors:
+      - Yu, Xuhua
+      - Mao, Yuquan
+      - Shergis, Johannah Linda
+      - Coyle, Meaghan E
+      - Wu, Lei
+      - Chen, Yuanbin
+      - Zhang, Anthony Lin
+      - Lin, Lin
+      - Xue, Charlie Changli
+      - Xu, Yinji
+    year: 2019
+    journal: Evidence-Based Complementary and Alternative Medicine
+    pubmed_id: "31073318"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31073318/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 15
+    total_participants: 1238
+    key_findings:
+      lung_function: "Improvements in FEV1% predicted"
+      exercise_endurance: "Improvements in 6-minute walking distance (6MWD)"
+      quality_of_life: "Improvements in St. George's Respiratory Questionnaire (SGRQ) scores"
+      symptom_improvement: "Significant improvements in respiratory symptoms"
+      adverse_events: "No serious adverse events reported"
+      limitations: "No studies were placebo-controlled or of high methodological quality"
+
+  - id: ong_2019_hemodialysis
+    title: "Efficacy of Cordyceps sinensis as an adjunctive treatment in hemodialysis patients: a systematic review and Meta-analysis"
+    authors:
+      - Ong, Bee Yean
+      - Aziz, Zoriah
+    year: 2019
+    journal: Journal of Pharmacy and Pharmaceutical Sciences
+    pubmed_id: "32186018"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/32186018/"
+    study_type: systematic_review_meta_analysis
+    trials_included: 12
+    total_participants: 655
+    key_findings:
+      c_reactive_protein:
+        standardized_mean_difference: -0.61
+        interpretation: "Reduced inflammation"
+      high_sensitivity_crp:
+        reduction: -3.44
+        unit: "mg/L"
+      serum_albumin:
+        increase: 3.07
+        unit: "g/L"
+      malondialdehyde:
+        reduction: -1.95
+        unit: "nmol/L"
+      hemoglobin:
+        increase: 9.56
+        unit: "g/L"
+      serum_creatinine: "No significant improvement"
+      ldl_cholesterol: "No significant improvement"
+      conclusion: "Evidence insufficient to recommend use due to limited trial numbers and unclear methodological quality"
+
+  - id: das_2021_immune_review
+    title: "Cordyceps spp.: A Review on Its Immune-Stimulatory and Other Biological Potentials"
+    authors:
+      - Das, G
+      - Shin, HS
+      - Leyva-Gómez, G
+      - Prado-Audelo, MLD
+      - Cortes, H
+      - Singh, YD
+      - Panda, MK
+      - Mishra, AP
+      - Nigam, M
+      - Saklani, S
+      - Chaturi, PK
+      - Martorell, M
+      - Cruz-Martins, N
+      - Sharma, V
+      - Garg, N
+      - Sharma, R
+      - Patra, JK
+    year: 2021
+    journal: Frontiers in Pharmacology
+    pubmed_id: "33628175"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33628175/"
+    study_type: comprehensive_review
+    key_findings:
+      immune_mechanisms:
+        - "Cytokine production: IL-1β, IL-2, IL-6, IL-8, IL-10, IL-12, TNF-α"
+        - "Phagocytosis stimulation"
+        - "Nitric oxide production via increased enzyme activity"
+      bioactive_compounds:
+        - "Nucleosides"
+        - "Sterols"
+        - "Flavonoids"
+        - "Cyclic peptides (most studied)"
+        - "Phenolic compounds"
+        - "Bioxanthracenes"
+        - "Polyketides"
+        - "Alkaloids"
+      pharmacological_properties:
+        - "Immunomodulation"
+        - "Antioxidant"
+        - "Anticancer"
+        - "Antidiabetic"
+        - "Anti-fatigue"
+        - "Kidney-protective"
+
+randomized_controlled_trials:
+  - id: shu_2024_chronic_bronchitis
+    title: "Efficacy and safety of Cordyceps sinensis (Hirsutella sinensis, Cs-C-Q80) in chronic bronchitis"
+    authors:
+      - Shu, Xinyang
+      - Xu, Dongfeng
+      - Qu, Yumin
+      - Shang, Xiaofeng
+      - Qiao, Kehong
+      - Feng, Cuiling
+      - Cui, Hongsheng
+      - Zhao, Xianping
+      - Li, Yuxin
+      - Peng, Yu
+      - Li, Demin
+      - Zhang, Hongchun
+    year: 2024
+    journal: Frontiers in Pharmacology
+    pubmed_id: "39193337"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/39193337/"
+    study_type: randomized_controlled_trial
+    design: randomized_double_blind_placebo_controlled_parallel_group
+    sample_size: 240
+    participants_analyzed: "238 (159 Bailing capsule, 79 placebo)"
+    intervention:
+      product: "Bailing capsule"
+      dose: "2.0 g"
+      frequency: "3 times daily (6 g/day total)"
+      duration: "48 weeks"
+    key_findings:
+      acute_exacerbation_frequency:
+        bailing_group: 0.43
+        placebo_group: 1.56
+        p_value: "<0.001"
+      symptom_improvements: "Improved expectoration and wheezing during follow-up"
+      overall_severity:
+        result: "Overall chronic bronchitis severity significantly improved"
+        p_value: 0.035
+      adverse_events:
+        bailing_group: "29.6%"
+        placebo_group: "30.4%"
+        conclusion: "Similar adverse event rates between groups"
+    notes: "Long-term study (48 weeks) showing significant reduction in acute exacerbations"
+
+  - id: zhou_2021_depression_insomnia
+    title: "Efficacy and Safety of Cordyceps militaris as an Adjuvant to Duloxetine in the Treatment of Insomnia in Patients With Depression: A 6-Week Double-Blind, Randomized, Placebo-Controlled Trial"
+    authors:
+      - Zhou, Jiaojiao
+      - Chen, Xu
+      - Xiao, Le
+      - Zhou, Jingjing
+      - Feng, Lei
+      - Wang, Gang
+    year: 2021
+    journal: Frontiers in Psychiatry
+    pubmed_id: "34858228"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/34858228/"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 59
+    participants: "28 in C. militaris group, 31 in placebo group; 11 withdrew"
+    duration: "6 weeks"
+    key_findings:
+      sleep_outcomes: "No significant improvement in Athens Insomnia Scale scores vs placebo"
+      depression_outcomes: "No significant differences in depression severity scores"
+      adverse_events: "Incidences not significantly different between groups"
+      safety: "Safe with rare side effects"
+    notes: "Negative trial - C. militaris at tested dose/duration did not improve insomnia in depression patients"
+
+  - id: tsai_2021_cordyceps_cicadae_safety
+    title: "Safety Assessment of HEA-Enriched Cordyceps cicadae Mycelium: A Randomized Clinical Trial"
+    authors:
+      - Tsai, You-Shan
+      - Hsu, Jui-Hsia
+      - Lin, David Pei-Cheng
+      - Chang, Han-Hsin
+      - Chang, Wen-Jui
+      - Chen, Yen-Lien
+      - Chen, Chin-Chu
+    year: 2021
+    journal: Journal of the American College of Nutrition
+    pubmed_id: "32702252"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/32702252/"
+    study_type: randomized_controlled_trial
+    design: safety_assessment
+    sample_size: 49
+    intervention:
+      product: "Freeze-dried Cordyceps cicadae mycelium"
+      dose: "1.05 g"
+      frequency: "Once daily"
+      duration: "3 months"
+    key_findings:
+      kidney_function: "No clinically significant changes"
+      liver_function: "No changes in markers"
+      blood_electrolytes: "Stable levels"
+      lipid_profiles: "Stable"
+      adverse_events: "No side effects or adverse feelings reported by participants"
+      conclusion: "Safe for development as functional health food"
+
+  - id: jung_2019_immune_cbg_cs2
+    title: "Immunomodulatory effects of a mycelium extract of Cordyceps (Paecilomyces hepiali; CBG-CS-2): a randomized and double-blind clinical trial"
+    authors:
+      - Jung, Su-Jin
+      - Jung, Eun-Soo
+      - Choi, Eun-Kyung
+      - Sin, Hong-Sig
+      - Ha, Ki-Chan
+      - Chae, Soo-Wan
+    year: 2019
+    journal: BMC Complementary and Alternative Medicine
+    pubmed_id: "30925876"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/30925876/"
+    study_type: randomized_controlled_trial
+    design: double_blind
+    sample_size: 79
+    participants: "39 intervention group, 40 control group, healthy adults"
+    intervention:
+      product: "CBG-CS-2 extract (Paecilomyces hepiali mycelium)"
+      dose: "1.68 g/day"
+      form: "Capsules"
+      duration: "8 weeks"
+    key_findings:
+      nk_cell_activity:
+        enhancement: "38.8 ± 17.6% from baseline"
+        p_value: "<0.019"
+      conclusion: "Safe and effective for enhancing cell-mediated immunity in healthy adults"
+
+  - id: liao_2019_rhodiola_cordyceps_body_composition
+    title: "Rhodiola/Cordyceps-Based Herbal Supplement Promotes Endurance Training-Improved Body Composition But Not Oxidative Stress and Metabolic Biomarkers: A Preliminary Randomized Controlled Study"
+    authors:
+      - Liao, Yi-Hung
+      - Chao, Yi-Chen
+      - Sim, Brenton Yim-Quan
+      - Lin, Hui-Mei
+      - Chen, Mu-Tsung
+      - Chen, Chung-Yu
+    year: 2019
+    journal: Nutrients
+    pubmed_id: "31623349"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/31623349/"
+    study_type: randomized_controlled_trial
+    design: double_blind
+    sample_size: 14
+    participants: "8 male, 6 female young sedentary adults; 7 per group"
+    intervention:
+      product: "Rhodiola crenulata/Cordyceps sinensis combination"
+      dose: "20 mg/kg/day"
+      duration: "8 weeks with endurance training"
+    key_findings:
+      body_composition:
+        body_weight: "Reduced (p=0.044)"
+        bmi: "Lower (p=0.003)"
+        upper_extremity_fat: "Decreased (p=0.032)"
+        lower_extremity_muscle: "Increased (p=0.029)"
+        trunk_fat: "Reduced (p=0.011)"
+      no_changes: "Blood lipid profile and oxidative stress markers unchanged"
+      metabolic_markers: "No differential effects despite training improvements"
+
+  - id: ontawong_2024_immune
+    title: "A randomized controlled clinical trial examining the effects of Cordyceps militaris beverage on the immune response in healthy adults"
+    authors:
+      - Ontawong
+      - Pengnet
+      - Thim-Uam
+      - Munkong
+      - Narkprasom, N & K
+      - Kuntakhut
+      - Kamkeaw
+      - Amornlerdpison
+    year: 2024
+    journal: Scientific Reports
+    volume: 14
+    pubmed_id: "38580687"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38580687/"
+    doi: "10.1038/s41598-024-58742-z"
+    study_type: randomized_controlled_trial
+    design: randomized_placebo_controlled
+    sample_size: 20
+    demographics: "10 males, 10 females, healthy adults"
+    intervention:
+      type: "Fermented Cordyceps militaris functional beverage (FCM)"
+      cordycepin_content: "2.85 mg per serving"
+      duration: "8 weeks"
+    key_findings:
+      nk_cell_activity_males:
+        result: "Significant increase from baseline to 4 weeks"
+        p_value: 0.049
+      nk_cell_activity_females:
+        result: "Significant increase at 8 weeks versus placebo"
+        p_value: 0.023
+      il_1b_males:
+        result: "Decreased"
+        p_value: 0.049
+      il_6_females:
+        result: "Decreased from baseline"
+        p_value: 0.047
+      safety: "No liver, kidney, or blood component toxicity; blood sugar and lipid indices showed no differences between groups"
+      conclusion: "FCM can potentially be developed as immune-boosting supplement without toxicity"
+
+  - id: chen_2010_cs4_exercise
+    title: "Effect of Cs-4 (Cordyceps sinensis) on exercise performance in healthy older subjects: a double-blind, placebo-controlled trial"
+    authors:
+      - Chen, Steve
+      - Li, Zhaoping
+      - Krochmal, Robert
+      - Abrazado, Marlon
+      - Kim, Woosong
+      - Cooper, Christopher B
+    year: 2010
+    journal: Journal of Alternative and Complementary Medicine
+    volume: 16
+    issue: 5
+    pages: "585-590"
+    pubmed_id: "20804368"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20804368/"
+    pmc_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110835/"
+    doi: "10.1089/acm.2009.0226"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 20
+    demographics: "Healthy elderly subjects, ages 50-75 years"
+    intervention:
+      product: "Cs-4 (CordyMax)"
+      dose: "333 mg capsules, three times daily"
+      total_daily_dose: "~1000 mg (1 g)"
+      duration: "12 weeks"
+    key_findings:
+      metabolic_threshold:
+        increase: "10.5%"
+        baseline: "0.83 ± 0.06 L/min"
+        post_treatment: "0.93 ± 0.08 L/min"
+        p_value: "<0.02"
+      ventilatory_threshold:
+        increase: "8.5%"
+        baseline: "1.25 ± 0.11 L/min"
+        post_treatment: "1.36 ± 0.15 L/min"
+        p_value: 0.031
+      vo2_max: "No changes in either group"
+      placebo_group: "No significant changes in metabolic or ventilatory threshold"
+      adverse_events: "None reported"
+
+  - id: amm_2025_long_covid
+    title: "Randomized, waitlist-controlled trial of Cordyceps sinensis mycelium culture extract (Cs4) for long COVID patients in Hong Kong"
+    authors:
+      - Multiple authors (Hong Kong study)
+    year: 2025
+    journal: Acta Materia Medica
+    volume: 4
+    issue: 2
+    url: "https://www.scienceopen.com/hosted-document?doi=10.15212/AMM-2024-0089"
+    study_type: randomized_controlled_trial
+    design: waitlist_controlled
+    sample_size: 110
+    treatment_group: 55
+    control_group: 55
+    intervention:
+      product: "Cordyceps sinensis mycelium culture extract (Cs4)"
+      duration: "12 weeks"
+    key_findings:
+      primary_outcome_long_covid_symptoms:
+        mean_difference: -10.1
+        ci_95: "[-14.1 to -6.1]"
+        p_value: "<0.001"
+        scale: "Modified COVID-19 Yorkshire Rehabilitation Scale"
+      fatigue_improvement:
+        mean_difference: -8.1
+        ci_95: "[-14.2 to -2.0]"
+        p_value: 0.011
+        scale: "Brief Fatigue Inventory Form"
+      additional_improvements:
+        - "Insomnia (Insomnia Severity Index)"
+        - "Respiratory symptoms (St. George's Respiratory Questionnaire)"
+      anxiety_depression: "Measured by Hospital Anxiety and Depression Scale"
+      quality_of_life: "Measured by Short Form 12 health survey"
+      adverse_events: "No severe adverse events related to interventions"
+
+  - id: chinese_2003_cs4_aerobic
+    title: "Randomized double-blind placebo-controlled clinical trial and assessment of fermentation product of Cordyceps sinensis (Cs-4) in enhancing aerobic capacity and respiratory function of the healthy elderly volunteers"
+    authors:
+      - Chinese investigators
+    year: 2003
+    journal: Chinese Journal of Integrative Medicine
+    url: "https://link.springer.com/article/10.1007/BF02836405"
+    study_type: randomized_controlled_trial
+    design: double_blind_placebo_controlled
+    sample_size: 37
+    demographics: "Healthy elderly Chinese subjects"
+    intervention:
+      product: "Cs-4 (fermentation product of Cordyceps sinensis)"
+      dose: "3 g/day"
+      duration: "6 weeks"
+    key_findings:
+      aerobic_capacity: "Significantly enhanced"
+      respiratory_function: "Significantly improved"
+      conclusion: "Cs-4 effective for elderly subjects"
+
+toxicology_studies:
+  - id: long_2021_toxicity
+    title: "Toxicological safety evaluation of the cultivated Chinese cordyceps"
+    authors:
+      - Long, Hailin
+      - Qiu, Xuehong
+      - Cao, Li
+      - Liu, Guiqing
+      - Rao, Zhongchen
+      - Han, Richou
+    year: 2021
+    journal: Journal of Ethnopharmacology
+    pubmed_id: "33220357"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/33220357/"
+    doi: "10.1016/j.jep.2020.113487"
+    study_type: preclinical_toxicology
+    methods:
+      - "Chromosomal aberration testing (Chinese hamster lung cells)"
+      - "Ames bacterial mutation assay (5 bacterial strains)"
+      - "Acute oral toxicity study (ICR mice)"
+      - "Micronucleus testing (bone marrow cells)"
+    doses_tested:
+      ames_test: "128-5,000 μg per plate"
+      acute_toxicity: "Up to 20 g/kg oral administration"
+    key_findings:
+      chromosomal_aberration: "No dose-dependent increase detected"
+      acute_toxicity: "No mortality or tissue abnormalities at 20 g/kg within 14 days"
+      ld50: ">5 g/kg, classified as non-toxic"
+      maximum_tolerable_dose: ">20 g/kg"
+      micronucleus_testing: "No significant differences versus negative controls"
+      conclusion: "Cultivated cordyceps demonstrated non-toxic safety profile at high single doses via oral administration"
+
+  - id: ncbi_livertox_2023
+    title: "Cordyceps - LiverTox Clinical and Research Information on Drug-Induced Liver Injury"
+    organization: National Institute of Diabetes and Digestive and Kidney Diseases
+    year: 2023
+    source: NCBI Bookshelf
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK615916/"
+    type: safety_monograph
+    key_findings:
+      hepatotoxicity: "Not associated with serum aminotransferase elevations during therapy or clinically apparent liver injury"
+      fda_status: "Designated as 'generally regarded as safe' (GRAS)"
+      clinical_trials: "Multiple short- and long-term trials show adverse effects are uncommon and minimal with no mention of hepatotoxicity or ALT elevations"
+      liver_safety: "No hepatic steatosis, necrosis, inflammation, or fibrosis observed in liver specimens after extended use (up to 3 weeks in animals)"
+
+pharmacokinetic_bioavailability_studies:
+  - id: tsai_2010_pharmacokinetics
+    title: "Pharmacokinetics of adenosine and cordycepin, a bioactive constituent of Cordyceps sinensis in rat"
+    authors:
+      - Tsai, Yung-Jen
+      - Lin, Lie-Chwen
+      - Tsai, Tung-Hu
+    year: 2010
+    journal: Journal of Agricultural and Food Chemistry
+    pubmed_id: "20302371"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/20302371/"
+    study_type: pharmacokinetic_validation_study
+    methods: "HPLC-PDA coupled to microdialysis sampling system"
+    key_findings:
+      half_life: "Short elimination half-lives for both adenosine and cordycepin"
+      clearance: "High rates of clearance"
+      plasma_decline: "Rapid concentration decline within approximately 30 minutes post-administration"
+      metabolism:
+        adenosine_metabolites: "Hypoxanthinosine and hypoxanthine increased in blood"
+        cordycepin_metabolite: "Unidentified metabolite appeared, suggesting similar pathway to adenosine"
+        enzymatic_confirmation: "Adenosine deaminase inhibitor (EHNA) pretreatment suppressed biotransformation"
+      conclusion: "Cordycepin undergoes similar metabolic pathway to adenosine via adenosine deaminase"
+
+  - id: chen_2023_cordycepin_bioavailability
+    title: "Cordycepin: A review of strategies to improve the bioavailability and efficacy"
+    authors:
+      - Chen, Min
+      - Luo, Jiahao
+      - Jiang, Wenming
+      - Chen, Lijing
+      - Miao, Longxing
+      - Han, Chunchao
+    year: 2023
+    journal: Phytotherapy Research
+    pubmed_id: "37329165"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37329165/"
+    study_type: review
+    bioavailability_challenges:
+      primary_issue: "Rapid deamination by adenosine deaminase (ADA) in vivo"
+      consequences:
+        - "Shortened half-life"
+        - "Decreased bioavailability"
+    enhancement_strategies:
+      strategy_1:
+        approach: "ADA inhibitor co-administration"
+        purpose: "Slow enzymatic deamination"
+      strategy_2:
+        approach: "Structural modification"
+        purpose: "Develop derivative compounds with enhanced effectiveness"
+      strategy_3:
+        approach: "Novel drug delivery systems"
+        purpose: "Improve therapeutic outcomes"
+    notes: "Overcoming metabolic limitation critical for optimizing clinical potential"
+
+  - id: ncbi_herbal_drug_2011
+    title: "Cordyceps as an Herbal Drug - Herbal Medicine"
+    authors: NCBI Bookshelf
+    year: 2011
+    source: "Herbal Medicine: Biomolecular and Clinical Aspects, 2nd edition"
+    chapter: 5
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK92758/"
+    type: comprehensive_monograph
+    key_content:
+      bioactive_constituents:
+        d_mannitol_cordycepic_acid:
+          natural_cordyceps: "3.4%"
+          cultured_cordyceps: "2.4%"
+          function: "Osmotic agent; treats cerebral edema, renal failure"
+        polysaccharides:
+          content: "3-8% dry weight"
+          function: "Immunomodulation, antitumor activity"
+        cordycepin:
+          species: "Present in C. militaris only, very low/undetectable in natural C. sinensis"
+          structure: "3'-deoxyadenosine"
+          function: "Anticancer, immunomodulation (Phase I/II trials)"
+        ergosterol:
+          presence: "High in both forms"
+          function: "Vitamin D₂ precursor"
+        beta_sitosterol:
+          presence: "Present naturally, absent in cultured C. militaris"
+          function: "Anticancer, cholesterol reduction"
+        nucleosides:
+          types: "Over 10 including adenosine, guanosine, uridine, inosine, thymidine"
+      standardized_preparations:
+        cs4_cordymax:
+          source: "Fermented mycelium of Paecilomyces hepialid"
+          status: "Well recognized by Chinese Pharmacopoeia"
+          clinical_studies: "Over 30 clinical studies"
+          dosing_examples:
+            - "2 g/kg/day for 25 days (glucose studies)"
+            - "250-500 mg/kg/day for 17 days (blood glucose reduction)"
+        jinshuibao:
+          source: "Commercial Cs-4 capsule product"
+          status: "Used clinically throughout China"
+          revenue: "Several million US dollars annually"
+          indications: "Immunosuppression, renal function"
+        bailing_capsule:
+          source: "C. sinensis mycelia preparation"
+          indication: "Post-renal transplant (improved function, reduced infection)"
+      dosing_recommendations:
+        general: "3-4.5 g/day sufficient except in severe liver disease"
+        chronic_renal_failure: "3-6 g/day"
+        diabetic_nephropathy: "0.5-2 g orally three times daily with ACE inhibitors or ARBs"
+      safety:
+        animal_studies: "Quite safe for up to 3 weeks"
+        human_toxicity: "No toxicity reports; doses up to 80 g/kg/day for 7 days intraperitoneally in mice did not cause fatality"
+
+  - id: cordycepin_bioavailability_2023
+    title: "Cordycepin: A review of strategies to improve the bioavailability and efficacy"
+    authors: Multiple
+    year: 2023
+    journal: Phytotherapy Research
+    pubmed_id: "37329165"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/37329165/"
+    study_type: review
+    key_findings:
+      bioavailability_challenge: "Cordycepin undergoes rapid deamination by adenosine deaminase (ADA) in vivo, shortening half-life and decreasing bioavailability"
+      oral_absorption: "Intact cordycepin not absorbed following oral administration in rats; 3'-deoxyinosine (previously considered inactive metabolite) was absorbed into systemic circulation"
+      distribution_pattern: "Kidney > liver > heart > lung > spleen > brain"
+      improvement_strategies:
+        - "Co-administrating ADA inhibitor with cordycepin"
+        - "Developing more effective derivatives via structural modification"
+        - "Applying new drug delivery systems"
+      low_bioavailability: "Low bioavailability from mushroom material after digestion"
+      fruiting_body_cordycepin: "Highest amount 25.9 mg/100 g dry weight after artificial intestinal juice digestion"
+
+standardized_extracts_quality_control:
+  - id: hu_2015_chemical_markers
+    title: "Identification of chemical markers in Cordyceps sinensis by HPLC-MS/MS"
+    authors:
+      - Hu, Hankun
+      - Xiao, Ling
+      - Zheng, Baogen
+      - Wei, Xin
+      - Ellis, Alexis
+      - Liu, Yi-Ming
+    year: 2015
+    journal: Analytical and Bioanalytical Chemistry
+    volume: 407
+    issue: 26
+    pages: "8059-8066"
+    pubmed_id: "26302964"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/26302964/"
+    study_type: analytical_chemistry_quality_control
+    methods: "HPLC-MS/MS with tandem mass spectrometry"
+    chemical_markers_identified:
+      - "Cordycepin"
+      - "D-mannitol"
+      - "Phenylalanine (Phe)"
+      - "Phenylalanine-o-glucose (Phe-o-glucose)"
+      - "Cyclo-Gly-Pro"
+      - "Cyclo-Ala-Leu-rhamnose"
+    key_findings:
+      novel_compounds: "Two glycosides detected for first time in C. sinensis"
+      authentication: "Novel glycosides found only in authentic samples, distinguishing from substitutes"
+      recovery_rates: "96-103%"
+      sensitivity: "High sensitivity and specificity using HPLC-MS/MS"
+      conclusion: "Great potential for authentication and quality assessment of C. sinensis"
+
+  - id: li_2006_quality_control_review
+    title: "Quality control of Cordyceps sinensis, a valued traditional Chinese medicine"
+    authors:
+      - Li, S P
+      - Yang, F Q
+      - Tsim, Karl W K
+    year: 2006
+    journal: Journal of Pharmaceutical and Biomedical Analysis
+    volume: 41
+    issue: 5
+    pages: "1571-1584"
+    pubmed_id: "16504449"
+    pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/16504449/"
+    study_type: comprehensive_review
+    analytical_methods_reviewed:
+      - "Gas chromatography"
+      - "Liquid chromatography"
+      - "Thin-layer chromatography"
+      - "Capillary electrophoresis"
+      - "Mass spectrometry with electrospray ionization"
+      - "UV spectrophotometry"
+    analytical_markers:
+      - "Amino acids"
+      - "Peptides"
+      - "Polysaccharides"
+      - "Ergosterol"
+      - "Mannitol"
+      - "Nucleosides (adenosine, cordycepin, inosine)"
+    key_findings:
+      quality_control_importance: "Critical to ensure safety and efficacy"
+      market_issues: "Addresses adulteration with C. militaris substitutes and counterfeit fermented products"
+      conclusion: "Comprehensive review of markers and methods for authentication"
+
+  - id: lin_li_2011_pharmacopoeia_standards
+    title: "Cordyceps as an Herbal Drug"
+    authors:
+      - Lin, Bao-qin
+      - Li, Shao-ping
+    year: 2011
+    source: "Herbal Medicine: Biomolecular and Clinical Aspects, 2nd edition"
+    book_url: "https://www.ncbi.nlm.nih.gov/books/NBK92758/"
+    study_type: pharmacopoeia_monograph
+    pharmacopoeia_standards:
+      chinese_pharmacopoeia_inclusion: "Since 1964"
+      quality_indicator: "Adenosine concentration as main quality marker (2015 edition)"
+      traditional_documentation: "Ben Cao Bei Yao (1694) - earliest recorded mention"
+    dosing_guidance:
+      traditional: "3-9 g crude drug as decoction"
+      chronic_renal_failure: "3-6 g/day"
+      diabetic_nephropathy: "0.5-2 g three times daily with ACE inhibitors or ARBs"
+    standardized_preparations:
+      cs4_cordymax:
+        source: "Fermented Paecilomyces hepialid mycelium"
+        clinical_studies: "Over 30 trials"
+        recognition: "Chinese Pharmacopoeia recognized"
+      jinshuibao:
+        type: "Commercial Cs-4 capsule"
+        use: "Throughout China"
+        revenue: "Several million US dollars annually"
+      bailing_capsule:
+        source: "C. sinensis mycelia"
+        indication: "Post-renal transplant support"
+
+  - id: quality_control_methods_2024
+    title: "Cordyceps Quality Control and Standardization Methods"
+    source: Multiple scientific publications
+    year: 2024
+    type: quality_control_summary
+    analytical_methods:
+      near_infrared_spectroscopy:
+        technique: "NIRS coupled with partial least squares regression"
+        targets: "Adenosine and cordycepin concentrations"
+        correlation_coefficient_adenosine: 0.8820
+        correlation_coefficient_polysaccharides: 0.8859
+        advantage: "Non-destructive, rapid prediction"
+      lc_ms_ms:
+        technique: "Liquid chromatography tandem mass spectrometry"
+        targets: "Adenosine and cordycepin quantification"
+        advantage: "Highly sensitive, selective, fast; suitable for quality control"
+      high_performance_size_exclusion_chromatography:
+        technique: "HPSEC"
+        targets: "Polysaccharide quantification"
+        advantage: "Preserves structural integrity of polysaccharides"
+    standardization_markers:
+      common_commercial_standard:
+        polysaccharides: "40%"
+        mannitol: "8%"
+        adenosine: "0.2%"
+      cordycepin_content:
+        c_militaris: "5-15 times more than C. sinensis"
+        high_quality_extracts: "Averaging 2-3% cordycepin"
+      specific_polysaccharide_marker:
+        marker: "CSWP-40 (host caterpillar-derived immunoactive polysaccharide)"
+        application: "Central biomarker for quality assessment"
+        advantage: "Better specificity than adenosine, ergosterol, or mannitol alone"
+      novel_marker:
+        marker: "CCP (Cordyceps-specific polysaccharide)"
+        purpose: "Improved authentication versus traditional chemical markers"
+    cultivation_factors:
+      solid_state_fermentation: "Controllable conditions; higher, more stable yields of cordycepin, adenosine, polysaccharides"
+      dissolved_oxygen_high: "Favors nucleotide-derived metabolites (cordycepin, adenosine)"
+      oxygen_limitation: "Redirects metabolic flux toward polysaccharide biosynthesis"
+
+dosage_summary:
+  chinese_pharmacopoeia_traditional:
+    general_tonification: "3-9 g crude drug as decoction"
+
+  standardized_extracts_clinical_trials:
+    cs4_exercise_performance:
+      - dose: "1000 mg/day (333 mg × 3)"
+        duration: "12 weeks"
+        population: "Healthy elderly (50-75 years)"
+        study: "chen_2010_cs4_exercise"
+      - dose: "3 g/day"
+        duration: "6 weeks"
+        population: "Healthy elderly Chinese"
+        study: "chinese_2003_cs4_aerobic"
+
+    long_covid:
+      - dose: "Cs4 extract (dose not specified)"
+        duration: "12 weeks"
+        population: "Long COVID patients"
+        study: "amm_2025_long_covid"
+
+    immune_function:
+      - dose: "2.85 mg cordycepin (in fermented beverage)"
+        duration: "8 weeks"
+        population: "Healthy adults"
+        study: "ontawong_2024_immune"
+      - dose: "1.5 g/day C. militaris"
+        population: "Healthy Korean males"
+        result: "Enhanced cell-mediated immunity"
+
+    renal_dysfunction:
+      - dose: "Preparations include Bailing Capsule, Jinshuibao, Zhiling"
+        dose_range: "3-6 g/day (chronic renal failure)"
+        study: "wu_2025_renal"
+
+    lung_cancer_adjuvant:
+      - dose: "6 g/day"
+        schedule: "21 days per cycle, 3-4 cycles"
+        study: "wang_2024_lung_cancer"
+
+    diabetic_nephropathy:
+      - dose: "0.5-2 g three times daily"
+        combination: "With ACE inhibitors or ARBs"
+
+bioavailability_notes:
+  - "Cordycepin exhibits low oral bioavailability due to rapid deamination by adenosine deaminase"
+  - "Intact cordycepin not absorbed in rats; metabolite 3'-deoxyinosine absorbed instead"
+  - "Distribution pattern: kidney > liver > heart > lung > spleen > brain"
+  - "Polysaccharide bioavailability from fruiting bodies: 25.9 mg/100 g dry weight after intestinal digestion"
+  - "Improved bioavailability strategies: ADA inhibitors, structural derivatives, novel delivery systems"
+  - "Dosing 3-4.5 g/day generally sufficient; up to 6 g/day for severe renal conditions"
+
+safety_summary:
+  general_safety: "Generally regarded as safe (FDA GRAS status)"
+  serious_adverse_events: "Uncommon and minimal across multiple clinical trials"
+  hepatotoxicity: "Not associated with liver enzyme elevations or clinically apparent liver injury"
+  long_term_animal_safety: "Safe for up to 3 weeks; no hepatic steatosis, necrosis, inflammation, or fibrosis"
+
+  preclinical_toxicity:
+    ld50: ">5 g/kg (classified as non-toxic)"
+    maximum_tolerable_dose: ">20 g/kg in mice"
+    chromosomal_aberration: "None detected"
+    mutagenicity: "No mutagenic activity (Ames test)"
+    extreme_dose_test: "80 g/kg/day × 7 days intraperitoneally in mice caused no fatality"
+
+  clinical_safety:
+    covid_study_adverse_events:
+      total_patients_with_adverse_events: "10 (17.2%)"
+      cordyceps_group: "6 patients (20.0%) with 12 TEAEs"
+      placebo_group: "4 patients (14.3%) with 4 TEAEs"
+      severe_events: "None"
+    immune_study_safety: "No liver, kidney, or blood component toxicity; blood sugar and lipid indices normal"
+    copd_studies: "No serious adverse events reported"
+    hemodialysis_studies: "No explicit side effects or complications mentioned"
+
+  contraindications_warnings:
+    - "No specific contraindications identified in literature"
+    - "FDA GRAS designation supports general safety"
+    - "Recommended to ensure proper consumption and daily recommended intake for optimal efficacy"
+
+commercial_preparations_studied:
+  - name: "Cs-4 (CordyMax)"
+    source: "Fermented Paecilomyces hepialid mycelium"
+    standardization: "Recognized by Chinese Pharmacopoeia"
+    clinical_studies: ">30 clinical trials"
+    indications: "Exercise performance, aerobic capacity, immune support"
+
+  - name: "JinShuiBao"
+    source: "Commercial Cs-4 capsule"
+    clinical_use: "Throughout China"
+    indications: "Immunosuppression, renal function, diabetic nephropathy"
+
+  - name: "Bailing Capsule"
+    source: "C. sinensis mycelia"
+    indication: "Post-renal transplant support"
+
+research_gaps:
+  - "Limited placebo-controlled studies of high methodological quality for COPD"
+  - "Insufficient evidence for hemodialysis patients due to limited trials and unclear quality"
+  - "Need for larger, well-designed RCTs with standardized preparations"
+  - "Bioavailability enhancement strategies need clinical validation"
+  - "Optimal extraction methods and formulation development"
+  - "Long-term safety data beyond 3 months needed"
+  - "Mechanism studies for immunomodulatory effects"
+  - "Dose-response relationships require further clarification"
+  - "Wild C. sinensis yield declining >90%; sustainability and cultivation methods critical"
+
+notes:
+  - "Cordyceps sinensis officially recognized in Chinese Pharmacopoeia since 1964"
+  - "No WHO or Commission E monographs exist (primarily Asian traditional medicine)"
+  - "Wild C. sinensis extremely expensive (~US$25,000/kg in 2007); cultivated forms developed"
+  - "Over 50 medicines and 2 dietary supplements with cultured cordyceps approved by Chinese FDA since 2002"
+  - "C. militaris contains significantly more cordycepin than C. sinensis"
+  - "Safety profile excellent across multiple clinical trials and toxicology studies"
+  - "Primary applications: renal dysfunction, immune support, exercise performance, respiratory conditions"
+  - "Standardized extracts (Cs-4, JinShuiBao) preferred over crude herb for consistency"
+  - "Low bioavailability of cordycepin remains challenge; polysaccharides and other compounds likely contribute to efficacy"
+
+sources:
+  systematic_reviews:
+    - "[Efficacy of traditional Chinese medicine Cordyceps sinensis as an adjunctive treatment in patients with renal dysfunction](https://pubmed.ncbi.nlm.nih.gov/39839641/)"
+    - "[Adjuvant treatment with Cordyceps sinensis for lung cancer: A systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/38484953/)"
+    - "[Effectiveness and Safety of Oral Cordyceps sinensis on Stable COPD](https://pubmed.ncbi.nlm.nih.gov/31073318/)"
+    - "[Efficacy of Cordyceps sinensis as an adjunctive treatment in hemodialysis patients](https://pubmed.ncbi.nlm.nih.gov/32186018/)"
+    - "[Efficacy of Cordyceps sinensis as an adjunctive treatment in kidney transplant patients](https://pubmed.ncbi.nlm.nih.gov/28137532/)"
+    - "[Cordyceps spp.: A Review on Its Immune-Stimulatory and Other Biological Potentials](https://pubmed.ncbi.nlm.nih.gov/33628175/)"
+
+  randomized_controlled_trials:
+    - "[Efficacy and safety of Cordyceps sinensis (Hirsutella sinensis, Cs-C-Q80) in chronic bronchitis](https://pubmed.ncbi.nlm.nih.gov/39193337/)"
+    - "[A randomized controlled clinical trial examining the effects of Cordyceps militaris beverage on immune response](https://pubmed.ncbi.nlm.nih.gov/38580687/)"
+    - "[Effect of Cs-4 (Cordyceps sinensis) on exercise performance in healthy older subjects](https://pubmed.ncbi.nlm.nih.gov/20804368/)"
+    - "[Efficacy and Safety of Cordyceps militaris as an Adjuvant to Duloxetine in the Treatment of Insomnia](https://pubmed.ncbi.nlm.nih.gov/34858228/)"
+    - "[Safety Assessment of HEA-Enriched Cordyceps cicadae Mycelium](https://pubmed.ncbi.nlm.nih.gov/32702252/)"
+    - "[Immunomodulatory effects of a mycelium extract of Cordyceps (Paecilomyces hepiali; CBG-CS-2)](https://pubmed.ncbi.nlm.nih.gov/30925876/)"
+    - "[Rhodiola/Cordyceps-Based Herbal Supplement Promotes Endurance Training-Improved Body Composition](https://pubmed.ncbi.nlm.nih.gov/31623349/)"
+    - "[Randomized, waitlist-controlled trial of Cordyceps sinensis for long COVID](https://www.scienceopen.com/hosted-document?doi=10.15212/AMM-2024-0089)"
+
+  pharmacokinetics_bioavailability:
+    - "[Pharmacokinetics of adenosine and cordycepin, a bioactive constituent of Cordyceps sinensis in rat](https://pubmed.ncbi.nlm.nih.gov/20302371/)"
+    - "[Cordycepin: A review of strategies to improve the bioavailability and efficacy](https://pubmed.ncbi.nlm.nih.gov/37329165/)"
+
+  quality_control:
+    - "[Identification of chemical markers in Cordyceps sinensis by HPLC-MS/MS](https://pubmed.ncbi.nlm.nih.gov/26302964/)"
+    - "[Quality control of Cordyceps sinensis, a valued traditional Chinese medicine](https://pubmed.ncbi.nlm.nih.gov/16504449/)"
+
+  safety_toxicology:
+    - "[Toxicological safety evaluation of the cultivated Chinese cordyceps](https://pubmed.ncbi.nlm.nih.gov/33220357/)"
+    - "[Cordyceps - LiverTox](https://www.ncbi.nlm.nih.gov/books/NBK615916/)"
+
+  monographs_reviews:
+    - "[Cordyceps as an Herbal Drug - NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK92758/)"
+    - "[Cordyceps militaris: An Overview of Its Chemical Constituents](https://www.mdpi.com/2304-8158/10/11/2634)"
+    - "[Cordyceps Polysaccharides: A Review of Their Immunomodulatory Effects](https://www.mdpi.com/1420-3049/29/21/5107)"

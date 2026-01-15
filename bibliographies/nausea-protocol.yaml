@@ -1,0 +1,1011 @@
+---
+protocol_name: Herbal Treatments for Nausea
+protocol_type: Multi-herb comparative protocol
+focus_areas:
+  - Nausea and vomiting in pregnancy (NVP)
+  - Postoperative nausea and vomiting (PONV)
+  - Chemotherapy-induced nausea and vomiting (CINV)
+  - Motion sickness
+  - General digestive nausea
+bibliography_created: 2026-01-15
+
+# SYSTEMATIC REVIEWS AND META-ANALYSES
+
+systematic_reviews:
+  - id: marx_2025
+    type: Systematic Review and Meta-Analysis
+    title: "Inhaling Peppermint Essential Oil as a Promising Complementary Therapy in the Treatment of Nausea and Vomiting"
+    year: 2025
+    published: July 2025
+    journal: Journal of Clinical Medicine
+    source_url: https://www.mdpi.com/2077-0383/14/14/5069
+    conditions_studied:
+      - Postoperative nausea and vomiting (PONV)
+      - Chemotherapy-induced nausea and vomiting (CINV)
+      - Pregnancy-related nausea and vomiting (NVP)
+    key_findings:
+      - "Peppermint oil inhalation was most effective among essential oils tested"
+      - "Research from 2024 examined lavender, chamomile, peppermint, orange, ginger, damask rose, and sage"
+      - "Peppermint oil was the most effective in reducing nausea and vomiting across all essential oils"
+    mechanism:
+      - "Blocks serotonin receptors in GI tract that trigger nausea/vomiting reflex"
+      - "Antispasmodic effects via menthol (35-45%) and menthone (10-30%)"
+      - "Relaxes smooth muscles of gastrointestinal tract"
+
+  - id: lin_2024
+    type: Overview of Systematic Reviews
+    title: "Ginger for treating nausea and vomiting: an overview of systematic reviews and meta-analyses"
+    authors:
+      - Lin et al.
+    year: 2024
+    pubmed_id: 38072785
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38072785/
+    meta_analyses_reviewed: 15
+    key_findings:
+      - "Pooled odds ratio: 0.41 (95% CI: 0.22-0.79, P = 0.008)"
+      - "Significant reduction in nausea and vomiting symptoms"
+      - "Multiple contexts: pregnancy, postoperative, chemotherapy"
+    quality: "Overview of 15 meta-analyses provides high-level evidence"
+
+  - id: ernest_2000
+    type: Systematic Review
+    title: "Efficacy of ginger for nausea and vomiting: a systematic review of randomized clinical trials"
+    first_author: Ernst E
+    year: 2000
+    journal: British Journal of Anaesthesia
+    pubmed_id: 10793599
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/10793599/
+    key_findings:
+      - "Ginger is a promising antiemetic herbal remedy"
+      - "Evidence quality varies by context"
+      - "Strongest evidence for pregnancy-related nausea"
+
+  - id: thomson_2014
+    type: Meta-Analysis
+    title: "Effect of ginger in the treatment of nausea and vomiting compared with vitamin B6 and placebo during pregnancy"
+    year: 2014
+    pubmed_id: 31937153
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/31937153/
+    key_findings:
+      - "Ginger significantly relieves general NVP symptoms and nausea compared with placebo"
+      - "No significant effect on vomiting alone"
+      - "Ginger more effective than vitamin B6 in treating NVP"
+      - "No significant differences in some comparisons with B6"
+
+  - id: ni_2020
+    type: Systematic Review and Meta-Analysis
+    title: "A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting"
+    year: 2014
+    journal: Nutrition Journal
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC3995184/
+    key_findings:
+      - "All seven studies concluded ginger more effective than placebo"
+      - "Significantly decreased nausea symptoms when compared to placebo"
+      - "Significant effect in improving general symptom of NVP"
+      - "Significant in relieving severity of nausea"
+      - "Not significant in reducing vomiting compared with placebo"
+
+  - id: gibson_2021
+    type: Systematic Review and Meta-Analysis
+    title: "Efficacy of Ginger in Preventing Postoperative Nausea and Vomiting: A Systematic Review and Meta-Analysis"
+    year: 2021
+    pubmed_id: 34312974
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/34312974/
+    context: Postoperative nausea and vomiting (PONV)
+    key_findings:
+      - "Network meta-analysis compared and ranked relative efficacy for PONV control"
+      - "Compared all available ginger preparations"
+      - "Ginger shows preventive effects for PONV"
+
+  - id: liu_2024
+    type: Systematic Review and Meta-Analysis
+    title: "Effect of herbal medicine on postoperative nausea and vomiting after laparoscopic surgery"
+    year: 2024
+    pubmed_id: 38847692
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38847692/
+    key_findings:
+      vomiting_incidence: "RR = 0.43 (95% CI 0.32-0.57, P < 0.00001)"
+      conclusion: "Herbal medicine is effective and safe treatment for nausea and vomiting secondary to laparoscopic surgery"
+
+  - id: wang_2023
+    type: Systematic Review and Meta-Analysis
+    title: "The efficacy and safety of complementary and alternative medicine in the treatment of nausea and vomiting during pregnancy"
+    year: 2023
+    journal: Frontiers in Public Health
+    source_url: https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1108756/full
+    key_findings:
+      - "CAM therapies widely used for NVP due to limitations of conventional medicine"
+      - "Meta-analysis assessed CAM therapy improvement on NVP"
+      - "Multiple herbs effective: ginger, peppermint, lemon, quince, pomegranate, chamomile, cardamom"
+      - "Safe for consumption by pregnant women"
+
+  - id: badran_2019
+    type: Systematic Review
+    title: "A systematic review of the efficacy of alternative medicine in the treatment of nausea and vomiting of pregnancy"
+    year: 2019
+    pubmed_id: 31215276
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/31215276/
+    herbs_examined:
+      - Ginger
+      - Peppermint
+      - Lemon
+      - Chamomile
+      - Matricaria chamomilla
+      - Elettaria cardamomum (Cardamom)
+      - Pomegranate
+      - Spearmint syrup
+    key_findings:
+      - "Herbal medicines provide safe and effective medical alternatives"
+      - "Effective for pregnant women with mild to moderate NVD"
+      - "All listed herbs can be used as alternative herbal choices"
+
+  - id: chen_2020
+    type: Systematic Review and Meta-Analysis
+    title: "Chinese Herbal Medicine for Reducing Chemotherapy-Associated Side-Effects in Breast Cancer Patients"
+    year: 2020
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC7756083/
+    key_findings:
+      - "Adjunctive use of Chinese herbal medicine with chemotherapy reduces adverse events"
+      - "Reduces nausea and vomiting, diarrhea, alopecia, myelosuppression"
+      - "Improves impaired immune function"
+
+  - id: cochrane_nvp
+    type: Cochrane Review
+    title: "Interventions for Nausea and Vomiting in Early Pregnancy"
+    source_url: https://www.researchgate.net/publication/9035805_Interventions_for_Nausea_and_Vomiting_in_Early_Pregnancy_Cochrane_Review
+    key_findings:
+      - "No strong evidence for any intervention for nausea and vomiting in pregnancy"
+      - "Ginger beneficial for nausea and vomiting in pregnancy"
+      - "Four studies showed ginger superior to placebo"
+
+# HEAD-TO-HEAD COMPARATIVE TRIALS
+
+comparative_trials:
+  - id: latif_2025
+    type: Randomized Clinical Trial
+    title: "Comparative Study on the Prokinetic Effects of Ginger, Caraway, and Peppermint in Relieving Gastrointestinal Disturbances in Pulmonary TB Patients"
+    year: 2025
+    journal: Food Science & Nutrition
+    clinicaltrials_id: NCT06157034
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12104075/
+    source_url: https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70338
+    sample_size: 200
+    comparison: "Ginger vs Caraway vs Peppermint"
+    intervention_details:
+      ginger_group: "1 g daily"
+      caraway_group: "2 g daily"
+      peppermint_group: "3 mL daily"
+    phases:
+      - "Baseline"
+      - "Intervention (3 months)"
+      - "Washout (1 month)"
+    key_findings:
+      ginger_results: "No vomiting recurrence in both intervention and washout phases"
+      context: "Patients on anti-tuberculosis treatment with GI symptoms"
+
+  - id: chemotherapy_aromatherapy_2024
+    type: Quasi-Experimental Study
+    title: "Peppermint and Ginger Aromatherapy for Managing Nausea and Vomiting During Chemotherapy"
+    year: 2024
+    journal: Indonesian Journal of Global Health Research
+    sample_size: 28
+    setting: "Breast cancer patients at Husada Hospital Jakarta"
+    comparison: "Peppermint aromatherapy vs Ginger aromatherapy"
+    source_url: https://jurnal.globalhealthsciencegroup.com/index.php/IJGHR/article/view/6212
+    measurements:
+      - "Before chemotherapy"
+      - "2 hours after chemotherapy"
+      - "6 hours after chemotherapy"
+    key_findings:
+      - "Both interventions significantly reduced nausea and vomiting (p < 0.05)"
+      - "At 6 hours: peppermint group had lower scores than ginger group"
+      - "Peppermint average score: 6.57"
+      - "Ginger average score: 10.29"
+      - "Statistical significance: p = 0.036"
+      conclusion: "Peppermint was more effective than ginger at 6 hours post-chemotherapy"
+
+  - id: thyroidectomy_ponv_2025
+    type: Randomized Controlled Trial
+    title: "The Effect of Ginger and Mint on Postoperative Nausea and Vomiting in Patients Undergoing Total Thyroidectomy"
+    year: 2025
+    setting: "Bezmialem Vakif University (2021-2022)"
+    pubmed_id: 40856681
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40856681/
+    comparison: "Ginger vs Peppermint vs Routine care control"
+    intervention: "Aromatherapy"
+    key_findings:
+      rhodes_score_ginger: "0.48 ± 0.51"
+      rhodes_score_peppermint: "1.11 ± 0.64"
+      rhodes_score_control: "1.37 ± 0.49"
+      statistical_significance: "P < .001"
+      conclusion: "Ginger performed slightly better than peppermint for thyroidectomy PONV"
+      both_effective: "Both ginger and peppermint groups showed significantly lower pain and nausea severity compared with control"
+
+  - id: oral_surgery_ponv_2025
+    type: Single-Blind Randomized Controlled Trial
+    title: "Effect of aromatherapy with peppermint, ginger, and lavender on postoperative nausea severity after oral surgery under general anaesthesia"
+    year: 2025
+    pubmed_id: 40154579
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40154579/
+    source_url: https://www.sciencedirect.com/science/article/pii/S0965229925000445
+    comparison: "Peppermint vs Ginger vs Lavender aromatherapy"
+    context: "Post-oral surgery PONV"
+    intervention: "Aromatherapy inhalation"
+
+  - id: ginger_vs_chamomile_cinv
+    type: Randomized Double-Blind Clinical Trial
+    title: "Effect of Ginger and Chamomile on Nausea and Vomiting Caused by Chemotherapy in Iranian Women with Breast Cancer"
+    year: 2016
+    pubmed_id: 27644672
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/27644672/
+    sample_size: 65
+    comparison: "Ginger vs Chamomile"
+    intervention_details:
+      ginger_dose: "500 mg capsules twice daily"
+      chamomile_dose: "500 mg Matricaria chamomilla extract capsules twice daily"
+      duration: "5 days before and after chemotherapy"
+      additional_treatment: "Both groups received routine antiemetic medications"
+    key_findings:
+      vomiting_frequency: "Both ginger and chamomile significantly effective, no significant difference between groups"
+      nausea_frequency: "Unlike chamomile, ginger significantly influenced the frequency of nausea"
+      conclusion: "Ginger superior for nausea frequency; both equally effective for vomiting"
+
+  - id: ginger_vs_b6_smith_2004
+    type: Randomized Controlled Trial
+    title: "A comparison between the effects of ginger, pyridoxine (vitamin B6) and placebo for the treatment of the first trimester nausea and vomiting of pregnancy (NVP)"
+    year: 2004
+    pubmed_id: 28629250
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/28629250/
+    comparison: "Ginger vs Vitamin B6 (Pyridoxine) vs Placebo"
+    key_findings:
+      overall: "Ginger more effective than placebo for mild to moderate NVP"
+      comparison_with_b6: "Ginger comparable with vitamin B6"
+
+  - id: ginger_vs_b6_ensiyeh_2009
+    type: Randomized Controlled Trial
+    title: "Comparing ginger and vitamin B6 for the treatment of nausea and vomiting in pregnancy"
+    year: 2009
+    journal: Midwifery
+    source_url: https://www.sciencedirect.com/science/article/abs/pii/S0266613807001416
+    key_findings:
+      - "Both ginger and vitamin B6 effective for treatment of NVP"
+      - "Ginger more effective than vitamin B6"
+
+  - id: ginger_vs_b6_chittumma_2007
+    type: Randomized Double-Blind Controlled Trial
+    title: "Comparison of the effectiveness of ginger and vitamin B6 for treatment of nausea and vomiting in early pregnancy"
+    year: 2007
+    pubmed_id: 17621727
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/17621727/
+    key_findings:
+      nausea_severity: "Ginger more effective than vitamin B6 for relieving the severity of nausea"
+      vomiting_episodes: "Equally effective for decreasing the number of vomiting episodes in early pregnancy"
+
+  - id: ginger_vs_b6_sharifzadeh_2018
+    type: Randomized Controlled Trial
+    title: "Comparing the effectiveness of vitamin B6 and ginger in treatment of pregnancy-induced nausea and vomiting"
+    year: 2018
+    pubmed_id: 24250336
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/24250336/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC3819920/
+    key_findings:
+      - "Treatments with vitamin B6 or ginger led to significant reduction in MPUQE score"
+      - "Mean changes showed no significant difference between the two groups"
+
+# TRADITIONAL FORMULAS
+
+traditional_formulas:
+  - id: banxia_houpo_tang
+    tradition: Traditional Chinese Medicine
+    formula_name: "Ban Xia Hou Pu Tang (Banxia Houpo Decoction)"
+    english_name: "Pinellia and Magnolia Bark Decoction"
+    source_text: "Jingui Yaolue (Essentials from the Golden Cabinet)"
+    original_author: "Zhang Zhongjing (Han Dynasty)"
+    source_url: https://www.sacredlotus.com/go/chinese-formulas/medicine/ban-xia-hou-po-tang
+    composition:
+      - herb: "Pinellia ternata (Ban Xia)"
+        role: "Primary antiemetic, addresses nausea and vomiting"
+      - herb: "Poria cocos (Fu Ling)"
+        role: "Strengthens spleen, drains dampness"
+      - herb: "Magnolia officinalis (Hou Po)"
+        role: "Moves qi, transforms phlegm"
+      - herb: "Perilla frutescens (Zi Su Ye)"
+        role: "Regulates qi, harmonizes stomach"
+      - herb: "Zingiber officinale (Sheng Jiang)"
+        role: "Warms stomach, stops vomiting"
+    indications:
+      - "Nausea and vomiting from rebellious qi and phlegm"
+      - "Cough with white sputum"
+      - "Hiccups"
+      - "Dampness and phlegm accumulation in stomach"
+      - "Blocked downward flow of qi causing vomiting"
+    pattern_treated: "Plum-pit qi (sensation of obstruction in throat with digestive symptoms)"
+
+  - id: xiao_banxia_decoction
+    tradition: Traditional Chinese Medicine
+    formula_name: "Xiao-Ban-Xia Decoction (XBXD)"
+    english_name: "Minor Pinellia Decoction"
+    pubmed_id: 39501722
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39501722/
+    classification: "Classical anti-emetic TCM formula"
+    modern_use: "Chemotherapy-induced nausea and vomiting (CINV)"
+    mechanism_studied:
+      - "Alleviates CINV by inhibiting ferroptosis"
+      - "Activates Nrf2/SLC7A11/GPX4 pathway"
+    clinical_use: "Frequently used for clinical treatment of CINV"
+
+  - id: ccf_tea
+    tradition: Ayurveda
+    formula_name: "CCF Tea"
+    english_name: "Cumin-Coriander-Fennel Tea"
+    composition:
+      - "Cumin seeds"
+      - "Coriander seeds"
+      - "Fennel seeds"
+    preparation: "Three spices brewed together as tea"
+    traditional_use:
+      - "Support digestion"
+      - "Encourage gentle cleansing"
+      - "Reduce bloating and gas"
+
+  - id: cardamom_ginger_fennel_tea
+    tradition: Ayurveda
+    formula_name: "Cardamom, Ginger & Fennel Tea"
+    source_url: https://www.joyfulbelly.com/Ayurveda/recipe/Cardamom-Ginger-Fennel-Tea/997
+    composition:
+      - "Cardamom"
+      - "Ginger"
+      - "Fennel seeds"
+    traditional_properties:
+      - "Improves circulation"
+      - "Improves digestion"
+      - "Burns off morning mucous"
+      - "Antiemetic properties"
+
+  - id: triphala
+    tradition: Ayurveda
+    formula_name: "Triphala"
+    english_name: "Three Fruits"
+    composition:
+      - herb: "Amalaki (Emblica officinalis)"
+        common_name: "Indian Gooseberry"
+      - herb: "Bibhitaki (Terminalia bellirica)"
+        common_name: "Beleric Myrobalan"
+      - herb: "Haritaki (Terminalia chebula)"
+        common_name: "Chebulic Myrobalan"
+    traditional_use:
+      - "Support overall digestive health"
+      - "Regulate bowel movements"
+      - "Cleanse gastrointestinal tract"
+      - "General digestive tonic"
+
+  - id: avipattikar_churna
+    tradition: Ayurveda
+    formula_name: "Avipattikar Churna"
+    type: "Herbal powder"
+    primary_use: "Balance excess Pitta dosha"
+    indications:
+      - "Acidity"
+      - "Indigestion"
+      - "Nausea caused by hyperacidity"
+      - "Bile reflux"
+    mechanism: "Soothes stomach and reduces acid-related nausea"
+
+  - id: kamdudha_ras
+    tradition: Ayurveda
+    formula_name: "Kamdudha Ras"
+    classification: "Classical Ayurvedic formulation"
+    primary_action: "Soothes the stomach"
+    indications:
+      - "Nausea related to Pitta imbalance"
+      - "Acid reflux"
+      - "Hyperacidity"
+
+  - id: essential_oil_blend_2012
+    tradition: "Western Aromatherapy"
+    study_year: 2012
+    type: "Randomized Placebo-Controlled Trial"
+    sample_size: 1151
+    composition:
+      - "Ginger essential oil"
+      - "Spearmint essential oil"
+      - "Peppermint essential oil"
+      - "Cardamom essential oil"
+    administration: "Aromatherapy"
+    key_findings:
+      - "Statistically significant reduction in nausea"
+      - "Statistically significant reduction in antiemetic medication requests"
+      - "Synergistic plant combinations noted for enhanced efficacy and safety"
+
+# MECHANISM STUDIES
+
+mechanism_studies:
+  ginger_mechanisms:
+    - id: betz_2005
+      title: "Mode of action of gingerols and shogaols on 5-HT3 receptors"
+      subtitle: "Binding studies, cation uptake by the receptor channel and contraction of isolated guinea-pig ileum"
+      year: 2005
+      pubmed_id: 16364290
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/16364290/
+      source_url: https://www.sciencedirect.com/science/article/abs/pii/S0014299905011179
+      primary_mechanism: "Non-competitive 5-HT3 receptor antagonism"
+      active_compounds:
+        - "[6]-gingerol"
+        - "[8]-gingerol"
+        - "[10]-gingerol"
+        - "[6]-shogaol"
+      key_findings:
+        binding_site: "Modulatory site distinct from serotonin binding site"
+        potency_order: "[6]-shogaol ≥ [8]-gingerol > [10]-gingerol ≥ [6]-gingerol"
+        receptor_target: "5-HT3 receptor ion-channel complex"
+        action_type: "Non-competitive antagonism (unlike ondansetron which is competitive)"
+        displacement_study: "No displacement of [(3)H]GR65630 from 5-HT3 receptor binding site"
+
+    - id: liu_2022
+      title: "The Antiemetic Mechanisms of Gingerols against Chemotherapy-Induced Nausea and Vomiting"
+      year: 2022
+      pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC8893993/
+      source_url: https://onlinelibrary.wiley.com/doi/10.1155/2022/1753430
+      mechanisms_identified:
+        5ht3_antagonism:
+          description: "Inhibition of 5-HT3 receptors largely contributes to antiemetic effect"
+          active_constituents: "Gingerols"
+        multiple_pathways:
+          - "5-HT3 antagonists"
+          - "Neurokinin-1 (NK-1) antagonists"
+          - "Antihistaminic activity"
+          - "Prokinetic activities"
+        neurotransmitter_regulation:
+          - "5-HT (serotonin) regulation"
+          - "SP (substance P) regulation"
+          - "DA (dopamine) regulation"
+        additional_mechanisms:
+          - "Gastrointestinal function improvements"
+          - "Gut microbiota adjustment"
+          - "Anti-inflammation properties"
+          - "Antioxidative properties"
+
+    - id: huang_2025
+      title: "6-Gingerol and 6-shogaol attenuate chemotherapy-induced nausea and vomiting via ameliorating mitochondrial dysfunction and pyroptosis through JNK/MFF signaling pathway"
+      year: 2025
+      source_url: https://www.sciencedirect.com/science/article/abs/pii/S2212429225009848
+      mechanism: "Mitochondrial protection and pyroptosis inhibition"
+      pathway: "JNK/MFF signaling pathway"
+      key_findings:
+        - "6-gingerol and 6-shogaol blocked JNK/MFF signaling pathway"
+        - "Attenuated mitochondrial dysfunction"
+        - "Prevented GSDME-mediated pyroptosis"
+
+    - id: li_2021
+      title: "6-Gingerol, a major ingredient of ginger, attenuated cisplatin-induced pica in rats via regulating 5-HT3R/Ca2+/CaMKII/ERK1/2 signaling pathway"
+      year: 2021
+      source_url: https://www.sciencedirect.com/science/article/pii/S1756464622004595
+      mechanism: "Downstream signaling cascade inhibition"
+      pathway: "5-HT3R-mediated Ca2+/CaMKII/ERK1/2 signaling pathway"
+      key_finding: "6-gingerol antiemetic effect related to inhibition of this signaling cascade"
+
+    - id: abdel_aziz_2006
+      title: "Effects of ginger constituents on the gastrointestinal tract: role of cholinergic M3 and serotonergic 5-HT3 and 5-HT4 receptors"
+      year: 2006
+      pubmed_id: 21305447
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/21305447/
+      gastric_effects:
+        - "Increased gastric emptying effect"
+        - "Stimulated gastric antral contractions"
+      receptors_involved:
+        - "Cholinergic M receptors"
+        - "Serotonergic 5-HT receptors"
+
+    - id: koo_2013
+      title: "Ginger and its pungent constituents non-competitively inhibit activation of human recombinant and native 5-HT3 receptors of enteric neurons"
+      year: 2013
+      pubmed_id: 23490018
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/23490018/
+      journal: Korean Journal of Physiology & Pharmacology
+      source_url: https://synapse.koreamed.org/articles/1025933
+      key_finding: "Ginger and pungent constituents exert antiemetic effects by blocking 5-HT-induced emetic signal transmission in vagal afferent neurons"
+
+    - id: walstab_2018
+      title: "Natural Negative Allosteric Modulators of 5-HT3 Receptors"
+      year: 2018
+      pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6321066/
+      source_url: https://www.mdpi.com/1420-3049/23/12/3186
+      receptor_role: "5-HT3 receptors are ligand-gated ion channels mediating rapid membrane-depolarizing effects of serotonin in CNS and PNS"
+      functions:
+        - "Nausea and vomiting"
+        - "Regulation of peristalsis"
+        - "Pain transmission"
+      ginger_action: "Natural negative allosteric modulator of 5-HT3 receptors"
+
+  peppermint_mechanisms:
+    - id: khanna_2014
+      title: "Effects of menthol on circular smooth muscle of human colon: Analysis of the mechanism of action"
+      year: 2014
+      pubmed_id: 25046841
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/25046841/
+      source_url: https://www.sciencedirect.com/science/article/abs/pii/S001429991400555X
+      primary_mechanism: "Calcium channel blockade"
+      key_findings:
+        smooth_muscle_effect: "Menthol induces spasmolytic effects in human colon circular muscle"
+        calcium_mechanism: "Inhibits GI smooth muscle contractility through block of Ca2+ influx through sarcolemma L-type Ca2+ channels"
+        direct_action: "Directly affects gastrointestinal smooth muscle contractility"
+
+    - id: harrington_1991
+      title: "The Mechanism of Action of Peppermint Oil"
+      year: 1991
+      journal: Gastroenterology
+      volume: 101
+      pages: "55-65"
+      source_url: https://www.gastrojournal.org/article/0016-5085(91)90459-X/pdf
+      mechanism: "Smooth muscle relaxation via calcium influx reduction"
+
+    - id: alammar_2019
+      title: "Review article: The physiologic effects and safety of Peppermint Oil and its efficacy in irritable bowel syndrome and other functional disorders"
+      year: 2019
+      pubmed_id: 29372567
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29372567/
+      pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5814329/
+      mechanisms_identified:
+        - mechanism: "Smooth muscle relaxation"
+          pathway: "Calcium channel blockade or direct enteric nervous system effects"
+        - mechanism: "Visceral sensitivity modulation"
+          pathway: "Transient receptor potential cation channels (TRP)"
+        - mechanism: "Anti-microbial effects"
+      active_compounds:
+        menthol: "35-45%"
+        menthone: "10-30%"
+      dual_pathway:
+        motor_function: "Via calcium channel blockade"
+        visceral_sensation: "Via TRPM8 (cold receptor–transient receptor potential cation channel subfamily M member 8)"
+      clinical_evidence:
+        - "Irritable bowel syndrome"
+        - "Functional dyspepsia"
+        - "Childhood functional abdominal pain"
+        - "Postoperative nausea"
+
+    - id: mdpi_2025_peppermint
+      title: "Inhaling Peppermint Essential Oil as a Promising Complementary Therapy in the Treatment of Nausea and Vomiting"
+      year: 2025
+      source_url: https://www.mdpi.com/2077-0383/14/14/5069
+      serotonin_mechanism: "Peppermint oil blocks serotonin receptors in the gastrointestinal tract that trigger the nausea and vomiting reflex"
+      antispasmodic_mechanism: "Menthol (35-45%) and menthone (10-30%) exhibit antispasmodic effects that relax smooth muscles of GI tract"
+
+  chamomile_mechanisms:
+    - id: srivastava_2011
+      title: "Chamomile (Matricaria chamomilla L.): A Review of Ethnomedicinal Use, Phytochemistry and Pharmacological Uses"
+      year: 2011
+      source_url: https://www.mdpi.com/2075-1729/12/4/479
+      active_compounds:
+        flavonoids:
+          - "Apigenin"
+          - "Luteolin"
+          - "Quercetin"
+        coumarins: "Various"
+        volatile_oils:
+          - "Bisabolol"
+      antispasmodic_mechanism:
+        description: "Inhibits voltage-dependent calcium channels"
+        effect: "Reduces intracellular calcium levels in smooth muscle cells"
+        result: "Muscle relaxation"
+      smooth_muscle_modulation: "Modulates duodenal smooth muscle contractility by affecting calcium channel-mediated contractions and inhibiting those mediated by intracellular calcium release"
+
+    - id: anti_inflammatory_apigenin
+      title: "The Therapeutic Potential of Apigenin"
+      year: 2019
+      pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6472148/
+      anti_inflammatory_pathways:
+        cytokine_suppression:
+          - "Attenuates IL-1β production"
+          - "Attenuates TNF-α production"
+        enzyme_suppression:
+          - "Suppresses iNOS (inducible nitric oxide synthase)"
+          - "Suppresses COX-2 (cyclooxygenase-2)"
+        nfkb_pathway: "Inactivation of NF-κB translocation via suppression of p65 subunit phosphorylation"
+      animal_studies:
+        paw_edema: "Potent anti-inflammatory activity in carrageenan-induced rat paw edema"
+        hypersensitivity: "Delayed type hypersensitivity in mice"
+
+    - id: cin_colitis_study
+      title: "Apigenin effects in rat colitis models"
+      context: "Animal models of chemotherapy-induced emesis and colitis"
+      cisplatin_model: "Chamomile preparations significantly reduce cisplatin-induced emesis in animal models"
+      colitis_effects:
+        mpo_decrease: "30% decrease in myeloperoxidase (MPO) activity in inflammatory regions"
+        colonic_mpo_reduction: "35% reduction"
+        alkaline_phosphatase_reduction: "21% reduction"
+
+  fennel_mechanisms:
+    - id: rather_2012
+      title: "Foeniculum vulgare: A comprehensive review of its traditional use, phytochemistry, pharmacology, and safety"
+      year: 2012
+      source_url: https://www.sciencedirect.com/science/article/pii/S1878535212000792
+      active_compounds:
+        major_volatile_compounds:
+          - "Trans-anethole"
+          - "Estragole"
+          - "Fenchone"
+        other_constituents:
+          - "Phenols"
+          - "Phenolic glycosides"
+      antispasmodic_mechanism:
+        anethole_action: "Inhibits spasms in smooth muscles, including intestinal tract"
+        fenchone_action: "Relaxes smooth muscle lining the digestive tract"
+        result: "Reduces intestinal and stomach gas"
+      carminative_mechanism:
+        action: "Volatile oils break down gas bubbles and facilitate expulsion"
+        primary_compound: "Anethole responsible for carminative action"
+      digestive_enhancement:
+        secretion_increase:
+          - "Bile secretion"
+          - "Gastric acid secretion"
+          - "Digestive juices"
+        nutrient_absorption: "Helps body better absorb nutrients from food"
+      smooth_muscle_effects:
+        - "Relaxes smooth muscle"
+        - "Regulates peristaltic functions of GI tract"
+        - "Carminative properties"
+        - "Anti-inflammatory effects"
+
+  cardamom_mechanisms:
+    - id: cardamom_systematic_review
+      title: "Medicinal Plants for Chemotherapy-Induced Nausea and Vomiting: A Systematic Review of Antiemetic, Chemosensitizing, and Immunomodulatory Mechanisms"
+      source_url: https://www.tandfonline.com/doi/full/10.2147/TCRM.S531645
+      antispasmodic_mechanism:
+        description: "Relaxes gastrointestinal smooth muscle"
+        effect: "Alleviates spasms and hypermotility"
+        pathway: "Calcium channel blockade"
+      anti_inflammatory_mechanism:
+        description: "Mitigates gastrointestinal inflammation"
+        pathway: "Inhibits pro-inflammatory cytokines and enzymes such as COX"
+
+    - id: jamal_2006
+      title: "Gastroprotective effect of cardamom, Elettaria cardamomum Maton. fruits in rats"
+      year: 2006
+      source_url: https://www.academia.edu/98130777/Gastroprotective_effect_of_cardamom_Elettaria_cardamomum_Maton_fruits_in_rats
+      key_finding: "Cardamom has antiemetic properties (demonstrated in rat studies)"
+
+    - id: cineole_gastroprotection
+      title: "Gastroprotective Mechanisms of the Monoterpene 1,8-Cineole (Eucalyptol)"
+      year: 2015
+      pubmed_id: 26244547
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/26244547/
+      active_compound: "1,8-Cineole (Eucalyptol)"
+      dose_range: "50-200 mg/kg"
+      ethanol_injury_model:
+        efficacy: "Significantly attenuated ethanol-induced gastric injury"
+        comparison: "Similar to nordihydroguairetic acid (lipoxygenase inhibitor)"
+        antioxidant_effect: "Tendency to restore ethanol-associated decreases in nonprotein sulfhydryls"
+      gastric_secretion_effects:
+        juice_volume: "Significant inhibition"
+        total_acid_output: "Significant inhibition"
+        comparison: "Similar to cimetidine"
+      primary_mechanisms:
+        - "Antioxidant action"
+        - "Lipoxygenase inhibitory action"
+      chronic_ulcer_model:
+        mucus_increase: "89.3%"
+        sh_group_preservation: "Prevented depletion by 62.6%"
+        lipid_peroxidation_reduction: "55.3%"
+        myeloperoxidase_reduction: "59.4%"
+        lesion_area_reduction: "43.1%"
+        regeneration: "Significant tissue regeneration promoted"
+
+    - id: cardamom_phytochemistry
+      title: "Botany, traditional uses, phytochemistry and biological activities of cardamom [Elettaria cardamomum (L.) Maton]"
+      year: 2020
+      source_url: https://www.sciencedirect.com/science/article/abs/pii/S0378874119308918
+      active_compounds:
+        - "1,8-cineole"
+        - "α-terpinyl acetate"
+        - "Limonene"
+      therapeutic_benefits:
+        - "Antioxidant"
+        - "Anticancer"
+        - "Antidiabetic"
+        - "Anti-inflammatory"
+        - "Antifungal"
+        - "Antiviral"
+        - "Gastroprotective"
+      chemosensitizing: "Several components exhibit potential chemosensitizing effects"
+
+# CLINICAL APPLICATIONS BY CONDITION
+
+clinical_applications:
+  pregnancy_nvp:
+    first_line_herbs:
+      - herb: "Ginger"
+        evidence_level: "Strong"
+        typical_dose: "1-2 g daily"
+        formulation: "Capsules, tea, fresh root"
+        safety: "Safe for pregnancy use"
+        comparative_note: "More effective than vitamin B6 in some trials, comparable in others"
+      - herb: "Vitamin B6 (Pyridoxine)"
+        evidence_level: "Strong"
+        typical_dose: "10-25 mg three times daily"
+        safety: "Safe for pregnancy"
+        note: "Pharmaceutical comparison, not herbal"
+    additional_effective_herbs:
+      - herb: "Peppermint"
+        administration: "Tea or aromatherapy"
+        safety: "Generally safe"
+      - herb: "Lemon"
+        administration: "Aromatherapy, water infusion"
+      - herb: "Chamomile"
+        administration: "Tea"
+        safety: "Generally safe in moderate amounts"
+      - herb: "Cardamom"
+        administration: "Tea, food spice"
+      - herb: "Spearmint"
+        administration: "Tea, syrup"
+    safety_note: "All listed herbs safe for consumption by pregnant women according to systematic reviews"
+
+  postoperative_ponv:
+    effective_aromatherapy:
+      - herb: "Peppermint essential oil"
+        evidence: "Most effective essential oil in meta-analysis"
+        administration: "Inhalation"
+      - herb: "Ginger aromatherapy"
+        evidence: "Effective, slightly less than peppermint in some contexts"
+        administration: "Inhalation"
+      - herb: "Lavender essential oil"
+        administration: "Inhalation"
+        evidence: "Studied in combination protocols"
+    oral_preparations:
+      - herb: "Ginger"
+        evidence: "Network meta-analysis of various preparations"
+        typical_dose: "1 g preoperatively"
+    comparative_note: "For thyroidectomy PONV, ginger aromatherapy (Rhodes score 0.48) performed better than peppermint (1.11) vs control (1.37)"
+
+  chemotherapy_cinv:
+    herbs_with_evidence:
+      - herb: "Ginger"
+        mechanisms:
+          - "5-HT3 receptor antagonism"
+          - "NK-1 antagonism"
+          - "Neurotransmitter regulation (5-HT, SP, DA)"
+          - "Mitochondrial protection"
+          - "Anti-pyroptosis"
+        typical_dose: "500-1000 mg twice daily"
+        timing: "5 days before and after chemotherapy"
+        evidence: "Multiple RCTs and meta-analyses"
+        combination: "With conventional antiemetics"
+      - herb: "Chamomile (Matricaria chamomilla)"
+        typical_dose: "500 mg twice daily"
+        timing: "5 days before and after chemotherapy"
+        evidence: "RCT comparing with ginger"
+        findings: "Equally effective for vomiting frequency; ginger superior for nausea frequency"
+      - herb: "Peppermint oil"
+        administration: "Aromatherapy inhalation"
+        evidence: "Effective in systematic reviews"
+    traditional_formulas:
+      - formula: "Xiao-Ban-Xia Decoction"
+        tradition: "Traditional Chinese Medicine"
+        evidence: "Frequently used clinically for CINV"
+        mechanism: "Inhibits ferroptosis via Nrf2/SLC7A11/GPX4 pathway"
+      - formula: "Hezhong granules"
+        tradition: "Chinese herbal medicine"
+        evidence: "Effective and well-tolerated in advanced colorectal cancer"
+        specialty: "Notable benefits in preventing delayed CINV"
+    aromatherapy_blend:
+      composition: "Ginger, peppermint, spearmint, cardamom essential oils"
+      evidence: "RCT in 1,151 patients showed statistically significant reduction in nausea and antiemetic medication requests"
+
+  motion_sickness:
+    primary_herb:
+      - herb: "Ginger"
+        evidence: "Mixed - some studies show benefit, others show no effect"
+        dose_studied: "1 g"
+        findings_positive: "One study found ginger superior to dimenhydrinate and placebo; 1g effective for reducing subjective severity of seasickness"
+        findings_negative: "Other research shows no benefit for motion sickness"
+        overall: "Evidence for motion sickness and seasickness remains much less certain than for other nausea types"
+
+  general_digestive_nausea:
+    single_herbs:
+      - herb: "Ginger"
+        actions: "Antiemetic, prokinetic, anti-inflammatory"
+        preparation: "Fresh, dried, tea, capsules"
+      - herb: "Peppermint"
+        actions: "Antispasmodic, carminative, cooling"
+        preparation: "Tea, essential oil (aromatherapy or enteric-coated)"
+      - herb: "Fennel"
+        actions: "Carminative, antispasmodic, digestive stimulant"
+        preparation: "Seeds (chewed or tea)"
+      - herb: "Chamomile"
+        actions: "Antispasmodic, anti-inflammatory, calming"
+        preparation: "Tea"
+      - herb: "Cardamom"
+        actions: "Carminative, antispasmodic, warming"
+        preparation: "Seeds in food, tea"
+    combination_formulas:
+      - formula: "CCF Tea (Cumin-Coriander-Fennel)"
+        tradition: "Ayurveda"
+        actions: "Digestive support, gentle cleansing"
+      - formula: "Cardamom-Ginger-Fennel Tea"
+        tradition: "Ayurveda"
+        actions: "Circulation, digestion, morning mucous"
+      - formula: "Banxia Houpo Tang"
+        tradition: "Traditional Chinese Medicine"
+        specialty: "Rebellious qi, phlegm accumulation"
+
+# DOSING SUMMARY
+
+dosing_summary:
+  ginger:
+    general_adult_dose: "1-2 g daily"
+    pregnancy_nvp: "1 g daily (divided doses)"
+    ponv: "1 g preoperatively"
+    cinv: "500-1000 mg twice daily"
+    formulations:
+      - "Fresh root: 2-4 g"
+      - "Dried powder: 250-1000 mg"
+      - "Tea: 1-2 g steeped"
+      - "Extract standardized: Follow manufacturer guidelines"
+    safety: "Generally well-tolerated; minor side effects (dizziness) in 2.8% of patients in one study"
+
+  peppermint:
+    aromatherapy: "Inhalation of essential oil as needed"
+    enteric_coated_oil: "0.2-0.4 mL three times daily between meals (for IBS; extrapolate for nausea)"
+    tea: "1-2 cups as needed"
+    safety: "Generally safe; avoid in GERD as it may relax lower esophageal sphincter"
+
+  chamomile:
+    tea: "1-4 cups daily"
+    extract: "500 mg twice daily (dose from CINV study)"
+    safety: "Generally safe in moderate amounts; rare allergic reactions in those allergic to Asteraceae family"
+
+  fennel:
+    seeds: "1-2 teaspoons crushed, steeped as tea or chewed"
+    extract: "Varies by preparation"
+    safety: "Generally safe as food/spice; high doses may have estrogenic effects"
+
+  cardamom:
+    culinary: "As spice in food and beverages"
+    tea: "2-4 pods crushed, steeped"
+    extract: "Follow product guidelines"
+    safety: "Generally safe as culinary spice"
+
+  vitamin_b6:
+    pregnancy_nvp: "10-25 mg three times daily"
+    safety: "Safe for pregnancy; very high doses (>100 mg/day long-term) may cause neuropathy"
+
+# SAFETY AND CONTRAINDICATIONS
+
+safety_contraindications:
+  ginger:
+    safety_profile: "Generally safe and well-tolerated"
+    side_effects: "Minor: heartburn, diarrhea, mouth irritation (rare)"
+    contraindications:
+      - "Caution with anticoagulant medications (theoretical interaction)"
+      - "May lower blood sugar (monitor in diabetics on medication)"
+    pregnancy: "Safe for use in pregnancy according to multiple systematic reviews"
+
+  peppermint:
+    safety_profile: "Generally safe"
+    side_effects: "Heartburn in some individuals"
+    contraindications:
+      - "GERD or hiatal hernia (may worsen symptoms by relaxing lower esophageal sphincter)"
+      - "Achlorhydria (lack of stomach acid)"
+    pregnancy: "Generally considered safe in moderate amounts"
+
+  chamomile:
+    safety_profile: "Generally safe"
+    side_effects: "Rare allergic reactions"
+    contraindications:
+      - "Allergy to Asteraceae/Compositae family plants (ragweed, chrysanthemums, marigolds, daisies)"
+    pregnancy: "Generally safe in moderate amounts; excessive amounts not recommended"
+
+  fennel:
+    safety_profile: "Generally safe as food/spice"
+    side_effects: "Rare allergic reactions"
+    contraindications:
+      - "Estrogen-sensitive conditions (theoretical concern with high doses due to anethole)"
+    pregnancy: "Safe as culinary spice; medicinal doses not well-studied"
+
+  cardamom:
+    safety_profile: "Generally safe as culinary spice"
+    side_effects: "Rare"
+    contraindications: "None well-established"
+    pregnancy: "Safe as culinary spice"
+
+# KEY RECOMMENDATIONS
+
+key_recommendations:
+  comparative_effectiveness:
+    - "For pregnancy NVP: Ginger is first-line herbal option (comparable or superior to vitamin B6)"
+    - "For PONV aromatherapy: Peppermint oil most effective among essential oils; ginger also effective"
+    - "For PONV oral: Ginger shows preventive effects"
+    - "For CINV: Ginger as adjunct to conventional antiemetics reduces nausea and vomiting; chamomile equally effective for vomiting, ginger superior for nausea"
+    - "For general digestive nausea: Multiple herbs effective - ginger, peppermint, fennel, chamomile, cardamom"
+
+  combination_approaches:
+    - "Traditional formulas combining multiple herbs show synergistic effects"
+    - "Aromatherapy blends (ginger, peppermint, spearmint, cardamom) reduce nausea and antiemetic medication needs"
+    - "Ayurvedic formulas (CCF tea, cardamom-ginger-fennel) support overall digestive function"
+    - "TCM formulas (Banxia Houpo Tang, Xiao-Ban-Xia Decoction) address pattern-specific nausea"
+
+  symptom_specific:
+    nausea_predominant:
+      primary_herbs:
+        - "Ginger (strongest evidence for nausea reduction)"
+        - "Peppermint (especially aromatherapy)"
+      mechanisms: "5-HT3 receptor antagonism, smooth muscle relaxation"
+
+    vomiting_predominant:
+      primary_herbs:
+        - "Ginger (effective for vomiting frequency)"
+        - "Chamomile (equally effective as ginger for vomiting in CINV)"
+      traditional_formulas:
+        - "Banxia Houpo Tang (TCM - specifically for vomiting from rebellious qi)"
+        - "Xiao-Ban-Xia Decoction (TCM - classical anti-emetic formula)"
+
+    nausea_with_anxiety_or_tension:
+      primary_herbs:
+        - "Chamomile (antispasmodic + anxiolytic via apigenin)"
+        - "Lavender (calming aromatherapy)"
+      traditional_approach: "Banxia Houpo Tang addresses emotional component ('plum-pit qi')"
+
+    nausea_with_bloating_gas:
+      primary_herbs:
+        - "Fennel (carminative, breaks down gas)"
+        - "Cardamom (carminative, antispasmodic)"
+        - "Peppermint (carminative, antispasmodic)"
+      ayurvedic_approach: "CCF tea (cumin-coriander-fennel) for gentle digestive support"
+
+# SOURCES AND REFERENCES
+
+sources:
+  systematic_reviews_meta_analyses:
+    - title: "Inhaling Peppermint Essential Oil as a Promising Complementary Therapy in the Treatment of Nausea and Vomiting"
+      url: https://www.mdpi.com/2077-0383/14/14/5069
+    - title: "Medicinal Plants for Chemotherapy-Induced Nausea and Vomiting: A Systematic Review"
+      url: https://www.tandfonline.com/doi/full/10.2147/TCRM.S531645
+    - title: "Ginger for treating nausea and vomiting: an overview of systematic reviews and meta-analyses"
+      url: https://pubmed.ncbi.nlm.nih.gov/38072785/
+    - title: "Efficacy of ginger for nausea and vomiting: a systematic review of randomized clinical trials"
+      url: https://pubmed.ncbi.nlm.nih.gov/10793599/
+    - title: "Efficacy of Ginger in Preventing Postoperative Nausea and Vomiting: A Systematic Review and Meta-Analysis"
+      url: https://pubmed.ncbi.nlm.nih.gov/34312974/
+    - title: "The efficacy and safety of complementary and alternative medicine in the treatment of nausea and vomiting during pregnancy"
+      url: https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1108756/full
+    - title: "A systematic review of the efficacy of alternative medicine in the treatment of nausea and vomiting of pregnancy"
+      url: https://pubmed.ncbi.nlm.nih.gov/31215276/
+    - title: "A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting"
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3995184/
+    - title: "Effect of herbal medicine on postoperative nausea and vomiting after laparoscopic surgery"
+      url: https://pubmed.ncbi.nlm.nih.gov/38847692/
+    - title: "Chinese Herbal Medicine for Reducing Chemotherapy-Associated Side-Effects in Breast Cancer Patients"
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7756083/
+
+  comparative_trials:
+    - title: "Comparative Study on the Prokinetic Effects of Ginger, Caraway, and Peppermint"
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70338
+    - title: "Peppermint and Ginger Aromatherapy for Managing Nausea and Vomiting During Chemotherapy"
+      url: https://jurnal.globalhealthsciencegroup.com/index.php/IJGHR/article/view/6212
+    - title: "The Effect of Ginger and Mint on Postoperative Nausea and Vomiting in Patients Undergoing Total Thyroidectomy"
+      url: https://pubmed.ncbi.nlm.nih.gov/40856681/
+    - title: "Effect of Ginger and Chamomile on Nausea and Vomiting Caused by Chemotherapy"
+      url: https://pubmed.ncbi.nlm.nih.gov/27644672/
+    - title: "Comparing ginger and vitamin B6 for the treatment of nausea and vomiting in pregnancy"
+      url: https://pubmed.ncbi.nlm.nih.gov/17621727/
+
+  mechanism_studies:
+    - title: "Mode of action of gingerols and shogaols on 5-HT3 receptors"
+      url: https://pubmed.ncbi.nlm.nih.gov/16364290/
+    - title: "The Antiemetic Mechanisms of Gingerols against Chemotherapy-Induced Nausea and Vomiting"
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8893993/
+    - title: "Natural Negative Allosteric Modulators of 5-HT3 Receptors"
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6321066/
+    - title: "Effects of menthol on circular smooth muscle of human colon"
+      url: https://pubmed.ncbi.nlm.nih.gov/25046841/
+    - title: "Review article: The physiologic effects and safety of Peppermint Oil"
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5814329/
+    - title: "Gastroprotective Mechanisms of the Monoterpene 1,8-Cineole"
+      url: https://pubmed.ncbi.nlm.nih.gov/26244547/
+
+  traditional_medicine:
+    - title: "Ban Xia Hou Po Tang (Pinellia and Magnolia Bark Decoction)"
+      url: https://www.sacredlotus.com/go/chinese-formulas/medicine/ban-xia-hou-po-tang
+    - title: "Xiao-Ban-Xia Decoction Alleviates CINV by Inhibiting Ferroptosis"
+      url: https://pubmed.ncbi.nlm.nih.gov/39501722/
+    - title: "Cardamom, Ginger & Fennel Tea Recipe (Ayurveda)"
+      url: https://www.joyfulbelly.com/Ayurveda/recipe/Cardamom-Ginger-Fennel-Tea/997

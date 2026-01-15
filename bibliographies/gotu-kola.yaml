@@ -1,0 +1,690 @@
+---
+# Gotu Kola (Centella asiatica) - Clinical Research Bibliography
+# Compiled: 2026-01-15
+# Focus: Systematic reviews, RCTs, pharmacokinetics, standardization, safety
+
+systematic_reviews:
+  - id: puttarak_2017
+    title: "Effects of Centella asiatica (L.) Urb. on cognitive function and mood related outcomes: A Systematic Review and Meta-analysis"
+    authors: "Puttarak P, Dilokthornsakul P, Saokaew S, Dhippayom T, Kongkaew C, Sruamsiri R, Chuthaputti A, Chaiyakunapruk N"
+    year: 2017
+    pubmed_id: "28878245"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/28878245/"
+    journal: "Scientific Reports"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 11
+    rct_count: 11
+    breakdown:
+      - "5 RCTs examining C. asiatica alone"
+      - "6 RCTs examining C. asiatica-containing products"
+    key_findings:
+      cognitive_function: "No significant differences in all cognitive function domains compared to placebo"
+      mood_alert: "Increased alertness [SMD: 0.71 (95% CI; 0.01 to 1.41)]"
+      mood_anger: "Decreased anger at 1 hour post-treatment [SMD: -0.81 (95%CI; -1.51 to -0.09)]"
+      adverse_effects: "None of the studies reported adverse effects"
+    conclusions: "Need for future trials using standardized preparations emphasized"
+
+  - id: sun_2020
+    title: "Therapeutic Potential of Centella asiatica and Its Triterpenes: A Review"
+    authors: "Sun B, Wu L, Wu Y, Zhang C, Qin L, Hayashi M, Kudo M, Gao M, Liu T"
+    year: 2020
+    pubmed_id: "33013406"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33013406/"
+    journal: "Frontiers in Pharmacology"
+    study_type: "Literature review"
+    references_cited: 205
+    literature_search_period: "January 1, 2015 to October 19, 2019"
+    therapeutic_areas:
+      - neurological_diseases
+      - skin_diseases
+      - endocrine_diseases
+      - cardiovascular_diseases
+      - gastrointestinal_diseases
+      - immune_diseases
+      - gynecological_diseases
+    key_findings:
+      mechanisms: "Anti-inflammatory, anti-oxidative stress, anti-apoptotic effects, and improvement in mitochondrial function"
+      primary_benefits: "Extensive beneficial effects on neurological and skin diseases"
+    conclusions: "Further clinical studies urgently required due to low level of evidence and lack of patients"
+
+  - id: chong_2013
+    title: "A Systematic Review of the Efficacy of Centella asiatica for Improvement of the Signs and Symptoms of Chronic Venous Insufficiency"
+    authors: "Chong NJ, Aziz Z"
+    year: 2013
+    pubmed_id: "23533507"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/23533507/"
+    journal: "Evidence-Based Complementary and Alternative Medicine"
+    study_type: "Systematic review and meta-analysis"
+    studies_included: 8
+    rct_count: 8
+    databases_searched: 13
+    key_findings:
+      microcirculation: "Significantly improved transcutaneous partial pressure of CO2 and O2, rate of ankle swelling and venoarteriolar response"
+      symptoms: "Three studies reported significant improvement in CVI signs such as leg heaviness, pain and oedema"
+    limitations: "Most studies characterized by inadequate reporting and unclear risks of bias"
+    conclusions: "Conclusion needs to be interpreted with caution due to methodological limitations"
+
+pharmacokinetics_bioavailability:
+  - id: wright_2022
+    title: "Pharmacokinetics and Pharmacodynamics of Key Components of a Standardized Centella asiatica Product in Cognitively Impaired Older Adults: A Phase 1, Double-Blind, Randomized Clinical Trial"
+    authors: "Wright KM, Bollen M, David J, Speers AB, Brandes MS, Gray NE, Alcázar Magaña A, McClure C, Stevens JF, Maier CS, Quinn JF, Soumyanath A"
+    year: 2022
+    pubmed_id: "35204098"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/35204098/"
+    journal: "Antioxidants"
+    study_type: "Phase 1, double-blind, randomized crossover clinical trial"
+    sample_size: 4
+    population: "Cognitively impaired older adults on cholinesterase inhibitor therapy"
+    doses:
+      - "2 grams CAP (Centella asiatica aqueous extract product)"
+      - "4 grams CAP"
+    duration: "10 hours post-dose"
+    compounds_measured:
+      - asiatic_acid
+      - madecassic_acid
+      - asiaticoside
+      - madecassoside
+      - caffeoylquinic_acids
+    key_findings:
+      bioavailability: "Triterpene aglycones (asiatic acid and madecassic acid) detected in plasma and urine"
+      parent_compounds: "Parent glycosides (asiaticoside and madecassoside) absent in plasma despite abundance in extract"
+      metabolites: "Bioavailable compounds were primarily metabolites rather than parent compounds"
+      caffeoylquinic_acids: "Delayed absorption and limited presence in plasma or urine"
+    conclusions: "Oral bioavailability of active compounds, NRF2 target engagement, and acute safety support validity of using CAP in future clinical studies"
+
+  - id: songvut_2019
+    title: "Safety and Pharmacokinetics of Standardized Extract of Centella asiatica (ECa 233) Capsules in Healthy Thai Volunteers: A Phase 1 Clinical Study"
+    authors: "Songvut P, Chariyavilaskul P, Tantisira MH, Khemawoot P"
+    year: 2019
+    pubmed_id: "30699457"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/30699457/"
+    journal: "Planta Medica"
+    study_type: "Phase 1, open-labeled, 2-sequence dosage, single- and repeated-dose clinical trial"
+    sample_size: 12
+    population: "Healthy Thai volunteers"
+    doses:
+      - "250 mg ECa 233 (single and multiple doses)"
+      - "500 mg ECa 233 (single and multiple doses)"
+    duration: "7 days repeated dosing"
+    standardization: "ECa 233 contains ≥80% triterpenoid glycosides"
+    key_findings:
+      safety: "Both 250 mg and 500 mg doses well tolerated"
+      adverse_events: "None of the volunteers discontinued participation due to adverse effects"
+      tolerability: "Daily oral doses of 250 mg and 500 mg are safe, with mild to moderate adverse events only"
+    conclusions: "Single and multiple doses in both 250 and 500 mg oral administration were well tolerated"
+
+  - id: songvut_2021
+    title: "Pharmacokinetics and metabolomics investigation of an orally modified formula of standardized Centella asiatica extract in healthy volunteers"
+    authors: "Songvut P, Chariyavilaskul P, Khemawoot P, Tansawat R"
+    year: 2021
+    pubmed_id: "33767223"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33767223/"
+    journal: "Scientific Reports"
+    study_type: "Open-label phase I clinical trial"
+    sample_size: 12
+    population: "Healthy Thai volunteers"
+    doses:
+      - "250 mg ECa 233 (single and multiple doses over 7 days)"
+      - "500 mg ECa 233 (single and multiple doses over 7 days)"
+    key_findings:
+      madecassoside: "Rarely absorbed, undergoes biotransformation into madecassic acid"
+      asiaticoside: "Rarely absorbed, undergoes biotransformation into asiatic acid"
+      dose_response: "Increasing dose resulted in significantly greater plasma levels of active metabolites"
+      accumulation: "Asiatic acid accumulated after multiple oral administration for seven days"
+      elimination: "Possibility to be eliminated via fecal route"
+      cognitive_marker: "Associated with increased choline levels, an endogenous metabolite linked to cognitive benefits"
+
+  - id: grimaldi_1990
+    title: "Pharmacokinetics of the total triterpenic fraction of Centella asiatica after single and multiple administrations to healthy volunteers. A new assay for asiatic acid"
+    authors: "Grimaldi R, De Ponti F, D'Angelo L, Caravaggi M, Guidi G, Lecchini S, Frigo GM, Crema A"
+    year: 1990
+    pubmed_id: "2329813"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/2329813/"
+    journal: "Journal of Ethnopharmacology"
+    study_type: "Randomized controlled trial, comparative study"
+    sample_size: 12
+    population: "Healthy volunteers"
+    doses_single:
+      - "30 mg TTFCA"
+      - "60 mg TTFCA"
+    doses_multiple:
+      - "30 mg TTFCA twice daily for 7 days"
+      - "60 mg TTFCA twice daily for 7 days"
+    pharmacokinetic_parameters:
+      - Cmax
+      - Tmax
+      - AUC₀₋₂₄
+      - half_life
+    key_findings:
+      single_dose: "Peak concentrations and AUC values increased proportionally with dose"
+      chronic_treatment: "After 7 days, peak plasma concentrations, AUC0-24 and half-life were significantly higher than after single dose"
+      mechanism: "Accumulation attributed to metabolic interaction between asiatic acid and asiaticoside"
+
+cognitive_function_rcts:
+  - id: wattanathorn_2008
+    title: "Positive modulation of cognition and mood in the healthy elderly volunteer following the administration of Centella asiatica"
+    authors: "Wattanathorn J, Mator L, Muchimapura S, Tongun T, Pasuriwong O, Piyawatkul N, Yimtae K, Sripanidkulchai B, Singkhoraard J"
+    year: 2008
+    pubmed_id: "18191355"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18191355/"
+    journal: "Journal of Ethnopharmacology"
+    study_type: "Randomized controlled trial, double-blind, placebo-controlled"
+    sample_size: 28
+    population: "Healthy elderly participants"
+    doses:
+      - "250 mg once daily"
+      - "500 mg once daily"
+      - "750 mg once daily"
+    duration: "2 months"
+    assessment_points:
+      - baseline
+      - after_single_dose
+      - 1_month
+      - 2_months
+    key_findings:
+      working_memory: "Highest dose (750 mg) enhanced working memory"
+      erp: "Increased N100 component amplitude of event-related potential at 750 mg"
+      mood: "Self-rated mood improvements documented across treatment conditions"
+
+anxiety_depression_rcts:
+  - id: jana_2010
+    title: "A clinical study on the management of generalized anxiety disorder with Centella asiatica"
+    authors: "Jana U, Sur TK, Maity LN, Debnath PK, Bhattacharyya D"
+    year: 2010
+    pubmed_id: "20677602"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/20677602/"
+    journal: "Nepal Medical College Journal"
+    study_type: "Clinical trial"
+    sample_size: 33
+    demographics: "18 male, 15 female; mean age 33 years"
+    dose: "500 mg per capsule"
+    frequency: "Twice daily with meals"
+    total_daily_dose: "1000 mg"
+    duration: "60 days"
+    assessment_points:
+      - baseline_day_0
+      - mid_term_day_30
+      - final_day_60
+    rating_scales: "Hamilton's Brief Psychiatric Rating Scale"
+    key_findings:
+      anxiety: "Significantly (p<0.01) attenuated anxiety related disorders"
+      stress: "Significantly (p<0.01) reduced stress phenomenon"
+      depression: "Significantly (p<0.01) reduced correlated depression"
+      cognition: "Significantly (p<0.01) improved willingness for adjustment and cognition"
+    adverse_effects: "None reported"
+
+  - id: bradwejn_2000
+    title: "A double-blind, placebo-controlled study on the effects of Gotu Kola (Centella asiatica) on acoustic startle response in healthy subjects"
+    authors: "Bradwejn J, Zhou Y, Koszycki D, Shlik J"
+    year: 2000
+    pubmed_id: "11106141"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11106141/"
+    journal: "Journal of Clinical Psychopharmacology"
+    study_type: "Double-blind, randomized controlled clinical trial"
+    sample_size: 40
+    groups:
+      - "20 Gotu Kola"
+      - "20 placebo"
+    dose: "Single 12-gram oral dose"
+    assessment_timing:
+      - "30 minutes post-treatment"
+      - "60 minutes post-treatment"
+    measurements:
+      - acoustic_startle_response
+      - heart_rate
+      - blood_pressure
+      - self_rated_mood
+    key_findings:
+      startle_response: "Significantly attenuated peak ASR amplitude at 30 and 60 minutes compared to placebo"
+      cardiovascular: "No significant effects on heart rate or blood pressure"
+      mood: "No significant effects on self-rated mood"
+    conclusions: "Findings suggest Gotu Kola has anxiolytic activity in humans"
+
+venous_insufficiency_rcts:
+  - id: incandela_2001
+    title: "Total triterpenic fraction of Centella asiatica in the treatment of venous hypertension: a clinical, prospective, randomized trial using a combined microcirculatory model"
+    authors: "Incandela L, Belcaro G, De Sanctis MT, Cesarone MR, Griffin M, Ippolito E, Bucci M, Cacchio M"
+    year: 2001
+    pubmed_id: "11666126"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11666126/"
+    journal: "Angiology"
+    study_type: "Single-blind, placebo-controlled, randomized clinical trial"
+    doses:
+      - "60 mg TTFCA daily"
+      - "120 mg TTFCA daily"
+      - placebo
+    key_findings:
+      laser_doppler: "Significant difference between drug-treated groups and placebo"
+      transcutaneous_gases: "Significant modification of oxygen and carbon dioxide measurements with drug treatment versus placebo"
+      symptoms: "Important symptomatologic effects especially at higher dose level (120 mg)"
+      dose_comparison: "120 mg daily showed greater effects than 60 mg daily"
+    conclusions: "120 mg daily safely used in venous hypertension"
+
+  - id: cesarone_2001
+    title: "Evaluation of treatment of diabetic microangiopathy with total triterpenic fraction of Centella asiatica: a clinical prospective randomized trial with a microcirculatory model"
+    authors: "Cesarone MR, Incandela L, De Sanctis MT, Belcaro G, Bavera P, Bucci M, Ippolito E"
+    year: 2001
+    pubmed_id: "11666124"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11666124/"
+    journal: "Angiology"
+    study_type: "Prospective randomized trial"
+    sample_size: 50
+    groups:
+      - "30 patients: TTFCA treatment"
+      - "10 patients: placebo"
+      - "10 patients: untreated control"
+    dose: "60 mg TTFCA"
+    frequency: "Twice daily"
+    total_daily_dose: "120 mg"
+    duration: "6 months"
+    key_findings:
+      skin_blood_flow: "Abnormally elevated resting skin blood flow decreased significantly in treated group"
+      venoarteriolar_response: "Improved after treatment"
+      transcutaneous_oxygen: "Increased in treated group"
+      transcutaneous_co2: "Decreased in treated group"
+      capillary_permeability: "Abnormally increased capillary permeability was improved (decreased)"
+      control_groups: "No significant changes over study period"
+    conclusions: "Protective effects against microcirculation deterioration in diabetic microangiopathy"
+
+  - id: desanctis_2001
+    title: "Treatment of edema and increased capillary filtration in venous hypertension with total triterpenic fraction of Centella asiatica: a clinical, prospective, placebo-controlled, randomized, dose-ranging trial"
+    authors: "De Sanctis MT, Belcaro G, Incandela L, Cesarone MR, Griffin M, Ippolito E, Cacchio M"
+    year: 2001
+    pubmed_id: "11666125"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11666125/"
+    journal: "Angiology"
+    study_type: "Clinical trial, randomized controlled trial, prospective, placebo-controlled, dose-ranging"
+    sample_size: 62
+    groups:
+      - "Group A: 20 patients - TTFCA 60 mg TID (180 mg/day)"
+      - "Group B: 20 patients - TTFCA 30 mg TID (90 mg/day)"
+      - "Group C: 12 patients - placebo"
+      - "Group D: 10 normal subjects"
+    duration: "4 weeks"
+    key_findings:
+      capillary_filtration_rate: "Significant decrease after active treatment"
+      ankle_circumference: "Significant decrease with active treatment"
+      ankle_edema: "Significant decrease with active treatment"
+      dose_response: "Higher dose group (180 mg/day) demonstrated greater improvement than lower dose (90 mg/day)"
+      symptoms: "Significantly improved in both active treatment groups according to dose"
+      placebo_normal: "No significant changes in placebo or normal subjects receiving TTFCA"
+
+wound_healing_rcts:
+  - id: paocharoen_2010
+    title: "The efficacy and side effects of oral Centella asiatica extract for wound healing promotion in diabetic wound patients"
+    author: "Paocharoen V"
+    year: 2010
+    pubmed_id: "21298840"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/21298840/"
+    journal: "Journal of the Medical Association of Thailand"
+    study_type: "Randomized controlled trial"
+    sample_size: 200
+    population: "Diabetic patients with wounds"
+    dose: "50 mg asiaticoside per capsule"
+    frequency: "2 capsules three times daily after meals"
+    total_daily_dose: "300 mg asiaticoside"
+    assessment_timing:
+      - day_7
+      - day_14
+      - day_21
+    key_findings:
+      wound_contraction: "Study group showed better wound contraction than placebo (p ≤ 0.001 at all time points)"
+      granulation_tissue: "Better in placebo group"
+      scar_suppression: "Effective in wound healing promotion and scar suppression"
+    adverse_effects: "No serious adverse reactions in both groups"
+    conclusions: "Centella asiatica extract capsule is effective in wound healing promotion and scar suppression in diabetic wound patients"
+
+scar_management_studies:
+  - id: cotellese_2018
+    title: "Centella asiatica (Centellicum®) facilitates the regular healing of surgical scars in subjects at high risk of keloids"
+    authors: "Cotellese R, Hu S, Belcaro G, Ledda A, Feragalli B, Dugall M, Hosoi M, Ippolito E"
+    year: 2018
+    pubmed_id: "29623705"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29623705/"
+    journal: "Minerva Chirurgica"
+    study_type: "Registry study"
+    sample_size: 129
+    groups:
+      - "64 controls"
+      - "65 treatment group"
+    product: "Centellicum®"
+    dose: "Two 225 mg capsules daily"
+    total_daily_dose: "450 mg"
+    timing: "Weeks 2-6 following surgery"
+    assessment: "Ultrasound evaluation of scar tissue"
+    key_findings:
+      scar_regularity: "Scar tissue regularity significantly higher in supplemented subjects than controls (P<0.05)"
+      uniformity: "Treated group demonstrated significantly more uniform scar appearance"
+      tolerability: "Excellent tolerability with no reported adverse effects"
+      compliance: ">98% compliance rates"
+
+safety_toxicology:
+  - id: deshpande_2015
+    title: "Preclinical Safety Assessment of Standardized Extract of Centella asiatica (L.) Urban Leaves"
+    authors: "Deshpande PO, Mohan V, Thakurdesai P"
+    year: 2015
+    pubmed_id: "26862255"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/26862255/"
+    journal: "International Journal of Toxicology"
+    study_type: "Preclinical safety evaluation"
+    tests_conducted:
+      - acute_oral_toxicity
+      - sub_chronic_toxicity_90_day
+      - mutagenicity_ames_test
+    test_model: "Rats"
+    doses_tested:
+      - "250 mg/kg/day"
+      - "500 mg/kg/day"
+      - "1000 mg/kg/day"
+    noael: "1000 mg/kg"
+    lethal_dose: "2000 mg/kg (highest dose tested without mortality)"
+    key_findings:
+      acute_toxicity: "No mortality or clinically significant changes"
+      sub_chronic_toxicity: "No significant differences in organ weights, hematological parameters, clinical chemistry values between treatment and controls"
+      mutagenicity: "Nonmutagenic in reverse mutation assay"
+      organ_weights: "No significant alterations compared to vehicle controls"
+      hematology: "No significant alterations compared to vehicle controls"
+    conclusions: "Standardized extract demonstrated safety across all three toxicological assessment models"
+
+  - id: jorge_2005
+    title: "Hepatotoxicity associated with the ingestion of Centella asiatica"
+    authors: "Jorge OA, Jorge AD"
+    year: 2005
+    pubmed_id: "15801887"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15801887/"
+    journal: "Revista Española de Enfermedades Digestivas"
+    study_type: "Case series"
+    number_of_cases: 3
+    patient_demographics:
+      - "49-year-old woman"
+      - "52-year-old woman"
+      - "61-year-old woman"
+    duration_before_injury:
+      - "30 days"
+      - "20 days"
+      - "60 days"
+    liver_enzymes:
+      patient_1:
+        alt: "1193 U/L"
+        alp: "503 U/L"
+        bilirubin: "4.23 mg/dl"
+      patient_2:
+        alt: "1694 U/L"
+        alp: "472 U/L"
+        bilirubin: "19.89 mg/dl"
+      patient_3:
+        alt: "324 U/L"
+        alp: "484 U/L"
+        bilirubin: "3.9 mg/dl"
+    outcome: "All three patients improved after discontinuing Centella asiatica and receiving ursodeoxycholic acid therapy"
+    rechallenge: "First patient experienced recurrence upon re-exposure to the herb"
+    notes: "Rare but documented cases of hepatotoxicity; only case series from single center in Argentina (2005), with one additional case report from Switzerland (2011)"
+
+standardization_monographs:
+  - id: eca_233_standard
+    title: "ECa 233 Standardized Extract Composition"
+    standardization_type: "Commercial standardized extract"
+    total_triterpenes: "≥80-85% triterpenoid glycosides"
+    major_compounds:
+      madecassoside: "53.1%"
+      asiaticoside: "32.3%"
+      ratio: "Madecassoside:asiaticoside maintained at 1.5 ± 0.5:1"
+    minor_compounds: "<1% triterpenic acid metabolites (madecassic acid and asiatic acid)"
+    source: "Multiple PubMed-indexed studies using ECa 233"
+    clinical_doses:
+      - "250 mg"
+      - "500 mg"
+    notes: "Most extensively studied standardized preparation in recent clinical trials"
+
+  - id: ttfca_standard
+    title: "TTFCA (Total Triterpenic Fraction of Centella asiatica) Standardization"
+    standardization_type: "Total triterpenic fraction extract"
+    composition:
+      asiaticoside: "40%"
+      asiatic_acid: "30%"
+      madecassic_acid: "30%"
+    alternative_names:
+      - TECA
+      - "Total triterpenic fraction"
+    clinical_doses:
+      - "30 mg twice daily (60 mg/day)"
+      - "60 mg twice daily (120 mg/day)"
+      - "60 mg three times daily (180 mg/day)"
+    primary_indications:
+      - chronic_venous_insufficiency
+      - venous_hypertension
+      - diabetic_microangiopathy
+    source: "Multiple clinical trials from 1990-2001"
+
+  - id: who_monograph
+    title: "WHO Monograph on Centella asiatica"
+    organization: "World Health Organization"
+    publication_year: 2003
+    minimum_triterpene_content: "≥2% of triterpene ester glycoside (saponins)"
+    traditional_uses:
+      - antipyretic
+      - analgesic
+      - anti_inflammatory
+      - brain_tonic
+    source: "WHO monographs 1999, 2003"
+
+  - id: commission_e
+    title: "Commission E and European Pharmacopoeia Monographs"
+    organizations:
+      - "Commission E (German Ministry of Health)"
+      - "European Pharmacopoeia"
+    recognized_effects:
+      - wound_healing
+      - memory_enhancement
+    pharmacopoeia_standards: "European Pharmacopoeia monograph revised by EDQM (Pharmeuropa 24.1, 2012)"
+    minimum_triterpene_content: "≥6.0% of total triterpenoid derivatives expressed as asiaticoside (Polish and European Pharmacopoeias)"
+
+traditional_medicine:
+  ayurveda:
+    traditional_name: "Mandukaparni"
+    classification: "Rasayana (rejuvenation)"
+    historical_reference: "Susruta Samhita (2000-3000 years ago)"
+    traditional_uses:
+      - brain_tonic
+      - memory_enhancement
+      - mental_and_physical_health
+      - rejuvenation_in_debilitated_conditions
+      - longevity
+    meridians_influenced:
+      - liver
+      - spleen
+      - kidney
+    traditional_dose_decoction:
+      dry: "15-30 grams"
+      fresh: "30-60 grams"
+
+  traditional_chinese_medicine:
+    historical_reference: "Shennong Herbal (2000-3000 years ago)"
+    traditional_uses:
+      - mental_exhaustion
+      - physical_exhaustion
+    pharmacopoeia: "Chinese Pharmacopoeia"
+
+  other_pharmacopoeias:
+    - name: "Indian Pharmacopoeia"
+      year_added: "19th century"
+    - name: "French Pharmacopoeia"
+      year_added: 1884
+
+contraindications_interactions:
+  pregnancy: "Not recommended - insufficient data (EMA); avoid oral use; topical use may be acceptable"
+  lactation: "Not recommended orally - no data on breast milk secretion; topical use believed compatible if not applied to breast"
+  hypersensitivity: "Contraindicated in patients with hypersensitivity to C. asiatica or any components"
+
+  drug_interactions:
+    cns_depressants:
+      severity: "Moderate"
+      mechanism: "Pharmacodynamic synergism - may enhance CNS depression"
+      examples:
+        - azelastine
+        - brompheniramine
+        - butalbital
+
+    diabetes_medications:
+      severity: "Moderate"
+      mechanism: "Potential pharmacodynamic synergism - may increase effects"
+      examples:
+        - insulin
+        - metformin
+
+    cyp450_enzymes:
+      severity: "Moderate to low"
+      mechanism: "In vitro inhibition of CYP3A4, 2C19, and 2B6 enzymes"
+      clinical_significance: "Theoretical; clinical significance unclear"
+
+    antiplatelet_drugs:
+      severity: "Moderate"
+      mechanism: "Demonstrated antiplatelet aggregation activity in vitro"
+      caution: "Use with caution with antiplatelet or anticoagulant medications"
+
+  total_moderate_interactions: "At least 28 different drugs"
+  severe_interactions: "None known"
+
+dosing_summary:
+  cognitive_enhancement:
+    - dose: "250-750 mg once daily"
+      duration: "2 months"
+      optimal: "750 mg showed greatest effect"
+      reference: "Wattanathorn 2008"
+
+    - dose: "2-4 grams aqueous extract"
+      population: "Cognitively impaired older adults"
+      reference: "Wright 2022"
+
+  anxiety_stress:
+    - dose: "500 mg twice daily (1000 mg/day)"
+      duration: "60 days"
+      reference: "Jana 2010"
+
+    - dose: "Single 12-gram dose"
+      effect: "Acute anxiolytic effect"
+      reference: "Bradwejn 2000"
+
+  venous_insufficiency:
+    - dose: "60-120 mg TTFCA daily"
+      optimal: "120 mg showed greater efficacy"
+      reference: "Incandela 2001"
+
+    - dose: "60 mg TTFCA twice daily (120 mg/day)"
+      duration: "6 months"
+      indication: "Diabetic microangiopathy"
+      reference: "Cesarone 2001"
+
+    - dose: "30-60 mg TTFCA three times daily (90-180 mg/day)"
+      duration: "4 weeks"
+      indication: "Edema and capillary filtration"
+      reference: "De Sanctis 2001"
+
+  wound_healing:
+    - dose: "300 mg asiaticoside daily (50 mg capsule, 2 caps TID)"
+      population: "Diabetic wound patients"
+      duration: "Up to 21 days"
+      reference: "Paocharoen 2010"
+
+  scar_management:
+    - dose: "450 mg daily (225 mg capsule, 2 caps once daily)"
+      timing: "Weeks 2-6 post-surgery"
+      indication: "Keloid prevention"
+      reference: "Cotellese 2018"
+
+  topical_use:
+    - concentration: "0.05% w/w ECa 233 gel"
+      indication: "Post-laser wound healing"
+
+    - concentration: "1% cutaneous cream"
+      indication: "Wound formation support"
+
+    - concentration: "2% powder"
+      indication: "Cutaneous ulcerations"
+
+    - concentration: "7% C. asiatica extract cream"
+      indication: "Scar prevention"
+
+key_active_compounds:
+  triterpene_glycosides:
+    - asiaticoside
+    - madecassoside
+    - asiaticoside_b
+
+  triterpene_aglycones:
+    - asiatic_acid
+    - madecassic_acid
+
+  other_compounds:
+    - caffeoylquinic_acids
+
+  bioavailability_notes: "Glycosides (asiaticoside, madecassoside) undergo biotransformation to aglycones (asiatic acid, madecassic acid) which are the primary bioavailable forms"
+
+mechanisms_of_action:
+  - anti_inflammatory
+  - anti_oxidative_stress
+  - anti_apoptotic
+  - mitochondrial_function_improvement
+  - nrf2_pathway_activation
+  - collagen_synthesis_enhancement
+  - antimicrobial
+  - wound_healing
+  - neuroprotection
+
+quality_standards:
+  minimum_triterpene_content:
+    who: "≥2% triterpene ester glycosides"
+    european_pharmacopoeia: "≥6.0% total triterpenoid derivatives (as asiaticoside)"
+    eca_233: "≥80-85% triterpenoid glycosides"
+    ttfca: "40% asiaticoside + 30% asiatic acid + 30% madecassic acid"
+
+research_gaps:
+  - "Large-scale, long-term RCTs needed for cognitive enhancement in Alzheimer's disease"
+  - "More rigorously controlled trials for dermatological applications"
+  - "Better characterization of hepatotoxicity risk factors"
+  - "Standardization of preparations across studies"
+  - "Drug interaction studies in vivo"
+  - "Pregnancy and lactation safety data"
+
+sources:
+  - "[Effects of Centella asiatica on cognitive function and mood - PubMed](https://pubmed.ncbi.nlm.nih.gov/28878245/)"
+  - "[Therapeutic Potential of Centella asiatica and Its Triterpenes - Frontiers](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2020.568032/full)"
+  - "[Systematic Review: Centella asiatica for Chronic Venous Insufficiency - PubMed](https://pubmed.ncbi.nlm.nih.gov/23533507/)"
+  - "[Pharmacokinetics in Cognitively Impaired Older Adults - PubMed](https://pubmed.ncbi.nlm.nih.gov/35204098/)"
+  - "[Safety and Pharmacokinetics of ECa 233 - PubMed](https://pubmed.ncbi.nlm.nih.gov/30699457/)"
+  - "[Pharmacokinetics of TTFCA - PubMed](https://pubmed.ncbi.nlm.nih.gov/2329813/)"
+  - "[Cognitive function in healthy elderly - PubMed](https://pubmed.ncbi.nlm.nih.gov/18191355/)"
+  - "[Clinical study on generalized anxiety disorder - PubMed](https://pubmed.ncbi.nlm.nih.gov/20677602/)"
+  - "[Acoustic startle response study - PubMed](https://pubmed.ncbi.nlm.nih.gov/11106141/)"
+  - "[TTFCA in venous hypertension - PubMed](https://pubmed.ncbi.nlm.nih.gov/11666126/)"
+  - "[Diabetic microangiopathy treatment - PubMed](https://pubmed.ncbi.nlm.nih.gov/11666124/)"
+  - "[Edema and capillary filtration - PubMed](https://pubmed.ncbi.nlm.nih.gov/11666125/)"
+  - "[Wound healing in diabetic patients - PubMed](https://pubmed.ncbi.nlm.nih.gov/21298840/)"
+  - "[Surgical scar healing and keloid prevention - PubMed](https://pubmed.ncbi.nlm.nih.gov/29623705/)"
+  - "[Preclinical Safety Assessment - PubMed](https://pubmed.ncbi.nlm.nih.gov/26862255/)"
+  - "[Hepatotoxicity case series - PubMed](https://pubmed.ncbi.nlm.nih.gov/15801887/)"
+  - "[EMA Assessment Report on Centella asiatica](https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-centella-asiatica-l-urb-herba-revision-1_en.pdf)"
+
+notes: |
+  This bibliography focuses on human clinical trials with standardized extracts,
+  systematic reviews, and pharmacokinetic studies. Animal studies and in vitro
+  studies were generally excluded unless they provided critical mechanistic or
+  safety information not available from human studies. The emphasis is on
+  quantifiable outcomes with specific dosing information to guide clinical use.
+
+  Key standardized preparations referenced:
+  - ECa 233: ≥80% triterpenoid glycosides (madecassoside 53.1%, asiaticoside 32.3%)
+  - TTFCA/TECA: 40% asiaticoside, 30% asiatic acid, 30% madecassic acid
+
+  Most common clinical doses:
+  - Cognitive/mood: 250-4000 mg daily
+  - Anxiety: 500 mg BID (1000 mg/day)
+  - Venous insufficiency: 60-180 mg TTFCA daily
+  - Wound healing: 300 mg asiaticoside daily
+
+  Safety notes:
+  - Generally well-tolerated at therapeutic doses
+  - Rare cases of hepatotoxicity documented (3 cases, Argentina 2005)
+  - Avoid in pregnancy/lactation (insufficient data)
+  - Potential moderate interactions with CNS depressants and diabetes medications
+  - NOAEL: 1000 mg/kg in rats; no serious adverse effects at 250-500 mg in humans

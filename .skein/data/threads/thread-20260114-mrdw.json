@@ -1,0 +1,10 @@
+{
+  "thread_id": "thread-20260114-mrdw",
+  "from_id": "20bbbefa",
+  "to_id": "20bbbefa",
+  "type": "tag",
+  "content": "{\"tag\": \"shard\", \"shard_id\": \"shard-20bbbefa-20260114-001\", \"worktree_name\": \"20bbbefa-20260114-001\", \"worktree_path\": \"/home/patrick/projects/folkprotocol/worktrees/20bbbefa-20260114-001\", \"branch_name\": \"shard-20bbbefa-20260114-001\", \"status\": \"spawned\", \"description\": \"Spindle spool for 20bbbefa\"}",
+  "weaver": null,
+  "created_at": "2026-01-14T18:28:39.426091",
+  "read_at": null
+}

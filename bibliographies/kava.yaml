@@ -97,7 +97,124 @@ systematic_reviews_and_meta_analyses:
       - finding: "Majority of evidence suggests kava has no replicated significant negative effects on cognition"
       - finding: "Proposed mechanisms: cognitive improvements from noradrenaline re-uptake inhibition in prefrontal cortex, balance effects from GABA pathway modulation"
 
+  - title: "Kava for Generalized Anxiety Disorder: A Review of Current Evidence"
+    authors:
+      - Ooi SL
+      - Henderson P
+      - Pak SC
+    year: 2018
+    journal: "Journal of Alternative and Complementary Medicine"
+    pubmed_id: "29641222"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29641222/"
+    study_type: "Meta-analysis and systematic review"
+    articles_reviewed: 12
+    key_findings:
+      - finding: "Evidence supporting kava as effective treatment for GAD found in three controlled trials"
+      - finding: "One trial showed kava performed no better than placebo"
+      - finding: "Meta-analyses of 3 placebo-controlled trials (130 participants) showed modest benefits"
+        effect_sizes: "0.59-0.99 (not statistically significant)"
+      - finding: "Kava safe and well-tolerated for short-term (4-8 weeks) therapeutic use at 120-280 mg/day kavalactones"
+      - finding: "Current evidence insufficient to confirm effect beyond placebo"
+
+  - title: "Complementary and Alternative Medicine Treatments for Generalized Anxiety Disorder: Systematic Review and Meta-analysis of Randomized Controlled Trials"
+    authors:
+      - Barić H
+      - Đorđević V
+      - Cerovečki I
+      - Trkulja V
+    year: 2018
+    journal: "Advances in Therapy"
+    pubmed_id: "29508154"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29508154/"
+    study_type: "Systematic review and meta-analysis"
+    key_findings:
+      - finding: "Kava Kava: 4 quality trials with n=233 participants analyzed"
+      - finding: "Network meta-regression suggested modest kava effect"
+        effect: "Hamilton Anxiety scale score difference -3.24"
+        confidence_interval: "95% CI: -6.65, 0.17"
+        p_value: "p = 0.059"
+      - finding: "Analysis included 139 participants in kava arms, 359 in placebo arms"
+
 randomized_controlled_trials:
+  - title: "Neuroimaging Insights: Kava's (Piper methysticum) Effect on Dorsal Anterior Cingulate Cortex GABA in Generalized Anxiety Disorder"
+    authors:
+      - Savage K
+      - Sarris J
+      - Hughes M
+      - Bousman CA
+      - Rossell S
+      - Scholey A
+      - Stough C
+      - Suo C
+    year: 2023
+    journal: "Nutrients"
+    pubmed_id: "37960239"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/37960239/"
+    study_type: "Randomized controlled trial with neuroimaging"
+    sample_size: 37
+    kava_group: 20
+    placebo_group: 17
+    duration_weeks: 8
+    dosing: "Kava standardized to 120 mg kavalactones twice daily (240 mg/day)"
+    key_findings:
+      - finding: "Kava group showed significant reduction in dorsal anterior cingulate cortex GABA versus placebo"
+        p_value: "p = 0.049"
+      - finding: "Baseline anxiety scores correlated positively with GABA levels"
+      - finding: "dACC GABA could serve as biomarker for diagnosis and treatment response"
+      - finding: "Well-tolerated with no serious adverse events"
+
+  - title: "Effect of kava (Piper methysticum) on peripheral gene expression among individuals with generalized anxiety disorder: A post hoc analysis of a randomized controlled trial"
+    authors:
+      - Cribb L
+      - Sarris J
+      - Savage KM
+      - Byrne GJ
+      - Metri NJ
+      - Scholey A
+      - Stough C
+      - Bousman CA
+    year: 2023
+    journal: "Phytotherapy Research"
+    pubmed_id: "37767766"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/37767766/"
+    study_type: "Randomized controlled trial (post hoc analysis)"
+    sample_size_baseline: 71
+    sample_size_8_weeks: 40
+    key_findings:
+      - finding: "Kava decreased expression of GABA receptor gene (GABRR2) and catechol-O-methyltransferase (COMT)"
+      - finding: "Results did not withstand correction for multiple comparisons"
+      - finding: "Supports kava mechanism involving GABAergic and catecholaminergic systems"
+      - finding: "Baseline gene expression did not predict treatment response"
+
+  - title: "Kavalactones support motivation to move during intensive training in males preparing for military special operations forces"
+    authors:
+      - Smith SY
+      - Aylwin CF
+      - Daniels TF
+      - Greer JL
+      - Kunces LJ
+      - Lili L
+      - Phipps SM
+      - Schmidt CM
+      - Schmidt JC
+      - Schmidt MA
+    year: 2024
+    journal: "Journal of the International Society of Sports Nutrition"
+    pubmed_id: "39010683"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/39010683/"
+    study_type: "Randomized controlled trial, placebo-controlled crossover design"
+    sample_size: 15
+    duration: "Two 14-day loading periods separated by 10-day washout"
+    dosing: "225 mg kavalactones nightly"
+    key_findings:
+      - finding: "Cortisol, sleep, and mood remained within normal parameters with no significant changes"
+      - finding: "Between-group differences in 'Move' motivation emerged after 1 week"
+        p_value: "p = 0.044"
+      - finding: "Differences persisted through loading period"
+        p_value: "p = 0.022"
+      - finding: "Kavalactone-first group maintained stable motivation scores (range 21.0-28.6)"
+      - finding: "Rest motivation unaffected across conditions"
+
   - title: "Kava in the treatment of generalized anxiety disorder: a double-blind, randomized, placebo-controlled study"
     authors:
       - Sarris J
@@ -251,6 +368,113 @@ randomized_controlled_trials:
       - finding: "Good tolerability with no drug-related adverse events"
       - finding: "Sleep disturbances associated with non-psychotic anxiety disorders can be effectively and safely treated"
 
+  - title: "A placebo-controlled study of Kava kava in generalized anxiety disorder"
+    authors:
+      - Connor KM
+      - Davidson JRT
+    year: 2002
+    journal: "International Clinical Psychopharmacology"
+    pubmed_id: "12131602"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/12131602/"
+    study_type: "Randomized controlled trial, double-blind"
+    sample_size: 37
+    duration_weeks: 4
+    key_findings:
+      - finding: "Both kava and placebo showed improvement in anxiety symptoms"
+      - finding: "Primary analysis found no significant difference between kava and placebo"
+      - finding: "Secondary analysis: kava superior on SARA scale in patients with lower baseline anxiety"
+      - finding: "Placebo outperformed kava on HADS and SARA scales in patients with higher baseline anxiety"
+      - finding: "Both interventions well-tolerated with acceptable safety profiles"
+
+  - title: "Efficacy of kava-kava in the treatment of non-psychotic anxiety, following pretreatment with benzodiazepines"
+    authors:
+      - Malsch U
+      - Kieser M
+    year: 2001
+    journal: "Psychopharmacology (Berl)"
+    pubmed_id: "11605083"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11605083/"
+    study_type: "Randomized controlled trial, double-blind, placebo-controlled"
+    sample_size: 40
+    duration_weeks: 5
+    dosing: "WS1490 extract increased from 50 mg to 300 mg daily over first week, then 3 weeks monotherapy"
+    key_findings:
+      - finding: "Kava extract demonstrated superiority to placebo on Hamilton Anxiety Scale"
+        p_value: "p = 0.01"
+      - finding: "Superiority on subjective well-being measurements"
+        p_value: "p = 0.002"
+      - finding: "Further symptom reduction possible after change-over from benzodiazepine treatment"
+      - finding: "Comparable tolerability to placebo with no safety concerns"
+
+  - title: "Effect of a special kava extract in patients with anxiety-, tension-, and excitation states of non-psychotic genesis. Double blind study with placebos over 4 weeks"
+    authors:
+      - Kinzler E
+      - Krömer J
+      - Lehmann E
+    year: 1991
+    journal: "Arzneimittelforschung"
+    pubmed_id: "1930344"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/1930344/"
+    study_type: "Randomized controlled trial, double-blind, placebo-controlled"
+    sample_size: 58
+    duration_weeks: 4
+    dosing: "Kava extract WS 1490 (Laitan) 3 x 100 mg/day"
+    key_findings:
+      - finding: "Kava group showed significant anxiety symptom reduction on Hamilton Anxiety Scale"
+      - finding: "Improvements evident already after one week of treatment"
+      - finding: "Treatment advantage expanded throughout study duration"
+      - finding: "Secondary outcomes (Adjectives-List and Clinical-Global-Impression-Scale) aligned with primary findings"
+      - finding: "No adverse effects reported during treatment period"
+
+  - title: "Kava-Kava administration reduces anxiety in perimenopausal women"
+    authors:
+      - Cagnacci A
+      - Arangino S
+      - Renzi A
+      - Zanni AL
+      - Malmusi S
+      - Volpe A
+    year: 2003
+    journal: "Maturitas"
+    pubmed_id: "12590005"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/12590005/"
+    study_type: "Randomized controlled clinical trial"
+    sample_size: 68
+    groups:
+      control: 34
+      kava_100mg: 15
+      kava_200mg: 19
+    duration_months: 3
+    dosing: "Calcium alone (control) vs calcium plus kava 100 mg/day or 200 mg/day"
+    key_findings:
+      - finding: "Anxiety declined at 1 and 3 months with kava treatment"
+        p_value: "p < 0.001"
+      - finding: "Depression decreased significantly at 3 months"
+      - finding: "Climacteric symptom scores improved"
+      - finding: "Anxiety reduction with kava significantly greater than spontaneous control improvement"
+        p_value: "p < 0.009"
+
+  - title: "Evaluation of combining kava extract with hormone replacement therapy in the treatment of postmenopausal anxiety"
+    authors:
+      - De Leo V
+      - la Marca A
+      - Morgante G
+      - Lanzetta D
+      - Florio P
+      - Petraglia F
+    year: 2001
+    journal: "Maturitas"
+    pubmed_id: "11514117"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/11514117/"
+    study_type: "Randomized controlled trial"
+    duration_months: 6
+    population: "Postmenopausal women (menopause duration 1-12 years)"
+    key_findings:
+      - finding: "Significant reduction in HAMA score observed in all four treatment groups"
+      - finding: "Reduction more pronounced in groups receiving kava extract versus hormone-only groups"
+      - finding: "Kava extract accelerates resolution of psychological symptoms"
+      - finding: "Combination with HRT appears effective approach"
+
 pharmacokinetics_and_bioavailability:
   - title: "The Pharmacology, Pharmacokinetics, Efficacy, and Adverse Events Associated With Kava"
     authors:
@@ -340,7 +564,113 @@ pharmacokinetics_and_bioavailability:
       - finding: "Coadministration caused doubling of kawain C(max) compared to kawain alone"
       - finding: "Significant interactions between kavalactones when taken together"
 
+observational_and_other_clinical_studies:
+  - title: "Kava (Piper methysticum) Extract for the Treatment of Nervous Anxiety, Tension and Restlessness"
+    authors:
+      - Kuchta K
+      - Hladikova M
+      - Thomsen M
+      - Nahrstedt A
+      - Schmidt M
+    year: 2021
+    journal: "Drug Research (Stuttg)"
+    pubmed_id: "33207379"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33207379/"
+    study_type: "Observational multicenter study"
+    sample_size: 156
+    duration_median_days: 28
+    key_findings:
+      - finding: "All individual symptoms showed significant and clinically relevant improvements"
+      - finding: "Most effective for nervous tension and restlessness"
+      - finding: "Better outcomes in patients with acute versus chronic complaints"
+      - finding: "Safety of treatment found to be excellent, including laboratory data assessment"
+      - finding: "Confirms effective and safe short-term use of kava for Commission E-defined indication"
+
+  - title: "The impact of traditional kava (Piper methysticum) use on cognition: Implications for driver fitness"
+    authors:
+      - Aporosa S
+      - Ballard H
+      - Pandey R
+      - McCarthy MJ
+    year: 2022
+    journal: "Journal of Ethnopharmacology"
+    pubmed_id: "35151837"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/35151837/"
+    study_type: "Experimental comparative study with control group"
+    sample_size: 39
+    kava_users: 20
+    controls: 19
+    dosing: "3.6 liters of beverage kava during typical 6-hour sessions"
+    key_findings:
+      - finding: "Kava group demonstrated improved Focus scores at final testing"
+      - finding: "Significant impairment emerged in Temporal Order Judgement (executive function, decision-making)"
+      - finding: "No substantial cognitive deficits in Speed, Accuracy, Timing Perception, Plasticity"
+      - finding: "Traditional kava use may present driver safety concerns through mechanisms distinct from alcohol or cannabis"
+
+  - title: "One-Week Kava Dietary Supplementation Increases Both Urinary N- and O-Glucuronides of NNAL, a Lung Carcinogen Major Metabolite, among Smokers"
+    authors:
+      - Hu Q
+      - Tang Z
+      - Lynch A
+      - Freeman B
+      - Fujioka N
+      - Salloum RG
+      - Malaty J
+      - Orlando FA
+      - Langaee T
+      - Huo Z
+      - Xing C
+    year: 2024
+    journal: "Chemical Research in Toxicology"
+    pubmed_id: "39001862"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/39001862/"
+    study_type: "Randomized controlled trial"
+    duration: "One week"
+    key_findings:
+      - finding: "Kava enhanced detoxification of NNAL (tobacco carcinogen metabolite)"
+      - finding: "Increased both N-glucuronidation and O-glucuronidation in urine"
+      - finding: "Individuals with UGT2B10 genetic variants showed reduced basal NNAL-N-glucuronidation capacity"
+      - finding: "Genetic status may predict individual response to kava intervention"
+
 safety_and_hepatotoxicity:
+  - title: "Kava hepatotoxicity--a clinical review"
+    authors:
+      - Teschke R
+    year: 2010
+    journal: "Annals of Hepatology"
+    pubmed_id: "20720265"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/20720265/"
+    study_type: "Clinical review"
+    cases_analyzed: 14
+    extract_types:
+      aqueous: 3
+      ethanolic: 5
+      acetonic: 4
+      mixed: 2
+    key_findings:
+      - finding: "Causality highly probable in 1 patient, probable in 4, possible in 9"
+      - finding: "Risk factors: overdose, prolonged treatment, comedication with synthetic drugs and dietary supplements"
+      - finding: "Hepatotoxicity occurred regardless of extraction solvent"
+      - finding: "Poor raw material quality identified as contributing factor"
+
+  - title: "Kava hepatotoxicity in traditional and modern use: the presumed Pacific kava paradox hypothesis revisited"
+    authors:
+      - Teschke R
+      - Sarris J
+      - Schweitzer I
+    year: 2012
+    journal: "British Journal of Clinical Pharmacology"
+    volume: 73
+    issue: 2
+    pages: "170-174"
+    study_type: "Literature review and critical analysis"
+    key_findings:
+      - finding: "Pacific kava paradox no longer valid - traditional aqueous extracts can also be hepatotoxic"
+      - finding: "Cases documented from New Caledonia, Australia, USA, and Germany with aqueous extracts"
+      - finding: "Poor quality raw material caused by mould hepatotoxins (Aspergillus aflatoxins, ochratoxin A) likely primary source"
+      - finding: "Bacterial contamination (Bacillus cereus) also identified"
+      - finding: "Advocates rigorous quality testing and Pan-Pacific manufacturing standards"
+
   - title: "Safety review of kava (Piper methysticum) by the Natural Standard Research Collaboration"
     authors:
       - Ulbricht C
@@ -473,6 +803,58 @@ regulatory_monographs:
     notes:
       - "United States Pharmacopeia monograph"
       - "Quality standards for kava root and rhizome materials"
+
+mechanism_of_action:
+  - title: "Kavapyrone enriched extract from Piper methysticum as modulator of the GABA binding site in different regions of rat brain"
+    authors:
+      - Jussofie A
+      - Schmiz A
+      - Hiemke C
+    year: 1994
+    journal: "Psychopharmacology (Berl)"
+    pubmed_id: "7701051"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/7701051/"
+    study_type: "In vitro laboratory research"
+    key_findings:
+      - finding: "Kavapyrone extract enhanced [³H]muscimol binding in concentration-dependent manner"
+      - finding: "Strongest potentiation in hippocampus (358%), followed by amygdala and medulla oblongata"
+      - finding: "Effects due to increase in binding sites (Bmax) rather than change in affinity"
+      - finding: "Synergistic effects observed when combined with pentobarbital or steroids"
+      - finding: "Kavapyrones produce sedative effects through action on GABA-A receptor binding"
+
+  - title: "Therapeutic potential of kava in the treatment of anxiety disorders"
+    authors:
+      - Singh YN
+      - Singh NN
+    year: 2002
+    journal: "CNS Drugs"
+    volume: 16
+    issue: 11
+    pages: "731-743"
+    pubmed_id: "12383029"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/12383029/"
+    study_type: "Review"
+    key_findings:
+      - finding: "Kavalactones produce sedative, anxiolytic, antistress, analgesic, local anaesthetic effects"
+      - finding: "Kava demonstrated effectiveness for mild-to-moderate anxiety including menopause-related anxiety"
+      - finding: "Proposed mechanisms: sodium channel blockade and GABA receptor enhancement"
+      - finding: "~35 cases of severe liver toxicity reported by publication date"
+      - finding: "Direct causal relationship with kava use difficult to establish"
+
+  summary: "Multiple mechanisms proposed for kava's anxiolytic effects"
+  proposed_mechanisms:
+    - mechanism: "GABA-A receptor modulation"
+      notes: "Positive allosteric modulation outside benzodiazepine binding site; increases receptor binding sites"
+    - mechanism: "Voltage-gated sodium channel blockade"
+      notes: "May contribute to muscle relaxant and local anesthetic effects"
+    - mechanism: "Voltage-gated calcium channel blockade"
+      notes: "Reduces excitatory neurotransmitter release"
+    - mechanism: "Noradrenaline reuptake inhibition"
+      notes: "May contribute to cognitive effects"
+    - mechanism: "MAO-B inhibition (reversible)"
+      notes: "Monoamine oxidase B inhibition"
+    - mechanism: "Dopamine reuptake inhibition"
+      notes: "Contributes to mood effects"
 
 dosing_guidelines:
   summary: "Clinical trials have used varying doses of standardized kava extracts"
