@@ -8,7 +8,7 @@ symptoms:
   - sensitivity to light and sound
   - visual disturbances (aura)
   - one-sided head pain
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/ginger
   - materia/butterbur

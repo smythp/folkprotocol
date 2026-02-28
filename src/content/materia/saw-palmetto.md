@@ -52,7 +52,7 @@ preparations:
   - method: capsule
     dosing: "400 mg daily for hair loss"
     notes: "Standardized to 2-3% β-sitosterol (not conventional 0.2-0.3%). 29% hair fall reduction, 5.17% density increase in 80 participants over 16 weeks. Significant DHT reduction confirmed. Take with food for lipid-soluble absorption."
-  - method: oil
+  - method: other
     dosing: "5 mL of 20% saw palmetto oil daily for hair loss"
     notes: "Applied to affected scalp areas. Oil standardized to 2-3% β-sitosterol. 22.19% hair fall reduction, 7.61% density increase in 16 weeks [3]. Both oral and topical routes effective - oral showed slightly better hair fall reduction, topical slightly better density improvement."
   - method: capsule

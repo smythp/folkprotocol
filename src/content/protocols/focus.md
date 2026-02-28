@@ -9,7 +9,7 @@ symptoms:
   - poor working memory
   - distractibility
   - stress-related cognitive impairment
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/bacopa
   - materia/ashwagandha

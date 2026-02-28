@@ -11,7 +11,7 @@ symptoms:
   - runny nose
   - seasonal allergies
   - perennial allergies
-researchDepth: high
+researchDepth: well-studied
 related:
   - protocols/respiratory
   - protocols/early-cold

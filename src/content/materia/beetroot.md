@@ -42,7 +42,7 @@ evidence:
       year: 2024
 
 preparations:
-  - method: juice
+  - method: other
     dosing: "70-250 mL/day (200-800 mg nitrate)"
     notes: "Most studied preparation. For blood pressure: 70-250 mL daily. For athletic performance: 70-140 mL 2-3 hours before exercise, or daily for ≥3 days. Peak plasma levels at 2 hours."
   - method: powder

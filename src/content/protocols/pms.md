@@ -11,7 +11,7 @@ symptoms:
   - menstrual cramps
   - fatigue
   - headaches
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/vitex
   - materia/saffron

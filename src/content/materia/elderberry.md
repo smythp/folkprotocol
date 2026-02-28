@@ -69,7 +69,7 @@ trying:
   notes: "Start within 48 hours of symptom onset for best chance of benefit. For prevention during travel or high-risk exposure: 10-day priming phase at 600 mg (90 mg anthocyanins), then 900 mg (135 mg anthocyanins) during exposure. Critical reality: the most recent study found no benefit and possibly harm when used alone. Product quality varies significantly - verify standardization. Very low bioavailability (<0.5%) with short half-life (1.74-2.57 hours) means multiple daily doses needed, not once-daily dosing. What you're tracking: did you get sick less often or recover faster than usual? Compare to your normal pattern."
 
 safety:
-  generally: mixed
+  generally: caution
   contraindications:
     - "Pregnancy - no safety data available (EMA: does not recommend use during pregnancy)"
     - "Breastfeeding - no data on excretion into breastmilk or safety in nursing infants"

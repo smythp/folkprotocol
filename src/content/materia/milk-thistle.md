@@ -1,63 +1,89 @@
 ---
-name: Milk Thistle
-latinName: Silybum marianum
+name: "Milk Thistle"
+latinName: "Silybum marianum"
 commonNames:
   - Milk Thistle
   - Marian Thistle
   - Holy Thistle
   - Saint Mary's Thistle
-summary: A European herb with strong evidence for protecting the liver, particularly in cirrhosis and fatty liver disease. The active compounds (silymarin) have been studied in over 26 clinical trials showing consistent benefits for liver enzymes and liver health.
+summary: "European herb with strong evidence for protecting the liver, particularly in cirrhosis and fatty liver disease. Silymarin studied in over 26 clinical trials."
 uses:
-  - Liver cirrhosis support
-  - Non-alcoholic fatty liver disease (NAFLD/NASH)
-  - Drug-induced liver injury prevention
-  - Alcoholic liver disease
-  - Drug-induced acute kidney injury prevention
+  - liver cirrhosis support
+  - non-alcoholic fatty liver disease
+  - drug-induced liver injury prevention
+  - alcoholic liver disease
+
 traditional:
-  - Liver and gallbladder complaints
-  - Digestive issues (dyspepsia)
-  - Mushroom poisoning (Amanita phalloides)
-  - Chronic liver inflammation
-evidence: Strong for cirrhosis, moderate for NAFLD/NASH and drug-induced liver injury
+  traditions:
+    - European herbalism
+  convergent: false
+  attributions:
+    - source: "German Commission E"
+      text: "Approved for dyspeptic complaints, toxic liver damage, chronic inflammatory liver diseases, and liver cirrhosis."
+
+evidence:
+  summary: "Strong for cirrhosis, moderate for NAFLD/NASH and drug-induced liver injury. 26 RCTs with 2,375 patients show consistent liver enzyme benefits."
+  keyStudies:
+    - title: "Li et al. - Silymarin for NAFLD Meta-analysis"
+      finding: "26 RCTs, 2,375 patients. ALT decreased 12.39 units, AST 10.97 units, liver fat significantly improved."
+      year: 2024
+    - title: "Ferenci et al. - Silymarin in Liver Cirrhosis"
+      finding: "170 patients, mean 41 months. 58% vs 39% 4-year survival."
+      year: 1989
+
 preparations:
   - method: extract
-    details: Standardized silymarin extract (70-80% silymarin), 420-2100 mg/day
+    dosing: "420-2100 mg/day standardized silymarin extract (70-80% silymarin)"
+    notes: "Most studied preparation. Take with meals for absorption."
   - method: capsule
-    details: Phytosome or micellar formulations with enhanced absorption, 130-320 mg/day
+    dosing: "130-320 mg/day phytosome or micellar formulations"
+    notes: "Enhanced absorption formulations. 130 mg micellar achieves levels equivalent to much higher standard doses."
   - method: tincture
-    details: Traditional 1:5 ratio in 70% ethanol, 2-4 mL three times daily (not evidence-based)
+    dosing: "2-4 mL three times daily (1:5 in 70% ethanol)"
+    notes: "Traditional preparation. Not evidence-based — standardized extracts preferred."
+
 trying:
-  doseRange: 420-2100 mg/day of standardized extract (70-80% silymarin)
-  startingDose: 420 mg/day (140 mg three times daily with meals)
-  duration: Months to years for chronic conditions; 4-12 weeks for acute conditions
-  formNote: Standardized extracts strongly preferred over teas or whole seeds due to poor water solubility
+  duration: "Months to years for chronic conditions; 4-12 weeks for acute conditions."
+  whatToNotice:
+    - Liver enzyme improvements (ALT, AST) on blood tests
+    - Reduced fatigue or improved general wellbeing
+    - For fatty liver, imaging improvements in hepatic steatosis
+  notes: "Start with 420 mg/day (140 mg three times daily with meals). Standardized extracts strongly preferred over teas or whole seeds."
+
 safety:
-  general: Excellent safety profile across numerous trials; well tolerated even at high doses (2100 mg/day for 48 weeks)
-  avoid: Insufficient data for pregnancy/lactation; theoretical concern with hormone-sensitive conditions
-  interactions: Low drug interaction potential; use caution with narrow therapeutic window drugs (warfarin, digoxin)
-  sideEffects: Rare minor GI symptoms (nausea, diarrhea) comparable to placebo
+  generally: safe
+  contraindications:
+    - "Insufficient data for pregnancy/lactation"
+    - "Theoretical concern with hormone-sensitive conditions"
+    - "Allergy to Asteraceae/Compositae family plants"
+  notes: "Excellent safety profile across numerous trials. Well tolerated even at 2100 mg/day for 48 weeks. Low drug interaction potential; use caution with narrow therapeutic window drugs."
+
 combinedWith:
-  - Anti-tuberculosis drugs (protective against liver injury)
-  - Diabetes medications (may lower blood sugar; monitor glucose)
+  - herb: "anti-tuberculosis drugs"
+    why: "Protective against drug-induced liver injury (5 RCTs, 1,198 patients)"
+  - herb: "diabetes medications"
+    why: "May lower blood sugar; monitor glucose"
+
 sources:
-  - type: meta-analysis
-    citation: "Li et al. 2024. Effects of silymarin supplementation on liver enzymes and cardiometabolic risk factors in patients with non-alcoholic fatty liver disease: a systematic review and meta-analysis of randomized controlled trials. PMID: 38579127"
-    note: "26 RCTs, 2,375 patients"
-  - type: study
-    citation: "Ferenci et al. 1989. Randomized controlled trial of silymarin treatment in patients with cirrhosis of the liver. PMID: 2671116"
-    note: "170 patients, mean 41 months, 58% vs 39% 4-year survival"
-  - type: meta-analysis
-    citation: "Tao et al. 2019. Silymarin supplementation prevents liver injury in individuals undergoing anti-tuberculosis treatment: A systematic review and meta-analysis. PMID: 30733935"
-    note: "5 RCTs, 1,198 patients"
-  - type: meta-analysis
-    citation: "Saller et al. 2008. The use of silymarin in the treatment of liver diseases. PMID: 18334810"
-    note: "19 trials from 65 papers"
-  - type: study
-    citation: "Chang et al. 2025. Comparative bioavailability study of a novel micellar silymarin formulation vs. a conventional formulation in healthy volunteers. PMID: 40733088"
-    note: "16 patients; 18.9-fold Cmax increase with micellar formulation"
-  - type: traditional-text
-    citation: "Commission E Monograph (German Federal Institute for Drugs and Medical Devices). Approved uses: dyspeptic complaints, toxic liver damage, chronic inflammatory liver diseases, liver cirrhosis."
-    note: "European traditional medicine authority"
+  - title: "Li et al. - Silymarin for NAFLD Meta-analysis"
+    type: meta-analysis
+    year: 2024
+  - title: "Ferenci et al. - Silymarin in Liver Cirrhosis RCT"
+    type: study
+    year: 1989
+  - title: "Tao et al. - Silymarin for Anti-TB Liver Injury"
+    type: meta-analysis
+    year: 2019
+  - title: "Saller et al. - Silymarin in Liver Diseases Review"
+    type: meta-analysis
+    year: 2008
+  - title: "Chang et al. - Micellar Silymarin Bioavailability"
+    type: study
+    year: 2025
+  - title: "German Commission E - Milk Thistle Monograph"
+    type: traditional-text
+    year: 1998
+
 draft: false
 ---
 

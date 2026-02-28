@@ -9,7 +9,7 @@ symptoms:
   - prediabetes
   - type 2 diabetes
   - metabolic syndrome
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/berberine
   - materia/fenugreek

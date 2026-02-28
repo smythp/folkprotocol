@@ -8,7 +8,7 @@ symptoms:
   - poor detoxification
   - alcoholic liver damage
   - metabolic liver issues
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/milk-thistle
   - materia/artichoke

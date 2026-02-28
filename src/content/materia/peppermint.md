@@ -58,7 +58,7 @@ trying:
   notes: "**Timing**: Take between meals, not with food, to reduce heartburn risk. **Treatment duration**: Most studies use 2-8 weeks. Some extend to 24 weeks safely. **Formulation matters**: For IBS or moderate symptoms, use pharmaceutical-grade enteric-coated capsules. For mild occasional symptoms, tea is appropriate."
 
 safety:
-  generally: safe at recommended doses with good quality control
+  generally: safe
   contraindications:
     - "Biliary obstruction or gallstones (stimulates bile flow - Commission E contraindication)"
     - "Severe GERD/reflux (may relax lower esophageal sphincter, though enteric coating reduces risk - Commission E caution)"

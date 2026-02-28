@@ -66,12 +66,12 @@ preparations:
 trying:
   duration: "Minimum 22-26 weeks (roughly 5-6 months) for sustained cognitive benefits in MCI or dementia based on trial durations [1][2]. Cerebral blood flow changes measurable at 4 weeks [3]. Tinnitus improvements at 12 weeks [4]. Acute attention effects within 2.5-6 hours for single doses [5]. Start assessing response at 8 weeks - if no noticeable benefit by then, you're likely a non-responder."
   whatToNotice:
-    - Memory tasks: Can you remember short lists, phone numbers, names of people you just met? (MMSE improved 3.02 points in Alzheimer's trial [1])
-    - Processing speed: How long to complete familiar tasks like paying bills or following recipes? (Trail-Making Test improved in MCI trial [2])
-    - Attention: Can you follow conversations in noisy rooms? Read for extended periods? (Speed of attention improved in acute dose study [5])
-    - Neuropsychiatric symptoms if you have MCI: anxiety levels, mood (NPI scores reduced 7.0 ± 4.5 points versus 5.5 ± 5.2 on placebo [2])
-    - Tinnitus: loudness and how much it bothers you (significant improvement at 12 weeks [4])
-    - Functional abilities: daily living activities like cooking, managing medications (Activity of Daily Living Scale decreased 4.56 points indicating improvement [1])
+    - "Memory tasks: Can you remember short lists, phone numbers, names of people you just met? (MMSE improved 3.02 points in Alzheimer's trial [1])"
+    - "Processing speed: How long to complete familiar tasks like paying bills or following recipes? (Trail-Making Test improved in MCI trial [2])"
+    - "Attention: Can you follow conversations in noisy rooms? Read for extended periods? (Speed of attention improved in acute dose study [5])"
+    - "Neuropsychiatric symptoms if you have MCI: anxiety levels, mood (NPI scores reduced 7.0 ± 4.5 points versus 5.5 ± 5.2 on placebo [2])"
+    - "Tinnitus: loudness and how much it bothers you (significant improvement at 12 weeks [4])"
+    - "Functional abilities: daily living activities like cooking, managing medications (Activity of Daily Living Scale decreased 4.56 points indicating improvement [1])"
   notes: "You're tracking: did memory tasks feel slightly easier? Can you complete routine tasks a bit faster? For tinnitus, is it less intrusive? Changes are modest, not dramatic - about 3 points on MMSE scale [1]. You won't notice changes day-to-day. Reassess at 8 weeks and again at 22-26 weeks when trials showed measurable changes [1][2]. Meta-analysis of 18 RCTs with 1,985+ participants found adverse event rates comparable to placebo, no serious adverse events in most trials [1]. If no benefit by 8 weeks, you're likely a non-responder for that indication."
 
 safety:

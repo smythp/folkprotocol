@@ -57,7 +57,7 @@ trying:
   notes: "**Timing is critical for acute use**: High-dose loading (10,000-16,800mg) on day 1 at first symptom shows better viral clearance (70% vs 53%) and faster recovery (9.6 vs 11 days) than conventional doses. Don't wait - the earlier you start, the more effective it is. **Prevention works best continuously**: Studies showing strongest effects used daily dosing throughout cold season, not sporadic use."
 
 safety:
-  generally: well-tolerated, safety equivalent to placebo in most studies
+  generally: safe
   contraindications:
     - "Severe allergies to asteraceae/compositae family (ragweed, chrysanthemums, marigolds, daisies) - rare but potentially serious allergic reactions"
     - "Asthma with plant allergies - carefully consider use"

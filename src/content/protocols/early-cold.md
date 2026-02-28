@@ -7,7 +7,7 @@ symptoms:
   - cold prevention
   - first signs of cold
   - catching a cold
-researchDepth: high
+researchDepth: well-studied
 related:
   - protocols/respiratory
   - protocols/post-viral

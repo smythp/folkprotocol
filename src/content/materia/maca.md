@@ -62,7 +62,7 @@ trying:
   notes: "Start with 2.0 g/day divided into 2 doses with meals. Increase to 3.0 g/day after 1-2 weeks if well tolerated. Choose phenotype based on goal: black maca for glucose metabolism, red maca for mood and energy, yellow maca for general use. Effects are dose-dependent - higher doses (up to 3.5 g/day) more effective but start low. Individual variation exists but lower than many adaptogens. Track baseline symptoms for 1 week before starting to assess changes objectively."
 
 safety:
-  generally: favorable
+  generally: safe
   contraindications:
     - "None formal, but insufficient data for pregnancy/breastfeeding - avoid due to lack of safety studies [13,14]"
     - "Caution with hormone-sensitive conditions (conflicting data on hormone effects) [10,11]"

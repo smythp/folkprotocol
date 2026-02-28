@@ -8,7 +8,7 @@ symptoms:
   - motion sickness
   - digestive upset and vomiting
   - IBS-related nausea
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/ginger
   - materia/peppermint

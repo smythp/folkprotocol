@@ -19,7 +19,7 @@ traditional:
     - European herbal medicine
     - Mediterranean folk medicine
     - Western phytotherapy
-  convergent: partial
+  convergent: true
   attributions:
     - source: "European traditional use (pre-modern to present)"
       text: "Primary use for dyspeptic complaints and digestive support. External use for rheumatic diseases and circulatory complaints. Known as 'herb of remembrance' for cognitive support."

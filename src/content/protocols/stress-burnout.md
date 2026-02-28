@@ -9,7 +9,7 @@ symptoms:
   - poor stress resilience
   - reduced concentration
   - burnout symptoms
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/ashwagandha
   - materia/rhodiola

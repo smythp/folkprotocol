@@ -46,7 +46,7 @@ trying:
   notes: "**Timing**: Migraine - take morning and evening with food. Allergic rhinitis - spread throughout day (3-4 times). **Monitoring**: Get baseline liver tests before starting, repeat at 4-6 weeks and 3 months. **Duration limits**: Evidence supports safety up to 16 weeks. Longer-term use not well-studied. **Quality matters**: 33% of commercial products contained PAs in one review - verify PA-free status with certificate of analysis."
 
 safety:
-  generally: safe when using verified PA-free extracts at recommended doses
+  generally: caution
   contraindications:
     - "Pregnancy/breastfeeding (safety not established)"
     - "Liver disease (even PA-free products may pose risk)"

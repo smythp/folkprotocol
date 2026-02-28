@@ -8,7 +8,7 @@ symptoms:
   - racing mind at bedtime
   - anxiety-related insomnia
   - chronic insomnia
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/valerian
   - materia/ashwagandha

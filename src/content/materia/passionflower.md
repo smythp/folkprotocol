@@ -69,7 +69,7 @@ trying:
   notes: "Start at lower end: 260 mg extract OR 2 ml 1:1 tincture OR 2.5 g tea. Increase gradually to standard doses if needed (600 mg extract or 4-6 ml tincture). For acute anxiety (dental, presentations, flights): single 260-500 mg dose 30-90 minutes before. Effects are subtle - this isn't heavy sedation, it's reduced reactivity to stress. Clinical trials show it works, but you won't necessarily 'feel' it working - you'll notice situations that usually stress you out don't hit as hard."
 
 safety:
-  generally: good
+  generally: safe
   contraindications:
     - "Pregnancy - may stimulate uterine contractions (traditional contraindication)"
     - "QT-prolonging medications - one case report of QTc prolongation and ventricular tachycardia"

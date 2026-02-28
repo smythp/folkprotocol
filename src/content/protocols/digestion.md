@@ -10,7 +10,7 @@ symptoms:
   - constipation
   - poor digestion
   - acid reflux
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/peppermint
   - materia/ginger

@@ -1,6 +1,7 @@
 ---
 title: "Anxiety Protocol"
-description: "Evidence-based herbal and nutritional approaches for anxiety management"
+summary: "Evidence-based herbal and nutritional approaches for anxiety management."
+researchDepth: well-studied
 ---
 
 # Anxiety Protocol

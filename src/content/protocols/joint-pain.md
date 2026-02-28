@@ -9,7 +9,7 @@ symptoms:
   - arthritis pain
   - joint swelling
   - chronic joint pain
-researchDepth: high
+researchDepth: well-studied
 related:
   - materia/turmeric
   - materia/boswellia
