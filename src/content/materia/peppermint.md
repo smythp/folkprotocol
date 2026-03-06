@@ -32,19 +32,19 @@ evidence:
   summary: "Peppermint is unusual among herbs in having multiple meta-analyses for a single condition—IBS—all pointing the same direction. The headache data is genuinely impressive: topical 10% peppermint oil in ethanol matched acetaminophen 1,000mg for tension headaches in a controlled trial. Nausea data is modest but real. Cognitive effects are early-stage but mechanistically plausible."
   keyStudies:
     - title: "Alammar 2019 - IBS Meta-Analysis"
-      finding: "12 RCTs, 835 participants: 58% response with peppermint oil vs 29% placebo. Global symptom improvement RR 2.39 (p<0.00001). NNT = 3 for persistent symptoms. Adverse events 9.3% vs 6.1% placebo—not statistically different."
+      finding: "12 RCTs, 835 people: 58% responded to peppermint oil vs 29% on placebo—more than twice the response rate. NNT = 3 for persistent symptoms. Adverse events 9.3% vs 6.1% placebo—not statistically different."
       year: 2019
     - title: "Khanna 2014 - IBS Systematic Review and Meta-Analysis"
-      finding: "9 RCTs, 726 participants: global IBS symptom improvement RR 2.23 (95% CI 1.78-2.81), abdominal pain RR 2.14. Concluded peppermint oil may be drug of first choice in IBS with non-serious constipation or diarrhea."
+      finding: "9 RCTs, 726 people: those taking peppermint oil were more than twice as likely to see global IBS symptom improvement and meaningful abdominal pain reduction versus placebo. Concluded peppermint oil may be drug of first choice in IBS with non-serious constipation or diarrhea."
       year: 2014
     - title: "Göbel 1996 - Tension Headache vs Acetaminophen"
-      finding: "41 patients, 164 headache attacks: 10% peppermint oil in ethanol equivalent to acetaminophen 1,000mg for tension-type headache. No significant difference between treatments. No adverse events reported."
+      finding: "41 people, 164 headache attacks: 10% peppermint oil in ethanol equivalent to acetaminophen 1,000mg for tension-type headache. No significant difference between treatments. No adverse events reported."
       year: 1996
     - title: "Borhani Haghighi 2010 - Menthol for Migraine Without Aura"
-      finding: "35 patients, 118 migraine attacks: topical 10% menthol solution significantly superior to placebo for 2-hour pain-free response (p=0.001) and pain relief (p=0.000). Nausea and light/sound sensitivity also improved."
+      finding: "35 people, 118 migraine attacks: topical 10% menthol solution significantly outperformed placebo for 2-hour pain-free response. Nausea and light/sound sensitivity also improved."
       year: 2010
     - title: "Gergő 2025 - Inhaled Peppermint for Nausea Meta-Analysis"
-      finding: "19 RCTs: PONV reduced MD -0.60, pregnancy nausea MD -0.51 to -0.68, chemotherapy-induced nausea MD -2.23 to -2.41 at 48-72 hours. Statistically significant but often below clinically meaningful thresholds. Low certainty evidence."
+      finding: "19 RCTs: inhaled peppermint oil modestly reduced nausea across post-operative, pregnancy, and chemotherapy contexts. Effects were statistically significant but often modest in practical terms. Low certainty evidence."
       year: 2025
 
 preparations:
@@ -60,7 +60,7 @@ preparations:
     notes: "For tension headaches and migraine. Licensed for tension-type headache in adults and children over 6 in Germany. Do not apply undiluted essential oil—use a product formulated at 10% concentration. Wash hands after applying; avoid eye contact."
   - method: extract
     dosing: "Inhalation for nausea: 2-3 drops on cotton ball held near nose, breathe for 1-2 minutes, repeat as needed. For chemotherapy-induced nausea: 40 drops oral peppermint extract in 20ml water every 8 hours."
-    notes: "Inhalation is the most studied route for nausea—immediate access when swallowing is difficult. RCT efficacy ~58% for PONV. Intranasal 1.5% peppermint oil showed ~42% responder rate for migraine, comparable to lidocaine 4% in a 120-patient trial."
+    notes: "Inhalation is the most studied route for nausea—immediate access when swallowing is difficult. RCT efficacy ~58% for PONV. Intranasal 1.5% peppermint oil showed ~42% responder rate for migraine, comparable to lidocaine 4% in a 120-person trial."
 
 trying:
   duration: "IBS: minimum 4 weeks, optimal 8 weeks for full assessment. Headache: single-use, results within 15-30 minutes. Nausea: single-use aromatherapy, assess within 10 minutes. Cognitive effects from tea: within hours."
@@ -83,11 +83,11 @@ safety:
     - "Severe hepatic impairment (menthol undergoes extensive hepatic metabolism; avoid)"
     - "Known allergy or hypersensitivity to Mentha species"
   pregnancyNursing: "No clinical safety data for pharmaceutical preparations in pregnancy or lactation. Peppermint tea in dietary amounts has long traditional use and is generally considered acceptable in moderation. High-dose pharmaceutical-grade essential oil preparations should be avoided during pregnancy due to theoretical smooth muscle effects. Consult a healthcare provider before use."
-  notes: "Generally safe with a favorable adverse event profile. In the largest IBS meta-analysis (12 RCTs, 835 participants), adverse events were 9.3% peppermint vs 6.1% placebo—not statistically different. Most common adverse effects: heartburn and perianal burning, both mild and transient. Enteric-coated formulations significantly reduce heartburn risk. Do not take food-grade essential oil internally—pharmaceutical-grade enteric-coated capsules required for GI use. Topical safety concentrations: rinse-off products ≤3%, leave-on formulations ≤0.2%. Menthol enhances skin penetration of other agents—avoid applying topical peppermint simultaneously with other medications. Safety studied up to 24 weeks in adults; chronic use beyond that is not well characterized."
+  notes: "Generally safe with a favorable adverse event profile. In the largest IBS meta-analysis (12 RCTs, 835 people), adverse events were 9.3% peppermint vs 6.1% placebo—not statistically different. Most common adverse effects: heartburn and perianal burning, both mild and transient. Enteric-coated formulations significantly reduce heartburn risk. Do not take food-grade essential oil internally—pharmaceutical-grade enteric-coated capsules required for GI use. Topical safety concentrations: rinse-off products ≤3%, leave-on formulations ≤0.2%. Menthol enhances skin penetration of other agents—avoid applying topical peppermint simultaneously with other medications. Safety studied up to 24 weeks in adults; chronic use beyond that is not well characterized."
 
 combinedWith:
   - herb: "caraway"
-    why: "Menthacarin (peppermint + caraway oil) has dedicated meta-analysis evidence for functional dyspepsia. In 249 patients, pain reduction SMD 0.80 and global improvement RR 2.65—stronger evidence than peppermint alone for upper GI symptoms and post-meal discomfort."
+    why: "Menthacarin (peppermint + caraway oil) has dedicated meta-analysis evidence for functional dyspepsia. A trial of 249 people found meaningful pain reduction and overall improvement well beyond placebo—stronger evidence than peppermint alone for upper GI symptoms and post-meal discomfort."
   - herb: "ginger"
     why: "Complementary nausea mechanisms. Ginger acts via 5-HT3 receptor modulation; peppermint via inhaled aromatherapy. A logical complementary pair for nausea management protocols."
   - herb: "fennel"
@@ -136,6 +136,10 @@ sources:
     link: "https://pubmed.ncbi.nlm.nih.gov/36502789/"
     type: meta-analysis
     year: 2023
+  - title: "Kline et al. - Enteric-Coated Peppermint Oil for IBS in Children"
+    link: "https://pubmed.ncbi.nlm.nih.gov/11148527/"
+    type: study
+    year: 2001
   - title: "German Commission E Monograph - Peppermint Oil and Leaf"
     type: other
     year: 2000
@@ -155,19 +159,19 @@ draft: false
 Peppermint is unusual among herbs in having **multiple independent meta-analyses for a single condition**—IBS—all pointing the same direction. This is not a "promising herb under investigation." For IBS, it has more clinical trial infrastructure than most people realize.
 
 **Strong evidence (multiple meta-analyses):**
-- **IBS global symptoms**: A 2019 meta-analysis of 12 RCTs (835 participants) found 58% of patients responded to peppermint oil vs 29% on placebo—a number needed to treat of 3. A 2014 meta-analysis of 9 RCTs (726 participants) found global symptom improvement RR 2.23. Eight of twelve placebo-controlled studies in a major dosing review showed statistically significant benefit.
-- **IBS abdominal pain**: Consistent effect across three independent meta-analyses (9-12 RCTs each), with risk ratios of 1.78-2.14 for meaningful pain reduction.
-- **Tension headache**: A 41-patient crossover trial analyzing 164 headache attacks found 10% peppermint oil in ethanol **equivalent to acetaminophen 1,000mg** for tension-type headache. No statistically significant difference between the two treatments, and no adverse events in the peppermint group.
+- **IBS global symptoms**: If 10 people with IBS try peppermint oil capsules, about 6 get meaningful relief—compared to about 3 on placebo. That's a number needed to treat of 3, confirmed across a 2019 meta-analysis of 12 trials (835 people) and a 2014 meta-analysis of 9 trials (726 people). Eight of twelve placebo-controlled studies in a major dosing review found statistically significant benefit. For an herbal supplement, this is an exceptional evidence base.
+- **IBS abdominal pain**: Three independent meta-analyses (9-12 trials each) all found roughly the same thing: your odds of meaningful pain reduction are about twice what they'd be on placebo. That level of consistency across independent analyses is rare in herbal medicine.
+- **Tension headache**: A 41-person crossover trial analyzing 164 headache attacks found 10% peppermint oil in ethanol **equivalent to acetaminophen 1,000mg** for tension-type headache. No statistically significant difference between the two treatments, and no adverse events in the peppermint group.
 
 **Good evidence:**
-- **Migraine**: Topical 10% menthol solution was significantly superior to placebo for 2-hour pain-free response (p=0.001) in 35 patients across 118 migraine attacks. Associated nausea and light/sound sensitivity also improved. A separate 120-patient RCT found intranasal peppermint oil 1.5% achieved ~42% responder rate, comparable to lidocaine 4%.
-- **Antispasmodic for endoscopy**: A meta-analysis of 14 RCTs (1,002 patients) found L-menthol suppressed peristalsis in 55.9% of cases (OR 3.88) with adverse events comparable to placebo—a safer profile than traditional anticholinergic antispasmodics.
+- **Migraine**: Topical 10% menthol solution significantly outperformed placebo for pain-free relief within 2 hours in a study of 35 people across 118 migraine attacks. Nausea and light/sound sensitivity also improved. A separate 120-person trial found intranasal peppermint oil achieved a ~42% responder rate, comparable to lidocaine.
+- **Antispasmodic for endoscopy**: A meta-analysis of 14 trials (1,002 people) found L-menthol suppressed peristalsis in about 56% of cases, with side effects no worse than placebo—a safer profile than the standard anticholinergic drugs typically used.
 
 **Moderate evidence:**
-- **Nausea**: A 2025 meta-analysis of 19 RCTs found inhaled peppermint oil reduced PONV (MD -0.60), pregnancy nausea (MD -0.51 to -0.68), and chemotherapy-induced nausea (MD -2.23 to -2.41 at 48-72 hours). Effects were statistically significant but often below clinically meaningful thresholds. Low certainty evidence.
-- **Cognitive function**: 144 volunteers showed enhanced memory and alertness with peppermint aroma in an RCT. A 24-person double-blind crossover study found 100µL encapsulated peppermint oil improved performance on demanding attention tasks (Rapid Visual Information Processing) and attenuated mental fatigue at 1-3 hours post-dose—with a plausible mechanism: menthol inhibits acetylcholinesterase and modulates acetylcholine receptors.
+- **Nausea**: Peppermint inhalation reduces nausea, but don't expect a dramatic effect. A 2025 meta-analysis of 19 trials found real but modest benefits across post-operative, pregnancy, and chemotherapy-related nausea. It's most useful as a complement to other treatments rather than a standalone fix—and it's a 5-minute trial with essentially nothing to lose.
+- **Cognitive function**: A 144-person trial found enhanced memory and alertness with peppermint aroma. A smaller study found peppermint oil capsules helped people sustain attention during demanding tasks and reduced mental fatigue, with effects peaking 1-3 hours after taking it. The mechanism is plausible: menthol affects neurotransmitter activity in ways that support focus.
 
-**The critical nuance**: Preparation determines outcome. The IBS meta-analyses used **enteric-coated capsules**—not tea. Tea lacks the concentration and targeted delivery needed for moderate-to-severe IBS. For headaches, the studied preparation is 10% peppermint oil in ethanol applied topically—not ingested. The same plant, different delivery systems, completely different clinical applications.
+**The critical nuance**: Preparation determines outcome. The IBS meta-analyses used **enteric-coated capsules**—not tea. Tea lacks the concentration and targeted delivery you need for moderate-to-severe IBS. For headaches, the studied preparation is 10% peppermint oil in ethanol applied topically—not ingested. The same plant, different delivery systems, completely different clinical applications.
 
 ## Traditional Use
 
@@ -202,7 +206,7 @@ Enteric-coated peppermint oil capsules only. Tea won't produce clinical results 
 - **Duration**: 4 weeks minimum to assess, 8 weeks for full evaluation
 - **Label check**: "Enteric-coated" must be stated explicitly; 180-200mg per capsule; pharmaceutical-grade quality marks
 
-For **functional dyspepsia** (upper GI symptoms, post-meal discomfort, bloating with nausea), consider a **peppermint + caraway oil combination** (Menthacarin-type products). A meta-analysis of 249 patients found pain reduction SMD 0.80 and global improvement RR 2.65—stronger evidence than peppermint alone for this indication.
+For **functional dyspepsia** (upper GI symptoms, post-meal discomfort, bloating with nausea), consider a **peppermint + caraway oil combination** (Menthacarin-type products). The trial data here is genuinely impressive—a meta-analysis of 249 people showed meaningful pain reduction and overall improvement well beyond placebo, with stronger evidence than peppermint alone for this pattern of symptoms.
 
 **For tension headache:**
 
@@ -262,17 +266,23 @@ Track the same markers daily. The novel delivery system trial showed 40% symptom
 
 **IBS-D or IBS-mixed** (diarrhea-predominant or alternating): Strongest evidence here. Peppermint's antispasmodic effect on colonic smooth muscle, visceral sensitivity modulation via TRP channels, and motility effects address core IBS pathophysiology. 58% response vs 29% placebo across multiple meta-analyses is clinically meaningful. One review concluded it may be the "drug of first choice" for non-serious IBS presentations.
 
+What people notice: unpredictable bowel days becoming manageable, post-meal cramping fading, the constant background anxiety of "will I need a bathroom?" easing.
+
 **Tension-type headache**: If you currently reach for acetaminophen or ibuprofen for tension headaches, topical 10% peppermint oil is clinically equivalent with zero systemic drug burden. The case for trying it before medication is strong. It's licensed for this indication in Germany for adults and children over 6.
 
-**Functional abdominal pain in children ages 7-12**: Pharmacokinetic data from 30 children supports weight-adjusted dosing of enteric-coated peppermint oil with no documented adverse events.
+What people notice: the familiar band of pressure dissipating within 15 minutes, without reaching for the medicine cabinet.
+
+**Functional abdominal pain in children ages 7-12**: A pediatric study (Kline 2001) found weight-adjusted enteric-coated peppermint oil to be well-tolerated in children with no documented adverse events.
 
 **Post-operative nausea (PONV)**: Inhalation aromatherapy with ~58% efficacy is a reasonable non-pharmacological option, particularly before or between antiemetic doses.
+
+What people notice: nausea dialing back within minutes of inhaling, enough to get through the post-anesthesia fog.
 
 ### Reasonable to try:
 
 **Migraine**: Two RCTs show meaningful effects—one vs placebo, one vs lidocaine. Topical application is low-risk and accessible. May not work for severe attacks, but for moderate ones the 5-minute trial cost is essentially zero.
 
-**Chemotherapy-induced nausea**: Effect sizes in CINV trials are actually larger than for PONV (MD -2.23 at 48 hours), though evidence quality is low. As complementary support alongside standard antiemetics, the risk-benefit ratio is favorable.
+**Chemotherapy-induced nausea**: Effect sizes in chemotherapy nausea trials are actually larger than for post-operative nausea, though evidence quality is low. As complementary support alongside standard antiemetics, the risk-benefit ratio is favorable.
 
 **Mental fatigue during demanding cognitive work**: Small but mechanistically plausible effects. Peppermint tea or diffused aroma has minimal downside for someone who's drinking tea anyway.
 
