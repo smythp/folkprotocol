@@ -5,7 +5,7 @@ commonNames:
   - Marian thistle
   - Holy thistle
   - Saint Mary's thistle
-summary: "European liver herb with decades of genuine clinical evidence. Strong data for cirrhosis survival, fatty liver improvement, and protecting the liver from toxic drugs. One of the few herbal remedies where traditional use and multi-year RCTs directly align — with an equally clear negative result for hepatitis C."
+summary: "European liver herb with strong data for cirrhosis survival, fatty liver improvement, and hepatoprotection from toxic drugs. Traditional use and multi-year RCTs align — with an equally clear negative result for hepatitis C."
 
 uses:
   - liver cirrhosis

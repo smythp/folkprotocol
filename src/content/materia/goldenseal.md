@@ -6,7 +6,7 @@ commonNames:
   - yellow root
   - Indian dye
   - ground raspberry
-summary: "North American woodland herb with centuries of traditional use for mucosal conditions—but no therapeutic RCTs have ever been run. All human clinical evidence concerns drug metabolism: goldenseal inhibits CYP3A4 by 40–62% and CYP2D6 by ~40–50% in multiple human trials, affecting dozens of common medications. Short-term traditional use by healthy, drug-free adults is the only reasonably supported context."
+summary: "No therapeutic RCTs exist. All human evidence concerns drug metabolism: goldenseal inhibits CYP3A4 by 40–62% and CYP2D6 by ~50% in multiple trials, affecting dozens of medications. Short-term use by healthy, drug-free adults is the only supported context."
 
 uses:
   - antimicrobial

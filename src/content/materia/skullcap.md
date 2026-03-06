@@ -8,7 +8,7 @@ commonNames:
   - Chinese skullcap
   - Huang Qin
   - Baical skullcap
-summary: "North American nervine with real but limited clinical evidence for sleep and mood. A 56-day crossover trial (n=66) found +1.22 hours total sleep time and a clinically significant PSQI reduction. Mood improvement without sedation is the consistent signal. Rare but documented liver injury — including one transplant-listing case — requires active monitoring and certain absolute contraindications."
+summary: "North American nervine with limited clinical evidence for sleep and mood. A 56-day trial found +1.22 hours sleep time. Mood improvement without sedation is the consistent signal. Rare but documented liver injury requires monitoring."
 
 uses:
   - sleep
@@ -68,7 +68,7 @@ trying:
     - Sleep onset time and total sleep duration (from week 1)
     - Sleep quality on waking — refreshed vs. still tired
     - Mood baseline throughout day — morning, afternoon, evening
-    - Stress reactivity: how much daily irritations affect you
+    - "Stress reactivity: how much daily irritations affect you"
     - Energy and cognitive clarity (should be unchanged or improved — not sedated)
     - Any new fatigue, jaundice, right-sided abdominal discomfort, or dark urine (STOP immediately if these appear — liver warning signs)
   notes: "Start with the preparation matching your goal: 400mg standardized extract (10% baicalin) for sleep taken 1–2 hours before bed; 350mg whole herb three times daily for mood and anxiety. Tincture or tea are good starting points if you prefer gradual titration. Unlike valerian, skullcap typically produces no grogginess — the clinical trials specifically measured and found no reduction in energy or cognition. Confirm the product specifies S. lateriflora. Effects are cumulative and subtle — less mental background noise, less reactive to stress, better sleep structure. This is not a pharmacological hammer."

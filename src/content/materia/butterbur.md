@@ -5,7 +5,7 @@ commonNames:
   - pestilence wort
   - bog rhubarb
   - sweet coltsfoot
-summary: "The only herbal treatment to earn Level A evidence from the American Academy of Neurology for migraine prevention - until a product quality crisis forced the guideline's retirement. The clinical evidence for verified PA-free extracts remains intact. Two conditions, two distinct extracts, one non-negotiable safety requirement."
+summary: "The only herb to earn Level A evidence from the AAN for migraine prevention — until a product quality crisis forced guideline retirement. Clinical evidence for PA-free extracts remains intact. Two conditions, two extracts, one non-negotiable safety requirement."
 
 uses:
   - migraine

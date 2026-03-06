@@ -5,7 +5,7 @@ commonNames:
   - Eastern black walnut
   - American black walnut
 
-summary: "North American folk anthelmintic with deep Indigenous and Eclectic physician tradition — and zero human clinical trials. In vitro data supports antimicrobial and antifungal activity via juglone. The only regulatory recognition globally is Health Canada's 2022 traditional-use vermifuge claim. Juglone's Ames-positive mutagenicity limits internal use to short courses only."
+summary: "North American folk anthelmintic with zero human clinical trials. In vitro antimicrobial/antifungal activity via juglone. Health Canada's 2022 traditional-use vermifuge claim is the only regulatory recognition. Juglone's Ames-positive mutagenicity limits internal use to short courses."
 
 uses:
   - anthelmintic

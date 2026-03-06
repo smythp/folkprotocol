@@ -5,7 +5,7 @@ commonNames:
   - brandy mint
   - lamb mint
   - American mint
-summary: "One of the most evidence-backed herbs for digestive problems, with robust meta-analyses supporting its use for IBS and good evidence for tension headaches. The gap between traditional tea and pharmaceutical enteric-coated capsule matters enormously—choose your preparation based on what you're trying to treat."
+summary: "One of the most evidence-backed herbs for IBS, with robust meta-analyses and good evidence for tension headaches. The gap between tea and enteric-coated capsule matters — choose preparation based on what you're treating."
 
 uses:
   - IBS

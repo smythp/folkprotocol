@@ -6,7 +6,7 @@ commonNames:
   - bitter fennel
   - common fennel
   - finocchio
-summary: "Remarkably well-documented digestive and gynecological herb. Strong RCT evidence for menstrual pain — equivalent to NSAIDs in two meta-analyses. One of the best-studied herbs for infantile colic. Over 2,000 years of cross-cultural use, with modern trials validating the core traditional applications."
+summary: "Well-documented digestive and gynecological herb. Strong RCT evidence for menstrual pain — equivalent to NSAIDs in two meta-analyses. One of the best-studied herbs for infantile colic. 2,000+ years of cross-cultural use validated by modern trials."
 
 uses:
   - dysmenorrhea
