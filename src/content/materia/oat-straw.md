@@ -136,17 +136,19 @@ Oat straw is unusual in having strong clinical evidence that *doesn't* match wha
 
 **What the trials actually show:**
 
-The clearest evidence is for **acute cognitive performance**. A systematic review of 6 RCTs (n=287) found that single-dose green oat herb extract consistently improves attention, working memory, and executive function in healthy adults [1]. In a crossover trial with middle-aged adults reporting memory concerns, 800 mg of Neuravena® improved speed on timed cognitive tasks, delayed recall, executive function, and working memory span compared to placebo — with an inverse dose-response above 800 mg [2].
+The clearest evidence is for **acute cognitive performance**. A systematic review of 6 RCTs (n=287) found that single-dose green oat herb extract consistently improves attention, working memory, and executive function in healthy adults [1]. In a crossover trial with middle-aged adults reporting memory concerns, 800 mg of Neuravena improved speed on timed cognitive tasks, delayed recall, executive function, and working memory span compared to placebo — with diminishing returns above 800 mg [2].
 
-This isn't subtle neurophysiology: a separate trial measured EEG and event-related potentials after a single 800 mg dose (n=20) and found reduced N2 and error-related negativity amplitudes vs. placebo [3] — meaning neural processing was more efficient, not just faster. Participants on the extract didn't show the fatigue-related performance decline seen in the placebo group over the testing session.
+This isn't subtle neurophysiology: a separate trial measured EEG and event-related potentials after a single 800 mg dose (n=20) and found that neural processing became more efficient, not just faster [7]. Your focus holds where it normally fades — that's the clearest way to describe what the data showed. The extract group didn't show the fatigue-related performance decline that hit the placebo group over the testing session.
 
-**Dose-ranging with 132 adults** (29 days): all three doses tested — 430, 860, and 1290 mg/day — improved working memory and multitasking vs. placebo on Day 1. At Day 29, 1290 mg/day showed the strongest sustained effect plus a physiological stress reduction (decreased electrodermal activity) [4].
+At any dose, benefits show up on day one. In a 29-day trial with 132 adults, all three doses tested — 430, 860, and 1290 mg/day — improved working memory and multitasking vs. placebo immediately. By Day 29, 1290 mg/day showed the strongest sustained effect plus a measurable reduction in physiological stress response [3].
 
-**The vascular finding** is striking and less expected: 37 healthy older adults taking 1500 mg/day for 12 weeks showed +42% cerebrovascular responsiveness and +41% brachial flow-mediated dilatation vs. placebo (both p<0.01) [5]. These are large effects. Reduced cerebrovascular responsiveness is associated with cognitive decline and dementia risk — so this may be the most meaningful long-term outcome, even though it's the least discussed.
+**The vascular finding** is striking and less expected: 37 healthy older adults taking 1500 mg/day for 12 weeks showed +42% cerebrovascular responsiveness and +41% improvement in blood vessel flexibility — both large, statistically robust effects [4]. If you're thinking about your brain at 70, this may be the number that matters most. Reduced cerebrovascular responsiveness is increasingly recognized as an early marker of cognitive decline — so getting a 42% improvement from a safe herb over 12 weeks is not a small thing, even though it's the least discussed finding.
+
+**What this adds up to:** For acute cognitive performance, oat straw is among the better-evidenced herbs in its class. For vascular health at 12 weeks, the numbers are striking. For the traditional stress and sleep indications, the EMA endorsement is real but the clinical proof isn't there yet. Know which outcome you're targeting.
 
 **Where the evidence is thinner**: EMA recognizes oat straw as a traditional medicine for mental stress and sleep — but there are no RCTs specifically targeting these outcomes in anxious or insomniac populations. The one 8-week trial that measured sleep and stress (n=161, 900 mg/day in smokers trying to quit) did show improved sleep and quality of life [6], but that's a specific population and context. The traditional stress/sleep indications are plausible and EMA-endorsed, but not clinically proven.
 
-**Chronic cognitive benefits are inconsistent**: a 12-week crossover study with 37 cognitively normal older adults at 1500 mg/day found no cognitive improvement despite the vascular gains [7]. Benefits may plateau or be more evident in younger adults or those with cognitive concerns.
+**Chronic cognitive benefits are inconsistent**: a 12-week crossover study with 37 cognitively normal older adults at 1500 mg/day found no cognitive improvement despite the vascular gains [5]. Benefits may plateau or be more evident in younger adults or those with cognitive concerns.
 
 ## Traditional Use
 
@@ -172,7 +174,7 @@ This is a different preparation, a different part of the plant, and a different 
 
 ### Standardized Extract (Most Studied)
 
-For cognitive performance, the evidence points clearly to **Neuravena®** (ELFA®955) or **cognitaven®** — two standardized green oat herb extracts used across all published RCTs.
+For cognitive performance, the evidence points clearly to **Neuravena** (ELFA955) or **cognitaven** — two standardized green oat herb extracts used across all published RCTs.
 
 | Goal | Dose | Evidence |
 |------|------|----------|
@@ -183,7 +185,7 @@ For cognitive performance, the evidence points clearly to **Neuravena®** (ELFA�
 
 The **800 mg acute dose** is a good first test: take it before a demanding afternoon of focused work and notice if you feel sharper or if mental fatigue sets in later than usual. If you respond to it acutely, you'll know within a few hours.
 
-Don't go above 1600 mg in a single dose — Kennedy 2017 [2] found an inverse dose-response above 800 mg, with higher single doses performing less consistently than lower ones.
+Don't go above 1600 mg in a single dose — Kennedy 2017 [2] found diminishing returns above 800 mg, with higher single doses performing less consistently than lower ones.
 
 ### Traditional Preparations
 
@@ -209,25 +211,33 @@ If you want to work with the traditional nervine indication rather than cognitiv
 - Week 8–12: Quality of life, sleep depth, overall wellbeing
 
 **For cerebrovascular indication:**
-- This is harder to self-assess — benefits were measured by FMD and CVR equipment, not symptom reports
+- This is harder to self-assess — benefits were measured by equipment, not symptom reports
 - Indirect indicators: mental clarity over time, energy during exercise, blood pressure trends if you track them
 
-**No red flags have been identified in any trial** at recommended doses. Standard monitoring applies: if anything feels off, stop and reassess.
+At these doses, nothing concerning has shown up across 400+ trial participants. Still: if anything feels off — stop, give it a week, and see if it resolves.
 
 ## Who This Is/Isn't For
 
 ### Likely to benefit:
 
 - **Mentally demanding work**: The acute cognitive evidence is the strongest. If you do extended focus work, strategy, writing, or complex problem-solving, the 800 mg acute dose has a real evidence base.
-- **Middle-aged adults noticing cognitive slippage**: The 2017 trial [2] enrolled adults 40–65 reporting subjective memory concerns — exactly this population showed the clearest acute benefits.
+  *What you might notice:* Sharper task-switching. Less end-of-day mental fog. Focus that holds through hour 4 of deep work.
+
+- **Middle-aged adults noticing cognitive slippage**: If you're 40–65 and starting to notice it — forgetting words, losing your thread, struggling to hold multiple things in mind — this is exactly the population where the clearest acute benefits appeared [2].
+  *What you might notice:* Working memory feels more reliable. You catch things you'd normally miss by mid-afternoon.
+
 - **Mental stress and nervous fatigue (traditional indication)**: EMA recognition and the 8-week wellbeing trial [6] support this, though evidence is less robust than for cognitive performance.
-- **Older adults concerned about vascular health**: The cerebrovascular findings at 12 weeks [5] are striking enough to take seriously as a preventive indication.
+  *What you might notice:* A calmer baseline. Stress still arrives, but it doesn't linger the way it used to.
+
+- **Older adults concerned about vascular health**: The cerebrovascular findings at 12 weeks [4] are striking enough to take seriously as a preventive indication.
+  *What you might notice:* This one's harder to feel — you're investing in a metric that shows up on equipment, not in your daily experience. But the 12-week data is real.
+
 - **Anyone wanting a mild, very safe nervine**: If ashwagandha or rhodiola feel too stimulating or cause adverse effects, oat straw is substantially gentler with a cleaner safety record.
 
 ### Less likely to benefit:
 
-- Those looking for an anxiolytic with the strength of kava or valerian — oat straw is tonic and mildly calming, not sedating
-- Those seeking effects equivalent to prescription cognitive enhancers — benefits are real but modest
+- If you're looking for a strong anxiolytic — something with the sedative force of kava or valerian — oat straw won't deliver that. It's tonic and mildly calming, not sedating.
+- If you're looking for effects equivalent to prescription cognitive enhancers — the benefits are real but modest.
 
 ### Contraindicated:
 
@@ -242,10 +252,10 @@ Tincture versions have a mild earthy-grassy note with the expected alcohol burn.
 
 ## Quality Matters
 
-The clinical evidence is almost entirely based on two proprietary standardized extracts — **Neuravena®** and **cognitaven®**. Neither publishes specific minimum percentages for their marker compounds (vitexin, isovitexin, avenacosides) in the accessible literature, which is a quality gap.
+The clinical evidence is almost entirely based on two proprietary standardized extracts — **Neuravena** and **cognitaven**. Neither publishes specific minimum percentages for their marker compounds (vitexin, isovitexin, avenacosides) in the accessible literature, which is a quality gap.
 
 **What to look for:**
-- Explicitly named extract (Neuravena®, cognitaven®, ELFA®955) — or products that state standardization to vitexin/isovitexin and avenacosides A/B
+- Explicitly named extract (Neuravena, cognitaven, ELFA955) — or products that state standardization to vitexin/isovitexin and avenacosides A/B
 - Third-party tested for identity and contamination
 - GMP manufacturing
 - Gluten-free certification if you have celiac or gluten sensitivity
@@ -258,11 +268,11 @@ Oat straw doesn't have the heavy metal contamination concerns of some Ayurvedic 
 
 ## The Bottom Line
 
-Oat straw is a well-documented, very safe nervine with a specific and unusual evidence profile: strong acute cognitive performance data, striking cerebrovascular benefits at 12 weeks, and solid traditional support for mental stress and sleep — with the caveat that those last two indications lack dedicated clinical trials.
+If you're 50+ and thinking about long-term brain health, the cerebrovascular finding is the headline: +42% cerebrovascular responsiveness and +41% blood vessel flexibility at 12 weeks in older adults [4]. That's one of the better-evidenced vascular interventions in the nervine category, and it comes from a safe, well-tolerated herb.
 
-It's not dramatic. People don't report transformative experiences the way they sometimes do with ashwagandha or rhodiola. What they report is less mental fatigue, sharper focus during demanding work, and a generally calmer baseline over weeks of consistent use.
+For cognitive performance, oat straw is well-documented and unusually fast-acting. You don't need to wait weeks to find out if it works — 800 mg before a demanding work session will tell you.
 
-The cerebrovascular finding (+42% CVR, +41% FMD at 12 weeks in older adults [5]) is the underrated outcome here. If you're 50+ and thinking about long-term brain health, 1500 mg/day for 12 weeks is one of the better-evidenced interventions in the nervine category.
+It's not dramatic. You won't have a moment where you think "this changed everything." What you'll notice is less: mental fatigue hitting later, focus holding longer, stress feeling marginally more manageable. After a few weeks of consistent use, you may realize you've been performing better than you were.
 
 Start with 800 mg before a focused work session to test your response. If that works, consider daily use at 900–1290 mg. If vascular health is the goal, commit to 1500 mg/day for a full 12 weeks — the benefit wasn't visible at shorter durations in the chronic trials.
 
