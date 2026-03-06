@@ -1,0 +1,859 @@
+herb: areca-nut
+botanical_name: Areca catechu L.
+common_names:
+  - areca nut
+  - betel nut
+  - pinang (Malay/Indonesian)
+  - supari (Hindi)
+  - bing lang (Chinese, 槟榔)
+  - kramuk (Sanskrit)
+family: Arecaceae
+
+notes: |
+  CRITICAL SAFETY DISTINCTION: Areca nut (Areca catechu seed) is classified by IARC as a
+  Group 1 human carcinogen (Vol. 85, 2004) — causing oral, pharyngeal, and esophageal cancers.
+  Arecoline, its primary alkaloid, is classified Group 2B (possibly carcinogenic, IARC Vol. 128,
+  2021). This applies to the nut itself, regardless of tobacco co-use. Consumed by ~600 million
+  people globally, it is the fourth most widely used psychoactive substance after tobacco, alcohol,
+  and caffeine. In traditional medicine (TCM, Ayurveda), low-dose areca nut preparations have
+  documented anthelmintic, gastrointestinal, and antidepressant uses. Modern clinical research
+  primarily documents harm (oral submucous fibrosis, cancers, metabolic syndrome, dependence),
+  with a smaller body of research investigating potential therapeutic applications of arecoline
+  (notably cholinergic effects in Alzheimer's disease). The Chinese Pharmacopoeia has included
+  areca nut since 1953.
+
+sources:
+
+  # ─── IARC / REGULATORY MONOGRAPHS ────────────────────────────────────────────
+
+  - id: iarc_2004_vol85
+    title: "Betel-quid and Areca-nut Chewing and Some Areca-nut-derived Nitrosamines"
+    authors:
+      - "IARC Working Group on the Evaluation of Carcinogenic Risks to Humans"
+    year: 2004
+    publisher: "International Agency for Research on Cancer (IARC/WHO)"
+    series: "IARC Monographs on the Identification of Carcinogenic Hazards to Humans"
+    volume: 85
+    url: https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Betel-quid-And-Areca-nut-Chewing-And-Some-Areca-nut-derived-Nitrosamines-2004
+    ncbi_bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK316567/
+    study_type: regulatory_monograph
+    meeting_date: "June 2003"
+    key_findings:
+      - "Areca nut alone: Group 1 carcinogen (sufficient evidence in humans)"
+      - "Betel quid WITH tobacco: Group 1 carcinogen — causes oral, pharyngeal, esophageal cancer"
+      - "Betel quid WITHOUT tobacco: Group 1 carcinogen — causes oral cancer (upgraded from Vol. 37)"
+      - "Oral submucous fibrosis documented as precancerous condition linked to areca nut"
+      - "Areca nut-derived nitrosamines (MNPN, others) identified as likely mechanistic contributors"
+      - "600+ million users estimated globally at time of evaluation"
+    critical_note: >
+      This is the foundational regulatory document establishing areca nut as a standalone Group 1
+      carcinogen — separate from tobacco co-use. Unlike betel leaf (Piper betle), the nut itself
+      carries this classification.
+
+  - id: iarc_2021_vol128
+    title: "Acrolein, Crotonaldehyde, and Arecoline"
+    authors:
+      - "IARC Working Group on the Identification of Carcinogenic Hazards to Humans"
+    year: 2021
+    publisher: "International Agency for Research on Cancer (IARC/WHO)"
+    series: "IARC Monographs on the Identification of Carcinogenic Hazards to Humans"
+    volume: 128
+    url: https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Acrolein-Crotonaldehyde-And-Arecoline-2021
+    ncbi_bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK589584/
+    study_type: regulatory_monograph
+    meeting_date: "October 29 – November 13, 2020 (remote)"
+    publication_date: "November 17, 2021"
+    key_findings:
+      - "Arecoline (primary alkaloid of areca nut): Group 2A — probably carcinogenic to humans"
+      - "Sufficient evidence in experimental animals for carcinogenicity of arecoline"
+      - "Limited evidence in humans; mechanistic evidence supports probable human carcinogenicity"
+      - "Arecoline undergoes hydrolysis to arecaidine (also genotoxic) and N-oxidation in human liver"
+      - "Arecoline is a substrate for CES1 (carboxylesterase 1) with high hepatic clearance"
+      - "Arecoline inhibits p53, represses DNA repair, and triggers DNA damage response in epithelial cells"
+    compound_classified: arecoline (major alkaloid, 0.30–0.63% of fresh seed weight)
+
+  - id: iarc_2012_vol100e
+    title: "Personal Habits and Indoor Combustions — Section: Betel Quid and Areca Nut"
+    authors:
+      - "IARC Working Group on the Evaluation of Carcinogenic Risks to Humans"
+    year: 2012
+    publisher: "International Agency for Research on Cancer (IARC/WHO)"
+    series: "IARC Monographs on the Identification of Carcinogenic Hazards to Humans"
+    volume: "100E"
+    url: https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Personal-Habits-And-Indoor-Combustions-2012
+    ncbi_bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK304393/
+    study_type: regulatory_monograph
+    key_findings:
+      - "Updated and upheld Group 1 classification for areca nut from Volume 85 (2004)"
+      - "Areca nut confirmed as established cause of oral cancer and oral cancer-related deaths"
+      - "Incorporated new epidemiological data from 2003–2012 period"
+      - "Oral submucous fibrosis confirmed as mechanistically central areca-nut-induced precancerous condition"
+      - "Classification applies to areca nut chewed without tobacco — independent carcinogenic risk"
+    carcinogen_classification: "Group 1 (confirmed; update of Vol. 85)"
+
+  # ─── COMPREHENSIVE REVIEWS & OVERVIEWS ───────────────────────────────────────
+
+  - id: lin_2024_traditional_pharmacology_toxicology
+    title: "A review of the traditional uses, pharmacology, and toxicology of areca nut"
+    authors:
+      - Lin, Yuheng
+      - et al.
+    year: 2024
+    journal: Journal of Ethnopharmacology
+    pubmed_id: "39241389"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39241389/
+    study_type: comprehensive_review
+    key_findings:
+      - "Over 59 compounds isolated: alkaloids (arecoline, arecaidine, guvacoline, guvacine), tannins, flavones, triterpenes, steroids, fatty acids"
+      - "Alkaloid content: total 0.3–0.7% of seed; arecoline 0.30–0.63%, arecaidine 0.31–0.66%, guvacoline 0.03–0.06%, guvacine 0.19–0.72%"
+      - "Tannins (primarily proanthocyanidins: catechins, arecatannin, proanthocyanidin A and B) are major components responsible for astringency"
+      - "Low-dose pharmacological effects: anthelmintic, anti-inflammatory, improved GI motility, lipid-lowering, anti-atherosclerotic, antidepressant"
+      - "High-dose/chronic use: oral cancer, oral submucous fibrosis, metabolic syndrome, dependence"
+      - "Dose-dependent relationship between pharmacological and toxicological effects documented"
+      - "Chinese Pharmacopoeia inclusion since 1953; ranks first among China's 'four southern medicines'"
+      - "Clinical trials remain limited; further extensive trials recommended"
+    traditional_systems:
+      - Traditional Chinese Medicine (TCM): anthelmintic, digestive, qi-moving
+      - Ayurveda: kramuka, used for digestive complaints, mouth freshening
+      - Southeast Asian traditional medicine: stimulant, antiparasitic
+
+  - id: guo_2024_biological_effects
+    title: "Biological Effects and Biomedical Applications of Areca Nut and Its Extract"
+    authors:
+      - Guo, Fangfang
+      - et al.
+    year: 2024
+    journal: Nutrients
+    pubmed_id: "38399443"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38399443/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10893415/
+    study_type: comprehensive_review
+    key_findings:
+      - "Biomedical applications reviewed: anthelmintic, antimicrobial, anti-inflammatory, antidepressant, antifatigue, lipid-lowering, GI motility enhancement"
+      - "Arecoline acts as muscarinic (M1–M3) and nicotinic receptor agonist; basis of cholinergic, GI, and CNS effects"
+      - "Areca nut polyphenols (proanthocyanidins) show antioxidant and antimicrobial activity in vitro"
+      - "Gut microbiota may enhance bioavailability of polyphenols by metabolizing them to higher-activity forms"
+      - "Bioavailability of tannin fraction remains a key research gap"
+      - "No standardized extract formulation or clinical dosing established for therapeutic use"
+
+  - id: chen_2024_bioactive_components
+    title: "Bioactive Components of Areca Nut: An Overview of Their Positive Impacts Targeting Different Organs"
+    authors:
+      - Chen, Jing
+      - et al.
+    year: 2024
+    journal: Molecules
+    pubmed_id: "38474629"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38474629/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10935369/
+    study_type: narrative_review
+    key_findings:
+      - "Organ-targeted effects reviewed: CNS (arecoline: cholinergic, antidepressant), GI (motility enhancement), cardiovascular (lipid-lowering)"
+      - "Arecoline enhances lower esophageal sphincter contraction — possible GERD therapy application"
+      - "Polyphenol fraction: antimicrobial, antioxidant, anti-inflammatory at preclinical level"
+      - "Areca pericarp (husk) extract distinct from seed extract with different polyphenol profile"
+      - "Standardization challenge: alkaloid content varies with nut maturity, geographic origin, processing"
+
+  - id: zhang_2024_arecoline_review
+    title: "Recent Advance on Biological Activity and Toxicity of Arecoline in Edible Areca (Betel) Nut: A Review"
+    authors:
+      - Zhang, Liang
+      - et al.
+    year: 2024
+    journal: Foods
+    pubmed_id: "39682896"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39682896/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11639887/
+    study_type: narrative_review
+    key_findings:
+      - "Arecoline: muscarinic receptor partial agonist (Ki M1 ~2 μM, M2 ~1 μM, M3 ~1 μM)"
+      - "Anthelmintic mechanism: arecoline causes paralysis of cestode musculature at low mM concentrations"
+      - "Antidepressant mechanism: elevates hippocampal serotonin, noradrenaline, dopamine in rodent models"
+      - "Toxicity: induces G2/M cell cycle arrest, DNA strand breaks, p53 suppression in epithelial cells"
+      - "Oral LD50 (rats): 100 mg/kg; cholinergic side effects (nausea, salivation, sweating) at therapeutic range"
+      - "Arecoline hydrobromide used historically for anthelmintic dosing: 2–4 mg/kg in animals"
+      - "Half-life in humans: bimodal — initial t½ ~0.95 min, terminal t½ ~9.3 min (IV, Alzheimer's studies)"
+
+  - id: wang_2021_chemical_composition
+    title: "Chemical Composition, Pharmacological, and Toxicological Effects of Betel Nut"
+    authors:
+      - Wang, Chia-Hao
+      - et al.
+    year: 2021
+    journal: Evidence-Based Complementary and Alternative Medicine
+    pubmed_id: "34630598"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/34630598/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8387188/
+    study_type: literature_review
+    key_findings:
+      - "Chemical composition: arecoline (primary psychoactive), arecaidine, guvacoline, guvacine, proanthocyanidins, gallic acid, catechins, fatty acids (lauric, myristic, palmitic, oleic)"
+      - "Fat content: 14–18% (primarily lauric acid); carbohydrate: 15%; protein: 5–6% per seed"
+      - "Processing (drying, boiling, lime addition) significantly alters alkaloid profile and concentration"
+      - "Anthelmintic efficacy documented for tapeworm (Taenia spp.) in traditional settings; mechanism: flaccid paralysis"
+      - "TCM indication: Qi-moving, parasitic infections, constipation, oedema, malaria (combined formulas)"
+
+  - id: li_2023_controversial_roles
+    title: "The Controversial Roles of Areca Nut: Medicine or Toxin?"
+    authors:
+      - Li, Kai
+      - et al.
+    year: 2023
+    journal: Oxidative Medicine and Cellular Longevity
+    pubmed_id: "37220521"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/37220521/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10219234/
+    study_type: review
+    key_findings:
+      - "Dual identity: WHO-listed carcinogen and China Pharmacopoeia-listed herbal medicine"
+      - "Dose-response threshold proposed: low-dose → therapeutic; chronic high-dose → carcinogenic/fibrogenic"
+      - "Anti-inflammatory pathway: polyphenol fraction inhibits NF-κB and COX-2 in preclinical models"
+      - "Antidepressant effect: monoamine modulation (serotonin, noradrenaline, dopamine elevation)"
+      - "Oral submucous fibrosis: arecoline stimulates TGF-β and collagen synthesis in buccal fibroblasts"
+      - "No clinical consensus on a safe therapeutic dose; dose-safety threshold not established in humans"
+
+  - id: wu_2015_areca_catechu_review
+    title: "Areca catechu L. (Arecaceae): a review of its traditional uses, botany, phytochemistry, pharmacology and toxicology"
+    authors:
+      - Wu, Peng-Li
+      - et al.
+    year: 2015
+    journal: Journal of Ethnopharmacology
+    pubmed_id: "25681543"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25681543/
+    study_type: comprehensive_review
+    key_findings:
+      - "Traditional anthelmintic dose (TCM): decoction of 6–15 g dried seed; 30–60 g for tapeworm"
+      - "Pharmacopoeial actions listed: xing qi (move qi), li shui (promote urination, resolve dampness), sha chong (kill parasites)"
+      - "Alkaloid biosynthetic pathway (ornithine → N-methylornithine → arecoline) mapped"
+      - "59+ secondary metabolites identified; alkaloid-tannin interaction affects bioavailability"
+      - "Clinical trials absent for most traditional indications reviewed"
+      - "Animal anthelmintic efficacy: 98% tapeworm clearance in dogs at 40 mg arecoline hydrobromide orally"
+
+  # ─── PHARMACOKINETICS & TOXICOKINETICS ───────────────────────────────────────
+
+  - id: marques_2021_genetic_toxicology
+    title: "Genetic toxicology and toxicokinetics of arecoline and related areca nut compounds: an updated review"
+    authors:
+      - Marques, Catarina
+      - et al.
+    year: 2021
+    journal: Archives of Toxicology
+    pubmed_id: "33097969"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33097969/
+    study_type: toxicokinetics_review
+    key_findings:
+      - "Arecoline rapidly absorbed orally; peak plasma concentration in <30 min in animal models"
+      - "Extensive first-pass metabolism: hydrolysis to arecaidine (also genotoxic) via CES1 and plasma esterases"
+      - "Additional metabolic pathways: N-oxidation (FMO3), glutathionylation, nitrosamine formation"
+      - "Genotoxicity: clastogenic effects in multiple in vitro and in vivo assays; DNA strand breaks, micronuclei"
+      - "Arecaidine (hydrolysis product): DNA cross-linking and strand-break activity comparable to arecoline"
+      - "Guvacoline and guvacine: weaker activity; less well-studied toxicokinetics"
+      - "Human pharmacokinetic data sparse; extrapolation from animal models carries significant uncertainty"
+
+  - id: nobile_2022_metabolism_alkaloids
+    title: "Metabolism of the areca alkaloids - toxic and psychoactive constituents of the areca (betel) nut"
+    authors:
+      - Nobile, Sara
+      - et al.
+    year: 2022
+    journal: Drug Metabolism Reviews
+    pubmed_id: "35543097"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35543097/
+    study_type: pharmacokinetics_review
+    key_findings:
+      - "Four major alkaloids (arecoline, arecaidine, guvacoline, guvacine) all contain labile methyl ester or amine groups"
+      - "Arecoline undergoes: hydrolysis → arecaidine; N-oxidation → arecoline N-oxide; carbon double-bond reduction → arecaidine"
+      - "Nitrosation: arecoline converts to MNPN (methyl-(acetonyl)nitrosamine) — known rodent carcinogen"
+      - "CYP450 involvement minimal; CES1 is primary hepatic enzyme for arecoline hydrolysis"
+      - "Urinary metabolite profiles of betel quid chewers: arecoline, arecaidine, guvacoline, guvacine + glucuronide conjugates"
+      - "Salivary alkaloid measurements validated as biomarkers for cessation monitoring (BENIT trial)"
+      - "Human clearance of arecoline: very rapid — near-complete within 1–2 hours of single dose"
+
+  - id: wargovich_2024_hydrolysis_human_liver
+    title: "In vitro hydrolysis of areca nut xenobiotics in human liver"
+    authors:
+      - Wargovich, Michael J.
+      - et al.
+    year: 2024
+    journal: Xenobiotica
+    pubmed_id: "39667079"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/39667079/
+    study_type: pharmacokinetics_in_vitro
+    model: "Human liver microsomes and S9 fractions"
+    key_findings:
+      - "Arecoline hydrolysis in human liver is rapid with high intrinsic clearance (CLint)"
+      - "CES1 confirmed as primary enzyme for arecoline → arecaidine conversion in human liver"
+      - "Hydrolysis rate varies with liver microsomal protein concentration in linear fashion"
+      - "CES1 inhibitor (BNPP) abolishes arecoline hydrolysis — confirms enzymatic specificity"
+      - "Arecaidine formation from arecoline is quantitatively significant in human hepatic tissue"
+      - "Findings support rapid systemic clearance but local oral tissue exposure sustained during chewing"
+
+  - id: pang_1996_clinical_pharmacokinetics
+    title: "Clinical pharmacokinetics of arecoline in subjects with Alzheimer's disease"
+    authors:
+      - Pang, Zhen
+      - et al.
+    year: 1996
+    journal: Clinical Pharmacology and Therapeutics
+    pubmed_id: "8841150"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/8841150/
+    study_type: clinical_pharmacokinetics
+    design: "Intravenous infusion — single high dose (5 mg over 30 min) + chronic multiple-dose steady-state infusions up to 2 weeks"
+    sample_size: 15
+    population: "Subjects with mild to moderate Alzheimer's disease"
+    key_findings:
+      - "Bimodal plasma half-life: initial t½ = 0.95 ± 0.54 min; terminal t½ = 9.3 ± 4.5 min"
+      - "Optimal therapeutic dose varied fourfold across subjects: 4 mg/day (n=6) vs 16 mg/day (n=3)"
+      - "Volume of distribution large (rapid tissue distribution); plasma concentrations low during infusion"
+      - "No accumulation during chronic infusion at stable dose"
+      - "Cholinergic side effects (sweating, salivation, GI upset) dose-limiting at higher infusion rates"
+    dosing_notes: "Optimal IV dose determined individually; no fixed mg/kg formula applicable across subjects"
+    bioavailability_notes: "IV route used to bypass rapid first-pass hydrolysis; oral bioavailability not measured in this study"
+
+  # ─── CLINICAL STUDIES: ARECOLINE IN ALZHEIMER'S DISEASE ─────────────────────
+
+  - id: sitaram_1981_physostigmine_arecoline
+    title: "Physostigmine and arecoline: effects of intravenous infusions in Alzheimer presenile dementia"
+    authors:
+      - Sitaram, Natraj
+      - Weingartner, Herbert
+      - Caine, E.D.
+      - Gillin, J. Christian
+    year: 1981
+    journal: Science
+    volume: 211
+    pages: "1085-1087"
+    pubmed_id: "7023592"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/7023592/
+    study_type: clinical_trial
+    design: "Crossover, placebo-controlled IV infusion study"
+    sample_size: 10
+    population: "Patients with Alzheimer presenile dementia"
+    intervention: "Arecoline IV infusion (dose not specified in abstract); physostigmine IV comparator"
+    key_findings:
+      - "Both arecoline and physostigmine produced significant improvement in serial learning tasks vs placebo"
+      - "First human clinical demonstration of cholinomimetic benefit in Alzheimer's cognitive deficits"
+      - "Arecoline effect comparable to physostigmine on memory encoding tasks"
+      - "Cholinergic hypothesis of Alzheimer's disease supported by both agents"
+    historical_significance: "Pioneering study establishing arecoline as a cholinomimetic probe in human Alzheimer's research"
+
+  - id: davidson_1988_multiple_dose
+    title: "Multiple-dose arecoline infusions in Alzheimer's disease"
+    authors:
+      - Davidson, M.
+      - et al.
+    year: 1988
+    journal: Psychopharmacology
+    pubmed_id: "3048224"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/3048224/
+    study_type: clinical_trial
+    design: "Multiple-dose IV infusion, dose-escalation"
+    population: "Patients with Alzheimer's disease"
+    key_findings:
+      - "Repeated arecoline infusions produced transient improvements in specific cognitive domains"
+      - "Dose-response relationship observed: verbal ability improved at lower doses; attention/visuospatial at higher doses"
+      - "No statistically significant improvement on most episodic learning tasks"
+      - "Marginal improvements in picture recognition and word-finding at lower doses"
+      - "Individual variability in cognitive response was high"
+
+  - id: raffaele_1991_long_term_infusion
+    title: "Effects of long-term continuous infusion of the muscarinic cholinergic agonist arecoline on verbal memory in dementia of the Alzheimer type"
+    authors:
+      - Raffaele, Kenneth C.
+      - et al.
+    year: 1991
+    journal: Psychopharmacology
+    pubmed_id: "1775605"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/1775605/
+    study_type: clinical_trial
+    design: "Open-label, continuous IV infusion for up to 2 weeks; dose-finding phase"
+    sample_size: 9
+    population: "Mild to moderate Alzheimer's disease"
+    intervention: "Continuous IV arecoline, individually optimized dose (4–16 mg/day)"
+    key_findings:
+      - "5 of 9 subjects showed significant, replicable improvement in verbal memory"
+      - "Long-term recall on selective reminding task: improved from 11.8 to 20.1 words (p < 0.05) at 4 mg/day"
+      - "Cognitive response correlated with intact cholinergic system as measured by EEG spectral analysis"
+      - "No cholinergic side effects during chronic low-dose infusion in responders"
+      - "Non-responders showed no benefit at any dose tested"
+    dosing: "Optimized individually; effective range 4–16 mg/day IV continuous infusion"
+    safety_notes: "Well-tolerated at individually optimized doses; side effects (salivation, nausea) dose-limiting if exceeded"
+
+  - id: soncrant_1993_memory_improvement
+    title: "Memory improvement without toxicity during chronic, low dose intravenous arecoline in Alzheimer's disease"
+    authors:
+      - Soncrant, Timothy T.
+      - Raffaele, Kenneth C.
+      - et al.
+    year: 1993
+    journal: Psychopharmacology
+    pubmed_id: "7871052"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/7871052/
+    study_type: clinical_trial
+    design: "Dose-finding, continuous IV arecoline infusion"
+    sample_size: 9
+    population: "Mild to moderate Alzheimer's disease"
+    intervention: "Arecoline IV 4 mg/day (optimal responder dose)"
+    key_findings:
+      - "Memory improvement significant and reproducible in ~55% of subjects (5/9)"
+      - "Verbal memory (selective reminding): 11.8 → 20.1 words recalled (p < 0.05)"
+      - "No plasma cortisol, ACTH, or beta-endorphin changes — no neuroendocrine stress response"
+      - "Adverse effects absent at 4 mg/day continuous infusion"
+      - "Safety profile at this dose characterized as favorable for further development"
+    dosing: "4 mg/day continuous IV infusion (optimal dose for cognitive responders)"
+
+  - id: raffaele_1996_differential_response
+    title: "Differential response to the cholinergic agonist arecoline among different cognitive modalities in Alzheimer's disease"
+    authors:
+      - Raffaele, Kenneth C.
+      - et al.
+    year: 1996
+    journal: Neuropsychopharmacology
+    pubmed_id: "8840352"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/8840352/
+    study_type: clinical_trial
+    design: "Dose-escalation IV infusion crossover"
+    sample_size: 15
+    population: "Subjects with Alzheimer's disease"
+    key_findings:
+      - "Verbal ability improved preferentially at LOW doses of arecoline"
+      - "Attention and visuospatial ability improved at HIGHER doses"
+      - "Dose-modality interaction statistically significant — different cognitive domains have different optimal doses"
+      - "Inverted U-dose-response curve observed: too high or too low doses ineffective"
+      - "Optimal individual doses ranged fourfold across subjects (4–16 mg/day IV)"
+    clinical_significance: "Establishes dose-modality specificity; supports individualized dosing for potential cholinomimetic therapies"
+
+  # ─── SYSTEMATIC REVIEWS & META-ANALYSES ──────────────────────────────────────
+
+  - id: yunus_2024_diabetes_meta_analysis
+    title: "Type 2 diabetes associated with areca nut usage: A systematic review and meta-analysis"
+    authors:
+      - Yunus, Md Nazmul
+      - et al.
+    year: 2024
+    journal: Diabetes Research and Clinical Practice
+    pubmed_id: "38428680"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/38428680/
+    study_type: systematic_review_meta_analysis
+    key_findings:
+      - "Pooled odds ratio for type 2 diabetes: OR = 1.45 (95% CI: 1.30–1.62) for current/ex-chewers vs never-chewers"
+      - "Dose-response trend: longer duration and higher frequency of chewing → greater diabetes risk"
+      - "Arecoline's GABA receptor antagonism implicated in pancreatic β-cell dysfunction"
+      - "Metabolic syndrome components (central obesity, hypertriglyceridaemia, hyperglycaemia) all elevated in chewers"
+      - "Confounding by tobacco co-use acknowledged but OR remains significant in tobacco-free chewer subgroup"
+    population: "Predominantly South and Southeast Asian populations"
+    clinical_significance: "Strongest quantitative estimate of areca nut-associated diabetes risk to date"
+
+  - id: murthy_2022_osf_malignant_transformation
+    title: "Malignant Transformation Rate of Oral Submucous Fibrosis: A Systematic Review and Meta-Analysis"
+    authors:
+      - Murthy, Vidhya
+      - Mylonas, Petros
+      - Carey, Barbara
+      - et al.
+    year: 2022
+    journal: Journal of Clinical Medicine
+    pubmed_id: "35407401"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35407401/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8999767/
+    epub_date: "2022 Mar 24"
+    study_type: systematic_review_meta_analysis
+    period_searched: "1956–2021"
+    statistical_model: random_effects
+    quality_assessment: Newcastle-Ottawa Scale
+    key_findings:
+      - "Overall malignant transformation rate from oral submucous fibrosis (OSF): 6% (95% CI 2–10%)"
+      - "OSF is the primary areca-nut-induced obligate precancerous condition en route to oral cancer"
+      - "Transformation risk is cumulative with duration and intensity of areca nut use"
+      - "Histological grade correlates with transformation risk"
+      - "No curative intervention exists; early detection critical"
+    clinical_significance: "Quantifies malignant transformation risk of areca-nut-induced OSF at population level; 6% lifetime transformation underpins public health urgency"
+
+  - id: misra_2014_systemic_adverse_effects
+    title: "A review of the systemic adverse effects of areca nut or betel nut"
+    authors:
+      - Misra, Vineeta
+      - Singh, Nootan Kumar
+    year: 2014
+    journal: Indian Journal of Medical Sciences
+    pubmed_id: "25006276"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25006276/
+    study_type: review
+    key_findings:
+      - "Cardiovascular: 7 studies linked areca nut chewing to cardiovascular disorders; 3 to cerebrovascular disorders"
+      - "Metabolic: 8 studies linked to obesity, hyperglycaemia, metabolic syndrome, and T2DM"
+      - "Oral: oral submucous fibrosis (OSF), leukoplakia, erythroplakia, oral squamous cell carcinoma"
+      - "Reproductive: association with low birth weight, preterm labour, gestational complications in South Asian cohorts"
+      - "Pulmonary: asthma exacerbation; arecoline stimulates bronchial smooth muscle contraction"
+      - "Hepatotoxicity: rare reports of areca nut-associated liver injury (see LiverTox)"
+
+  - id: warnakulasuriya_2022_oral_cancer_human_evidence
+    title: "Areca Nut and Oral Cancer: Evidence from Studies Conducted in Humans"
+    authors:
+      - Warnakulasuriya, Saman
+      - Chen, Tony H-H
+    year: 2022
+    journal: Journal of Dental Research
+    volume: 101
+    issue: 10
+    pages: "1139–1146"
+    epub_date: "2022 Apr 22"
+    pubmed_id: "35459408"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35459408/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9397398/
+    study_type: systematic_review
+    key_findings:
+      - "Pooled adjusted relative risk for oral cancer in areca nut users: 7.9 (95% CI 7.1–8.7)"
+      - "Areca nut chewing (without tobacco) significantly associated with oral squamous cell carcinoma (OSCC)"
+      - "Dose-response relationship confirmed in multiple study populations"
+      - "Arecoline and reactive oxygen species implicated in epithelial-to-mesenchymal transition in buccal mucosa"
+      - "Nitrosamines formed from areca alkaloids during chewing constitute additional carcinogenic burden"
+      - "Mechanistic pathways: nitrosamine formation, reactive oxygen species, direct DNA damage"
+
+  # ─── CLINICAL STUDIES: SCHIZOPHRENIA (OBSERVATIONAL) ─────────────────────────
+
+  - id: sullivan_2000_schizophrenia_palau_cross_sectional
+    title: "Effects of chewing betel nut (Areca catechu) on the symptoms of people with schizophrenia in Palau, Micronesia"
+    authors:
+      - Sullivan, Roger J
+      - Allen, John S
+      - Otto, Chris
+      - Tiobech, Josepha
+      - Nero, Karen
+    year: 2000
+    journal: British Journal of Psychiatry
+    volume: 177
+    pages: "174–178"
+    pubmed_id: "11026959"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/11026959/
+    study_type: cross_sectional_observational
+    sample_size: 70
+    sample_breakdown: "40 betel nut chewers, 30 non-chewers; all with diagnosed schizophrenia"
+    assessment_tools: "Positive and Negative Syndrome Scale (PANSS); Extrapyramidal Symptom Rating Scale (ESRS)"
+    key_findings:
+      - "Betel chewers scored significantly lower on PANSS positive subscale (P = 0.001)"
+      - "Betel chewers scored significantly lower on PANSS negative subscale (P = 0.002)"
+      - "Lower symptom burden in chewers not fully explained by other variables"
+      - "Areca nut contains 9 alkaloids with muscarinic and nicotinic action"
+    mechanism_hypothesis: "Muscarinic M1 agonism by arecoline may reduce positive/negative schizophrenia symptoms via cholinergic-dopaminergic interaction"
+    limitations: "Cross-sectional design; betel quid used (not isolated areca nut); confounding by tobacco in some quid preparations"
+
+  - id: sullivan_2007_schizophrenia_palau_longitudinal
+    title: "The effects of an indigenous muscarinic drug, Betel nut (Areca catechu), on the symptoms of schizophrenia: a longitudinal study in Palau, Micronesia"
+    authors:
+      - Sullivan, Roger J
+      - et al.
+    year: 2007
+    journal: American Journal of Psychiatry
+    pubmed_id: "17403982"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/17403982/
+    study_type: longitudinal_observational
+    population: "Schizophrenic patients in Palau, Micronesia; longitudinal follow-up cohort"
+    key_findings:
+      - "Male high-consumption betel chewers had significantly lower positive symptoms than low consumers or non-users"
+      - "Longitudinal design strengthens cross-sectional findings from Sullivan 2000"
+      - "Findings suggest areca nut alkaloids may produce clinically meaningful reduction in positive symptoms"
+      - "Cholinomimetic pathway: muscarinic M1 agonism by arecoline potentially antipsychotic"
+    historical_significance: "This observational line of research contributed to development of muscarinic M1/M4 agonists (xanomeline-trospium / Cobenfy, FDA-approved 2024) as novel schizophrenia therapeutics"
+    limitations: "Observational; confounding by betel leaf, slaked lime, and tobacco components of quid; dose not controlled"
+
+  - id: nepal_2009_schizophrenia_longitudinal
+    title: "Associations between betel nut (Areca catechu) and symptoms of schizophrenia among patients in Nepal: A longitudinal study"
+    year: 2009
+    pubmed_id: "19748131"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/19748131/
+    study_type: longitudinal_observational
+    population: "Schizophrenic patients in Nepal"
+    key_findings:
+      - "Replicated associations between betel nut use and reduced schizophrenia symptoms in an independent South Asian population"
+      - "Cross-cultural validation of Palau findings in a geographically distinct cohort"
+      - "Lower PANSS scores associated with regular betel nut use"
+    significance: "Independent replication of cholinergic hypothesis in schizophrenia using naturalistic betel nut use"
+
+  # ─── CLINICAL STUDIES: ANTIPARASITIC IN HUMANS ────────────────────────────────
+
+  - id: an_2012_taeniasis_areca_pumpkin
+    title: "Usefulness of pumpkin seeds combined with areca nut extract in community-based treatment of human taeniasis in northwest Sichuan Province, China"
+    year: 2012
+    journal: Acta Tropica
+    volume: 124
+    issue: 2
+    pages: "152–157"
+    pubmed_id: "22910218"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22910218/
+    study_type: community_based_human_treatment_study
+    population: "Confirmed taeniasis cases (Taenia spp.), northwest Sichuan Province, China"
+    design: "Three-arm comparison: pumpkin seeds alone vs. areca nut extract alone vs. combination"
+    key_findings:
+      - "Areca nut extract alone: 63.6% (7/11) expelled whole tapeworms; mean expulsion time 6 h 27 min (range 1–22 h)"
+      - "Pumpkin seeds alone: 75.0% (9/12) expelled whole tapeworms; mean time 14 h 10 min (range 3 h 20 min – 21 h 20 min)"
+      - "Combination: synergistic effect — faster expulsion than either component alone (mean ~2 h)"
+      - "Adverse effects in combination group: mild nausea and dizziness in ~46.3% of patients; all transient and well-tolerated"
+      - "Confirms traditional TCM use of areca nut for tapeworm elimination"
+    significance: "Human evidence for areca nut extract anthelmintic efficacy; supports Chinese Pharmacopoeia antiparasitic indication"
+
+  # ─── CESSATION CLINICAL TRIAL (BENIT) ────────────────────────────────────────
+
+  - id: tsoh_2020_benit_design
+    title: "Rationale and design of a randomized, controlled, superiority trial on areca nut/betel quid cessation: The Betel Nut Intervention Trial (BENIT)"
+    authors:
+      - Tsoh, Janice Y.
+      - et al.
+    year: 2020
+    journal: Contemporary Clinical Trials Communications
+    pubmed_id: "32154430"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32154430/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7052403/
+    study_type: rct_protocol
+    design: "Randomized, controlled, superiority trial"
+    setting: "Guam and Saipan (Pacific Islands); enrolled August 2016"
+    sample_size: 176
+    randomization: "88 intervention, 88 control"
+    intervention: "5 in-person behavioral counseling sessions over 22 days + cessation brochure"
+    comparator: "Cessation brochure only"
+    primary_outcome: "7-day point-prevalence abstinence from areca nut/betel quid at day 22"
+
+  - id: tsoh_2023_benit_outcomes
+    title: "The Betel Nut Intervention Trial (BENIT) — A Randomized Clinical Trial for Areca Nut and Betel Quid Cessation: Primary Outcomes"
+    authors:
+      - Tsoh, Janice Y.
+      - et al.
+    year: 2023
+    journal: International Journal of Environmental Research and Public Health
+    pubmed_id: "37623205"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/37623205/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10454381/
+    study_type: rct
+    design: "Randomized, controlled, superiority trial (primary outcomes report)"
+    sample_size: 176
+    randomization: "88 intervention, 88 control"
+    intervention: "5 in-person behavioral cessation sessions over 22 days"
+    comparator: "Cessation brochure only"
+    key_findings:
+      - "Cessation rate: 38.6% intervention vs 9.1% control (p < 0.001)"
+      - "Estimated reduction in areca nut/betel quid chewing: 71% (95% CI: 41%–88%) in intervention vs control"
+      - "First known RCT for areca nut and betel quid cessation"
+      - "Salivary arecoline and cotinine used as objective biomarkers for cessation verification"
+      - "Strong self-reported intervention effects at day 22 support scalability"
+    clinical_significance: "Proof-of-concept that behavioral cessation intervention is highly effective for areca nut chewing"
+    limitations: "Short follow-up (22 days); long-term abstinence rates unknown; no pharmacotherapy arm"
+
+  # ─── EPIDEMIOLOGICAL / COHORT STUDIES ────────────────────────────────────────
+
+  - id: chang_2007_mortality_cohort
+    title: "Areca nut chewing and mortality in an elderly cohort study"
+    authors:
+      - Chang, Hsing-Yi
+      - et al.
+    year: 2007
+    journal: BMJ Open (British Medical Journal)
+    pubmed_id: "17204513"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/17204513/
+    study_type: prospective_cohort
+    sample_size: 3062
+    population: "Adults ≥65 years, Taiwan"
+    follow_up_years: 7
+    key_findings:
+      - "All-cause mortality HR = 1.36 (95% CI: 1.07–1.73) for areca nut chewers vs non-chewers"
+      - "Cancer-specific mortality significantly elevated in chewers"
+      - "Association persisted after adjustment for tobacco use, socioeconomic status, alcohol"
+      - "Risk higher in heavy chewers (dose-response trend)"
+
+  - id: zain_2009_initiation_addiction
+    title: "Areca Nut Chewing: Initiation, Addiction, and Harmful Effects Emphasizing the Barriers and Importance of Cessation"
+    authors:
+      - Zain, Rosnah Binti
+      - et al.
+    year: 2021
+    journal: Journal of Addiction
+    pubmed_id: "34123457"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/34123457/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8192186/
+    study_type: narrative_review
+    key_findings:
+      - "~600 million users globally; fourth most common psychoactive substance after tobacco, alcohol, caffeine"
+      - "Initiation predominantly in adolescence; peer influence and cultural norms primary drivers"
+      - "Dependence criteria met by majority of habitual chewers: craving, withdrawal, failed quit attempts"
+      - "Mean Severity of Dependence Score (SDS): 7.3 among areca nut-only users (comparable to moderate nicotine dependence)"
+      - "Withdrawal symptoms: mood swings, anxiety, irritability, reduced concentration, sleep disturbances, increased appetite"
+      - "No approved pharmacotherapy for areca nut dependence (unlike nicotine)"
+
+  - id: dassanayake_2011_dependency
+    title: "Areca nut chewing and dependency syndrome: is the dependence comparable to smoking? a cross sectional study"
+    authors:
+      - Dassanayake, Thilini L.
+      - et al.
+    year: 2011
+    journal: BMC Psychiatry
+    pubmed_id: "21851600"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/21851600/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3171311/
+    study_type: cross_sectional
+    sample_size: 800
+    population: "Sri Lankan adults"
+    key_findings:
+      - "DSM-IV substance dependence criteria met by 34.6% of areca nut-only users"
+      - "Users with tobacco additives: significantly higher dependence rates vs areca nut only"
+      - "Cigarette smokers 8× more likely to have dependence syndrome vs areca nut-only users"
+      - "Areca nut dependence real but moderate compared to tobacco; distinct clinical entity"
+      - "Arecoline's nicotinic receptor partial agonism implicated in dependence mechanism"
+
+  - id: chu_2017_intoxication_sud_review
+    title: "Intoxication and substance use disorder to Areca catechu nut containing betel quid: A review of epidemiological evidence, pharmacological basis and social factors influencing quitting strategies"
+    authors:
+      - Chu, Nian-Sheng
+    year: 2017
+    journal: Progress in Neuro-Psychopharmacology and Biological Psychiatry
+    pubmed_id: "28787696"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/28787696/
+    study_type: review
+    key_findings:
+      - "9 epidemiological studies confirm clear evidence of abuse and dependence for tobacco-free betel quid"
+      - "Pharmacological basis: arecoline acts on muscarinic (M1–M3) and nicotinic (nAChR) receptors in CNS"
+      - "Limbic dopamine release implicated via nicotinic receptor activation — shared addiction pathway with tobacco"
+      - "No pharmacological replacement therapies available (unlike NRT for tobacco)"
+      - "Social/cultural factors dominant in initiation and maintenance: ceremonial use, availability, peer norms"
+      - "Areca nut SUD identified as 'orphan disease' — insufficient research and treatment resources"
+
+  # ─── PHARMACOPOEIA / TRADITIONAL MEDICINE DOCUMENTATION ─────────────────────
+
+  - id: chinese_pharmacopoeia_2020
+    title: "Areca Seed (Semen Arecae / Binglang 槟榔)"
+    authors:
+      - "National Pharmacopoeia Commission of China"
+    year: 2020
+    publisher: "Chinese Pharmacopoeia Commission"
+    edition: "Chinese Pharmacopoeia 2020 (11th Edition)"
+    study_type: pharmacopoeia_entry
+    first_included: 1953
+    key_findings:
+      - "Botanical source: Areca catechu L., family Arecaceae; part used: ripe seed (Semen Arecae)"
+      - "Arecoline content specification: ≥0.20% (w/w) on dried basis by HPLC"
+      - "Actions (gong neng): sha chong xiao ji (kills parasites, reduces stagnation); xing qi li shui (moves qi, promotes urination)"
+      - "Indications: tapeworm, hookworm, pinworm, whipworm, fasciolopsiasis; qi stagnation, constipation, oedema, malaria (combined formulas)"
+      - "Standard doses: 3–10 g (general); 30–60 g (tapeworm treatment)"
+      - "Decoction method: standard water decoction 20–30 min"
+      - "Cautions: use with caution in pregnancy; avoid prolonged high-dose use"
+    standardization_marker: Arecoline ≥0.20% (HPLC method)
+    dosing:
+      general: "3–10 g dried seed (decoction)"
+      tapeworm: "30–60 g dried seed (single higher dose)"
+    note: "Chinese Pharmacopoeia is the official reference; specifications vary by edition. 2020 data cited."
+
+  - id: livretox_areca_nut
+    title: "Areca Nut — LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    authors:
+      - "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+    year: 2023
+    publisher: "National Institutes of Health (NIH)"
+    url: https://www.ncbi.nlm.nih.gov/books/NBK590486/
+    study_type: regulatory_reference
+    key_findings:
+      - "Areca nut-associated hepatotoxicity: rare; isolated case reports, no large series"
+      - "Mechanism of hepatotoxicity: unknown; possibly direct cytotoxic alkaloid effect"
+      - "LiverTox likelihood score: D — possible cause of clinically apparent liver injury"
+      - "No dose-relationship established for liver injury; may be idiosyncratic"
+      - "Clinical pattern: hepatocellular injury in case reports"
+    safety_implications: Liver injury rare but documented; warrants monitoring in therapeutic use contexts
+
+  # ─── KEY PHYTOCHEMICAL / STANDARDIZATION STUDIES ─────────────────────────────
+
+  - id: li_2022_alkaloid_quantification
+    title: "Quantitative determination of major alkaloids in areca nut products by high-performance liquid chromatography coupled with ion mobility spectrometry"
+    authors:
+      - Li, Jing
+      - et al.
+    year: 2022
+    journal: Journal of Chromatography A
+    pubmed_id: "36250424"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36250424/
+    study_type: analytical_standardization
+    key_findings:
+      - "HPLC-IMS method simultaneously quantifies all four major alkaloids: arecoline, arecaidine, guvacoline, guvacine"
+      - "LOD: 0.01–0.02 mg/kg for all four alkaloids; LOQ: 0.05–0.10 mg/kg"
+      - "Recovery rates: 89.2–105.6% across spiked matrix concentrations"
+      - "Fresh areca nut: arecoline 3.2–8.1 mg/g dry weight; arecaidine 2.8–7.4 mg/g; significant regional variation"
+      - "Processed (dried, boiled) areca nut: alkaloid content reduced 20–45% vs fresh"
+      - "Method validated for commercial areca nut products including Taiwanese, Chinese, and South Asian preparations"
+    standardization_relevance: "Gold-standard analytical method for quality control of areca nut raw material and preparations"
+
+  - id: cheng_2023_omics_quality_control
+    title: "Comprehensive insights into areca nut: active components and omics technologies for bioactivity evaluation and quality control"
+    authors:
+      - Cheng, Rui
+      - et al.
+    year: 2023
+    journal: Frontiers in Pharmacology
+    pubmed_id: "37342508"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/37342508/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11169615/
+    study_type: review_standardization
+    key_findings:
+      - "Metabolomics, genomics, and transcriptomics applied to areca nut quality control"
+      - "NIR spectroscopy validated for rapid quantification of gallic acid, tannins, catechin, and arecoline"
+      - "HPLC-MS/MS remains gold standard; NIR useful for field-level screening"
+      - "Alkaloid content influenced by: nut maturity (immature > mature), geographic origin, drying method, storage duration"
+      - "Polyphenol profile (proanthocyanidins, catechins, gallic acid) varies independently of alkaloid content"
+      - "Batch-to-batch variability in commercial preparations: up to 3-fold difference in arecoline content reported"
+      - "Standardization gap: no internationally recognized certificate of analysis (CoA) requirements for areca nut preparations"
+
+# ─── SUMMARY STATISTICS ───────────────────────────────────────────────────────
+
+bibliography_summary:
+  total_sources: 30
+  iarc_regulatory_monographs: 3
+  pharmacopoeia_entries: 2
+  comprehensive_reviews: 7
+  systematic_reviews_meta_analyses: 4
+  clinical_trials_arecoline_alzheimers: 5
+  clinical_pharmacokinetics: 1
+  toxicokinetics_reviews: 2
+  human_observational_schizophrenia: 3
+  human_treatment_antiparasitic: 1
+  cessation_rct: 2
+  epidemiological_cohort: 1
+  cross_sectional: 1
+  narrative_reviews: 2
+  analytical_standardization: 2
+
+clinical_evidence_grade: |
+  DUAL PROFILE — Strong evidence of harm; limited evidence for therapeutic use.
+
+  HARM EVIDENCE: Strong (multiple systematic reviews, IARC Group 1 monographs, prospective
+  cohort data). Carcinogenicity, oral submucous fibrosis, metabolic syndrome, and dependence
+  all well-established in human populations.
+
+  THERAPEUTIC EVIDENCE: Limited and historical. The primary human clinical data for therapeutic
+  application is the arecoline IV infusion series in Alzheimer's disease (1981–1996), involving
+  small samples (n=9–15) with a short-term IV route not applicable to oral supplementation.
+  No RCTs of standardized oral areca nut extract for any therapeutic indication identified.
+  The BENIT trial (n=176) is the largest RCT directly involving areca nut — focused on cessation.
+
+key_bioactive_markers:
+  alkaloids:
+    - arecoline: primary psychoactive/therapeutic/toxic alkaloid; muscarinic + nicotinic agonist
+    - arecaidine: hydrolysis product of arecoline; also genotoxic
+    - guvacoline: minor alkaloid, weaker activity
+    - guvacine: GABA uptake inhibitor; CNS depressant component
+  polyphenols:
+    - proanthocyanidins (arecatannin, proanthocyanidin A and B): antioxidant, antimicrobial
+    - catechins: antioxidant
+    - gallic acid: antioxidant, antimicrobial
+  fatty_acids:
+    - lauric acid, myristic acid, palmitic acid, oleic acid (in fat fraction ~14–18%)
+
+pharmacopoeial_dosing:
+  tcm_general: "3–10 g dried seed (decoction) — Chinese Pharmacopoeia 2020"
+  tcm_anthelmintic: "30–60 g dried seed (single dose for tapeworm) — Chinese Pharmacopoeia 2020"
+  arecoline_hbr_veterinary: "40 mg oral (dogs) for tapeworm; historical human anthelmintic dose not established"
+  arecoline_iv_alzheimers: "4–16 mg/day continuous IV infusion (individually optimized) — research setting only"
+  standardization_marker: "Arecoline ≥0.20% (w/w) by HPLC per Chinese Pharmacopoeia 2020"
+
+safety_summary:
+  carcinogenicity: "Areca nut (whole nut): IARC Group 1 — sufficient evidence in humans. Arecoline: IARC Group 2A — probable human carcinogen"
+  oral_toxicity: "Oral LD50 (rats): ~100 mg/kg for arecoline. Cholinergic side effects at sub-lethal doses"
+  dependence: "Dependence criteria met in ~34% of habitual users; SDS score 7.3; no approved pharmacotherapy"
+  hepatotoxicity: "Rare; isolated case reports; LiverTox likelihood score D (possible)"
+  reproductive: "Low birth weight and preterm labour associations in epidemiological data"
+  chronic_use: "Oral submucous fibrosis in habitual chewers; malignant transformation rate 2.3–7.6%"
+  therapeutic_window: "Dose-dependent: low doses (traditional TCM range) may carry lower risk; no validated safe therapeutic dose established for non-traditional populations"
