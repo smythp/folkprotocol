@@ -70,6 +70,20 @@
 - **PMID**: 40733088
 - **Finding**: No adverse events or safety concerns reported; excellent safety profile
 
+### Concurrent Chemotherapy Safety (Fatemi Shandiz et al. 2025)
+- **Study Size**: 50 patients
+- **Dosage**: 420 mg/day concurrent with doxorubicin
+- **Duration**: 63 days
+- **PMID**: 39110237
+- **Finding**: Silymarin well tolerated alongside chemotherapy; no safety concerns
+
+### SyNCH High-Dose Trial Safety (Fried et al. 2012)
+- **Study Size**: 154 patients
+- **Dosage**: 1260–2100 mg/day
+- **Duration**: 24 weeks
+- **PMID**: 22797645
+- **Finding**: Adverse event profiles comparable across all arms (placebo, 420 mg TID, 700 mg TID)
+
 ---
 
 ## Pregnancy and Lactation

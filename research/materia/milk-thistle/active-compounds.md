@@ -23,6 +23,25 @@
 
 ---
 
+---
+
+## Pharmacopoeia Standardization Criteria
+
+### European Pharmacopoeia (Monograph 1860)
+Standardization for refined and quantified dry extract:
+- **Total silymarin**: 30–65% m/m (expressed as silybin)
+- **Silybin A and B**: 40–65% of total silymarin
+- **Silychristin and silydianin**: 20–45% of total silymarin
+- **Isosilybin A and B**: 10–20% of total silymarin
+
+**Note**: Typical retail supplements labeled "70–80% silymarin" correspond to crude extract standardization, not this refined EP specification. HPTLC identity testing specified; Legalon and Siliphos must conform.
+
+### Commission E Dosing Standard
+- **Approved dose**: 200–400 mg/day silymarin calculated as silybin
+- **Commercial reference**: Legalon (140 mg silymarin/capsule, standardized to 70–80% flavonolignans)
+
+---
+
 ## Pharmacokinetics and Metabolism
 
 ### Standard Extract Pharmacokinetics (Wen et al. 2008)
@@ -72,12 +91,15 @@
 - **Mechanism**: Phytosomes transition water-soluble flavonoids into lipid-based cell membranes
 - **Benefit**: Improves absorption and bloodstream entry
 
-#### Clinical Effects
-- Enhanced bioavailability over conventional silymarin
-- Provides significant liver protection
-- Allows for lower effective doses due to improved absorption
+#### Clinical RCT (Méndez-Sánchez et al. 2019, PMID: 30635055)
+- **Design**: Randomized, balanced, blind, single-dose, two-way crossover RCT
+- **Participants**: 23 healthy volunteers (11 women, 12 men; ages 22–31)
+- **Comparison**: 45 mg silybin-phosphatidylcholine complex vs 70 mg conventional silymarin tablets
+- **Result**: **9.6-fold higher silybin bioavailability** with phytosome (p < 0.0001)
+- **Mechanism**: Phosphatidylcholine complexation enables silybin to transition from hydrophilic gut environment into lipid-rich cell membranes, dramatically improving intestinal absorption
+- **Clinical implication**: Effective hepatoprotection achievable at lower absolute doses
 
-**Manufacturer**: Various
+**Manufacturer**: Various (Siliphos)
 
 ### 2. Micellar Formulation (LipoMicel)
 

@@ -2,7 +2,76 @@
 title: "Milk Thistle (Silybum marianum) Clinical Bibliography"
 description: "Clinical studies on milk thistle and silymarin focusing on systematic reviews, RCTs, dosing, bioavailability, safety profiles, and standardized extracts"
 created: 2026-01-08
-last_updated: 2026-01-08
+last_updated: 2026-03-06
+
+# REGULATORY MONOGRAPHS
+
+regulatory_monographs:
+  - id: ema_hmpc_2018
+    source: "European Medicines Agency – Committee on Herbal Medicinal Products (HMPC)"
+    title: "European Union Herbal Monograph on Silybum marianum (L.) Gaertn., fructus"
+    reference: "EMA/HMPC/294187/2013"
+    year: 2018
+    adopted: "September 2018"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus"
+    regulatory_category: "Traditional use (minimum 30 years including 15+ years in EU)"
+    approved_indications:
+      - "Relief of symptoms of digestive disorders (sensation of fullness, indigestion)"
+      - "Support of liver function (after serious conditions excluded by physician)"
+    preparations_covered:
+      - "Dried and comminuted fruit or powder"
+      - "Liquid extracts (acetone, ethanol, ethyl acetate, or methanol)"
+      - "Soft or dry extracts; herbal tea, liquid, or solid oral forms"
+    usage_restrictions:
+      - "Adults only"
+      - "Consult healthcare provider if symptoms persist >2 weeks or worsen"
+    contraindications:
+      - "Hypersensitivity to milk thistle or Asteraceae/Compositae family plants"
+    adverse_effects:
+      - "Mild GI effects: dry mouth, nausea, upset stomach, diarrhea"
+      - "Headache, allergic skin reactions (urticaria, itching, rash)"
+      - "Asthma (rare)"
+    notes: "Periodic review initiated May 2023; consultation closed July 2023"
+
+  - id: commission_e
+    source: "German Commission E (Federal Institute for Drugs and Medical Devices)"
+    title: "Commission E Monograph: Milk Thistle Fruit (Cardui mariae fructus)"
+    year: 1986
+    url: "https://www.herbalgram.org/resources/expanded-commission-e-monographs/milk-thistle-fruit/"
+    regulatory_category: "Positive monograph (approved herbal medicine)"
+    approved_indications:
+      - "Toxic liver damage"
+      - "Supportive treatment in chronic inflammatory liver disease"
+      - "Hepatic cirrhosis"
+    standardized_dose: "200–400 mg/day silymarin calculated as silybin"
+    notes: >
+      One of the earliest formal regulatory recognitions of silymarin's hepatoprotective
+      use. Basis for widespread European use of Legalon (140 mg silymarin/capsule,
+      standardized to 70–80% flavonolignans). Expanded Commission E monograph published
+      by American Botanical Council.
+
+  - id: european_pharmacopoeia
+    source: "European Directorate for the Quality of Medicines & HealthCare (EDQM)"
+    title: "European Pharmacopoeia Monograph: Silybi mariani fructus and Refined and Quantified Dry Extract"
+    monograph_number: "1860"
+    standardization_criteria:
+      total_silymarin: "30–65% m/m in refined and quantified dry extract (expressed as silybin)"
+      silybin_a_and_b: "40–65% of total silymarin"
+      silychristin_and_silydianin: "20–45% of total silymarin"
+      isosilybin_a_and_b: "10–20% of total silymarin"
+    notes: >
+      Sets analytical standards underpinning commercial preparations. HPTLC identity
+      testing specified. Commercial preparations (e.g., Legalon, Siliphos) must conform.
+      Note: typical retail supplements often labeled as "70–80% silymarin" correspond to
+      the crude extract standardization, not the refined EP specification.
+
+  - id: escop_2009
+    source: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    title: "ESCOP Monograph: Silybi mariani fructus (Milk Thistle Fruit)"
+    year: 2009
+    approved_indications:
+      - "Treatment of toxic liver damage"
+      - "Supportive treatment in chronic inflammatory liver conditions and hepatic cirrhosis"
 
 # SYSTEMATIC REVIEWS AND META-ANALYSES
 
@@ -185,6 +254,28 @@ systematic_reviews:
     quality: "Systematic review with selective inclusion"
     pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/18334810/"
 
+  - id: kalopitas2021_nafld
+    authors: "Kalopitas G, Antza C, Doundoulakis I, Siargkas A, Kouroumalis E, Germanidis G, Samara M, Chourdakis M"
+    title: "Impact of Silymarin in individuals with nonalcoholic fatty liver disease: A systematic review and meta-analysis"
+    journal: "Nutrition"
+    year: 2021
+    pmid: "33418491"
+    doi: null
+    study_type: "Systematic review and meta-analysis"
+    trials_included: 8
+    participants: "Not reported as pooled total; 8 RCTs included"
+    key_findings: |
+      Transaminases:
+      - Statistically significant reduction in ALT and AST vs placebo
+
+      Limitations:
+      - Potential flaws in quality of included studies
+      - Histologic outcomes not consistently assessed across trials
+    conclusion: "Silymarin reduces transaminases in NAFLD; whether this corresponds to histologic improvement requires further study"
+    safety: "Well tolerated in included studies"
+    quality: "Meta-analysis; quality of included studies variable"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/33418491/"
+
   - id: jacobs2002_liver_disease
     authors: "Jacobs BP, Dennehy C, Ramirez G, Sapp J, Lawrence VA"
     title: "Milk thistle for the treatment of liver disease: a systematic review and meta-analysis"
@@ -247,6 +338,213 @@ clinical_trials:
     safety: "No adverse effects observed"
     quality: "Long-term double-blind RCT"
     pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/2671116/"
+
+  - id: trinchet1989_alcoholic_hepatitis
+    authors: "Trinchet JC, Coste T, Lévy VG, Vivet F, Duchatelle V, Legendre C, Gotheil C, Beaugrand M"
+    title: "Treatment of alcoholic hepatitis with silymarin. A double-blind comparative study in 116 patients"
+    journal: "Gastroenterol Clin Biol"
+    year: 1989
+    pmid: "2707520"
+    doi: null
+    study_type: "Randomized controlled trial, double-blind"
+    sample_size: 116
+    treatment_allocation: "57 silymarin, 59 placebo; 58 with concurrent cirrhosis"
+    dosage: "420 mg/day silymarin orally for 3 months"
+    duration: "3 months"
+    key_findings: |
+      Efficacy:
+      - Both groups showed significant improvement in alcoholic hepatitis score and serum aminotransferases regardless of treatment
+      - No significant difference between silymarin and placebo in any endpoint
+
+      Adherence:
+      - 26% patient loss to follow-up at 3 months
+      - 46% achieved abstinence by trial end (similar in both groups)
+
+      Mortality:
+      - 4 deaths from hepatic failure: 3 in placebo, 1 in silymarin group
+    adverse_effects: "Not reported as significant"
+    safety: "Tolerated at 420 mg/day"
+    conclusion: "Silymarin 420 mg/day not clinically relevant in moderate alcoholic hepatitis"
+    quality: "RCT with high dropout rate; disease severity possibly insufficient for drug effect"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/2707520/"
+
+  - id: hruby1983_amanita
+    authors: "Hruby K, Fuhrmann M, Csomos G, Thaler H"
+    title: "Pharmacotherapy of Amanita phalloides poisoning using silybin"
+    journal: "Wien Klin Wochenschr"
+    year: 1983
+    pmid: "6410590"
+    doi: null
+    study_type: "Retrospective case series / pharmacotherapy analysis"
+    sample_size: 18
+    dosage: "Mean silybin dosage 33 mg/kg body weight/day IV; mean treatment duration 81.6 hours"
+    key_findings: |
+      Survival:
+      - 17 of 18 patients survived (one fatality in high-dose suicidal case)
+
+      Timing:
+      - Mean time to treatment: 71.5 hours (severe group) vs 46 hours (medium) vs 33.8 hours (light)
+      - Administration within ~48 hours of mushroom intake effective to prevent severe liver damage
+
+      Clinical:
+      - IV silybin blocks hepatic uptake of alpha-amanitin toxin
+    conclusion: "IV silybin appears effective in preventing severe liver damage from Amanita phalloides when administered within 48 hours"
+    notes: "Supports parenteral silibinin (Legalon SIL IV) use in acute mushroom poisoning; foundational clinical dataset for this indication"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/6410590/"
+
+  - id: el_kamary2009_acute_hepatitis
+    authors: "El-Kamary SS, Shardell MD, Abdel-Hamid M, Ismail S, El-Ateek M, Metwally M, Mikhail N, Hashem M, Mokhtar M, Madani A, Nafeh M, Sherif Y, Strickland GT, Serwint JR"
+    title: "A randomized controlled trial to assess the safety and efficacy of silymarin on symptoms, signs and biomarkers of acute hepatitis"
+    journal: "Phytomedicine"
+    year: 2009
+    pmid: "19303273"
+    doi: null
+    study_type: "Randomized controlled trial, multicenter, double-blind"
+    sample_size: 105
+    dosage: "140 mg silymarin (Legalon) three times daily (420 mg/day)"
+    duration: "4 weeks treatment + 4-week follow-up"
+    key_findings: |
+      Symptom Resolution (silymarin faster):
+      - Dark urine resolution: p = 0.013
+      - Jaundice resolution: p = 0.02
+      - Scleral icterus resolution: p = 0.043
+      - Indirect bilirubin reduction: p = 0.012
+
+      Biomarkers (no significant difference):
+      - Direct bilirubin: NS
+      - ALT: NS
+      - AST: NS
+
+      Safety:
+      - No adverse events reported in either group
+    conclusion: "Silymarin 420 mg/day safe and potentially effective for improving clinical symptoms of acute hepatitis; no detectable effect on hepatocellular inflammatory biomarkers"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/19303273/"
+
+  - id: fried2012_synch
+    authors: "Fried MW, Navarro VJ, Afdhal N, Belle SH, Wahed AS, Hawke RL, Doo E, Meyers CM, Reddy KR; SyNCH Trial Group"
+    title: "Effect of silymarin (milk thistle) on liver disease in patients with chronic hepatitis C unsuccessfully treated with interferon therapy: a randomized controlled trial"
+    journal: "JAMA"
+    year: 2012
+    pmid: "22797645"
+    doi: null
+    study_type: "Multicenter, double-blind, randomized controlled trial"
+    sample_size: 154
+    treatment_allocation: "Three arms: 420 mg silymarin TID, 700 mg silymarin TID, placebo TID"
+    dosage: "420 mg TID (1260 mg/day) or 700 mg TID (2100 mg/day) vs placebo"
+    duration: "24 weeks"
+    conditions: "Chronic hepatitis C (interferon-refractory)"
+    key_findings: |
+      Primary Endpoint (ALT normalization):
+      - ~2 participants per arm achieved normalization — not significant
+
+      ALT Change:
+      - Placebo: -4.3 U/L
+      - 420 mg silymarin: -14.4 U/L
+      - 700 mg silymarin: -11.3 U/L
+      - P = 0.75 (not significant)
+
+      HCV RNA:
+      - No significant differences across groups (p = 0.54)
+
+      Quality of Life:
+      - No improvements in QoL measures
+
+      Safety:
+      - Adverse event profiles comparable across all arms
+    conclusion: "Silymarin at 1260–2100 mg/day for 24 weeks did not improve liver disease in interferon-refractory chronic hepatitis C"
+    notes: "Major NIH-funded SyNCH trial; definitive negative result at high doses for HCV; does not preclude benefit in other liver conditions"
+    quality: "High-quality multicenter RCT; 154 participants; double-blind"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/22797645/"
+
+  - id: fathalah2017_high_dose
+    authors: "Fathalah WF, Abdel Aziz MA, Abou El Soud NH, El Raziky ME"
+    title: "High Dose of Silymarin in Patients with Decompensated Liver Disease: A Randomized Controlled Trial"
+    journal: "Journal of Interferon & Cytokine Research"
+    year: 2017
+    pmid: "29135373"
+    doi: null
+    study_type: "Randomized controlled trial"
+    sample_size: 62
+    treatment_allocation: "31 high-dose (1050 mg/day), 31 standard-dose (420 mg/day)"
+    dosage: "High dose: 1050 mg/day; Standard dose: 420 mg/day"
+    duration: "12 weeks; assessments every 2 weeks"
+    conditions: "Decompensated liver cirrhosis (chronic HCV-associated)"
+    key_findings: |
+      High-Dose Group (1050 mg/day):
+      - Liver enzymes reduced (p ≤ 0.01)
+      - Albumin improved (p = 0.04)
+      - Bilirubin improved (p = 0.02)
+      - INR improved (p = 0.03)
+      - Child-Pugh score improved (p = 0.048)
+      - Quality of life improved
+
+      Standard-Dose Group (420 mg/day):
+      - No significant biochemical improvements vs baseline
+
+      Safety:
+      - No serious adverse events in either group
+    conclusion: "High-dose silymarin (1050 mg/day) shows biochemical and functional improvement in decompensated cirrhosis; standard 420 mg/day insufficient in this population"
+    notes: "Supports dose-response relationship; suggests higher dosing needed in severe hepatic decompensation"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/29135373/"
+
+  - id: chan_wah_kheong2017_nash
+    authors: "Chan Wah Kheong C, Nik Mustapha NR, Mahadeva S"
+    title: "A Randomized Trial of Silymarin for the Treatment of Nonalcoholic Steatohepatitis"
+    journal: "Clinical Gastroenterology and Hepatology"
+    year: 2017
+    pmid: "28419855"
+    doi: null
+    study_type: "Randomized controlled trial"
+    sample_size: 99
+    treatment_allocation: "49 silymarin, 50 placebo"
+    dosage: "700 mg three times daily (2100 mg/day)"
+    duration: "48 weeks"
+    conditions: "Non-alcoholic steatohepatitis (NASH)"
+    key_findings: |
+      Primary Outcome (≥30% NAS reduction):
+      - Silymarin: 32.7% vs Placebo: 26.0% (p = 0.467) — NOT significant
+
+      Fibrosis (histology):
+      - Reduction: 22.4% silymarin vs 6.0% placebo (p = 0.023)
+
+      Fibrosis (liver stiffness):
+      - Reduction: 24.2% silymarin vs 2.3% placebo (p = 0.002)
+
+      NAFLD Fibrosis Score:
+      - Silymarin: significant reduction (-0.30, p < 0.001)
+      - Placebo: no significant change
+
+      Safety:
+      - Safe and well tolerated at 2100 mg/day
+    conclusion: "Silymarin 2100 mg/day missed primary NASH outcome but demonstrated significant anti-fibrotic effects"
+    notes: "One of the larger NASH-specific RCTs; anti-fibrotic signal is clinically meaningful"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/28419855/"
+
+  - id: fatemi_shandiz2025_chemo
+    authors: "Fatemi Shandiz A, Karimi G, Dayyani M, Hosseini S, Elyasi S"
+    title: "Evaluation of oral silymarin formulation efficacy in prevention of doxorubicin induced hepatotoxicity in patients with non-metastatic breast cancer"
+    journal: "Journal of Oncology Pharmacy Practice"
+    year: 2025
+    pmid: "39110237"
+    doi: null
+    study_type: "Triple-blind, randomized controlled trial"
+    sample_size: 50
+    dosage: "140 mg silymarin three times daily (420 mg/day)"
+    duration: "63 days (concurrent with doxorubicin chemotherapy)"
+    conditions: "Doxorubicin-induced hepatotoxicity in non-metastatic breast cancer"
+    key_findings: |
+      Hepatoprotection (liver ultrasound):
+      - Fatty liver grade significantly higher in placebo group at study end (p < 0.05)
+
+      Liver Enzymes:
+      - AST: significantly lower in silymarin group at 6 weeks (p = 0.015)
+      - ALP: significantly reduced in silymarin group at 6 weeks (p = 0.004) and 9 weeks (p = 0.002)
+      - ALT: trend favoring silymarin but not consistently significant
+
+      Safety:
+      - Silymarin well tolerated alongside chemotherapy
+    conclusion: "Silymarin 420 mg/day significantly prevented doxorubicin hepatotoxicity on imaging; enzyme protection partial and timing-dependent"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/39110237/"
 
   - id: navarro2019_nash
     authors: "Navarro VJ, Belle SH, D'Amato M, Adfhal N, Brunt EM, Fried MW, Reddy KR, Wahed AS, Harrison S"
@@ -359,6 +657,33 @@ bioavailability_studies:
     safety: "No adverse effects noted"
     quality: "Detailed pharmacokinetic analysis"
     pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/17913795/"
+
+  - id: mendez_sanchez2019_phytosome_rct
+    authors: "Méndez-Sánchez N, Dibildox-Martinez M, Sosa-Noguera J, Sánchez-Medal R, Flores-Murrieta FJ"
+    title: "Superior silybin bioavailability of silybin-phosphatidylcholine complex in oily-medium soft-gel capsules versus conventional silymarin tablets in healthy volunteers"
+    journal: "BMC Pharmacology and Toxicology"
+    year: 2019
+    pmid: "30635055"
+    doi: null
+    study_type: "Randomized controlled trial, prospective, balanced, blind, single-dose, two-way crossover"
+    sample_size: 23
+    treatment_allocation: "11 women, 12 men; ages 22–31; crossover design"
+    dosage: "45 mg silybin-phosphatidylcholine complex vs 70 mg conventional silymarin tablets (single dose)"
+    key_findings: |
+      Bioavailability:
+      - Plasma silybin levels significantly higher with phosphatidylcholine complex (p < 0.0001)
+      - Silybin bioavailability: 9.6-fold higher with phytosome complex vs conventional tablets
+      - AUC and Cmax both significantly superior for phytosome formulation
+
+      Mechanism:
+      - Phosphatidylcholine complexation enables silybin to transition from hydrophilic gut environment
+        into lipid-rich cell membranes, dramatically improving intestinal absorption
+
+      Safety:
+      - Both formulations well tolerated; no adverse events
+    conclusion: "Silybin-phosphatidylcholine complex provides 9.6-fold greater bioavailability; allows effective hepatoprotection at lower absolute doses"
+    notes: "Standard silymarin tablets have poor oral bioavailability due to low lipid solubility; phytosome technology addresses this fundamental limitation"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/30635055/"
 
   - id: kidd2005_phytosome
     authors: "Kidd P, Head K"
@@ -573,11 +898,19 @@ mechanism_of_action: |
 
 sources_summary: |
   This bibliography includes:
-  - 8 systematic reviews and meta-analyses
-  - 3 major randomized controlled trials
-  - 3 bioavailability and pharmacokinetic studies
+  - Regulatory monographs: EMA/HMPC 2018, German Commission E, European Pharmacopoeia, ESCOP
+  - 9 systematic reviews and meta-analyses (liver disease, NAFLD, diabetes, nephroprotection, anti-TB)
+  - 10 major randomized controlled trials (cirrhosis, alcoholic hepatitis, acute hepatitis,
+    chronic hepatitis C, NASH, Amanita poisoning, decompensated liver disease, chemotherapy protection)
+  - 4 bioavailability and pharmacokinetic studies (phytosome, micellar, conjugate profiling, phase I PK)
   - 2 comprehensive safety reviews
-  - Multiple traditional medicine monographs (Commission E, ESCOP, EP, USP-NF)
 
-  All PubMed sources were accessed January 2026.
-  Focus on clinical evidence, standardized extracts, and reproducible dosing protocols.
+  Key dosing range from clinical evidence:
+  - Standard: 420 mg/day (140 mg TID) — Ferenci 1989 (cirrhosis survival benefit), El-Kamary 2009
+  - High-dose: 1050–2100 mg/day — used in NASH (Chan Wah Kheong 2017), HCV (Fried 2012 JAMA),
+    decompensated cirrhosis (Fathalah 2017)
+  - Phase I safety ceiling: 2100 mg/day (700 mg TID × 7 days) — no adverse events (Hawke 2010)
+  - Enhanced bioavailability: 45 mg phytosome ≈ >400 mg conventional silymarin (Méndez-Sánchez 2019)
+
+  PubMed sources accessed January–March 2026.
+  Focus on clinical evidence directly ON milk thistle, standardized extracts, dosing, bioavailability.

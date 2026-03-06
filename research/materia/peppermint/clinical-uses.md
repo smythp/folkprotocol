@@ -315,3 +315,311 @@
 - Optimal formulation and delivery system determination
 - Head-to-head comparisons with standard treatments
 - Pediatric safety and efficacy data expansion
+
+---
+
+## Headache and Migraine
+
+### Tension-Type Headache
+
+#### Topical Peppermint Oil (Göbel 1996)
+
+**Study Design**: Randomized, placebo-controlled, double-blind crossover trial
+- Participants: 41 patients, both sexes, ages 18-65
+- Headache attacks analyzed: 164
+- Treatment duration: Single-attack application
+
+**Formulation and Dosing**: 10% peppermint oil in ethanol
+- Applied topically to forehead and temples at baseline, 15 minutes, and 30 minutes
+- Comparator: Acetaminophen 1,000 mg oral
+
+**Key Results**:
+- Peppermint oil significantly reduced headache intensity after 15 minutes (p<0.01)
+- Acetaminophen also effective vs placebo (p<0.01)
+- No significant difference between peppermint oil and acetaminophen
+- Combined treatment: additive effects below significance threshold
+- Adverse events: None reported
+
+**Conclusion**: Peppermint oil is a well-tolerated, cost-effective alternative to acetaminophen for tension-type headache
+- Reference: PMID 8805113
+
+#### Neurophysiological Basis (Göbel 1994)
+
+**Study Design**: Double-blind, placebo-controlled, randomized crossover trial
+- Participants: 32 healthy subjects
+- Four topical test preparations applied to forehead and temples
+
+**Key Findings**:
+- Peppermint oil + ethanol: Significant analgesic effect with reduced headache sensitivity
+- Peppermint + eucalyptus + ethanol: Increased cognitive performance; muscle-relaxing and mental relaxing effect
+- Minimal impact on general pain sensitivity
+- Evidence supports effects on multiple headache pathophysiology mechanisms
+
+- Reference: PMID 7954745
+
+#### Licensed Use and Guidelines (Göbel 2016)
+
+**Formulation**: 10% peppermint oil in ethanol solution
+- Licensed for tension-type headache in adults and children over 6 years
+- Included in professional treatment guidelines
+- Efficacy comparable to acetylsalicylic acid or paracetamol
+- Reference: PMID 27106030
+
+### Migraine
+
+#### Menthol for Migraine Without Aura (Borhani Haghighi 2010)
+
+**Study Design**: Randomized, triple-blind, placebo-controlled crossover trial
+- Participants: 35 patients, 118 migraine attacks analyzed
+- Demographics: 80% female, 20% male; mean age 29.6 ± 6.2 years
+- Condition: Migraine without aura
+
+**Formulation and Dosing**: 10% ethanol solution of menthol applied to forehead and temporal area
+- Comparator: 0.5% menthol as placebo
+
+**Key Results**:
+- 2-hour pain-free response: Significantly superior to placebo (p=0.001)
+- 2-hour pain relief: Significantly superior to placebo (p=0.000)
+- Sustained pain-free and pain-relief endpoints favored menthol (p=0.008)
+- Nausea/vomiting and light/sound sensitivity improved with menthol (p=0.02)
+- "At least one pain free/pain relief" per protocol: p=0.002
+- Adverse events: No significant difference between menthol and placebo (p=0.13)
+
+**Conclusion**: Menthol 10% solution is efficacious, safe, and tolerable as abortive treatment for migraine without aura
+- Reference: PMID 20456191
+
+#### Intranasal Peppermint Oil vs. Lidocaine (Rafieian-Kopaei 2019)
+
+**Study Design**: Double-blind, parallel randomized controlled trial
+- Participants: 120 adult patients with migraine diagnosis
+
+**Formulation**: Intranasal peppermint essential oil drop 1.5%
+- Comparator: Intranasal lidocaine 4%; placebo
+
+**Key Results**:
+- Significant difference among groups in headache intensity (p<0.001)
+- Peppermint oil responders: 42.1% showed considerable response
+- Lidocaine responders: 41.5% showed considerable response
+- Both active treatments reduced headache intensity in approximately 40% of patients
+
+**Conclusion**: Intranasal peppermint oil comparable to lidocaine for migraine relief
+- Reference: PMID 31404204
+
+#### Pediatric Headache (Kingsley 2023)
+
+**Study Design**: Single-center randomized controlled trial
+- Participants: 46 adolescents (89% female, mean age 15.2 years)
+- Condition: Primary headache disorder
+
+**Formulation**: Peppermint oil added to foot bath vs. foot bath alone (control)
+
+**Key Results**:
+- Both groups: Significant pain reduction (p<0.01)
+- Peppermint oil did NOT significantly improve pain beyond foot bath control
+- Both groups: Anxiety reduction (p<0.01); control less (p=0.03)
+- 95.5% rated intervention favorably
+
+**Conclusion**: Brief relaxation response reduced pain; peppermint oil added no benefit beyond relaxation alone
+- Reference: PMID 37730471
+
+#### Essential Oils Meta-Analysis (Murtey 2023)
+
+**Study Design**: Systematic review and meta-analysis
+- 7 trials, 558 participants
+- Oils included: Lavender, anise, basil, rose, peppermint, chamomile
+- Routes: Topical, oral, intranasal, inhalation
+
+**Key Results**:
+- Attack frequency: No significant difference vs placebo (MD -1.34; 95% CI -3.31 to 0.64)
+- Headache severity: No meaningful difference vs placebo (MD -0.38; 95% CI -1.76 to 0.99)
+- Associated symptoms: Inconclusive
+
+**Limitation**: Peppermint-specific effects not isolated from pooled data
+- Reference: PMID 37899272
+
+### Headache Dosing Summary
+
+| Indication | Formulation | Dose | Route |
+|-----------|-------------|------|-------|
+| Tension-type headache | 10% peppermint oil in ethanol | Apply at onset; repeat at 15 and 30 min | Topical (forehead/temples) |
+| Migraine without aura | 10% menthol in ethanol | Apply at onset | Topical (forehead/temples) |
+| Migraine | Peppermint EO 1.5% | Intranasal drops | Intranasal |
+
+---
+
+## Nausea and Vomiting
+
+### Postoperative Nausea and Vomiting (PONV)
+
+#### Meta-Analysis: Inhaled Peppermint Oil (Gergő 2025)
+
+**Study Design**: Systematic review and meta-analysis
+- 19 trials total (14 quantitative, 5 qualitative)
+- 1,000+ participants across three patient groups: PONV, pregnancy, chemotherapy
+
+**Key Results by Population**:
+- **PONV**: Reduction in nausea 2-6 hours post-intervention (MD -0.60 points)
+- **Pregnancy-related nausea**: Significant reductions at 48 hours (MD -0.51) and 96 hours (MD -0.68)
+- **CINV (chemotherapy-induced)**: Most notable reductions at 48 hours (MD -2.23) and 72 hours (MD -2.41)
+- Improvements often statistically significant but below clinically meaningful thresholds
+- Safety: Favorable; minimal adverse events
+
+**Evidence Quality**: Low certainty; methodological limitations and small sample sizes
+- Reference: PMID 40725767
+
+#### Controlled Breathing vs. Peppermint Aromatherapy (Sites 2014)
+
+**Study Design**: Single-blind randomized controlled trial
+- 196 eligible participants; 42 with PONV symptoms enrolled
+- Groups: Controlled breathing (n=16) vs peppermint aromatherapy (n=26)
+- Dosing: Applied at initial nausea complaint; repeated at 5 minutes; assessed at 10 minutes
+
+**Key Results**:
+- PONV incidence: 21.4% (42/196)
+- Controlled breathing efficacy: 62.5%
+- Peppermint aromatherapy efficacy: 57.7%
+- No statistically significant difference between groups
+
+**Conclusion**: Both effective; support combined use as alternative to prescribed antiemetics
+- Reference: PMID 24461278
+
+#### Cardiac Surgery PONV (Maghami 2020)
+
+**Study Design**: Randomized controlled trial
+- 60 cardiac surgery patients
+- Formulation: Peppermint essential oil via nebulizer aromatherapy (administered before extubation)
+
+**Key Results** (all p<0.05 in first 4 hours post-extubation):
+- Nausea frequency: 0.63 ± 0.81 (intervention) vs 1.46 ± 1.21 (control)
+- Nausea duration: 3.78 ± 5.09 min vs 7.97 ± 5.55 min
+- Nausea severity: 2.43 ± 2.84 vs 4.61 ± 2.85
+- Vomiting episodes: 0.17 ± 0.46 vs 0.73 ± 0.60
+
+**Conclusion**: Peppermint inhalation recommended for PONV after open-heart surgery
+- Reference: PMID 32891278
+
+### Chemotherapy-Induced Nausea and Vomiting (CINV)
+
+#### Breast Cancer Patients (Jafarimanesh 2020)
+
+**Study Design**: Randomized controlled trial
+- 84 participants (42 experimental, 42 control)
+- Condition: Breast cancer patients undergoing chemotherapy
+
+**Formulation and Dosing**: Peppermint extract (oral)
+- 40 drops mixed in 20 cc tap water every 8 hours
+
+**Key Results**:
+- Statistically significant differences between groups at 24 and 48 hours post-chemotherapy (p<0.05)
+- Peppermint group: Lower mean severity scores for nausea, vomiting, and anorexia
+- Adverse events: None reported
+
+**Conclusion**: Peppermint extract may improve CINV and anorexia as complementary medicine
+- Reference: PMID 33118401
+
+#### Pediatric Leukemia Patients (Şancı 2023)
+
+**Study Design**: Pretest-posttest randomized controlled trial, three groups
+- 90 participants (experimental, placebo, control)
+- Age range: 2-12 years
+- Condition: Pediatric leukemia patients undergoing chemotherapy
+
+**Formulation**: Mentha piperita + Citrus lemon essential oils via diffuser
+- Comparator: Water via diffuser (placebo); no intervention (control)
+
+**Key Results**:
+- Aromatherapy group: Significantly lower pulse and respiratory rates
+- Quality of life scores: Significantly higher in aromatherapy group
+- Nausea/vomiting/retching: Greater improvement from first to fourth chemotherapy cycle
+- Reference: PMID 37453895
+
+### Pregnancy-Related Nausea
+
+#### Mint Oil Inhalation in Pregnancy (Pasha 2012)
+
+**Study Design**: Double-blind randomized controlled trial
+- 60 pregnant women with nausea and vomiting
+
+**Formulation and Dosing**: Pure mint essential oil (4 drops placed on water near bedside for inhalation)
+- 4 consecutive nights before sleep
+
+**Key Results**:
+- Decreasing trend in nausea severity in mint group (vs increasing trend in controls)
+- Post-intervention nausea: Lower in mint group but NOT statistically significant
+- Vomiting intensity: No meaningful reduction
+
+**Conclusion**: Peppermint essential oil did not produce statistically significant benefit for nausea and vomiting of pregnancy
+- Reference: PMID 23396673
+
+### Nausea Dosing Summary
+
+| Indication | Formulation | Dose | Route |
+|-----------|-------------|------|-------|
+| PONV | Essential oil aromatherapy | At onset of nausea | Inhalation/nebulizer |
+| CINV (adults) | Peppermint extract | 40 drops in 20cc water q8h | Oral |
+| CINV (pediatric) | EO via diffuser | Per diffuser protocol | Inhalation |
+| Pregnancy nausea | Essential oil | 4 drops on water surface | Inhalation (bedside) |
+
+---
+
+## Cognitive Function
+
+### Memory and Alertness Enhancement
+
+#### Peppermint Aroma and Cognition (Moss 2008)
+
+**Study Design**: Randomized controlled trial
+- 144 healthy volunteers
+
+**Formulation**: Peppermint aroma (aromatherapy)
+
+**Key Results**:
+- Peppermint aroma enhanced memory
+- Peppermint increased alertness
+- Ylang-ylang (comparator): Impaired memory, lengthened processing speed, increased calmness
+- Significant differences between conditions on multiple cognitive test factors
+
+**Conclusion**: Essential oil aromas produce significant and idiosyncratic effects on objective and subjective cognitive assessments; both pharmacological and psychological mechanisms implicated
+- Reference: PMID 18041606
+
+#### Encapsulated Peppermint EO and Cognitive Performance (Kennedy 2018)
+
+**Study Design**: Double-blind, placebo-controlled, balanced crossover RCT
+- 24 participants, mean age 25.2 years
+- Formulation: Peppermint essential oil encapsulated
+
+**Dosing**: Single doses of 50 µL and 100 µL
+
+**In Vitro Mechanisms**:
+- Menthol acts as positive allosteric modulator of acetylcholine receptors
+- Menthol inhibits acetylcholinesterase (promotes cholinergic activity)
+
+**Key Clinical Results**:
+- 100 µL dose: Improved performance on Rapid Visual Information Processing (RVIP) task at 1 h and 3 h post-dose
+- Both doses: Attenuated fatigue at 3 h post-dose
+- Both doses: Improved Serial 3s subtraction task at 3 h post-dose
+
+**Conclusion**: Peppermint EO beneficially modulated demanding cognitive tasks and attenuated mental fatigue in healthy adults
+- Reference: PMID 30087294
+
+#### Peppermint Tea and Cerebrovascular Effects (Netzler 2025)
+
+**Study Design**: Randomized, single-blind, placebo-controlled, independent groups
+- 25 adults aged 18+
+- Formulation: Peppermint tea, 200 mL
+
+**Key Results**:
+- Peppermint group: Improvements in cognitive performance vs placebo
+- Greater increases in Oxygenated (Oxy-Hb) and Total hemoglobin in peppermint group
+- Cerebrovascular changes did NOT mediate cognitive improvements (mediation analysis)
+
+**Conclusion**: Peppermint tea enhanced cognition and cerebral blood flow; mechanism is not cerebrovascular; larger samples needed
+- Reference: PMID 40189738
+
+### Cognitive Dosing Summary
+
+| Formulation | Dose | Route | Effect |
+|-------------|------|-------|--------|
+| Peppermint aroma | Ambient diffusion | Inhalation | Memory enhancement, increased alertness |
+| Encapsulated EO | 50-100 µL single dose | Oral | RVIP task improvement, fatigue attenuation |
+| Peppermint tea | 200 mL | Oral | Cognitive performance, cerebral blood flow |

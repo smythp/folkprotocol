@@ -1,0 +1,719 @@
+---
+herb: Goldenseal
+scientific_name: "Hydrastis canadensis L."
+family: "Ranunculaceae"
+common_names:
+  - "Goldenseal"
+  - "Yellow root"
+  - "Orange root"
+  - "Ground raspberry"
+  - "Eye root"
+  - "Indian dye"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-03-06
+notes_on_scope: >
+  Hydrastis canadensis is a North American woodland perennial with a long history of use by Cherokee and
+  other Native American peoples for eye infections, mucosal conditions, skin ailments, and digestive disorders.
+  The primary active alkaloids are berberine (2.5–5.8% dry weight), (-)-β-hydrastine (1.5–4.0%), and
+  canadine (0.5–1.0%). Berberine is the more studied alkaloid systemically; hydrastine is more specific to
+  goldenseal and exhibits poor oral bioavailability. Clinical evidence supporting efficacy for any therapeutic
+  indication is absent — no RCTs have tested goldenseal for its folk uses (upper respiratory infections, UTIs,
+  digestive disorders). The documented clinical research is dominated by pharmacokinetic drug interaction
+  studies, where goldenseal consistently shows significant inhibition of CYP2D6 (~40–50%), CYP3A4/5 (~40–60%),
+  and CYP2C9 in humans. A major safety signal is the 2-year NTP bioassay demonstrating hepatocarcinogenicity
+  in rats and mice; mechanism involves berberine-mediated topoisomerase II inhibition and DNA damage.
+  Berberine displaces bilirubin from albumin — use in pregnancy and neonatal exposure is contraindicated.
+  Commission E published a negative (unapproved) monograph (1991); no WHO or EMA monograph exists for
+  goldenseal. USP draft standards require ≥2% hydrastine and ≥2.5% berberine; commercial product quality
+  is highly variable.
+
+# Critical Reviews and Systematic Reviews
+systematic_reviews:
+  - citation:
+      authors: "Mandal SK, Maji AK, Mishra SK, Ishfaq PM, Devkota HP, Sanches Silva A, Das N"
+      title: "Goldenseal (Hydrastis canadensis L.) and its active constituents: A critical review of their efficacy and toxicological issues"
+      journal: "Pharmacological Research"
+      year: 2020
+      volume: "160"
+      pages: "105085"
+      pmid: "32683037"
+      doi: "10.1016/j.phrs.2020.105085"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32683037/"
+    study_details:
+      study_type: "Critical narrative review"
+      scope: "Efficacy, pharmacology, toxicology of goldenseal and alkaloid constituents"
+      key_findings:
+        efficacy_conclusion: "No rigorous clinical studies have been done on goldenseal for health conditions in humans; large randomized double-blind trials needed"
+        documented_activities: "Antimicrobial, anti-inflammatory, hypolipidemic, hypoglycemic, antioxidant, neuroprotective, cardioprotective, GI-protective (preclinical only)"
+        safety_signals: "Possible neurotoxic, hepatotoxic, and phototoxic activity from goldenseal extract and its alkaloids; significant CYP450 interactions"
+        cyp_interactions: "CYP450 enzyme interactions documented; both berberine and hydrastine inhibit CYP isoforms"
+      conclusion: "Additional large randomized double-blind clinical studies needed to establish mechanisms, clinical efficacy, and safety profiles"
+
+  - citation:
+      authors: "Mahady GB"
+      title: "Goldenseal (Hydrastis canadensis): Is There Enough Scientific Evidence to Support Safety and Efficacy?"
+      journal: "Nutrition in Clinical Care"
+      year: 2001
+      volume: "4"
+      issue: "5"
+      pages: "243-249"
+      doi: "10.1046/j.1523-5408.2001.00004.x"
+      url: "https://onlinelibrary.wiley.com/doi/10.1046/j.1523-5408.2001.00004.x"
+    study_details:
+      study_type: "Review / evidence assessment"
+      key_findings:
+        evidence_status: "Insufficient clinical evidence to support efficacy for any indication"
+        traditional_uses: "Folk uses include eye infections, mucosal conditions, respiratory tract, digestive disorders, topical antiseptic"
+        antimicrobial: "In vitro antibacterial activity documented for berberine; no clinical trials"
+        drug_test_myth: "No evidence that goldenseal masks illicit drug use in urinalysis — a persistent myth"
+        constituents_note: "Berberine most studied; hydrastine relatively less studied in isolation"
+      conclusion: "Evidence base insufficient for clinical recommendations; caution advised for vulnerable populations"
+
+# Randomized Controlled Trials (Pharmacokinetic / Drug Interaction)
+# NOTE: No RCTs testing goldenseal for therapeutic efficacy have been identified. All human RCTs
+# involve pharmacokinetic drug interaction endpoints.
+clinical_trials:
+  - citation:
+      authors: "Gurley BJ, Swain A, Hubbard MA, Hartsfield F, Thaden J, Williams DK, Gentry WB, Tong Y"
+      title: "Supplementation with goldenseal (Hydrastis canadensis), but not kava kava (Piper methysticum), inhibits human CYP3A activity in vivo"
+      journal: "Clinical Pharmacology & Therapeutics"
+      year: 2008
+      volume: "83"
+      issue: "1"
+      pages: "61-69"
+      pmid: "17495878"
+      doi: "10.1038/sj.clpt.6100222"
+      url: "https://pubmed.ncbi.nlm.nih.gov/17495878/"
+    study_details:
+      design: "Randomized controlled trial (crossover)"
+      participants: 16  # healthy volunteers
+      population: "Healthy adult volunteers"
+      intervention: "Goldenseal supplementation 14 days; midazolam as CYP3A probe"
+      endpoint: "Midazolam pharmacokinetics before and after supplementation"
+      key_findings:
+        auc: "Midazolam AUC increased from 107.9 to 175.3 ng·h/mL (62% increase)"
+        clearance: "Cl/F/kg decreased from 1.26 to 0.81 L/h/kg"
+        half_life: "Extended from 2.01 to 3.15 hours"
+        cmax: "Increased from 50.6 to 71.2 ng/mL"
+        kava_comparison: "Kava kava had no significant effect on CYP3A activity"
+      conclusion: "Significant herb-drug interactions may result from concurrent ingestion of goldenseal and CYP3A substrates"
+
+  - citation:
+      authors: "Gurley BJ, Gardner SF, Hubbard MA, Williams DK, Gentry WB, Khan IA, Shah A"
+      title: "In vivo effects of goldenseal, kava kava, black cohosh, and valerian on human cytochrome P450 1A2, 2D6, 2E1, and 3A4/5 phenotypes"
+      journal: "Clinical Pharmacology & Therapeutics"
+      year: 2005
+      volume: "77"
+      issue: "5"
+      pages: "415-426"
+      pmid: "15900287"
+      doi: "10.1016/j.clpt.2005.01.009"
+      url: "https://pubmed.ncbi.nlm.nih.gov/15900287/"
+    study_details:
+      design: "Crossover pharmacokinetic study"
+      participants: 12  # 6 women, 6 men; healthy volunteers
+      population: "Healthy adult volunteers (6 female, 6 male)"
+      intervention: "Goldenseal supplementation (~28 days); probe cocktail for four CYP isoforms"
+      key_findings:
+        cyp2d6: "~40% inhibition of CYP2D6 activity"
+        cyp3a4_5: "~40% inhibition of CYP3A4/5 activity"
+        cyp1a2: "No significant inhibition"
+        cyp2e1: "No significant inhibition"
+        highest_risk_herb: "Goldenseal posed greatest interaction risk among the four herbs tested"
+        kava: "Kava caused ~40% CYP2E1 reduction only"
+        black_cohosh: "~7% CYP2D6 inhibition (statistically significant, clinically weak)"
+        valerian: "No significant CYP effects"
+      conclusion: "Goldenseal clinically significantly inhibits CYP2D6 and CYP3A4/5; significant herb-drug interaction potential"
+
+  - citation:
+      authors: "Gurley BJ, Swain A, Hubbard MA, Williams DK, Breen P, Yates CR, Stuart LB, Hubbard MA, Tong Y, Cheboyina S"
+      title: "Clinical assessment of CYP2D6-mediated herb-drug interactions in humans: Effects of milk thistle, black cohosh, goldenseal, kava kava, St. John's wort, and Echinacea"
+      journal: "Molecular Nutrition & Food Research"
+      year: 2008
+      volume: "52"
+      issue: "7"
+      pages: "755-763"
+      pmcid: "PMC2562884"
+      doi: "10.1002/mnfr.200600300"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2562884/"
+    study_details:
+      design: "Three separate randomized, open-label studies with 30-day washout periods"
+      participants: 54  # 18 per sub-study, 9 female each
+      population: "Healthy adult volunteers; three studies of 18 participants each"
+      intervention: "14 days supplementation; debrisoquine urinary recovery ratio (DURR) as CYP2D6 phenotype marker"
+      duration: "14 days per arm; 30-day washout"
+      key_findings:
+        goldenseal_cyp2d6: "~50% reduction in DURR (p < 0.05) — only goldenseal produced significant CYP2D6 inhibition among all six herbs"
+        comparators_null: "Milk thistle, black cohosh, kava kava, St. John's wort, Echinacea: no significant CYP2D6 effects"
+      conclusion: "Goldenseal may give rise to significant pharmacokinetic herb-drug interactions when co-administered with CYP2D6 substrates"
+
+  - citation:
+      authors: "Gurley BJ, Swain A, Barone GW, Williams DK, Breen P, Yates CR, Stuart LB, Hubbard MA, Tong Y, Cheboyina S"
+      title: "Effect of goldenseal (Hydrastis canadensis) and kava kava (Piper methysticum) supplementation on digoxin pharmacokinetics in humans"
+      journal: "Drug Metabolism and Disposition"
+      year: 2007
+      volume: "35"
+      issue: "2"
+      pages: "240-245"
+      pmid: "17079360"
+      pmcid: "PMC1868501"
+      doi: "10.1124/dmd.106.012708"
+      url: "https://pubmed.ncbi.nlm.nih.gov/17079360/"
+    study_details:
+      design: "Randomized crossover trial with positive controls (rifampin, clarithromycin)"
+      participants: 20  # healthy volunteers
+      intervention: "14 days goldenseal or kava kava supplementation; digoxin pharmacokinetics assessed"
+      controls: "Rifampin (P-gp inducer) and clarithromycin (P-gp inhibitor) as positive controls"
+      key_findings:
+        rifampin: "Significant reductions (p < 0.01) in digoxin AUC, CL/F, t½, Cmax (P-gp induction confirmed)"
+        clarithromycin: "Significant increases in digoxin parameters (P-gp inhibition confirmed)"
+        goldenseal: "Only 14% increase in Cmax — the sole statistically significant finding; no significant effects on AUC, CL/F, or t½"
+        kava_kava: "No significant effects on digoxin pharmacokinetics"
+      conclusion: "Goldenseal and kava kava do not significantly affect digoxin pharmacokinetics; not potent P-glycoprotein modulators at oral doses tested"
+
+  - citation:
+      authors: "Sandhu RS, Prescilla RP, Simonelli TM, Edwards DJ"
+      title: "Influence of goldenseal root on the pharmacokinetics of indinavir"
+      journal: "Journal of Clinical Pharmacology"
+      year: 2003
+      volume: "43"
+      issue: "11"
+      pages: "1283-1288"
+      pmid: "14551183"
+      doi: "10.1177/0091270003258660"
+      url: "https://pubmed.ncbi.nlm.nih.gov/14551183/"
+    study_details:
+      design: "Crossover study"
+      participants: 10  # healthy volunteers
+      intervention: "Goldenseal root 1140 mg twice daily for 14 days; single 800-mg oral dose of indinavir"
+      key_findings:
+        cmax: "No statistically significant difference in peak concentration (11.6 vs 11.9 mg/L)"
+        oral_clearance: "No significant difference (26.8 vs 23.9 mg·h/L)"
+        half_life: "Unchanged"
+        tmax: "Unchanged"
+      conclusion: "Goldenseal root does not affect indinavir pharmacokinetics; interactions with drugs primarily hepatically metabolized by CYP3A4 appear unlikely at this dose"
+      note: "Contrasts with midazolam data; hepatic CYP3A4 appears less affected than intestinal CYP3A4"
+
+  - citation:
+      authors: "Nguyen JT, Tian DD, Tanna RS, Hadi DL, Bansal S, Calamia JC, Rettie AE, Thummel KE, Levy RH, Tian X, Paine MF"
+      title: "Assessing Transporter-Mediated Natural Product-Drug Interactions Via In vitro-In Vivo Extrapolation: Clinical Evaluation With a Probe Cocktail"
+      journal: "Clinical Pharmacology & Therapeutics"
+      year: 2021
+      volume: "109"
+      issue: "5"
+      pages: "1342-1352"
+      pmid: "33174626"
+      pmcid: "PMC8058163"
+      doi: "10.1002/cpt.2107"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33174626/"
+    study_details:
+      design: "Crossover clinical study with probe cocktail"
+      participants: 16  # healthy volunteers
+      population: "Healthy adult volunteers"
+      intervention: "Goldenseal extract; probe cocktail including midazolam (CYP3A), rosuvastatin (BCRP/OATP1B1/3), furosemide (OAT1/3), metformin (OCT1/2, MATE)"
+      funding: "NaPDI Center (NCCIH/NIH)"
+      key_findings:
+        midazolam_cyp3a: "Geometric mean ratio (GMR) 1.43 (90% CI: 1.35–1.53); 43% increase in midazolam AUC; primarily intestinal CYP3A inhibition (no significant change in t½)"
+        rosuvastatin: "No significant effect on rosuvastatin (BCRP/OATP1B1/3 transporters not inhibited)"
+        furosemide: "No significant effect (OAT1/3 not inhibited)"
+        metformin: "Decreased exposure GMR 0.77 (90% CI: 0.71–0.83); unexpected reduction possibly reflecting altered intestinal absorption"
+        metformin_concern: "Decreased metformin exposure may have unfavorable effects on glucose control in diabetic patients"
+      conclusion: "Goldenseal inhibits intestinal CYP3A; in vitro predictions overstated transporter inhibition; highlights need for refined in vitro-in vivo extrapolation models"
+
+  - citation:
+      authors: "Nguyen JT, Tian DD, Tanna RS, Arian CM, Calamia JC, Rettie AE, Thummel KE, Paine MF"
+      title: "An Integrative Approach to Elucidate Mechanisms Underlying the Pharmacokinetic Goldenseal-Midazolam Interaction: Application of In Vitro Assays and Physiologically Based Pharmacokinetic Models to Understand Clinical Observations"
+      journal: "Journal of Pharmacology and Experimental Therapeutics"
+      year: 2023
+      pmid: "37541764"
+      doi: "10.1124/jpet.123.001681"
+      url: "https://pubmed.ncbi.nlm.nih.gov/37541764/"
+      pmcid: "PMC10658920"
+    study_details:
+      design: "Integrated in vitro/in vivo/in silico mechanistic study with clinical pharmacokinetic evaluation"
+      participants: 16  # chronic arm: 16 healthy adults (8M, 8F); acute arm: 8 participants
+      population: "Healthy adults (chronic arm: 16, 8M/8F; acute arm: 8)"
+      intervention_chronic: "1 g goldenseal three times daily for 6 days; 2.5 mg oral midazolam as CYP3A probe"
+      intervention_acute: "Single 3 g goldenseal dose; 2.5 mg oral midazolam"
+      funding: "NaPDI Center (NCCIH/NIH)"
+      key_findings:
+        chronic_auc_ratio: "Midazolam AUC GMR 1.39 (90% CI: 1.30–1.48) after chronic goldenseal"
+        chronic_cmax_ratio: "Midazolam Cmax GMR 1.31 (90% CI: 1.16–1.48)"
+        acute_auc_ratio: "Midazolam AUC GMR 1.57 (90% CI: 1.39–1.77) after single acute dose — greater inhibition than chronic"
+        acute_cmax_ratio: "Midazolam Cmax GMR 1.40 (90% CI: 1.12–1.74)"
+        mechanism: "Time-dependent inhibition of intestinal CYP3A by (−)-β-hydrastine identified as predominant mechanism; PBPK predictions within 1.2-fold of observed values"
+        pbpk_performance: "Integrated PBPK model successfully predicted clinical interaction magnitude for both chronic and acute exposures"
+      conclusion: "Intestinal CYP3A time-dependent inhibition by hydrastine is the primary driver of the goldenseal-midazolam interaction; acute exposure may produce greater inhibition than chronic due to autoinduction or adaptive changes"
+
+# Pharmacokinetics and Bioavailability
+pharmacokinetics:
+  - citation:
+      authors: "Gupta PK, Barone G, Gurley BJ, Fifer EK, Hendrickson HP"
+      title: "Hydrastine pharmacokinetics and metabolism after a single oral dose of goldenseal (Hydrastis canadensis) to humans"
+      journal: "Drug Metabolism and Disposition"
+      year: 2015
+      volume: "43"
+      issue: "4"
+      pages: "534-552"
+      pmid: "25609220"
+      doi: "10.1124/dmd.114.059410"
+      url: "https://pubmed.ncbi.nlm.nih.gov/25609220/"
+    study_details:
+      design: "Single-dose pharmacokinetic study (open-label)"
+      participants: 11  # healthy subjects
+      dose: "2.7 g goldenseal supplement containing 78 mg hydrastine and 132 mg berberine"
+      key_findings:
+        hydrastine_cmax: "225 ± 100 ng/mL"
+        hydrastine_tmax: "1.5 ± 0.3 hours"
+        hydrastine_t_half: "4.8 ± 1.4 hours"
+        hydrastine_auc: "6.4 ± 4.1 ng·h/mL·kg"
+        berberine_cmax: "1.1 ± 1.2 ng/mL (substantially lower — poor oral bioavailability)"
+        berberine_tmax: "3.0 ± 3.3 hours"
+        berberine_auc: "0.15 ± 0.09 ng·h/mL·kg"
+        hydrastine_metabolism: "Rapid and extensive phase I (reduction, demethylation, hydroxylation) and phase II (glucuronidation > sulfation) metabolism"
+        berberine_metabolism: "Extensive first-pass; phase I metabolites primarily sulfated"
+        berberine_bioavailability_note: "Berberine poorly absorbed in humans; extensive intestinal and hepatic first-pass; bioavailability effectively very low despite dose"
+      conclusion: "Hydrastine undergoes extensive biotransformation with multiple metabolites potentially pharmacologically active; berberine has very poor oral bioavailability from goldenseal whole-root supplements"
+
+  - citation:
+      authors: "McDonald MG, Tian DD, Thummel KE, Paine MF, Rettie AE"
+      title: "Modulation of Major Human Liver Microsomal Cytochromes P450 by Component Alkaloids of Goldenseal: Time-Dependent Inhibition and Allosteric Effects"
+      journal: "Drug Metabolism and Disposition"
+      year: 2020
+      volume: "48"
+      issue: "9"
+      pages: "822-830"
+      pmid: "32591416"
+      doi: "10.1124/dmd.120.091041"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32591416/"
+    study_details:
+      design: "In vitro time-dependent inhibition study using human liver microsomes (HLMs) and recombinant CYP Supersomes"
+      key_findings:
+        berberine_cyp2d6_tdi: "Berberine: KI = 2.7 μM, kinact = 0.065 min⁻¹ (CYP2D6 time-dependent inhibition)"
+        berberine_cyp3a: "Berberine: KI = 14.8 μM, kinact = 0.019 min⁻¹ (CYP3A4/5 time-dependent inhibition)"
+        hydrastine_cyp2c9_tdi: "(−)-β-Hydrastine: KI = 49 μM, kinact = 0.036 min⁻¹ (CYP2C9 time-dependent inhibition)"
+        hydrastine_cyp3a_tdi: "(−)-β-Hydrastine: KI = 28 μM, kinact = 0.056 min⁻¹ (CYP3A4/5 time-dependent inhibition)"
+        hydrastinine_cyp2d6: "Hydrastinine metabolite: KI = 37 μM, kinact = 0.049 min⁻¹ (CYP2D6 TDI)"
+        allosteric_effect: "Berberine showed isoform-specific allosteric effects: inhibitory at CYP3A4 but activating at CYP3A5 — important distinction for predictions"
+      conclusion: "Multiple goldenseal alkaloids produce time-dependent (mechanism-based) inhibition of major CYP450 enzymes; isoform-specific allosteric effects of berberine highlight complexity of DDI prediction from goldenseal"
+
+  - citation:
+      authors: "Oyanna VO, Garcia-Torres KY, Bechtold BJ, Lynch KD, Call MR, Horváth M, Manwill PK, Graf TN, Cech NB, Oberlies NH, Paine MF, Clarke JD"
+      title: "Goldenseal-Mediated Inhibition of Intestinal Uptake Transporters Decreases Metformin Systemic Exposure in Mice"
+      journal: "Drug Metabolism and Disposition"
+      year: 2023
+      pmid: "37562957"
+      doi: "10.1124/dmd.123.001360"
+      url: "https://pubmed.ncbi.nlm.nih.gov/37562957/"
+      pmcid: "PMC10586506"
+    study_details:
+      design: "Preclinical mechanistic study — in vitro transporter inhibition assays + mouse PK studies"
+      note: "Mouse study (not human); mechanistic follow-up to the clinical Nguyen 2021 NaPDI cocktail finding that goldenseal decreased metformin exposure (GMR 0.77)"
+      participants_mouse_oral: 8  # per group
+      participants_mouse_iv: 7  # per group
+      key_findings:
+        in_vitro_oct3_ic50: "Goldenseal extract IC50 = 4.9 μM for OCT3 inhibition — 7.4× more potent than berberine alone"
+        in_vitro_pmat_ic50: "Goldenseal extract IC50 = 13.1 μM for PMAT inhibition"
+        in_vitro_thtr2_ic50: "Goldenseal extract IC50 = 5.8 μM for THTR2 inhibition — 2.8× more potent than berberine alone"
+        mouse_oral_cmax: "Goldenseal extract decreased oral metformin Cmax by 31% (p < 0.05)"
+        mouse_oral_auc: "Goldenseal extract reduced metformin AUC0–4h by 30%"
+        mouse_iv: "No significant effect on metformin AUC or t½ after IV administration — confirms intestinal (not hepatic) mechanism"
+        oral_bioavailability: "Metformin oral bioavailability: 62% (vehicle) vs. 46% (goldenseal extract) — intestinal absorption reduction"
+        berberine_hydrastine_null: "Isolated berberine and (−)-β-hydrastine alone showed no effect on metformin PK — unidentified constituents responsible"
+      conclusion: "Goldenseal extract reduces metformin absorption via inhibition of intestinal apical uptake transporters (OCT3, PMAT, THTR2); active constituent(s) beyond berberine are responsible; clinically relevant given known human metformin-goldenseal interaction"
+
+  - citation:
+      authors: "Chatterjee P, Franklin MR"
+      title: "Human cytochrome p450 inhibition and metabolic-intermediate complex formation by goldenseal extract and its methylenedioxyphenyl components"
+      journal: "Drug Metabolism and Disposition"
+      year: 2003
+      volume: "31"
+      issue: "11"
+      pages: "1391-1397"
+      pmid: "14570772"
+      doi: "10.1124/dmd.31.11.1391"
+      url: "https://pubmed.ncbi.nlm.nih.gov/14570772/"
+    study_details:
+      design: "In vitro inhibition study using human hepatic microsomes"
+      goldenseal_composition: "Extract containing approximately equal amounts (~17 mM each) of berberine and hydrastine"
+      key_findings:
+        cyp2d6_berberine_ic50: "Berberine IC50 = 45 μM (bufuralol metabolism)"
+        cyp3a4_hydrastine_ic50: "Hydrastine IC50 = 25–30 μM for isomers (testosterone metabolism)"
+        mechanism_based: "Hydrastine formed P450 metabolic intermediate (MI) complex with CYP2C9, CYP2D6, and CYP3A4 — suggesting mechanism-based (irreversible) inhibition"
+        time_dependency: "Time-dependent inhibition pattern consistent with mechanism-based inhibition rather than reversible competitive inhibition"
+      conclusion: "Both reversible and irreversible CYP inhibition mechanisms contribute to goldenseal drug interactions; MI complex formation is clinically significant"
+
+# Safety and Toxicology Studies
+safety_studies:
+  - citation:
+      authors: "National Toxicology Program"
+      title: "Toxicology and carcinogenesis studies of goldenseal root powder (Hydrastis canadensis) in F344/N rats and B6C3F1 mice (feed studies)"
+      journal: "National Toxicology Program Technical Report Series"
+      year: 2010
+      volume: "562"
+      pages: "1-188"
+      pmid: "21372858"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21372858/"
+      ntp_report_url: "https://ntp.niehs.nih.gov/sites/default/files/ntp/htdocs/lt_rpts/tr562.pdf"
+    study_details:
+      design: "2-week, 3-month, and 2-year feed studies"
+      species: "F344/N rats (male and female) and B6C3F1 mice (male and female)"
+      goldenseal_composition: "3.89% berberine, 2.8% hydrastine, 0.17% canadine"
+      duration: "2-year bioassay (carcinogenicity endpoint)"
+      key_findings:
+        rat_male: "Clear evidence of carcinogenic activity — increased incidences of hepatocellular adenoma and carcinoma"
+        rat_female: "Clear evidence of carcinogenic activity — hepatocellular tumors"
+        mouse_male: "Some evidence of carcinogenic activity"
+        mouse_female: "No evidence of carcinogenicity at tested exposure levels"
+        nonneoplastic: "Increased incidences of nonneoplastic liver lesions (hepatocyte changes, liver weight increases) across multiple dose groups"
+        genotoxicity: "Not mutagenic in Salmonella typhimurium or E. coli tester strains (with or without S9)"
+        micronucleus: "No increase in micronucleated erythrocytes in peripheral blood (3-month mouse study)"
+      conclusion: "Goldenseal root powder is carcinogenic in rodents; mechanism not fully characterized at time of report (see Chen et al. 2013 for mechanism)"
+
+  - citation:
+      authors: "Chen S, Wan L, Couch L, Lin H, Li Y, Dobrovolsky VN, Mei N, Guo L"
+      title: "Mechanism study of goldenseal-associated DNA damage"
+      journal: "Toxicology Letters"
+      year: 2013
+      volume: "221"
+      issue: "1"
+      pages: "64-72"
+      pmid: "23747414"
+      doi: "10.1016/j.toxlet.2013.05.641"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23747414/"
+    study_details:
+      design: "In vitro mechanistic study (HepG2 human hepatoma cells)"
+      institution: "National Center for Toxicological Research, U.S. FDA"
+      key_findings:
+        primary_agent: "Berberine is the most potent DNA damage inducer; followed by palmatine"
+        mechanism: "Berberine suppresses topoisomerase II activity → DNA damage; knockdown of topoisomerase II gene significantly reduced berberine-induced DNA damage"
+        commercial_products: "Commercial goldenseal products demonstrated dose-dependent DNA damage correlating with berberine concentration"
+        assays_used: "Comet assay and γ-H2AX expression"
+      conclusion: "Berberine-mediated topoisomerase II inhibition explains goldenseal hepatocarcinogenicity; DNA damage is dose-dependent and product-specific"
+
+  - citation:
+      authors: "Yamaura K, Shimada M, Nakayama N, Ueno K"
+      title: "Protective effects of goldenseal (Hydrastis canadensis L.) on acetaminophen-induced hepatotoxicity through inhibition of CYP2E1 in rats"
+      journal: "Pharmacognosy Research"
+      year: 2011
+      volume: "3"
+      issue: "4"
+      pages: "250-255"
+      pmid: "22224048"
+      pmcid: "PMC3249784"
+      doi: "10.4103/0974-8490.89745"
+      url: "https://pubmed.ncbi.nlm.nih.gov/22224048/"
+    study_details:
+      design: "Animal study (male Wistar rats)"
+      intervention: "Goldenseal extract orally at multiple time points (2, 18, 26 hours before and 6 hours after acetaminophen 400 mg/kg)"
+      key_findings:
+        cyp2e1_ic50: "Goldenseal demonstrated strongest CYP2E1 inhibition with IC50 = 4.32 μg/mL (in vitro)"
+        hepatoprotection: "At 300 mg/kg, goldenseal significantly attenuated APAP-induced increases in serum AST and ALT"
+        comparison: "Hepatoprotective effect exceeded that of silymarin at 200 mg/kg"
+        mechanism: "Serum APAP concentration increased with goldenseal treatment, suggesting CYP2E1 inhibition diverted metabolism away from toxic pathway"
+      note: "Animal study only; direct clinical relevance uncertain; also highlights CYP2E1 inhibitory potential for drug interactions"
+
+  - citation:
+      authors: "Clement-Kruzel S, Hwang SA, Kruzel MC, Dasgupta A, Actor JK"
+      title: "Immune modulation of macrophage pro-inflammatory response by goldenseal and Astragalus extracts"
+      journal: "Journal of Medicinal Food"
+      year: 2008
+      volume: "11"
+      issue: "3"
+      pages: "493-498"
+      pmid: "18800897"
+      doi: "10.1089/jmf.2008.0044"
+      url: "https://pubmed.ncbi.nlm.nih.gov/18800897/"
+    study_details:
+      design: "In vitro immunopharmacology study (mouse macrophages)"
+      key_findings:
+        unstimulated: "Little to no direct macrophage stimulation from goldenseal or Astragalus extract alone"
+        lps_combination: "When combined with LPS stimulation, both extracts dose-dependently reduced TNF-α, IL-6, IL-10, and IL-12 production"
+      conclusion: "Traditional therapeutic uses may relate to reduction of pro-inflammatory response during infection rather than direct immune stimulation"
+
+# Antimicrobial Studies (In Vitro — No Human Clinical Trials)
+antimicrobial_studies:
+  - citation:
+      authors: "Cech NB, Junio HA, Ackermann LW, Kavanaugh JS, Horswill AR"
+      title: "Quorum quenching and antimicrobial activity of goldenseal (Hydrastis canadensis) against methicillin-resistant Staphylococcus aureus (MRSA)"
+      journal: "Planta Medica"
+      year: 2012
+      volume: "78"
+      issue: "14"
+      pages: "1556-1561"
+      pmid: "22814821"
+      doi: "10.1055/s-0032-1315042"
+      url: "https://pubmed.ncbi.nlm.nih.gov/22814821/"
+    study_details:
+      design: "In vitro antimicrobial and quorum sensing study"
+      model: "Clinical MRSA isolates (USA300 strains)"
+      key_findings:
+        leaf_extract_mic: "38 μg/mL (standardized to berberine) vs isolated berberine alone at 150 μg/mL — ~4× more potent"
+        mechanism_antimicrobial: "Alkaloids + efflux-pump inhibitory flavonoids (sideroxylin series) synergize"
+        mechanism_quorum: "Attenuated AgrCA two-component signaling system in MRSA; reduced virulence factor production"
+        leaf_vs_root: "Leaves contain synergistic flavonoids; roots contain berberine; combination may be optimal"
+      conclusion: "Goldenseal extract acts through multiple mechanisms against MRSA including direct antimicrobial and anti-virulence activity; clinical trials not yet conducted"
+
+  - citation:
+      authors: "Junio HA, Sy-Cordero AA, Ettefagh KA, Burns JT, Micko KT, Graf TN, Richter SJ, Cannon RE, Oberlies NH, Cech NB"
+      title: "Synergy-directed fractionation of botanical medicines: a case study with goldenseal (Hydrastis canadensis)"
+      journal: "Journal of Natural Products"
+      year: 2011
+      volume: "74"
+      issue: "7"
+      pages: "1621-1629"
+      pmid: "21661731"
+      doi: "10.1021/np200336g"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21661731/"
+    study_details:
+      design: "In vitro synergy-directed fractionation study"
+      key_findings:
+        synergists_identified: "Sideroxylin, 8-desmethyl-sideroxylin, and 6-desmethyl-sideroxylin (flavonoids)"
+        synergy_mechanism: "Flavonoids inhibit NorA multidrug resistance efflux pump in S. aureus"
+        flavonoid_activity: "Flavonoids possess no inherent antimicrobial activity against S. aureus — would be missed by traditional bioactivity-directed fractionation"
+        distribution: "Synergistic flavonoids concentrate in leaves; berberine concentrates in roots"
+      conclusion: "Whole goldenseal extract superior to isolated berberine; multi-component synergy explains traditional whole-plant preparation"
+      funding: "NIH NCCIH R15 AT005005"
+
+# Quality Control and Standardization Studies
+quality_standardization:
+  - citation:
+      authors: "Edwards DJ, Draper EJ"
+      title: "Variations in alkaloid content of herbal products containing goldenseal"
+      journal: "Journal of the American Pharmacists Association"
+      year: 2003
+      volume: "43"
+      issue: "3"
+      pages: "419-423"
+      pmid: "12836794"
+      doi: "10.1331/154434503321831148"
+      url: "https://pubmed.ncbi.nlm.nih.gov/12836794/"
+    study_details:
+      design: "Analytical survey of 20 commercial goldenseal products"
+      key_findings:
+        hydrastine_range: "0 to 2.93% (some products contained no detectable hydrastine)"
+        berberine_range: "0.82% to 5.86%"
+        median_total_alkaloid: "5.30%"
+        usp_compliance: "Only 10 of 17 goldenseal root products met proposed USP standards"
+        root_vs_herb: "Products labeled 'goldenseal root' had approximately 4× higher alkaloid content than products labeled 'goldenseal herb'"
+      conclusion: "Substantial quality variability; many products failing proposed USP standards; pharmacist oversight recommended"
+
+  - citation:
+      authors: "Brown PN, Roman MC"
+      title: "Determination of Hydrastine and Berberine in Goldenseal Raw Materials, Extracts, and Dietary Supplements by High-Performance Liquid Chromatography with UV: Collaborative Study"
+      journal: "Journal of AOAC International"
+      year: 2008
+      volume: "91"
+      issue: "4"
+      pages: "694-701"
+      pmid: "18727526"
+      pmcid: "PMC2586114"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2586114/"
+    study_details:
+      design: "AOAC multilaboratory collaborative validation study"
+      laboratories: 9
+      samples: "Eight blind samples including powdered botanical materials, whole root, and four finished dietary supplements"
+      key_findings:
+        matrix_ranges: "Powdered root/capsules: ~0.2% to 4% (w/w) per alkaloid; liquid tinctures: ~4000–5000 μg/mL per alkaloid"
+        hydrastine_reproducibility: "RSDR 2.68–6.65%; HorRat 0.77–1.89"
+        berberine_reproducibility: "RSDR 5.66–7.68%; HorRat 1.32–2.12"
+        method_status: "Merited AOAC Official First Action status"
+      conclusion: "HPLC-UV method validated for official use in determining hydrastine and berberine in goldenseal products"
+
+  - citation:
+      authors: "Weber HA, Zart MK, Hodges AE, White KD, Barnes SM, Moody LA, Clark AP, Harris RK, Overstreet JD, Smith CS"
+      title: "Method validation for determination of alkaloid content in goldenseal root powder"
+      journal: "Journal of AOAC International"
+      year: 2003
+      volume: "86"
+      issue: "3"
+      pages: "476-483"
+      pmid: "12852562"
+      url: "https://pubmed.ncbi.nlm.nih.gov/12852562/"
+    study_details:
+      design: "Single-laboratory method validation"
+      target_alkaloids: "Berberine, hydrastine, canadine, palmatine"
+      key_findings:
+        precision: "Percent RSD ≤ 1.6% across 10 replicate extractions for all 4 alkaloids"
+        recovery: "92.3% (palmatine) to 101.9% (hydrastine)"
+        adulterant_differentiation: "Method successfully differentiated goldenseal from Coptis, Oregon grape root, barberry bark, and celandine via distinct chromatographic profiles"
+        extraction: "0.3–2 g goldenseal powder per 100 mL solvent; isocratic LC with UV detection"
+      conclusion: "Validated LC method suitable for regulatory testing; differentiates goldenseal from common adulterants"
+
+# PBPK Modeling
+pbpk_modeling:
+  - citation:
+      authors: "Adiwidjaja J, Boddy AV, McLachlan AJ"
+      title: "Physiologically based pharmacokinetic model predictions of natural product-drug interactions between goldenseal, berberine, imatinib and bosutinib"
+      journal: "European Journal of Clinical Pharmacology"
+      year: 2022
+      volume: "78"
+      issue: "4"
+      pages: "597-611"
+      pmid: "35048143"
+      doi: "10.1007/s00228-021-03266-y"
+      url: "https://pubmed.ncbi.nlm.nih.gov/35048143/"
+    study_details:
+      design: "PBPK modeling study (Simcyp Simulator v17)"
+      key_findings:
+        bosutinib: "Predicted ~2-fold increase (5th–95th percentile: 1.4–3.1) in bosutinib AUC when co-administered with goldenseal — clinically significant"
+        imatinib: "Predicted AUC ratios 1.0–1.2 — unlikely to be clinically important"
+        mechanism: "Reversible and irreversible (MBI) inhibition of CYP3A + P-gp transporter inhibition"
+      conclusion: "Goldenseal may significantly increase bosutinib exposure; dose adjustment may be needed for co-administration; imatinib less affected"
+      note: "Computational prediction; clinical validation required"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "German Commission E"
+    title: "Hydrastis rhizoma (Goldenseal rhizome)"
+    monograph_status: "Unapproved herb (negative monograph)"
+    year: 1991
+    reason_for_negative: "Insufficient evidence to support efficacy; safety concerns not adequately characterized at time of evaluation"
+    content_type: "Negative therapeutic monograph — use in medicinal products not supported"
+    notes: "One of relatively few North American herbs to receive Commission E evaluation; remained unapproved. No positive indication endorsed."
+
+  - authority: "World Health Organization (WHO)"
+    title: "No WHO monograph on Hydrastis canadensis / goldenseal exists"
+    notes: >
+      WHO has not published a monograph on goldenseal in its Monographs on Selected Medicinal Plants series.
+      Berberine (as an isolated alkaloid from multiple plant sources) is referenced in WHO pharmacopoeia discussions,
+      but no comprehensive goldenseal-specific monograph analogous to those for echinacea or licorice has been published.
+
+  - authority: "United States Pharmacopeia (USP)"
+    status: "Draft quality standards developed; not yet fully official as of last review"
+    proposed_standards:
+      hydrastine_minimum: "≥2.0% hydrastine (dry basis)"
+      berberine_minimum: "≥2.5% berberine (dry basis)"
+    regulatory_category: "Dietary supplement (DSHEA); not an FDA-approved drug"
+    notes: "Draft USP monograph developed in response to quality concerns; compliance in commercial products variable (see Edwards & Draper 2003)"
+
+  - authority: "National Center for Complementary and Integrative Health (NCCIH, NIH)"
+    title: "Goldenseal: Usefulness and Safety"
+    url: "https://www.nccih.nih.gov/health/goldenseal"
+    content_type: "Evidence summary for health professionals and public"
+    key_points:
+      - "Not enough evidence to determine whether goldenseal is useful for any health condition"
+      - "Pregnant women and infants should not use goldenseal (berberine → neonatal jaundice/kernicterus risk)"
+      - "Short-term use (~3 g/day) appears generally well tolerated in healthy adults"
+      - "Multiple drug interactions via CYP2D6 and CYP3A4 inhibition"
+
+# Dosing and Standardization
+dosing_information:
+  traditional_dosing:
+    - preparation: "Dried root/rhizome"
+      dose_range: "0.5–10 g"
+      frequency: "Three times daily"
+      source: "Historical references (Felter & Lloyd, 1898; Wood & Bache USP entries)"
+    - preparation: "Tincture (1:10 in 60% ethanol)"
+      dose_range: "2–4 mL"
+      frequency: "Three times daily"
+    - preparation: "Fluid extract"
+      dose_range: "0.3–10 mL"
+      frequency: "Three times daily"
+    - preparation: "Standardized root extract"
+      dose_range: "50–300 mg/day (lower doses in divided doses)"
+      standardization_target: "Typically standardized to ≥2% hydrastine and ≥2.5% berberine per USP draft"
+
+  pharmacokinetic_study_dosing:
+    - study: "Gurley et al. 2005 (CYP phenotypes)"
+      dose: "~1 g goldenseal extract three times daily"
+      duration: "28 days"
+    - study: "Gurley et al. 2007 (digoxin)"
+      dose: "Not specified per arm; 14-day supplementation"
+      duration: "14 days"
+    - study: "Gurley et al. 2008 (CYP3A midazolam)"
+      dose: "Not specified; 14-day supplementation"
+      duration: "14 days"
+    - study: "Sandhu et al. 2003 (indinavir)"
+      dose: "1140 mg goldenseal root twice daily (2280 mg/day)"
+      duration: "14 days"
+    - study: "Gupta et al. 2015 (hydrastine PK)"
+      dose: "2.7 g goldenseal supplement (78 mg hydrastine, 132 mg berberine)"
+      duration: "Single dose"
+    - study: "Nguyen et al. 2021 (NaPDI cocktail)"
+      dose: "Goldenseal extract; both acute and chronic regimens"
+      duration: "Acute and 14-day chronic"
+
+  safety_considerations:
+    short_term_use: "Doses of ~3 g/day for short periods appear reasonably well tolerated in healthy adults (NCCIH)"
+    long_term_safety: "Not established; carcinogenicity in 2-year rodent bioassay (NTP TR562)"
+    contraindications:
+      - "Pregnancy: berberine crosses placenta and can cause neonatal hyperbilirubinemia and kernicterus"
+      - "Neonates and infants: berberine displaces bilirubin from albumin → risk of kernicterus"
+      - "Breastfeeding: berberine may transfer to breast milk"
+      - "Severe renal or hepatic impairment: clearance data insufficient"
+    drug_interactions:
+      documented_in_vivo:
+        - "CYP3A4/5 substrates (midazolam, benzodiazepines): 40–60% inhibition of intestinal CYP3A"
+        - "CYP2D6 substrates (antidepressants, beta-blockers, opioids): ~40–50% inhibition"
+        - "CYP2C9 substrates (warfarin, NSAIDs): in vitro IC50 data; clinical impact unclear"
+        - "Metformin: decreased exposure (GMR 0.77); monitor glycemic control"
+      not_significant:
+        - "P-glycoprotein substrates (digoxin): no clinically significant effect"
+        - "CYP1A2 substrates: no significant in vivo effect"
+        - "CYP2E1 substrates: in vitro inhibition but no in vivo studies in humans"
+
+  standardization:
+    primary_markers:
+      - "(-)-β-Hydrastine (≥2.0% dry weight by USP draft)"
+      - "Berberine (≥2.5% dry weight by USP draft)"
+    secondary_markers:
+      - "Canadine (0.5–1.0%)"
+    analytical_method: "HPLC-UV (validated per AOAC Official First Action; Brown & Roman 2008)"
+    quality_issue: "Many commercial products fail proposed USP standards; 7 of 17 products non-compliant in 2003 survey"
+
+# Key Research Gaps
+research_needs:
+  - "No RCTs have ever evaluated goldenseal for any therapeutic indication (respiratory infection, UTI, digestive, eye, topical)"
+  - "Human pharmacokinetic characterization of berberine from goldenseal whole-root preparations (current data limited to hydrastine)"
+  - "Clinical drug interaction studies needed for CYP2C9, CYP2E1, and intestinal vs. hepatic CYP3A4 differentiation"
+  - "Long-term human safety studies; rodent carcinogenicity not yet extrapolated to human cancer risk assessment"
+  - "Topical efficacy RCTs for wound/skin infection indications (folk use)"
+  - "Bioavailability enhancement strategies (nanoformulations, whole-extract synergy) — in vitro work warrants clinical follow-up"
+  - "Definitive assessment of anti-virulence/quorum quenching activity in clinical MRSA infection models"
+  - "WHO monograph development for clinical standardization guidance"
+  - "Pediatric pharmacokinetics and safety data (herb sometimes misused in children)"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    therapeutic_efficacy:
+      - "No RCTs for any traditional indication (respiratory, urinary, GI, ophthalmic, topical)"
+      - "NCCIH conclusion: not enough evidence to determine usefulness for any health condition"
+    pharmacokinetic_drug_interactions:
+      - "CYP3A4/5: ~40–60% inhibition in vivo (midazolam studies, n=16 and n=12)"
+      - "CYP2D6: ~40–50% inhibition in vivo (phenotype studies, n=12 and n=54)"
+      - "CYP2C9: inhibition demonstrated in vitro; clinical significance unstudied"
+      - "P-glycoprotein: no significant modulation (digoxin study, n=20)"
+      - "Metformin: decreased exposure (GMR 0.77) — mechanism unclear but clinically relevant"
+      - "Indinavir: no significant interaction despite CYP3A4 inhibition — hepatic CYP3A4 less affected than intestinal"
+
+  safety_profile:
+    primary_concerns:
+      - "Rodent hepatocarcinogenicity (NTP TR562; 2-year bioassay): clear evidence in rats, some evidence in male mice"
+      - "Genotoxicity: berberine causes DNA damage via topoisomerase II inhibition (Chen et al. 2013)"
+      - "Neonatal risk: berberine displaces bilirubin from albumin → kernicterus in newborns"
+      - "Pregnancy: contraindicated; berberine may cause teratogenicity at high doses (animal data)"
+    drug_interaction_risk: "High — significant inhibition of CYP2D6 and CYP3A4; caution with any drugs metabolized by these enzymes"
+    short_term_tolerance: "Doses of ~3 g/day appear well tolerated short-term in healthy adults; no systematic adverse event data"
+
+  pharmacokinetics:
+    hydrastine_oral_ba: "Absorbed from GI tract; Cmax 225 ± 100 ng/mL at 2.7g dose; t½ 4.8 ± 1.4 hours"
+    berberine_oral_ba: "Very poor; Cmax only 1.1 ± 1.2 ng/mL at equivalent dose; extensive first-pass metabolism"
+    cyp_inhibition_mechanism: "Both reversible competitive inhibition and mechanism-based (MBI) inhibition of CYP isoforms"
+    intestinal_dominance: "Goldenseal primarily inhibits intestinal CYP3A4 rather than hepatic; explains indinavir vs. midazolam discrepancy"
+
+  folk_use_notes:
+    drug_test_masking: "Persistent myth; no scientific basis; goldenseal does not mask illicit drugs in urinalysis"
+    traditional_indications: "Eye infections, UTIs, respiratory infections, wound healing — all lack clinical trial evidence"
+    quality_variability: "Commercial products highly variable; up to 40% fail proposed USP quality standards"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27; updated 2026-03-06)"
+  - "Search terms: 'Hydrastis canadensis' clinical trial, goldenseal randomized controlled trial, goldenseal pharmacokinetics, berberine hydrastine CYP inhibition, goldenseal safety toxicology, goldenseal drug interaction 2022-2025"
+  - "NCCIH Goldenseal: Usefulness and Safety (https://www.nccih.nih.gov/health/goldenseal)"
+  - "NTP Technical Report No. 562 (2010) — Goldenseal root powder carcinogenesis"
+  - "German Commission E monograph: Hydrastis rhizoma (1991) — negative monograph"
+  - "NaPDI Center (NCCIH/NIH) goldenseal study program (https://napdicenter.org/natural-products-studied/goldenseal/)"
+  - "PubMed Central open access articles"

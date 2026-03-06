@@ -21,6 +21,16 @@
 - Adverse effects: Mild gastrointestinal events, predominantly burping
 - Conclusion: Only 75 mg BID dose demonstrated statistically significant superiority over placebo
 
+**Diener 2004** - First placebo-controlled trial, reanalysis (European Neurology)
+- Sample: 60 participants (butterbur: 33; placebo: 27)
+- Dose: Petadolex 25 mg twice daily (50 mg/day)
+- Primary outcomes:
+  - Migraine attack frequency: 3.4 → 1.8 attacks/month (p=0.0024) in butterbur group
+  - Placebo: 2.9 → 2.6 attacks/month (not significant)
+  - Responder rate (≥50% frequency improvement): butterbur 45% vs placebo 15%
+- Safety: Well tolerated; no safety concerns reported
+- Notes: Earliest placebo-controlled trial; lower dose (50 mg/day) still statistically significant; less effective than Lipton 2004's 150 mg/day
+
 **Grossmann 2000** - RCT (Int J Clin Pharmacol Ther)
 - Sample: 60 patients
 - Duration: 12 weeks (plus 4-week run-in phase)
@@ -57,6 +67,16 @@
   - Serious adverse effects: None documented
   - Premature discontinuations: None due to side effects
 
+**Oelkers-Ax 2008** - Explorative 3-arm RCT (European Journal of Pain)
+- Population: Primary school children with migraine
+- Sample: 58 children (butterbur: 19; music therapy: 20; placebo: 19)
+- Key findings:
+  - 8-week post-treatment: only music therapy superior to placebo (p=0.005); butterbur not significant
+  - 6-month follow-up: both music therapy (p=0.018) AND butterbur (p=0.044) superior to placebo
+  - All groups showed substantial attack frequency reduction during baseline phase
+- Conclusion: Butterbur shows delayed/sustained efficacy — does not reach primary endpoint at 8 weeks but is significant at 6-month follow-up
+- Notes: Explorative study design; suggests delayed effect profile
+
 ### Clinical Dosing Recommendations - Migraine
 
 **Effective dose:** 75 mg twice daily (150 mg/day total)
@@ -75,6 +95,32 @@
 ## Allergic Rhinitis (Seasonal)
 
 ### Comparative Trials
+
+**Schapowal 2004** - Dose-dependent RCT (Archives of Otolaryngology–Head & Neck Surgery)
+- Sample: 186 patients (high-dose: 60; low-dose: 65; placebo: 61)
+- Extract: Ze339 (CO₂ leaf extract, 8 mg petasines/tablet)
+- Duration: 2 consecutive weeks
+- Dosing:
+  - High dose: 1 tablet three times daily (24 mg petasines/day)
+  - Low dose: 1 tablet twice daily (16 mg petasines/day)
+  - Placebo: matching placebo
+- Key findings:
+  - Both Ze339 doses significantly superior to placebo
+  - Significant dose-response relationship: TID > BID
+  - Clinician assessments and overall responder rates significantly favored both active groups
+  - Adverse event incidence indistinguishable from placebo
+- Conclusion: Ze339 effective for intermittent allergic rhinitis; 3×/day is optimal dose
+
+**Schapowal 2005** - Ze339 vs fexofenadine RCT (Phytotherapy Research)
+- Sample: 330 patients (3-arm: Ze339, fexofenadine 180 mg, placebo)
+- Extract: Ze339, 8 mg total petasine per tablet, three times daily
+- Comparator: Telfast (fexofenadine) 180 mg once daily
+- Key findings:
+  - Both Ze339 and fexofenadine significantly superior to placebo (p<0.001) for daytime symptoms
+  - No significant difference between Ze339 and fexofenadine (p=0.37)
+  - Evening/night symptoms, physician assessments, responder rates similarly favored both active treatments
+  - Both treatments well-tolerated
+- Conclusion: Ze339 equivalent in efficacy to fexofenadine 180 mg
 
 **Schapowal 2002** - RCT vs Cetirizine (BMJ)
 - Sample: 125 patients (butterbur: 61; cetirizine: 64)
@@ -106,6 +152,18 @@
   - Quality-of-life scores: Significantly improved
   - Lymphocyte distribution: No effects observed
   - Immune cell mediator generation: No effects observed
+
+**Gray 2004** - Negative crossover trial (Ann Allergy Asthma Immunol)
+- Sample: 35 patients (14 male, 21 female)
+- Design: Double-blind placebo-controlled crossover
+- Dose: Butterbur 50 mg twice daily for 2 weeks per arm
+- Preparation: Root-based, non-Ze339 preparation (non-standardized)
+- Primary outcome: Peak nasal inspiratory flow (PNIF) — no significant difference
+  - Butterbur: morning 107 / evening 114 L/min
+  - Placebo: morning 105 / evening 117 L/min
+- Also no significant effect on total nasal symptom score, eye symptom score, or quality of life
+- Conclusion: **Negative trial** — no meaningful benefit over placebo
+- Notes: Used non-Ze339, non-standardized root preparation. Results should NOT be generalized to Ze339 leaf extract trials. Highlights critical importance of preparation standardization.
 
 ### Observational Studies
 
@@ -225,6 +283,17 @@
 
 ---
 
+## Practice Guidelines
+
+**Holland 2012 — American Academy of Neurology (Neurology)**
+- Organization: Quality Standards Subcommittee of the AAN and American Headache Society
+- Recommendation: **Level A evidence** — Petasites (butterbur) is effective for migraine prevention and should be offered to patients
+- Basis: Clinical trial doses of 75 mg BID
+- Status: **Retired by AAN Board of Directors on September 16, 2015** due to hepatotoxicity safety concerns with commercial preparations (PA contamination in marketplace products)
+- Historical significance: First and only time a complementary/herbal treatment received Level A (highest) evidence designation from AAN for migraine prevention
+
+---
+
 ## Research Gaps
 
 - Need for larger, independently-funded trials (many trials had manufacturer support)
@@ -237,3 +306,10 @@
 ## Sources
 
 Clinical trials and systematic reviews from PubMed (2000-2022), with emphasis on RCTs, observational studies, and narrative reviews focusing on standardized extracts (Petadolex, Ze 339).
+
+**Migraine RCTs:** Lipton 2004, Diener 2004, Grossmann 2000, Oelkers-Ax 2008 (pediatric), Pothmann 2005 (pediatric open-label)
+**Allergic rhinitis RCTs:** Schapowal 2002 (vs cetirizine), Schapowal 2004 (dose-dependent), Schapowal 2005 (vs fexofenadine), Gray 2004 (negative trial), Thomet 2002
+**Observational:** Käufeler 2006, Blosa 2021
+**Systematic reviews:** Agosti 2006 (migraine), Guo 2007 (allergic rhinitis), Giles 2005 (general)
+**Practice guidelines:** Holland 2012 AAN (Level A, retired 2015)
+**Pharmacology:** Borlak 2022, Danesch 2004 (asthma)

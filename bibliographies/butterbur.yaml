@@ -73,6 +73,32 @@ systematic_reviews:
     study_type: "Evidence-based Systematic Review"
     scope: "Scientific literature analysis, expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, dosing"
 
+practice_guidelines:
+  - id: holland_2012_aan
+    title: "Evidence-based guideline update: NSAIDs and other complementary treatments for episodic migraine prevention in adults"
+    authors:
+      - S Holland
+      - S D Silberstein
+      - F Freitag
+      - D W Dodick
+      - C Argoff
+      - E Ashman
+    organization: "Quality Standards Subcommittee of the American Academy of Neurology and the American Headache Society"
+    year: 2012
+    journal: Neurology
+    volume: "78"
+    issue: "17"
+    pages: "1346-1353"
+    pmid: "22529203"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/22529203/"
+    study_type: "Evidence-Based Practice Guideline"
+    key_findings:
+      - "Petasites (butterbur): Level A evidence — effective for migraine prevention, should be offered to patients"
+      - "Level A = highest evidence level; unique among complementary treatments at the time"
+      - "Guideline RETIRED by AAN Board of Directors on September 16, 2015 due to hepatotoxicity safety concerns with commercial preparations"
+    recommended_dose: "Not specified (based on clinical trial doses of 75 mg BID)"
+    status: "Retired 2015"
+
 randomized_controlled_trials_migraine:
   - id: lipton_2004
     title: "Petasites hybridus root (butterbur) is an effective preventive treatment for migraine"
@@ -117,6 +143,31 @@ randomized_controlled_trials_migraine:
     adverse_effects: "Mild gastrointestinal events, predominantly burping"
     conclusion: "Only 75 mg BID dose demonstrated statistically significant superiority over placebo"
 
+  - id: diener_2004_reanalysis
+    title: "The first placebo-controlled trial of a special butterbur root extract for the prevention of migraine: reanalysis of efficacy criteria"
+    authors:
+      - H C Diener
+      - V W Rahlfs
+      - U Danesch
+    year: 2004
+    journal: "European Neurology"
+    pmid: "14752215"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/14752215/"
+    study_type: "Randomized Double-Blind Placebo-Controlled Trial (reanalysis)"
+    sample_size: "60 participants (butterbur: 33; placebo: 27)"
+    treatment_duration: "Not specified"
+    intervention: "Petadolex (PA-free root extract), 25 mg twice daily (50 mg/day)"
+    primary_outcomes:
+      - measure: "Migraine attack frequency"
+        butterbur: "3.4 → 1.8 attacks/month (p=0.0024)"
+        placebo: "2.9 → 2.6 attacks/month (not significant)"
+      - measure: "Responder rate (≥50% frequency improvement)"
+        butterbur: "45%"
+        placebo: "15%"
+    safety: "Well tolerated; no safety concerns reported"
+    conclusion: "Butterbur 50 mg/day may be effective for migraine prophylaxis"
+    notes: "Earliest placebo-controlled trial; lower dose (50 mg/day) than the pivotal Lipton 2004 trial (150 mg/day) but still statistically significant"
+
   - id: grossmann_2000
     title: "An extract of Petasites hybridus is effective in the prophylaxis of migraine"
     authors:
@@ -140,6 +191,32 @@ randomized_controlled_trials_migraine:
       - "No adverse events reported"
       - "Exceptional tolerability demonstrated"
     conclusion: "High efficacy combined with excellent tolerance supports clinical value"
+
+  - id: oelkers_ax_2008_pediatric
+    title: "Butterbur root extract and music therapy in the prevention of childhood migraine: an explorative study"
+    authors:
+      - R Oelkers-Ax
+      - A Leins
+      - P Parzer
+      - T Hillecke
+      - H V Bolay
+      - J Fischer
+      - S Bender
+      - U Hermanns
+      - F Resch
+    year: 2008
+    journal: "European Journal of Pain"
+    pmid: "17659990"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/17659990/"
+    study_type: "Prospective Randomized Partly Double-Blind Placebo-Controlled Parallel-Group Trial"
+    population: "Primary school children with migraine"
+    sample_size: "58 children total (butterbur: 19; music therapy: 20; placebo: 19)"
+    key_findings:
+      - "8-week post-treatment: only music therapy superior to placebo (p=0.005); butterbur not significant"
+      - "6-month follow-up: both music therapy (p=0.018) AND butterbur (p=0.044) superior to placebo"
+      - "All groups showed substantial attack frequency reduction during baseline phase"
+    conclusion: "Butterbur showed delayed/sustained efficacy emerging at 6-month follow-up vs placebo"
+    notes: "Explorative study; butterbur did not reach primary endpoint at 8 weeks but showed significance at 6-month follow-up, suggesting a delayed effect profile"
 
 pediatric_studies:
   - id: pothmann_2005
@@ -175,6 +252,53 @@ pediatric_studies:
       - premature_discontinuations: "None due to side effects"
 
 randomized_controlled_trials_allergic_rhinitis:
+  - id: schapowal_2004_dose_dependent
+    title: "Butterbur Ze339 for the treatment of intermittent allergic rhinitis: dose-dependent efficacy in a prospective, randomized, double-blind, placebo-controlled study"
+    authors:
+      - Andreas Schapowal
+    collaboration: "Petasites Study Group"
+    year: 2004
+    journal: "Archives of Otolaryngology–Head & Neck Surgery"
+    pmid: "15611396"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15611396/"
+    study_type: "Prospective Randomized Double-Blind Placebo-Controlled Multicenter Parallel-Group Trial"
+    sample_size: "186 patients (high-dose: 60; low-dose: 65; placebo: 61)"
+    extract: "Ze339 (CO₂ leaf extract, 8 mg petasines/tablet)"
+    treatment_duration: "2 consecutive weeks"
+    dosing:
+      high_dose: "1 tablet three times daily"
+      low_dose: "1 tablet twice daily"
+      placebo: "matching placebo"
+    key_findings:
+      - "Both Ze339 doses significantly superior to placebo in main efficacy variable"
+      - "Significant dose-response relationship observed between high-dose and low-dose groups"
+      - "Clinician assessments and overall responder rates significantly favored both active groups vs placebo"
+      - "Incidence and type of adverse events indistinguishable across herbal treatment and placebo groups"
+    conclusion: "Ze339 effective for intermittent allergic rhinitis; dose-response confirmed; 3×/day optimal"
+
+  - id: schapowal_2005_fexofenadine
+    title: "Treating intermittent allergic rhinitis: a prospective, randomized, placebo and antihistamine-controlled study of Butterbur extract Ze 339"
+    authors:
+      - Andreas Schapowal
+    collaboration: "Study Group"
+    year: 2005
+    journal: "Phytotherapy Research"
+    pmid: "16114089"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/16114089/"
+    study_type: "Prospective Randomized Double-Blind Placebo and Active Comparator Controlled Parallel-Group Trial"
+    sample_size: "330 patients"
+    extract: "Ze339 (CO₂ leaf extract, 8 mg total petasine per tablet)"
+    dosing:
+      butterbur: "1 tablet (8 mg petasine) three times daily"
+      fexofenadine: "Telfast 180 mg once daily"
+      placebo: "matching placebo"
+    key_findings:
+      - "Both Ze339 and fexofenadine significantly superior to placebo (p<0.001) for daytime symptoms"
+      - "No significant difference between the two active treatments (p=0.37)"
+      - "Evening/night symptoms, physician assessments, and responder rates similarly favored both active treatments"
+      - "Both treatments demonstrated good tolerability"
+    conclusion: "Ze339 efficacy equivalent to fexofenadine 180 mg; no meaningful difference between herbal and antihistamine"
+
   - id: schapowal_2002
     title: "Randomised controlled trial of butterbur and cetirizine for treating seasonal allergic rhinitis"
     authors:
@@ -206,6 +330,39 @@ randomized_controlled_trials_allergic_rhinitis:
       - cetirizine: "8 of 12 adverse events involved sedative effects"
       - note: "Despite cetirizine's non-sedating classification"
     conclusion: "Butterbur showed similar effectiveness to cetirizine, useful when avoiding antihistamine sedation"
+
+  - id: gray_2004_negative
+    title: "Effects of butterbur treatment in intermittent allergic rhinitis: a placebo-controlled evaluation"
+    authors:
+      - Robert D Gray
+      - Kay Haggart
+      - Daniel K C Lee
+      - Steven Cull
+      - Brian J Lipworth
+    year: 2004
+    journal: "Annals of Allergy, Asthma & Immunology"
+    pmid: "15281472"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/15281472/"
+    study_type: "Double-Blind Placebo-Controlled Crossover Trial"
+    sample_size: "35 patients (14 male, 21 female)"
+    dosing: "Butterbur 50 mg twice daily for 2 weeks per arm"
+    preparation: "Root-based, non-Ze339 preparation"
+    primary_outcomes:
+      - measure: "Peak nasal inspiratory flow (PNIF) — primary outcome"
+        butterbur: "Morning 107 / Evening 114 L/min"
+        placebo: "Morning 105 / Evening 117 L/min"
+        result: "No significant difference"
+      - measure: "Total nasal symptom score"
+        butterbur: "Morning 3.4 / Evening 3.5"
+        placebo: "Morning 3.7 / Evening 3.8"
+        result: "Not clinically significant"
+    key_findings:
+      - "No significant effect on PNIF, total nasal symptom score, eye symptom score, or quality of life vs placebo"
+    conclusion: "Negative trial — butterbur showed no meaningful benefit over placebo for intermittent allergic rhinitis"
+    notes: >
+      Used non-Ze339 non-standardized preparation at 50 mg BID; divergence from Ze339 trials likely
+      reflects preparation-specific differences. Highlights importance of using standardized
+      extracts; results should not be generalized to Ze339.
 
   - id: thomet_2002
     title: "Anti-inflammatory activity of an extract of Petasites hybridus in allergic rhinitis"
@@ -350,6 +507,57 @@ asthma_studies:
       - "More than 40% of patients using asthma medications at baseline reduced intake by study end"
       - "Effective and safe therapy"
     notes: "Concomitant asthma medications permitted during study"
+
+safety_pharmacovigilance:
+  - id: danesch_2003_safety
+    title: "Safety of a patented special butterbur root extract for migraine prevention"
+    authors:
+      - Ulrich Danesch
+      - Reiner Rittinghausen
+    year: 2003
+    journal: Headache
+    volume: "43"
+    issue: "1"
+    pages: "76-78"
+    pmid: "12864764"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/12864764/"
+    study_type: "Clinical Safety Review"
+    product_studied: "Petadolex® (PA-free root extract)"
+    key_findings:
+      - "Safety evaluated from acute, subchronic, and chronic animal toxicity studies"
+      - "Mutagenicity studies showed no mutagenic potential"
+      - "Clinical trial, postmarketing surveillance, and pharmacovigilance data reviewed"
+      - "Patented special butterbur root extract assessed as safe for human use"
+    conclusion: "Petadolex PA-free extract is safe for migraine treatment in humans"
+
+  - id: anderson_2019_hepatotoxicity
+    title: "Hepatobiliary Events in Migraine Therapy with Herbs—The Case of Petadolex, A Petasites Hybridus Extract"
+    authors:
+      - Nora Anderson
+      - Jürgen Borlak
+    year: 2019
+    journal: "Journal of Clinical Medicine"
+    pmid: "31083451"
+    pubmed_link: "https://pubmed.ncbi.nlm.nih.gov/31083451/"
+    study_type: "Pharmacovigilance Review combined with Animal Toxicity and In Vitro Hepatotoxicity Testing"
+    key_findings:
+      adverse_events:
+        - "56 hepatobiliary adverse events reported in postmarketing surveillance"
+        - "Most cases mild (<3× ULN ALT/AST)"
+        - "9 severe cases; average time to onset ~103 days"
+        - "ALT range: 3–153× ULN; AST: 2–104× ULN in severe cases"
+        - "2 patients required liver transplantation"
+      confounders:
+        - "22 of 56 patients on concurrent hepatotoxic medications (NSAIDs, migraine drugs)"
+      causality_rucam:
+        likely: 3
+        possible: 13
+        unlikely: 8
+        unclassifiable: 24
+      animal_studies:
+        - "Bile duct proliferation at 45–90× maximum clinical dose (rats)"
+        - "No morphological liver changes in minipigs at 218× MCD"
+    conclusion: "Petadolex-associated hepatotoxicity is rare, idiosyncratic, and frequently confounded by co-medications"
 
 pharmacology_and_safety:
   - id: borlak_2022
@@ -574,6 +782,19 @@ sources:
     - url: "https://www.ncbi.nlm.nih.gov/books/NBK547997/"
       source: "LiverTox - Butterbur"
 
-date_compiled: "2026-01-08"
+date_compiled: "2026-03-06"
 compiled_by: "Claude Code Agent"
-notes: "This bibliography focuses on clinical studies of butterbur (Petasites hybridus) with emphasis on standardized extracts, particularly Petadolex and Ze 339. Most robust evidence is for migraine prophylaxis. Safety concerns center on pyrrolizidine alkaloid content; only PA-free products should be used clinically."
+notes: >
+  This bibliography focuses on clinical studies of butterbur (Petasites hybridus)
+  with emphasis on standardized extracts, particularly Petadolex (PA-free root,
+  migraine) and Ze 339 (PA-free CO₂ leaf, allergic rhinitis). Most robust evidence
+  is for migraine prophylaxis at 75 mg BID (150 mg/day) and for allergic rhinitis
+  at Ze339 8 mg petasines TID. Safety concerns center on pyrrolizidine alkaloid
+  contamination in non-PA-free commercial products; 7/21 (33%) of surveyed brands
+  contained detectable PAs. Properly processed PA-free extracts show no clinically
+  significant hepatotoxicity in controlled trials. The AAN Level A guideline (2012)
+  was retired in 2015 due to hepatotoxicity concerns with poorly manufactured products.
+  Updated 2026-03-06 to add: AAN guideline, Diener 2004 first placebo RCT,
+  Gray 2004 negative trial, Oelkers-Ax 2008 pediatric RCT, Schapowal 2004
+  dose-dependent trial, Schapowal 2005 fexofenadine trial, Danesch 2003 safety
+  review, and Anderson 2019 pharmacovigilance review.

@@ -1,0 +1,563 @@
+---
+herb: Oat Straw
+scientific_name: "Avena sativa L."
+common_names:
+  - "Oat straw"
+  - "Green oat extract"
+  - "Wild green oat extract (WGOE)"
+  - "Oat herb (Avenae herba)"
+  - "Common oat"
+  - "Milky oats (immature seed stage)"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-03-06
+notes_on_scope: >
+  "Oat straw" specifically refers to the dried aerial parts (herba) of Avena sativa harvested
+  before or just after grain fill — stems, leaves, and husks. Standardized extracts used in
+  clinical trials (Neuravena®, cognitaven®) are green oat herb extracts derived from these
+  aerial parts; they are not grain (fructus) preparations. The majority of clinical RCT
+  evidence concerns cognitive function and cerebrovascular outcomes using Neuravena® (ELFA®955,
+  Frutarom Switzerland Ltd.) standardized for flavonoids (vitexin, isovitexin) and triterpene
+  saponins. A separate body of clinical evidence exists for oat grain/beta-glucan and
+  cardiovascular/lipid outcomes — that grain-based evidence is cited here only as narrative
+  context; it is not directly applicable to oat straw aerial-part preparations.
+
+# Systematic Reviews and Meta-Analyses
+systematic_reviews:
+  - citation:
+      authors: "Jibril AT, Arero AG, Kankam SB, Fuseini M"
+      title: "Effect of Avena sativa (Oats) on cognitive function: A systematic review of randomized controlled trials"
+      journal: "Clinical Nutrition ESPEN"
+      year: 2023
+      volume: "53"
+      pages: "144-150"
+      pmid: "36657906"
+      doi: "10.1016/j.clnesp.2022.12.011"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36657906/"
+    study_details:
+      design: "Systematic review of RCTs"
+      number_of_trials: 6  # 3 crossover, 3 parallel; 4 acute, 2 chronic
+      total_participants: 287
+      interventions_covered: "Various green oat herb extract preparations (Neuravena®, cognitaven®), doses 800–2500 mg"
+      key_findings:
+        acute_effects:
+          - "Acute Avena sativa supplementation positively influenced accuracy and speed of performance in 4 of 6 trials"
+          - "Significant improvements in attention, spatial memory, working memory, and executive function"
+        chronic_effects:
+          - "Short-term chronic supplementation (<12 weeks) produced significant cognitive improvement in 1 study"
+          - "Longer chronic supplementation (12 weeks) did not demonstrate significant cognitive benefit"
+      conclusions: "Acute supplementation may improve cognitive function in healthy volunteers; evidence for chronic supplementation is inconsistent. Authors caution that limited trial numbers and dose variability require further high-quality RCTs."
+      limitations:
+        - "Only 6 RCTs with varying doses, populations, and cognitive outcomes"
+        - "High heterogeneity prevents meta-analysis"
+        - "Publication bias possible"
+
+  - citation:
+      authors: "Liska DJ, Dioum E, Chu Y, Mah E"
+      title: "Narrative Review on the Effects of Oat and Sprouted Oat Components on Blood Pressure"
+      journal: "Nutrients"
+      year: 2022
+      volume: "14"
+      issue: "22"
+      pages: "4772"
+      pmid: "36432463"
+      doi: "10.3390/nu14224772"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36432463/"
+    study_details:
+      design: "Narrative review"
+      scope: "18 RCTs and 3 meta-analyses on oat (grain) and blood pressure"
+      herb_part_note: "Covers grain/food preparations, not oat straw herb extract specifically"
+      key_findings:
+        - "18 RCTs and 3 meta-analyses support role of oat consumption in decreasing blood pressure"
+        - "Bioactive constituents with BP-lowering activity: beta-glucan, GABA, avenanthramides, plant protein"
+        - "Avenanthramides induce vasodilation via endothelial nitric oxide synthase enhancement"
+        - "Oat saponins can inhibit angiotensin II-mediated vasoconstriction"
+        - "Oat sprouts particularly high in GABA; sprouted oats may have enhanced BP effects"
+      conclusions: "Multiple oat bioactives contribute to blood pressure reduction; GABA is enhanced in oat sprouts"
+      note: "Evidence is primarily for grain (beta-glucan) preparations; mechanisms relevant to oat straw extract via avenanthramides/saponins"
+
+# Randomized Controlled Trials — Cognitive Function
+clinical_trials:
+  - citation:
+      authors: "Kennedy DO, Bonnländer B, Lang SC, Pischel I, Forster J, Khan J, Jackson PA, Wightman EL"
+      title: "Acute and Chronic Effects of Green Oat (Avena sativa) Extract on Cognitive Function and Mood during a Laboratory Stressor in Healthy Adults: A Randomised, Double-Blind, Placebo-Controlled Study in Healthy Humans"
+      journal: "Nutrients"
+      year: 2020
+      volume: "12"
+      issue: "6"
+      pages: "1598"
+      pmid: "32485993"
+      pmcid: "PMC7352613"
+      doi: "10.3390/nu12061598"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32485993/"
+    study_details:
+      extract: "cognitaven® (green oat extract)"
+      design: "Randomized, double-blind, placebo-controlled, parallel-groups, dose-ranging"
+      duration: "29 days (acute assessment Day 1 + chronic assessment Day 29)"
+      participants: 132  # healthy adults aged 35–65
+      population: "Healthy adults aged 35–65 years"
+      doses_tested: ["430 mg/day", "860 mg/day", "1290 mg/day"]
+      comparator: "Placebo"
+      outcomes:
+        acute:
+          - "All three active doses: significantly improved performance on Corsi Blocks working memory task (p<0.05) vs placebo on Day 1"
+          - "All three active doses: significantly improved multitasking performance vs placebo"
+          - "1290 mg dose: significant improvements maintained at Day 29"
+        chronic:
+          - "430 mg and 1290 mg: significantly improved working memory and multitasking at Day 29 vs placebo"
+          - "1290 mg: decreased electrodermal activity (physiological stress response) after 4 weeks"
+      safety: "Well tolerated at all doses; no significant adverse effects reported"
+      conclusion: "Both acute and chronic green oat extract supplementation benefits cognitive function and modulates physiological stress response; highest dose most effective"
+      note: "Largest dose-ranging oat straw extract RCT identified"
+
+  - citation:
+      authors: "Kennedy DO, Jackson PA, Forster J, Khan J, Grothe T, Perrinjaquet-Moccetti T, Haskell-Ramsay CF"
+      title: "Acute effects of a wild green-oat (Avena sativa) extract on cognitive function in middle-aged adults: A double-blind, placebo-controlled, within-subjects trial"
+      journal: "Nutritional Neuroscience"
+      year: 2017
+      volume: "20"
+      issue: "2"
+      pages: "135-151"
+      pmid: "26618715"
+      doi: "10.1080/1028415X.2015.1101304"
+      url: "https://pubmed.ncbi.nlm.nih.gov/26618715/"
+    study_details:
+      extract: "Neuravena® (wild green oat extract, ELFA®955, Frutarom Switzerland Ltd.)"
+      design: "Double-blind, placebo-controlled, counterbalanced crossover RCT"
+      duration: "Single dose each arm"
+      participants: "Healthy middle-aged adults aged 40–65 years reporting subjective memory decline"
+      doses_tested: ["800 mg", "1600 mg"]
+      comparator: "Placebo"
+      outcomes:
+        800mg:
+          - "Significantly increased speed of performance on timed cognitive tasks (p<0.05)"
+          - "Improved delayed word recall accuracy"
+          - "Enhanced executive function performance"
+          - "Increased working memory span"
+        1600mg:
+          - "Less consistent effects than 800 mg; suggests optimal dose at or below 800 mg"
+      conclusion: "Acute cognitive benefits confirmed; optimal dose at or below 800 mg for this population"
+      standardization: "Standardized for flavonoids (vitexin, isovitexin) and triterpene saponins"
+
+  - citation:
+      authors: "Martinez-Horta S, Ivanir E, Perrinjaquet-Moccetti T, Keuter MH, Kulisevsky J"
+      title: "Effects of a Green Oat Herb Extract on Cognitive Performance and Neurophysiological Activity: A Randomized Double-Blind Placebo-Controlled Study"
+      journal: "Frontiers in Neuroscience"
+      year: 2021
+      volume: "15"
+      pages: "748188"
+      pmid: "34658781"
+      pmcid: "PMC8517335"
+      doi: "10.3389/fnins.2021.748188"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34658781/"
+    study_details:
+      extract: "Neuravena® 800 mg (green oat herb extract)"
+      design: "Randomized, double-blind, placebo-controlled"
+      duration: "Acute single dose"
+      participants: 20
+      outcomes:
+        neurophysiological:
+          - "Significantly reduced N2 ERP component (enhanced inhibitory control)"
+          - "Significantly reduced error-related negativity (ERN) — optimized neural error processing"
+          - "Significantly modulated P3a and P3b components (attention/working memory networks)"
+        behavioral:
+          - "Faster reaction times with maintained accuracy"
+          - "Placebo group showed performance deterioration over session; active group did not"
+      conclusion: "800 mg Neuravena® acutely enhances neural resource optimization, executive function, processing speed, and attention; prevents fatigue-related performance decline"
+      coi_note: "Some authors had industry affiliations (Frutarom Ltd.)"
+
+  - citation:
+      authors: "Berry NM, Robinson MJ, Bryan J, Buckley JD, Murphy KJ, Howe PRC"
+      title: "Acute effects of an Avena sativa herb extract on responses to the Stroop Color-Word test"
+      journal: "Journal of Alternative and Complementary Medicine"
+      year: 2011
+      volume: "17"
+      issue: "7"
+      pages: "635-637"
+      pmid: "21711204"
+      doi: "10.1089/acm.2010.0450"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21711204/"
+    study_details:
+      extract: "Neuravena® (oat herb extract)"
+      design: "Randomized, double-blind, placebo-controlled, crossover"
+      duration: "Single dose per arm (3 arms), weekly washout"
+      participants: "Elderly volunteers with below-average cognitive performance"
+      doses_tested: ["0 mg (placebo)", "1600 mg", "2400 mg"]
+      outcomes:
+        1600mg:
+          - "Significantly fewer errors during color-naming component of Stroop test vs. placebo and 2400 mg (F(1,36)=18.85, p<0.001)"
+          - "Significantly improved Stroop interference scores in cognitively impaired subgroup (F(1,34)=2.40, p<0.01)"
+        2400mg:
+          - "No significant improvement vs. placebo on primary outcomes"
+        blood_pressure:
+          - "No effect on blood pressure at either active dose"
+      conclusion: "1600 mg oat herb extract acutely improves attention and concentration in older adults; inverse dose-response curve (1600 mg > 2400 mg) suggests hormetic pattern"
+
+  - citation:
+      authors: "Dimpfel W, Storni C, Verbruggen M"
+      title: "Ingested oat herb extract (Avena sativa) changes EEG spectral frequencies in healthy subjects"
+      journal: "Journal of Alternative and Complementary Medicine"
+      year: 2011
+      volume: "17"
+      issue: "5"
+      pages: "427-434"
+      pmid: "21563962"
+      doi: "10.1089/acm.2010.0143"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21563962/"
+    study_details:
+      extract: "Neuravena® (oat herb extract)"
+      design: "Double-blind, randomized, placebo-controlled crossover"
+      doses_tested: ["1250 mg", "2500 mg"]
+      comparator: "Placebo"
+      outcomes:
+        resting:
+          - "Significant lowering of spectral delta power (p<0.01) vs. placebo; indicates shift from slow-wave to alert-state activity"
+        concentration_task:
+          - "Significant enhancement of spectral theta power in left frontotemporal region (p<0.05); region known to be involved in cognitive tasks"
+        mental_arithmetic:
+          - "Enhanced theta power (trend p=0.115)"
+      method: "CATEEM® brain mapping technology for quantitative EEG assessment"
+      conclusion: "Oat herb extract produces neurophysiological changes consistent with improved cognitive performance in healthy subjects"
+
+  - citation:
+      authors: "Wong RHX, Howe PRC, Bryan J, Coates AM, Buckley JD, Berry NM"
+      title: "Chronic effects of a wild green oat extract supplementation on cognitive performance in older adults: a randomised, double-blind, placebo-controlled, crossover trial"
+      journal: "Nutrients"
+      year: 2012
+      volume: "4"
+      issue: "5"
+      pages: "331-342"
+      pmid: "22690320"
+      pmcid: "PMC3367260"
+      doi: "10.3390/nu4050331"
+      url: "https://pubmed.ncbi.nlm.nih.gov/22690320/"
+    study_details:
+      extract: "Wild green oat extract (WGOE, Neuravena®)"
+      design: "Randomized, double-blind, placebo-controlled crossover"
+      duration: "12 weeks per arm with washout"
+      participants: 37  # healthy older adults, mean age 67 ± 0.8 years
+      population: "Cognitively normal healthy older adults"
+      dose: "1500 mg/day"
+      cognitive_battery: "Stroop colour-word test, letter cancellation, rule-shift task, computerised multi-tasking test battery, trail-making task"
+      outcomes:
+        - "No significant improvement on any cognitive measure vs. placebo"
+        - "Chronic WGOE supplementation did not affect cognition at 12 weeks"
+      conclusions: "Acute supplementation benefit does not persist with chronic treatment in cognitively normal older adults; contrast with Kennedy et al. 2020 (chronic benefit seen at 4 weeks) suggests benefit may not extend to 12 weeks"
+      note: "Same participants used in the companion cerebrovascular study (Wong et al. 2013, PMID: 23221935)"
+
+# RCT — Cerebrovascular and Cardiovascular Outcomes
+cardiovascular_trials:
+  - citation:
+      authors: "Wong RHX, Howe PRC, Coates AM, Buckley JD, Berry NM"
+      title: "Chronic consumption of a wild green oat extract (Neuravena) improves brachial flow-mediated dilatation and cerebrovascular responsiveness in older adults"
+      journal: "Journal of Hypertension"
+      year: 2013
+      volume: "31"
+      issue: "1"
+      pages: "192-200"
+      pmid: "23221935"
+      doi: "10.1097/HJH.0b013e32835b04d4"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23221935/"
+    study_details:
+      extract: "Wild green oat extract (Neuravena®)"
+      design: "Randomized, double-blind, placebo-controlled crossover"
+      duration: "12 weeks per arm"
+      participants: 37  # healthy older adults over age 60
+      dose: "1500 mg/day"
+      outcomes:
+        primary:
+          - "Cerebrovascular responsiveness (CVR): increased 42% vs. placebo (p<0.01)"
+          - "Brachial flow-mediated dilatation (FMD): increased 41% vs. placebo (p<0.01)"
+        secondary:
+          - "Resting blood pressure: no significant change"
+          - "CVR and FMD improvements were uncorrelated, suggesting independent mechanisms"
+      conclusions: "1500 mg/day chronic oat herb extract significantly improves vasodilator function in both systemic and cerebral arteries; potential role in cardiovascular health maintenance"
+      clinical_relevance: "42% improvement in CVR is clinically meaningful; reduced cerebrovascular responsiveness is associated with cognitive decline and dementia risk"
+
+# RCT — Other Indications
+other_trials:
+  - citation:
+      authors: "Friling M, García-Muñoz AM, Lavie A, Pérez-Piñero S, Victoria-Montesinos D, López-Román FJ, García-Guillén AI, Muñoz-Carrillo JC, Cánovas F, Ivanir E, Jalanka J"
+      title: "Dietary supplementation with a wild green oat extract (Avena sativa L.) to improve wellness and wellbeing during smoking reduction or cessation: a randomized double-blind controlled study"
+      journal: "Frontiers in Nutrition"
+      year: 2024
+      volume: "11"
+      pages: "1405156"
+      pmid: "38962436"
+      pmcid: "PMC11220258"
+      doi: "10.3389/fnut.2024.1405156"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38962436/"
+    study_details:
+      extract: "Neuravena® (wild green oat extract)"
+      design: "Randomized, double-blind, placebo-controlled"
+      duration: "8 weeks + 4-week follow-up"
+      participants: 161  # healthy smokers (74M, 87F; mean age 29.6 years); 79 GOE, 82 placebo
+      population: "Healthy smokers attempting reduction or cessation"
+      dose: "900 mg/day"
+      comparator: "Placebo (519 mg maltodextrin)"
+      outcomes:
+        quality_of_life:
+          - "Physical health domain: GOE +4.2 points vs. placebo −1.2 points (p=0.006)"
+          - "Psychological domain: GOE +3.9 points vs. placebo −1.2 points (p=0.008)"
+        smoking_cessation:
+          - "Successful smoking reduction (>20% reduction): GOE 66.7% vs. placebo 49.3% (p=0.034)"
+        sleep:
+          - "Wake after sleep onset (WASO): GOE improved −0.7 min vs. placebo worsened +5.4 min (p=0.047)"
+        stress:
+          - "Perceived stress: significantly greater decline in GOE group (p<0.05)"
+      conclusion: "900 mg/day GOE supplementation improves quality of life, stress, and sleep parameters during smoking reduction; supports successful cessation rates"
+
+# Pharmacokinetics
+pharmacokinetics:
+  - citation:
+      authors: "Armeni M, Cardilin T, Fristedt R, Karlsson T, Orfila Jenkins C, Nordin E, Qin P, Jirstrand M, Kristiansen K, Savolainen O, Landberg R"
+      title: "Avenanthramides and avenacosides as biomarkers of oat intake: a pharmacokinetic study of solid and liquid oat consumption under single and repeated dose conditions"
+      journal: "Nutrition Journal"
+      year: 2025
+      volume: "24"
+      issue: "1"
+      pages: "136"
+      pmid: "40926245"
+      doi: "10.1186/s12937-025-01204-7"
+      url: "https://pubmed.ncbi.nlm.nih.gov/40926245/"
+    study_details:
+      herb_part_note: "Oat grain/food products (not oat straw extract), but provides key PK data for oat-specific bioactives (avenanthramides and avenacosides) relevant to all oat preparations"
+      design: "Non-blinded randomized crossover trial"
+      participants: 21  # healthy (11M, 12F)
+      products_tested:
+        - "Solid oat flakes: 62g"
+        - "Liquid oat drink: 196mL"
+      conditions: "Single dose and repeated doses over 4 days"
+      key_pk_parameters:
+        avenanthramides:
+          tmax_liquid: "0.7–1.6 hours"
+          tmax_solid: "1.1–2.3 hours"
+          half_life_liquid: "1.3–3.2 hours (compound-dependent)"
+          half_life_solid: "1.4–2.6 hours"
+          bioavailability_comparison: "Liquid > solid for most compounds (lower AUC in solid form)"
+          ava_a_vs_ava_b: "AV-A bioavailability 4-fold higher than AV-B at avenanthramide-enriched dose"
+        avenacosides:
+          tmax_solid: "1.1–2.3 hours"
+          half_life_solid: "3.3–3.8 hours"
+      conclusions: "Avenanthramides and avenacosides are bioavailable and show promise as compliance biomarkers; short elimination half-lives limit long-term epidemiological use as biomarkers"
+      note: "First comprehensive PK study of avenanthramides under single and repeated dose conditions"
+
+  - citation:
+      authors: "Chen CY, Milbury PE, Collins FW, Blumberg JB"
+      title: "Avenanthramides are bioavailable and have antioxidant activity in humans after acute consumption of an enriched mixture from oats"
+      journal: "Journal of Nutrition"
+      year: 2007
+      volume: "137"
+      issue: "6"
+      pages: "1375-1382"
+      pmid: "17513394"
+      doi: "10.1093/jn/137.6.1375"
+      url: "https://pubmed.ncbi.nlm.nih.gov/17513394/"
+    study_details:
+      design: "Randomized controlled trial, 3-way crossover"
+      participants: 6  # healthy older adults, 3M/3F, mean age 60.8 ± 3.6 years
+      doses_tested:
+        - "0.5 g avenanthramide-enriched mixture (AEM) with skim milk"
+        - "1.0 g AEM with skim milk"
+        - "Placebo (skim milk alone)"
+      key_pk_parameters:
+        peak_plasma_concentrations_at_1g:
+          AV_A: "374.6 nmol/L"
+          AV_B: "96.0 nmol/L"
+          AV_C: "89.0 nmol/L"
+        elimination_kinetics: "First-order kinetics; half-lives 1.75–3.75 hours"
+        antioxidant_effect:
+          - "Plasma reduced glutathione elevated +21% at 15 min post-dose (p≤0.005)"
+          - "Plasma reduced glutathione still elevated +14% at 10 hours (p≤0.05)"
+      conclusions: "Oat-derived avenanthramides are bioavailable in older adults and acutely enhance systemic antioxidant capacity; first human pharmacokinetic characterization of individual avenanthramide compounds"
+      note: "Foundational bioavailability study; uses isolated avenanthramide-enriched mixture rather than whole oat or oat straw extract, but directly relevant to oat straw pharmacokinetics"
+
+  - citation:
+      authors: "Singh R, De S, Belkheir A"
+      title: "Avena sativa (Oat), a potential neutraceutical and therapeutic agent: an overview"
+      journal: "Critical Reviews in Food Science and Nutrition"
+      year: 2013
+      volume: "53"
+      issue: "2"
+      pages: "126-144"
+      pmid: "23072529"
+      doi: "10.1080/10408398.2010.526725"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23072529/"
+    study_details:
+      design: "Review article (not clinical study)"
+      scope: "Phytochemistry, pharmacology, and therapeutic applications"
+      key_constituents:
+        - "Beta-glucan (grain): primary cholesterol-lowering fiber"
+        - "Avenanthramides: polyphenolic antioxidants unique to oats; anti-inflammatory, anti-itch"
+        - "Avenacosides A and B: triterpenoid saponins present in green oat aerial parts"
+        - "Gramine: indole alkaloid (present in aerial parts); neurological activity proposed"
+        - "Flavonoids: vitexin, isovitexin (C-glycosylflavones); marker compounds for Neuravena® standardization"
+        - "Sterols, tocols, protein, minerals"
+      mechanisms_green_oat_extract:
+        - "MAO-B inhibition: degradation of noradrenaline, dopamine, serotonin is slowed"
+        - "PDE-4 inhibition: cAMP levels increase in neurons, potentially supporting alertness and mood"
+        - "Vasodilation: avenanthramides enhance endothelial nitric oxide synthase"
+      pharmacological_activities: "Antioxidant, anti-inflammatory, wound healing, immunomodulatory, antidiabetic, anticholesterolemic, neurotonic"
+      note: "Review covers whole plant; specific PK data for oat straw herba extract in humans not established as of publication"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "European Medicines Agency (EMA) / Herbal Medicinal Products Committee (HMPC)"
+    title: "Community Herbal Monograph on Avena sativa L., herba (Avenae herba – Oat Herb)"
+    reference: "EMEA/HMPC/202966/2007"
+    year: 2007
+    status: "Draft monograph (herba); finalized traditional-use conclusions available on EMA Avenae herba product page"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/avenae-herba"
+    draft_monograph_url: "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-avena-sativa-l-herba_en.pdf"
+    herb_part: "Herba (aerial parts harvested before flowering)"
+    recognized_indications:
+      traditional_use:
+        - "Mild symptoms of mental stress"
+        - "Aid in sleep"
+    basis: >
+      Traditional use (not well-established clinical use); HMPC concluded effectiveness is
+      plausible and there is evidence of safe use for ≥30 years (including ≥15 years in EU).
+      Insufficient clinical trial evidence to meet well-established use criteria.
+    preparations_covered: "Comminuted herb, expressed juice of fresh aerial parts, liquid extracts (ethanol or water)"
+    safety: "No adverse reactions reported; no cases of overdose documented"
+    contraindications: "Celiac disease (potential gluten contamination from shared manufacturing)"
+
+  - authority: "European Medicines Agency (EMA) / Herbal Medicinal Products Committee (HMPC)"
+    title: "Community Herbal Monograph on Avena sativa L., fructus (Avenae fructus – Oat Fruit)"
+    reference: "EMEA/HMPC/368600/2007"
+    year: 2008
+    status: "Final monograph"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/avenae-fructus"
+    monograph_url: "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-fructus_en.pdf"
+    herb_part: "Fructus (grain/fruit — not straw)"
+    recognized_indications:
+      traditional_use:
+        - "Symptomatic treatment of minor inflammations of the skin (e.g., sunburn)"
+        - "Aid in healing of minor wounds (topical)"
+    note: "Fructus monograph covers grain preparations; less relevant to oat straw indications but establishes regulatory safety standard"
+
+  - authority: "German Commission E"
+    title: "German Commission E Monograph: Oat Straw (Stramentum avenae)"
+    year: 1987
+    month: "October"
+    published_in: "Blumenthal M, Goldberg A, Brinckmann J (eds.). Herbal Medicine: Expanded Commission E Monographs. Integrative Medicine Communications, Newton, MA, 2000."
+    recognized_indications:
+      approved:
+        - "Inflammatory and seborrhoeic skin diseases, especially with itching (topical bathing)"
+      classification: "Nervine herb (Commission E also documented traditional nervine use)"
+    safety: "No known side effects, drug interactions, or contraindications documented by Commission E"
+    note: >
+      The 1987 Commission E approval is for topical bathing use for skin conditions. The oral
+      nervine/anxiolytic use documented in traditional practice and supported by subsequent RCTs
+      was classified as traditional use rather than receiving formal Commission E approval for
+      internal administration.
+
+  - authority: "U.S. Food and Drug Administration (FDA)"
+    title: "Oats (Avena sativa) GRAS Status"
+    status: "Generally Recognized As Safe (GRAS) — food ingredient"
+    note: >
+      Whole oat grain is FDA GRAS. Green oat herb extracts (Neuravena®, cognitaven®) are
+      sold as dietary supplements under DSHEA. No specific oat straw herba monograph in
+      USP/NF as of 2026; oat (grain) monograph exists in USP.
+
+# Standardization and Dosing
+dosing_information:
+  standardized_extracts:
+    neuravena:
+      manufacturer: "Frutarom Switzerland Ltd. (now IFF)"
+      also_known_as: "ELFA®955; wild green oat extract (WGOE)"
+      standardization: "Standardized for flavonoids (vitexin, isovitexin) and triterpene saponins (avenacosides)"
+      proposed_mechanisms: "MAO-B inhibition, PDE-4 inhibition, endothelial NO enhancement"
+    cognitaven:
+      manufacturer: "Gencor / licensed ingredient"
+      standardization: "Green oat extract"
+
+  clinical_trial_dosing_summary:
+    acute_single_dose:
+      - dose: "800 mg"
+        studies: ["Kennedy et al. 2017 (PMID 26618715)", "Martinez-Horta et al. 2021 (PMID 34658781)"]
+        outcome: "Consistent cognitive improvements; appears to be near-optimal acute dose"
+      - dose: "1250–1600 mg"
+        studies: ["Berry et al. 2011 (PMID 21711204)", "Dimpfel et al. 2011 (PMID 21563962)"]
+        outcome: "Cognitive and EEG improvements; inverse dose-response observed above 1600 mg"
+      - dose: "2400–2500 mg"
+        studies: ["Berry et al. 2011", "Dimpfel et al. 2011"]
+        outcome: "Less effective than 1600 mg; suggests optimal window below 2000 mg"
+    chronic_daily:
+      - dose: "430–1290 mg/day × 29 days"
+        study: "Kennedy et al. 2020 (PMID 32485993)"
+        outcome: "Dose-dependent cognitive improvements; 1290 mg most effective"
+      - dose: "900 mg/day × 8 weeks"
+        study: "Friling et al. 2024 (PMID 38962436)"
+        outcome: "Improved quality of life, stress, and sleep in smokers"
+      - dose: "1500 mg/day × 12 weeks"
+        studies: ["Wong et al. 2012 (PMID 22690320)", "Wong et al. 2013 (PMID 23221935)"]
+        outcomes:
+          - "Cognitive: no significant benefit (cognitively normal older adults)"
+          - "Cerebrovascular: +42% cerebrovascular responsiveness, +41% brachial FMD (both p<0.01)"
+
+  traditional_dosing:
+    - preparation: "Dried herb (aerial parts, Avenae herba)"
+      dose_range: "1–3 g"
+      frequency: "Three times daily (as infusion/tea)"
+    - preparation: "Tincture (1:5, 25% ethanol)"
+      dose: "3–5 mL"
+      frequency: "Three times daily"
+    - preparation: "Fluid extract (1:1)"
+      dose: "3–5 mL"
+      frequency: "Three times daily"
+    source: "British Herbal Pharmacopoeia; ESCOP monograph traditions"
+
+  optimal_dose_assessment: >
+    Based on available RCT evidence, 800–1290 mg/day standardized green oat herb extract
+    appears to be the clinically effective range for cognitive and mood outcomes. An inverse
+    dose-response pattern at very high single doses (>1600 mg) has been observed. Chronic
+    cerebrovascular benefits confirmed at 1500 mg/day. No dose-finding studies for sleep
+    or anxiolytic indications have been published.
+
+# Safety Summary
+safety_profile:
+  general: >
+    No hepatotoxicity, serious adverse events, or drug interactions identified in clinical
+    trials. Distinguished from most herbal nervines by an exceptionally clean safety record.
+    FDA GRAS status (grain); no case reports of oat straw extract toxicity identified in PubMed.
+  adverse_effects:
+    - "No significant adverse effects reported in any identified RCT"
+    - "Skin reactions (mild) reported in topical applications; not relevant to oral use"
+  contraindications:
+    - "Celiac disease: potential gluten contamination from shared grain manufacturing (EMA HMPC)"
+    - "Oat allergy (rare): cross-reactive proteins possible"
+  drug_interactions: "None established in human clinical trials; MAO-B inhibitory mechanism is mild and has not been linked to clinically significant drug interactions in available literature"
+  pregnancy_lactation: "EMA states no adverse reactions reported; insufficient data for formal recommendation; traditional use as food component considered safe"
+
+# Key Research Gaps
+research_needs:
+  - "Dose-finding RCT specifically designed to establish minimum effective dose for oat straw herba extract"
+  - "Long-term (>12 week) RCTs for cognitive outcomes with dose-optimized protocols"
+  - "Direct comparison of oat straw herb extract vs. grain-based preparations for shared indications"
+  - "Human pharmacokinetic studies specifically for green oat herb extract flavonoids (vitexin, isovitexin)"
+  - "Bioavailability of oat straw-specific saponins (avenacosides) from encapsulated extracts in humans"
+  - "RCTs specifically targeting sleep, anxiety, and nervine indications (as per EMA traditional use)"
+  - "Head-to-head comparisons of Neuravena® vs. cognitaven® standardized preparations"
+  - "Mechanistic studies confirming MAO-B and PDE-4 inhibition in vivo at clinical doses"
+  - "Studies in populations with anxiety or insomnia (most RCTs enroll healthy volunteers)"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    - "7 RCTs (n=20–161) consistently support acute benefits of oat herb extract on cognitive function (attention, working memory, executive function, processing speed)"
+    - "Optimal acute dose appears to be ~800 mg standardized Neuravena® based on dose-comparison data"
+    - "Chronic supplementation (4 weeks): significant cognitive and stress-physiological benefits at 430–1290 mg/day (Kennedy et al. 2020)"
+    - "Chronic supplementation (12 weeks): no cognitive benefit in normal older adults, but marked cerebrovascular improvement (42% CVR, 41% FMD increase) at 1500 mg/day"
+    - "1 systematic review (6 RCTs, n=287): confirms acute cognitive benefit; chronic benefit inconsistent across studies"
+    - "Sleep/stress: improved in smokers (Friling et al. 2024, 900 mg/day, 8 weeks)"
+  mechanism: "MAO-B inhibition, PDE-4 inhibition, endothelial NO synthase enhancement; standardized marker compounds are flavonoids (vitexin, isovitexin) and triterpenoid saponins (avenacosides)"
+  safety: "Excellent safety profile; no hepatotoxicity documented; GRAS status; no known drug interactions; contraindicated in celiac disease due to manufacturing cross-contamination risk"
+  regulatory_status: "EMA traditional use approval for mental stress and sleep aid (herba); German Commission E approved for topical skin use; no well-established use approval due to insufficient RCT volume"
+  pharmacokinetics: "Avenanthramides bioavailable (Tmax ~1–2 hrs, T1/2 1.3–3.8 hrs); liquid > solid bioavailability; AV-A 4-fold more bioavailable than AV-B. No human PK data for green oat herb extract flavonoids confirmed in published literature."
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27)"
+  - "European Medicines Agency (EMA) HMPC monographs — Avenae herba and Avenae fructus"
+  - "German Commission E Monographs (1987; translated: Blumenthal et al. 2000)"
+  - "PubMed Central open access articles"

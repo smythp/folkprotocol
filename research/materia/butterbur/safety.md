@@ -60,11 +60,34 @@ This distinction is THE most important safety consideration for butterbur. All s
 - Status: Petadolex is free of detectable levels of pyrrolizidine alkaloids
 - Conclusion: No evidence that Petadolex poses substantial risk of liver injury
 
+**Danesch 2003 - Foundational PA-free safety data (Headache):**
+- Product studied: Petadolex® (PA-free root extract)
+- Data reviewed: Acute, subchronic, and chronic animal toxicity studies; mutagenicity studies; clinical trial, postmarketing surveillance, and pharmacovigilance data
+- Key finding: No mutagenic potential; patented special butterbur root extract assessed as safe for human use
+- Conclusion: Petadolex PA-free extract is safe for migraine treatment in humans
+- Historical significance: Established foundational safety data for the PA-free extract category
+
 **Borlak 2022 - Preclinical safety:**
 - No-observable-adverse-effect-level: 15-fold the maximal clinical dose (animal studies)
 - At supratherapeutic doses (45-90 fold): bile duct hyperplasia observed (reversible)
 - Human hepatocyte studies: no toxicity at therapeutic concentrations
 - No clinically relevant hepatic dysfunction reported in RCTs using Petadolex®
+
+**Anderson 2019 - Pharmacovigilance review with animal and in vitro testing (Journal of Clinical Medicine):**
+- Scope: Postmarketing surveillance + animal toxicity + in vitro hepatotoxicity testing
+- Adverse events identified: 56 hepatobiliary adverse events in postmarketing data
+  - Most cases mild (<3× ULN ALT/AST)
+  - 9 severe cases; average time to onset ~103 days
+  - Severe case ranges: ALT 3–153× ULN; AST 2–104× ULN
+  - 2 patients required liver transplantation
+- Confounders: 22 of 56 patients on concurrent hepatotoxic medications (NSAIDs, migraine drugs)
+- RUCAM causality assessment:
+  - Likely: 3 cases
+  - Possible: 13 cases
+  - Unlikely: 8 cases
+  - Unclassifiable: 24 cases (largest group)
+- Animal studies: Bile duct proliferation observed at 45–90× maximum clinical dose in rats; no morphological liver changes in minipigs at 218× MCD
+- Conclusion: Petadolex-associated hepatotoxicity is rare, idiosyncratic, and frequently confounded by co-medications
 
 ### Duration Safety Data
 
@@ -191,10 +214,11 @@ This distinction is THE most important safety consideration for butterbur. All s
 
 ### United States
 
-**American Academy of Neurology (2015):**
-- Stopped recommending butterbur for migraine prevention
-- Reason: Liver toxicity concerns
-- Note: Decision made during period of heightened PA contamination concerns
+**American Academy of Neurology (2012 → 2015):**
+- 2012: Awarded butterbur **Level A evidence** for migraine prevention (Holland et al., Neurology) — highest evidence level; unique among complementary treatments at the time
+- 2015: Retired the 2012 guideline on September 16, 2015 due to hepatotoxicity safety concerns with commercial preparations
+- Rationale: PA contamination found in 33% of commercial products; concern that patients could not reliably obtain safe, verified PA-free products
+- Note: The retirement reflects marketplace quality concerns, not a finding that properly manufactured PA-free extracts cause liver injury
 
 **NCCIH (National Center for Complementary and Integrative Health):**
 - Cautions about liver toxicity risk
@@ -461,10 +485,13 @@ This distinction is THE most important safety consideration for butterbur. All s
 
 ## Sources
 
+- Danesch 2003 - Foundational PA-free safety review (Headache)
+- Anderson 2019 - Pharmacovigilance + hepatotoxicity analysis (J Clin Med)
 - Diener 2018 - Comprehensive safety review with emphasis on liver (Ther Adv Neurol Disord)
 - Borlak 2022 - Preclinical and clinical safety data (Front Neurol)
 - Aydın 2013 - Pyrrolizidine alkaloid toxicity and analytical methods (J Pharm Biomed Anal)
-- All clinical trials for adverse event data (Lipton 2004, Grossmann 2000, Pothmann 2005, Schapowal 2002, Thomet 2002, Käufeler 2006, Blosa 2021, Danesch 2004)
+- Holland 2012 - AAN Level A guideline (Neurology); retired 2015
+- All clinical trials for adverse event data (Lipton 2004, Diener 2004, Grossmann 2000, Pothmann 2005, Oelkers-Ax 2008, Schapowal 2002, Schapowal 2004, Schapowal 2005, Thomet 2002, Käufeler 2006, Blosa 2021, Danesch 2004, Gray 2004)
 - Giles 2005 - Systematic review including toxicology section
 - NCCIH, StatPearls, LiverTox databases
 - German Commission E Monograph

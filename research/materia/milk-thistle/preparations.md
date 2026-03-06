@@ -35,14 +35,20 @@ Standardized extracts represent the **primary evidence-based preparation** used 
 - **Mechanism**: Transitions water-soluble flavonoids into lipid-based form for enhanced membrane absorption
 - **Evidence**: Kidd & Head 2005 (PMID: 16164374)
 
+#### Clinical RCT (Méndez-Sánchez et al. 2019, PMID: 30635055)
+- **Design**: Randomized, balanced, blind, single-dose, two-way crossover RCT
+- **Participants**: 23 healthy volunteers (11 women, 12 men; ages 22–31)
+- **Comparison**: 45 mg silybin-phosphatidylcholine complex vs 70 mg conventional silymarin tablets
+- **Result**: **9.6-fold higher silybin bioavailability** with phytosome (p < 0.0001)
+
 #### Dosing
-- **Variable dosing**: Enhanced bioavailability allows lower doses
-- **Typical dose**: Not established in clinical trials; manufacturers suggest 160-320 mg/day (lower than standard extracts)
-- **Note**: Optimal evidence-based dosing not established
+- **45 mg silybin-phosphatidylcholine** ≈ >400 mg conventional silymarin (based on bioavailability)
+- Manufacturers suggest 160-320 mg/day (lower than standard extracts)
+- Optimal evidence-based dosing for clinical efficacy not established in controlled trials
 
 #### Clinical Implications
 - Improved absorption and bloodstream entry
-- May achieve therapeutic effect at lower doses than standard extracts
+- Effective hepatoprotection achievable at lower absolute doses
 - Cost may be higher than standard preparations
 
 ---
@@ -289,12 +295,19 @@ Milk thistle exhibits **nonlinear pharmacokinetics**, meaning dose increases pro
 - **Duration**: Long-term (months to years)
 - **Timing**: With meals to improve absorption
 
-#### NAFLD/NASH (Moderate Evidence)
+#### Decompensated Liver Cirrhosis (Moderate Evidence)
+- **Dose**: **1050 mg/day** (350 mg three times daily) — standard 420 mg/day shown insufficient in this population
+- **Form**: Standardized extract
+- **Duration**: 12 weeks minimum (Fathalah 2017)
+- **Timing**: With meals
+- **Evidence**: Fathalah 2017 (PMID: 29135373) — improvements in Child-Pugh score, albumin, bilirubin, INR at 1050 mg/day; no improvement at 420 mg/day
+
+### NAFLD/NASH (Moderate Evidence)
 - **Dose**: 420-2100 mg/day silymarin (split into 3 doses)
 - **Form**: Standardized extract (70-80% silymarin)
 - **Duration**: 48 weeks minimum based on trials
 - **Timing**: With meals
-- **Note**: Higher doses (1260-2100 mg/day) studied in NASH; optimal dose unclear
+- **Note**: Higher doses (1260-2100 mg/day) studied in NASH; 2100 mg/day showed anti-fibrotic effect (Chan Wah Kheong 2017)
 
 #### Drug-Induced Liver Injury Prevention
 - **Dose**: 420-840 mg/day silymarin

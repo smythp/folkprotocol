@@ -1,0 +1,501 @@
+---
+herb: Black Walnut
+scientific_name: "Juglans nigra L."
+common_names:
+  - "Black walnut"
+  - "Eastern black walnut"
+  - "American black walnut"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-03-06
+notes_on_scope: >
+  Black walnut (Juglans nigra) is distinct from English/Persian walnut (Juglans regia).
+  The primary therapeutic preparation is the unripe green hull (pericarp), valued for
+  juglone (5-hydroxy-1,4-naphthoquinone), hydrolysable tannins (ellagitannins, gallotannins),
+  flavonoids, and fatty acids. Despite long traditional use as an anthelmintic and
+  antimicrobial in North American folk medicine, no human RCTs specifically on Juglans nigra
+  have been identified. No WHO, Commission E, ESCOP, EMA, or USP monograph exists for this
+  species. The only official regulatory monograph is Health Canada's NHPID (2022), approving
+  a traditional vermifuge claim. Most mechanistic evidence comes from in vitro studies of
+  juglone. Significant safety concerns include juglone mutagenicity (Ames test positive),
+  high tannin content, and contact dermatitis from hull handling.
+
+# Randomized Controlled Trials (Human)
+clinical_trials: []
+# No human RCTs on Juglans nigra or black walnut hull/extract identified in PubMed as of 2026-02-27.
+# The absence of RCTs is a critical limitation and distinguishes J. nigra from J. regia,
+# for which modest cardiovascular/metabolic trial evidence exists.
+
+# Allergen Characterization Studies (Human Sera)
+allergen_studies:
+  - citation:
+      authors: "Zhang YZ, Du WX, Fan Y, Yi J, Lyu SC, Nadeau KC, Thomas AL, McHugh T"
+      title: "Purification and Characterization of a Black Walnut (Juglans nigra) Allergen, Jug n 4"
+      journal: "Journal of Agricultural and Food Chemistry"
+      year: 2017
+      volume: "65"
+      issue: "2"
+      pages: "454-462"
+      pmid: "27936684"
+      doi: "10.1021/acs.jafc.6b04387"
+      url: "https://pubmed.ncbi.nlm.nih.gov/27936684/"
+    study_details:
+      design: "Immunological characterization using sera from DBPCFC-confirmed walnut allergy patients"
+      participants: 25  # patients with double-blind, placebo-controlled food challenge (DBPCFC)-confirmed walnut allergy
+      population: "Adults with confirmed walnut allergy (DBPCFC-positive)"
+      key_outcomes:
+        - "Jug n 4 (11S globulin, legumin-type storage protein) identified as a clinically relevant black walnut allergen"
+        - "32% of sera from 25 DBPCFC-confirmed walnut allergy patients contained IgE antibodies recognizing Jug n 4"
+        - "Protein consists of three major bands (acidic and basic chains) via reducing SDS-PAGE from post-translational cleavage"
+      clinical_significance: >
+        Confirms Jug n 4 as a legitimate IgE-binding allergen in approximately one-third of
+        black walnut-allergic patients. Relevant to safety screening and labeling.
+      limitations:
+        - "Small serum panel (n=25)"
+        - "Immunological characterization only; no dose-response or threshold data"
+      key_finding: "Jug n 4 is the first fully characterized 11S globulin allergen from Juglans nigra; binds IgE in ~32% of confirmed walnut allergy patients"
+
+  - citation:
+      authors: "Costa J, Carrapatoso I, Oliveira MBPP, Mafra I"
+      title: "Walnut allergens: molecular characterization, detection and clinical relevance"
+      journal: "Clinical and Experimental Allergy"
+      year: 2014
+      volume: "44"
+      issue: "3"
+      pages: "319-341"
+      pmid: "24382327"
+      doi: "10.1111/cea.12267"
+      url: "https://pubmed.ncbi.nlm.nih.gov/24382327/"
+    study_details:
+      study_type: "Systematic narrative review"
+      scope: "Molecular characterization, clinical relevance, and detection of walnut allergens from Juglans regia and Juglans nigra"
+      key_outcomes:
+        - "Jug n 1 (2S albumin), Jug n 2 (vicilin/7S globulin) confirmed as black walnut allergens alongside Jug r equivalents"
+        - "Jug n 4 (11S globulin) identified; cross-reactive with Jug r 4 (English walnut) and other tree nut 11S proteins"
+        - "Walnut allergy prevalence: 1-2% in general population; one of the most common tree nut allergies"
+        - "Jug r 1 elicits reactions at threshold doses as low as 1-14 mg walnut protein in sensitized individuals"
+      clinical_implications:
+        - "Juglans nigra and Juglans regia share major allergen classes; cross-reactivity is high"
+        - "Hidden allergen risk in processed foods"
+        - "DNA-based detection methods required for processed matrices where protein is degraded"
+      key_finding: "Black walnut allergens (Jug n series) are structurally homologous to Juglans regia allergens; cross-reactivity expected in tree nut-allergic patients"
+
+# Key Phytochemical and Pharmacological Studies
+in_vitro_studies:
+  - citation:
+      authors: "Osztie R, Czeglédi T, Ross S, Stipsicz B, Kalydi E, Béni S, Boldizsár I, Riethmüller E, Bősze SE, Alberti Á"
+      title: "Comprehensive Characterization of Phytochemical Composition, Membrane Permeability, and Antiproliferative Activity of Juglans nigra Polyphenols"
+      journal: "International Journal of Molecular Sciences"
+      year: 2024
+      volume: "25"
+      issue: "13"
+      pages: "6930"
+      pmid: "39000038"
+      doi: "10.3390/ijms25136930"
+      url: "https://pubmed.ncbi.nlm.nih.gov/39000038/"
+    study_details:
+      design: "In vitro phytochemical profiling + antiproliferative assay + PAMPA membrane permeability"
+      matrices: "Bark, leaf, and pericarp (hull) extracts of Juglans nigra"
+      analytical_method: "UHPLC-HR-MS/MS for phytochemical profiling"
+      key_outcomes:
+        - "161 compounds tentatively identified across bark, leaf, and pericarp extracts"
+        - "Eight major compounds isolated: juglone, quercetin derivatives, gallic acid compounds"
+        - "Juglone showed antiproliferative activity against three human tumor cell lines comparable to clinical reference standards"
+        - "PAMPA assay: juglone and ethyl gallate showed positive blood-brain-barrier (BBB) penetration potential via passive diffusion"
+        - "Juglone log Pe values indicate capacity to cross both GI epithelial and BBB membranes"
+      bioavailability_relevance: >
+        First published PAMPA data for Juglans nigra compounds. Juglone's BBB permeability
+        in PAMPA predicts passive absorption from GI tract; confirms pharmacokinetic basis for
+        systemic activity. Note: PAMPA is an artificial membrane model; human in vivo confirmation absent.
+      key_finding: "Juglone is likely orally bioavailable (passive diffusion) and CNS-penetrant in silico; 161-compound phytochemical profile of J. nigra hull established"
+
+  - citation:
+      authors: "Erisen S, Arasoğlu T, Mansuroglu B, Kocacaliskan İ, Derman S"
+      title: "Cytotoxic and mutagenic potential of juglone: a comparison of free and nano-encapsulated form"
+      journal: "Archives of Industrial Hygiene and Toxicology (Arh Hig Rada Toksikol)"
+      year: 2020
+      volume: "71"
+      issue: "1"
+      pages: "69-77"
+      pmid: "32597139"
+      doi: "10.2478/aiht-2020-71-3344"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32597139/"
+    study_details:
+      design: "Comparative in vitro cytotoxicity and mutagenicity (Ames test)"
+      cell_lines: "Mouse fibroblasts L929 (cytotoxicity); alfalfa cells (phytotoxicity)"
+      mutagenicity_test: "Ames test using Salmonella typhimurium TA98 with and without S9 metabolic activation"
+      key_outcomes:
+        - "Free juglone: dose- and time-dependent decrease in cell viability in L929 fibroblasts and alfalfa cells"
+        - "IC50 (L929, free juglone, 48 hrs): 60 μmol/L"
+        - "Mutagenicity: free juglone positive in Ames test (TA98) at 2.5 and 1.25 μmol/L WITH S9 activation"
+        - "Nano-encapsulated juglone: no mutagenic effects in Ames test at equivalent concentrations"
+        - "Nanoencapsulation significantly reduced cytotoxicity at lower dose ranges"
+      safety_significance: >
+        Free juglone is mutagenic (Ames-positive with metabolic activation) at low micromolar
+        concentrations. This is the primary published safety concern for long-term internal use
+        of black walnut hull preparations. Nano-encapsulation eliminates mutagenicity signal but
+        is not used in commercial preparations.
+      key_finding: "Free juglone is Ames-positive (mutagenic) at 1.25–2.5 μmol/L with S9 activation; IC50 in mouse fibroblasts is 60 μmol/L at 48h"
+
+  - citation:
+      authors: "Karki N, Aggarwal S, Laine RA, Greenway F, Losso JN"
+      title: "Cytotoxicity of juglone and thymoquinone against pancreatic cancer cells"
+      journal: "Chemico-Biological Interactions"
+      year: 2020
+      volume: "330"
+      pages: "109142"
+      pmid: "32610056"
+      doi: "10.1016/j.cbi.2020.109142"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32610056/"
+    study_details:
+      design: "In vitro isobologram analysis (combination index method)"
+      cell_line: "MIA PaCa-2 (human pancreatic carcinoma)"
+      assay: "MTT cell viability + flow cytometry"
+      key_outcomes:
+        - "Juglone IC50 (MIA PaCa-2): not reported as single agent IC50; combination IC50 with thymoquinone was 24.75 μM"
+        - "Juglone alone kills MIA PaCa-2 cells by ferroptosis (iron-dependent cell death)"
+        - "Juglone + thymoquinone: antagonistic at low effect levels (10-50%), additive at 75-90%, synergistic at 95% cell effect"
+        - "At 95% effect: CI favoring moderate synergism; juglone 40.90 μM + thymoquinone 511.19 μM"
+      mechanistic_note: >
+        Ferroptosis mechanism for juglone is distinct from classical apoptosis; involves iron-
+        dependent lipid peroxidation. Mechanistically relevant to juglone's redox properties.
+        Preclinical only; no human data.
+      key_finding: "Juglone kills pancreatic cancer cells via ferroptosis; synergistic potential with thymoquinone at high effect levels (in vitro only)"
+
+  - citation:
+      authors: "Dos Santos Moreira C, Santos TB, Freitas RHCN, Pacheco PAF, da Rocha DR"
+      title: "Juglone: A Versatile Natural Platform for Obtaining New Bioactive Compounds"
+      journal: "Current Topics in Medicinal Chemistry"
+      year: 2021
+      volume: "21"
+      issue: "22"
+      pages: "2018-2045"
+      pmid: "34348624"
+      doi: "10.2174/1568026621666210804121054"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34348624/"
+    study_details:
+      study_type: "Comprehensive narrative review"
+      scope: "Synthesis, biological activities, and medicinal chemistry of juglone and derivatives"
+      key_outcomes:
+        - "Juglone (5-hydroxy-1,4-naphthoquinone) is a privileged scaffold in medicinal chemistry"
+        - "Documented activities: antimicrobial, antifungal, sedative, antihypertensive, anti-proliferative"
+        - "Pin1 (peptidyl-prolyl isomerase) inhibition: juglone is a well-characterized covalent Pin1 inhibitor with IC50 in low micromolar range"
+        - "ROS generation via redox cycling: dual antioxidant (low dose) / pro-oxidant (high dose) behavior"
+        - "Multiple juglone derivatives with enhanced potency, reduced toxicity, or targeted activity reported"
+      key_finding: "Juglone is a versatile naphthoquinone scaffold; derivatives show improved therapeutic windows compared to free juglone; no clinical translation yet"
+
+  - citation:
+      authors: "Ho KV, Schreiber KL, Vu DC, Rottinghaus SM, Jackson DE, Brown CR, Lei Z, Sumner LW, Coggeshall MV, Lin CH"
+      title: "Black Walnut (Juglans nigra) Extracts Inhibit Proinflammatory Cytokine Production From Lipopolysaccharide-Stimulated Human Promonocytic Cell Line U-937"
+      journal: "Frontiers in Pharmacology"
+      year: 2019
+      volume: "10"
+      pages: "1059"
+      pmid: "31607915"
+      doi: "10.3389/fphar.2019.01059"
+      url: "https://pubmed.ncbi.nlm.nih.gov/31607915/"
+    study_details:
+      design: "In vitro — metabolomics profiling (10 black walnut cultivars) + cytokine inhibition assay (5 cultivars) in human U-937 promonocytic cell line"
+      cell_model: "PMA-differentiated U-937 human promonocytic cells, LPS-stimulated"
+      assay: "Bead-based flow cytometric multiplex assay (6 human inflammatory cytokines/chemokines)"
+      key_outcomes:
+        - "Kernel extracts from 'Surprise' and 'Sparrow' cultivars significantly inhibited production of all 6 detected proinflammatory cytokines/chemokines when applied before LPS stimulation"
+        - "Other cultivars (Daniel, Mystry, Sparks) showed weak or no significant inhibition"
+        - "Metabolomic profiling identified cultivar-specific differences in phytochemical composition corresponding to anti-inflammatory capacity"
+        - "Active compounds implicated: specific phenolic/polyphenolic compounds varying by cultivar"
+      limitation: "In vitro only; U-937 is a cell line model (not primary human cells); LPS stimulation does not replicate all human inflammatory pathways"
+      key_finding: "Anti-inflammatory activity of Juglans nigra kernel extracts is cultivar-dependent; 'Surprise' and 'Sparrow' cultivars inhibit 6 proinflammatory cytokines in human U-937 cells (in vitro)"
+
+  - citation:
+      authors: "Paudel P, Satyal P, Dosoky NS, Maharjan S, Setzer WN"
+      title: "Juglans regia and J. nigra, two trees important in traditional medicine: A comparison of leaf essential oil compositions and biological activities"
+      journal: "Natural Product Communications"
+      year: 2013
+      volume: "8"
+      issue: "12"
+      pages: "1767-1772"
+      pmid: "24354208"
+      url: "https://pubmed.ncbi.nlm.nih.gov/24354208/"
+    study_details:
+      design: "GC-MS chemical profiling + antimicrobial/antifungal bioassay"
+      material: "Leaf essential oils from Juglans regia and Juglans nigra"
+      key_outcomes:
+        - "J. nigra leaf oil major components: (E)-caryophyllene (17.3–20.4%), germacrene D (~7%), and other sesquiterpenes"
+        - "J. nigra leaf oil differed substantially from J. regia in chemical composition"
+        - "Antimicrobial and antifungal activities measured by standard disk diffusion; species-specific differences noted"
+        - "Juglone not present in leaf essential oils (volatile fraction); juglone is non-volatile and found in hull/bark"
+      key_finding: "J. nigra and J. regia leaf oils are chemically distinct; neither contains juglone in the volatile fraction; antimicrobial data for leaf oils not directly applicable to hull/bark preparations"
+
+# Animal Pharmacokinetic Studies (No Human PK Data Available)
+animal_pk_studies:
+  - citation:
+      authors: "Chen LJ, Lebetkin EH, Sanders JM, Burka LT"
+      title: "Metabolism and disposition of juglone in male F344 rats"
+      journal: "Xenobiotica"
+      year: 2006
+      volume: "36"
+      issue: "6"
+      pages: "515-534"
+      pmid: "16393859"
+      url: "https://pubmed.ncbi.nlm.nih.gov/16393859/"
+    study_details:
+      design: "In vivo pharmacokinetic and metabolism study — 14C-radiolabelled juglone in male F344 rats (oral, intravenous, dermal routes)"
+      species: "Male Fischer 344 (F344) rats"
+      dose_levels: "Oral: 0.1–10 mg/kg; dermal: 4 mg/kg"
+      key_outcomes:
+        - "Oral bioavailability: ~40–50% of oral dose absorbed within 24 hours"
+        - "Dermal absorption: <20% of dermal dose (4 mg/kg) absorbed within 24 hours"
+        - "Tissue distribution: highest juglone-derived radioactivity in kidney (attributed to covalent binding to cytosolic proteins)"
+        - "Five urinary metabolites identified: 1,4,5-trihydroxynaphthalene di-glucuronide; 1,4,5-trihydroxynaphthalene mono-glucuronide mono-sulfate; 2-sulfo-2,3-dihydrojuglone; 4,8-dihydroxy-1-tetralone mono-glucuronide; 1,4,5-trihydroxynaphthalene mono-glucuronide"
+        - "Key metabolic pathways: glucuronidation and reduction (liver microsomal incubations with NAD(P)H and UDP-glucuronic acid)"
+        - "Covalent binding to renal cytosolic proteins: potential mechanism for nephrotoxicity at high doses"
+      bioavailability_relevance: >
+        Only available in vivo pharmacokinetic study for juglone (rat model).
+        ~40–50% oral absorption in rats provides a reference point for human
+        bioavailability estimates; extrapolation to humans requires caution.
+        Renal covalent binding raises concern for high-dose nephrotoxicity.
+        No human pharmacokinetic data exist.
+      key_finding: "Juglone is ~40–50% orally bioavailable in rats; undergoes glucuronidation/reduction; accumulates in kidney via covalent protein binding — only available in vivo PK dataset for this compound"
+
+  - citation:
+      authors: "Aithal BK, Sunil Kumar MR, Rao BN, Upadhya R, Prabhu V, Shavi G, Arumugam K, Sajankila SP, Udupa N, Satyamoorthy K, Satish Rao BS"
+      title: "Evaluation of pharmacokinetic, biodistribution, pharmacodynamic, and toxicity profile of free juglone and its sterically stabilized liposomes"
+      journal: "Journal of Pharmaceutical Sciences"
+      year: 2011
+      volume: "100"
+      issue: "8"
+      pages: "3517-3528"
+      pmid: "21523783"
+      doi: "10.1002/jps.22568"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21523783/"
+    study_details:
+      design: "Comparative in vivo pharmacokinetic and toxicity study — free juglone vs. sterically stabilized (PEGylated) liposomal juglone in mouse/rat models"
+      key_outcomes:
+        - "Free juglone plasma half-life: ~2 hours (short)"
+        - "Liposomal juglone: 12-fold increase in plasma half-life versus free juglone"
+        - "Liposomal formulation significantly altered biodistribution and improved pharmacodynamic profile"
+        - "Free juglone showed faster clearance and less favorable tissue distribution compared to liposomal form"
+        - "Toxicity profile: liposomal juglone reduced acute toxicity compared to free juglone at equivalent doses"
+      formulation_relevance: >
+        Demonstrates that free juglone has poor pharmacokinetics (short half-life, rapid clearance)
+        that limit therapeutic utility. Liposomal encapsulation substantially improves PK.
+        Commercial black walnut hull preparations contain free (non-encapsulated) juglone,
+        meaning systemic juglone exposure from oral preparations may be limited by both
+        rapid metabolism and gastric acid degradation.
+      key_finding: "Free juglone plasma t½ ~2 hours; liposomal encapsulation provides 12-fold PK improvement — relevant context: commercial preparations contain free juglone with poor systemic PK"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "Health Canada — Natural Health Products Ingredients Database (NHPID)"
+    title: "Juglans nigra (Black walnut, unripe hull) — Natural Health Product Monograph"
+    document_date: "April 29, 2022"
+    url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=juglans.nigra&lang=eng"
+    status: "Approved traditional use monograph"
+    source_material: "Unripe hull (pericarp)"
+    approved_claim: "Used in Herbal Medicine (as a vermifuge/as an anthelmintic) to help expel intestinal worms"
+    evidence_basis: "Traditional use; no clinical trial evidence required"
+    recommended_dose: "0.65–2.75 g of unripe hulls daily (dry, powder, or non-standardized ethanolic extract forms)"
+    population: "Adults 18 years and older"
+    duration: "Occasional use only; consult practitioner if use exceeds 14 days"
+    contraindications: "None specified"
+    known_adverse_reactions: "None specified"
+    cautions:
+      - "Consult health care practitioner if symptoms worsen"
+      - "Consult before use if pregnant or breastfeeding"
+    note: >
+      Health Canada's NHPID is the only official government-issued regulatory monograph
+      for Juglans nigra. The approved claim is traditional use only (vermifuge/anthelmintic).
+      No clinical evidence was required for this traditional use designation.
+
+  - authority: "German Commission E"
+    title: "No monograph exists for Juglans nigra"
+    status: "Not evaluated"
+    related_monograph: "Commission E approved Juglans regia L. folium (walnut leaf) in 1990 for mild superficial skin inflammation and excessive perspiration — not applicable to J. nigra"
+    note: >
+      Commission E evaluated English walnut leaf (J. regia) but not black walnut (J. nigra).
+      The related J. regia approval covers external topical use only.
+
+  - authority: "European Medicines Agency (EMA) / HMPC"
+    title: "No EU herbal monograph exists for Juglans nigra"
+    status: "Not evaluated"
+    related_document: "EMA/HMPC/346737/2011 — Final Assessment Report for Juglans regia L. folium (English walnut leaf)"
+    url: "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-juglans-regia-l-folium_en.pdf"
+    note: >
+      EMA/HMPC published an assessment for J. regia leaf but not J. nigra. The J. regia
+      monograph covers traditional use for minor inflammatory skin conditions and excessive
+      perspiration. Not applicable to black walnut hull.
+
+  - authority: "ESCOP (European Scientific Cooperative on Phytotherapy)"
+    title: "Juglandis folium (Walnut leaf) monograph — Juglans regia only"
+    status: "Juglans nigra not covered"
+    note: >
+      ESCOP published a monograph for Juglandis folium from Juglans regia covering minor
+      inflammatory skin conditions and excessive perspiration. Constituents include
+      ellagitannin-type tannins, flavonoids, diarylheptanoids, juglone derivatives,
+      anthraquinones, and oligomeric proanthocyanidins. Cross-species applicability to
+      J. nigra unconfirmed.
+
+  - authority: "World Health Organization (WHO)"
+    title: "No WHO monograph for Juglans nigra"
+    status: "Not evaluated"
+    note: "WHO monographs do not cover Juglans nigra. No WHO pharmacopoeia entry identified."
+
+  - authority: "United States Pharmacopeia (USP) / National Formulary"
+    title: "No USP/NF monograph for black walnut hull"
+    status: "Not listed"
+    note: >
+      No USP or NF quality standard for black walnut hull identified.
+      FDA classifies walnut as GRAS as a food ingredient; this applies to the nut meat
+      and does not constitute therapeutic approval for hull preparations.
+
+# Dosing Information
+dosing_information:
+  regulatory_dose:
+    - source: "Health Canada NHPID (2022)"
+      preparation: "Unripe hull — dry, powder, or non-standardized ethanolic extract (tincture, fluid extract, dry extract)"
+      dose: "0.65–2.75 g/day"
+      frequency: "Not specified (occasional use)"
+      duration: "Maximum 14 days without practitioner oversight"
+      population: "Adults 18+"
+
+  traditional_and_commercial_dosing:
+    - preparation: "Liquid extract 1:2 (green hull)"
+      dose_range: "1.5–5.5 mL/day"
+      source: "Southern Cross University / Australian naturopathic herbalism"
+      note: "Traditional practitioner dosing; not clinically validated"
+    - preparation: "Tincture 1:4 at 25% ethanol"
+      dose: "5–10 drops, 3× daily"
+      weekly_max: "10–15 mL/week"
+      cycling: "2 weeks on / 2 weeks off"
+      source: "Naturopathic herbalist tradition"
+      note: "Practitioner-only in some jurisdictions due to mutagenicity concerns"
+    - preparation: "Fresh plant liquid extract 1:1 (green hull)"
+      dose: "1–10 drops, 1–3× daily in water"
+      source: "Traditional Western herbalism; practitioner use"
+      note: "Most potent form; restricted to trained practitioners"
+    - preparation: "Infusion (bark or leaf)"
+      dose: "30 g dried material in 500 mL water; 200 mL 3× daily"
+      source: "SCU monograph; traditional use"
+
+  standardization:
+    primary_markers: "Juglone (naphthoquinone), ellagic acid, total tannin content"
+    typical_tannin_content: "~45% tannin in bark/rind (high tannin matrix)"
+    standardization_note: >
+      No pharmacopoeial standardization exists for black walnut hull preparations.
+      Commercial products are not standardized to juglone content due to juglone's
+      instability and toxicity concerns. Health Canada explicitly permits
+      'non-standardized' ethanolic extracts only.
+
+  bioavailability_note: >
+    No human pharmacokinetic studies measuring plasma juglone concentrations or
+    tannin metabolite profiles after oral black walnut hull preparations are available.
+    In vitro PAMPA data (Osztie 2024) predicts juglone crosses GI epithelial and BBB
+    membranes via passive diffusion. Rat in vivo data (Chen 2006) show ~40–50% oral
+    bioavailability in rodents; juglone is metabolized primarily via glucuronidation and
+    reduction; plasma half-life is ~2 hours (Aithal 2011); renal covalent binding occurs
+    at higher doses (Chen 2006). EMA assessment data for J. regia leaf infusions indicate
+    juglone is present at ~0.1% and is degraded in acidic gastric environments, potentially
+    limiting systemic bioavailability in aqueous preparations. The combination of short
+    plasma half-life (~2h) and acid lability suggests that commercial hull preparations
+    may deliver substantially less systemic juglone than rat-model extrapolations predict.
+
+# Safety Studies and Toxicology
+safety_studies:
+  - citation:
+      authors: "Erisen S, Arasoğlu T, Mansuroglu B, Kocacaliskan İ, Derman S"
+      title: "Cytotoxic and mutagenic potential of juglone: a comparison of free and nano-encapsulated form"
+      journal: "Archives of Industrial Hygiene and Toxicology"
+      year: 2020
+      pmid: "32597139"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32597139/"
+    safety_data:
+      mutagenicity: "Positive (Ames test, TA98, with S9 metabolic activation) at 1.25–2.5 μmol/L"
+      cytotoxicity_ic50: "60 μmol/L in L929 mouse fibroblasts at 48h (free juglone)"
+      mutagenicity_mechanism: "Requires metabolic activation (S9); suggests bioactivation by CYP enzymes to mutagenic intermediates"
+      nano_form: "Nano-encapsulated juglone: no mutagenicity, reduced cytotoxicity — but not used in commercial preparations"
+
+  known_safety_concerns:
+    - concern: "Juglone mutagenicity"
+      evidence_level: "In vitro (Ames test)"
+      detail: "Free juglone is mutagenic with metabolic activation; theoretical carcinogenic risk with long-term internal use"
+    - concern: "High tannin content"
+      detail: "~45% tannin in bark/rind; excessive tannin intake can impair kidney/liver function; reduces oral drug absorption (take 1+ hours apart from medications)"
+    - concern: "Contact dermatitis"
+      detail: "Well-documented occupational/handling dermatitis from fresh hull; juglone stains skin and causes irritation"
+    - concern: "Cardiovascular depression"
+      detail: "Large doses may sedate cardiac function; relevant at doses well above traditional use"
+    - concern: "GI irritation"
+      detail: "Nausea, vomiting, watery diarrhea possible at higher doses; cathartic/purgative action"
+    - concern: "Tannin-drug interaction"
+      detail: "Tannins bind and reduce absorption of co-administered oral medications; clinical significance at therapeutic doses"
+
+  contraindications_consensus:
+    - "Pregnancy and lactation (contraindicated across all traditional and regulatory sources)"
+    - "Chronic GI conditions (colitis, Crohn's, IBS)"
+    - "Concurrent oral medication use without separation by ≥1 hour (tannin-drug binding)"
+    - "Long-term use without practitioner oversight (mutagenicity risk)"
+
+  safety_duration_consensus: "All regulatory and traditional sources agree on limiting use to 14 days to 6 weeks maximum without practitioner oversight"
+
+# Key Research Gaps
+research_needs:
+  - "Human pharmacokinetic studies: plasma juglone Cmax, Tmax, half-life, and urinary metabolite profiles after oral hull preparations"
+  - "Dose-finding clinical trials for anthelmintic/antiparasitic indications (traditional use not clinically validated)"
+  - "Human genotoxicity data for juglone at doses achievable from typical hull preparations (translate Ames data to human exposure context)"
+  - "Controlled clinical trials for antifungal applications (e.g., Candida, dermatophytes) — substantial in vitro evidence not followed by human trials"
+  - "Long-term safety data (carcinogenicity, hepatotoxicity) at therapeutic doses in humans"
+  - "Standardized preparation development with validated juglone content and stability data"
+  - "Drug interaction studies: quantification of tannin effects on specific oral medications"
+  - "Head-to-head comparison with approved anthelmintics for efficacy and safety"
+  - "WHO/Commission E monograph assessment for Juglans nigra unripe hull"
+  - "Systematic review: Traditional use evidence synthesis across ethnobotanical literature"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    - "CRITICAL GAP: No human RCTs identified for any therapeutic indication of Juglans nigra"
+    - "No systematic reviews or meta-analyses specific to Juglans nigra in humans"
+    - "One allergen characterization study used human sera (n=25 DBPCFC-confirmed allergy patients): Jug n 4 bound IgE in 32% of subjects"
+    - "Traditional anthelmintic use is the only approved indication (Health Canada 2022); evidence base is traditional use only"
+    - "All mechanistic/efficacy evidence is in vitro (juglone, tannins, polyphenols)"
+
+  key_phytochemistry:
+    - "Principal bioactive: juglone (5-hydroxy-1,4-naphthoquinone) — antimicrobial, antifungal, cytotoxic, Pin1-inhibitory"
+    - "Secondary bioactives: ellagitannins, gallotannins (~45% in bark/rind), flavonoids, ellagic acid, fatty acids"
+    - "161 compounds tentatively identified in hull/bark/leaf by UHPLC-HR-MS/MS (Osztie 2024)"
+    - "Juglone predicted bioavailable via passive GI absorption (PAMPA, Osztie 2024); BBB-penetrant in silico"
+
+  safety:
+    - "Juglone is Ames test positive (mutagenic with metabolic activation) at 1.25–2.5 μmol/L (Erisen 2020)"
+    - "IC50 in mouse fibroblasts: 60 μmol/L at 48h (Erisen 2020)"
+    - "Health Canada: consult practitioner beyond 14 days; no long-term use"
+    - "Contact dermatitis well-documented from hull handling; internal use GI effects at higher doses"
+    - "Contraindicated in pregnancy/lactation across all sources"
+    - "HIGH TANNIN CONTENT (~45%) is a significant drug interaction risk"
+    - "No DILI cases reported in literature; hepatotoxicity risk theoretical but not documented in humans"
+
+  bioavailability:
+    - "No human PK data available for any black walnut preparation"
+    - "PAMPA predicts passive GI absorption for juglone (Osztie 2024)"
+    - "Rat in vivo: ~40–50% oral absorption; glucuronidation/reduction as primary metabolic pathways; renal covalent binding at higher doses (Chen 2006)"
+    - "Free juglone plasma t½ ~2 hours; liposomal encapsulation gives 12-fold improvement (Aithal 2011) — commercial preparations contain free juglone"
+    - "EMA notes juglone degrades in gastric acid in aqueous preparations (J. regia data)"
+    - "Tannin-protein complexation in GI tract may reduce juglone bioavailability in whole-hull preparations"
+
+  regulatory_status:
+    - "Health Canada NHPID (2022): traditional vermifuge/anthelmintic — ONLY official regulatory monograph for J. nigra"
+    - "No WHO monograph for Juglans nigra"
+    - "No Commission E monograph for Juglans nigra"
+    - "No EMA/HMPC monograph for Juglans nigra"
+    - "No USP/NF monograph for black walnut hull"
+    - "All J. regia (English walnut) monographs cover LEAF for topical use; NOT applicable to J. nigra hull"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27; updated 2026-03-06)"
+  - "Search terms: 'Juglans nigra' clinical; 'black walnut' extract human clinical; 'Juglans nigra' randomized; juglone toxicity mutagenicity; 'Juglans nigra' review pharmacology; juglone cytotoxicity apoptosis cancer; juglone bioavailability pharmacokinetics; 'Juglans nigra' systematic review meta-analysis; black walnut U-937 anti-inflammatory"
+  - "Health Canada NHPID: Juglans nigra monograph (2022) — webprod.hc-sc.gc.ca"
+  - "EMA assessment report: Juglans regia L. folium (EMA/HMPC/346737/2011) — for regulatory comparison"
+  - "Southern Cross University medicinal plant monograph: Juglans nigra"
+  - "The Naturopathic Herbalist: Juglans nigra monograph"
+  - "Spindle research agent synthesis (2026-02-27): pharmacopeial/monograph landscape"
+  - "Updated search 2026-03-06: added PMID 31607915 (U-937 anti-inflammatory, 2019), PMID 16393859 (rat PK, 2006), PMID 21523783 (liposomal juglone PK, 2011)"

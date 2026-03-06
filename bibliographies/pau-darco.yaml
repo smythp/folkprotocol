@@ -1,0 +1,599 @@
+---
+herb: "Pau d'Arco"
+botanical_names:
+  - "Handroanthus impetiginosus (Mart. ex DC.) Mattos"
+  - "Tabebuia impetiginosa (Mart. ex DC.) Standl."
+  - "Tabebuia avellanedae Lorentz ex Griseb."
+last_updated: 2026-03-06
+
+notes_on_scope: >
+  Pau d'arco has a rich South American ethnobotanical tradition and generated intense
+  pharmaceutical interest from the 1960s onward. Two clinical directions developed in
+  parallel: (1) isolated constituent lapachol/beta-lapachone as anticancer drug candidates
+  through NCI and private sector pipelines; (2) inner-bark preparations as traditional
+  whole-herb supplements. The human clinical evidence base is very thin: no completed RCTs
+  exist for the herb itself. Only one single-arm safety trial (n=12, 2022) and one Phase II
+  single-arm mucositis study (n=40, 2015) represent published human trials with standardized
+  preparations. Lapachol failed NCI Phase I (1974) due to anticoagulant toxicity.
+  Synthetic beta-lapachone analogues (ARQ 501/761) reached Phase I/II as cancer drugs but
+  are not equivalent to the botanical. No WHO monograph, Commission E positive assessment,
+  EMA/HMPC assessment, or ESCOP monograph has been published for pau d'arco.
+
+sources:
+
+  # ── Systematic Reviews ──────────────────────────────────────────────────────
+
+  - id: bezerra_2022_systematic_review
+    title: "Anticancer potential and toxicity of the genus Handroanthus Mattos (Bignoniaceae): A systematic review"
+    authors:
+      - Bezerra JJL
+      - Johanes I
+      - Pinheiro AAV
+    year: 2022
+    journal: Toxicon
+    volume: 217
+    pages: "131-142"
+    doi: 10.1016/j.toxicon.2022.08.007
+    pmid: 35998713
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35998713/
+    study_type: Systematic Review
+    studies_included: 78
+    search_years: "1990-2022"
+    species_covered: 5  # Handroanthus species used for cancer treatment
+    key_findings:
+      - "Bark comprises 88% of traditional preparations across Brazil, Bolivia, and Argentina"
+      - "Beta-lapachone most extensively investigated; effective against lung cancer cell lines CL1-1, CL1-5, A549"
+      - "Cytotoxicity documented against 15 tumor cell lines: HL-60, MDA-MB-435, MDA-MB-231, MCF-7, HT-29, HCT-8, HCT-116, HEp-2, HepG2, CACO-2, SF-295, NCI-H292, NCI-H460, HeLa, OVCAR-8"
+      - "Toxicological results not conclusive; toxicity varies by concentration, dose, and duration"
+      - "No human clinical trials for H. impetiginosus specifically documented in this systematic review"
+    conclusion: "Despite promising preclinical anticancer effects, further investigation required before therapeutic application; caution warranted"
+
+  # ── Comprehensive Narrative Reviews ─────────────────────────────────────────
+
+  - id: gomez_castellanos_2009_review
+    title: "Red Lapacho (Tabebuia impetiginosa)—a global ethnopharmacological commodity?"
+    authors:
+      - Gómez Castellanos JR
+      - Prieto JM
+      - Heinrich M
+    year: 2009
+    journal: Journal of Ethnopharmacology
+    volume: 121
+    issue: 1
+    pages: "1-13"
+    doi: 10.1016/j.jep.2008.10.004
+    pmid: 18992801
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18992801/
+    study_type: Narrative Review (Ethnopharmacological Analysis)
+    key_findings:
+      - "Species often mislabeled in commerce; T. avellanedae, T. impetiginosa, and H. impetiginosus used interchangeably"
+      - "Inner bark of trunk or branches is the traditional medicinal part"
+      - "Lapachol and beta-lapachone are the two main bioactive naphthoquinone constituents"
+      - "Beta-lapachone identified as the primary anti-tumor compound with pro-apoptotic effects in vitro"
+      - "Commercial products show high quality variability; bioscientific evidence insufficient for many claimed preparations"
+      - "Significant interaction potential via lapachol inhibition of vitamin K epoxide reductase (warfarin-like mechanism)"
+      - "Whole-bark tea may have anticoagulant effect partially canceled by co-occurring pro-vitamin K compounds"
+    conclusion: "T. impetiginosa occupies a global ethnopharmacological niche but lacks clinical evidence for most therapeutic claims; product quality and species identity are significant concerns"
+
+  - id: zhang_2020_review
+    title: "Tabebuia impetiginosa: A Comprehensive Review on Traditional Uses, Phytochemistry, and Immunopharmacological Properties"
+    authors:
+      - Zhang J
+      - Hunto ST
+      - Yang Y
+      - Lee J
+      - Cho JY
+    year: 2020
+    journal: Molecules
+    volume: 25
+    issue: 18
+    pages: "4294"
+    doi: 10.3390/molecules25184294
+    pmid: 32962180
+    pmcid: PMC7571111
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32962180/
+    study_type: Comprehensive Narrative Review
+    search_date: "June 2020"
+    key_findings:
+      - "Naphthoquinones (lapachol, beta-lapachone) are the primary bioactive class"
+      - "19 phenolic glycosides identified; fatty acids dominated by oleic acid (32.51%)"
+      - "Inhibited NO and PGE2 production; suppressed COX-2 and iNOS mRNA"
+      - "Suppressed Syk and Src kinase activation; reduced NF-κB and AP-1 signaling"
+      - "Dose-dependent inhibition 0–400 μg/mL in vitro; 100–400 mg/kg in animal models"
+      - "Protective effects in DSS-induced colitis and carrageenan-induced paw edema models"
+      - "Chondroprotective: downregulated MMP2, MMP9, MMP13"
+      - "Growth inhibition of MCF-7, NCI-H460, HeLa, HepG2 cancer cell lines"
+      - "No completed human clinical trials for immunopharmacological endpoints documented"
+    conclusion: "T. impetiginosa has significant immunopharmacological activity in preclinical models; further clinical trials required for all primary indications"
+
+  # ── Human Clinical Trials ────────────────────────────────────────────────────
+
+  - id: mcclure_2022_dysmenorrhea
+    title: "Safety and tolerability of Pau d'Arco (Tabebuia avellanedae) for primary dysmenorrhea: A single-arm, open-label trial on adults ages 18–45"
+    authors:
+      - McClure C
+      - Bollen M
+      - Buttolph L
+      - Stack E
+      - Langley BO
+      - Hanes D
+      - Wright KM
+      - Tibbitts D
+      - Bradley R
+    year: 2022
+    journal: Advances in Integrative Medicine
+    volume: 9
+    issue: 3
+    pages: "159-166"
+    doi: 10.1016/j.aimed.2022.04.003
+    pmid: 36960315
+    pmcid: PMC10032363
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36960315/
+    study_type: Single-Arm Open-Label Pilot Trial
+    design: "Uncontrolled prospective safety/tolerability; no comparator arm"
+    sample_size: 12  # 9 completers (75% completion)
+    population: "Healthy women ages 18–45 with primary dysmenorrhea"
+    intervention: "Encapsulated Tabebuia avellanedae 1050 mg/day for 8 weeks"
+    key_findings:
+      - "75% of completers (9/12) experienced adverse events; none FDA-classified as serious"
+      - "Pain intensity: significant decrease at first dose (p<0.01), 4 weeks (p<0.01), 8 weeks (p<0.01)"
+      - "Pain interference, quality of life, sexual function: nonsignificant trend toward improvement"
+      - "Laboratory markers (prothrombin time, CBC, hepatic/renal panels): most within normal range; few mild clinically insignificant abnormalities"
+      - "No serious adverse events; no clinically significant coagulation changes"
+    conclusion: "Generally safe with moderate tolerability; significant pain reduction—pilot data only (no control group)"
+    limitations:
+      - "No control group; no blinding"
+      - "Extremely small sample (n=12; 9 completers)"
+      - "Preparation not standardized for naphthoquinone content"
+      - "8-week follow-up only; no long-term safety data"
+    notes: "First (and only as of 2026) published human clinical trial of pau d'arco for a primary traditional indication"
+
+  - id: giacomelli_2015_mucositis
+    title: "Oral Lapacho-Based Medication: An Easy, Safe, and Feasible Support to Prevent and/or Reduce Oral Mucositis During Radiotherapy for Head and Neck Cancer"
+    authors:
+      - Giacomelli I
+      - Scartoni D
+      - Meacci F
+      - Baki M
+      - Zei G
+      - Muntoni C
+      - Cappelli S
+      - Greto D
+      - Scoccianti S
+      - Livi L
+    year: 2015
+    journal: Nutrition and Cancer
+    volume: 67
+    issue: 8
+    pages: "1247-1253"
+    doi: 10.1080/01635581.2015.1082114
+    pmid: 26451712
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/26451712/
+    study_type: Phase II Clinical Trial (Single-Arm)
+    design: "Uncontrolled prospective Phase II; January–June 2014"
+    sample_size: 40
+    population: "Adults with head and neck cancer undergoing radiotherapy (consecutive enrollment)"
+    intervention: "Orasol Plus (lapacho-based nutritional solution) three times daily from radiotherapy start through completion"
+    key_findings:
+      - "Oral mucositis Grade 2: 27.5% (11/40)"
+      - "Oral mucositis Grade 3: 10% (4/40)"
+      - "Oral mucositis Grade 4: 0% (0/40)"
+      - "No treatment discontinuations due to mucositis"
+      - "Well tolerated; optimal patient compliance; nearly all completed without interruption"
+      - "Historical controls suggest Grade 3–4 mucositis in 70–80% of IMRT-treated patients (no matched comparison)"
+    conclusion: "Lapacho-based solution is safe, feasible, and associated with reduced severe mucositis; requires confirmation by Phase III RCT"
+    limitations:
+      - "No randomization or control group"
+      - "Multi-ingredient product (Orasol Plus); lapacho effect cannot be isolated"
+      - "No standardization data for lapacho content"
+      - "Small sample; single-center"
+
+  # ── Isolated Constituent Trials (Lapachol / Beta-Lapachone) ─────────────────
+  # Primary naphthoquinone constituents of pau d'arco tested as isolated drugs.
+  # Not equivalent to the botanical, but the only human PK/safety data for this compound class.
+
+  - id: block_1974_lapachol_phase1
+    title: "Early clinical studies with lapachol (NSC-11905)"
+    authors:
+      - Block JB
+      - Serpick AA
+      - Miller W
+      - Wiernik PH
+    year: 1974
+    journal: Cancer Chemotherapy Reports Part 2
+    volume: 4
+    issue: 4
+    pages: "27-28"
+    pmid: 4614904
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/4614904/
+    study_type: NCI Phase I Clinical Trial
+    compound: "Lapachol (NSC-11905) — primary naphthoquinone from pau d'arco"
+    design: "NCI phase I dose-escalation study"
+    population: "Cancer patients including chronic myelocytic leukemia"
+    key_findings:
+      - "Therapeutic blood levels of lapachol could not be achieved without unacceptable toxicity"
+      - "Primary toxicities: nausea, vomiting, anti-vitamin K activity (anticoagulant effect)"
+      - "Mechanism: inhibition of vitamin K epoxide reductase and vitamin K quinone reductase (similar to warfarin)"
+      - "IND (Investigational New Drug) status closed by NCI 1970"
+      - "Concentrations required for antitumor efficacy produce unacceptable toxicity"
+    conclusion: "Lapachol terminated from clinical development; no antitumor response demonstrated; anticoagulant risk is key safety concern"
+    significance: "Only published Phase I human data on lapachol; establishes anticoagulant risk as primary safety concern for high-dose naphthoquinone exposure"
+
+  - id: gerber_2018_arq761_phase1
+    title: "Phase 1 study of ARQ 761, a β-lapachone analogue that promotes NQO1-mediated programmed cancer cell necrosis"
+    authors:
+      - Gerber DE
+      - Beg MS
+      - Fattah F
+      - Frankel AE
+      - Fatunde O
+      - Arriaga Y
+      - Dowell JE
+      - Bisen A
+      - Leff RD
+      - Meek CC
+      - Putnam WC
+      - Kallem RR
+      - Subramaniyan I
+      - Dong Y
+      - Yao X
+      - Bhatt DL
+      - Nipp R
+      - Boothman DA
+    year: 2018
+    journal: British Journal of Cancer
+    volume: 119
+    issue: 8
+    pages: "928-936"
+    doi: 10.1038/s41416-018-0278-4
+    pmid: 30318513
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/30318513/
+    study_type: Phase I Dose-Escalation Trial
+    compound: "ARQ 761 (synthetic beta-lapachone analogue) — NOT equivalent to botanical pau d'arco"
+    design: "3+3 dose escalation; three schedules tested (weekly, biweekly, 2-of-3 weeks)"
+    sample_size: 42  # 32 evaluable for response
+    population: "Refractory advanced solid tumors; median 4 prior therapy lines; later restricted to NQO1-high tumors (H-score ≥200)"
+    maximum_tolerated_dose: "390 mg/m² as 2-hour infusion every other week"
+    key_findings:
+      - "Dose-limiting toxicity: anemia"
+      - "Most common adverse events: anemia 79%, fatigue 45%, hypoxia 33%, nausea 17%, vomiting 17%"
+      - "Grade 3 hypoxia (possibly methemoglobinemia-related): 26% of patients"
+      - "Best response: stable disease (12/32 evaluable)"
+      - "Tumor shrinkage in 6 patients"
+      - "Trend toward improved efficacy in NQO1-high tumors (P=0.06)"
+    conclusion: "ARQ 761 has modest single-agent activity associated with tumor NQO1 expression; anemia and hypoxia are class-effect toxicities"
+    significance: "Most complete human safety and PK dataset for beta-lapachone compound class; establishes anemia and hypoxia as key toxicity signals"
+
+  - id: eder_2005_arq501_phase1
+    title: "Phase I trial of ARQ 501, an Activated Checkpoint Therapy (ACT) agent, in patients with advanced solid tumors"
+    authors:
+      - Eder JP
+      - Appleman LJ
+      - Chan E
+      - Bhatt DL
+      - Park SD
+      - Li Y
+      - Sidor C
+      - von Mehren M
+    year: 2005
+    journal: Journal of Clinical Oncology
+    volume: 23
+    issue: "16 Suppl"
+    pages: "3042"
+    doi: 10.1200/jco.2005.23.16_suppl.3042
+    url: https://ascopubs.org/doi/10.1200/jco.2005.23.16_suppl.3042
+    study_type: Phase I Dose-Escalation Trial (ASCO Abstract)
+    compound: "ARQ 501 (synthetic beta-lapachone) — NOT equivalent to botanical pau d'arco"
+    design: "Modified Simon accelerated titration; weekly 1-hour IV infusion"
+    sample_size: 18
+    population: "Advanced solid tumors (median age 58.5, range 33–73): lung n=2, sarcoma n=5, colorectal n=3, pancreatic n=2, other n=6"
+    doses_tested: "10–550 mg/m² (IV weekly)"
+    key_findings:
+      - "Dose escalation without dose-limiting toxicity at lower doses"
+      - "Partial response: 1 patient with uterine leiomyosarcoma (on study >56 weeks)"
+      - "Stable disease: 2 patients (16 and 32 weeks)"
+      - "Adverse events mild including anemia and fatigue"
+    conclusion: "ARQ 501 demonstrated preliminary single-agent activity; Phase II development pursued"
+
+  # ── Ex Vivo Human Cell Studies ───────────────────────────────────────────────
+
+  - id: ryan_2021_human_lymphocytes
+    title: "The medicinal plant Tabebuia impetiginosa potently reduces pro-inflammatory cytokine responses in primary human lymphocytes"
+    authors:
+      - Ryan RYM
+      - Fernandez A
+      - Wong Y
+      - Miles JJ
+      - Cock IE
+    year: 2021
+    journal: Scientific Reports
+    volume: 11
+    issue: 1
+    pages: "5519"
+    doi: 10.1038/s41598-021-85211-8
+    pmid: 33750911
+    pmcid: PMC7970899
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33750911/
+    study_type: Ex Vivo Human Cell Study (Primary Human PBMCs)
+    cells_used: "Primary human lymphocytes (PBMCs — peripheral blood mononuclear cells)"
+    extracts_tested:
+      - Aqueous
+      - Methanolic
+      - Ethyl acetate
+      - Chloroform
+      - Hexane
+    cytokines_measured: "IFN-γ, IL-1β, IL-2, IL-6, IL-8, IL-10, MCP-1, TNF"
+    key_findings:
+      - "All five extracts demonstrated nontoxicity to primary human lymphocytes"
+      - "Multiple extracts produced potent suppression of pro-inflammatory cytokines"
+      - "Some extracts outperformed a clinical positive control"
+      - "Each solvent fraction showed unique immunomodulatory cytokine profile"
+    conclusion: "T. impetiginosa bark extracts are nontoxic and immunomodulatory in primary human lymphocytes; supports further fractionation and clinical research"
+    notes: "Uses human primary cells (not cell lines); provides mechanistic basis for anti-inflammatory traditional use"
+
+  - id: bohler_2008_tlymphocyte
+    title: "Tabebuia avellanedae extracts inhibit IL-2-independent T-lymphocyte activation and proliferation"
+    authors:
+      - Böhler T
+      - Nolting J
+      - Gurragchaa P
+      - Lupescu A
+      - Neumayer H-H
+      - Budde K
+      - Kamar N
+      - Klupp J
+    year: 2008
+    journal: Transplant Immunology
+    volume: 18
+    issue: 4
+    pages: "319-323"
+    doi: 10.1016/j.trim.2007.08.005
+    pmid: 18158117
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/18158117/
+    study_type: Ex Vivo Human Cell Study
+    cells_used: "Human T-lymphocytes (ConA-stimulated)"
+    key_findings:
+      - "Aqueous extract: dose-dependent inhibition of ConA-stimulated T-cell proliferation"
+      - "Dose-dependent reduction of CD25 and CD71 expression on T-lymphocytes"
+      - "Mechanism is IL-2-independent (no effect on IL-2 or TNF-alpha cytokine expression)"
+      - "Immunosuppressive activity NOT mediated by beta-lapachone"
+      - "Only aqueous extract showed effects; ethanol extract did not"
+      - "No toxic effects at concentrations tested"
+    conclusion: "Aqueous extract has reproducible IL-2-independent immunosuppression; activity not attributable to beta-lapachone (unknown polar constituent responsible)"
+    notes: "Relevant to drug interaction considerations in immunosuppressed patients (transplant context)"
+
+  # ── Bioavailability / Extract Characterization ───────────────────────────────
+
+  - id: pires_2015_bioactive_comparison
+    title: "Bioactive Properties of Tabebuia impetiginosa-Based Phytopreparations and Phytoformulations: A Comparison between Extracts and Dietary Supplements"
+    authors:
+      - Pires TCSP
+      - Dias MI
+      - Calhelha RC
+      - Carvalho AM
+      - Queiroz M-JRP
+      - Barros L
+      - Ferreira ICFR
+    year: 2015
+    journal: Molecules
+    volume: 20
+    issue: 12
+    pages: "22863-22871"
+    doi: 10.3390/molecules201219885
+    pmid: 26703544
+    pmcid: PMC6331982
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/26703544/
+    study_type: In Vitro Comparative Bioactivity Evaluation
+    preparations_compared:
+      - Methanolic extract
+      - Infusion
+      - Pills (commercial)
+      - Syrup (commercial)
+    key_findings:
+      - "Total phenolics (methanolic extract): 247.50 mg GAE/g"
+      - "Total flavonoids (methanolic extract): 71.12 mg CE/g"
+      - "Alpha-tocopherol: 2.07 mg/100g dry weight"
+      - "Oleic acid: 32.51% of fatty acid content (predominant fatty acid)"
+      - "Methanolic extract cytotoxic against human tumor cell lines (GI50 76.67–110.76 μg/mL)"
+      - "Commercial pills and syrup: no cytotoxic effects at tested concentrations (>400 μg/mL threshold)"
+      - "Infusions showed reduced bioactivity vs extracts (heat-induced phenolic degradation)"
+    conclusion: "Extraction methodology critically determines bioactivity; commercial formulations show dramatically reduced activity vs laboratory extracts; infusion is inferior preparation type"
+    notes: "In vitro only; no human PK data exist for pau d'arco constituents"
+
+  # ── Safety / Toxicology Studies ─────────────────────────────────────────────
+
+  - id: lemos_2012_genotoxicity
+    title: "Genotoxic effects of Tabebuia impetiginosa (Mart. Ex DC.) Standl. (Lamiales, Bignoniaceae) extract in Wistar rats"
+    authors:
+      - Lemos OA
+      - Sanches JCM
+      - Silva ÍEF
+      - Silva MLA
+      - Vinhólis AHC
+      - Felix MAP
+      - Santos RA
+      - Cecchi AO
+    year: 2012
+    journal: Genetics and Molecular Biology
+    volume: 35
+    issue: 2
+    pages: "498-502"
+    doi: 10.1590/S1415-47572012005000030
+    pmid: 22888300
+    pmcid: PMC3389539
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22888300/
+    study_type: In Vivo Genotoxicity Study (Animal)
+    animal_model: Wistar rats
+    method: "Alkaline comet assay (single-cell gel electrophoresis) in blood and liver cells"
+    key_findings:
+      - "100 mg/kg: no significant DNA damage vs negative control"
+      - "300 mg/kg: significant increase in DNA damage vs negative control"
+      - "500 mg/kg: highest genotoxic response; dose-dependent relationship confirmed"
+      - "DNA damage index in liver at 500 mg/kg: 230.6 (vs 46.3 in negative control)"
+      - "Liver cells showed substantially higher DNA damage than blood cells at 500 mg/kg"
+    conclusion: "T. impetiginosa extract is genotoxic in rats at doses ≥300 mg/kg; no genotoxicity at 100 mg/kg"
+    notes: >
+      Rat oral dose of 100 mg/kg approximates human doses when allometrically scaled.
+      The single human trial dose (1050 mg/day in ~70 kg adult ≈ 15 mg/kg) falls well below
+      the genotoxic threshold identified here. No human genotoxicity data exist.
+
+  # ── Foundational Pharmacology ────────────────────────────────────────────────
+
+  - id: rao_1968_lapachol_antitumor
+    title: "Recognition and Evaluation of Lapachol as an Antitumor Agent"
+    authors:
+      - Rao KV
+      - McBride TJ
+      - Oleson JJ
+    year: 1968
+    journal: Cancer Research
+    volume: 28
+    issue: 10
+    pages: "1952-1954"
+    url: https://aacrjournals.org/cancerres/article/28/10/1952/476790/
+    pubmed_url: null
+    pmid: null
+    study_type: Preclinical Pharmacological Characterization
+    notes: "Not indexed on PubMed; accessible via AACR journals."
+    key_findings:
+      - "Lapachol (2-hydroxy-3-(3-methyl-2-butenyl)-1,4-naphthoquinone) showed reproducible activity against Walker 256 intramuscular tumor system (>90% confidence)"
+      - "Active via IP, SC, IM, and oral routes; best activity and therapeutic index via oral twice-daily dosing"
+      - "Initiated NCI clinical development that ultimately led to Phase I (Block et al. 1974)"
+    significance: "Foundational paper establishing lapachol as an antitumor agent; initiated NCI clinical trial program"
+
+# ── Regulatory Monographs and Pharmacopoeia ──────────────────────────────────
+
+regulatory_documents:
+  - authority: "World Health Organization (WHO)"
+    status: "No WHO monograph published for pau d'arco / Handroanthus impetiginosus / Tabebuia impetiginosa as of 2026-03-06"
+    note: >
+      WHO Monographs on Selected Medicinal Plants (Volumes 1–4, 1999–2009) do not include
+      pau d'arco. Widespread traditional use and commercial prominence have not been
+      accompanied by a formal WHO assessment.
+
+  - authority: "German Commission E"
+    status: "No Commission E monograph (positive or negative) for pau d'arco"
+    note: >
+      Pau d'arco is not listed in Blumenthal M et al. 'The Complete German Commission E
+      Monographs: Therapeutic Guide to Herbal Medicines' (1998). Not reviewed by Commission E.
+
+  - authority: "European Medicines Agency (EMA) / HMPC"
+    status: "No EMA/HMPC assessment report or monograph for Handroanthus impetiginosus as of 2026-03-06"
+
+  - authority: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    status: "No ESCOP monograph identified for pau d'arco / Tabebuia impetiginosa as of 2026-03-06"
+
+  - authority: "American Herbal Pharmacopoeia (AHP)"
+    status: "No AHP analytical monograph identified for pau d'arco as of 2026-03-06"
+
+  - authority: "USP (United States Pharmacopeia)"
+    status: "No USP monograph identified for pau d'arco as of 2026-03-06"
+
+# ── Dosing and Standardization ───────────────────────────────────────────────
+
+dosing_summary:
+  clinical_trial_doses:
+    - condition: "Primary dysmenorrhea"
+      dose: "1050 mg/day encapsulated Tabebuia avellanedae bark"
+      duration: "8 weeks"
+      source: mcclure_2022_dysmenorrhea
+      notes: "Preparation not standardized for naphthoquinone content"
+
+    - condition: "Oral mucositis prophylaxis (head and neck radiotherapy)"
+      dose: "Orasol Plus lapacho-based solution three times daily"
+      duration: "Duration of radiotherapy course"
+      source: giacomelli_2015_mucositis
+      notes: "Multi-ingredient product; lapacho content not standardized or specified"
+
+  traditional_dosing:
+    - preparation: "Bark decoction (inner bark, traditional South American)"
+      dose_range: "2–4 g dried bark per cup"
+      frequency: "One to three cups daily"
+      notes: "Traditional preparation; low naphthoquinone bioavailability expected from aqueous extraction"
+
+    - preparation: "Standardized encapsulated extract"
+      dose_range: "1050 mg/day (from McClure et al. 2022 dysmenorrhea trial)"
+      notes: "Only human trial dose; naphthoquinone content not reported"
+
+  standardization:
+    marker_compounds:
+      - name: "Lapachol (2-hydroxy-3-(3-methyl-2-butenyl)-1,4-naphthoquinone)"
+        role: "Primary naphthoquinone; historical antitumor interest; anticoagulant risk at high doses"
+        notes: "No standardization benchmarks established for commercial botanical preparations"
+
+      - name: "Beta-lapachone"
+        role: "Primary anti-tumor naphthoquinone; NQO1 bioactivatable; developed as isolated drug ARQ 501/761"
+        notes: "Content in botanical preparations not standardized"
+
+    quality_concerns:
+      - "Commercial products show high inter-product variability in naphthoquinone content (Gómez Castellanos 2009)"
+      - "Species identity often mislabeled in commerce (T. impetiginosa, T. avellanedae, H. impetiginosus used interchangeably)"
+      - "Lapachol is poorly water-soluble; traditional aqueous decoctions likely deliver very low naphthoquinone doses"
+      - "Commercial pills and syrups show dramatically reduced bioactivity vs methanolic extracts in vitro (Pires et al. 2015)"
+
+# ── Safety Profile Summary ───────────────────────────────────────────────────
+
+safety:
+  overall: "Thin human safety data; no serious adverse events in the one small pilot trial (n=9, 8 weeks)"
+
+  human_trial_safety:
+    - "McClure 2022 (n=9 completers, 1050 mg/day, 8 weeks): 75% mild AE rate; no serious AEs; no clinically significant coagulation changes"
+    - "Giacomelli 2015 (n=40, lapacho-based solution): well tolerated; no serious AEs related to product"
+
+  anticoagulant_risk:
+    - "Lapachol inhibits vitamin K epoxide reductase (warfarin-like mechanism); NCI Phase I terminated for this toxicity"
+    - "Whole-bark tea may partially compensate via co-occurring pro-vitamin K compounds (Gómez Castellanos 2009)"
+    - "Clinical magnitude of anticoagulant effect at botanical doses uncharacterized in humans"
+
+  genotoxicity:
+    - "Genotoxic in rats at ≥300 mg/kg by comet assay (Lemos 2012); no effect at 100 mg/kg"
+    - "Human dose of 1050 mg/day (~15 mg/kg in 70 kg adult) falls below rat genotoxic threshold"
+    - "No human genotoxicity data exist"
+
+  contraindications:
+    - Pregnancy (fetotoxic in animal studies)
+    - Concurrent anticoagulant/antiplatelet therapy
+    - Immunosuppressed patients should use with caution (IL-2-independent T-cell suppression documented)
+
+  drug_interactions:
+    - "Anticoagulants (warfarin, heparin, NSAIDs): additive bleeding risk; mechanism: vitamin K antagonism by lapachol"
+    - "Immunosuppressants: theoretical additive immunosuppression (aqueous extract IL-2-independent T-cell suppression)"
+
+# ── Key Research Gaps ────────────────────────────────────────────────────────
+
+research_needs:
+  - "No RCTs for any pau d'arco preparation for any indication as of 2026-03-06"
+  - "No human pharmacokinetic studies for whole-bark extract or constituent bioavailability"
+  - "No dose-finding studies for whole-herb preparation in humans"
+  - "No standardized extract definition (marker compound and % content)"
+  - "No long-term human safety studies (>8 weeks)"
+  - "No human genotoxicity data"
+  - "Drug interaction studies with anticoagulants in humans absent"
+  - "Lapachol anticoagulant risk at botanical doses uncharacterized in humans"
+
+notes: |
+  This bibliography covers all published human clinical evidence for pau d'arco (Handroanthus
+  impetiginosus / Tabebuia impetiginosa / T. avellanedae) as of 2026-03-06. Key points:
+
+  1. Evidence base is extremely thin: two small single-arm human trials only; no RCTs.
+  2. Isolated constituent trials (lapachol, ARQ 501/761) are included as the only human
+     PK/safety data for the primary active compound class; they are NOT equivalent to
+     the botanical.
+  3. No regulatory monograph from any major authority (WHO, Commission E, EMA/HMPC,
+     ESCOP, AHP, USP) has been published for this herb.
+  4. Standardization of commercial preparations is a significant unsolved problem;
+     naphthoquinone content is highly variable and largely uncharacterized.
+  5. Anticoagulant interaction potential via lapachol/vitamin K antagonism is the
+     primary safety concern supported by mechanistic data.
+  6. Traditional decoction doses appear below the rat genotoxic threshold; no human
+     genotoxicity data exist.
+
+search_sources:
+  - "PubMed database searches (conducted 2026-03-06)"
+  - "Search terms: 'Tabebuia impetiginosa clinical', 'Handroanthus impetiginosus human',
+     'pau d arco clinical trial', 'lapacho clinical', 'lapachol clinical trial',
+     'beta-lapachone phase I', 'Tabebuia avellanedae human', 'taheebo PMID'"
+  - "Gómez Castellanos et al. 2009 (PMID 18992801) as secondary ethnopharmacological source"
+  - "Zhang et al. 2020 (PMID 32962180) as secondary phytochemistry/preclinical source"
+  - "ASCO Annual Meeting abstracts (2005) via ASCO Publications for ARQ 501"
+  - "AACR Cancer Research journal for Rao et al. 1968"

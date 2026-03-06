@@ -1,0 +1,734 @@
+---
+herb: Skullcap
+scientific_name: "Scutellaria lateriflora L. (American skullcap); Scutellaria baicalensis Georgi (Chinese/Baical skullcap)"
+common_names:
+  - "American skullcap (S. lateriflora)"
+  - "Blue skullcap"
+  - "Mad dog skullcap"
+  - "Chinese skullcap (S. baicalensis)"
+  - "Baical skullcap"
+  - "Huang Qin"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-03-06
+notes_on_scope: >
+  Two distinct species are in common use: Scutellaria lateriflora (North American nervine,
+  anxiety/sleep) and Scutellaria baicalensis (Chinese medicine, anti-inflammatory). Both are
+  sold as 'skullcap' in commerce. Clinical evidence is limited; most RCTs use S. lateriflora
+  whole herb, while pharmacokinetic data exists mainly for isolated baicalin/baicalein
+  constituents from S. baicalensis. Adulterant concern: historical contamination with germander
+  (Teucrium canadense) complicates safety attribution.
+
+# Randomized Controlled Trials
+clinical_trials:
+  - citation:
+      authors: "Di Minno A, Morone MV, Buccato DG, De Lellis LF, Ullah H, Piccinocchi R, Cordara M, Larsen DS, Di Guglielmo A, Baldi A, Piccinocchi G, Xiao X, Sacchi R, Daglia M"
+      title: "Efficacy and Tolerability of a Chemically Characterized Scutellaria lateriflora L. Extract-Based Food Supplement for Sleep Management: A Single-Center, Controlled, Randomized, Crossover, Double-Blind Clinical Trial"
+      journal: "Nutrients"
+      year: 2025
+      volume: "17"
+      issue: "9"
+      pages: "1491"
+      pmid: "40362800"
+      pmcid: "PMC12073644"
+      doi: "10.3390/nu17091491"
+      url: "https://pubmed.ncbi.nlm.nih.gov/40362800/"
+    study_details:
+      species: "S. lateriflora"
+      design: "Single-center, randomized, crossover, double-blind, placebo-controlled"
+      duration: "56 days per arm + 28-day washout"
+      participants: 66  # 33 per group, aged 18-70, 29F/37M, mean age 44±15 years
+      population: "Adults with mild to moderate primary insomnia"
+      intervention: "400 mg/day S. lateriflora dried hydroethanolic extract standardized to 10% baicalin (BlueCALM)"
+      comparator: "Placebo"
+      outcomes:
+        primary:
+          - "PSQI total score: supplement decreased from 13.0±2.9 (baseline) to 9.5±3.5 (endpoint); placebo deteriorated from 11.5±3.0 to 13.3±3.0 (p<0.001)"
+        secondary:
+          - "Sleep Onset Latency: reduced 0.82 min with supplement vs increased 0.37 min with placebo"
+          - "Sleep Efficiency: increased ~9% with supplement vs minimal change with placebo"
+          - "Total Sleep Time: increased 1.22 hours with supplement"
+          - "Visual Analog Scale: significantly improved (p<0.001)"
+      safety: "No adverse effects reported; physicians assessed supplement as well-tolerated"
+      extract_type: "Hydroethanolic extract standardized to 10% baicalin"
+
+  - citation:
+      authors: "Brock C, Whitehouse J, Tewfik I, Towell T"
+      title: "American Skullcap (Scutellaria lateriflora): a randomised, double-blind placebo-controlled crossover study of its effects on mood in healthy volunteers"
+      journal: "Phytotherapy Research"
+      year: 2014
+      volume: "28"
+      issue: "5"
+      pages: "692-698"
+      pmid: "23878109"
+      doi: "10.1002/ptr.5044"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23878109/"
+    study_details:
+      species: "S. lateriflora"
+      design: "Randomized, double-blind, placebo-controlled crossover"
+      duration: "2 weeks per arm"
+      participants: 43  # healthy volunteers, 81% with mild anxiety or less at baseline
+      population: "Healthy volunteers"
+      intervention: "350 mg S. lateriflora three times daily (1050 mg/day)"
+      comparator: "Placebo"
+      outcomes:
+        primary:
+          - "Total Mood Disturbance (POMS): highly significant decrease with skullcap (p<0.001) vs no significant change with placebo (p=0.072)"
+        secondary:
+          - "Anxiety (BAI): no significant difference between treatment and placebo (p=0.191)"
+          - "No reduction in energy or cognition"
+      safety: "Herb significantly enhanced global mood without reducing energy or cognition; favorable tolerability in healthy population"
+      limitations:
+        - "Carryover effects possible"
+        - "Low baseline anxiety scores (81% mild or less) reduced statistical power"
+        - "Baseline group differences in anxiety levels (p=0.022)"
+
+  - citation:
+      authors: "Wolfson P, Hoffmann DL"
+      title: "An investigation into the efficacy of Scutellaria lateriflora in healthy volunteers"
+      journal: "Alternative Therapies in Health and Medicine"
+      year: 2003
+      volume: "9"
+      issue: "2"
+      pages: "74-78"
+      pmid: "12652886"
+      doi: null
+      url: "https://pubmed.ncbi.nlm.nih.gov/12652886/"
+    study_details:
+      species: "S. lateriflora"
+      design: "Double-blind, placebo-controlled, crossover"
+      participants: "Not specified in abstract"
+      population: "Healthy subjects"
+      key_findings:
+        - "Demonstrated noteworthy anxiolytic effects in healthy subjects"
+        - "Reviewed published literature on S. lateriflora putative toxicity"
+      notes: "Earliest published RCT on S. lateriflora; full text required for complete methodological detail"
+
+  - citation:
+      authors: "Di Minno A, Ullah H, De Lellis LF, Buccato DG, Baldi A, Cuomo P, El-Seedi HR, Khalifa SAM, Xiao X, Piccinocchi R, Piccinocchi G, Sacchi R, Daglia M"
+      title: "Efficacy and Tolerability of a Scutellaria lateriflora L. and Cistus × incanus L.-Based Chewing Gum on the Symptoms of Gingivitis: A Monocentric, Randomized, Double-Blind, Placebo-Controlled Clinical Trial"
+      journal: "Nutrients"
+      year: 2024
+      volume: "16"
+      issue: "6"
+      pages: "862"
+      pmid: "38542772"
+      pmcid: "PMC10975933"
+      doi: "10.3390/nu16060862"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38542772/"
+    study_details:
+      species: "S. lateriflora (combined with Cistus × incanus)"
+      design: "Monocentric, randomized, double-blind, placebo-controlled, parallel-group"
+      duration: "3 months"
+      participants: 60  # 30 per group, aged 18–70 years
+      population: "Adults with gingivitis"
+      intervention: "Two chewing gums daily (160 mg combined S. lateriflora + C. incanus hydroalcoholic extract at 11 AM and 5 PM)"
+      comparator: "Placebo chewing gum"
+      outcomes:
+        primary:
+          - "QGBI (gingival bleeding index): significantly decreased in treatment group (β = 0.6, p < 0.001)"
+          - "MGI (modified gingival index): significantly decreased in treatment group (β = 0.87, p < 0.001)"
+          - "OH-15 (oral health quality of life): improved (β = 5.3, p = 0.038)"
+        secondary:
+          - "VAS (pain): significantly reduced (β = 3.16, p < 0.001)"
+          - "CGI-S (clinical global impression): improved (β = 1.09, p < 0.001)"
+      safety: "No adverse reactions reported; well tolerated over 3 months"
+      note: "Combination product; cannot isolate effect of S. lateriflora alone; novel oral-health indication for this species"
+
+  - citation:
+      authors: "Dodd F, Weishaupt R, Katumba PKM, Elcoate R, Wightman E"
+      title: "Effects of a Scutellaria baicalensis/Crataegus laevigata, magnesium and chromium supplement on stressed individuals: A randomised, double-blind, placebo-controlled, crossover trial"
+      journal: "Journal of Psychopharmacology"
+      year: 2025
+      volume: "39"
+      issue: "12"
+      pages: "1420-1436"
+      pmid: "41194549"
+      pmcid: "PMC12672942"
+      doi: "10.1177/02698811251381261"
+      url: "https://pubmed.ncbi.nlm.nih.gov/41194549/"
+    study_details:
+      species: "S. baicalensis (in combination with Crataegus laevigata, magnesium, chromium)"
+      design: "Randomized, double-blind, placebo-controlled crossover"
+      duration: "15 days per arm plus acute dosing phase"
+      participants: 35  # 43 enrolled, 35 analyzed; aged 18–75 years
+      population: "Stressed healthy adults"
+      intervention: "Two tablets daily containing S. baicalensis root extract, C. laevigata fruit extract, magnesium, and chromium"
+      comparator: "Placebo"
+      outcomes:
+        acute_dose:
+          - "Reduced serial 3's subtraction errors (improved attention/working memory)"
+        chronic_15_days:
+          - "Increased correct serial 7's subtractions during stressor task"
+          - "Improved mood; reduced trait anxiety scores"
+          - "Reduced total mood disturbance and anger/hostility"
+          - "Enhanced total sleep time and overall sleep quality"
+      safety: "No serious adverse effects reported"
+      note: "Combination product; individual S. baicalensis dose not specified; effects cannot be attributed to S. baicalensis alone"
+
+# Pharmacokinetics and Bioavailability Studies
+pharmacokinetics:
+  - citation:
+      authors: "Li M, Shi A, Pang H, Xue W, Li Y, Cao G, Yan B, Dong F, Li K, Xiao W, He G, Du G, Hu X"
+      title: "Safety, tolerability, and pharmacokinetics of a single ascending dose of baicalein chewable tablets in healthy subjects"
+      journal: "Journal of Ethnopharmacology"
+      year: 2014
+      volume: "156"
+      pages: "210-215"
+      pmid: "25219601"
+      doi: "10.1016/j.jep.2014.08.031"
+      url: "https://pubmed.ncbi.nlm.nih.gov/25219601/"
+    study_details:
+      species: "S. baicalensis (isolated baicalein constituent)"
+      design: "Phase I, randomized, double-blind, single ascending dose"
+      participants: 72  # healthy adults
+      dosing_range: "100–2800 mg baicalein single dose"
+      key_pk_parameters:
+        baicalein:
+          tmax: "0.75–3.5 hours (median)"
+          t_half: "1.90–15.01 hours"
+        baicalin_metabolite:
+          tmax: "0.5–3.0 hours (median)"
+          t_half: "4.22–10.80 hours"
+      safety:
+        adverse_events: "11 treatment-related adverse events, all mild, all resolved without treatment"
+        serious_adverse_events: "None"
+        hepatic_renal: "No signs of toxicity"
+      conclusion: "Single oral doses 100–2800 mg were safe and well tolerated"
+      note: "Isolated baicalein from S. baicalensis, not whole herb S. lateriflora"
+
+  - citation:
+      authors: "Pang H, Xue W, Shi A, Li M, Li Y, Cao G, Yan B, Dong F, Xiao W, He G, Du G, Hu X, Cheng G"
+      title: "Multiple-Ascending-Dose Pharmacokinetics and Safety Evaluation of Baicalein Chewable Tablets in Healthy Chinese Volunteers"
+      journal: "Clinical Drug Investigation"
+      year: 2016
+      volume: "36"
+      issue: "9"
+      pages: "713-724"
+      pmid: "27352310"
+      doi: "10.1007/s40261-016-0418-7"
+      url: "https://pubmed.ncbi.nlm.nih.gov/27352310/"
+    study_details:
+      species: "S. baicalensis (isolated baicalein)"
+      design: "Single-center, randomized, double-blind, placebo-controlled, parallel-group, multiple ascending dose"
+      participants: 33  # of 36 enrolled completed; 3 dose groups
+      dosing: "200, 400, and 800 mg baicalein (once daily on days 1 and 10; twice daily on days 3–9)"
+      key_pk_parameters:
+        steady_state: "Achieved on day 8"
+        dose_proportionality_baicalein_auc: "β=0.922 (90% CI: 0.650–1.195)"
+        dose_proportionality_baicalin_auc: "β=0.942 (90% CI: 0.539–1.345)"
+        accumulation_index: "1.66–2.07 for baicalein"
+      safety: "44 adverse events in 23 participants; no serious accumulation; safe and well tolerated"
+      conclusion: "Dose proportionality inconclusive across dose range 200–800 mg; no serious accumulation"
+
+  - citation:
+      authors: "Li L, Gao H, Lou K, Luo H, Hao S, Yuan J, Liu Z, Dong R"
+      title: "Safety, tolerability, and pharmacokinetics of oral baicalein tablets in healthy Chinese subjects: A single-center, randomized, double-blind, placebo-controlled multiple-ascending-dose study"
+      journal: "Clinical and Translational Science"
+      year: 2021
+      volume: "14"
+      issue: "5"
+      pages: "2017-2024"
+      pmid: "34156161"
+      doi: "10.1111/cts.13063"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34156161/"
+    study_details:
+      species: "S. baicalensis (oral baicalein tablets)"
+      design: "Single-center, randomized, double-blind, placebo-controlled, multiple ascending dose"
+      participants: 36  # healthy Chinese subjects
+      dosing: "200, 400, and 600 mg daily (once on day 1 and day 10; three-times-daily on days 4–9)"
+      key_pk_parameters:
+        tmax: "Within 2 hours after multiple administration"
+        urinary_excretion: "Double-peak pattern at 2 and 12 hours"
+      safety:
+        adverse_events: "All mild; one moderate fever in 600 mg group judged unrelated to treatment"
+        conclusion: "Safe and well tolerated in dose range 200–600 mg"
+
+  - citation:
+      authors: "Buccato DG, Ullah H, De Lellis LF, Piccinocchi R, Baldi A, Xiao X, Arciola CR, Di Minno A, Daglia M"
+      title: "In Vitro Assessment of Cortisol Release Inhibition, Bioaccessibility and Bioavailability of a Chemically Characterized Scutellaria lateriflora L. Hydroethanolic Extract"
+      journal: "Molecules"
+      year: 2024
+      volume: "29"
+      issue: "3"
+      pages: "586"
+      pmid: "38338331"
+      pmcid: "PMC10856628"
+      doi: "10.3390/molecules29030586"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38338331/"
+    study_details:
+      species: "S. lateriflora"
+      design: "In vitro experimental study"
+      methods:
+        - "Simulated gastric, duodenal, and gastroduodenal digestion"
+        - "RP-UHPLC-PDA-ESI-MS/MS phytochemical analysis"
+        - "Caco-2 transwell cell absorption model (bioavailability)"
+        - "Parallel artificial membrane permeability assay (PAMPA)"
+        - "H295R adrenocortical cell cortisol measurement"
+      key_findings:
+        bioaccessibility:
+          - "Gastroduodenal digestion caused significant reductions in polyphenolics (p<0.0001)"
+          - "Scutellarin degraded 61.6%; genistein 73.2%; others 20.7–53.2% reduction"
+        bioavailability:
+          - "Only oroxylin A glucuronide crossed Caco-2 membrane"
+          - "Only oroxylin A penetrated PAMPA artificial lipid membrane"
+        cortisol_inhibition:
+          - "Dose-dependent inhibition of cortisol release: 58–91% suppression at 5–30 mg/mL (noncytotoxic)"
+      note: "In vitro study; human PK data for whole S. lateriflora herb not yet established"
+
+  - citation:
+      authors: "Awad R, Arnason JT, Trudeau V, Bergeron C, Budzinski JW, Foster BC, Merali Z"
+      title: "Phytochemical and biological analysis of skullcap (Scutellaria lateriflora L.): a medicinal plant with anxiolytic properties"
+      journal: "Phytomedicine"
+      year: 2003
+      volume: "10"
+      issue: "8"
+      pages: "640-649"
+      pmid: "14692724"
+      doi: "10.1078/0944-7113-00374"
+      url: "https://pubmed.ncbi.nlm.nih.gov/14692724/"
+    study_details:
+      species: "S. lateriflora"
+      design: "Animal behavioral study + HPLC phytochemical analysis"
+      animal_model: "Sprague-Dawley rats"
+      key_constituents_quantified:
+        - "Baicalin: 40 mg/g in 50% ethanol extract"
+        - "Baicalein aglycone: 33 mg/g in 95% ethanol extract"
+        - "GABA: ~1.6 mg/g in water and ethanol extracts"
+        - "Glutamine: 31 mg/g in water extract"
+      proposed_mechanism: "Baicalin/baicalein bind benzodiazepine site of GABAA receptor; GABA serves as primary inhibitory neurotransmitter"
+      behavioral_findings:
+        - "Significant increases in center entries in open-field arena"
+        - "Significant increases in unprotected head-dip behavior"
+        - "Increased open arm exploration in elevated plus-maze"
+      note: "Animal study; establishes phytochemical basis for observed anxiolytic effects"
+
+# Drug Interactions
+drug_interactions:
+  - citation:
+      authors: "Yi S, Cho JY, Lim KS, Kim KP, Kim J, Kim BH, Hong JH, Jang IJ, Shin SG, Yu KS"
+      title: "Effects of Angelicae tenuissima radix, Angelicae dahuricae radix and Scutellariae radix extracts on cytochrome P450 activities in healthy volunteers"
+      journal: "Basic & Clinical Pharmacology & Toxicology"
+      year: 2009
+      volume: "105"
+      issue: "4"
+      pages: "249-256"
+      pmid: "19422358"
+      doi: "10.1111/j.1742-7843.2009.00423.x"
+      url: "https://pubmed.ncbi.nlm.nih.gov/19422358/"
+    study_details:
+      species: "Scutellariae radix (S. baicalensis root)"
+      design: "Parallel-group clinical trial with probe drug cocktail"
+      participants: 24  # healthy male volunteers, 8 per herbal group
+      duration: "13 days; probe drug testing before and after treatment"
+      cyp_enzymes_assessed:
+        - "CYP1A2 (caffeine probe)"
+        - "CYP2C9 (losartan probe)"
+        - "CYP2C19 (omeprazole probe)"
+        - "CYP2D6 (dextromethorphan probe)"
+        - "CYP2E1 (chlorzoxazone probe)"
+        - "CYP3A4 (midazolam probe)"
+      key_findings_scutellariae_radix:
+        - "CYP2C9 activity reduced to 71% of baseline (losartan metabolic ratio)"
+        - "CYP2E1 activity increased 1.42-fold (chlorzoxazone metabolic ratio)"
+        - "Other CYP isoforms not significantly affected"
+      clinical_implication: "Moderate CYP2C9 inhibition may affect metabolism of warfarin, phenytoin, NSAIDs; further clinical evaluation warranted"
+
+  - citation:
+      authors: "Zhou X, Fu L, Wang P, Yang L, Zhu X, Li CG"
+      title: "Drug-herb interactions between Scutellaria baicalensis and pharmaceutical drugs: Insights from experimental studies, mechanistic actions to clinical applications"
+      journal: "Biomedicine & Pharmacotherapy"
+      year: 2021
+      volume: "138"
+      pages: "111445"
+      pmid: "33711551"
+      doi: "10.1016/j.biopha.2021.111445"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33711551/"
+    study_details:
+      species: "S. baicalensis"
+      study_type: "Comprehensive review"
+      key_findings:
+        - "S. baicalensis bioactives affect pharmacokinetics via efflux pumps and CYP450 enzymes"
+        - "Baicalin (0.01–1 µM) increased CYP3A4, CYP2C9, CYP2C19 expression at 24–36h; decreased CYP3A4 and CYP2C9 at 48h in HeLa cells"
+        - "CYP450 inhibition can increase drug effects or toxicity; induction reduces drug efficacy"
+        - "Interactions documented with cancer drugs, diabetes medications, and antimicrobials"
+      clinical_concern: "Warfarin, chemotherapy, immunosuppressants most clinically relevant; use caution with concurrent pharmaceutical drugs"
+
+# Epidemiological and Database Studies
+epidemiological_studies:
+  - citation:
+      authors: "Liao CC, Liao KR, Lin CL, Li JM"
+      title: "The Effectiveness of Scutellaria baicalensis on Migraine: Implications from Clinical Use and Experimental Proof"
+      journal: "Evidence-Based Complementary and Alternative Medicine"
+      year: 2021
+      volume: "2021"
+      pages: "8707280"
+      pmid: "33505504"
+      pmcid: "PMC7806391"
+      doi: "10.1155/2021/8707280"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33505504/"
+    study_details:
+      species: "S. baicalensis"
+      design: "Taiwan National Health Insurance Research Database (NHIRD) analysis + preclinical animal study"
+      database: "LHID 2000 (1,000,000-person random sample from NHIRD, 1997–2013)"
+      key_findings:
+        database_analysis:
+          - "S. baicalensis used to treat headache: N=4,849 (2.51% of all clinical applications); 4th most common clinical indication in database"
+          - "Confirms frequent real-world clinical use of S. baicalensis for migraine/headache in Taiwan"
+        animal_study:
+          - "Nitroglycerin-induced rat migraine model (NTG 10 mg/kg i.p.)"
+          - "Pretreatment with 1.0 g/kg S. baicalensis reduced migraine-associated behavioral changes (locomotor, tactile sensitivity)"
+      note: "Mixed database + preclinical study design; no randomized clinical component; database analysis provides real-world usage epidemiology only"
+
+# Safety Studies
+safety_studies:
+  - citation:
+      authors: "Puri BK, White N, Monro JA"
+      title: "The effect of supplementation with Scutellaria baicalensis on hepatic function"
+      journal: "Medical Hypotheses"
+      year: 2019
+      volume: "133"
+      pages: "109402"
+      pmid: "31557595"
+      doi: "10.1016/j.mehy.2019.109402"
+      url: "https://pubmed.ncbi.nlm.nih.gov/31557595/"
+    study_details:
+      species: "S. baicalensis"
+      design: "Prospective observational pre-post assessment"
+      participants: 17  # 16 female, mean age 38.6 years
+      dosing: "1335 mg dried S. baicalensis root daily"
+      duration: "Average 444 days (~14.8 months)"
+      liver_function_tests:
+        alanine_transaminase: "25.7 → 25.1 IU/L (non-significant decrease)"
+        aspartate_transaminase: "22.1 → 23.5 IU/L (non-significant increase)"
+        alkaline_phosphatase: "63.7 → 63.3 IU/L (non-significant decrease)"
+        bilirubin: "6.1 → 6.0 μM (non-significant decrease)"
+      conclusion: "No statistically significant changes; no clinical or biochemical hepatic dysfunction during supplementation"
+      limitations: "Small sample, uncontrolled design, no comparison group"
+
+  - citation:
+      authors: "Thakral N, Konjeti VR, Salama FW"
+      title: "Drug induced autoimmune hepatitis: An unfortunate case of herbal toxicity from Skullcap supplement: A case report"
+      journal: "World Journal of Hepatology"
+      year: 2023
+      volume: "15"
+      issue: "12"
+      pages: "1333"
+      pmid: "38223420"
+      pmcid: "PMC10784811"
+      doi: "10.4254/wjh.v15.i12.1333"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38223420/"
+    study_details:
+      species: "S. lateriflora (North American skullcap supplement)"
+      case_type: "Case report - drug-induced autoimmune hepatitis"
+      patient: "62-year-old Caucasian female; history of Sjögren's syndrome, anxiety, insomnia"
+      exposure_duration: "1–2 months of supplementation before onset"
+      presentation: "Generalized fatigue, arthralgias, pruritus, new onset jaundice"
+      laboratory_values:
+        ast_initial: "1091 IU/L; 1222 IU/L at readmission"
+        alt_initial: "980 IU/L; 540 IU/L at readmission"
+        total_bilirubin: "9.5 mg/dL initial; peaked at 11.8 mg/dL"
+        inr: 2.4
+        alkaline_phosphatase: "164 IU/L initial; 619 IU/L at readmission"
+        immunoglobulin_g: "2573 mg/dL (elevated)"
+      biopsy_finding: "Extensive plasma cells consistent with new-onset autoimmune hepatitis"
+      outcome: "Jaundice resolved after protracted course; patient remained dialysis-dependent, listed for liver-kidney transplant"
+      significance: "Rare presentation of drug-induced autoimmune hepatitis; severe outcome"
+
+  - citation:
+      authors: "Soldera J"
+      title: "Insights into skullcap herb-induced liver injury"
+      journal: "World Journal of Hepatology"
+      year: 2024
+      volume: "16"
+      issue: "2"
+      pages: "120"
+      pmid: "38495279"
+      pmcid: "PMC10941739"
+      doi: "10.4254/wjh.v16.i2.120"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38495279/"
+    study_details:
+      species: "Scutellaria spp. (not differentiated)"
+      design: "Systematic review"
+      scope: "936 total HILI cases from 446 references; identified 79 herb types"
+      skullcap_clinical_profile:
+        demographics: "Predominantly female; mean age 54 years"
+        common_indications: "Anxiety, stress, insomnia; also arthritis"
+        dose_range: "400 mg to 16 g daily"
+        onset: "1 week to 3 months"
+        injury_pattern: "Hepatocellular (occasionally mixed)"
+        severity: "Mild-to-moderate; normalization within ~12 weeks after discontinuation"
+        mortality: "14.2% mortality documented across HILI cases (not skullcap-specific)"
+        transplant: "Some severe cases required liver transplantation"
+      key_finding: "Skullcap among documented hepatotoxic herbs; species differentiation (lateriflora vs baicalensis) not consistently reported in cases"
+
+  - citation:
+      authors: "Yang L, Aronsohn A, Hart J, Jensen D"
+      title: "Herbal hepatoxicity from Chinese skullcap: A case report"
+      journal: "World Journal of Hepatology"
+      year: 2012
+      volume: "4"
+      issue: "7"
+      pages: "231-233"
+      pmid: "22855699"
+      pmcid: "PMC3409358"
+      doi: "10.4254/wjh.v4.i7.231"
+      url: "https://pubmed.ncbi.nlm.nih.gov/22855699/"
+    study_details:
+      species: "S. baicalensis (via Move Free Advanced supplement)"
+      case_type: "Case report"
+      supplement: "Move Free Advanced (glucosamine, chondroitin, Chinese skullcap, Black Catechu)"
+      patient: "Elderly woman"
+      course: "Developed significant cholestasis and hepatitis; recovered after stopping; rechallenged self and hepatotoxicity recurred; biopsy confirmed acute drug-induced liver injury; recovered after second discontinuation"
+      significance: "Positive rechallenge provides stronger causality evidence for Chinese skullcap hepatotoxicity"
+
+  - citation:
+      authors: "Dhanasekaran R, Owens V, Sanchez W"
+      title: "Chinese Skullcap in Move Free Arthritis Supplement Causes Drug Induced Liver Injury and Pulmonary Infiltrates"
+      journal: "Case Reports in Hepatology"
+      year: 2013
+      volume: "2013"
+      pages: "965092"
+      pmid: "25431706"
+      pmcid: "PMC4238172"
+      doi: "10.1155/2013/965092"
+      url: "https://pubmed.ncbi.nlm.nih.gov/25431706/"
+    study_details:
+      species: "S. baicalensis (via Move Free Advanced supplement)"
+      case_type: "Case report"
+      patient: "62-year-old Caucasian female with diabetes mellitus"
+      presentation: "Acute shortness of breath, hypoxia, jaundice"
+      laboratory_values:
+        ast: "893 (initial) → 668 IU/L (2 weeks post-discontinuation)"
+        alt: "1247 (initial) → 1144 IU/L (2 weeks post-discontinuation)"
+        normalization: "Complete by 8 weeks"
+      pulmonary_findings: "Bilateral interstitial infiltrates (CXR); bilateral ground glass opacities upper lobes (CT); required oxygen supplementation"
+      outcome: "Both hepatic and pulmonary complications resolved within weeks of supplement discontinuation"
+      significance: "Documents rare pulmonary toxicity in addition to hepatotoxicity from Chinese skullcap"
+
+# Traditional Use and Practitioner Survey
+traditional_use_survey:
+  - citation:
+      authors: "Brock C, Whitehouse J, Tewfik I, Towell T"
+      title: "The use of Scutellaria lateriflora: A pilot survey amongst herbal medicine practitioners"
+      journal: "Journal of Herbal Medicine"
+      year: 2012
+      volume: "2"
+      issue: "2"
+      pages: "34-41"
+      pmid: null
+      doi: "10.1016/j.hermed.2012.04.005"
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S2210803312000413"
+    study_details:
+      species: "S. lateriflora"
+      design: "Email survey of registered herbal medicine practitioners"
+      sample_frame: "National Institute of Medical Herbalists (NIMH) UK and Ireland members with identifiable email addresses (n=377)"
+      response_rate: "16% (n=62 responses)"
+      key_findings:
+        - "S. lateriflora highly regarded as effective for reducing anxiety and stress"
+        - "Primary indications: anxiety, stress, spasms, digestive disorders, hypertension"
+        - "Practitioners perceive it as safe with favorable therapeutic index"
+        - "Commonly prescribed as standalone and in formula"
+      significance: "Documents real-world clinical use patterns and practitioner perception of S. lateriflora; informs evidence gaps"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "LiverTox (NIH/NCBI)"
+    title: "Skullcap"
+    database: "NCBI Bookshelf"
+    accession: "NBK548757"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK548757/"
+    likelihood_score: "B (very likely but rare cause of clinically apparent liver injury)"
+    key_case_details:
+      patient: "53-year-old woman"
+      supplement: "Sleep aid containing skullcap + valerian"
+      exposure: "4 weeks before onset"
+      lab_values:
+        alt: "1208 U/L"
+        ast: "1082 U/L"
+        alkaline_phosphatase: "298 U/L"
+        bilirubin: "9.0 mg/dL"
+      recovery: "Complete normalization within 3 months of discontinuation"
+    hepatotoxicity_profile:
+      onset: "Typically 1–12 weeks (most commonly 1–3 months for Chinese skullcap)"
+      injury_pattern: "Hepatocellular"
+      severity: "Usually mild-to-moderate; at least one acute liver failure case documented"
+      outcomes: "Self-limiting; no chronic disease or cirrhosis reported in typical cases"
+      mechanism: "Unknown"
+      adulterant_concern: "Germander (Teucrium canadense) contamination documented in some cases; complicates causality"
+      species_note: "Most DILI cases attributed to S. baicalensis; S. lateriflora association less robust"
+
+  - authority: "World Health Organization (WHO)"
+    title: "WHO Monographs on Selected Medicinal Plants, Volume 3: Radix Scutellariae"
+    year: 2007
+    location: "Geneva, Switzerland"
+    publisher: "WHO Press"
+    herb: "Scutellaria baicalensis Georgi (Huang Qin)"
+    herb_part: "Root (Radix Scutellariae)"
+    content_type: "Comprehensive monograph including quality standards, pharmacology, clinical uses, dosing"
+    status: "Key WHO reference for S. baicalensis"
+    note: "No WHO monograph identified for S. lateriflora specifically"
+
+  - authority: "American Herbal Pharmacopoeia (AHP)"
+    title: "Scutellaria lateriflora: Botanical Pharmacognosy—Microscopic Characterization of Botanical Medicines"
+    year: 2009
+    month: "Published as standalone monograph"
+    content: >
+      Provides botanical morphology and chemical differentiation methods; detailed review of
+      pharmacology, safety, and historical/modern investigation; HPLC standardization method
+      developed for quality control (ajugapitin absent in all 7 authenticated samples tested);
+      GABA and glutamine identified as major amino acids (0.34–3.12% and 0.15–1.68% respectively
+      depending on extraction method); directly addresses germander (Teucrium canadense) adulteration
+    authentication_focus: "Germander contamination problem; authentication testing required"
+    status: "Primary US quality standard for S. lateriflora"
+
+  - authority: "European Pharmacopoeia (Ph. Eur.)"
+    species: "S. baicalensis (Scutellariae baicalensis radix)"
+    inclusion_year: 2010
+    content_type: "Quality standards and analytical methods for Chinese skullcap root"
+    note: "S. lateriflora not included in European Pharmacopoeia"
+
+  - authority: "Health Canada"
+    title: "Natural Health Product monograph"
+    coverage: "Both Scutellaria species recognized in Canadian NHP framework"
+    status: "Regulated natural health product"
+
+# Dosing and Standardization
+dosing_information:
+  species_s_lateriflora:
+    traditional_dosing:
+      - preparation: "Dried herb (aerial parts)"
+        dose_range: "1–2 g"
+        frequency: "Three times daily"
+      - preparation: "Tincture (1:5, 45% ethanol)"
+        dose: "2–4 mL"
+        frequency: "Three times daily"
+      - preparation: "Fluid extract (1:1)"
+        dose: "2–4 mL"
+        frequency: "Three times daily"
+    clinical_trial_dosing:
+      - study: "Di Minno et al. 2025 (sleep)"
+        dose: "400 mg/day hydroethanolic extract standardized to 10% baicalin"
+        duration: "56 days"
+        outcome: "Significant sleep improvement"
+      - study: "Brock et al. 2014 (mood)"
+        dose: "350 mg three times daily (1050 mg/day)"
+        duration: "2 weeks"
+        outcome: "Significant global mood improvement"
+    standardization:
+      marker_compound: "Baicalin (standardized to 10% in clinical extract)"
+      alternatives: "Scutellarin, baicalein, wogonoside also used as markers"
+      adulteration_risk: "High; germander contamination historical problem; authentication testing critical"
+
+  species_s_baicalensis:
+    traditional_dosing:
+      - preparation: "Dried root"
+        dose_range: "3–9 g"
+        source: "Traditional Chinese Medicine standard"
+      - preparation: "Decoction"
+        dose_range: "9–15 g"
+    clinical_trial_dosing:
+      - study: "Puri et al. 2019 (hepatic safety)"
+        dose: "1335 mg dried root daily"
+        duration: "Average 444 days"
+    isolated_constituent_dosing:
+      - compound: "Baicalein"
+        single_dose_range: "100–2800 mg (Phase I safety range)"
+        multiple_dose_range: "200–800 mg daily (clinical trials)"
+      - compound: "Baicalin"
+        note: "Metabolite of baicalein; lower bioavailability than baicalein due to glucuronide conjugation"
+    standardization:
+      marker_compound: "Baicalin (primary marker in most preparations)"
+      quality_notes:
+        - "European Pharmacopoeia method available since 2010"
+        - "Baicalein aglycone more bioavailable than baicalin glucuronide"
+        - "Low aqueous solubility limits conventional formulations"
+
+# Preclinical Systematic Reviews
+preclinical_reviews:
+  - citation:
+      authors: "Ma Y, Zhou X, Zhang F, Huang C, Yang H, Chen W, Tao X"
+      title: "The effect of scutellaria baicalensis and its active ingredients on major depressive disorder: a systematic review and meta-analysis of literature in pre-clinical research"
+      journal: "Frontiers in Pharmacology"
+      year: 2024
+      volume: "15"
+      pages: "1313871"
+      pmid: "38572433"
+      pmcid: "PMC10987764"
+      doi: "10.3389/fphar.2024.1313871"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38572433/"
+    study_details:
+      species: "S. baicalensis and active constituents (baicalin, baicalein, scutellarin)"
+      design: "Systematic review and meta-analysis of preclinical animal studies"
+      scope: "373 records screened; 13 studies included in final meta-analysis"
+      key_findings:
+        - "Sucrose preference test: SMD = −2.80 (significant improvement with treatment vs control)"
+        - "Open field test: SMD = −2.38 (enhanced behavioral indicators of depression relief)"
+        - "Novelty suppressed feeding test: SMD = −2.98 (increased food consumption, indicating antidepressant effect)"
+        - "Primary mechanisms: regulation of inflammatory responses, oxidative stress, apoptosis, and neurotransmitter production via TrkB-BDNF and PI3K-AKT pathways"
+      note: "All preclinical animal studies; no human RCT evidence for depression included; provides mechanistic rationale for human trials"
+
+# Key Research Gaps
+research_needs:
+  - "Long-term RCTs for S. lateriflora (>8 weeks) are absent"
+  - "Human pharmacokinetic studies for whole S. lateriflora herb (not just isolated constituents)"
+  - "Definitive mechanistic studies on GABAA receptor binding in humans"
+  - "Species-specific hepatotoxicity risk differentiation (lateriflora vs baicalensis)"
+  - "Head-to-head comparisons of standardized vs whole herb preparations"
+  - "Dose-finding studies for S. lateriflora across clinical indications"
+  - "Systematic review specifically on S. lateriflora (vs S. baicalensis) clinical evidence"
+  - "Bioavailability enhancement strategies for S. baicalensis constituents in human trials"
+  - "Investigation of germander adulteration prevalence in commercial products"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    s_lateriflora:
+      - "Two small RCTs support anxiolytic/mood effects in healthy volunteers (n=43 and n=66)"
+      - "2025 RCT (n=66) demonstrates significant sleep improvement with 400 mg/day standardized extract"
+      - "Effects on anxiety modest; most pronounced effect is global mood enhancement"
+      - "Evidence base very limited; no systematic reviews found specifically for S. lateriflora RCTs"
+    s_baicalensis:
+      - "Primarily used in TCM for inflammatory conditions; clinical RCT evidence in Western indications limited"
+      - "Taiwan NHI database confirms frequent clinical use for headache/migraine (N=4,849; 4th most common indication)"
+      - "2025 combination RCT (n=35; with Crataegus, Mg, Cr) showed improved mood, anxiety, and sleep in stressed adults"
+      - "Most evidence comes from preclinical studies and constituent-level pharmacology"
+      - "Preclinical meta-analysis (13 animal studies) supports antidepressant activity via BDNF/PI3K-AKT pathways"
+
+  safety:
+    - "Likelihood score B for clinically apparent liver injury (LiverTox)"
+    - "Hepatotoxicity rare but documented; onset typically 1–12 weeks"
+    - "Most severe cases involve S. baicalensis or uncertain species; S. lateriflora association less established"
+    - "Drug-induced autoimmune hepatitis reported (rare; 1 documented severe case 2023)"
+    - "Germander (Teucrium canadense) adulteration historically common; may be responsible for some DILI cases"
+    - "S. baicalensis hepatic safety data: 1335 mg/day x 14.8 months showed no LFT changes in 17 subjects"
+    - "Pulmonary infiltrates documented in one Move Free case (S. baicalensis)"
+    - "Contraindicated in pregnancy and lactation (insufficient data)"
+
+  pharmacokinetics:
+    s_lateriflora:
+      - "No human PK studies for whole herb identified"
+      - "In vitro data: oroxylin A and oroxylin A glucuronide are primary bioavailable compounds"
+      - "Gastroduodenal digestion significantly degrades most polyphenolics (20–73% reduction)"
+    s_baicalensis_baicalein:
+      - "Tmax 0.75–3.5 hours for baicalein after oral dose"
+      - "Half-life 1.9–15 hours (dose-dependent)"
+      - "Dose proportionality demonstrated 100–2800 mg (single dose) and 200–800 mg (multiple dose)"
+      - "No serious accumulation with multiple dosing"
+      - "Low water solubility limits bioavailability; nanoformulations under investigation"
+
+  drug_interactions:
+    - "S. baicalensis inhibits CYP2C9 (reduces to ~71%) and induces CYP2E1 (increases 1.42x) in humans"
+    - "Potential interactions with warfarin, NSAIDs, phenytoin (CYP2C9 substrates)"
+    - "Bidirectional CYP3A4 effects (time-dependent in vitro); clinical significance unclear"
+    - "Review documents interactions across cancer, diabetes, and anti-infective drug classes"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27 and 2026-03-06)"
+  - "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury (NCBI Bookshelf)"
+  - "WHO Monographs on Selected Medicinal Plants, Volume 3 (2007)"
+  - "American Herbal Pharmacopoeia monograph on Scutellaria lateriflora (2009)"
+  - "European Pharmacopoeia (Ph. Eur.) - Scutellariae baicalensis radix"
+  - "PubMed Central open access articles"
+  - "Taiwan National Health Insurance Research Database (NHIRD/LHID 2000) - via Liao et al. 2021"
+  - "Note: No Commission E (German) monograph identified for Scutellaria species; ESCOP monograph status not confirmed"
