@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# SKEIN agent collaboration state (local, not site content)
+.skein/
