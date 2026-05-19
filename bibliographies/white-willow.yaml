@@ -1,0 +1,564 @@
+---
+# White Willow Bark (Salix alba / Salicis cortex) - Clinical Bibliography
+# Generated: 2026-02-27
+# Focus: Clinical studies, systematic reviews, RCTs, pharmacokinetics, monographs, safety
+
+systematic_reviews_and_meta_analyses:
+  - id: lin2023_meta
+    title: "Willow Bark (Salix spp.) Used for Pain Relief in Arthritis: A Meta-Analysis of Randomized Controlled Trials"
+    authors:
+      - Lin, C-R
+      - Tsai, S.H.L.
+      - Wang, C
+      - Lee, C-L
+      - Hung, S-W
+      - Ting, Y-T
+      - Hung, Y-C
+    year: 2023
+    journal: "Life (Basel)"
+    volume: "13(10)"
+    pages: "2058"
+    doi: "10.3390/life13102058"
+    pmid: "37895439"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/37895439/"
+    study_type: "Meta-analysis of RCTs"
+    trials_included: 6
+    studies_included: 5
+    total_sample_size: 329
+    population: "Arthritis patients"
+    key_findings:
+      pain_relief: "SMD: -0.31 (95% CI: -0.53, -0.08; p=0.007) — significant improvement vs placebo"
+      physical_function: "WOMAC improvement SMD: -0.80 (95% CI: -1.08, -0.53) — significant improvement in health status"
+      safety: "No significant difference in adverse event risk vs analgesics or placebo (OR: 1.37; 95% CI: 0.79, 2.37; p=0.26)"
+      evidence_quality: "Very low certainty due to potential bias and small sample sizes; additional trials needed"
+
+  - id: vlachojannis2009_systematic
+    title: "A systematic review on the effectiveness of willow bark for musculoskeletal pain"
+    authors:
+      - Vlachojannis, J.E.
+      - Cameron, M
+      - Chrubasik, S
+    year: 2009
+    journal: "Phytotherapy Research"
+    volume: "23(7)"
+    pages: "897-900"
+    pmid: "19140170"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/19140170/"
+    study_type: "Systematic review"
+    manuscripts_reviewed: 7
+    key_findings:
+      low_back_pain: "One confirmatory and two exploratory studies indicate dose-dependent analgesic effect not inferior to rofecoxib"
+      osteoarthritis: "Conflicting results across studies"
+      rheumatoid_arthritis: "No significant effect; study was underpowered"
+      dosing_used: "Ethanolic extracts up to 240 mg salicin daily for up to 6 weeks"
+      conclusion: "Moderate evidence of effectiveness for low back pain; higher-dose OA studies needed"
+
+  - id: shara2015_review
+    title: "Efficacy and Safety of White Willow Bark (Salix alba) Extracts"
+    authors:
+      - Shara, Mohd
+      - Stohs, Sidney J
+    year: 2015
+    journal: "Phytotherapy Research"
+    volume: "29(8)"
+    pages: "1112-1116"
+    pmid: "25997859"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/25997859/"
+    study_type: "Literature review"
+    key_findings:
+      efficacy: "Clinical studies support use for chronic lower back and joint pain and osteoarthritis"
+      mechanism: "Anti-inflammatory activity associated with downregulation of TNF-α and NF-kB; polyphenols and flavonoids contribute alongside salicin"
+      safety: "Adverse effects minimal compared to NSAIDs including aspirin; primary concern is allergic reactions in salicylate-sensitive individuals"
+      standardization: "Extracts standardized to salicin content, though other salicylates, polyphenols, and flavonoids also contribute therapeutically"
+
+randomized_controlled_trials:
+  low_back_pain:
+    - id: chrubasik2000_lbp_rct
+      title: "Treatment of low back pain exacerbations with willow bark extract: a randomized double-blind study"
+      authors:
+        - Chrubasik, S
+        - Eisenberg, E
+        - Balan, E
+        - Weinberger, T
+        - Luzzati, R
+        - Conradt, C
+      year: 2000
+      journal: "American Journal of Medicine"
+      pmid: "10936472"
+      pmid_link: "https://pubmed.ncbi.nlm.nih.gov/10936472/"
+      study_design: "Randomized, double-blind, placebo-controlled, three-arm trial"
+      sample_size:
+        enrolled: 210
+        completed: 191
+        per_group:
+          high_dose: 65
+          low_dose: 67
+          placebo: 59
+      intervention:
+        high_dose: "240 mg salicin/day (willow bark extract)"
+        low_dose: "120 mg salicin/day (willow bark extract)"
+        control: "Placebo"
+        rescue_medication: "Tramadol only"
+        duration: "4 weeks"
+      population: "Acute exacerbation of chronic low back pain (VAS ≥5/10)"
+      key_results:
+        pain_free_at_week_4:
+          high_dose: "39% (27/65), p<0.001 vs placebo"
+          low_dose: "21% (15/67), p<0.001 vs placebo"
+          placebo: "6% (4/59)"
+        dose_response: "Dose-dependent effect; high-dose group showed improvements within one week"
+        rescue_medication: "Placebo group required significantly more tramadol throughout"
+      adverse_effects: "One severe allergic reaction; otherwise well-tolerated"
+      notes: "Landmark trial establishing dose-response relationship for low back pain"
+
+    - id: chrubasik2001_lbp_vs_nsaid
+      title: "Treatment of low back pain with a herbal or synthetic anti-rheumatic: a randomized controlled study. Willow bark extract for low back pain"
+      authors:
+        - Chrubasik, S
+        - Künzel, O
+        - Model, A
+        - Conradt, C
+        - Black, A
+      year: 2001
+      journal: "Rheumatology (Oxford)"
+      volume: "40(12)"
+      pages: "1388-93"
+      pmid: "11752510"
+      pmid_link: "https://pubmed.ncbi.nlm.nih.gov/11752510/"
+      study_design: "Randomized controlled comparative trial"
+      sample_size:
+        total: 228
+        per_group: 114
+      intervention:
+        treatment: "Willow bark extract containing 240 mg salicin/day (Assalix)"
+        comparator: "Rofecoxib (COX-2 inhibitor)"
+        duration: "4 weeks"
+      population: "Chronic low back pain"
+      key_results:
+        response_rate: "~60% responded in each group"
+        pain_free: "~20 patients in each group achieved VAS <2"
+        arhus_index: "~20% improvement in both groups"
+        pain_component: "~30% improvement in both groups"
+        total_pain_index: "~35% improvement in both groups"
+        comparative_efficacy: "No significant difference between willow bark and rofecoxib"
+        cost: "Willow bark (Assalix) was approximately 40% less expensive than rofecoxib"
+
+  osteoarthritis:
+    - id: schmid2001_oa_rct
+      title: "Efficacy and tolerability of a standardized willow bark extract in patients with osteoarthritis: randomized placebo-controlled, double blind clinical trial"
+      authors:
+        - Schmid, B
+        - Lüdtke, R
+        - Selbmann, H.K.
+        - Kötter, I
+        - Tschirdewahn, B
+        - Schaffner, W
+        - Heide, L
+      year: 2001
+      journal: "Phytotherapy Research"
+      pmid: "11406860"
+      pmid_link: "https://pubmed.ncbi.nlm.nih.gov/11406860/"
+      study_design: "Randomized, placebo-controlled, double-blind clinical trial"
+      sample_size:
+        total: 78
+        treatment: 39
+        placebo: 39
+      intervention:
+        dose: "240 mg salicin/day (standardized willow bark extract)"
+        duration: "2 weeks"
+      population: "Osteoarthritis patients"
+      key_results:
+        womac_pain: "14% reduction from baseline in treatment group vs 2% increase in placebo (p=0.047)"
+        patient_assessment: "Superiority of willow bark extract over placebo (p=0.0002)"
+        investigator_assessment: "Superiority of willow bark extract over placebo (p=0.0073)"
+        conclusion: "Moderate analgesic effect in osteoarthritis; well-tolerated"
+
+    - id: biegert2004_oa_ra
+      title: "Efficacy and safety of willow bark extract in the treatment of osteoarthritis and rheumatoid arthritis: results of 2 randomized double-blind controlled trials"
+      authors:
+        - Biegert, Claudia
+        - Wagner, Irmela
+        - Lüdtke, Rainer
+        - Kötter, Ina
+        - Lohmüller, Claudia
+        - Günaydin, Ilhan
+        - Taxis, Katja
+        - Heide, Lutz
+      year: 2004
+      journal: "The Journal of Rheumatology"
+      pmid: "15517622"
+      pmid_link: "https://pubmed.ncbi.nlm.nih.gov/15517622/"
+      study_design: "Two randomized, double-blind, controlled trials"
+      trials:
+        osteoarthritis:
+          sample_size: 127
+          groups: "Willow bark (240 mg salicin/day) vs diclofenac (100 mg/day) vs placebo"
+          results:
+            willow_bark: "8 mm pain reduction (17%)"
+            diclofenac: "23 mm pain reduction (47%)"
+            placebo: "5 mm pain reduction (10%)"
+            significance: "Willow bark vs placebo: not statistically significant"
+        rheumatoid_arthritis:
+          sample_size: 26
+          results:
+            willow_bark: "8 mm pain reduction (15%)"
+            placebo: "2 mm pain reduction (4%)"
+            significance: "Not statistically significant"
+      notes: "Negative trial; provides important context for evidence base — diclofenac substantially outperformed both willow bark and placebo in OA"
+
+observational_studies:
+  - id: uehleke2013_longterm
+    title: "Willow bark extract STW 33-I in the long-term treatment of outpatients with rheumatic pain mainly osteoarthritis or back pain"
+    authors:
+      - Uehleke, B
+      - Müller, J
+      - Stange, R
+      - Kelber, O
+      - Melzer, J
+    year: 2013
+    journal: "Phytomedicine"
+    volume: "20(11)"
+    pages: "980-4"
+    pmid: "23731658"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/23731658/"
+    study_type: "Multicenter observational study"
+    sample_size: 436
+    duration: "6 months (24 weeks)"
+    population:
+      osteoarthritis: "56.2%"
+      back_pain: "59.9%"
+    intervention:
+      extract: "STW 33-I (Proaktiv®), drug-extract-ratio 16-23:1"
+      concurrent_nsaids: "Permitted when necessary"
+    key_findings:
+      baseline_pain_vas: "58.4 ± 22.6 (VAS 0-100mm)"
+      pain_at_24_weeks: "31.8 ± 22.5"
+      week_3_reduction: "~26mm (45.6% improvement from baseline)"
+      weekly_relative_reduction: "33-44% throughout study period"
+      safety: "Good tolerability; no significant adverse events or drug interactions reported"
+
+  - id: chrubasik2001_economic
+    title: "Potential economic impact of using a proprietary willow bark extract in outpatient treatment of low back pain: an open non-randomized study"
+    authors:
+      - Chrubasik, S
+      - Künzel, O
+      - Black, A
+      - Conradt, C
+      - Kerschbaumer, F
+    year: 2001
+    journal: "Phytomedicine"
+    pmid: "11515713"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/11515713/"
+    study_type: "Open non-randomized study (postmarketing surveillance)"
+    sample_size:
+      total: 451
+      W120_group: 115
+      W240_group: 112
+      control_conventional: 224
+    population: "Acute exacerbation of low back pain"
+    intervention:
+      W120: "120 mg salicin/day"
+      W240: "240 mg salicin/day"
+      control: "Conventional treatment only"
+    key_findings:
+      pain_free_at_4_weeks:
+        W240: "~40%"
+        control: "~18%"
+      cost_reduction:
+        W120: "35-50% less than conventional treatment"
+        W240: "14-40% less than conventional treatment"
+      notes: "Multivariable modelling identified W240 as independently associated with better outcomes"
+
+  - id: beer2008_gonarthrosis
+    title: "Willow bark extract (Salicis cortex) for gonarthrosis and coxarthrosis — results of a cohort study with a control group"
+    authors:
+      - Beer, A-M
+      - Wegener, T
+    year: 2008
+    journal: "Phytomedicine"
+    pmid: "18815018"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/18815018/"
+    study_type: "Controlled cohort study, multicenter"
+    sample_size:
+      total_enrolled: 139
+      willow_bark: 90
+      conventional_therapy: 41
+      combination: 8
+      completed: 128
+    population: "Gonarthrosis (knee) and coxarthrosis (hip) patients"
+    duration: "6 weeks"
+    key_findings:
+      efficacy: "Willow bark extract comparable to standard therapies in effectiveness by week 6; trend toward better outcomes in chronic cases (>3 months)"
+      tolerability: "Willow bark rated better tolerability than conventional therapy"
+      adverse_drug_effects:
+        willow_bark_group: "0 adverse drug effects"
+        conventional_group: "Individual cases of reflux symptoms"
+      conclusion: "Comparable efficacy to standard therapies without corresponding side effects for mild to fairly severe osteoarthritis"
+
+pharmacokinetics:
+  - id: schmid2001_pk
+    title: "Pharmacokinetics of salicin after oral administration of a standardised willow bark extract"
+    authors:
+      - Schmid, B
+      - Kötter, I
+      - Heide, L
+    year: 2001
+    journal: "European Journal of Clinical Pharmacology"
+    volume: "57(5)"
+    pages: "387-391"
+    pmid: "11599656"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/11599656/"
+    study_type: "Clinical pharmacokinetic study"
+    sample_size: 10
+    population: "Healthy volunteers"
+    protocol: "240 mg salicin (1,360 mg total extract) in two equal doses 3 hours apart"
+    key_findings:
+      bioavailability: "43.3%"
+      peak_serum_salicylic_acid: "1.2 mg/L"
+      time_to_peak: "<2 hours"
+      auc_equivalent: "Equivalent to ~87 mg acetylsalicylic acid"
+      metabolite_profile:
+        salicylic_acid_serum: "86% of total salicylates"
+        salicyluric_acid_serum: "10%"
+        gentisic_acid_serum: "4%"
+      renal_elimination:
+        salicyluric_acid: "71% of total urinary salicylates"
+        salicylic_acid: "15%"
+        gentisic_acid: "14%"
+      clinical_implication: "Serum salicylate levels far below analgesic doses of synthetic salicylates; formation of salicylic acid alone unlikely to explain analgesic/anti-rheumatic effects"
+
+  - id: vlachojannis2011_mechanism
+    title: "Willow species and aspirin: different mechanism of actions"
+    authors:
+      - Vlachojannis, J
+      - Magora, F
+      - Chrubasik, S
+    year: 2011
+    journal: "Phytotherapy Research"
+    volume: "25(7)"
+    pages: "1102-4"
+    doi: "10.1002/ptr.3386"
+    pmid: "21226125"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/21226125/"
+    study_type: "Letter/commentary"
+    key_findings:
+      mechanism: "Flavonoids and polyphenols primary actives; broader mechanism than aspirin alone"
+      salicin_insufficiency: "Salicin amounts in willow bark insufficient alone to produce pain relief at typical doses"
+      antiplatelet: "Extract containing 240 mg salicin shows minimal effects on blood clotting — unlike aspirin"
+      gi_safety: "Unlike aspirin, willow bark does not damage the gastrointestinal lining"
+      contraindication: "Contraindicated in patients with documented aspirin allergies"
+
+safety_and_regulatory_reviews:
+  - id: marz2002_review
+    title: "Willow bark extract--effects and effectiveness. Status of current knowledge regarding pharmacology, toxicology and clinical aspects"
+    authors:
+      - März, R.W.
+      - Kemper, F
+    year: 2002
+    journal: "Wiener Medizinische Wochenschrift"
+    volume: "152(15-16)"
+    pages: "354-9"
+    pmid: "12244878"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/12244878/"
+    study_type: "Narrative review (pharmacology and clinical)"
+    key_findings:
+      standardized_dose: "Assalix (1,572 mg/day standardized to 15.2% salicin = 240 mg salicin/day) was significantly superior to placebo for OA of hip/knee and chronic low back pain"
+      gi_safety: "No adverse effects on gastric mucosa in contrast to ASA/NSAIDs"
+      antiplatelet: "Weaker antiplatelet activity than conventional NSAIDs; comparable analgesic efficacy to rofecoxib"
+      mechanism: "Anti-inflammatory effect via multiple pathways, not merely salicylate conversion"
+
+  - id: maistro2019_genotoxicity
+    title: "Salix alba (white willow) medicinal plant presents genotoxic effects in human cultured leukocytes"
+    authors:
+      - Maistro, Edson Luis
+      - Terrazzas, Peterson Menezes
+      - Perazzo, Fábio Ferreira
+      - Gaivão, Isabel O'Neill De Mascarenhas
+      - Sawaya, Alexandra Christinie Helena Frankland
+      - Rosa, Paulo Cesar Pires
+    year: 2019
+    journal: "Journal of Toxicology and Environmental Health A"
+    pmid: "31906808"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/31906808/"
+    study_type: "Experimental toxicology (in vitro)"
+    model: "Human cultured leukocytes and HepG2 cells"
+    key_findings:
+      genotoxicity_comet: "Low genotoxic activity at 50 and 100 µg/ml in human leukocytes (comet assay)"
+      cell_viability: "Cell viability fell below 70% at concentrations ≥200 µg/ml"
+      clastogenicity: "No marked clastogenic/aneugenic effect in chromosomal damage testing"
+      metabolic_protection: "Genotoxic effects occurred when not metabolized by liver enzymes; normal liver metabolism appears protective"
+      clinical_relevance: "In vivo genotoxic risk at therapeutic doses considered low given hepatic metabolism"
+
+  - id: oketch_rabah2019_usp
+    title: "United States Pharmacopeia Safety Review of Willow Bark"
+    authors:
+      - Oketch-Rabah, Hellen A
+      - Marles, Robin J
+      - Jordan, Scott A
+      - Low Dog, Tieraona
+    year: 2019
+    journal: "Planta Medica"
+    volume: "85(16)"
+    pages: "1192-1202"
+    pmid: "31604354"
+    pmid_link: "https://pubmed.ncbi.nlm.nih.gov/31604354/"
+    study_type: "Safety review (pharmacopoeial)"
+    key_findings:
+      clinical_safety: "No serious adverse effects from trials using 120-240 mg salicin/day for up to 8 weeks"
+      common_adverse_effects: "Gastrointestinal symptoms (most common); isolated allergic reactions"
+      risk_populations:
+        - "Increased bleeding risk in vulnerable individuals"
+        - "Salicylates cross placenta; slow neonatal elimination — avoid in pregnancy/nursing"
+        - "Aspirin-sensitive individuals: allergic reactions"
+        - "Children: Reye syndrome risk"
+        - "Drug interactions: concurrent salicylate-containing medicines amplify risks"
+      usp_label_requirement: "Not for use in children, women who are pregnant or nursing, or by persons with known sensitivity to aspirin"
+      regulatory_gap: "Willow bark products lack mandated warnings despite generating significant salicylic acid — unlike labeled OTC aspirin products"
+
+pharmacopoeias_and_monographs:
+  - id: who_monograph
+    title: "WHO Monograph on Cortex Salicis"
+    source: "World Health Organization"
+    content: "Monograph covering Salix species bark for medicinal use"
+    dosing:
+      oral_daily_dose_salicin: "120-240 mg total salicin"
+      powdered_drug_decoction: "6-12 g in two divided doses"
+      formulations: "Extracts, tinctures, fluidextracts, or powdered drug material"
+    indications: "Febrile conditions, mild rheumatic complaints, back pain, headache"
+
+  - id: commission_e_monograph
+    title: "Commission E Monograph: Weidenrinde (Willow Bark)"
+    source: "German Commission E (Bundesgesundheitsamt)"
+    content: "Official German herbal monograph on Salix species"
+    indications:
+      - "Febrile illnesses"
+      - "Rheumatic complaints"
+      - "Headaches"
+
+  - id: escop_monograph
+    title: "ESCOP Monograph: Salicis Cortex (Willow Bark)"
+    source: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    year: 2017
+    url: "https://www.escop.com/willow-bark-read-monograph-online/"
+    species_covered:
+      - "Salix purpurea L."
+      - "Salix daphnoides Vill."
+      - "Salix fragilis L."
+    indications:
+      - "Low-back pain"
+      - "Mild rheumatic conditions"
+      - "Fever associated with common cold"
+      - "Headache"
+
+  - id: ema_hmpc_assessment
+    title: "Final Assessment Report on Salix [various species including S. purpurea L., S. daphnoides Vill., S. fragilis L.], cortex"
+    source: "European Medicines Agency (EMA) / Committee on Herbal Medicinal Products (HMPC)"
+    year: 2017
+    url: "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
+    key_content:
+      well_established_use: "Low back pain (temporary relief), symptomatic relief of mild fever, headache, minor joint pain"
+      traditional_use: "Mild musculoskeletal complaints and fever"
+      active_constituents: "Salicin, salicortin, acetyl-salicortin, tremulacin"
+      quality_standards: "Defined in European Pharmacopoeia"
+
+  - id: european_pharmacopoeia
+    title: "European Pharmacopoeia — Salicis cortex (Willow Bark)"
+    source: "European Pharmacopoeia"
+    content: "Quality standards for willow bark including minimum salicin content, identification tests, and chromatographic fingerprinting"
+    active_markers:
+      - "Salicin"
+      - "Salicortin"
+      - "Acetyl-salicortin"
+      - "Tremulacin"
+
+dosing_summary:
+  standardized_extracts:
+    salicin_content:
+      low_dose: "120 mg salicin/day"
+      standard_dose: "240 mg salicin/day"
+      evidence_base: "RCT data (Chrubasik 2000, 2001; Schmid 2001; Biegert 2004)"
+    duration:
+      acute_low_back_pain: "4 weeks (Chrubasik 2000, 2001)"
+      osteoarthritis: "2-6 weeks minimum (Schmid 2001; Beer 2008)"
+      long_term: "Up to 6 months (Uehleke 2013)"
+
+  traditional_dosing:
+    powdered_bark_decoction: "6-12 g/day (WHO monograph)"
+    liquid_preparations: "Equivalent to 120-240 mg salicin/day"
+
+  dose_response:
+    notes: "Dose-dependent analgesic effect demonstrated — 240 mg salicin significantly more effective than 120 mg (Chrubasik 2000)"
+
+active_compounds:
+  primary_salicylates:
+    - "Salicin (prodrug; converted to salicylic acid in vivo)"
+    - "Salicortin"
+    - "Acetyl-salicortin"
+    - "Tremulacin"
+    - "Salicyl alcohol (saligenin)"
+  additional_actives:
+    - "Polyphenols (contribute independently to anti-inflammatory effect)"
+    - "Flavonoids (contribute independently to anti-inflammatory effect)"
+    - "Tannins"
+  standardization_marker: "Salicin (primary quality control marker)"
+
+mechanisms_of_action:
+  - "Downregulation of TNF-α (Shara & Stohs 2015)"
+  - "Inhibition of NF-kB pathway (Shara & Stohs 2015)"
+  - "Conversion of salicin → salicylic acid in vivo (Schmid 2001)"
+  - "Flavonoid/polyphenol anti-inflammatory activity — broader than aspirin (Vlachojannis 2011)"
+  - "Minimal COX inhibition at therapeutic doses (unlike NSAIDs)"
+  - "No significant antiplatelet activity at standard doses (Vlachojannis 2011)"
+
+safety_profile:
+  contraindications:
+    - "Aspirin/salicylate hypersensitivity"
+    - "Children (Reye syndrome risk)"
+    - "Pregnancy and breastfeeding (salicylates cross placenta, slow neonatal elimination)"
+  precautions:
+    - "Concurrent use of anticoagulants (additive bleeding risk)"
+    - "Concurrent use of other salicylate-containing medicines"
+    - "Peptic ulcer disease (caution, though less GI damage than NSAIDs)"
+  common_adverse_effects:
+    - "Mild gastrointestinal symptoms (most common)"
+    - "Isolated allergic reactions in sensitive individuals"
+  serious_adverse_effects:
+    - "Rare severe allergic reactions (1 case in Chrubasik 2000 trial of 210 patients)"
+  advantage_vs_nsaids:
+    - "Significantly lower GI damage risk than aspirin or diclofenac"
+    - "No significant antiplatelet effect at standard doses"
+    - "Equivalent efficacy to rofecoxib at lower cost"
+
+clinical_applications:
+  established:
+    - condition: "Acute low back pain"
+      evidence_level: "Strong (2 positive RCTs, 1 non-inferior to rofecoxib)"
+      dosing: "240 mg salicin/day for 4 weeks"
+      typical_outcomes: "39% pain-free at 4 weeks (vs 6% placebo) at 240 mg dose"
+
+    - condition: "Chronic rheumatic pain / osteoarthritis"
+      evidence_level: "Moderate (mixed RCT results; positive cohort data)"
+      dosing: "240 mg salicin/day for 2-6 weeks"
+      notes: "Schmid 2001 positive; Biegert 2004 negative for OA; long-term observational data favorable"
+
+  uncertain:
+    - condition: "Rheumatoid arthritis"
+      evidence_level: "Insufficient (underpowered negative RCT, Biegert 2004 n=26)"
+      notes: "No firm conclusions possible from available data"
+
+research_gaps:
+  - "No large, adequately-powered RCT for rheumatoid arthritis"
+  - "No head-to-head comparison of standardized extract vs placebo for >8 weeks in OA"
+  - "No bioavailability studies for enhanced delivery formulations"
+  - "No pediatric safety data (and currently contraindicated)"
+  - "Limited drug interaction data (particularly with anticoagulants)"
+  - "No RCT data for fever or headache indications despite historical use"
+  - "Genotoxicity studied in vitro (low concern at therapeutic doses); carcinogenicity and reproductive toxicity not formally assessed"
+
+notes:
+  - "Strongest evidence for acute low back pain — dose of 240 mg salicin/day equivalent to rofecoxib at lower cost"
+  - "Mechanism involves polyphenols/flavonoids beyond salicin conversion; not simply 'natural aspirin'"
+  - "Serum salicylate levels from 240 mg salicin equivalent to only ~87 mg aspirin — insufficient to explain full effect"
+  - "EMA HMPC and Commission E have established well-characterized traditional use"
+  - "Long-term safety data up to 6 months available from observational study (Uehleke 2013)"
+  - "Safety review by USP (2019) identifies important labeling gaps for vulnerable populations"

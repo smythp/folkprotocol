@@ -1,0 +1,627 @@
+---
+herb: Marshmallow Root
+scientific_name: "Althaea officinalis L."
+common_names:
+  - "Marshmallow root"
+  - "Althaea"
+  - "Marsh mallow"
+  - "White mallow"
+  - "Radix Althaeae"
+  - "Althaeae radix"
+herb_part: "Root (peeled or unpeeled, dried)"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-02-27
+notes_on_scope: >
+  Clinical evidence for marshmallow root is primarily traditional-use-based and classified
+  under well-established or traditional use in European regulatory frameworks. The main
+  indication supported by clinical evidence is irritative/dry cough and oral/pharyngeal
+  mucosal irritation, with a secondary indication for mild GI discomfort. The mechanism of
+  action is physical rather than pharmacological: bioadhesive mucilaginous polysaccharides
+  (primarily rhamnogalacturonans, arabinogalactans, arabinans, and glucans comprising 5–11.6%
+  of the root) coat and protect irritated mucous membranes. Two small RCTs exist for cough/ACE
+  inhibitor indications; the most recent RCTs address atopic dermatitis, vulvovaginal candidiasis,
+  and pediatric fever. No formal systematic reviews or meta-analyses on marshmallow root were
+  identified. Bioavailability data for the polysaccharide fraction is limited: mucilage is
+  not absorbed systemically but acts locally; it reaches the colon largely intact where
+  partial bacterial degradation occurs.
+
+# Randomized Controlled Trials
+clinical_trials:
+  - citation:
+      authors: "Amini F, Namjooyan F, Zomorodian K, Moein M, Kamalinejad M, Jaladat AM"
+      title: "The efficacy of complementary treatment with marshmallow (Althaea officinalis L.) on vulvovaginal candidiasis: A randomized double-blinded controlled clinical trial"
+      journal: "Explore (NY)"
+      year: 2023
+      volume: "19"
+      issue: "6"
+      pages: "813-819"
+      pmid: "37121836"
+      doi: "10.1016/j.explore.2023.04.005"
+      url: "https://pubmed.ncbi.nlm.nih.gov/37121836/"
+    study_details:
+      design: "Randomized, double-blind, controlled clinical trial"
+      duration: "7 consecutive nights treatment; 30-day follow-up"
+      participants: 100  # n=50 per arm; 139 assessed for eligibility, 107 randomized, 100 analyzed
+      population: "Women with confirmed vulvovaginal candidiasis (VVC)"
+      intervention: "Marshmallow aqueous extract 4% vaginal cream + clotrimazole 1% vaginal cream"
+      comparator: "Clotrimazole 1% vaginal cream alone"
+      outcomes:
+        primary:
+          - "Itching: significant decrease in treatment group at 7-day follow-up (p=0.001) and 30-day follow-up (p=0.001)"
+          - "Dyspareunia: significant improvement at 7 days (p=0.001) and 30 days (p=0.04)"
+          - "Dysuria: significant improvement at 7-day follow-up (p=0.001)"
+      safety: "Neither cream caused any significant adverse events"
+      notes: "Assessed marshmallow as adjunct to standard antifungal; based on Persian traditional medicine use"
+
+  - citation:
+      authors: "Goodarzi H, Valizadeh F, Ghasemi F, Farid M, Alavi NM, Mardani R"
+      title: "Comparing the effect of body wash with marshmallow plant and lukewarm water on reducing the temperature of febrile children: a randomized clinical trial"
+      journal: "BMC Complementary Medicine and Therapies"
+      year: 2022
+      volume: "22"
+      issue: "1"
+      pages: "293"
+      pmid: "36369081"
+      pmcid: "PMC9652963"
+      doi: "10.1186/s12906-022-03762-3"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36369081/"
+    study_details:
+      design: "Parallel-group randomized controlled trial"
+      duration: "Single session; temperature monitored at 15-min intervals x 1 hour, then at 4h and 6h"
+      participants: 92  # children aged 6 months to 10 years with tympanic temperature >38.3°C
+      population: "Febrile children aged 6 months to 10 years"
+      intervention: "Body wash with white marshmallow extract + acetaminophen"
+      comparator: "Body wash with lukewarm water + acetaminophen"
+      outcomes:
+        primary:
+          - "Time to fever resolution: significantly shorter in marshmallow group (B=8.181, 95% CI 3.778–12.584, p<0.001)"
+          - "Frequency of afebrile children: higher in marshmallow group at all time points (p<0.001)"
+          - "Mean temperature reduction: −0.27°C greater in marshmallow group (p<0.001 unadjusted; p=0.127 after confounder adjustment)"
+        secondary:
+          - "Heart rate change: no significant difference after adjustment (p=0.771)"
+          - "Fever recurrence timing: no significant difference (p=0.397)"
+          - "Need for additional acetaminophen: no significant difference (p=0.397)"
+      safety: "No adverse effects reported"
+      notes: "Topical/antipyretic use; not the traditional oral mucilage indication. External marshmallow extract application"
+
+  - citation:
+      authors: "Naseri V, Chavoshzadeh Z, Mizani A, Naseri M, Babaeian M, Khodadoost M, Ghafari M, Mehrabani M, Tavakoli Ardakani M"
+      title: "Effect of topical marshmallow (Althaea officinalis) on atopic dermatitis in children: A pilot double-blind active-controlled clinical trial of an in-silico-analyzed phytomedicine"
+      journal: "Phytotherapy Research"
+      year: 2021
+      volume: "35"
+      issue: "3"
+      pages: "1389-1398"
+      pmid: "33034099"
+      doi: "10.1002/ptr.6899"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33034099/"
+    study_details:
+      design: "Pilot double-blind randomized active-controlled clinical trial with in-silico molecular docking analysis"
+      duration: "4 weeks (1 week twice daily, then 3 weeks three times weekly)"
+      participants: 22  # completed; pilot study
+      population: "Children with atopic dermatitis"
+      intervention: "Althaea officinalis 1% topical ointment"
+      comparator: "Hydrocortisone 1% ointment"
+      outcomes:
+        primary:
+          - "SCORAD index: significantly greater improvement in marshmallow group vs. baseline (p=0.015) and vs. week 1 (p=0.018)"
+          - "Marshmallow 1% ointment described as more effective than hydrocortisone 1% in decreasing disease severity"
+      safety: "No specific adverse events reported in abstract"
+      notes: >
+        Pilot study; small sample limits conclusions. In-silico analysis guided preparation.
+        Authors recommend further large-scale studies.
+
+  - citation:
+      authors: "Khalighi N, Jabbari-Azad F, Barzegar-Amini M, Mojahedi MJ, Saffari M, Aval SB, Majd MH, Rajabian Tabesh M"
+      title: "Impact of Althaea Officinalis extract in patients with atopic eczema: a double-blind randomized controlled trial"
+      journal: "Clinical Phytoscience"
+      year: 2021
+      volume: "7"
+      pages: "81"
+      pmid: null  # Open-access Springer; not indexed on PubMed
+      doi: "10.1186/s40816-021-00306-z"
+      url: "https://clinphytoscience.springeropen.com/articles/10.1186/s40816-021-00306-z"
+    study_details:
+      design: "Phase II double-blind randomized controlled trial; split-body design"
+      duration: "4 weeks"
+      participants: 40  # patients with moderate-to-severe allergic atopic eczema confirmed by skin prick test; enrolled Oct 2018–Jan 2019
+      population: "Adults with moderate-to-severe allergic atopic eczema"
+      intervention: "Topical Althaea officinalis extract applied to lesions on right side of body"
+      comparator: >
+        Topical triamcinolone (corticosteroid) on left side; or eucerin (placebo) on right side.
+        Split-body design compared herb vs. steroid on different body sides in same patient.
+      outcomes:
+        primary:
+          - "SCORAD assessed at baseline, week 2, week 4"
+          - "After 4 weeks: SCORAD decreased on both sides; no significant difference between herb and steroid sides (p=0.716)"
+          - "Conclusion: Althaea officinalis decreased SCORAD comparably to topical triamcinolone"
+      safety: "No side effects or reactions to either treatment reported"
+      notes: >
+        Split-body design provides intra-subject comparison but limits blinding validity.
+        Herb formulation concentration not specified in abstract.
+
+  - citation:
+      authors: "Rouhi H, Ganji F"
+      title: "Effect of Althaea Officinalis on Cough Associated with ACE Inhibitors"
+      journal: "Pakistan Journal of Nutrition"
+      year: 2007
+      volume: "6"
+      issue: "3"
+      pages: "256-258"
+      pmid: null  # Not indexed on PubMed; indexed on SciAlert
+      doi: "10.3923/pjn.2007.256.258"
+      url: "https://scialert.net/abstract/?doi=pjn.2007.256.258"
+    study_details:
+      institution: "Shahrekord University of Medical Sciences, Iran"
+      design: "Double-blind, placebo-controlled randomized clinical trial"
+      duration: "4 weeks"
+      participants: 60  # hypertensive patients with ACE inhibitor-induced cough
+      population: "Hypertensive patients who developed cough during ACE inhibitor therapy"
+      intervention: "Althaea officinalis herbal extract, 20 drops every 8 hours (three times daily)"
+      comparator: "Placebo drops, identical dosing"
+      outcomes:
+        primary:
+          - "Cough severity (0–4 scale): treatment group improved from 2.66±0.958 to 1.23±1.006 (significant)"
+          - "8 patients in treatment group showed almost complete cough abolition"
+        secondary:
+          - "Spirometry tests: no significant change in either group"
+      safety: "Not specified beyond absence of adverse effects mentioned in discussion"
+      notes: >
+        Earliest identified clinical RCT for marshmallow root. Not indexed in PubMed.
+        ACE inhibitor cough mechanism may involve bradykinin/substance P accumulation in airway;
+        marshmallow mucilage may provide mechanical barrier reducing mucosal irritation.
+
+# Consumer/User Outcome Studies (Non-RCT Clinical Evidence)
+observational_studies:
+  - citation:
+      authors: "Fink C, Schmidt M, Kraft K"
+      title: "Marshmallow Root Extract for the Treatment of Irritative Cough: Two Surveys on Users' View on Effectiveness and Tolerability"
+      journal: "Complementary Medicine Research"
+      year: 2018
+      volume: "25"
+      issue: "5"
+      pages: "299-305"
+      pmid: "30064132"
+      doi: "10.1159/000489560"
+      url: "https://pubmed.ncbi.nlm.nih.gov/30064132/"
+    study_details:
+      design: "Two prospective, non-interventional consumer surveys (pharmacy-recruited)"
+      duration: "7 days of treatment"
+      participants: 822  # consumers purchasing STW42 marshmallow root product at pharmacies
+      population: "Adults with dry/irritative cough (including pharyngeal irritation)"
+      intervention: "Aqueous marshmallow root extract STW42 as either lozenges or syrup"
+      comparator: "None (single-arm observational)"
+      outcomes:
+        primary:
+          - "Both lozenge and syrup preparations rated as having 'good effect' for symptomatic relief of oral/pharyngeal irritation and dry cough"
+          - "Onset of symptom relief: in majority of cases within 10 minutes"
+          - "Favorable effectiveness ratings in both survey arms"
+      safety:
+        tolerability: "Very good"
+        adverse_events: "Only 3 minor adverse events for the syrup formulation; lozenges had no reported adverse events"
+      notes: >
+        Observational design; no control group or blinding. Consumer-reported outcomes subject to
+        placebo effects and recall bias. STW42 is a standardized aqueous marshmallow root extract
+        product. Largest clinical dataset on marshmallow root to date.
+
+# Reviews
+reviews:
+  - citation:
+      authors: "Mahboubi M"
+      title: "Marsh Mallow (Althaea officinalis L.) and Its Potency in the Treatment of Cough"
+      journal: "Complementary Medicine Research"
+      year: 2020
+      volume: "27"
+      issue: "3"
+      pages: "174-183"
+      pmid: "31770755"
+      doi: "10.1159/000503747"
+      url: "https://pubmed.ncbi.nlm.nih.gov/31770755/"
+    study_details:
+      study_type: "Narrative review"
+      scope: "Traditional use, animal studies, clinical studies, and mechanisms for cough treatment"
+      key_findings:
+        - "Animal and clinical studies confirm efficacy of A. officinalis extracts alone for dry cough"
+        - "Combination with Zataria multiflora, Zingiber officinale, or Hedera helix increased efficacy across cough types"
+        - "In vivo animal data: marshmallow reduced cough episodes by ~50% vs. codeine which reduced by ~61%"
+        - "Expectorant activity: marshmallow improved sputum liquidity by ~90% vs. guaifenesin as standard"
+        - "Mechanism: bioadhesive polysaccharides form mucin-like protective film over irritated epithelial tissue"
+      conclusion: "Marshmallow alone or in combination is 'a good choice for cough, sore throat, and other respiratory ailments'"
+
+# Pharmacological Mechanism Studies (Preclinical)
+preclinical_mechanism:
+  - citation:
+      authors: "Sutovska M, Nosalova G, Sutovsky J, Franova S, Prisenznakova L, Capek P"
+      title: "Possible mechanisms of dose-dependent cough suppressive effect of Althaea officinalis rhamnogalacturonan in guinea pigs test system"
+      journal: "International Journal of Biological Macromolecules"
+      year: 2009
+      volume: "45"
+      issue: "1"
+      pages: "27-32"
+      pmid: "19447256"
+      doi: "10.1016/j.ijbiomac.2009.03.008"
+      url: "https://pubmed.ncbi.nlm.nih.gov/19447256/"
+    study_details:
+      design: "In vivo and in vitro guinea pig experimental study"
+      model: "Guinea pig cough reflex; airway smooth muscle reactivity"
+      key_findings:
+        - "Rhamnogalacturonan demonstrated dose-dependent cough suppression comparable to codeine in vivo"
+        - "Airway smooth muscle reactivity largely unaffected (bronchodilation not the mechanism)"
+        - "K⁺(ATP) ion channel activation not involved in antitussive mechanism"
+        - "Serotonergic 5-HT₂ receptor antagonist pretreatment significantly reduced cough-suppressive efficacy, implicating 5-HT₂ receptor involvement"
+      mechanistic_conclusion: "Antitussive mechanism involves 5-HT₂ receptor modulation, not bronchodilation or K⁺(ATP) channels"
+
+  - citation:
+      authors: "Sutovska M, Capek P, Franova S, Joskova M, Sutovsky J, Marcinek J, Kalman M"
+      title: "Antitussive activity of Althaea officinalis L. polysaccharide rhamnogalacturonan and its changes in guinea pigs with ovalbumine-induced airways inflammation"
+      journal: "Bratislavske Lekarske Listy"
+      year: 2011
+      volume: "112"
+      issue: "12"
+      pages: "670-675"
+      pmid: "22372330"
+      doi: null
+      url: "https://pubmed.ncbi.nlm.nih.gov/22372330/"
+    study_details:
+      design: "In vivo guinea pig study with ovalbumin-sensitized allergic airway inflammation model"
+      model: "Ovalbumin-induced airways inflammation in guinea pigs"
+      key_findings:
+        - "Rhamnogalacturonan exhibited dose-dependent antitussive activity in non-inflamed animals"
+        - "Codeine at 10 mg/kg showed comparable antitussive activity to higher rhamnogalacturonan doses"
+        - "In inflammatory conditions (sensitized animals): polysaccharide shortened duration of antitussive effect"
+        - "Airway reactivity not significantly altered in either sensitized or unsensitized groups"
+        - "Histological confirmation of allergic airway inflammation in ovalbumin group"
+      clinical_implication: >
+        Efficacy may be diminished in established allergic airway inflammation vs. simple
+        irritative cough; consistent with EMA indication for 'dry, irritative' cough rather
+        than productive or allergic cough.
+
+  - citation:
+      authors: "Deters A, Zippel J, Hellenbrand N, Pappai D, Possemeyer C, Hensel A"
+      title: "Aqueous extracts and polysaccharides from Marshmallow roots (Althea officinalis L.): cellular internalisation and stimulation of cell physiology of human epithelial cells in vitro"
+      journal: "Journal of Ethnopharmacology"
+      year: 2010
+      volume: "127"
+      issue: "1"
+      pages: "62-69"
+      pmid: "19799989"
+      doi: "10.1016/j.jep.2009.09.050"
+      url: "https://pubmed.ncbi.nlm.nih.gov/19799989/"
+    study_details:
+      design: "In vitro cell biology study"
+      models:
+        - "KB epithelial cells"
+        - "Primary normal human dermal fibroblasts (pNHF)"
+      concentrations_tested: "1 and 10 µg/mL"
+      methods:
+        - "Cell viability and proliferation assays"
+        - "Microarray gene expression analysis"
+        - "Laser scanning microscopy (cellular internalization)"
+      key_findings:
+        - "Aqueous extract (AE) significantly stimulated cell vitality of epithelial cells at tested doses"
+        - "Raw polysaccharides (RPS) enhanced epithelial cell vitality without increasing proliferation"
+        - "Neither AE nor RPS significantly affected fibroblast physiology (epithelial-cell-specific effect)"
+        - "Polysaccharides were internalized into epithelial cells but not fibroblasts"
+        - "Microarray: upregulation of genes related to cell adhesion proteins, growth regulators, and extracellular matrix"
+      clinical_relevance: >
+        Supports mucosal regenerative and protective effects; bioadhesive polysaccharides appear to
+        stimulate natural protective physiology of epithelial cells lining the throat and GI tract.
+
+  - citation:
+      authors: "Bonaterra GA, Schmitt J, Schneider K, Schwarzbach H, Aziz-Kalbhenn H, Kelber O, Müller J, Kinscherf R"
+      title: "Phytohustil® and root extract of Althaea officinalis L. exert anti-inflammatory and anti-oxidative properties and improve the migratory capacity of endothelial cells in vitro"
+      journal: "Frontiers in Pharmacology"
+      year: 2022
+      volume: "13"
+      pages: "948248"
+      pmid: "36569306"
+      doi: "10.3389/fphar.2022.948248"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36569306/"
+    study_details:
+      design: "In vitro laboratory study"
+      models:
+        - "Human umbilical vein endothelial cells (HUVEC)"
+        - "Scratch assay for cell migration"
+      interventions_tested:
+        - "Phytohustil® cough syrup (commercial marshmallow root product)"
+        - "Marshmallow root extract (raw)"
+      key_findings:
+        - "Both Phytohustil® and marshmallow root extract inhibited LPS-activated IL-6 release (anti-inflammatory)"
+        - "Both inhibited H₂O₂-induced cytotoxicity and intracellular ROS production (antioxidative)"
+        - "Both significantly stimulated wound closure in scratch assay (improved endothelial migration)"
+        - "No cytotoxic effects from either active compounds or excipients on endothelial cells"
+      clinical_relevance: "Provides in vitro mechanistic basis for mucosa-protective and anti-inflammatory properties relevant to throat/upper respiratory indication"
+
+# Pharmacokinetics and Bioavailability
+pharmacokinetics:
+  general_notes: >
+    Marshmallow root lacks human pharmacokinetic studies in the conventional sense because its
+    primary active fraction — the mucilaginous polysaccharides — acts locally via bioadhesion rather
+    than systemic absorption. The mucilage forms a protective physical film on epithelial surfaces,
+    is not absorbed through the intestinal wall, traverses the GI tract largely intact, and undergoes
+    partial or complete bacterial fermentation in the colon. This local mechanism means standard
+    PK parameters (Cmax, Tmax, AUC, half-life) are not applicable to the polysaccharide fraction.
+    Minor constituents (flavonoids, phenolic acids, coumarins) may have systemic bioavailability
+    but are not the primary therapeutic agents and have not been studied for PK in marshmallow root
+    clinical preparations.
+
+  polysaccharide_behavior:
+    composition:
+      mucilage_content: "5–11.6% of dried root (varies by vegetative period)"
+      polysaccharide_types:
+        - "Rhamnogalacturonans (main pectic fraction)"
+        - "Arabinogalactans"
+        - "Arabinans"
+        - "Glucans"
+      sugar_components: "L-rhamnose, D-galactose, D-galacturonic acid, D-glucuronic acid (molar ratios ~2:3:3:3)"
+    absorption: "Not systemically absorbed; acts via mucosal bioadhesion"
+    stability_in_GI: "Intact through stomach and small intestine; bacterial fermentation in colon"
+    mechanism_of_action: "Physical/bioadhesive: mucin-like protective film covers irritated epithelial tissue"
+    solubility: "Water-miscible; cold maceration preferred over hot extraction to preserve polysaccharide integrity"
+
+  key_reference:
+    authors: "Deters A, Zippel J, Hellenbrand N, et al."
+    pmid: "19799989"
+    finding: "Polysaccharide fraction internalized into epithelial cells at 1–10 µg/mL; stimulates cell physiology without systemic absorption"
+
+# Safety
+safety:
+  overall_assessment: >
+    Marshmallow root is considered one of the safest medicinal plants in traditional and modern
+    use. The EMA/HMPC found no adverse events reported at the time of their 2016 assessment.
+    GRAS (Generally Recognized As Safe) by the U.S. FDA for food amounts. No hepatotoxicity
+    signals identified. The primary safety concern is potential pharmacokinetic drug interactions
+    due to mucilage coating the GI tract and potentially delaying drug absorption.
+
+  adverse_events:
+    clinical_evidence: "No adverse events in RCTs; 3 minor adverse events across 822 consumer survey participants (syrup)"
+    ema_assessment: "No adverse effects reported at time of HMPC assessment (2016)"
+    allergic_reactions: "Theoretically possible but not documented in literature"
+    gastrointestinal: "Not reported; polysaccharide action is mucosal-protective"
+
+  drug_interactions:
+    mechanism: "Mucilaginous coating of GI epithelium may delay or reduce absorption of concurrently administered oral medications"
+    clinical_significance: "Theoretical; not confirmed in clinical interaction studies"
+    practical_recommendation: "Take marshmallow root preparations at least 1–2 hours apart from other oral medications"
+    specific_concerns:
+      - drug_class: "Lithium"
+        concern: "Reduced lithium absorption possible; monitor"
+      - drug_class: "Antidiabetic agents"
+        concern: "Potential additive hypoglycemic effect via direct activity; blood glucose monitoring advisable"
+      - drug_class: "Diuretics/antihypertensives"
+        concern: "Theoretical absorption alteration; no clinical documentation"
+
+  pregnancy_and_lactation:
+    pregnancy: >
+      Insufficient reliable data; absence of safety evidence means standard caution applies.
+      Not recommended during pregnancy unless clinically indicated and supervised. No teratogenicity
+      studies identified.
+    lactation: >
+      LactMed (NBK501839): No data on excretion of marshmallow components into breastmilk.
+      No data on safety or efficacy in nursing mothers or infants. Food amounts unlikely harmful.
+      Used in proprietary galactogogue teas but no valid clinical trials support this use.
+      One small manufacturer-sponsored study of Mother's Milk tea (containing multiple herbs
+      including marshmallow) showed no differences in infant safety outcomes vs. lemon verbena tea.
+
+  contraindications:
+    - "No absolute contraindications established"
+    - "Theoretical contraindication during pregnancy (insufficient safety data)"
+    - "Caution in patients on multiple oral medications due to absorption effects"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "German Commission E / BfArM"
+    title: "Commission E Monograph: Althaeae radix (Marshmallow root)"
+    published: "Bundesanzeiger (Federal Gazette)"
+    year_published: 1989
+    approval_status: "Positive monograph (approved)"
+    therapeutic_indications:
+      - "Irritation of the mucous membranes of the mouth and throat and associated dry cough"
+      - "Mild inflammation of the gastric mucosa"
+    dosing:
+      root:
+        daily_dose: "6 g dried root"
+        preparation: "Cold macerate (cold infusion); crushed drug; liquid extract; dry extract; syrup"
+        notes: "Cold maceration preferred over hot infusion to maximize polysaccharide yield"
+      syrup:
+        single_dose: "10 g marshmallow root syrup"
+    contraindications: "None known"
+    adverse_effects: "None known"
+    drug_interactions: "None known (note: mucilage may delay absorption of other drugs)"
+    reference: "Blumenthal M, Goldberg A, Brinckmann J (eds). Herbal Medicine: Expanded Commission E Monographs. American Botanical Council, Austin TX, 2000."
+    url: "http://cms.herbalgram.org/expandedE/Marshmallowroot.html"
+
+  - authority: "European Medicines Agency (EMA), Committee on Herbal Medicinal Products (HMPC)"
+    title: "European Union Herbal Monograph on Althaea officinalis L., radix"
+    document_type: "EU Herbal Monograph (Traditional Use)"
+    year_published: 2016
+    url: "https://www.ema.europa.eu/en/medicines/herbal/althaeae-radix"
+    classification: "Traditional herbal medicinal product (traditional use)"
+    therapeutic_indications:
+      - indication: "Treatment of irritation of the oral or pharyngeal mucosa and associated dry cough"
+        populations: "Adults, adolescents, children over 3 years"
+        duration: "Consult physician if no improvement within 1 week"
+      - indication: "Relief of mild discomfort of the stomach and gut (mild gastrointestinal complaints, irritation of gastric mucosa)"
+        populations: "Adults and adolescents over 12 years; ethanol-based preparations: adults only"
+        duration: "Consult physician if no improvement within 2 weeks"
+    dosing_summary:
+      extracts: "Aqueous extract (macerate); dry extract; liquid extract; syrup"
+      adults: "Per preparation-specific doses; syrup 10 g single dose"
+    clinical_evidence_cited: >
+      Two uncontrolled clinical studies in approximately 900 children with marshmallow root syrup
+      demonstrated cough reduction effect. One study in 63 adults showed effectiveness vs. placebo
+      (Rouhi & Ganji 2007). Firm conclusions limited by study design limitations; classified as
+      traditional use rather than well-established use.
+    safety_findings: "No adverse effects reported at time of assessment"
+
+  - authority: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    title: "ESCOP Monograph: Althaeae radix (Marshmallow Root)"
+    edition: "2nd edition (2003); online supplement"
+    url: "https://www.escop.com/downloads/althaea-radix-marshmallow-root/"
+    therapeutic_indications:
+      - "Dry irritating cough"
+      - "Irritation of the oral or pharyngeal mucosa"
+      - "Symptomatic relief of mild gastrointestinal discomfort and irritation of the gastric mucosa"
+    quality_notes: "Covers peeled or unpeeled dried root; quality defined by European Pharmacopoeia"
+
+  - authority: "European Pharmacopoeia (Ph. Eur.)"
+    entry: "Althaeae radix (Marshmallow root)"
+    content_type: "Quality standards, analytical methods, minimum mucilage content specifications"
+    notes: "Defines quality standards including minimum mucilage content; analytical methods for polysaccharide characterization"
+
+  - authority: "LactMed (NCBI/NIH)"
+    title: "Marshmallow"
+    database: "Drugs and Lactation Database (LactMed®)"
+    accession: "NBK501839"
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK501839/"
+    key_findings:
+      - "No data on excretion of any marshmallow components into breastmilk"
+      - "No data on safety or efficacy in nursing mothers or infants"
+      - "GRAS status covers food amounts; larger medicinal amounts uncharacterized"
+      - "No valid clinical trials support galactogogue use"
+      - "One small manufacturer-sponsored study of Mother's Milk tea showed no infant safety differences vs. lemon verbena tea"
+
+  - authority: "Health Canada"
+    title: "Natural Health Product Monograph: Marshmallow – Althaea officinalis – Root"
+    url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/1000"
+    status: "Regulated as natural health product in Canada"
+    notes: "Covered under Natural Health Products Regulations"
+
+# Dosing Information
+dosing_information:
+  oral_preparations:
+    - preparation: "Dried root (cold macerate/infusion)"
+      dose: "6 g/day total"
+      frequency: "Divided doses"
+      source: "German Commission E; Expanded Commission E (Blumenthal 2000)"
+      notes: "Cold maceration in room-temperature water for several hours preferred; preserves high-MW polysaccharides better than boiling"
+
+    - preparation: "Syrup (standardized preparations, e.g., Phytohustil®)"
+      single_dose: "10 g"
+      frequency: "Several times daily as needed"
+      source: "German Commission E"
+
+    - preparation: "Tincture (1:5 in 25% ethanol)"
+      dose: "5–15 mL"
+      frequency: "Three times daily"
+      source: "Traditional/practitioner reference (BHMA)"
+
+    - preparation: "Fluid extract (1:1)"
+      dose: "2–5 mL"
+      frequency: "Three times daily"
+      source: "Traditional/practitioner reference"
+
+  clinical_trial_doses:
+    - study: "Rouhi & Ganji 2007 (ACE inhibitor cough)"
+      dose: "20 drops every 8 hours (three times daily) for 4 weeks"
+      form: "Liquid herbal extract drops"
+      outcome: "Significant cough reduction; 8/30 nearly complete abolition"
+
+    - study: "Amini et al. 2023 (vulvovaginal candidiasis)"
+      dose: "4% aqueous extract vaginal cream, nightly for 7 days"
+      form: "Topical vaginal cream (adjunct use)"
+      outcome: "Significant improvement in itching, dyspareunia, dysuria"
+
+    - study: "Naseri et al. 2021 (atopic dermatitis, children)"
+      dose: "1% topical ointment; twice daily x 1 week, then three times weekly x 3 weeks"
+      form: "Topical ointment"
+      outcome: "SCORAD improvement; may exceed hydrocortisone 1% efficacy"
+
+    - study: "Khalighi et al. 2021 (atopic eczema)"
+      dose: "Topical extract (concentration not specified)"
+      form: "Topical extract"
+      outcome: "SCORAD reduction comparable to topical triamcinolone"
+
+    - study: "Fink et al. 2018 (consumer surveys)"
+      dose: "Aqueous extract STW42 (lozenges or syrup)"
+      form: "Lozenges or syrup"
+      outcome: "Rapid symptom relief within 10 min in majority; very good tolerability"
+
+  standardization:
+    quality_marker: "Mucilage content (polysaccharide fraction)"
+    pharmacopeial_standard: "Minimum mucilage content specified in Ph. Eur."
+    preferred_extraction: >
+      Cold maceration in water; hot water extraction degrades high-molecular-weight polysaccharides.
+      Alcoholic extraction reduces polysaccharide yield. Standardized aqueous extracts (e.g., STW42)
+      used in clinical consumer studies.
+    active_fraction: "Polysaccharide mucilage — primarily rhamnogalacturonans (pectic), arabinogalactans, arabinans, glucans"
+    other_constituents: >
+      Starch (25–35%), pectins (~11%), sucrose (~10%), flavonoids (kaempferol, quercetin, isorhamnetin
+      glycosides), phenolic acids (caffeic acid, p-coumaric acid), isoquercitrin, scopoletin (coumarin),
+      phytosterols, tannins, amino acids (asparagine)
+
+# Key Research Gaps
+research_needs:
+  - "No systematic reviews or meta-analyses on marshmallow root clinical evidence identified"
+  - "No formal dose-finding or pharmacokinetic studies in humans; mucilage PK by definition local"
+  - "No long-term safety studies (>4 weeks) in any indication"
+  - "Largest clinical dataset (n=822) is uncontrolled observational; true RCT for respiratory indication needed"
+  - "Drug interaction studies needed to quantify mucilage effect on oral drug absorption"
+  - "Standardization marker: no universally accepted assay analogous to HPLC for small-molecule herbs"
+  - "Bioavailability of minor constituents (flavonoids, phenolics) not characterized in humans"
+  - "No head-to-head comparison of different extract types (cold macerate vs. hot extract vs. syrup)"
+  - "Mechanism of 5-HT₂ receptor involvement in antitussive effect not confirmed in humans"
+  - "More rigorous RCTs needed for atopic dermatitis indication (current trials small, pilot, or split-body)"
+  - "Safety data in pregnancy completely absent"
+  - "Combination product studies (e.g., with thyme, ivy, licorice) predominate; isolated marshmallow RCTs rare"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    respiratory:
+      - "One double-blind RCT (n=60) demonstrates significant reduction in ACE inhibitor-induced dry cough vs. placebo (Rouhi & Ganji 2007)"
+      - "Two uncontrolled studies in ~900 children (cited by EMA) showed cough reduction but lacked comparator groups"
+      - "Consumer survey (n=822) shows favorable effectiveness and tolerability for STW42 extract (syrup and lozenges); onset within 10 min in most cases"
+      - "Narrative review supports antitussive/expectorant activity; ~50% cough reduction in animal models (vs. ~61% for codeine)"
+    dermatological:
+      - "Pilot RCT in 22 children (n=22): Althaea 1% ointment may outperform hydrocortisone 1% for atopic dermatitis SCORAD (Naseri et al. 2021)"
+      - "Phase II RCT in 40 adults: Althaea extract comparable to topical triamcinolone for atopic eczema SCORAD (Khalighi et al. 2021)"
+    gynecological:
+      - "RCT (n=100): Althaea 4% vaginal cream adjunct to clotrimazole significantly improves VVC symptoms (itching p=0.001, dyspareunia p=0.001) vs. clotrimazole alone (Amini et al. 2023)"
+    pediatric_fever:
+      - "RCT (n=92 children): marshmallow body wash + acetaminophen reduces fever faster than lukewarm water + acetaminophen (p<0.001); temperature advantage not significant after confounder adjustment (Goodarzi et al. 2022)"
+    overall: >
+      Clinical evidence base is small and heterogeneous. No systematic reviews identified.
+      EMA/HMPC classifies marshmallow root as traditional use, not well-established use, for
+      respiratory and GI indications. Most rigorous RCT evidence exists for the ACE inhibitor
+      cough indication.
+
+  mechanism:
+    - "Primary mechanism is physical/bioadhesive: mucilaginous polysaccharides form protective film over irritated mucosal surfaces"
+    - "Polysaccharides internalized into epithelial cells and stimulate cell physiology (in vitro, Deters et al. 2010)"
+    - "Antitussive mechanism also involves 5-HT₂ receptor modulation (animal data, Sutovska et al. 2009)"
+    - "Anti-inflammatory and antioxidative effects demonstrated in vitro: IL-6 suppression, ROS inhibition, wound closure stimulation (Bonaterra et al. 2022)"
+    - "Efficacy may be reduced in established allergic/inflammatory airway disease vs. simple irritative cough (Sutovska et al. 2011)"
+
+  safety:
+    - "Excellent safety profile: no serious adverse events in any clinical study"
+    - "EMA (2016): no adverse effects reported at time of assessment"
+    - "3 minor adverse events across 822 consumer exposures (syrup formulation)"
+    - "No hepatotoxicity signals identified"
+    - "Main safety concern: mucilage may delay oral drug absorption (theoretical; unquantified)"
+    - "Insufficient data for pregnancy; typical food amounts unlikely to harm breastfeeding infants"
+
+  pharmacokinetics:
+    - "Mucilaginous polysaccharides not absorbed systemically; act locally via bioadhesion"
+    - "Mucilage traverses GI tract largely intact; partial bacterial degradation in colon"
+    - "Cold maceration preferred extraction to preserve high-MW polysaccharide integrity"
+    - "Minor constituents (flavonoids, phenolics) not characterized for human PK"
+    - "No conventional PK parameters (Cmax, Tmax, AUC) applicable to primary active fraction"
+
+  dosing_consensus:
+    - "Dried root: 6 g/day (Commission E); cold macerate preparation preferred"
+    - "Syrup: 10 g single dose (Commission E)"
+    - "Clinical trials used: 20 drops TID (drops formulation, 4 weeks), 4% vaginal cream (7 days), 1% topical ointment (4 weeks)"
+    - "Duration for respiratory/throat: reassess after 1 week; GI: reassess after 2 weeks (EMA guidance)"
+    - "Separate administration from other oral medications by at least 1–2 hours"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27)"
+  - "EMA/HMPC: European Union Herbal Monograph on Althaea officinalis L., radix (2016)"
+  - "EMA/HMPC: Final Assessment Report on Althaea officinalis L., radix"
+  - "German Commission E Monograph: Althaeae radix (published Bundesanzeiger 1989; referenced in Blumenthal et al. 2000)"
+  - "ESCOP Monograph: Althaeae radix"
+  - "LactMed (Drugs and Lactation Database, NCBI Bookshelf, NBK501839)"
+  - "European Pharmacopoeia (Ph. Eur.): Althaeae radix quality standards"
+  - "SciAlert (Pakistan Journal of Nutrition): Rouhi & Ganji 2007 (DOI: 10.3923/pjn.2007.256.258)"

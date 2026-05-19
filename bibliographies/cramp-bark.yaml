@@ -1,0 +1,479 @@
+herb: Cramp Bark
+scientific_name: "Viburnum opulus L."
+common_names:
+  - "Cramp bark"
+  - "Guelder rose"
+  - "European cranberry bush"
+  - "High bush cranberry"
+  - "Gilaburu (Turkish folk medicine)"
+  - "Kalina (Eastern European folk medicine)"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-02-27
+notes_on_scope: >
+  Viburnum opulus (cramp bark) has significant ethnobotanical use but a thin clinical evidence base.
+  No RCTs on the primary indication (dysmenorrhea/muscle cramps) have been published in peer-reviewed
+  journals; the only clinical trials involve ureteral stone expulsion (Turkish urology literature,
+  2019–2021) and a registered homeopathic trial (NCT02467543). Most mechanistic evidence comes from
+  preclinical animal models and in vitro studies. Key active constituents include scopoletin
+  (antispasmodic coumarin), viopudial (hypotensive/spasmolytic iridoid), and chlorogenic acid
+  (antioxidant, anticholinesterase). The American Herbal Pharmacopoeia published a full monograph
+  in 2000 (Roy Upton, ed.). Dosing data from traditional sources only; no human PK studies exist
+  for the whole bark extract.
+
+# Comprehensive Reviews
+reviews:
+  - citation:
+      authors: "Kajszczak D, Zakłos-Szyda M, Podsędek A"
+      title: "Viburnum opulus L.—A Review of Phytochemistry and Biological Effects"
+      journal: "Nutrients"
+      year: 2020
+      volume: "12"
+      issue: "11"
+      pages: "3398"
+      pmid: "33167421"
+      pmcid: "PMC7694363"
+      doi: "10.3390/nu12113398"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33167421/"
+    study_details:
+      study_type: "Comprehensive narrative review"
+      scope: "Phytochemistry (all plant parts), biological effects in vitro and in vivo, traditional uses"
+      key_findings:
+        phytochemistry:
+          - "Phenolic compounds dominant: total phenolics 325.4–1460 mg/100g fresh weight in fruit"
+          - "Chlorogenic acid is major phenolic compound; also neochlorogenic, cryptochlorogenic acids"
+          - "Scopoletin (coumarin): primary antispasmodic constituent in bark"
+          - "Viopudial (iridoid): hypotensive and smooth muscle antispasmodic constituent"
+          - "Additional constituents: carotenoids, vitamin C, anthocyanins (fruit), tannins, volatile oils"
+        biological_effects:
+          - "Anti-inflammatory, anti-obesity, anti-diabetic, osteogenic, cardioprotective properties (cell-based studies)"
+          - "In vivo studies confirmed applicability in urinary tract diseases, endometriosis, and some cancers"
+          - "Antimicrobial potential especially against Gram-positive bacteria"
+          - "Antioxidant activity demonstrated in both in vitro and in vivo studies"
+        clinical_evidence:
+          - "No human RCTs for primary traditional indications (cramps, dysmenorrhea) identified"
+          - "Turkish clinical studies on ureteral stone expulsion represent only published human data"
+      conclusion: "V. opulus has substantial phytochemical richness but clinical evidence lags traditional use; further human studies needed"
+
+# Clinical Trials (Human Studies)
+clinical_trials:
+  - citation:
+      authors: "Gok B, Atik YT, Uysal B, Koc E, Tastemur S, Cimen HI"
+      title: "Gilaburu extract (Viburnum opulus Linnaeus) is as effective as Tamsulosin in medical expulsive therapy of distal ureteral calculi"
+      journal: "International Journal of Clinical Practice"
+      year: 2021
+      volume: "75"
+      issue: "12"
+      pages: "e14950"
+      pmid: "34610178"
+      doi: "10.1111/ijcp.14950"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34610178/"
+    study_details:
+      study_type: "Randomized Controlled Trial"
+      design: "Prospective, parallel-group RCT"
+      participants: 86  # n=43 per group
+      population: "Adults with distal ureteral stones ≤10mm"
+      intervention: "Viburnum opulus extract 1000 mg orally three times daily + diclofenac 50 mg as needed"
+      comparator: "Tamsulosin 0.4 mg orally once daily + diclofenac 50 mg as needed"
+      duration: "Until stone expulsion or 4-week maximum"
+      outcomes:
+        primary:
+          - "Stone expulsion rate: no significant difference between V. opulus and tamsulosin groups overall"
+        secondary:
+          - "Additional analgesic requirement: 37.2% (V. opulus) vs 65.1% (tamsulosin), P=.017"
+          - "Emergency admission rates: 11.6% (V. opulus) vs 34.8% (tamsulosin), P=.02"
+          - "For 5–10mm stones specifically: time to expulsion 7.1±4.2 days (V. opulus) vs 11.8±5.2 days (tamsulosin), P=.005"
+      safety: "Described as effective and safe; no serious adverse events reported"
+      conclusion: "V. opulus extract can be used effectively and safely for medical expulsive therapy of distal ureteral calculi; non-inferior to tamsulosin"
+      notes: "Only published RCT on Viburnum opulus; not for traditional indication (cramps/dysmenorrhea)"
+
+  - citation:
+      authors: "Kızılay F, Ülker V, Çelik O, Özdemir T, Çakmak Ö, Can E, Nazlı O"
+      title: "The evaluation of the effectiveness of Gilaburu (Viburnum opulus L.) extract in the medical expulsive treatment of distal ureteral stones"
+      journal: "Turkish Journal of Urology"
+      year: 2019
+      volume: "45"
+      issue: "Supplement 1"
+      pages: "S63–S69"
+      pmid: "30978165"
+      pmcid: "PMC7595025"
+      doi: "10.5152/tud.2019.23463"
+      url: "https://pubmed.ncbi.nlm.nih.gov/30978165/"
+    study_details:
+      study_type: "Retrospective comparative analysis"
+      design: "Retrospective cohort, two urology clinics, January 2017–June 2018"
+      participants: 103  # treatment n=53, control n=50
+      population: "Adults referred with distal ureteral stones <10mm"
+      intervention: "V. opulus extract 1000 mg peroral 3×2 daily + diclofenac 50 mg on-demand"
+      comparator: "Diclofenac sodium 50 mg on-demand only"
+      outcomes:
+        primary:
+          - "Stone expulsion rate: 82% (V. opulus) vs 66% (control), P=0.026"
+          - "Time to expulsion: 9±1.8 days (V. opulus) vs 14±2.3 days (control), P=0.018"
+        secondary:
+          - "Additional treatment need (URS/ESWL): 9.4% vs 20%, P=0.038"
+          - "Analgesic requirement: 24.5% vs 44%, P=0.042"
+      conclusion: "V. opulus is an herbal treatment alternative that facilitates passage of ureteral stones <10mm; prospective randomized studies needed"
+      limitations:
+        - "Retrospective design; no randomization"
+        - "Not double-blinded"
+        - "Extract preparation and standardization not specified"
+
+# Registered Clinical Trials (Not Yet Published)
+registered_trials:
+  - registry: "ClinicalTrials.gov"
+    nct_id: "NCT02467543"
+    title: "The Efficacy of Viburnum Opulus 3X in the Treatment of Dysmenorrhea"
+    url: "https://clinicaltrials.gov/study/NCT02467543"
+    study_details:
+      condition: "Dysmenorrhea"
+      intervention: "Viburnum opulus 3X (homeopathic dilution of bark)"
+      design: "Randomized controlled trial"
+      notes: >
+        This trial uses a homeopathic 3X preparation (1:1000 dilution), not a standardized
+        botanical extract. Results and publication status unknown; no peer-reviewed publication
+        linked to this NCT as of 2026-02-27. Cannot be used as evidence for extract efficacy.
+
+# Pharmacological and Mechanistic Studies (Key Preclinical)
+preclinical_pharmacology:
+  - citation:
+      authors: "Saltan G, Süntar I, Ozbilgin S, Ilhan M, Demirel MA, Ergene Oz B, Keleş H, Küpeli Akkol E"
+      title: "Viburnum opulus L.: A remedy for the treatment of endometriosis demonstrated by rat model of surgically-induced endometriosis"
+      journal: "Journal of Ethnopharmacology"
+      year: 2016
+      volume: "193"
+      pages: "450–455"
+      pmid: "27647013"
+      doi: "10.1016/j.jep.2016.09.029"
+      url: "https://pubmed.ncbi.nlm.nih.gov/27647013/"
+    study_details:
+      study_type: "Animal experimental study"
+      animal_model: "Surgically-induced endometriosis in Sprague-Dawley rats"
+      design: "15mm endometrial fragment sutured to abdominal wall; extracts administered post-surgery"
+      extracts_tested: "n-hexane, ethyl acetate, and methanol extracts of V. opulus fruit"
+      dose: "100 mg/kg"
+      key_findings:
+        - "Ethyl acetate extract: reduced endometrial implant volume to 30.1 mm³ vs control"
+        - "Methanol extract: reduced volume to 34.7 mm³"
+        - "No adhesion observed in reference drug and ethyl acetate extract groups"
+        - "Reduced TNF-α, VEGF, IL-6 cytokine levels vs control"
+        - "Chlorogenic acid identified as major compound: 0.51–1.71 mg/100mg extract (HPLC)"
+      conclusion: "V. opulus fruit extracts demonstrated therapeutic potential for endometriosis; partially attributed to chlorogenic acid"
+
+  - citation:
+      authors: "Ilhan M, Ergene B, Süntar I, Ozbilgin S, Saltan Çitoğlu G, Demirel MA, Keleş H, Altun L, Küpeli Akkol E"
+      title: "Preclinical Evaluation of Antiurolithiatic Activity of Viburnum opulus L. on Sodium Oxalate-Induced Urolithiasis Rat Model"
+      journal: "Evidence-Based Complementary and Alternative Medicine"
+      year: 2014
+      volume: "2014"
+      pages: "578103"
+      pmid: "25165481"
+      pmcid: "PMC4137613"
+      doi: "10.1155/2014/578103"
+      url: "https://pubmed.ncbi.nlm.nih.gov/25165481/"
+    study_details:
+      study_type: "Animal experimental study (preclinical)"
+      animal_model: "Sodium oxalate-induced urolithiasis in rats (70 mg/kg injection)"
+      animals_per_group: 6
+      intervention: "Lyophilized V. opulus fruit juice extract over 7 days"
+      comparator: "Cystone (commercial herbal urinary supplement)"
+      key_findings:
+        - "Lyophilized juice exerted antiurolithiatic activity via diuretic effect"
+        - "Chlorogenic acid concentration: 0.3227 mg/mL in fruit juice (HPLC)"
+        - "Reduced urinary crystal formation vs control"
+        - "Provided scientific evidence for traditional Turkish folk use in kidney stone passage"
+
+  - citation:
+      authors: "Altun ML, Saltan Çitoğlu G, Sever Yilmaz B, Özbek H"
+      title: "Antinociceptive and anti-inflammatory activities of Viburnum opulus"
+      journal: "Pharmaceutical Biology"
+      year: 2009
+      volume: "47"
+      issue: "7"
+      pages: "653–658"
+      pmid: null
+      doi: "10.1080/13880200902918345"
+      url: "https://www.tandfonline.com/doi/full/10.1080/13880200902918345"
+      note: "Not indexed on PubMed; DOI-accessible via Taylor & Francis"
+    study_details:
+      study_type: "Animal experimental study (preclinical)"
+      animal_model: "Mice and rats"
+      extract: "Water extract of V. opulus leaf"
+      doses_tested: "100 mg/kg and 200 mg/kg oral"
+      methods:
+        - "Tail flick test (analgesic)"
+        - "Acetic acid-induced writhing test (antinociceptive)"
+        - "Carrageenan-induced paw edema (anti-inflammatory)"
+      key_findings:
+        - "100 mg/kg: 56.59% inhibition of acetic acid-induced abdominal stretching"
+        - "200 mg/kg: 63.21% inhibition of acetic acid-induced abdominal stretching"
+        - "Antinociceptive activity comparable to morphine at 90 min, aspirin at 150 min"
+        - "No significant anti-inflammatory effect at either dose (carrageenan model)"
+      conclusion: "V. opulus leaf water extract has antinociceptive but not anti-inflammatory activity"
+
+# Active Constituent Isolation and Pharmacology
+constituent_pharmacology:
+  - citation:
+      authors: "Jarboe CH, Zirvi KA, Nicholson JA, Schmidt CM"
+      title: "Scopoletin, an Antispasmodic Component of Viburnum opulus and prunifolium"
+      journal: "Journal of Medicinal Chemistry"
+      year: 1967
+      volume: "10"
+      issue: "3"
+      pages: "488–489"
+      pmid: "22185161"
+      doi: "10.1021/jm00315a045"
+      url: "https://pubmed.ncbi.nlm.nih.gov/22185161/"
+    study_details:
+      study_type: "Phytochemical isolation and pharmacological characterization"
+      key_findings:
+        - "Scopoletin isolated from V. opulus and V. prunifolium bark"
+        - "Identified as a coumarin with antispasmodic activity"
+        - "Primary constituent responsible for smooth muscle relaxant properties of cramp bark"
+      significance: "Foundational paper establishing scopoletin as the key antispasmodic constituent"
+
+  - citation:
+      authors: "Nicholson JA, Darby TD, Jarboe CH"
+      title: "Viopudial, a hypotensive and smooth muscle antispasmodic from Viburnum opulus"
+      journal: "Proceedings of the Society for Experimental Biology and Medicine"
+      year: 1972
+      volume: "140"
+      issue: "2"
+      pages: "457–461"
+      pmid: "5037580"
+      doi: "10.3181/00379727-140-36479"
+      url: "https://pubmed.ncbi.nlm.nih.gov/5037580/"
+    study_details:
+      study_type: "Phytochemical isolation and pharmacological characterization"
+      models_used: "In vitro + in vivo (rats, cats, dogs)"
+      key_findings:
+        - "Viopudial isolated: an iridoid with hypotensive and smooth muscle antispasmodic activity"
+        - "Demonstrated cholinesterase inhibitory and parasympathomimetic activities"
+        - "Second major active constituent alongside scopoletin"
+      significance: "Established viopudial as second major antispasmodic/hypotensive compound in V. opulus"
+
+  - citation:
+      authors: "Jarboe CH, Schmidt CM, Nicholson JA, Zirvi KA"
+      title: "Uterine relaxant properties of Viburnum"
+      journal: "Nature"
+      year: 1966
+      volume: "212"
+      issue: "5064"
+      pages: "837"
+      pmid: "5988219"
+      doi: "10.1038/212837a0"
+      url: "https://pubmed.ncbi.nlm.nih.gov/5988219/"
+    study_details:
+      study_type: "Pharmacological characterization"
+      key_findings:
+        - "Demonstrated uterine relaxant properties in Viburnum species"
+        - "Landmark study establishing scientific basis for traditional use in dysmenorrhea"
+      notes: "No abstract available; full text required for complete methodology"
+
+  - citation:
+      authors: "Erdogan-Orhan I, Altun ML, Sever-Yilmaz B, Saltan G"
+      title: "Anti-acetylcholinesterase and antioxidant assets of the major components (salicin, amentoflavone, and chlorogenic acid) and the extracts of Viburnum opulus and Viburnum lantana and their total phenol and flavonoid contents"
+      journal: "Journal of Medicinal Food"
+      year: 2011
+      volume: "14"
+      issue: "4"
+      pages: "434–440"
+      pmid: "21186982"
+      doi: "10.1089/jmf.2010.0053"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21186982/"
+    study_details:
+      study_type: "In vitro experimental study"
+      methods:
+        - "Acetylcholinesterase (AChE) inhibition assay (ELISA microplate reader)"
+        - "Antioxidant assays at 500–2000 μg/mL (DPPH, ABTS, FRAP)"
+        - "Total phenolic content (Folin-Ciocalteau)"
+        - "Total flavonoid content (aluminum chloride)"
+      extracts: "Ethyl acetate, methanol, and water extracts from branches, leaves, and fruits"
+      key_findings:
+        - "V. opulus leaf methanol extract AChE inhibition: 57.63±1.23% at 50 μg/mL, 87.41±0.99% at 100 μg/mL, 93.19±0.87% at 200 μg/mL"
+        - "Chlorogenic acid, salicin, and amentoflavone identified as major bioactive compounds"
+        - "V. lantana extracts showed superior antioxidant properties vs V. opulus"
+      significance: "Establishes anticholinesterase activity which may partly explain antispasmodic/expulsive effects on smooth muscle"
+
+# Bioavailability Studies
+bioavailability:
+  - citation:
+      authors: "Pietrzyk N, Zakłos-Szyda M, Redzynia M, Podsędek A"
+      title: "The Effect of Simulated In Vitro Digestion on Biological Activity of Viburnum opulus Fruit Juices"
+      journal: "Molecules"
+      year: 2021
+      volume: "26"
+      issue: "13"
+      pages: "4086"
+      pmid: "34279426"
+      pmcid: "PMC8271880"
+      doi: "10.3390/molecules26134086"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34279426/"
+    study_details:
+      study_type: "In vitro bioavailability/digestion study"
+      methods:
+        - "Three-stage simulated GI digestion (mouth, stomach, small intestine)"
+        - "UPLC–MS quantification of phenolic changes"
+        - "Dialysis membrane separation for bioavailable fractions"
+        - "Multiple cell line bioassays (HepG2, L6 myoblasts, MIN6, 3T3-L1 adipocytes)"
+      test_materials: "Fresh V. opulus fruit juice (FJ) and phenolic-rich juice (PJ)"
+      key_findings:
+        bioaccessibility:
+          - "Chlorogenic acid decreased ~7-fold (FJ) and ~30-fold (PJ) after digestion"
+          - "Total hydroxycinnamic acids decreased 31.65% (FJ) and 87.60% (PJ) post-digestion"
+          - "Dialyzed bioavailable hydroxycinnamic acids: 42.28% (FJ) and 10.17% (PJ) of initial content"
+          - "Neochlorogenic and cryptochlorogenic acids increased via isomerization during digestion"
+        cellular_activity_post_digestion:
+          - "Digested purified juice reduced lipid accumulation in HepG2 hepatocytes by 10–15%"
+          - "L6 myoblasts: 10–30% enhanced glucose uptake with digested samples"
+          - "Both digested samples reduced IL-6 and TNF-α secretion by adipocytes by 40–70%"
+          - "Decreased glucose-stimulated insulin secretion by 35–60% (potential pancreatic concern)"
+      conclusion: "Phenolic compounds from V. opulus retain meaningful biological activity post-digestion despite significant reduction in total content; juice matrix is protective; potential pancreatic effects warrant caution"
+      note: "In vitro only; no human pharmacokinetic data for bark or fruit extracts"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "American Herbal Pharmacopoeia (AHP)"
+    title: "Cramp Bark, Viburnum Opulus: Analytical, Quality Control, and Therapeutic Monograph"
+    editor: "Roy Upton"
+    year: 2000
+    isbn: "1929425082"
+    publisher: "American Herbal Pharmacopoeia"
+    location: "Scotts Valley, CA"
+    url: "https://herbal-ahp.com/products/cramp-bark"
+    pages: 17
+    content_type: "Full analytical, quality control, and therapeutic monograph"
+    content: >
+      Covers nomenclature, history, identification, commercial sources and handling,
+      chemical constituents (scopoletin, viopudial, chlorogenic acid, amentoflavone,
+      tannins, hydroquinone glycosides), analytical methods, therapeutics, safety
+      profile, international status, and references. Primary US quality and
+      therapeutic standard for V. opulus.
+    status: "Primary quality standard for cramp bark in the United States"
+    dosing_from_monograph:
+      dried_bark_decoction:
+        dose: "2–4 g"
+        frequency: "Three times daily"
+      tincture_1_to_5_45pct_ethanol:
+        dose: "5–10 mL"
+        frequency: "Three times daily"
+      fluid_extract_1_to_1:
+        dose: "2–4 mL"
+        frequency: "Three times daily"
+
+  - authority: "British Herbal Pharmacopoeia (BHP)"
+    title: "Cramp Bark (Viburnum opulus)"
+    year: 1983
+    content_type: "Pharmacopoeia monograph"
+    content: >
+      Includes quality standards, botanical description, constituents, actions and uses
+      (antispasmodic, sedative, astringent), indications (dysmenorrhea, threatened
+      miscarriage, nervous conditions), dosage. Recognized cramp bark in the British
+      herbal medicine tradition.
+    status: "Standard reference for UK herbal practice; superseded by BHMA/ESCOP sources"
+
+  - authority: "European Scientific Cooperative on Phytotherapy (ESCOP)"
+    status: "No ESCOP monograph identified for Viburnum opulus as of 2026-02-27"
+    note: "ESCOP covers related Viburnum species only indirectly via general phytotherapy literature"
+
+  - authority: "German Commission E"
+    status: "Commission E did not publish an approved monograph for Viburnum opulus cortex"
+    note: >
+      Despite widespread use in German naturopathic practice, cramp bark did not receive
+      a positive Commission E monograph. Not listed in Blumenthal et al. (1998) 'The Complete
+      German Commission E Monographs.' Absence does not imply negative assessment; many herbs
+      were simply not reviewed.
+
+  - authority: "World Health Organization (WHO)"
+    status: "No WHO monograph identified for Viburnum opulus as of 2026-02-27"
+    note: >
+      WHO Monographs on Selected Medicinal Plants (Volumes 1–4, 1999–2009) do not include
+      V. opulus. The related species V. prunifolium (black haw) also lacks a WHO monograph.
+
+# Dosing and Standardization
+dosing_information:
+  traditional_dosing:
+    primary_source: "American Herbal Pharmacopoeia (AHP) 2000 monograph, Roy Upton ed."
+    preparations:
+      - preparation: "Dried bark decoction (cortex)"
+        dose_range: "2–4 g"
+        frequency: "Three times daily"
+        notes: "Simmer 10–15 min"
+      - preparation: "Tincture (1:5, 45% ethanol)"
+        dose_range: "5–10 mL"
+        frequency: "Three times daily"
+        notes: "Most common commercial preparation; higher doses at acute onset"
+      - preparation: "Fluid extract (1:1)"
+        dose_range: "2–4 mL"
+        frequency: "Three times daily"
+      - preparation: "Weiss (German phytotherapy tradition)"
+        dose: "4–8 mL tincture (1:5)"
+        frequency: "Three to four times daily for dysmenorrhea"
+  clinical_trial_dosing:
+    - study: "Kızılay et al. 2019 / Gok et al. 2021 (ureteral stones)"
+      dose: "1000 mg oral extract"
+      frequency: "Three times daily (3000 mg/day total)"
+      context: "Only human clinical dosing data; preparation/standardization not specified in either study"
+  standardization:
+    marker_compounds:
+      - name: "Scopoletin (7-hydroxy-6-methoxycoumarin)"
+        role: "Primary antispasmodic constituent; coumarin"
+        typical_content: "Not standardized in commercial preparations; content varies by plant part and extraction"
+      - name: "Chlorogenic acid"
+        role: "Antioxidant, anticholinesterase; proposed mechanism for stone expulsion"
+        measured_concentration: "0.3227 mg/mL in fruit juice; 0.51–1.71 mg/100mg ethyl acetate/methanol extract"
+      - name: "Viopudial"
+        role: "Iridoid; hypotensive and smooth muscle antispasmodic"
+        notes: "Isolation confirmed 1972; no standardization benchmarks for commercial products"
+    notes:
+      - "No standardized extract with defined marker compound percentages identified in clinical studies"
+      - "Turkish clinical studies used unspecified extract at 1000 mg; no standardization reported"
+      - "Bark (cortex) is traditional medicinal part; fruit used in Turkish folk medicine (gilaburu)"
+      - "Bark vs fruit have different phytochemical profiles; most traditional use references bark"
+
+# Key Research Gaps
+research_needs:
+  - "RCTs for primary traditional indication (dysmenorrhea, muscle cramps) are entirely absent"
+  - "Human pharmacokinetic studies for whole bark or standardized bark extract not yet conducted"
+  - "Standardized extract definition for bark (marker compound, % content) not established"
+  - "Dose-finding studies in humans for antispasmodic indications"
+  - "Long-term safety data beyond case series and traditional use history"
+  - "Mechanistic studies establishing which constituent (scopoletin, viopudial, chlorogenic acid) is primary driver of uterine relaxant activity in humans"
+  - "Head-to-head comparison of bark vs fruit extract for relevant indications"
+  - "Bioavailability data for scopoletin and viopudial from bark extracts in humans"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    - "Only published human clinical trials are Turkish urology studies on ureteral stone expulsion (2019–2021)"
+    - "One RCT (n=86, Gok 2021): V. opulus 3g/day non-inferior to tamsulosin for stone passage; reduced analgesic need and emergency visits"
+    - "One retrospective comparative study (n=103, Kızılay 2019): 82% vs 66% stone expulsion rate vs diclofenac alone"
+    - "No RCTs for dysmenorrhea, menstrual cramps, or threatened miscarriage—the primary traditional indications"
+    - "One registered homeopathic trial (NCT02467543, dysmenorrhea) uses 3X dilution; no peer-reviewed publication"
+
+  mechanism_of_action:
+    - "Scopoletin (coumarin): antispasmodic via direct smooth muscle relaxation (Jarboe et al. 1967)"
+    - "Viopudial (iridoid): hypotensive and smooth muscle antispasmodic (Nicholson et al. 1972)"
+    - "Chlorogenic acid: anticholinesterase activity (93% AChE inhibition at 200 μg/mL); proposed mechanism for smooth muscle relaxation via cholinergic pathway"
+    - "Uterine relaxant activity demonstrated in classical animal/in vitro studies (Jarboe et al. 1966)"
+
+  pharmacokinetics:
+    - "No human PK studies for bark extract or isolated scopoletin/viopudial from V. opulus identified"
+    - "Chlorogenic acid bioavailability: 38.90–56.40% bioavailability index from fruit extract in vitro"
+    - "Simulated digestion reduces hydroxycinnamic acids by 31–88% depending on preparation type"
+    - "Bioavailable fraction retains meaningful biological activity despite reduction"
+
+  safety:
+    - "Traditional use history suggests good tolerability at standard doses; no significant hepatotoxicity signals in literature"
+    - "No case reports of hepatotoxicity or serious adverse events identified (contrast with Viburnum lantana)"
+    - "Turkish clinical studies (total n=189) reported no serious adverse events at 3g/day"
+    - "Contraindicated in pregnancy at high doses historically (antispasmodic effect on uterus)"
+    - "No drug interaction data identified in human studies"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27)"
+  - "Search terms: 'Viburnum opulus', 'cramp bark clinical', 'Viburnum opulus randomized', 'Viburnum opulus extract'"
+  - "American Herbal Pharmacopoeia (AHP) Cramp Bark Monograph (Roy Upton, 2000)"
+  - "ClinicalTrials.gov registry search for NCT02467543"
+  - "Taylor & Francis Online for non-PubMed indexed studies"
+  - "Kajszczak et al. 2020 review (PMID 33167421) as secondary source for older literature"

@@ -1,0 +1,517 @@
+herb: betel-leaf
+botanical_name: Piper betle L.
+common_names:
+  - betel leaf
+  - betel vine
+  - paan leaf
+  - sirih (Malay)
+  - nagavalli (Sanskrit)
+  - pan (Hindi)
+family: Piperaceae
+
+notes: |
+  IMPORTANT SAFETY DISTINCTION: Betel leaf (Piper betle) must be distinguished from betel
+  quid, which combines betel leaf with areca nut, slaked lime, and often tobacco. IARC
+  classifies betel quid with tobacco as Group 1 carcinogen (oral, pharyngeal, esophageal
+  cancers) and betel quid without tobacco as Group 1 (oral cancer). Betel leaf alone lacks
+  carcinogenic classification and may possess chemopreventive properties; however, human
+  clinical evidence remains limited. Most pharmacological studies are preclinical.
+
+sources:
+
+  # ─── SYSTEMATIC REVIEWS & COMPREHENSIVE REVIEWS ──────────────────────────────
+
+  - id: biswas_2022_comprehensive
+    title: "Betelvine (Piper betle L.): A comprehensive insight into its ethnopharmacology, phytochemistry, and pharmacological, biomedical and therapeutic attributes"
+    authors:
+      - Biswas, Protha
+      - Anand, Uttpal
+      - Chatterjee Saha, Suchismita
+      - et al. (17 authors)
+    year: 2022
+    journal: Journal of Cellular and Molecular Medicine
+    volume: 26
+    issue: 11
+    pubmed_id: "35506408"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/35506408/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9170825/
+    study_type: comprehensive_review
+    focus_areas:
+      - ethnopharmacology
+      - phytochemistry
+      - pharmacology
+      - bioavailability gaps
+    key_findings:
+      - "80+ pharmacological investigations synthesized documenting preclinical evidence"
+      - "Hydroxychavicol identified as most important bioactive compound"
+      - "IC50 values for cytotoxicity ranged 7.13–163.30 μg/mL across different cell lines"
+      - "No cytotoxicity observed in preclinical experiments at standard doses"
+      - "Critical gap identified: bioavailability, pharmacokinetics, and clinical trials lacking"
+      - "Authors conclude further research needed for clinical dose establishment"
+    bioavailability_notes: Explicitly identified as a critical research gap; no standardized clinical dosing established
+    safety_notes: Preclinical data shows favorable safety margins; no cytotoxicity in laboratory settings
+
+  - id: nayaka_2021_antibacterial_review
+    title: "Piper betle (L): Recent Review of Antibacterial and Antifungal Properties, Safety Profiles, and Commercial Applications"
+    authors:
+      - Nayaka, Ni Made Dwi Mara Widyani
+      - Sasadara, Maria Malida Vernandes
+      - Sanjaya, Dwi Arymbhi
+      - Yuda, Putu Era Sandhi Kusuma
+      - Dewi, Ni Luh Kade Arman Anita
+      - Cahyaningsih, Erna
+      - Hartati, Rika
+    year: 2021
+    journal: Molecules
+    volume: 26
+    issue: 8
+    pubmed_id: "33923576"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/33923576/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8073370/
+    study_type: review
+    period_covered: "2010–2020"
+    key_findings:
+      - "Extracts inhibit Escherichia coli, Pseudomonas aeruginosa, and Staphylococcus aureus"
+      - "Antifungal activity demonstrated against Candida albicans"
+      - "Combination with antibiotics (streptomycin, chloramphenicol, gentamicin) produces enhanced antimicrobial activity"
+      - "Activity maintained against multidrug-resistant pathogens"
+      - "Safety profiles reviewed; no significant toxicity reported in studied applications"
+    safety_notes: Safety profiles reviewed across multiple studies 2010–2020; favorable findings for extract and essential oil applications
+
+  - id: zamri_2023_scoping_review
+    title: "A Scoping Review on Medicinal Properties of Piper betle (Sirih) Based on Malay Medical Manuscripts and Scientific Literatures"
+    authors:
+      - Zamri, Nur Fatin Idayu
+      - Mohd Shafri, Mohd Affendi
+      - Zamli, Zaitunnatakhin
+      - Mamat, Suhana
+    year: 2023
+    journal: Malaysian Journal of Medical Sciences
+    pubmed_id: "37928797"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/37928797/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10624437/
+    study_type: scoping_review
+    articles_screened: 226
+    articles_extracted: 75
+    articles_meeting_criteria: 23
+    key_findings:
+      - "Piper betle demonstrates therapeutic potential across six medicinal categories"
+      - "Traditional Malay manuscripts corroborate pharmacological findings in modern literature"
+      - "Evidence base limited to chemical assays and in vitro/in vivo preclinical studies"
+      - "No standardized clinical dosing or extraction method established"
+      - "Authors conclude: 'more information is required, such as the specific mechanism involved, the best extraction method and the best dosage for treatment'"
+    dosing_notes: Not established; identified as a key research gap
+
+  - id: madhumita_2020_bioactives_review
+    title: "Bio-actives of betel leaf (Piper betle L.): A comprehensive review on extraction, isolation, characterization, and biological activity"
+    authors:
+      - Madhumita, Mitali
+      - Guha, Proshanta
+      - Nag, Ahnidra
+    year: 2020
+    journal: Phytotherapy Research
+    volume: 34
+    issue: 8
+    pubmed_id: "32524688"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/32524688/
+    study_type: literature_review
+    references_cited: 142
+    key_findings:
+      - "Bioactive compounds identified: polyphenols, terpenes, phenolic acids, essential oils"
+      - "Health benefits predominantly associated with phenolic compounds including hydroxychavicol and eugenol"
+      - "Traditional applications: bad breath, cuts, injuries, inflammation, cold/cough, indigestion"
+      - "Antioxidant, analgesic, and anti-inflammatory properties documented"
+      - "Applications across pharmaceuticals, food, and beverage industries reviewed"
+    standardization_notes: Extraction techniques and preservation methods for perishable leaf material reviewed
+
+  - id: fazal_2014_phytochemistry_review
+    title: "The phytochemistry, traditional uses and pharmacology of Piper Betel. linn (Betel Leaf): A pan-asiatic medicinal plant"
+    authors:
+      - Fazal, Farhan
+      - Mane, Prajwal P
+      - Rai, Manoj P
+      - Thilakchand, Karadka R
+      - Bhat, Harshith P
+      - Kamble, Prathibha S
+      - Palatty, Princy L
+      - Baliga, Manjeshwar Shrinath
+    year: 2014
+    journal: Chinese Journal of Integrative Medicine
+    pubmed_id: "25159859"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/25159859/
+    study_type: literature_review
+    key_findings:
+      - "Active compounds: hydroxychavicol, allylpyrocatechol, eugenol, chavibetol"
+      - "Activities documented: antibacterial, antifungal, larvicidal, antiprotozoal, anticaries, gastroprotective, free radical scavenging, antioxidant, anti-inflammatory, hepatoprotective, immunomodulatory, antiulcer, chemopreventive"
+      - "Used as religious, recreational, and medicinal plant throughout Southeast Asia"
+    traditional_context: Used as mouth freshener and religious/ceremonial plant across Southeast Asia for millennia
+
+  - id: rai_2011_cancer_preventive
+    title: "Piper betel Linn (betel vine), the maligned Southeast Asian medicinal plant possesses cancer preventive effects: time to reconsider the wronged opinion"
+    authors:
+      - Rai, Manoj P
+      - Thilakchand, Karadka Ramdas
+      - Palatty, Princy L
+      - Rao, Prathima
+      - Rao, Suresh
+      - Bhat, Harshith P
+      - Baliga, Manjeshwar Shrinath
+    year: 2011
+    journal: Asian Pacific Journal of Cancer Prevention
+    volume: 12
+    issue: 9
+    pubmed_id: "22296348"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/22296348/
+    study_type: review
+    key_findings:
+      - "Betel leaf devoid of carcinogenic effects, unlike other betel quid components"
+      - "Betel leaf protective against carcinogens present in tobacco"
+      - "Phenolic compounds in leaf trigger chemopreventive antioxidant responses in normal cells"
+      - "Same compounds amplify ROS in cancer cells to induce selective apoptosis"
+      - "Critical distinction: betel leaf ≠ betel quid in cancer risk profile"
+    safety_notes: Betel leaf alone showed no carcinogenicity in animal studies; protective effects against chemical carcinogens documented
+
+  - id: gundala_2014_nutraceutical
+    title: "Piper betel leaf: a reservoir of potential xenohormetic nutraceuticals with cancer-fighting properties"
+    authors:
+      - Gundala, Sushma R
+      - Aneja, Ritu
+    year: 2014
+    journal: Cancer Prevention Research
+    pubmed_id: "24449055"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24449055/
+    study_type: review
+    key_findings:
+      - "Betel leaf contains xenohormetic compounds: hydroxychavicol, eugenol, chavibetol, piperols"
+      - "Compounds demonstrate antiproliferative, antimutagenic, antibacterial, antioxidant properties"
+      - "Dual mechanism: chemopreventive in normal cells, pro-apoptotic in cancer cells via ROS modulation"
+      - "Xenohormesis hypothesis applied: plant stress compounds confer health benefits to consumers"
+
+  - id: toprani_2013_ancient_indian_herb
+    title: "Betel leaf: Revisiting the benefits of an ancient Indian herb"
+    authors:
+      - Toprani, Rajendra
+      - Patel, Daxesh
+    year: 2013
+    journal: South Asian Journal of Cancer
+    volume: 2
+    issue: 3
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3892533/
+    study_type: editorial_review
+    key_findings:
+      - "Use in India documented from ~400 BC"
+      - "Referenced in Charaka Samhita, Sushruta Samhita, and Kashyapa Bhojanakalpa (Ayurvedic texts)"
+      - "Chewing practice widespread 75–300 AD"
+      - "Betel leaf alone caused no tumors in animal studies"
+      - "Anti-diabetic, cardiovascular, anti-inflammatory, anti-ulcer, hepato-protective, anti-infective properties studied in isolation"
+      - "'Human validation is still lacking' — authors recommend against quid chewing pending long-term human studies"
+    traditional_context: Ayurvedic preparations include Lokantha Rasa, Puspadhava Rasa, Laghu-sutaseknara Rasa among others
+    safety_notes: No tumors in animal models with betel leaf alone; human long-term data absent
+
+  - id: haslan_2015_mechanism_review
+    title: "The underlying mechanism of action for various medicinal properties of Piper betle (betel)"
+    authors:
+      - Haslan, H
+      - Suhaimi, F H
+      - Thent, Zar Chi
+      - Das, S
+    year: 2015
+    journal: Clinical Therapeutics (Clin Ter)
+    pubmed_id: "26550811"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/26550811/
+    study_type: narrative_review
+    key_findings:
+      - "Active compounds: allylpyrocatechol, hydroxychavicol, piperbetol, ethylpiperbetol, piperol A, piperol B, chavibetol, alkaloids"
+      - "Mechanisms reviewed for: analgesic, anti-inflammatory, anticancer, antidiabetic, antioxidant, cardioprotective, gastroprotective, hepatoprotective, radioprotective properties"
+      - "Molecular biology of active compounds relevant to complementary and alternative medicine drug development"
+
+  # ─── RANDOMIZED CONTROLLED TRIALS (HUMAN) ────────────────────────────────────
+
+  - id: sengupta_2012_rct_weight
+    title: "Efficacy of an herbal formulation LI10903F containing Dolichos biflorus and Piper betle extracts on weight management"
+    authors:
+      - Sengupta, Krishanu
+      - Mishra, Atmatrana T
+      - Rao, Manikeshwar K
+      - Sarma, Kadainti VS
+      - Krishnaraju, Alluri V
+      - Trimurtulu, Golakoti
+    year: 2012
+    journal: Lipids in Health and Disease
+    volume: 11
+    pubmed_id: "23270333"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/23270333/
+    study_type: rct
+    design: randomized_double_blind_placebo_controlled
+    duration_weeks: 8
+    sample_size: 50
+    population: "Adults with BMI 30–40 kg/m²"
+    intervention: "LI10903F (Dolichos biflorus + Piper betle standardized extracts) 300 mg three times daily"
+    comparator: placebo
+    diet_exercise: "2,000 kcal/day diet + 30-min walks 5 days/week"
+    key_findings:
+      - "Body weight reduction: 2.49 kg (p = 0.00005) vs placebo"
+      - "BMI reduction: 0.96 kg/m² (p = 0.00004)"
+      - "Serum adiponectin increased significantly (p = 0.0076)"
+      - "Serum ghrelin decreased significantly (p = 0.0066)"
+      - "Safety profile favorable; mild adverse events equally distributed between groups"
+    dosing: "300 mg of combined herbal formulation three times daily (900 mg/day total)"
+    limitations: "Combined extract formulation — effects cannot be attributed to Piper betle alone; relatively small sample size"
+
+  - id: ali_2022_rct_dentifrice
+    title: "Effect of a Novel Betel Leaf Dentifrice on Commonly Seen Oral Hygiene Parameters—A Randomized Clinical Crossover Study"
+    authors:
+      - Ali, Maha Ziad
+      - Elbaz, Wafaa Fathy Ahmed
+      - Adouri, Saja
+      - Desai, Vijay
+      - Abu Fanas, Salem
+      - Thomas, Biju
+      - Varma, Sudhir Rama
+    year: 2022
+    journal: Dentistry (Basel)
+    pubmed_id: "36135162"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/36135162/
+    study_type: rct
+    design: randomized_crossover_pilot
+    duration_days: 20
+    washout_weeks: 2
+    sample_size: 60
+    population: "Individuals with mild gingivitis"
+    intervention: "Betel leaf herbal toothpaste"
+    comparator: "Miswak (Salvadora persica) herbal toothpaste; conventional chemical toothpaste"
+    key_findings:
+      - "Betel leaf toothpaste significantly decreased plaque index"
+      - "Gingival bleeding score reduction: p < 0.001 (betel leaf) vs p = 0.007 (miswak)"
+      - "Betel leaf produced superior reduction in gingival bleeding vs miswak"
+      - "No meaningful improvement when participants returned to conventional toothpaste"
+    dosing: "Standard toothpaste application twice daily for 20 days"
+    limitations: Pilot study; crossover design requires washout period compliance
+
+  - id: sundaram_2021_rct_mouthwash
+    title: "Effect of piper extract mouthwash as postprocedural rinse on levels of Porphyromonas gingivalis in periodontitis patients"
+    authors:
+      - Sundaram, Gopalakrishnan
+      - Theagarajan, Ramakrishnan
+      - Dhakshina Murthy, Gomathi
+      - Kanimozhi, Gopalakrishnan
+    year: 2021
+    journal: Journal of Indian Society of Periodontology
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8452170/
+    study_type: rct
+    design: randomized_single_blind_controlled
+    duration_days: 30
+    sample_size: 60
+    sample_screened: 85
+    population: "Stage II periodontitis patients post-scaling and root planing"
+    intervention: "2% Piper betle extract mouthwash, 5 mL twice daily, 30 min after brushing"
+    comparator: "0.2% chlorhexidine mouthwash, 5 mL twice daily"
+    key_findings:
+      - "Both groups showed statistically significant reduction in clinical parameters at 30 days (p < 0.0001)"
+      - "Intragroup microbial reduction in both groups significant (p < 0.0001)"
+      - "No statistically significant difference between piper and chlorhexidine groups (intergroup)"
+      - "Piper extract demonstrated equivalent antimicrobial activity to chlorhexidine against P. gingivalis"
+    dosing: "2% piper extract mouthwash, 5 mL twice daily for 30 days"
+    clinical_significance: "Non-inferior to chlorhexidine gold standard at equivalent dosing"
+
+  # ─── STANDARDIZATION & PHARMACOPOEIAL STUDIES ────────────────────────────────
+
+  - id: arawwawala_2011_standardization
+    title: "Standardization of spray-dried powder of Piper betle hot water extract"
+    authors:
+      - Arawwawala, Liyanage Dona Ashanthi Menuka
+      - Hewageegana, Horadugoda Gamage Sujatha Pushpakanthi
+      - Arambewela, Lakshmi Sriyani Rajapaksha
+      - Ariyawansa, Hettiarachchige Sami
+    year: 2011
+    journal: Pharmacognosy Magazine
+    volume: 7
+    issue: 26
+    pubmed_id: "21716924"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/21716924/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3113356/
+    study_type: standardization_study
+    key_findings:
+      - "Moisture content: 2.2–2.5%"
+      - "Total ash: 6.8–7.0%"
+      - "Acid insoluble ash: 0.003–0.005%"
+      - "Water-soluble ash: 4.1–4.3%"
+      - "Ethanol extractable matter: 15.8–16.2%"
+      - "Heavy metal concentrations below WHO acceptable limits"
+      - "Bacterial pathogens (E. coli, Salmonella, S. aureus, P. aeruginosa) absent"
+      - "HPLC fingerprint and densitogram developed for quality authentication"
+      - "Chemical constituents: phenolic compounds, tannins, flavonoids, steroids, alkaloids"
+    standardization_relevance: Establishes quality control parameters for spray-dried hot water extract; enables batch-to-batch consistency
+    dosing_notes: Spray-dried powder in preparation for clinical antidiabetic trial (ongoing at time of publication)
+
+  # ─── SAFETY & TOXICOLOGY STUDIES ────────────────────────────────────────────
+
+  - id: choudhary_2002_antioxidant_safety
+    title: "Antioxidant and non-toxic properties of Piper betle leaf extract: in vitro and in vivo studies"
+    authors:
+      - Choudhary, Dharamainder
+      - Kale, Raosaheb K
+    year: 2002
+    journal: Phytotherapy Research
+    volume: 16
+    issue: 5
+    pubmed_id: "12203268"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/12203268/
+    study_type: preclinical_safety
+    model: "Swiss albino mice (in vivo); in vitro assays"
+    doses_tested: "1, 5, and 10 mg/kg oral for 2 weeks"
+    key_findings:
+      - "Glutathione (GSH) content enhanced in treated animals"
+      - "Superoxide dismutase (SOD) specific activity increased in dose-dependent manner"
+      - "Extract inhibited radiation-induced lipid peroxidation"
+      - "No appreciable oxidative damage in lipid peroxidation levels"
+      - "Glyoxalase enzyme activities unchanged — indicative of non-stress condition"
+      - "No adverse effects at tested doses (1–10 mg/kg)"
+    safety_notes: Well-tolerated at all tested doses; antioxidant rather than pro-oxidant effects; no markers of toxicity
+
+  - id: iarc_2004_monograph_vol85
+    title: "Betel-quid and Areca-nut Chewing and Some Areca-nut-derived Nitrosamines"
+    authors:
+      - "IARC Working Group on the Evaluation of Carcinogenic Risks to Humans"
+    year: 2004
+    publisher: "International Agency for Research on Cancer (IARC/WHO)"
+    series: "IARC Monographs on the Identification of Carcinogenic Hazards to Humans"
+    volume: 85
+    url: https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Betel-quid-And-Areca-nut-Chewing-And-Some-Areca-nut-derived-Nitrosamines-2004
+    ncbi_bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK316567/
+    study_type: regulatory_monograph
+    meeting_date: "June 2003"
+    key_findings:
+      - "Betel quid WITH tobacco: Group 1 carcinogen (sufficient human evidence) — causes oral, pharyngeal, esophageal cancer"
+      - "Betel quid WITHOUT tobacco: Group 1 carcinogen — causes oral cancer (upgraded from Vol. 37 'inadequate evidence')"
+      - "Areca nut alone: Group 1 carcinogen to humans"
+      - "Betel leaf (Piper betle) alone: insufficient evidence for carcinogenicity when isolated from quid preparation"
+      - "Safrole identified in Piper betle flowers as possible carcinogen (Group 2B)"
+    critical_distinction: >
+      IARC evaluation targets betel quid as a preparation containing areca nut + lime ± tobacco
+      wrapped in betel leaf. Betel leaf per se was not classified as carcinogenic. Researchers
+      studying isolated Piper betle extracts (without areca nut and tobacco) note protective
+      rather than carcinogenic properties.
+    safety_implications: Betel leaf used alone (without areca nut, tobacco, or lime) not subject to Group 1 classification
+
+  - id: arawwawala_2014_gastroprotective
+    title: "Gastroprotective effect of Piper betle Linn. leaves grown in Sri Lanka"
+    authors:
+      - Arawwawala, L D A M
+      - Arambewela, L S R
+      - Ratnasooriya, W D
+    year: 2014
+    journal: Journal of Ayurveda and Integrative Medicine
+    volume: 5
+    issue: 1
+    pubmed_id: "24812474"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/24812474/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4012360/
+    study_type: preclinical_animal
+    model: "Wistar rats; ethanol-induced gastric ulcer model"
+    doses_tested: "200, 300, and 500 mg/kg body weight (hot aqueous and cold ethanolic extracts)"
+    sample_per_group: 9
+    key_findings:
+      - "Marked dose-dependent gastroprotection (r² = 0.97 hot aqueous; r² = 0.96 cold ethanolic)"
+      - "Highest dose (500 mg/kg) of both extracts exceeded misoprostol reference drug efficacy"
+      - "Hot aqueous extract increased mucus content on gastric walls"
+      - "Reduced gastric acid volume vs control"
+      - "Acidity and pH unchanged across groups"
+    traditional_use_corroboration: Consistent with traditional use for stomachache and gastric complaints
+
+  # ─── BIOACTIVE COMPOUND STUDIES ──────────────────────────────────────────────
+
+  - id: ou_2025_hydroxychavicol_pde4
+    title: "Hydroxychavicol derivatives from Piper betle Linn. as natural PDE4 inhibitors with anti-inflammatory effects"
+    authors:
+      - Ou, Jiazhi
+      - Zhong, Fang
+      - Huang, Peiluo
+      - Zhang, Yan
+      - et al. (9 additional authors)
+    year: 2025
+    journal: Bioorganic Chemistry
+    volume: 157
+    article_id: "108294"
+    pubmed_id: "40007350"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/40007350/
+    study_type: phytochemistry_pharmacology
+    key_findings:
+      - "23 hydroxychavicol derivatives isolated and characterized from Piper betle"
+      - "11 compounds showed PDE4 inhibitory activity with IC50 values 1.8–10 μM"
+      - "Compound 7 most potent PDE4 inhibitor at IC50 = 1.8 μM"
+      - "Compounds 5, 7, 9, and 16 decreased key inflammatory mediators in LPS-stimulated RAW 264.7 cells"
+      - "Compound 16 comparable to reference drug rolipram in anti-inflammatory activity"
+      - "NF-κB pathway inhibition via IκB-α and p65 phosphorylation suppression"
+    mechanism: PDE4 inhibition and NF-κB pathway suppression
+    significance: Identifies specific molecular targets for anti-inflammatory drug development from betel leaf
+
+  - id: lien_2015_wound_healing
+    title: "Influence of phytochemicals in piper betle linn leaf extract on wound healing"
+    authors:
+      - Le Thi Lien
+      - Nguyen Thi Tho
+      - Do Minh Ha
+      - Pham Luong Hang
+      - Phan Tuan Nghia
+      - Nguyen Dinh Thang
+    year: 2015
+    journal: Burns & Trauma
+    volume: 3
+    pubmed_id: "27574669"
+    pubmed_url: https://pubmed.ncbi.nlm.nih.gov/27574669/
+    pmc_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4964315/
+    study_type: preclinical_in_vitro_in_vivo
+    model:
+      in_vitro: "NIH3T3 fibroblast cells; 0.25–20.0 μg/mL concentrations"
+      in_vivo: "Swiss mice with burn and excision wound models"
+    formulation_tested: "5% w/w gel formulation"
+    key_findings:
+      - "Methanol leaf extract significantly enhanced fibroblast cell proliferation across 0.25–20.0 μg/mL range"
+      - "5% gel formulation: statistically significant improvement in burn wound healing (p < 0.01)"
+      - "5% gel formulation: statistically significant improvement in excision wound healing (p < 0.001)"
+      - "Malondialdehyde levels in liver tissue decreased substantially in treated mice vs controls"
+      - "Supports development of natural-origin pharmaceuticals for cutaneous wound care"
+
+# ─── SUMMARY STATISTICS ───────────────────────────────────────────────────────
+
+bibliography_summary:
+  total_sources: 16
+  human_rcts: 3
+  systematic_scoping_reviews: 1
+  comprehensive_reviews: 5
+  narrative_reviews: 4
+  standardization_studies: 1
+  preclinical_safety_studies: 1
+  preclinical_animal_studies: 1
+  phytochemistry_pharmacology: 1
+  regulatory_monographs: 1
+
+clinical_evidence_grade: >
+  LIMITED. Only 3 RCTs involving human subjects identified — one on weight management using
+  a combined extract formulation (n=50), one on oral hygiene (n=60 crossover), and one on
+  periodontitis (n=60). No meta-analyses or systematic reviews of clinical trials found.
+  Most evidence is preclinical (in vitro and animal models). Bioavailability and
+  pharmacokinetic data in humans absent.
+
+key_bioactive_markers:
+  - hydroxychavicol (4-allylcatechol) — primary active compound; PDE4 inhibitor
+  - eugenol — antibacterial, anti-inflammatory
+  - chavibetol — antibacterial
+  - allylpyrocatechol — antioxidant, antimicrobial
+  - piperols (A, B) — antibacterial
+
+traditional_dosing_context:
+  juice: Used as adjuvant in Ayurvedic preparations; no standardized dose
+  leaf_consumption: 1–2 whole leaves chewed traditionally; no validated clinical dose
+  spray_dried_powder: Quality parameters established (Arawwawala 2011); clinical dose pending trials
+  mouthwash: 2% extract, 5 mL twice daily (Sundaram 2021 RCT)
+  toothpaste: Standard application twice daily (Ali 2022 RCT)
+  weight_management: 300 mg combined herbal extract 3×/day (Sengupta 2012 RCT — combined product)
+
+safety_summary:
+  carcinogenicity: "Betel leaf alone: insufficient evidence for carcinogenicity. Betel QUID (with areca nut ± tobacco): Group 1 IARC carcinogen"
+  acute_toxicity: "No adverse effects at 1–10 mg/kg in mice (Choudhary 2002)"
+  animal_tumors: "No tumors in animal studies with isolated betel leaf (Toprani 2013 review)"
+  contact_risk: "Prolonged direct skin contact with steamed leaf may cause contact dermatitis and hyperpigmentation"
+  drug_interactions: Not systematically studied; noted as research gap

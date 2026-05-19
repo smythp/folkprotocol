@@ -1,0 +1,233 @@
+---
+# Fenugreek (Trigonella foenum-graecum) Clinical Research Bibliography
+# Focus: Testosterone, libido, hormonal effects, safety, and traditional use
+# Created: 2026-03-30
+
+systematic_reviews_meta_analyses:
+  - id: mansoori_2020
+    title: "Effect of fenugreek extract supplement on testosterone levels in male: A meta-analysis of clinical trials"
+    authors:
+      - Mansoori A
+      - Hosseini S
+      - Zilaee M
+      - Hormoznejad R
+      - Fathi M
+    year: 2020
+    journal: Phytotherapy Research
+    pmid: 32048383
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32048383/
+    doi: "10.1002/ptr.6627"
+    study_type: Systematic review and meta-analysis of RCTs
+    studies_reviewed: 4 RCTs
+    sample_size: 199 participants
+    key_findings:
+      - "Fenugreek extract supplementation had a significant impact on total testosterone levels."
+      - "Pooled results showed a significant increase in total testosterone (WMD: 0.89 nmol/L, 95% CI: 0.12, 1.66, p = 0.02)."
+      - "No significant effect on free testosterone or estradiol was observed."
+      - "Subgroup analysis based on intervention duration and participant health status did not show significant effects, possibly due to the low number of studies."
+    statistical_findings:
+      total_testosterone_wmd_nmol_l: 0.89
+    conclusion: "Fenugreek extract supplementation may increase total testosterone levels in men, but more high-quality RCTs are needed to confirm."
+
+  - id: albaker_2023
+    title: "Fenugreek and Its Effects on Muscle Performance: A Systematic Review"
+    authors:
+      - Albaker W
+    year: 2023
+    journal: Journal of Functional Morphology and Kinesiology
+    pmid: 37233192
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/37233192/
+    pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10219128/
+    doi: "10.3390/jfmk8020033"
+    study_type: Systematic review of RCTs
+    studies_reviewed: 6 RCTs
+    key_findings:
+      - "4 of 6 RCTs showed significant improvements in muscle strength, endurance, lean body mass, and reduced body fat."
+      - "Fenugreek glycoside supplementation demonstrated substantial anabolic and androgenic activity, influencing testosterone levels."
+      - "One study showed improved glycogen resynthesis post-exercise."
+      - "One study noted improved creatine uptake when co-administered with fenugreek."
+
+randomized_controlled_trials:
+  - id: rao_2016
+    title: "Influence of a Specialized Trigonella foenum-graecum Seed Extract (Testofen) on Testosterone, Body Composition and Sexual Function in Healthy Aging Males: A Randomised Controlled Trial"
+    authors:
+      - Rao A
+      - Steels E
+      - Inder WJ
+      - Abraham S
+      - Vitetta L
+    year: 2016
+    journal: The Aging Male
+    pmid: 26791805
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/26791805/
+    doi: "10.3109/13685538.2015.1135323"
+    study_type: Randomized, double-blind, placebo-controlled trial
+    sample_size: 120
+    population: "Healthy aging males (43-70 years)"
+    dosing:
+      preparation: "Testofen"
+      dose: "600 mg/day"
+      duration: "12 weeks"
+    key_findings:
+      - "Testofen was effective in reducing symptoms of androgen decline and improving sexual function."
+      - "Sexual function improved, including number of morning erections and frequency of sexual activity (p<0.001)."
+      - "Both total and free testosterone levels increased significantly in the Testofen group compared to placebo."
+      - "Serum prolactin and estradiol levels were unchanged."
+
+  - id: wankhede_2016
+    title: "Beneficial effects of fenugreek glycoside supplementation in male subjects during resistance training: A randomized controlled pilot study"
+    authors:
+      - Wankhede S
+      - Mohan V
+      - Thakurdesai P
+    year: 2016
+    journal: Journal of Sport and Health Science
+    pmid: 30356905
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30356905/
+    doi: "10.1016/j.jshs.2014.09.005"
+    study_type: Randomized, double-blind, placebo-controlled trial
+    sample_size: 60
+    population: "Healthy, resistance-trained male subjects"
+    dosing:
+      preparation: "Fenugreek extract"
+      dose: "600 mg/day"
+      duration: "8 weeks"
+    key_findings:
+      - "Supplementation showed significant anabolic and androgenic activity as compared with the placebo."
+      - "Fenugreek group showed a significant decrease in body fat (p=0.01) and increase in lean mass (p=0.004)."
+      - "Leg press performance improved significantly more in the fenugreek group (p=0.007)."
+      - "Serum total testosterone levels increased in the fenugreek group, but the change was not statistically significant compared to placebo."
+
+  - id: maheshwari_2017
+    title: "Efficacy of FurosapTM, a novel Trigonella foenum-graecum seed extract, in Enhancing Testosterone and Improving Overall Health in Male Volunteers"
+    authors:
+      - Maheshwari A
+      - Verma N
+      - Swaroop A
+      - Bagchi M
+      - Preuss HG
+      - Tiwari K
+      - Bagchi D
+    year: 2017
+    journal: International Journal of Medical Sciences
+    pmid: 28280480
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/28280480/
+    pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5340133/
+    doi: "10.7150/ijms.17252"
+    study_type: Open-label, single-arm, longitudinal study
+    sample_size: 100
+    population: "Healthy male volunteers (35-60 years)"
+    dosing:
+      preparation: "Furosap (20% protodioscin)"
+      dose: "500 mg/day"
+      duration: "12 weeks"
+    key_findings:
+      - "Free testosterone levels were improved in up to 90% of the study population."
+      - "Total testosterone levels were improved in 46.8% of volunteers."
+      - "Sperm motility, morphology, and count improved significantly (p<0.001)."
+      - "Mental alertness, mood, and libido improved significantly."
+      - "No significant adverse events were reported."
+
+  - id: rao_2015
+    title: "Influence of a Specialized Trigonella foenum-graecum Seed Extract (Libifem) on Testosterone, Estradiol and Sexual Function in Healthy Menstruating Women, a Randomised Placebo Controlled Study"
+    authors:
+      - Rao A
+      - Steels E
+      - Beccaria G
+      - Inder WJ
+      - Vitetta L
+    year: 2015
+    journal: Phytotherapy Research
+    pmid: 25914334
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/25914334/
+    doi: "10.1002/ptr.5355"
+    study_type: Randomized, double-blind, placebo-controlled trial
+    sample_size: 80
+    population: "Healthy menstruating women with self-reported low sexual drive"
+    dosing:
+      preparation: "Libifem"
+      dose: "600 mg/day"
+      duration: "2 menstrual cycles"
+    key_findings:
+      - "Significant increase in free testosterone and estradiol in the active group (p<0.05)."
+      - "Significant increase in sexual desire and arousal in the active group compared to placebo (p<0.05)."
+      - "No adverse effects were reported."
+
+traditional_pharmacopoeia:
+  - id: ema_assessment
+    name: "EMA (European Medicines Agency) Herbal Monograph"
+    url: "https://www.ema.europa.eu/en/medicines/herbal/trigonellae-foenugraeci-semen"
+    status: "Monograph available"
+    plant_part: "Semen (seed)"
+    traditional_indications:
+      - "Temporary loss of appetite."
+      - "Symptomatic treatment of minor skin inflammations (external use)."
+    regulatory_implication: "Recognized for traditional use in the EU, but not for hormonal claims."
+
+  - id: commission_e
+    name: "German Commission E Monograph"
+    status: "Monograph available"
+    plant_part: "Semen (seed)"
+    approved_uses:
+      - "Internal use for loss of appetite."
+      - "External use as a poultice for local inflammation."
+    daily_dose: "6 grams of drug, or equivalent preparations."
+
+  - id: indian_pharmacopoeia
+    name: "Ayurvedic Pharmacopoeia of India (API)"
+    traditional_name: "Methi"
+    status: "Monograph included"
+    traditional_applications:
+      - "Digestive tonic, appetite stimulant (Deepana, Pachana)."
+      - "Rejuvenative (Rasayana)."
+      - "Support for diabetes and hyperlipidemia."
+      - "Galactagogue (promotes milk production)."
+      - "Used for low libido and seminal debility."
+
+broader_clinical_evidence:
+  - id: neelakantan_2014
+    title: "Effect of fenugreek on glycemic control in diabetes: a systematic review and meta-analysis"
+    authors:
+      - Neelakantan N
+      - Narayanan M
+      - de Souza RJ
+      - van Dam RM
+    year: 2014
+    journal: Nutrition Journal
+    pmid: 24840284
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/24840284/
+    study_type: Systematic review and meta-analysis of RCTs
+    studies_reviewed: 10 RCTs
+    key_findings: "Fenugreek significantly reduced fasting blood glucose (-0.96 mmol/L), 2-h postload glucose (-2.19 mmol/L), and HbA1c (-0.85%) compared with control."
+
+  - id: khan_2018
+    title: "The effect of fenugreek as a galactagogue on breast milk production and weight of the newborn"
+    authors:
+      - Khan TM
+      - Wu DB
+      - Dolzhenko AV
+    year: 2018
+    journal: Iranian Journal of Pharmaceutical Research
+    pmid: 29720942
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29720942/
+    study_type: Randomized clinical trial
+    sample_size: 78
+    key_findings: "Fenugreek group had significantly higher breast milk production on day 3 and 7. Newborns in the fenugreek group had less weight loss and regained birth weight faster."
+
+safety:
+  - id: ema_safety_2020
+    name: "EMA Public statement on Trigonella foenum-graecum L., semen"
+    year: 2020
+    key_findings:
+      - "Common side effects include gastrointestinal issues (diarrhea, flatulence)."
+      - "Should not be used during pregnancy due to reports of uterine stimulant effects in animals."
+      - "Potential for allergic reactions, including cross-reactivity in people with peanut/soya allergies."
+      - "May enhance the effect of anticoagulant drugs (e.g., warfarin); caution is advised."
+      - "May lower blood sugar; diabetics should monitor blood glucose levels closely."
+
+  - id: adulteration_risk
+    source: "General literature on supplement quality"
+    key_findings:
+      - "Fenugreek supplements are at risk of adulteration with cheaper fillers (e.g., rice flour)."
+      - "Contamination with heavy metals, pesticides, or mycotoxins is a potential issue."
+      - "Choose products with third-party testing and clear standardization (e.g., % furostanol saponins)."

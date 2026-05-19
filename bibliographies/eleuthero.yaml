@@ -1,0 +1,659 @@
+herb: Eleuthero
+scientific_name: "Eleutherococcus senticosus (Rupr. & Maxim.) Maxim."
+synonyms:
+  - "Acanthopanax senticosus (Rupr. & Maxim.) Harms"
+common_names:
+  - "Eleuthero"
+  - "Siberian ginseng"
+  - "Ciwujia (Chinese)"
+  - "Taiga root"
+  - "Devil's shrub"
+  - "Touch-me-not"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-02-27
+notes_on_scope: >
+  Eleutherococcus senticosus (eleuthero) has a large body of Soviet-era research (1960s–1980s)
+  that is largely inaccessible to English-language audiences; Gerontakos et al. 2021 is the
+  first English synthesis of that literature. Modern Western RCTs are mostly negative or
+  equivocal, with small sample sizes and heterogeneous preparations. Primary active marker
+  compounds are eleutheroside B (syringin, a phenylpropanoid) and eleutheroside E
+  (syringaresinol diglucoside, a lignan). European Pharmacopoeia (10th ed.) mandates ≥0.08%
+  combined eleutheroside B + E in dried root. WHO Monographs Vol. 2 (2002) include a full
+  monograph (Radix Eleutherococci). The German Commission E approved eleuthero (1991) as a
+  tonic in times of fatigue, debility, declining work capacity, and difficulty in
+  concentration. Key commercial extracts include the Soviet/Russian SHE extract (ethanolic)
+  used in most older trials, and modern standardized dry extracts at 0.8–1% eleutherosides.
+  Adulteration and misidentification are significant quality-control concerns: ~30% of
+  Japanese commercial products found to contain wrong species; eleutheroside content varied
+  43–200-fold across commercial samples in one survey.
+
+# Comprehensive Reviews
+reviews:
+  - citation:
+      authors: "Patyra A, Kołtun-Jasion M, Kupniewska K, Parzonko A, Kiss AK"
+      title: "Eleutherococcus root: a comprehensive review of its phytochemistry and pharmacological potential in the context of its adaptogenic effect"
+      journal: "Frontiers in Pharmacology"
+      year: 2025
+      pmid: "41235111"
+      pmcid: "PMC12605232"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12605232/"
+    study_details:
+      study_type: "Comprehensive narrative review"
+      scope: "Phytochemistry, pharmacology, clinical evidence, standardization, quality control"
+      key_findings:
+        standardization:
+          - "European Pharmacopoeia requires ≥0.08% sum of eleutheroside B + E in dried root"
+          - "Ethanol–water 10:1 extracts standard preparation; marker compounds eleutheroside B (syringin) and E (syringaresinol diglucoside)"
+          - "Commercial quality issues: eleutheroside content 43–200-fold variation across products; ~30% of Japanese market products contained wrong species; actual eleutheroside amounts ranged 11.9–327.7% of labeled content"
+        clinical_evidence:
+          - "Facchinetti et al. 2002 (n=45): reduced cardiovascular stress response vs placebo over 30 days; greater benefit in females"
+          - "Hartz et al. 2004 (n=96, 500 mg/day, 2 months): no significant benefit overall for chronic fatigue; significant improvement in subgroup with less severe fatigue (P=0.04)"
+          - "Schaffler et al. 2013 (n=144, 120 mg/day, 8 weeks): eleuthero alone showed no beneficial effects on cognitive tests or physiological stress markers"
+        mechanisms:
+          - "Anti-inflammatory via inhibition of MAPK, Akt, and NF-κB activation pathways"
+          - "Increased BDNF expression; neuroprotective effects in preclinical models"
+          - "Immunomodulatory: NK cell enhancement in animal and some human studies"
+        limitations:
+          - "Main issue is lack of robust clinical evidence due to trial heterogeneity, non-standardized preparations, and small sample sizes"
+          - "Most Western RCTs are negative or equivocal"
+
+  - citation:
+      authors: "Gerontakos S, Taylor A, Avdeeva AY, Shikova VA, Pozharitskaya ON, Casteleijn D, Wardle J, Shikov AN"
+      title: "Findings of Russian literature on the clinical application of Eleutherococcus senticosus (Rupr. & Maxim.): A narrative review"
+      journal: "Journal of Ethnopharmacology"
+      year: 2021
+      pmid: "34087398"
+      url: "https://pubmed.ncbi.nlm.nih.gov/34087398/"
+    study_details:
+      study_type: "Narrative review of archival Soviet/Russian clinical literature (1962–1986)"
+      scope: "46 Soviet-era clinical studies previously inaccessible in English"
+      key_findings:
+        general:
+          - "29 of reviewed studies were placebo-controlled; 11 were controlled trials"
+          - "21 studies examined healthy volunteers"
+          - "Most common dose: 2 mL liquid extract daily (used in 14 trials)"
+          - "Primary applications studied: physical/mental stamina, cold/influenza prevention (5 studies), vision effects (2), hearing loss prevention (3), work capacity, cognitive function"
+          - "Soviet literature 'appears to exhibit benefits for cognitive function and physical and mental endurance'"
+        significance: "First English-language synthesis of Soviet clinical research on eleuthero; establishes historical dosing and indication patterns"
+
+  - citation:
+      authors: "Li X-T, Zhou J-C, Zhou Y, Ren Y-S, Huang Y-H, Wang S-M, Tan L, Yang Z-Y, Ge Y-W"
+      title: "Pharmacological effects of Eleutherococcus senticosus on the neurological disorders"
+      journal: "Phytotherapy Research"
+      year: 2022
+      volume: "36"
+      issue: "11"
+      pages: "4084–4098"
+      pmid: "35844057"
+      doi: "10.1002/ptr.7555"
+      url: "https://pubmed.ncbi.nlm.nih.gov/35844057/"
+    study_details:
+      study_type: "Narrative review"
+      scope: "Fatigue, depression, Alzheimer's disease, Parkinson's disease, cerebral ischemia"
+      key_findings:
+        - "Documents anti-fatigue, sleep improvement, and memory enhancement effects in preclinical and some clinical studies"
+        - "Mechanisms: anti-oxidative damage, anti-inflammation, neurotransmitter modulation, improvement of neuronal growth, anti-apoptosis"
+        - "Concludes plant shows promise as phytotherapy agent for neurological disorders; most evidence is preclinical"
+
+  - citation:
+      authors: "Panossian A, Wikman G"
+      title: "Evidence-based efficacy of adaptogens in fatigue, and molecular mechanisms related to their stress-protective activity"
+      journal: "Current Clinical Pharmacology"
+      year: 2009
+      volume: "4"
+      issue: "3"
+      pages: "198–219"
+      pmid: "19500070"
+      url: "https://pubmed.ncbi.nlm.nih.gov/19500070/"
+    study_details:
+      study_type: "Literature review with evidence grading"
+      key_findings:
+        - "Eleutherococcus senticosus shows 'good scientific evidence' for boosting endurance and mental performance in patients with mild fatigue and weakness"
+        - "Mechanism: adaptogens regulate homeostasis via stress response pathways involving Hsp70, cortisol, and nitric oxide"
+        - "Rhodiola rosea rated 'strong scientific evidence'; E. senticosus and Schisandra chinensis rated 'good scientific evidence'"
+
+  - citation:
+      authors: "No authors listed"
+      title: "Monograph. Eleutherococcus senticosus"
+      journal: "Alternative Medicine Review"
+      year: 2006
+      volume: "11"
+      issue: "2"
+      pages: "151–155"
+      pmid: "16813463"
+      url: "https://pubmed.ncbi.nlm.nih.gov/16813463/"
+    study_details:
+      study_type: "Clinical monograph"
+      scope: "Covers fatigue, cellular immunity, physical endurance, stress response, chronic conditions including pneumonia"
+      key_findings:
+        - "Indexed MeSH terms: fatigue, cellular immunity, physical endurance, pneumonia, stress"
+        - "Summarizes evidence base including Soviet clinical studies and Western RCTs available as of 2006"
+
+# Clinical Trials (Human Studies)
+clinical_trials:
+  - citation:
+      authors: "Bohn B, Nebe CT, Birr C"
+      title: "Flow-cytometric studies with eleutherococcus senticosus extract as an immunomodulatory agent"
+      journal: "Arzneimittelforschung"
+      year: 1987
+      volume: "37"
+      issue: "10"
+      pages: "1193–1196"
+      pmid: "2963645"
+      url: "https://pubmed.ncbi.nlm.nih.gov/2963645/"
+    study_details:
+      study_type: "Double-blind, placebo-controlled clinical trial"
+      participants: 36
+      population: "Healthy volunteers"
+      intervention: "10 mL ethanolic E. senticosus extract (vincamine-free), administered 3 times daily"
+      total_daily_dose: "30 mL ethanolic extract"
+      duration: "4 weeks"
+      outcomes:
+        primary:
+          - "Absolute number of immunocompetent cells: 'drastic increase' in treatment group"
+          - "Particularly notable effects on T lymphocytes (helper/inducer types, cytotoxic cells, and NK cells)"
+          - "Enhanced activation of T lymphocytes observed"
+      safety: "No adverse effects reported during trial or in 6-month follow-up period"
+      conclusion: "Eleuthero extract produced significant immunostimulatory effects on T-cell subsets and NK cells"
+      notes: "Foundational immunology trial; quantitative flow cytometry methodology; commonly cited in regulatory monographs"
+
+  - citation:
+      authors: "Dowling EA, Redondo DR, Branch JD, Jones S, McNabb G, Williams MH"
+      title: "Effect of Eleutherococcus senticosus on submaximal and maximal exercise performance"
+      journal: "Medicine and Science in Sports and Exercise"
+      year: 1996
+      volume: "28"
+      issue: "4"
+      pages: "482–489"
+      pmid: "8778554"
+      url: "https://pubmed.ncbi.nlm.nih.gov/8778554/"
+    study_details:
+      study_type: "Double-blind, randomized controlled trial"
+      participants: 20
+      population: "Highly trained distance runners"
+      intervention: "3.4 mL of E. senticosus (ESML) liquid extract daily"
+      comparator: "Placebo"
+      duration: "6 weeks supplementation + 2 weeks post-withdrawal"
+      outcomes:
+        primary:
+          - "No significant differences between treatment and placebo on any measured parameter"
+          - "No differences in heart rate, oxygen consumption, ventilatory measures, respiratory exchange ratio, perceived exertion, time to exhaustion, or blood lactate"
+      conclusion: "Extract demonstrated no ergogenic benefit for aerobic exercise performance in trained athletes"
+      notes: "One of the first Western RCTs; used liquid extract in trained athletes (high baseline fitness may limit detectable effects)"
+
+  - citation:
+      authors: "Gaffney BT, Hügel HM, Rich PA"
+      title: "The effects of Eleutherococcus senticosus and Panax ginseng on steroidal hormone indices of stress and lymphocyte subset numbers in endurance athletes"
+      journal: "Life Sciences"
+      year: 2001
+      volume: "70"
+      issue: "4"
+      pages: "431–442"
+      pmid: "11798012"
+      url: "https://pubmed.ncbi.nlm.nih.gov/11798012/"
+    study_details:
+      study_type: "Controlled clinical trial"
+      population: "Competitive club-level endurance athletes"
+      intervention: "33% ethanolic extract (8 mL/day) equivalent to 4 g/day dried E. senticosus root"
+      comparator: "33% ethanolic Panax ginseng extract (8 mL/day) equivalent to 2 g/day dried root; placebo"
+      duration: "6 weeks"
+      outcomes:
+        key_finding:
+          - "E. senticosus group: testosterone-to-cortisol ratio (TCR) decreased by 28.7% (from 0.0464 to 0.0331, P=0.03)"
+          - "TCR decrease driven primarily by ~31% increase in cortisol trend (not testosterone reduction)"
+          - "No significant immune system changes across treatment groups"
+          - "Panax ginseng group: no changes in testosterone, cortisol, or TCR"
+      conclusion: "E. senticosus did not produce expected adaptogenic reduction in stress hormones; results suggest possible increase in stress hormone indices in trained athletes"
+
+  - citation:
+      authors: "Szołomicki J, Samochowiec L, Wójcicki J, Droździk M"
+      title: "The influence of active components of Eleutherococcus senticosus on cellular defence and physical fitness in man"
+      journal: "Phytotherapy Research"
+      year: 2000
+      volume: "14"
+      issue: "1"
+      pages: "30–35"
+      pmid: "10641044"
+      url: "https://pubmed.ncbi.nlm.nih.gov/10641044/"
+    study_details:
+      study_type: "Randomized controlled trial"
+      participants: 50  # 35 treatment, 15 control; 20 males underwent ergospirometric testing
+      population: "Healthy volunteers"
+      intervention: "Taiga Wurzel 25 drops three times daily (treatment group)"
+      comparator: "Echinacea 40 drops three times daily (active control)"
+      duration: "30 days"
+      outcomes:
+        primary:
+          - "Treatment group: reductions in total cholesterol, LDL cholesterol, triglycerides, and glucose vs baseline"
+          - "Control group: no alterations in measured parameters"
+          - "Ergospirometric testing: higher oxygen plateau in E. senticosus group"
+      conclusion: "Active components affect cellular defence, physical fitness, and lipid metabolism"
+      limitations:
+        - "Active comparator (Echinacea) design limits interpretation"
+        - "Small sample sizes per group"
+
+  - citation:
+      authors: "Cicero AFG, Derosa G, Brillante R, Bernardi R, Nascetti S, Gaddi A"
+      title: "Effects of Siberian ginseng (Eleutherococcus senticosus maxim.) on elderly quality of life: a randomized clinical trial"
+      journal: "Archives of Gerontology and Geriatrics Supplement"
+      year: 2004
+      volume: "9"
+      pages: "69–73"
+      pmid: "15207399"
+      url: "https://pubmed.ncbi.nlm.nih.gov/15207399/"
+    study_details:
+      study_type: "Double-blind randomized controlled trial"
+      participants: 20  # n=10 per group
+      population: "Elderly hypertensive volunteers aged ≥65 years"
+      intervention: "E. senticosus dry extract 300 mg/day"
+      comparator: "Placebo"
+      duration: "8 weeks"
+      outcomes:
+        primary:
+          - "At 4 weeks: significantly higher scores in social functioning (SF-36) in treatment group (P=0.02)"
+          - "Improvements did not persist at 8-week endpoint"
+        secondary:
+          - "70% of treated subjects perceived receiving active therapy vs 20% of placebo recipients (P<0.05)"
+          - "No differences in blood pressure control or digitalized heart medication levels"
+      safety: "No adverse events in either group"
+      conclusion: "300 mg/day E. senticosus dry extract safely improves some aspects of mental health and social functioning at 4 weeks; effect attenuates with continued use"
+      limitations:
+        - "Very small sample (n=10 per group); underpowered"
+        - "Short-term effects only; no sustained benefit at 8 weeks"
+
+  - citation:
+      authors: "Hartz AJ, Bentler S, Noyes R, Hoehns J, Logemann C, Sinift S, Butani Y, Wang W, Brake K, Ernst M, Kautzman H"
+      title: "Randomized controlled trial of Siberian ginseng for chronic fatigue"
+      journal: "Psychological Medicine"
+      year: 2004
+      volume: "34"
+      issue: "1"
+      pages: "51–61"
+      pmid: "14971626"
+      url: "https://pubmed.ncbi.nlm.nih.gov/14971626/"
+    study_details:
+      study_type: "Randomized controlled trial"
+      participants: 96  # 76 completed 2-month follow-up
+      population: "Community volunteers and chronic fatigue support group members with ongoing fatigue"
+      intervention: "E. senticosus extract standardized for eleutheroside B and E content (4 capsules × 500 mg/day = 2000 mg/day total)"
+      comparator: "Placebo"
+      duration: "2 months"
+      outcomes:
+        primary:
+          - "Overall: fatigue substantially reduced in both groups but no statistically significant difference between groups"
+        subgroup:
+          - "Less severe fatigue subgroup (n=45): significant improvement vs placebo at 2 months (P=0.04)"
+          - "Fatigue lasting ≥5 years subgroup (n=41): borderline improvement (P=0.09)"
+      conclusion: "Overall efficacy not demonstrated; possible efficacy in patients with moderate (not severe) fatigue warrants further research"
+      notes: "Used standardized extract (eleutheroside B + E); largest Western RCT for fatigue indication to date"
+
+  - citation:
+      authors: "Kuo J, Chen KW-C, Cheng I-S, Tsai P-H, Lu Y-J, Lee N-Y"
+      title: "The effect of eight weeks of supplementation with Eleutherococcus senticosus on endurance capacity and metabolism in human"
+      journal: "Chinese Journal of Physiology"
+      year: 2010
+      volume: "53"
+      issue: "2"
+      pages: "105–111"
+      pmid: "21793317"
+      url: "https://pubmed.ncbi.nlm.nih.gov/21793317/"
+    study_details:
+      study_type: "Double-blind, randomized, placebo-controlled crossover trial"
+      participants: 9
+      population: "Recreationally trained college-age males"
+      intervention: "E. senticosus 800 mg/day"
+      comparator: "Placebo (crossover; 4-week washout between conditions)"
+      duration: "8 weeks per condition"
+      outcomes:
+        primary:
+          - "VO2 peak: increased by 12% (P<0.05)"
+          - "Endurance time: improved by 23% (P<0.05)"
+          - "Maximum heart rate during exhaustion: increased by 4% (P<0.05)"
+        secondary:
+          - "At 30 min exercise: plasma free fatty acid production significantly increased (P<0.05)"
+          - "Plasma glucose levels significantly decreased (P<0.05), suggesting glycogen-sparing effect"
+      conclusion: "8 weeks of E. senticosus supplementation enhances endurance capacity and alters metabolism toward fatty acid utilization in recreationally trained males"
+      notes: "Positive result contrasts with Dowling 1996 null result in trained athletes; possible dose or fitness-level differences; very small n=9"
+
+  - citation:
+      authors: "Schaffler K, Wolf OT, Burkart M"
+      title: "No benefit adding eleutherococcus senticosus to stress management training in stress-related fatigue/weakness, impaired work or concentration, a randomized controlled study"
+      journal: "Pharmacopsychiatry"
+      year: 2013
+      volume: "46"
+      issue: "5"
+      pages: "181–190"
+      pmid: "23740477"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23740477/"
+    study_details:
+      study_type: "Randomized controlled trial, Phase IV, multicenter"
+      design: "Three-arm parallel-group: (1) E. senticosus alone, (2) stress management training (SMT) alone, (3) combined"
+      participants: 144
+      population: "Patients with asthenia (fatigue/weakness) and reduced working capacity from chronic stress"
+      intervention: "120 mg/day E. senticosus root extract ± 2-day professional stress management training"
+      duration: "8 weeks (assessments at baseline, 2 weeks, 8 weeks)"
+      outcomes:
+        primary:
+          - "Almost all parameters improved significantly over time in all groups without group differences"
+          - "Combined treatment showed superiority over E. senticosus alone for mental fatigue and restlessness"
+          - "Combined treatment was not superior to SMT alone at week 8"
+      conclusion: "Effects of adding E. senticosus to stress management training are, if any, negligible; herb alone provided no benefit beyond time effect"
+
+  - citation:
+      authors: "Weng S, Tang J, Wang G, Wang X, Wang H"
+      title: "Comparison of the Addition of Siberian Ginseng (Acanthopanax senticosus) Versus Fluoxetine to Lithium for the Treatment of Bipolar Disorder in Adolescents: A Randomized, Double-Blind Trial"
+      journal: "Current Therapeutic Research Clinical and Experimental"
+      year: 2007
+      volume: "68"
+      issue: "4"
+      pages: "280–290"
+      pmid: "24683218"
+      pmcid: "PMC3967289"
+      url: "https://pubmed.ncbi.nlm.nih.gov/24683218/"
+    study_details:
+      study_type: "Double-blind, randomized controlled trial"
+      participants: 76  # 45 females, 31 males; mean age 15.4 years; range 12–17
+      population: "Chinese adolescents with bipolar disorder (mean age 15.4 years)"
+      intervention: "Acanthopanax senticosus 1.5 g/day + lithium"
+      comparator: "Fluoxetine 20 mg/day + lithium"
+      duration: "6 weeks"
+      outcomes:
+        efficacy:
+          - "Response rate: eleuthero+lithium 67.6% vs fluoxetine+lithium 71.8% (no significant difference)"
+          - "Remission rate: eleuthero+lithium 51.4% vs fluoxetine+lithium 48.7% (no significant difference)"
+        safety:
+          - "Switching to mania: 0 patients in eleuthero group vs 3 patients in fluoxetine group"
+          - "Total adverse events: 3 (eleuthero) vs 12 (fluoxetine)"
+      conclusion: "Eleuthero + lithium produced equivalent efficacy to fluoxetine + lithium with fewer adverse events; potential safer adjunct in adolescent bipolar disorder"
+      notes: "Single study from China; treatment doses not fully specified in abstract; replication needed"
+
+  - citation:
+      authors: "Tohda C, Ichimura M, Bai Y, Tanaka K, Zhu S, Kanno H"
+      title: "Combined Treatment with Two Water Extracts of Eleutherococcus senticosus Leaf and Rhizome of Drynaria fortunei Enhances Cognitive Function: A Placebo-Controlled, Randomized, Double-Blind Study in Healthy Adults"
+      journal: "Nutrients"
+      year: 2020
+      volume: "12"
+      issue: "1"
+      pages: "196"
+      pmid: "31979283"
+      url: "https://pubmed.ncbi.nlm.nih.gov/31979283/"
+    study_details:
+      study_type: "Placebo-controlled, randomized, double-blind trial"
+      population: "Healthy adults"
+      intervention: "Combined water extracts of E. senticosus leaf + Drynaria fortunei rhizome"
+      duration: "12 weeks"
+      outcomes:
+        primary:
+          - "Figure recall subscore of RBANS (Japanese version): significantly increased (P=0.045)"
+          - "Language domain improved (P=0.040)"
+          - "Semantic fluency enhanced (P=0.021)"
+          - "Anxiety/uncertainty scores improved (P=0.022)"
+      safety: "No adverse effects observed"
+      conclusion: "Combined treatment safely enhances parts of cognitive function in healthy adults"
+      limitations:
+        - "Combination extract; cannot attribute effect to E. senticosus alone"
+        - "Used leaf (not root) of E. senticosus; different phytochemical profile"
+
+# Pharmacokinetics Studies
+pharmacokinetics:
+  - citation:
+      authors: "Ma B, Zhang Q, Liu Y, Li J, Xu Q, Li X, Yang X, Yao D, Sun J, Cui G, Ying H"
+      title: "Simultaneous determination of Eleutheroside B and Eleutheroside E in rat plasma by high performance liquid chromatography-electrospray ionization mass spectrometry and its application in a pharmacokinetic study"
+      journal: "Journal of Chromatography B: Analytical Technologies in Biomedical and Life Sciences"
+      year: 2013
+      pmid: "23369882"
+      url: "https://pubmed.ncbi.nlm.nih.gov/23369882/"
+    study_details:
+      study_type: "Analytical method development and pharmacokinetic study (animal model)"
+      model: "Rat plasma"
+      method: "HPLC-ESI-MS/MS"
+      key_findings:
+        analytical:
+          - "Linear calibration range: 1–2000 ng/mL for both eleutheroside B and E"
+          - "Extraction recovery: >80% in plasma"
+          - "Precision: <12%; accuracy: -2.80 to +5.70%"
+        pharmacokinetic:
+          - "Successfully differentiated PK characteristics between isolated compounds and whole aqueous extract"
+          - "Oral absolute bioavailability of eleutheroside B and E determined as relatively low"
+          - "Bioavailability of eleutheroside E and syringin in brain tissues higher relative to other constituents, possibly explaining neuroprotective relevance"
+      notes: "Preclinical (rat) only; no human PK data for eleutheroside B or E currently published"
+
+# In Vitro / Mechanistic Studies
+in_vitro:
+  - citation:
+      authors: "Glatthaar-Saalmüller B, Sacher F, Esperester A"
+      title: "Antiviral activity of an extract derived from roots of Eleutherococcus senticosus"
+      journal: "Antiviral Research"
+      year: 2001
+      volume: "50"
+      issue: "3"
+      pages: "223–228"
+      pmid: "11397509"
+      url: "https://pubmed.ncbi.nlm.nih.gov/11397509/"
+    study_details:
+      study_type: "In vitro evaluation study"
+      test_system: "Cell culture (plaque-reduction assays)"
+      key_findings:
+        - "Strong antiviral activity against RNA viruses: human rhinovirus (HRV), respiratory syncytial virus (RSV), and influenza A"
+        - "No effect against DNA viruses: adenovirus (Adeno 5) or herpes simplex type 1 (HSV-1)"
+        - "Pre-treatment did not prevent virus adsorption or replication; activity appears post-adsorption"
+        - "Antiviral activity stable under drug preparation and storage conditions"
+      conclusion: "E. senticosus root extract shows selective antiviral activity against respiratory RNA viruses; no activity against herpes simplex type 1"
+      notes: "In vitro only; no human clinical trial data on antiviral effects; results do not support use for HSV despite popular claims"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "World Health Organization (WHO)"
+    title: "Radix Eleutherococci"
+    published_in: "WHO Monographs on Selected Medicinal Plants, Volume 2"
+    year: 2002
+    publisher: "World Health Organization"
+    location: "Geneva"
+    isbn: "9241545372"
+    url: "https://books.google.com/books/about/WHO_Monographs_on_Selected_Medicinal_Pla.html?id=qWP4aG-wXAQC"
+    content_type: "Full WHO monograph"
+    content: >
+      Covers botanical description, distribution, plant material used, chemical constituents
+      (eleutherosides A–G, polysaccharides), quality standards, clinical pharmacology, uses
+      supported by clinical data, contraindications, warnings, adverse reactions, drug
+      interactions, dosage, and references. Primary international quality and therapeutic
+      standard.
+    dosing_from_monograph:
+      dried_root:
+        dose: "2–3 g"
+        frequency: "Daily"
+        notes: "Can be consumed as decoction or in other preparations"
+      liquid_extract_1_to_1:
+        dose: "2–3 mL"
+        frequency: "Daily"
+      tincture_1_to_5:
+        dose: "10–15 mL"
+        frequency: "Daily"
+    traditional_uses: "Tonic in times of fatigue, debility, and declining capacity for work; for improving concentration; convalescence"
+    contraindications: "Not recommended during pregnancy; use with caution in hypertension"
+
+  - authority: "German Commission E"
+    title: "Eleutherococcus senticosus (Siberian Ginseng Root)"
+    year: 1991
+    status: "Positive monograph approved"
+    source: "Published in Blumenthal M et al., eds. The Complete German Commission E Monographs (1998)"
+    content: >
+      Commission E approved eleuthero root as a tonic in times of fatigue and debility,
+      declining capacity for work and concentration, and during convalescence.
+      Recommended short-term use (up to 3 months) with possible repeat course.
+    dosing_from_monograph:
+      daily_dose:
+        dose: "2–3 g"
+        preparation: "Dried root or equivalent preparations"
+        duration: "Up to 3 months; course may be repeated"
+    contraindications_from_monograph:
+      - "Hypertension"
+    notes: "Positive Commission E rating; significant regulatory support in Germany; extract preparations widely available"
+
+  - authority: "European Medicines Agency / HMPC"
+    title: "Community Herbal Monograph on Eleutherococcus senticosus (Rupr. et Maxim.) Maxim., radix"
+    year: 2014
+    url: "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-eleutherococcus-senticosus-rupr-et-maxim-maxim-radix_en.pdf"
+    content_type: "EMA Community Herbal Monograph (Traditional Use)"
+    content: >
+      Granted traditional-use status (not well-established use) due to insufficient clinical
+      trial evidence meeting modern standards. Covers quality standards, pharmacological
+      data, clinical data, and traditional use documentation. EMA assessment report provides
+      full literature review.
+    status: "Traditional herbal medicinal product; 30+ years of use documented"
+    dosing_from_monograph:
+      adults_oral:
+        dry_extract_4_to_8_to_1_in_ethanol_30_pct:
+          dose: "100–200 mg"
+          frequency: "1–3 times daily"
+        liquid_extract_1_to_1_in_ethanol_30_pct:
+          dose: "2–3 mL"
+          frequency: "Daily"
+        tincture_1_to_5_in_ethanol_40_pct:
+          dose: "10–15 mL"
+          frequency: "Daily"
+      duration: "Up to 2 months"
+    contraindications_from_monograph:
+      - "Children under 12 years"
+      - "Pregnancy and lactation (insufficient data)"
+      - "Hypertension"
+
+  - authority: "European Pharmacopoeia (Ph. Eur.)"
+    title: "Eleutherococcus"
+    edition: "10th edition (2019)"
+    content_type: "Pharmacopoeia quality monograph"
+    key_requirements:
+      - "Minimum 0.08% sum of eleutheroside B + eleutheroside E in dried root (HPLC)"
+      - "Botanical identification standards defined"
+      - "Heavy metals, pesticide residues, and microbial contamination limits specified"
+    notes: "Primary European quality standard; also listed in British Pharmacopoeia"
+
+  - authority: "LactMed (National Library of Medicine)"
+    title: "Eleuthero"
+    year: 2024
+    pmid: "30000865"
+    url: "https://pubmed.ncbi.nlm.nih.gov/30000865/"
+    content_type: "Drug and lactation safety review"
+    key_findings:
+      - "Active compounds: eleutherosides B and E, acanthosides, phytosterols, lignans"
+      - "'No good human evidence supports any of these uses' (general efficacy)"
+      - "No data on safety/efficacy in nursing mothers or infants"
+      - "May elevate blood pressure, increase bleeding risk, raise blood glucose, cause breast tenderness"
+    recommendation: "Most sources recommend against use during breastfeeding due to lack of safety data"
+
+# Dosing and Standardization
+dosing_information:
+  traditional_dosing:
+    primary_sources:
+      - "WHO Monographs on Selected Medicinal Plants, Vol. 2 (2002)"
+      - "German Commission E positive monograph (1991)"
+      - "EMA Community Herbal Monograph (2014)"
+    preparations:
+      - preparation: "Dried root"
+        dose_range: "0.5–4 g"
+        frequency: "Daily"
+        notes: "WHO: 2–3 g/day; EMA: consistent with WHO; Commission E: 2–3 g/day"
+      - preparation: "Liquid extract (1:1, 30% ethanol)"
+        dose_range: "2–3 mL"
+        frequency: "Daily"
+      - preparation: "Tincture (1:5, 40% ethanol)"
+        dose_range: "10–15 mL"
+        frequency: "Daily"
+      - preparation: "Dry standardized extract (4–8:1, 30% ethanol)"
+        dose_range: "100–200 mg"
+        frequency: "1–3 times daily"
+        notes: "Most common modern commercial form"
+  clinical_trial_dosing:
+    - study: "Bohn et al. 1987 (immune function)"
+      dose: "30 mL/day ethanolic extract (10 mL × 3)"
+      duration: "4 weeks"
+    - study: "Dowling et al. 1996 (exercise performance)"
+      dose: "3.4 mL liquid extract daily"
+      duration: "6 weeks"
+    - study: "Gaffney et al. 2001 (stress hormones)"
+      dose: "8 mL/day (33% ethanolic extract = equivalent to 4 g/day dried root)"
+      duration: "6 weeks"
+    - study: "Cicero et al. 2004 (elderly QoL)"
+      dose: "300 mg/day dry extract"
+      duration: "8 weeks"
+    - study: "Hartz et al. 2004 (chronic fatigue)"
+      dose: "2000 mg/day standardized extract (eleutheroside B + E content)"
+      duration: "2 months"
+    - study: "Kuo et al. 2010 (endurance)"
+      dose: "800 mg/day"
+      duration: "8 weeks"
+    - study: "Schaffler et al. 2013 (stress/fatigue)"
+      dose: "120 mg/day root extract"
+      duration: "8 weeks"
+    - study: "Weng et al. 2007 (bipolar)"
+      dose: "1.5 g/day + lithium"
+      duration: "6 weeks"
+  standardization:
+    marker_compounds:
+      - name: "Eleutheroside B (syringin)"
+        chemical_class: "Phenylpropanoid glycoside"
+        role: "Primary quality marker; adaptogenic activity in preclinical models"
+        pharmacopoeia_standard: "≥0.08% combined with eleutheroside E (Ph. Eur. 10th ed.)"
+      - name: "Eleutheroside E (syringaresinol diglucoside)"
+        chemical_class: "Lignan glycoside"
+        role: "Primary quality marker; anti-fatigue and neuroprotective activity in preclinical models"
+        pharmacopoeia_standard: "≥0.08% combined with eleutheroside B (Ph. Eur. 10th ed.)"
+    notes:
+      - "European Pharmacopoeia (10th ed.) mandates ≥0.08% combined eleutheroside B + E"
+      - "For specific indications (e.g., HSV-2 trials): preparations standardized to 0.3% eleutheroside E at 400 mg/day have been described"
+      - "Commercial quality highly variable: 43–200-fold variation in eleutheroside content across products; ~30% of Japanese market products contained wrong species"
+      - "Actual eleutheroside amounts in commercial products: 11.9–327.7% of labeled content in one survey"
+
+# Key Research Gaps
+research_needs:
+  - "No large-scale RCT (n>200) for any single indication with well-defined standardized extract"
+  - "No published human pharmacokinetic studies for eleutheroside B or E after oral administration"
+  - "Dose-response studies in humans are lacking; dose range 120–2000 mg/day used across trials with no systematic comparison"
+  - "Duration of optimal treatment course not established; WHO/Commission E suggest up to 3 months but no long-term safety data beyond that"
+  - "Soviet-era clinical literature (Gerontakos 2021 review covers 46 studies) not peer-reviewed by modern standards and largely not replicated"
+  - "Antiviral claims (RSV, influenza) based only on in vitro data; no human RCTs"
+  - "Immunomodulatory effects (Bohn 1987) not replicated in modern controlled trials"
+  - "Head-to-head comparison of root vs leaf vs cortex preparations not conducted"
+  - "Interaction data with drugs affecting cytochrome P450 (digoxin interaction case reported but not formally studied)"
+  - "Bioavailability data from whole human pharmacokinetic studies with standardized extracts"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    - "Mixed-to-negative results from modern Western RCTs; Soviet literature (largely non-peer-reviewed) more positive"
+    - "Largest Western RCT (Hartz 2004, n=96): no overall benefit for chronic fatigue; possible benefit in moderate-fatigue subgroup (P=0.04)"
+    - "Stress-related fatigue (Schaffler 2013, n=144): no benefit for eleuthero alone; combined with stress management training not superior to training alone"
+    - "Endurance performance: positive result in recreationally trained (Kuo 2010, n=9, +12% VO2 peak, +23% endurance time) but null result in elite athletes (Dowling 1996, n=20)"
+    - "Immune function: positive immunostimulatory effects on T-cells and NK cells (Bohn 1987, n=36) but not replicated in modern trials"
+    - "Elderly quality of life: short-term improvement in social functioning at 4 weeks (Cicero 2004, n=20); effect lost by 8 weeks"
+    - "Bipolar adjunct (Weng 2007, n=76): equivalent to fluoxetine+lithium with fewer adverse events; requires independent replication"
+
+  mechanism_of_action:
+    - "Eleutherosides B and E: primary bioactive markers; exact mechanisms of adaptogenic effect not fully characterized"
+    - "Anti-inflammatory via MAPK, Akt, NF-κB inhibition (preclinical)"
+    - "Immunostimulatory via T-lymphocyte and NK cell enhancement (preclinical and Bohn 1987 human data)"
+    - "Neuroprotective: increases BDNF; syringin and eleutheroside E preferentially accumulate in brain tissue"
+    - "Antiviral: inhibits RNA virus replication (RSV, rhinovirus, influenza A) in vitro; no effect on DNA viruses"
+
+  pharmacokinetics:
+    - "No human PK studies published for eleutheroside B or E"
+    - "Rat data (Ma 2013): HPLC-MS/MS method validated for plasma measurement; oral bioavailability characterized as relatively low; brain accumulation higher than systemic"
+    - "Eleutheroside E and syringin show higher brain tissue bioavailability relative to other constituents"
+
+  safety:
+    - "Well-tolerated in short-term use (up to 3 months) at standard doses; no serious adverse events in RCTs"
+    - "Possible adverse effects: irritability, heart rhythm changes, headache, anxiety, insomnia, GI discomfort, elevated blood pressure"
+    - "Contraindicated in hypertension (Commission E, WHO, EMA consensus)"
+    - "Not recommended in pregnancy or breastfeeding (insufficient safety data)"
+    - "Drug interactions: case report of digoxin level interference; caution with anticoagulants and immunosuppressants"
+    - "Antidiabetic medication caution: may lower blood glucose"
+    - "Quality/adulteration risk: ~30% Japanese market products wrong species; content varies 43–200-fold across commercial products"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27)"
+  - "Search terms: 'Eleutherococcus senticosus randomized', 'eleuthero clinical trial', 'Eleutherococcus senticosus systematic review', 'eleutheroside pharmacokinetics', 'Eleutherococcus senticosus cognitive', 'eleuthero immune NK cells'"
+  - "WHO Monographs on Selected Medicinal Plants, Volume 2 (2002)"
+  - "EMA Community Herbal Monograph and Assessment Report (2014)"
+  - "Gerontakos et al. 2021 (PMID 34087398) for Soviet-era literature synthesis"
+  - "Patyra et al. 2025 (PMC12605232) for comprehensive phytochemistry and standardization data"

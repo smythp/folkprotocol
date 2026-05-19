@@ -1,0 +1,519 @@
+---
+# Sauna Health Practice: Research Bibliography
+# Generated: 2026-03-06
+# Focus: systematic reviews, RCTs, optimal parameters, safety, adaptation, mechanisms, variations
+
+systematic_reviews:
+  - id: laukkanen_2018_mayo
+    authors: Laukkanen T, Kunutsor SK, Kauhanen J, Laukkanen JA
+    year: 2018
+    title: >
+      Cardiovascular and Other Health Benefits of Sauna Bathing:
+      A Review of the Evidence
+    journal: Mayo Clinic Proceedings
+    doi: 10.1016/S0025-6196(18)30275-1
+    url: https://www.mayoclinicproceedings.org/article/s0025-6196(18)30275-1/fulltext
+    notes: >
+      Comprehensive narrative review of evidence for sauna bathing across cardiovascular,
+      neurological, musculoskeletal, respiratory, and immune outcomes. Synthesizes Finnish
+      cohort data showing dose-response relationships for mortality and cardiovascular events.
+      Discusses mechanisms: nitric oxide, HSPs, autonomic function, hormonal changes.
+
+  - id: hussain_2019_heart_failure_meta
+    authors: Hussain J, Cohen M
+    year: 2019
+    title: "Effects of sauna bath on heart failure: A systematic review and meta-analysis"
+    journal: Complementary Therapies in Medicine
+    pmcid: PMC6489706
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6489706/
+    notes: >
+      7 studies, 491 patients (275 sauna, 216 control). Meta-analysis evaluated symptoms,
+      blood pressure, biomarkers, cardiac dimensions/function, endothelial function, mortality.
+      Sauna (Waon therapy) showed improvements in exercise tolerance, cardiac function, and
+      quality of life in heart failure patients.
+
+  - id: clark_2019_dry_sauna_systematic
+    authors: Hussain J, Cohen M
+    year: 2018
+    title: "Clinical Effects of Regular Dry Sauna Bathing: A Systematic Review"
+    journal: Evidence-Based Complementary and Alternative Medicine
+    pmcid: PMC5941775
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/
+    notes: >
+      Systematic review of dry sauna clinical effects across cardiovascular, pain, pulmonary,
+      mental health, and safety domains. Summarizes contraindications and adverse events.
+      Concludes sauna is generally safe for healthy adults; contraindicated in unstable
+      cardiovascular conditions.
+
+  - id: laukkanen_2023_combo_lifestyle
+    authors: Laukkanen JA, Kunutsor SK
+    year: 2023
+    title: >
+      Does the Combination of Finnish Sauna Bathing and Other Lifestyle Factors Confer
+      Additional Health Benefits? A Review of the Evidence
+    journal: Mayo Clinic Proceedings
+    doi: 10.1016/S0025-6196(23)00008-3
+    url: https://www.mayoclinicproceedings.org/article/S0025-6196(23)00008-3/fulltext
+    notes: >
+      Reviews synergy between sauna and exercise, diet, alcohol abstinence, sleep.
+      Sauna + exercise confers additive cardiovascular and metabolic benefits. Alcohol
+      during or around sauna significantly increases sudden death risk — absolute caution.
+
+  - id: mero_2024_healthspan_review
+    authors: Mero A et al.
+    year: 2024
+    title: >
+      The multifaceted benefits of passive heat therapies for extending the healthspan:
+      A comprehensive review with a focus on Finnish sauna
+    journal: Experimental Gerontology
+    pmcid: PMC10989710
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10989710/
+    notes: >
+      Reviews Finnish sauna evidence across longevity, cardiovascular, metabolic, immune,
+      and neurological domains. Discusses optimal session parameters for healthspan extension.
+      Highlights dose-response data from Kuopio Ischemic Heart Disease Risk Factor Study.
+
+  - id: brunt_2025_passive_heating_meta
+    authors: Brunt VE et al.
+    year: 2025
+    title: >
+      Non-acute effects of passive heating interventions on cardiometabolic risk and
+      vascular health: systematic review and meta-analysis of randomized controlled trials
+    journal: American Journal of Physiology
+    pmcid: PMC12490526
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12490526/
+    notes: >
+      20 RCTs (hot water bathing, saunas, hot yoga, local heating), 2–15 week durations.
+      Compared with controls, heat therapy decreased systolic and diastolic blood pressure
+      by ~4 mmHg. Mixed findings on other cardiometabolic markers. Only 1 RCT met Cochrane
+      low-risk-of-bias criteria. Authors note need for better-designed long-term RCTs.
+
+  - id: frontiers_cvd_pad_2025
+    authors: Various
+    year: 2025
+    title: "Sauna use as a novel management approach for cardiovascular health and peripheral arterial disease"
+    journal: Frontiers in Cardiovascular Medicine
+    pmcid: PMC11933885
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11933885/
+    notes: >
+      Reviews sauna as adjunct therapy for PAD and CVD. Discusses mechanisms (NO, HSPs,
+      autonomic balance), safety protocols for patients with cardiovascular conditions,
+      and session parameters for clinical populations.
+
+cohort_studies:
+  - id: laukkanen_2015_jama
+    authors: Laukkanen T, Khan H, Zaccardi F, Laukkanen JA
+    year: 2015
+    title: "Association between sauna bathing and fatal cardiovascular and all-cause mortality events"
+    journal: JAMA Internal Medicine
+    pmid: "25705824"
+    url: https://pubmed.ncbi.nlm.nih.gov/25705824/
+    notes: >
+      Landmark Kuopio study. 2,315 middle-aged Finnish men, median follow-up 20.7 years.
+      190 sudden cardiac deaths, 281 fatal CHD events, 407 fatal CVD events, 929 all-cause deaths.
+      Dose-response: 4-7 sessions/week vs 1 session/week — 63% lower SCD risk, 48% lower CHD,
+      50% lower CVD, 40% lower all-cause mortality. Average session: 15 min at ~79°C.
+
+  - id: laukkanen_2018_women
+    authors: Laukkanen T, Kunutsor SK, Zaccardi F, et al.
+    year: 2018
+    title: >
+      Sauna bathing is associated with reduced cardiovascular mortality and improves risk
+      prediction in men and women: a prospective cohort study
+    journal: BMC Medicine
+    pmcid: PMC6262976
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6262976/
+    notes: >
+      Extends 2015 findings to include women. Confirms inverse associations between sauna
+      frequency and cardiovascular mortality in both sexes. Improved risk prediction over
+      traditional risk factors.
+
+  - id: laukkanen_2024_sbp_interaction
+    authors: Laukkanen JA et al.
+    year: 2024
+    title: "Sauna bathing and mortality risk: unraveling the interaction with systolic blood pressure in a cohort of Finnish men"
+    journal: Scandinavian Cardiovascular Journal
+    doi: 10.1080/14017431.2024.2302159
+    url: https://www.tandfonline.com/doi/full/10.1080/14017431.2024.2302159
+    notes: >
+      Examines interaction between sauna frequency and systolic blood pressure on mortality.
+      Suggests greatest protective effect in those with elevated baseline SBP — sauna may
+      partially mitigate hypertension-related mortality risk.
+
+  - id: inflammation_mortality_2022
+    authors: Laukkanen JA et al.
+    year: 2022
+    title: "Inflammation, sauna bathing, and all-cause mortality in middle-aged and older Finnish men: a cohort study"
+    journal: European Journal of Preventive Cardiology
+    pmcid: PMC9792415
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9792415/
+    notes: >
+      Shows sauna bathing reduces all-cause mortality even after adjusting for inflammatory
+      markers (CRP, IL-6). Suggests sauna's anti-inflammatory effects partially mediate
+      mortality reduction. High-frequency sauna associated with lowest CRP levels.
+
+  - id: laukkanen_2016_dementia
+    authors: Laukkanen T, Kunutsor S, Kauhanen J, Laukkanen JA
+    year: 2016
+    title: "Sauna bathing is inversely associated with dementia and Alzheimer's disease in middle-aged Finnish men"
+    journal: Age and Ageing
+    notes: >
+      4-7x/week sauna use associated with 66% lower dementia risk and 65% lower
+      Alzheimer's disease risk vs 1x/week. Prospective follow-up data from Kuopio cohort.
+      Mechanisms proposed: improved cerebral blood flow, reduced neuroinflammation,
+      HSP activation, amyloid clearance, BDNF upregulation.
+
+rcts:
+  - id: ajp_exercise_sauna_2022
+    authors: Laukkanen JA et al.
+    year: 2022
+    title: >
+      Effects of regular sauna bathing in conjunction with exercise on cardiovascular
+      function: a multi-arm, randomized controlled trial
+    journal: American Journal of Physiology - Regulatory, Integrative and Comparative Physiology
+    pmcid: PMC9394774
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9394774/
+    notes: >
+      3-arm RCT: exercise alone vs exercise + sauna vs control. Exercise + sauna group
+      showed greater increases in cardiorespiratory fitness (VO2max), greater reductions
+      in systolic blood pressure, and lower total cholesterol vs exercise alone.
+      Sauna sessions: 15 min post-exercise at Finnish sauna temperatures.
+
+  - id: cad_sauna_rct_2023
+    authors: Laukkanen JA et al.
+    year: 2023
+    title: "Finnish sauna bathing and vascular health of adults with coronary artery disease: a randomized controlled trial"
+    journal: Journal of Applied Physiology
+    doi: 10.1152/japplphysiol.00322.2023
+    url: https://journals.physiology.org/doi/full/10.1152/japplphysiol.00322.2023
+    notes: >
+      RCT in CAD patients. Regular Finnish sauna bathing improved arterial compliance,
+      endothelial function (FMD), and reduced blood pressure in CAD patients.
+      Supports sauna as safe and beneficial adjunct therapy for stable coronary disease.
+
+  - id: acute_sauna_cold_women_2025
+    authors: Various
+    year: 2025
+    title: "Acute Finnish sauna heating and cold water immersion effects on cardiovascular dynamic response in normotensive women"
+    journal: Scientific Reports (Nature)
+    url: https://www.nature.com/articles/s41598-025-29035-w
+    notes: >
+      RCT examining acute cardiovascular responses (HR, BP, HRV) to Finnish sauna followed
+      by cold water immersion. Sauna phase: HR increase, vasodilation. CWI phase: vagal
+      rebound, BP normalization. Sauna+CWI sequence may enhance autonomic balance.
+
+  - id: sauna_acclimation_football_2021
+    authors: Various
+    year: 2021
+    title: >
+      3-Week passive acclimation to extreme environmental heat (100±3°C) in dry sauna
+      increases physical and physiological performance among young semi-professional football players
+    journal: Journal of Thermal Biology
+    doi: 10.1016/j.jtherbio.2021.103005
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0306456521002163
+    notes: >
+      3 weeks of regular sauna improved VO2max, cardiorespiratory parameters, and physical
+      performance in athletes. Demonstrates heat acclimation protocol transferability
+      to temperate performance environments.
+
+  - id: runners_sauna_acclimation_2021
+    authors: Various
+    year: 2021
+    title: >
+      Intermittent post-exercise sauna bathing improves markers of exercise capacity
+      in hot and temperate conditions in trained middle-distance runners
+    journal: European Journal of Applied Physiology
+    pmcid: PMC7862510
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7862510/
+    notes: >
+      Post-exercise sauna protocol: plasma volume expansion, reduced exercise HR,
+      reduced core temperature during exercise in heat. Benefits transfer to temperate
+      conditions as well. 3 weeks near-maximal adaptation; 7 weeks no further benefit.
+
+optimal_parameters:
+  evidence_base: >
+    Primary source: Kuopio Ischemic Heart Disease Risk Factor Study (KIHD), n=2,315+,
+    20+ year follow-up, Finnish men (extended to women). Average session parameters in
+    the landmark studies used as reference points for protocols below.
+
+  traditional_finnish_sauna:
+    temperature_range_celsius: "80–100"
+    temperature_optimal_celsius: "~79 (average in KIHD landmark studies)"
+    humidity_percent: "10–20"
+    session_duration_minutes: "15–20"
+    frequency_per_week:
+      minimum_benefit: 2
+      optimal_mortality_reduction: "4–7"
+    dose_response:
+      "1x/week": baseline reference
+      "2–3x/week": "22% lower all-cause mortality, 23% lower CVD mortality"
+      "4–7x/week": "40% lower all-cause mortality, 50% lower CVD mortality, 63% lower SCD"
+    hydration: "~500 mL (16 oz) per 10 minutes of exposure; pre- and post-session"
+    cooling_between_sets: "Optional; cold water immersion may augment autonomic response"
+
+  growth_hormone_protocol:
+    description: >
+      Intermittent sauna protocol shown to produce 16-fold increase in GH in males
+    structure:
+      - "30 min sauna"
+      - "5 min cool-off outside sauna"
+      - "30 min sauna"
+      - "cool-off"
+    notes: >
+      Based on older endocrine studies (1980s). GH increase dependent on sufficient
+      duration and thermal stress. Effect attenuated if sauna is entered post-meal.
+
+  session_structure_recommendations:
+    beginner: "5–10 min, 70–80°C, 1–2x/week; build tolerance over 2–4 weeks"
+    standard: "15–20 min, 80–90°C, 3–4x/week"
+    advanced: "20–30 min, 85–100°C, 4–7x/week; may include cold contrast"
+
+safety_contraindications:
+  absolute_contraindications:
+    - condition: Unstable angina pectoris
+      rationale: Heat-induced tachycardia and vasodilation may precipitate acute ischemia
+    - condition: Recent myocardial infarction (within 3–6 months)
+      rationale: Insufficient cardiac reserve; hemodynamic instability risk
+    - condition: Severe aortic stenosis
+      rationale: Fixed cardiac output; cannot accommodate heat-induced vasodilation
+    - condition: Decompensated heart failure
+      rationale: Additional hemodynamic stress; may worsen pulmonary congestion
+    - condition: Acute infectious disease or fever
+      rationale: Hyperthermia risk; immune system already stressed
+    - condition: Acute chest pain (any cause)
+      rationale: Rule out cardiac etiology before heat exposure
+
+  relative_contraindications:
+    - condition: First-trimester pregnancy
+      rationale: >
+        Elevated core temperature (>38.9°C) associated with neural tube defects.
+        Most guidelines advise complete avoidance or sessions <10 min at lower temps.
+    - condition: Epilepsy / seizure disorders
+      rationale: Extreme temperature changes may lower seizure threshold
+    - condition: Antihypertensive medications
+      rationale: >
+        Orthostatic hypotension risk on standing/exiting sauna; time medications
+        away from sauna sessions
+    - condition: Anticholinergic medications
+      rationale: Impair sweating; impaired thermoregulation; overheating risk
+    - condition: Alcohol consumption
+      rationale: >
+        Significantly increases sudden death risk. Vasodilation + dehydration +
+        impaired thermoregulation = high-risk combination. Absolute caution.
+
+  special_population_protocols:
+    stable_cad_or_compensated_hf:
+      max_duration_minutes: 20
+      max_temperature_celsius: 90
+      recommendation: "Gradual cooling after session; ensure adequate hydration; physician clearance"
+    athletes:
+      notes: "Post-exercise sauna augments adaptation; avoid if heat injury risk present"
+
+  adverse_events:
+    - syncope (vasovagal, orthostatic on exiting)
+    - dehydration / electrolyte imbalance
+    - burns (contact with hot surfaces)
+    - slip and fall injuries
+    - heat exhaustion (rare in controlled sessions, more common with alcohol)
+
+  risk_thresholds:
+    alcohol: "Any alcohol before or during sauna significantly elevates sudden death risk"
+    duration: ">30 min continuous exposure increases adverse event probability substantially"
+    temperature: ">100°C air temperature with low heat tolerance warrants caution"
+
+adaptation_studies:
+  timeline:
+    days_4_to_14: >
+      Cardiovascular and thermoregulatory adaptations begin. Reduced exercise HR,
+      reduced core temperature during exercise, increased sweat gland activity.
+    weeks_3: >
+      Near-maximal heat acclimation achieved via post-exercise sauna protocol.
+      Plasma volume expansion, reduced exercise HR and core temperature in heat.
+      Physical performance improvements in both hot and temperate conditions.
+    weeks_7: >
+      No additional heat acclimation benefit over 3-week protocol observed in runners.
+      Long-term metabolic and cardiovascular benefits (HSP expression, NO bioavailability,
+      structural vascular changes) continue to accrue with multi-month regular use.
+    months_to_years: >
+      Mortality and disease-risk reductions seen in epidemiological studies reflect
+      years of regular practice. Chronic sauna use associated with structural vascular
+      adaptation, sustained anti-inflammatory effects, improved autonomic balance.
+
+  key_adaptations:
+    cardiovascular:
+      - Plasma volume expansion (acts like aerobic training adaptation)
+      - Reduced resting and exercise heart rate
+      - Improved arterial compliance / reduced arterial stiffness
+      - Enhanced endothelial function (flow-mediated dilation)
+      - Lower resting systolic blood pressure (~4 mmHg mean reduction across RCTs)
+    thermoregulatory:
+      - Increased sweat rate and earlier onset of sweating
+      - Reduced core temperature rise during heat stress
+      - Faster heat dissipation response
+    cellular:
+      - Sustained elevation of heat shock protein expression (HSP70, HSP90)
+      - HSP upregulation occurs faster in heat-acclimated individuals
+      - Increased mitochondrial biogenesis (partial overlap with exercise adaptations)
+    metabolic:
+      - Improved insulin sensitivity (evidence from passive heating RCTs)
+      - Possible reduction in inflammatory markers (CRP, IL-6) with regular use
+
+mechanisms:
+  heat_shock_proteins:
+    description: >
+      Molecular chaperones that assist proper protein folding, prevent aggregation,
+      and repair denatured proteins. Primary mediators of hormetic adaptation to heat.
+    pathway: >
+      Sauna → core temperature elevation → activation of Heat Shock Factor 1 (HSF1)
+      → HSF1 translocates to nucleus → binds Heat Shock Elements (HSEs) in gene promoters
+      → transcription and synthesis of HSPs (within ~30 min of heat exposure).
+    key_proteins: [HSP70, HSP90, HSP27]
+    health_relevance:
+      - Prevent protein aggregation (relevant to neurodegenerative disease)
+      - Slow muscle atrophy
+      - Protect against chronic disease via proteostasis
+      - HSP90 stabilizes eNOS → sustained nitric oxide production
+
+  nitric_oxide:
+    description: >
+      Gaseous signaling molecule regulating vascular tone, blood pressure, and
+      endothelial health.
+    pathway: >
+      Heat exposure → increased shear stress + thermal stimulation of endothelium
+      → eNOS activation (stabilized by HSP90) → NO release → smooth muscle relaxation
+      → vasodilation → reduced peripheral resistance → lower blood pressure.
+    health_relevance:
+      - Direct mechanism for blood pressure reduction
+      - Improved endothelial function
+      - Anti-atherosclerotic effects
+
+  hormesis:
+    description: >
+      Biphasic dose-response: mild/moderate stressor → beneficial adaptive response;
+      excessive dose → harm. Sauna is a controlled hyperthermic stressor.
+    outcome: >
+      Repeated mild heat stress → upregulation of cytoprotective pathways (HSPs, antioxidants,
+      anti-inflammatory mediators) → increased cellular resilience to subsequent stressors.
+
+  autonomic_nervous_system:
+    description: >
+      Sauna acutely activates sympathetic nervous system; cooling phase and regular
+      practice may enhance parasympathetic (vagal) tone over time.
+    acute_response: "HR increases to 100–150 bpm; similar cardiovascular demand to moderate exercise"
+    chronic_adaptation: "Improved HRV; better vagal tone; possible protection against arrhythmia"
+
+  hormonal_responses:
+    growth_hormone:
+      acute_increase: "Up to 16-fold increase in males with repeated/prolonged sauna"
+      mechanism: "Heat-induced hypothalamic stimulation; potentiated by fasting state"
+    beta_endorphins:
+      response: Consistently increased during and after sauna
+      significance: Contributes to post-sauna well-being and mood elevation
+    norepinephrine:
+      response: Increased in heat-acclimated individuals
+      significance: Attention, focus, and metabolic effects
+    cortisol:
+      response: Variable (increases, decreases, or unchanged depending on protocol/population)
+      notes: >
+        Acute cortisol responses normalize with heat acclimatization;
+        chronic sauna users show attenuated cortisol stress response.
+
+  neurological_mechanisms:
+    bdnf:
+      description: Brain-Derived Neurotrophic Factor — promotes neurogenesis and neuronal survival
+      pathway: "Heat stress → BDNF upregulation → new neuron growth, neuroplasticity, neuroprotection"
+      relevance: "Antidepressant effects, memory, dementia prevention"
+    cerebral_blood_flow:
+      description: Sauna increases cerebral perfusion
+      relevance: "May support glymphatic waste clearance (amyloid, tau); dementia protection"
+    neuroinflammation:
+      description: Regular sauna reduces systemic and neuroinflammation
+      relevance: "Lower CRP and IL-6 levels; protection against Alzheimer's pathology"
+
+variations:
+  traditional_finnish_sauna:
+    temperature_celsius: "80–100"
+    humidity_percent: "10–20 (dry); rises to 30–40% with löyly — water thrown on stones"
+    evidence_quality: High
+    research_base: >
+      Majority of long-term epidemiological and mechanistic research conducted on this modality.
+      All Kuopio cohort studies used traditional Finnish saunas.
+    notes: "Löyly (steam bursts) is culturally standard in Finnish practice; humidity spikes are brief"
+
+  infrared_sauna:
+    temperature_celsius: "40–60"
+    mechanism: "Emits infrared radiation absorbed directly by tissue; heats body without heating air"
+    advantages:
+      - Lower ambient temperature (more tolerable for sensitive populations)
+      - May penetrate tissue more deeply for pain/inflammation
+    evidence_quality: Low to moderate
+    comparison_to_finnish: >
+      No long-term mortality/morbidity data comparable to Finnish cohort studies.
+      Evidence suggests comparable acute physiological responses (HR, sweating, HSP).
+      Cannot yet confirm equivalent long-term benefits.
+
+  steam_room:
+    temperature_celsius: "40–50"
+    humidity_percent: "95–100"
+    advantages:
+      - Respiratory benefits (mucus clearance, bronchodilation)
+      - Skin hydration
+    evidence_quality: Low
+    comparison_to_finnish: >
+      Limited long-term outcome data. Beneficial for respiratory conditions.
+      Cardiovascular adaptations likely similar but unconfirmed at population scale.
+
+  waon_therapy:
+    description: >
+      Japanese far-infrared dry sauna therapy (60°C for 15 min) used in clinical
+      cardiac rehabilitation settings, particularly for heart failure.
+    evidence: >
+      Multiple Japanese RCTs showing improved cardiac function, exercise tolerance,
+      quality of life in HF patients. Mechanism: NO upregulation, improved vascular function.
+    reference: Tei C et al., multiple publications 2000–2016.
+
+key_researchers:
+  - name: Jari A. Laukkanen
+    institution: University of Eastern Finland
+    contributions: >
+      Lead investigator, Kuopio Ischemic Heart Disease Risk Factor Study.
+      Primary source for most sauna mortality and CVD epidemiology.
+  - name: Setor K. Kunutsor
+    institution: University of Leicester, UK
+    contributions: Collaborator on Finnish cohort analyses; systematic reviews.
+  - name: Rhonda Patrick
+    institution: FoundMyFitness (science communicator)
+    contributions: >
+      Synthesized sauna research for public audiences; popularized HSP, BDNF,
+      and protocol frameworks. Not a primary researcher but useful for protocol summaries.
+  - name: Andrew Huberman
+    institution: Stanford (science communicator)
+    contributions: >
+      Published deliberate heat exposure protocols based on Finnish research.
+      Huberman Lab newsletter: Deliberate Heat Exposure Protocols for Health & Performance.
+
+synthesis_notes:
+  strength_of_evidence: >
+    Epidemiological evidence (cohort studies) is strong and consistent — dose-response
+    relationships for mortality are well-established in Finnish populations.
+    RCT evidence is more limited in scale and duration; most RCTs are small and short-term.
+    Mechanistic studies (HSP, NO, BDNF) are mostly in vitro or animal models,
+    with increasing human translational data.
+    Causal inference from cohort data is complicated by healthy user bias (active,
+    health-conscious individuals may use saunas more).
+
+  practice_gaps:
+    - No large RCTs with hard cardiovascular endpoints (MI, stroke, death)
+    - Infrared and steam modalities lack long-term outcome data
+    - Most cohort data from Finnish men; generalizability to other ethnicities unclear
+    - Optimal temperature/duration tradeoffs not formally studied in RCT setting
+    - Interaction with pharmacotherapy poorly characterized
+
+  practical_summary: >
+    For healthy adults, 3–4 sessions per week of 15–20 minutes at 80–90°C appears
+    to be a reasonable starting protocol with strong supporting evidence.
+    4–7 sessions/week associated with greatest mortality reduction but requires
+    full heat acclimation first (2–3 weeks of graduated exposure).
+    Avoid: alcohol, immediately after antihypertensives, unstable cardiac conditions,
+    first trimester pregnancy.
+    Maximize: hydration, gradual entry, cool-down period, combination with exercise.

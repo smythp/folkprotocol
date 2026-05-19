@@ -1,0 +1,850 @@
+---
+herb: Oil of Oregano
+scientific_name: "Origanum vulgare L. (common oregano; also O. vulgare subsp. hirtum for high-carvacrol Mediterranean types)"
+common_names:
+  - "Oil of oregano"
+  - "Oregano essential oil"
+  - "Mediterranean oregano"
+  - "Wild marjoram"
+  - "Greek oregano"
+bibliography_type: clinical_and_regulatory
+last_updated: 2026-02-28
+notes_on_scope: >
+  Oil of oregano refers to the steam-distilled or cold-pressed essential oil and its
+  emulsified preparations, distinguished from dried herb and aqueous extracts. The principal
+  bioactive constituents are carvacrol and thymol (monoterpenoid phenols). Commercial products
+  vary enormously: high-carvacrol types (O. vulgare subsp. hirtum, ≥70% carvacrol) dominate
+  therapeutic use; common oregano (subsp. vulgare) contains far less. The European Pharmacopoeia
+  sets a minimum standard of 60% combined carvacrol + thymol. Human RCT evidence is sparse;
+  most mechanistic and antimicrobial data come from in vitro or animal models. No WHO or
+  Commission E monograph exists specifically for O. vulgare essential oil (related monographs
+  cover O. majorana and O. dictamnus). FDA classifies oregano as GRAS as a food flavoring.
+
+# Randomized Controlled Trials (Human)
+clinical_trials:
+  - citation:
+      authors: "Nurmi A, Mursu J, Nurmi T, Nyyssönen K, Alfthan G, Hiltunen R, Kaikkonen J, Salonen JT, Voutilainen S"
+      title: "Consumption of juice fortified with oregano extract markedly increases excretion of phenolic acids but lacks short- and long-term effects on lipid peroxidation in healthy nonsmoking men"
+      journal: "Journal of Agricultural and Food Chemistry"
+      year: 2006
+      volume: "54"
+      issue: "16"
+      pages: "5875-5884"
+      pmid: "16881679"
+      doi: "10.1021/jf060058b"
+      url: "https://pubmed.ncbi.nlm.nih.gov/16881679/"
+    study_details:
+      design: "Randomized, double-blind, parallel-group controlled trial"
+      participants: 45  # healthy nonsmoking men
+      population: "Healthy adult males"
+      groups: 3  # placebo / low dose / high dose
+      intervention:
+        low_dose: "Mango-orange juice enriched with 300 mg/day total phenolic compounds from oregano extract"
+        high_dose: "Mango-orange juice enriched with 600 mg/day total phenolic compounds from oregano extract"
+        placebo: "Plain mango-orange juice"
+      duration: "4 weeks"
+      primary_outcomes:
+        - "Urinary phenolic acid excretion: markedly increased in the 600 mg/day group vs placebo (specific fold-change not reported in abstract)"
+        - "Serum lipid peroxidation (MDA/TBARS): no significant changes in either oregano group vs placebo"
+      secondary_outcomes:
+        - "Serum lipids: no significant changes"
+        - "Safety biomarkers (liver enzymes, renal markers): no significant changes at either dose"
+      safety: "No adverse effects reported; no changes in safety parameters at 300 or 600 mg/day for 4 weeks"
+      extract_type: "Aqueous/ethanolic oregano phenolic extract standardized to total phenolics (not defined as essential oil)"
+      key_finding: "Oregano phenolic extract is absorbed (increased urinary phenolic output) but does not reduce lipid peroxidation in healthy men at these doses"
+
+  - citation:
+      authors: "Qaraaty M, Kamaneh SA"
+      title: "Effect of oregano oil (Origanum vulgare L.) on chronic rhinosinusitis: A randomized, double-blind, clinical trial"
+      journal: "Indian Journal of Traditional Knowledge (IJTK)"
+      year: 2020
+      volume: "19"
+      issue: "2"
+      doi: "10.56042/ijtk.v19i2.35368"
+      url: "https://www.cochranelibrary.com/content?templateType=related&urlTitle=/central/doi/10.1002/central/CN-02183755"
+      cochrane_id: "CN-02183755"
+    study_details:
+      design: "Randomized, double-blind, three-arm controlled clinical trial"
+      participants: 75  # adults with chronic rhinosinusitis without nasal polyps
+      population: "Adults with chronic rhinosinusitis (CRS without nasal polyps); Otolaryngology Clinic, Fifth Azar Hospital, January 30 – June 25, 2018"
+      groups: 3
+      intervention:
+        oregano_group: "Nasal spray containing oregano oil (Origanum vulgare L.)"
+        active_control: "Nasal spray containing fluticasone (standard pharmacotherapy)"
+        placebo: "Nasal spray containing sesame oil"
+      duration: "4 weeks"
+      primary_outcome: "SNOT-22 symptom score reduction"
+      key_outcomes:
+        - "Oregano group: mean SNOT-22 reduction of 51.52 points (95% CI: −55.79 to −47.24)"
+        - "Fluticasone group: mean SNOT-22 reduction of 21.60 points (95% CI: −25.48 to −17.71)"
+        - "Sesame oil (placebo) group: mean SNOT-22 reduction of 11.84 points (95% CI: −13.18 to −10.51)"
+        - "Oregano oil superior to fluticasone and placebo for CRS symptoms"
+      safety: "Not detailed in available abstract"
+      limitations:
+        - "Published in regional journal without PubMed indexing; independent replication needed"
+        - "Short duration (4 weeks); no long-term follow-up"
+        - "Mechanism of action (anti-inflammatory vs. antimicrobial) not established"
+        - "Active comparator fluticasone showed less effect than oregano; unusual finding requiring replication"
+      extract_type: "Nasal spray preparation of O. vulgare L. essential oil; standardization not specified"
+      key_finding: "Oregano oil nasal spray produced greater SNOT-22 improvement than fluticasone in CRS without polyps; requires independent replication"
+
+  - citation:
+      authors: "Shirvani H, Bazgir B, Shamsoddini A, Saeidi A, Tayebi SM, Escobar KA, Laher I, VanDusseldorp TA, Weiss K, Knechtle B, Zouhal H"
+      title: "Oregano (Origanum vulgare) Consumption Reduces Oxidative Stress and Markers of Muscle Damage after Combat Readiness Tests in Soldiers"
+      journal: "Nutrients"
+      year: 2022
+      volume: "15"
+      issue: "1"
+      pages: "49"
+      pmid: "36615794"
+      pmcid: "PMC9823977"
+      doi: "10.3390/nu15010049"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36615794/"
+    study_details:
+      design: "Randomized controlled trial, parallel-group"
+      participants: 24  # healthy male soldiers; oregano n=12, placebo n=12
+      population: "Healthy adult military males, mean age 24±3 years"
+      intervention: "Single 500 mg capsule Origanum vulgare powder consumed immediately post-exercise (army combat readiness test)"
+      comparator: "Placebo capsule"
+      duration: "Single acute intervention; measurements at 4 timepoints (pre-exercise, immediately post, 60 min, 120 min)"
+      primary_outcomes:
+        - "Creatine kinase (CK): significantly lower in oregano group at 60 and 120 minutes post-exercise (p<0.0001)"
+        - "Malondialdehyde (MDA): significantly reduced oxidative stress marker in oregano group (p<0.0001)"
+        - "Total antioxidant capacity (TAC): significantly increased in oregano group (p<0.0001)"
+        - "Superoxide dismutase (SOD): elevated post-intervention in oregano group"
+        - "Glutathione peroxidase (GPX): elevated post-intervention in oregano group"
+      safety: "No adverse effects reported"
+      limitations:
+        - "Single acute dose; no multi-dose or long-term data"
+        - "Small sample (n=24), exclusively healthy young males"
+        - "No blinding or allocation concealment details provided"
+      extract_type: "Crude O. vulgare powder capsule; standardization not described"
+      key_finding: "Single 500 mg oral dose of oregano powder attenuated exercise-induced oxidative stress and muscle damage markers"
+
+# Clinical Studies (Non-RCT)
+non_rct_clinical_studies:
+  - citation:
+      authors: "Force M, Sparks WS, Ronzio RA"
+      title: "Inhibition of enteric parasites by emulsified oil of oregano in vivo"
+      journal: "Phytotherapy Research"
+      year: 2000
+      volume: "14"
+      issue: "3"
+      pages: "213-214"
+      pmid: "10815019"
+      doi: "10.1002/(SICI)1099-1573(200005)14:3<213::AID-PTR583>3.0.CO;2-U"
+      url: "https://pubmed.ncbi.nlm.nih.gov/10815019/"
+    study_details:
+      design: "Uncontrolled open-label clinical study"
+      participants: 14  # adult patients with stool-confirmed enteric parasites
+      population: "Adults with confirmed enteric parasitic infection"
+      intervention: "600 mg/day emulsified oil of Mediterranean oregano (Oreganum vulgare)"
+      comparator: "None (uncontrolled)"
+      duration: "6 weeks"
+      parasites_targeted:
+        - "Blastocystis hominis"
+        - "Entamoeba hartmanni"
+        - "Endolimax nana"
+      key_outcomes:
+        - "Complete disappearance of Entamoeba hartmanni: 4/4 cases (100%)"
+        - "Complete disappearance of Endolimax nana: 1/1 case (100%)"
+        - "Complete disappearance of Blastocystis hominis: 8 of 11 infected cases (73%)"
+        - "Blastocystis hominis scores declined (not cleared): 3 additional cases"
+        - "Gastrointestinal symptom improvement: 7 of 11 Blastocystis-positive patients (64%)"
+      safety: "No adverse effects reported"
+      limitations:
+        - "No control group; no randomization"
+        - "Very small sample (n=14)"
+        - "No blinding"
+        - "Single publication site (Biotics Research Corporation); potential conflict of interest"
+      extract_type: "Emulsified oil of oregano; carvacrol content not specified"
+      key_finding: "First published clinical study using oil of oregano; promising antiparasitic signal requires confirmation in controlled trials"
+
+  - citation:
+      authors: "Nikolić I, Chua EG, Tay ACY, Kostrešević A, Pavlović B, Jončić Savić K"
+      title: "Savory, Oregano and Thyme Essential Oil Mixture (HerbELICO®) Counteracts Helicobacter pylori"
+      journal: "Molecules"
+      year: 2023
+      volume: "28"
+      issue: "5"
+      pages: "2184"
+      pmid: "36903396"
+      pmcid: "PMC10003975"
+      doi: "10.3390/molecules28052184"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36903396/"
+    study_details:
+      design: "In vitro + uncontrolled customer case study (NOT an RCT)"
+      study_components:
+        in_vitro:
+          - "GC-MS characterization: carvacrol and thymol as major compounds, with p-cymene and γ-terpinene"
+          - "Tested against 20 H. pylori clinical strains including antibiotic-resistant isolates"
+          - "MIC range: 36.6–45.7 g/L (4–5% v/v)"
+          - "10 minutes exposure sufficient to kill H. pylori strains"
+          - "Penetrated artificial mucin barrier"
+        clinical_case_study:
+          participants: 15  # dietary supplement users; non-randomized, no placebo
+          population: "H. pylori-positive individuals using HerbELICO® dietary supplement"
+          outcome: "14 of 15 users (93%) tested H. pylori negative at 8 weeks post-treatment; loss of symptoms with no unwanted side effects"
+      intervention: "HerbELICO® liquid/solid dietary supplement (savory + oregano + thyme essential oil mixture)"
+      safety: "No unwanted side effects reported in 15 users"
+      limitations:
+        - "Customer case study; non-randomized, no placebo, no blinding"
+        - "n=15 insufficient for clinical conclusions"
+        - "Cannot distinguish herb contribution from spontaneous resolution"
+        - "Authors explicitly state: cannot be used to make clinical conclusions directly"
+      key_finding: "In vitro evidence strong; clinical signal (93% eradication) noteworthy but requires RCT confirmation"
+
+  - citation:
+      authors: "Ghitea TC, Aleya L, Tit DM, Behl T, Bungau SG, Moisa C, Uivarosan D, Iovan C, Endres L, Bustea C"
+      title: "The Antimicrobial Activity of Origanum vulgare L. Correlated with the Gastrointestinal Perturbation in Patients with Metabolic Syndrome"
+      journal: "Molecules"
+      year: 2021
+      volume: "26"
+      issue: "1"
+      pages: "156"
+      pmid: "33429991"
+      doi: "10.3390/molecules26010156"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33429991/"
+    study_details:
+      design: "Clinical trial with multi-group bacteriological assessment; not randomized placebo-controlled"
+      participants: 106  # patients with metabolic syndrome
+      population: "Patients with metabolic syndrome and confirmed enteric bacterial infection"
+      groups:
+        - "L1: 32 patients with staphylococcal infection treated with oregano oil"
+        - "L2: 51 patients with E. coli infection treated with oregano oil"
+        - "L3: 2 patients with streptococcal infection (oregano treatment)"
+        - "CG: 20 control patients (no infection, no treatment)"
+      intervention: "Essential oil of Origanum vulgare L. tested at 0.2 μL, 0.4 μL, and 0.6 μL concentrations"
+      duration: "10 days"
+      key_outcomes:
+        - "Oregano oil demonstrated antibacterial activity against Staphylococcus, E. coli, and Streptococcus similar to antibiotic treatment"
+        - "After 10 days, gastrointestinal side effects were absent"
+        - "Oregano oil improved phase angle (a cellular health and hydration marker)"
+        - "No significant disruption of the gut microbiome observed (unlike standard antibiotics)"
+      safety: "No adverse events reported; intestinal side effects absent post-treatment"
+      limitations:
+        - "Not a randomized placebo-controlled design"
+        - "Very small streptococcal subgroup (n=2)"
+        - "No standardized oregano oil preparation described (concentrations are in vitro test doses)"
+        - "Short duration (10 days); no long-term follow-up"
+      extract_type: "Essential oil of Origanum vulgare L.; specific subspecies and carvacrol content not reported"
+      key_finding: "Oregano oil shows clinical antimicrobial activity comparable to antibiotics against enteric pathogens in metabolic syndrome patients without gut microbiome disruption"
+
+# Comparative Effectiveness Studies (Herbal Multi-Ingredient)
+comparative_studies:
+  - citation:
+      authors: "Chedid V, Dhalla S, Clarke JO, Roland BC, Dunbar KB, Koh J, Justino E, Tomakin E, Mullin GE"
+      title: "Herbal therapy is equivalent to rifaximin for the treatment of small intestinal bacterial overgrowth"
+      journal: "Global Advances in Health and Medicine"
+      year: 2014
+      volume: "3"
+      issue: "3"
+      pages: "16-24"
+      pmid: "24891990"
+      pmcid: "PMC4030608"
+      doi: "10.7453/gahmj.2014.019"
+      url: "https://pubmed.ncbi.nlm.nih.gov/24891990/"
+    study_details:
+      design: "Comparative effectiveness trial with optional crossover for non-responders"
+      participants: 104  # SIBO confirmed by lactulose breath testing; 67 rifaximin, 37 herbal
+      population: "Adults with confirmed small intestinal bacterial overgrowth (SIBO)"
+      intervention: "Herbal therapy (multi-ingredient botanical formulas; specific products included Dysbiocide and FC-Cidal by Biotics Research, containing berberine, oregano, thyme, and other botanicals)"
+      comparator: "Rifaximin 1200 mg daily"
+      duration: "4 weeks treatment + follow-up breath testing"
+      key_outcomes:
+        - "Herbal therapy: 46% negative follow-up breath test (17/37 patients)"
+        - "Rifaximin: 34% negative follow-up breath test (23/67 patients)"
+        - "Adjusted odds ratio 1.85 favoring herbs (p=0.17, non-significant)"
+        - "Rifaximin non-responders given herbal rescue: 57% response rate (8/14)"
+      safety:
+        rifaximin_arm: "Anaphylaxis (1), hives (2), diarrhea (2), C. difficile (1)"
+        herbal_arm: "Diarrhea (1 case); p=0.22 vs rifaximin (non-significant)"
+      limitations:
+        - "Not an RCT; non-random treatment assignment"
+        - "Herbal products are multi-ingredient blends — cannot attribute effect to oregano alone"
+        - "Non-significant primary endpoint"
+      key_finding: "Herbal multi-ingredient therapy (containing oregano among other botanicals) was non-inferior to rifaximin for SIBO clearance; oregano contribution cannot be isolated"
+
+# Key Review Articles
+review_articles:
+  - citation:
+      authors: "Leyva-López N, Gutiérrez-Grijalva EP, Vazquez-Olivo G, Heredia JB"
+      title: "Essential Oils of Oregano: Biological Activity beyond Their Antimicrobial Properties"
+      journal: "Molecules"
+      year: 2017
+      volume: "22"
+      issue: "6"
+      pages: "989"
+      pmid: "28613267"
+      pmcid: "PMC6152729"
+      doi: "10.3390/molecules22060989"
+      url: "https://pubmed.ncbi.nlm.nih.gov/28613267/"
+    study_details:
+      study_type: "Narrative review"
+      scope: "Antioxidant, anti-inflammatory, antidiabetic, and anticancer activities of oregano essential oils beyond antimicrobial properties"
+      key_findings:
+        - "Principal constituents: carvacrol (up to 72.25%) and thymol, plus p-cymene, γ-terpinene, linalool, β-myrcene"
+        - "Anti-inflammatory: oregano oil inhibits NF-κB and COX-2 pathways in cell models"
+        - "Antidiabetic: inhibits α-amylase and α-glucosidase in vitro; no human clinical data"
+        - "Antioxidant: DPPH radical scavenging; no human clinical outcome data"
+        - "Anticancer: preclinical models only; no human data"
+      clinical_evidence_gaps:
+        - "Authors explicitly state: 'several in vivo and clinical studies are needed before EOs can be used as an alternative to treat inflammation'"
+        - "No standardized human dosing recommendations in review"
+        - "High-concentration carvacrol may induce oxidative stress (>230 μM) in cell cultures"
+
+  - citation:
+      authors: "Sharifi-Rad M, Varoni EM, Iriti M, Martorell M, Setzer WN, Del Mar Contreras M, Salehi B, Soltani-Nejad A, Rajabi S, Tajbakhsh M, Sharifi-Rad J"
+      title: "Carvacrol and human health: A comprehensive review"
+      journal: "Phytotherapy Research"
+      year: 2018
+      volume: "32"
+      issue: "9"
+      pages: "1675-1687"
+      pmid: "29744941"
+      doi: "10.1002/ptr.6103"
+      url: "https://pubmed.ncbi.nlm.nih.gov/29744941/"
+    study_details:
+      study_type: "Comprehensive narrative review"
+      scope: "Antimicrobial, anticancer, antioxidant, anti-inflammatory, and pharmacokinetic properties of carvacrol"
+      key_findings:
+        - "CYP2A6 is the major enzyme involved in human carvacrol metabolism; CYP1A2 and CYP2B6 contribute secondarily"
+        - "Authors state explicitly: 'human trials on carvacrol are still lacking, and this largely impedes any conclusions of clinical relevance'"
+        - "Anticancer preclinical activity against breast, liver, and lung carcinoma models"
+        - "Antimicrobial against E. coli, Salmonella, B. cereus, and MRSA in vitro"
+      bioavailability_constraints:
+        - "High volatility limits oral bioavailability"
+        - "Low water solubility; sensitivity to heat and acidic pH"
+        - "Nanoencapsulation under investigation to improve delivery"
+
+  - citation:
+      authors: "Nurzyńska-Wierdak R, Walasek-Janusz M"
+      title: "Chemical Composition, Biological Activity, and Potential Uses of Oregano (Origanum vulgare L.) and Oregano Essential Oil"
+      journal: "Pharmaceuticals (Basel)"
+      year: 2025
+      volume: "18"
+      issue: "2"
+      pages: "267"
+      pmid: "40006079"
+      pmcid: "PMC11858988"
+      doi: "10.3390/ph18020267"
+      url: "https://pubmed.ncbi.nlm.nih.gov/40006079/"
+    study_details:
+      study_type: "Narrative review"
+      scope: "Comprehensive synthesis of chemical composition, biological activities, and pharmaceutical/cosmetic applications"
+      key_findings:
+        - "Oregano essential oil contains thymol and carvacrol as primary bioactive compounds"
+        - "Significant antioxidant, anti-inflammatory, antiangiogenic, anticancer, and antimicrobial activities in vitro"
+        - "Potential source of natural antiseptics and protective agents for pharmaceutical/cosmetic production"
+        - "No standardized human clinical dosing data presented"
+
+# Systematic Reviews and Meta-Analyses (Carvacrol / Oregano — Human Clinical Focus)
+systematic_reviews:
+  - citation:
+      authors: "Hoang MP, Seresirikachorn K, Chitsuthipakorn W, Snidvongs K"
+      title: "Herbal Medicines for Rhinosinusitis: A Systematic Review and Network Meta-analysis"
+      journal: "Current Allergy and Asthma Reports"
+      year: 2023
+      volume: "23"
+      issue: "2"
+      pages: "79-92"
+      pmid: "36609950"
+      doi: "10.1007/s11882-022-01060-z"
+      url: "https://pubmed.ncbi.nlm.nih.gov/36609950/"
+    study_details:
+      study_type: "Systematic review and network meta-analysis"
+      rcts_included: 47  # examining 18 herbal medicines across 6 rhinosinusitis populations
+      herbal_medicines_assessed: 18
+      rhinosinusitis_populations: 6
+      evidence_grading: "GRADE approach"
+      oregano_finding: "For chronic rhinosinusitis without nasal polyps (CRSsNP), Origanum vulgare was the most beneficial treatment for improving symptoms and health-related quality of life (HRQoL)"
+      evidence_certainty: "Low certainty"
+      key_finding: "Origanum vulgare was ranked #1 among herbal medicines for CRSsNP symptom improvement; evidence graded low certainty; larger trials with extended follow-up needed"
+      limitations:
+        - "Low-certainty evidence (GRADE) due to limited number of oregano-specific trials"
+        - "Network meta-analysis assumptions may not hold across diverse patient populations"
+        - "Cannot distinguish active constituents (carvacrol vs. thymol vs. other components)"
+
+  - citation:
+      authors: "Carvalho FO, Silva ÉR, Santos NR, Oliveira EF, Guimarães AG"
+      title: "Anti-inflammatory and antioxidant activity of carvacrol in the respiratory system: A systematic review and meta-analysis"
+      journal: "Phytotherapy Research"
+      year: 2020
+      volume: "34"
+      issue: "9"
+      pages: "2214-2229"
+      pmid: "32249518"
+      doi: "10.1002/ptr.6680"
+      url: "https://pubmed.ncbi.nlm.nih.gov/32249518/"
+    study_details:
+      study_type: "Systematic review and meta-analysis"
+      initial_studies_identified: 152
+      studies_meeting_inclusion: 17  # 5 human, 12 animal
+      human_studies: 5
+      animal_studies: 12
+      meta_analysis_included: 9  # animal studies
+      primary_active_constituent: "Carvacrol (monoterpene present in oregano, thyme, and other Origanum spp. essential oils)"
+      key_outcomes:
+        inflammatory_markers_reduced:
+          - "IL-1β: significantly reduced"
+          - "IL-4: significantly reduced"
+          - "IL-8: significantly reduced"
+          - "MDA (malondialdehyde): significantly reduced"
+        markers_not_significantly_affected:
+          - "IL-6: no significant effect"
+          - "TNF-α: no significant effect"
+      conclusion: "Current evidence supports antioxidant and anti-inflammatory effects of carvacrol in respiratory conditions; human evidence limited; further research recommended"
+      limitations:
+        - "Only 5 human studies; predominantly animal models in meta-analysis"
+        - "Methodological heterogeneity across studies"
+        - "Most human trials small sample sizes"
+
+# Carvacrol Human Clinical Trials
+# Carvacrol is the primary bioactive constituent of high-carvacrol oil of oregano preparations.
+# These trials directly inform therapeutic dosing and safety of oil of oregano's active principle.
+carvacrol_human_clinical_trials:
+  - citation:
+      authors: "Ghorani V, Alavinezhad A, Rajabi O, Mohammadpour AH, Boskabady MH"
+      title: "Safety and tolerability of carvacrol in healthy subjects: a phase I clinical study"
+      journal: "Drug and Chemical Toxicology"
+      year: 2021
+      epub: 2018
+      volume: "44"
+      issue: "2"
+      pages: "195-202"
+      pmid: "30486682"
+      doi: "10.1080/01480545.2018.1538233"
+      url: "https://pubmed.ncbi.nlm.nih.gov/30486682/"
+    study_details:
+      design: "Phase I clinical trial, randomized, parallel-group"
+      study_type: "Safety and tolerability"
+      participants: "Not stated in abstract; two treatment groups"
+      population: "Healthy subjects"
+      groups:
+        - "Carvacrol 1 mg/kg/day for 1 month"
+        - "Carvacrol 2 mg/kg/day for 1 month"
+      duration: "1 month"
+      key_safety_findings:
+        - "No critical adverse reactions observed at either dose"
+        - "No clinically significant changes in biochemical, hematological, endocrine, renal, or hepatic function tests"
+        - "At 1 mg/kg/day: some changes in TG, phosphorus, LDH, PT, MCH, MCHC — all within normal range"
+        - "At 2 mg/kg/day: FEV1 (lung function) increased significantly (p<0.05); changes within normal limits"
+        - "Conclusion: clinical safety and tolerability confirmed for both doses over 1 month"
+      human_equivalent_dosing:
+        low_dose: "1 mg/kg/day — for 70 kg adult: ~70 mg/day carvacrol"
+        high_dose: "2 mg/kg/day — for 70 kg adult: ~140 mg/day carvacrol"
+        context: "Commercial oregano oil standardized to 75% carvacrol: 70 mg carvacrol ≈ 93 mg product; 140 mg carvacrol ≈ 187 mg product"
+      key_finding: "First Phase I human safety study for carvacrol; established tolerability at 1–2 mg/kg/day for 1 month with no serious adverse events"
+
+  - citation:
+      authors: "Alavinezhad A, Khazdair MR, Boskabady MH"
+      title: "Possible therapeutic effect of carvacrol on asthmatic patients: A randomized, double blind, placebo-controlled, Phase II clinical trial"
+      journal: "Phytotherapy Research"
+      year: 2018
+      volume: "32"
+      issue: "1"
+      pages: "151-159"
+      pmid: "29193478"
+      doi: "10.1002/ptr.5967"
+      url: "https://pubmed.ncbi.nlm.nih.gov/29193478/"
+    study_details:
+      design: "Randomized, double-blind, placebo-controlled Phase II clinical trial"
+      participants: 23
+      population: "Asthmatic patients"
+      groups:
+        placebo_group_n: 11
+        carvacrol_group_n: 12
+      intervention: "Carvacrol capsule at 1.2 mg/kg/day for 2 months"
+      duration: "2 months"
+      key_outcomes:
+        - "Pulmonary function test values (FEV1, FVC, PEF) significantly increased in carvacrol group (p<0.05 to p<0.001)"
+        - "Most respiratory symptoms significantly reduced after 2 months"
+        - "Total WBC and differential WBC counts significantly reduced (p<0.05 to p<0.001)"
+        - "Serum hs-CRP significantly reduced in carvacrol group"
+        - "No significant changes in placebo group across any measured parameter"
+      safety: "Not separately described; no adverse events mentioned"
+      human_equivalent_dose: "1.2 mg/kg/day carvacrol — for 70 kg adult: ~84 mg/day carvacrol"
+      key_finding: "Carvacrol 1.2 mg/kg/day for 2 months significantly improved pulmonary function, respiratory symptoms, and inflammatory markers in asthmatic patients"
+
+  - citation:
+      authors: "Ghorani V, Alavinezhad A, Rajabi O, Boskabady MH"
+      title: "Carvacrol improves pulmonary function tests, oxidant/antioxidant parameters and cytokine levels in asthmatic patients: A randomized, double-blind, clinical trial"
+      journal: "Phytomedicine"
+      year: 2021
+      volume: "85"
+      pages: "153539"
+      pmid: "33773189"
+      doi: "10.1016/j.phymed.2021.153539"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33773189/"
+    study_details:
+      design: "Randomized, placebo-controlled, double-blind clinical trial"
+      participants: 33  # moderate asthmatic patients
+      population: "Moderate asthmatic patients"
+      groups:
+        placebo_group_n: 16
+        carvacrol_group_n: 17
+      intervention: "Carvacrol 1.2 mg/kg/day in capsules taken three times daily alongside routine medications"
+      duration: "2 months"
+      key_outcomes:
+        - "Respiratory symptoms significantly decreased at 1 month and 2 months (p<0.05 to p<0.001)"
+        - "Pulmonary function tests improved significantly at 1 and 2 months vs. baseline"
+        - "Most oxidative stress markers improved following treatment"
+        - "Serum and PBMC cytokine levels improved significantly"
+        - "No significant changes in placebo group"
+      safety: "No adverse events reported"
+      key_finding: "Carvacrol 1.2 mg/kg/day as adjunct therapy for 2 months improved lung function, oxidative markers, and cytokines in moderate asthmatic patients; authors suggest carvacrol as potential therapeutic agent for asthma"
+
+  - citation:
+      authors: "Khazdair MR, Alavinezhad A, Boskabady MH"
+      title: "Carvacrol ameliorates haematological parameters, oxidant/antioxidant biomarkers and pulmonary function tests in patients with sulphur mustard-induced lung disorders: A randomized double-blind clinical trial"
+      journal: "Journal of Clinical Pharmacy and Therapeutics"
+      year: 2018
+      volume: "43"
+      issue: "5"
+      pages: "664-674"
+      pmid: "29574804"
+      doi: "10.1111/jcpt.12681"
+      url: "https://pubmed.ncbi.nlm.nih.gov/29574804/"
+    study_details:
+      design: "Randomized, double-blind clinical trial"
+      participants: 20  # 10 per group
+      population: "Veterans with sulphur mustard-induced chronic lung disorders"
+      groups:
+        carvacrol_group_n: 10
+        placebo_group_n: 10
+      intervention: "Carvacrol at 1.2 mg/kg/day"
+      duration: "2 months"
+      key_outcomes:
+        - "Peak expiratory flow (PEF) significantly increased in carvacrol group at month 2 (p<0.01)"
+        - "Total WBC and neutrophil counts decreased significantly at 1 and 2 months"
+        - "Thiol, superoxide dismutase, and catalase increased significantly (p<0.05 to p<0.001)"
+        - "Malondialdehyde (oxidative stress marker) decreased significantly by month 2"
+        - "Inflammatory cells and oxidant biomarkers reduced; antioxidant biomarkers increased"
+      safety: "No adverse events reported"
+      key_finding: "Carvacrol 1.2 mg/kg/day for 2 months improved hematological, antioxidant, and pulmonary function parameters in sulphur mustard lung injury patients"
+
+  - citation:
+      authors: "Khazdair MR, Boskabady MH"
+      title: "A double-blind, randomized, placebo-controlled clinical trial on the effect of carvacrol on serum cytokine levels and pulmonary function tests in sulfur mustard induced lung injury"
+      journal: "Cytokine"
+      year: 2019
+      volume: "113"
+      pages: "311-318"
+      pmid: "30075886"
+      doi: "10.1016/j.cyto.2018.07.026"
+      url: "https://pubmed.ncbi.nlm.nih.gov/30075886/"
+    study_details:
+      design: "Double-blind, randomized, placebo-controlled clinical trial"
+      participants: 20  # 10 per group
+      population: "Patients with sulphur mustard-induced lung injury"
+      groups:
+        carvacrol_group_n: 10
+        placebo_group_n: 10
+      intervention: "Carvacrol at 1.2 mg/kg/day for 2 months"
+      duration: "2 months"
+      key_outcomes:
+        - "Inflammatory cytokines IL-2, IL-4, IL-6, IL-8 significantly reduced in carvacrol group"
+        - "Anti-inflammatory markers IL-10 and IFN-γ increased"
+        - "IFN-γ/IL-4 ratio enhanced substantially by study end"
+        - "Maximum mid-expiratory flow and expiratory flow measurements improved significantly"
+        - "Pulmonary function metrics improved vs. baseline throughout treatment period"
+      safety: "No adverse events reported"
+      key_finding: "Carvacrol 1.2 mg/kg/day shifted cytokine balance toward anti-inflammatory profile and improved pulmonary function in sulfur mustard lung injury"
+
+  - citation:
+      authors: "Khazdair MR, Boskabady MH"
+      title: "The effect of carvacrol on inflammatory mediators and respiratory symptoms in veterans exposed to sulfur mustard, a randomized, placebo-controlled trial"
+      journal: "Respiratory Medicine"
+      year: 2019
+      volume: "150"
+      pages: "21-29"
+      pmid: "30961947"
+      doi: "10.1016/j.rmed.2019.02.005"
+      url: "https://pubmed.ncbi.nlm.nih.gov/30961947/"
+    study_details:
+      design: "Randomized, placebo-controlled trial"
+      participants: 21  # veterans exposed to sulfur mustard >20 years prior
+      population: "Veterans with chronic respiratory symptoms from sulfur mustard exposure >20 years prior"
+      intervention: "Carvacrol at 1.2 mg/kg/day"
+      duration: "2 months"
+      key_outcomes:
+        - "FEV1 improved significantly in carvacrol group by month 2"
+        - "Chest wheeze and nighttime wheeze decreased substantially within 1 month"
+        - "Nighttime cough and exercise-induced coughing improved by month 2"
+        - "Inflammatory markers TNF-α, EGF, VEGF decreased in treatment group"
+        - "Serum MCP-1 decreased in carvacrol group at month 2"
+        - "Anti-inflammatory cytokines increased"
+      safety: "No adverse events reported"
+      key_finding: "Carvacrol 1.2 mg/kg/day reduced inflammatory cytokines/chemokines, increased anti-inflammatory cytokines, and improved respiratory symptoms in veterans with chronic sulphur mustard exposure"
+
+# Pharmacokinetics and Bioavailability
+pharmacokinetics:
+  - citation:
+      authors: "Bajagai YS, Steel JC, Radovanovic A, Stanley D"
+      title: "Prolonged continual consumption of oregano herb interferes with the action of steroid hormones and several drugs, and effects signaling across the brain-gut axis"
+      journal: "Food & Function"
+      year: 2021
+      volume: "12"
+      issue: "1"
+      pages: "286-298"
+      pmid: "33349823"
+      doi: "10.1039/d0fo02755f"
+      url: "https://pubmed.ncbi.nlm.nih.gov/33349823/"
+    study_details:
+      model: "Broiler chickens fed 2% oregano supplementation (long-term continual consumption); not a human study"
+      design: "Randomized controlled animal feeding study with transcriptomic analysis"
+      key_findings:
+        - "Continual supplementation at high dietary levels (2%) altered microbiota-gut-brain axis signaling"
+        - "Altered expression of genes targeted by registered drugs; potential to affect drug efficiency and side effects"
+        - "Altered steroid hormone action through modified gene expression patterns"
+        - "Authors challenge 'natural = safe' assumption: 'natural products such as oregano have the potential for little to no side-effects' is not supported at high prolonged doses"
+      human_relevance: "Animal study; signals potential concern with chronic high-dose exposure; human drug interaction data absent"
+      note: "Drug interactions with human pharmaceutical agents not characterized in vivo; CYP2A6 identified as major human carvacrol-metabolizing enzyme in vitro"
+
+  - citation:
+      authors: "Reference: EFSA FEEDAP Panel"
+      title: "Summary: EFSA 90-day rat oral toxicity NOAEL data"
+      note: >
+        From EFSA 2017 safety assessment (PMC7009896 / EFSA Journal 2017): A 90-day rat oral
+        toxicity study established a NOAEL of 200 mg/kg body weight per day for oregano essential
+        oil (O. vulgare subsp. hirtum). Consumer exposure assessment via carvacrol as marker
+        showed a margin of exposure of approximately 4,000 compared to safe thresholds,
+        indicating substantial safety margins for typical consumer exposures.
+      bioavailability_summary:
+        - "Carvacrol: high lipophilicity; absorbed rapidly from GI tract; metabolized primarily by CYP2A6 (human); excreted as glucuronide and sulfate conjugates"
+        - "Thymol: similar physicochemical behavior to carvacrol; CYP2B6 involved in metabolism"
+        - "Emulsification significantly improves aqueous dispersibility and likely oral bioavailability (basis of emulsified oil products)"
+        - "No human pharmacokinetic studies measuring plasma carvacrol concentrations after oral oil of oregano supplements identified"
+
+# Safety Studies
+safety_studies:
+  - citation:
+      authors: "LiverTox Editorial Team (National Institute of Diabetes and Digestive and Kidney Diseases)"
+      title: "Oregano"
+      database: "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+      accession: "NBK591556"
+      year: "2023 (last updated)"
+      url: "https://www.ncbi.nlm.nih.gov/books/NBK591556/"
+    study_details:
+      hepatotoxicity_likelihood_score: "E (Unlikely cause of clinically apparent liver injury)"
+      key_findings:
+        - "No published reports of serum enzyme elevations attributable to oregano oil in clinical use"
+        - "Not implicated in any major international DILI registry (US DILI Network, Spanish DILI Registry, Latin American DILI Network)"
+        - "A 45-person clinical trial using 300–600 mg/day oregano extract for 4 weeks showed no changes in liver enzyme levels"
+        - "FDA designation: Generally Recognized As Safe (GRAS) as food flavoring"
+      known_safety_concerns:
+        - "Abortifacient: contraindicated in pregnancy"
+        - "Higher doses may cause GI discomfort, heartburn, constipation/diarrhea, nausea, vomiting, dizziness, headache"
+        - "Allergic reactions reported rarely (contact dermatitis, allergic rhinitis in Lamiaceae-sensitive individuals)"
+        - "Possible interference with anticoagulants due to antithrombotic properties (theoretical; not confirmed in humans)"
+      traditional_uses_noted:
+        - "Respiratory disorders (colds, fever, cough, bronchitis)"
+        - "Bacterial and fungal infections"
+        - "Parasitic infections"
+        - "Urinary tract infections"
+
+  - citation:
+      authors: "EFSA FEEDAP Panel (Rychen G, Aquilina G, et al.)"
+      title: "Safety and efficacy of an essential oil from Origanum vulgare subsp. hirtum (Link) Ietsw. for all animal species"
+      journal: "EFSA Journal"
+      year: 2019
+      volume: "17"
+      issue: "10"
+      pages: "e05909"
+      pmcid: "PMC7008907"
+      doi: "10.2903/j.efsa.2019.5909"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7008907/"
+    study_details:
+      regulatory_authority: "European Food Safety Authority (EFSA)"
+      scope: "Safety and efficacy of O. vulgare subsp. hirtum essential oil as sensory additive in animal feed"
+      species_assessed: "O. vulgare subsp. hirtum"
+      key_safety_data:
+        rat_90day_noael: "200 mg/kg body weight per day (highest dose tested)"
+        margin_of_exposure_humans: "~4,000 (substantial safety margin for typical dietary exposure)"
+        mutagenicity: "Not mutagenic in standard battery of tests"
+        user_hazards: "Skin/eye irritation potential; sensitization risk in susceptible individuals"
+      conclusion: "Safe for target animal species at approved feed concentrations; safety data relevant to human exposure estimation"
+      note: "Regulatory animal feed safety data; limited direct applicability to human therapeutic dosing"
+
+# Regulatory Monographs and Pharmacopoeia
+regulatory_documents:
+  - authority: "European Pharmacopoeia (Ph. Eur.)"
+    title: "Origanum herba (Oregano herb)"
+    monograph_number: "01/2008:1880"
+    standard: "ISO 13171 – Essential oil of oregano (GC-FID method)"
+    quality_standards:
+      minimum_essential_oil_content: "25 mL/kg dry herb"
+      minimum_carvacrol_plus_thymol: "60% of essential oil"
+    note: >
+      Primary pharmacopoeial quality standard for O. vulgare herb and essential oil in Europe.
+      Carvacrol and thymol serve as official phytochemical markers. GC-FID method used for
+      quantification. No therapeutic monograph for O. vulgare essential oil in Ph. Eur.
+
+  - authority: "European Medicines Agency (EMA) / HMPC"
+    title: "No EU herbal monograph exists for Origanum vulgare herba or essential oil"
+    related_monographs:
+      origanum_majorana:
+        title: "EU Herbal Monograph on Origanum majorana L., herba (Sweet marjoram)"
+        indication_traditional: "Oral: symptomatic relief of mild indigestion (bloating/flatulence); Topical: relief of irritated skin around nostrils"
+        url: "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-european-union-herbal-monograph-origanum-majorana-l-herba_en.pdf"
+      origanum_dictamnus:
+        title: "Community Herbal Monograph on Origanum dictamnus L., herba (Dittany of Crete)"
+        indication_traditional: "Herbal tea for symptomatic relief of cough associated with cold; mild gastrointestinal spasms and flatulence"
+        url: "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-origanum-dictamnus-l-herba-first-version_en.pdf"
+    note: >
+      O. vulgare (common oregano) does not have an EMA/HMPC monograph. Monographs for marjoram
+      (O. majorana) and dittany of Crete (O. dictamnus) provide limited precedent for traditional
+      use recognition in GI and respiratory indications within the Origanum genus.
+
+  - authority: "U.S. Food and Drug Administration (FDA)"
+    status: "Generally Recognized As Safe (GRAS)"
+    basis: "Long history of safe use as food flavoring agent"
+    limitation: "GRAS applies to culinary use; does not constitute approval for therapeutic use"
+    url: "https://www.fda.gov/food/food-additives-petitions/gras-substances-scogs-database"
+
+  - authority: "German Commission E"
+    status: "No monograph exists for Origanum vulgare essential oil"
+    note: "Commission E did not publish a monograph on oregano essential oil specifically"
+
+  - authority: "Health Canada (Natural Health Products Directorate)"
+    status: "Oregano accepted as natural health product"
+    recognized_uses: "Antioxidant; traditionally used as digestive aid; antimicrobial"
+    url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/1088"
+
+# Dosing Information
+dosing_information:
+  clinical_trial_doses:
+    - study: "Force et al. 2000 (parasites)"
+      dose: "600 mg/day emulsified oil of oregano"
+      duration: "6 weeks"
+      form: "Emulsified oil capsules"
+    - study: "Nurmi et al. 2006 (antioxidant/safety)"
+      dose: "300 or 600 mg/day total phenolics from oregano extract"
+      duration: "4 weeks"
+      form: "Phenolic extract in juice"
+    - study: "Shirvani et al. 2022 (exercise)"
+      dose: "500 mg single dose Origanum vulgare powder"
+      duration: "Single dose"
+      form: "Powder capsule"
+    - study: "Qaraaty & Kamaneh 2020 (rhinosinusitis)"
+      dose: "Nasal spray; concentration not specified"
+      duration: "4 weeks"
+      form: "Nasal spray"
+    - study: "Ghitea et al. 2021 (metabolic syndrome/antimicrobial)"
+      dose: "0.2–0.6 μL concentrations (in vitro MIC testing doses; clinical oral dosing not specified)"
+      duration: "10 days"
+      form: "Essential oil"
+    - study: "Ghorani et al. 2018/2021 (Phase I safety — carvacrol)"
+      dose: "1 mg/kg/day or 2 mg/kg/day carvacrol (≈70–140 mg/day for 70 kg adult)"
+      duration: "1 month"
+      form: "Carvacrol (pure compound)"
+      note: "Carvacrol is primary constituent of high-carvacrol oregano oil (typically 70–86%)"
+    - study: "Alavinezhad et al. 2018 (Phase II asthma — carvacrol)"
+      dose: "1.2 mg/kg/day carvacrol (≈84 mg/day for 70 kg adult)"
+      duration: "2 months"
+      form: "Carvacrol capsules"
+    - study: "Ghorani et al. 2021 (asthma — carvacrol)"
+      dose: "1.2 mg/kg/day carvacrol, 3x daily dosing"
+      duration: "2 months"
+      form: "Carvacrol capsules"
+    - study: "Khazdair & Boskabady 2018, 2019 (sulfur mustard — carvacrol)"
+      dose: "1.2 mg/kg/day carvacrol (≈84 mg/day for 70 kg adult)"
+      duration: "2 months"
+      form: "Carvacrol"
+  carvacrol_dose_range_summary:
+    safe_range_phase_I: "1–2 mg/kg/day (confirmed safe in healthy subjects for 1 month)"
+    therapeutic_range_trials: "1.2 mg/kg/day (used in all 4 carvacrol respiratory/asthma RCTs)"
+    absolute_dose_70kg: "~70–140 mg carvacrol/day"
+    equivalent_oil_dose_at_75pct_carvacrol: "~93–187 mg oregano oil/day"
+    duration_studied: "Up to 2 months (4 trials); 1 month in Phase I safety study"
+  traditional_and_commercial_dosing:
+    - preparation: "Emulsified oil of oregano capsules (commercial)"
+      dose_range: "150–500 mg"
+      frequency: "1–3 times daily"
+      standardization: "Typically standardized to 50–80% carvacrol"
+    - preparation: "Liquid tincture/oil blend (commercial)"
+      dose: "Variable; typically 3–5 drops to 1 mL in carrier oil"
+      frequency: "1–3 times daily"
+    - preparation: "Topical (diluted essential oil)"
+      dilution: "Typically 1–2% in carrier oil for skin application"
+  standardization:
+    primary_marker: "Carvacrol (most commercial products standardized to carvacrol content)"
+    common_carvacrol_range: "50–86% of essential oil in therapeutic-grade preparations"
+    european_pharmacopoeia_minimum: "60% combined carvacrol + thymol"
+    high_carvacrol_subspecies: "O. vulgare subsp. hirtum (Greek/Mediterranean oregano) — preferred for therapeutic preparations"
+    emulsification_note: "Emulsification improves aqueous dispersibility; Force et al. 2000 used emulsified form"
+  bioavailability_note: >
+    No human pharmacokinetic data (plasma carvacrol concentrations, Cmax, Tmax, half-life) are
+    available for commercial oil of oregano preparations. CYP2A6 is the primary human
+    metabolizing enzyme for carvacrol. Emulsified preparations are presumed to have higher
+    bioavailability than neat oil, but this has not been confirmed in human PK studies.
+
+# Key Research Gaps
+research_needs:
+  - "Human pharmacokinetic studies measuring plasma carvacrol/thymol after oral oil of oregano supplements"
+  - "Larger, independently replicated RCT for rhinosinusitis (following up Qaraaty 2020 and Hoang 2023 network meta-analysis findings)"
+  - "RCTs using whole oregano oil preparations (not pure carvacrol) to translate carvacrol trial findings to commercial products"
+  - "Dose-finding RCTs comparing carvacrol concentrations in oregano oil (50% vs 75% vs 86%) for therapeutic equivalence"
+  - "RCTs evaluating oil of oregano for H. pylori eradication (following up HerbELICO case study)"
+  - "Controlled clinical trial for enteric parasites (controlled follow-up to Force et al. 2000)"
+  - "Long-term safety data (>2 months) in humans"
+  - "Head-to-head comparison of standardized vs unstandardized preparations"
+  - "Drug interaction studies in humans (anticoagulants, CYP2A6 substrates)"
+  - "Bioavailability comparison of emulsified vs non-emulsified preparations in humans"
+  - "Clinical trials for respiratory infections (in vitro antiviral data not validated in humans)"
+  - "WHO/Commission E monograph assessment for O. vulgare essential oil"
+  - "Phase III carvacrol trials to confirm respiratory benefits from Phase II data"
+
+# Summary Points
+summary:
+  clinical_evidence:
+    - "Limited but growing human RCT evidence for oregano oil and its primary constituent carvacrol"
+    - "Oregano oil RCTs (whole oil/extract): 3 identified (rhinosinusitis n=75; antioxidant/safety n=45; exercise n=24)"
+    - "Oregano oil clinical studies (non-RCT): metabolic syndrome (n=106), antiparasitic (n=14), H. pylori blend (n=15)"
+    - "Carvacrol-specific RCTs (primary constituent): 5 identified — Phase I safety (healthy n=~20), 2 asthma trials (n=23, n=33), 2 sulfur mustard lung trials (n=20, n=21)"
+    - "Rhinosinusitis systematic review/network meta-analysis (Hoang 2023): 47 RCTs; Origanum vulgare ranked #1 among 18 herbals for CRSsNP (low certainty)"
+    - "Carvacrol respiratory systematic review/meta-analysis (Carvalho 2020): 5 human studies, 12 animal studies; significant anti-inflammatory and antioxidant evidence"
+    - "Multi-ingredient herbal SIBO trial (Chedid 2014) supports herbal antimicrobials broadly; oregano contribution not isolated"
+
+  safety:
+    - "Excellent safety record: LiverTox Likelihood Score E (unlikely hepatotoxic)"
+    - "FDA GRAS for food use; no cases in major DILI registries"
+    - "Rat NOAEL 200 mg/kg/day (EFSA); large safety margin for typical human doses"
+    - "Key contraindication: pregnancy (abortifacient); avoid medicinal doses during lactation"
+    - "GI side effects (heartburn, nausea) reported at higher doses"
+    - "Contact dermatitis in sensitive individuals (Lamiaceae family allergy)"
+    - "Animal data suggest possible hormonal/drug interference at chronic high doses"
+
+  bioavailability:
+    - "No human PK studies for oral oil of oregano identified"
+    - "Carvacrol metabolized primarily by CYP2A6 in humans"
+    - "High volatility and low water solubility limit absorption; emulsification likely improves this"
+    - "Absorption confirmed indirectly (Nurmi 2006: increased urinary phenolic excretion)"
+
+  regulatory_status:
+    - "No EU herbal monograph (EMA/HMPC) for O. vulgare essential oil"
+    - "No Commission E monograph for O. vulgare essential oil"
+    - "European Pharmacopoeia quality standard exists (Ph. Eur. 01/2008:1880): min 25 mL/kg oil, min 60% carvacrol+thymol"
+    - "FDA GRAS for food flavoring"
+    - "Health Canada recognizes as NHP for antioxidant and digestive use"
+
+# Search Sources
+sources:
+  - "PubMed database searches (conducted 2026-02-27 and 2026-02-28)"
+  - "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury (NCBI Bookshelf, NBK591556)"
+  - "EFSA Journal: Safety opinions on O. vulgare subsp. hirtum essential oil (2017, 2019)"
+  - "European Medicines Agency (EMA) herbal medicine database — Origanum species monographs"
+  - "European Pharmacopoeia monograph Origanum herba (01/2008:1880)"
+  - "Drugs and Lactation Database (LactMed) — Oregano entry (PMID 30000904)"
+  - "FDA GRAS substances database"
+  - "Health Canada Natural Health Products Ingredients Database"
+  - "Cochrane Library: Hoang et al. 2023 rhinosinusitis network meta-analysis (PMID 36609950)"
+  - "Indian Journal of Traditional Knowledge (IJTK): Qaraaty & Kamaneh 2020 rhinosinusitis RCT (DOI 10.56042/ijtk.v19i2.35368; Cochrane CENTRAL CN-02183755)"
+  - "Phytotherapy Research: Carvalho et al. 2020 carvacrol respiratory systematic review (PMID 32249518)"
+  - "Drug and Chemical Toxicology: Ghorani et al. 2018/2021 carvacrol Phase I safety (PMID 30486682)"
+  - "Phytotherapy Research: Alavinezhad et al. 2018 carvacrol asthma Phase II RCT (PMID 29193478)"
+  - "Phytomedicine: Ghorani et al. 2021 carvacrol asthma RCT (PMID 33773189)"
+  - "J Clinical Pharmacy & Therapeutics: Khazdair et al. 2018 carvacrol sulfur mustard RCT (PMID 29574804)"
+  - "Cytokine: Khazdair & Boskabady 2019 carvacrol sulfur mustard RCT (PMID 30075886)"
+  - "Respiratory Medicine: Khazdair & Boskabady 2019 carvacrol sulfur mustard RCT (PMID 30961947)"
+  - "Molecules: Ghitea et al. 2021 oregano oil metabolic syndrome study (PMID 33429991)"

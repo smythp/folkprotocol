@@ -1,0 +1,220 @@
+# Shilajit (Asphaltum punjabianum) Clinical Research Bibliography
+# Focus: Clinical studies (testosterone, fertility, exercise, cognition), Traditional Use, Safety, and Quality
+# Created: 2026-03-30
+
+clinical_studies:
+  testosterone_and_fertility:
+    - id: pandit_2016
+      title: "Clinical evaluation of purified Shilajit on testosterone levels in healthy volunteers"
+      authors:
+        - Pandit S
+        - Biswas S
+        - Jana U
+        - De RK
+        - Mukhopadhyay SC
+        - Biswas TK
+      year: 2016
+      journal: Andrologia
+      volume: 48
+      issue: 5
+      pages: "570-575"
+      pmid: 26395129
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/26395129/
+      doi: "10.1111/and.12482"
+      study_type: Randomized, double-blind, placebo-controlled clinical trial
+      sample_size: 75 healthy male volunteers
+      population: "Healthy males aged 45-55 years"
+      dosing:
+        preparation: "Purified Shilajit (PrimaVie)"
+        regimen: "250 mg twice daily"
+        duration: "90 days"
+      key_findings:
+        - "Total testosterone significantly increased by 20.45% in the Shilajit group (p < 0.05)"
+        - "Free testosterone increased by 19.14% (p < 0.05)"
+        - "DHEA (Dehydroepiandrosterone) increased by 31.35% (p < 0.05)"
+        - "Luteinizing Hormone (LH) and Follicle-Stimulating Hormone (FSH) levels were well-maintained."
+      statistical_findings:
+        total_testosterone_increase: "+20.45%"
+        free_testosterone_increase: "+19.14%"
+        dhea_increase: "+31.35%"
+
+    - id: biswas_2010
+      title: "Clinical evaluation of spermatogenic activity of processed Shilajit in oligospermia"
+      authors:
+        - Biswas TK
+        - Pandit S
+        - Mondal S
+        - Biswas SK
+        - Jana U
+        - Ghosh T
+        - Tripathi PC
+        - Debnath PK
+        - Auddy RG
+        - Auddy B
+      year: 2010
+      journal: Andrologia
+      volume: 42
+      issue: 1
+      pages: "48-56"
+      pmid: 20078516
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/20078516/
+      doi: "10.1111/j.1439-0272.2009.00956.x"
+      study_type: Clinical trial
+      sample_size: 60 infertile males with oligospermia
+      population: "Males aged 25-40 with oligozoospermia (<20 million sperm/mL)"
+      dosing:
+        preparation: "Processed Shilajit capsules"
+        regimen: "100 mg twice daily after meals"
+        duration: "90 days"
+      key_findings:
+        - "Total sperm count increased by 61.4% (p < 0.001)"
+        - "Sperm motility improved by 12.4% to 17.4% (p < 0.01)"
+        - "Normal sperm morphology increased by 18.9% (p < 0.001)"
+        - "Serum testosterone increased by 23.5% (p < 0.001)"
+        - "FSH levels decreased significantly (p < 0.01), indicating reduced testicular stress."
+        - "Malondialdehyde (MDA), a marker of oxidative stress, decreased in seminal plasma by 18.7% (p < 0.001)."
+
+  exercise_performance:
+    - id: keller_2019
+      title: "The effects of Shilajit supplementation on fatigue-induced decreases in muscular strength and serum hydroxyproline levels"
+      authors:
+        - Keller JL
+        - Housh TJ
+        - Hill EC
+        - Smith CM
+        - Schmidt RJ
+        - Johnson GO
+      year: 2019
+      journal: Journal of the International Society of Sports Nutrition
+      volume: 16
+      issue: 1
+      pages: "3"
+      pmid: 30728074
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30728074/
+      pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6364418/
+      doi: "10.1186/s12970-019-0270-2"
+      study_type: Randomized, double-blind, placebo-controlled crossover trial
+      sample_size: 63 recreationally active adults
+      dosing:
+        preparation: "Purified Shilajit (PrimaVie)"
+        regimen: "250 mg/day or 500 mg/day"
+        duration: "8 weeks"
+      key_findings:
+        - "The 500 mg dose of Shilajit maintained maximal voluntary isometric contraction (MVIC) strength better than placebo following a fatiguing protocol (p = 0.024)."
+        - "Supplementation with 500 mg/day resulted in a lower serum hydroxyproline concentration compared to placebo (p=0.038), suggesting reduced collagen degradation."
+        - "The 250 mg dose did not show significant differences from placebo."
+
+  cognitive_and_anti_aging:
+    - id: carrasco_gallardo_2012
+      title: "Shilajit: A Natural Phytocomplex with Potential Procognitive Activity"
+      authors:
+        - Carrasco-Gallardo C
+        - Guzman L
+        - Maccioni RB
+      year: 2012
+      journal: International Journal of Alzheimer's Disease
+      volume: 2012
+      pages: "674142"
+      pmid: 22482077
+      pubmed_link: https://pubmed.ncbi.nlm.nih.gov/22482077/
+      pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3296184/
+      doi: "10.1155/2012/674142"
+      study_type: Review (focus on mechanism)
+      key_findings:
+        - "Shilajit is a potent and very safe dietary supplement, potentially able to prevent several diseases, but its main medical application now appears to come from its actions in benefit of cognitive processes."
+        - "Fulvic acid, the main active principle, has been shown in vitro to inhibit the aggregation of tau protein fibrils, a hallmark of Alzheimer's disease."
+        - "Fulvic acid can disassemble pre-formed tau fibrils, suggesting a potential therapeutic role."
+        - "Shilajit's antioxidant properties and its ability to deliver minerals to target tissues also contribute to its neuroprotective effects."
+
+traditional_sources:
+  ayurvedic_texts:
+    - id: charaka_samhita
+      source: "Charaka Samhita"
+      text_type: Foundational Ayurvedic text
+      key_mentions:
+        - "Described as 'Shilajatu'."
+        - "Famous quote: 'There is no curable disease in the universe which is not effectively cured by Shilajatu when administered at the appropriate time...'"
+        - "Classified as a premier 'Rasayana' (rejuvenative tonic)."
+        - "Referred to as the 'conqueror of mountains and destroyer of weakness'."
+        - "Said to be an exudate from rocks (gold, silver, copper, iron) when heated by the sun."
+    - id: sushruta_samhita
+      source: "Sushruta Samhita"
+      text_type: Foundational Ayurvedic text on surgery and medicine
+      key_mentions:
+        - "Corroborates the origin of Shilajit as a rock exudate."
+        - "Expands the mineral source to include lead and tin."
+        - "Provides methods for testing the purity of Shilajit."
+        - "Mentions its use in treating obesity and urinary disorders."
+
+  ayurvedic_concepts:
+    - id: rasayana
+      concept: "Rasayana (Rejuvenation)"
+      description: "In Ayurveda, Rasayana is the branch of medicine focused on rejuvenation, longevity, and promoting vitality."
+      relevance_to_shilajit: "Shilajit is considered one of the most potent Rasayanas ('Rasayanottama'). It is believed to balance all three doshas (Vata, Pitta, Kapha) and rejuvenate all bodily tissues ('dhatus')."
+    - id: shodhana
+      concept: "Shodhana (Purification)"
+      description: "The traditional Ayurvedic process for purifying raw substances to remove impurities and toxic materials."
+      relevance_to_shilajit:
+        - "Raw Shilajit contains impurities like soil, rock particles, and potentially heavy metals, making Shodhana critical."
+        - "The most common method involves a decoction with 'Triphala' (a three-fruit combination)."
+        - "The process includes dissolving raw shilajit, filtering it multiple times, and then slowly drying it under the sun ('Surya Tapi')."
+
+  unani_medicine:
+    - id: unani_use
+      system: "Unani Medicine"
+      key_mentions:
+        - "Recognized for its tonic, anti-inflammatory, and aphrodisiac properties."
+        - "Used in combination with other herbs in Unani preparations."
+
+safety_and_quality:
+  heavy_metal_contamination:
+    - id: heavy_metals_risk
+      issue: "Heavy Metal Contamination"
+      description: "The most significant safety concern with Shilajit. Raw, unpurified Shilajit is unsafe for consumption."
+      contaminants:
+        - Lead (Pb)
+        - Arsenic (As)
+        - Cadmium (Cd)
+        - Mercury (Hg)
+      mitigation: "Only consume purified Shilajit from reputable brands that provide batch-specific, third-party COAs for heavy metals."
+
+  adulteration:
+    - id: adulteration_risk
+      issue: "Adulteration"
+      description: "The market is rife with counterfeit products."
+      common_adulterants:
+        - "Ozokerite (a mineral wax)"
+        - "Asphalt or coal tar"
+        - "Humic substances from soil"
+        - "Synthetic fulvic acid to inflate quality claims"
+        - "Fillers like charcoal, sand, or plant gums"
+
+  drug_interactions:
+    - id: drug_interactions_summary
+      issue: "Drug Interactions"
+      interactions:
+        - "Blood Sugar Medications (e.g., Insulin, Metformin): May enhance the hypoglycemic effect."
+        - "Anticoagulants (e.g., Warfarin): May potentially interfere with blood clotting."
+        - "Immunosuppressants: May modulate the immune system."
+        - "Thyroid Medications: Contains minerals that could affect thyroid function."
+        - "Blood Pressure Medications: May have an additive hypotensive effect."
+
+  contraindications:
+    - id: contraindications
+      who_should_avoid:
+        - "Pregnant or breastfeeding women (lack of safety data)."
+        - "Individuals with hemochromatosis (iron overload), as Shilajit contains iron."
+        - "People with active gout, as it may increase uric acid levels."
+
+  quality_standards:
+    - id: fulvic_acid_standard
+      parameter: "Fulvic Acid Content"
+      description: "Fulvic acid is considered the primary bioactive component and key quality marker."
+      standards:
+        - "High-quality purified extracts typically standardized to 20-60% fulvic acid."
+        - "Excessively high fulvic acid claims in raw product may indicate adulteration with synthetic fulvic acid."
+    - id: heavy_metal_testing
+      parameter: "Heavy Metal Testing"
+      standards:
+        - "Third-party lab testing is critical. Reputable products provide a Certificate of Analysis (COA)."
+        - "Testing should include: Lead (Pb), Arsenic (As), Cadmium (Cd), and Mercury (Hg)."

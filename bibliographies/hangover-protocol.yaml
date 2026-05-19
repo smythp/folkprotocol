@@ -1,0 +1,551 @@
+---
+# Herbal Treatments for Hangover: Research Bibliography
+# Generated: 2026-03-05
+# Focus: comparative effectiveness, combination formulas, symptom-specific treatments
+
+systematic_reviews:
+  - id: roberts_2022
+    authors: Roberts E, Morse R, Epstein S, Hotopf M, Leon D, Drummond C
+    year: 2022
+    title: >
+      The efficacy and tolerability of pharmacologically active interventions for
+      alcohol-induced hangover symptomatology: a systematic review of the evidence
+      from randomised placebo-controlled trials
+    journal: Addiction
+    doi: 10.1111/add.15786
+    pmid: "34972259"
+    url: https://pubmed.ncbi.nlm.nih.gov/34972259/
+    notes: >
+      21 RCTs, 386 participants. Reviewed clove extract, red ginseng, Korean pear juice,
+      Hovenia dulcis, pyritinol, L-cysteine, tolfenamic acid. No two studies used the
+      same intervention — no meta-analysis possible. All evidence rated very low quality.
+      Some statistically significant symptom reductions vs placebo: clove extract
+      (42.5% vs 19.0%), red ginseng (21.1% vs 14.0%), Korean pear juice (41.5% vs 33.3%).
+      Conclusion: insufficient evidence to recommend any single intervention.
+    herbs_covered:
+      - clove extract (Syzygium aromaticum)
+      - red ginseng (Panax ginseng)
+      - Korean pear juice (Pyrus pyrifolia)
+      - Hovenia dulcis fruit extract
+      - L-cysteine
+
+  - id: pittler_2005
+    authors: Pittler MH, Verster JC, Ernst E
+    year: 2005
+    title: "Interventions for preventing or treating alcohol hangover: systematic review of randomised controlled trials"
+    journal: BMJ
+    volume: 331
+    issue: 7531
+    pages: 1515-1518
+    pmid: "16373736"
+    pmc: PMC1322250
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1322250/
+    notes: >
+      Earlier Cochrane-style review. Found no compelling evidence for hangover
+      prevention or treatment. Methodological critique of then-available literature.
+
+  - id: jayawardena_2017
+    authors: Jayawardena R, Thejani T, Ranasinghe P, Fernando D, Verster JC
+    year: 2017
+    title: "Interventions for treatment and/or prevention of alcohol hangover: Systematic review"
+    journal: Human Psychopharmacology - Clinical and Experimental
+    volume: 32
+    issue: 5
+    doi: 10.1002/hup.2600
+    pmid: "28568743"
+    url: https://onlinelibrary.wiley.com/doi/full/10.1002/hup.2600
+    notes: >
+      Covered studies 2009-2016; 6 controlled human studies identified.
+      Interventions with significant hangover improvement (p<0.05):
+      Acanthopanax senticosus polysaccharide extract, red ginseng anti-hangover drink,
+      Korean pear juice, KSS formula, and the After-Effect supplement.
+      Top improved symptoms: tiredness, nausea/vomiting, stomachache.
+      Cardiovascular symptoms (palpitations) were consistently unimproved across studies.
+      Herbal entries include Phyllanthus amarus, Opuntia ficus-indica, ginger.
+
+head_to_head_trials:
+  - id: kim_hovenia_combinations_2024
+    authors: Kim et al.
+    year: 2024
+    title: "Clinical Evaluation of Hovenia dulcis Extract Combinations for Effective Hangover Relief in Humans"
+    journal: Foods (MDPI)
+    volume: 13
+    issue: 24
+    doi: 10.3390/foods13244021
+    pmc: PMC11675335
+    pmid: "39766963"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11675335/
+    design: randomized double-blind crossover placebo-controlled
+    n: 25
+    interventions:
+      - HD alone (Hovenia dulcis extract, 0.475%)
+      - HDPB (HD + Pueraria lobata extract, 0.1%)
+      - HDGB (HD + glutathione yeast extract, 0.02%)
+      - placebo
+    key_finding: >
+      HDPB and HDGB groups showed significantly lower blood alcohol concentrations
+      than placebo at 0.25 and 0.5 hours post-drinking. HD combinations outperform
+      HD alone for early alcohol metabolism.
+    symptoms_targeted: [blood alcohol, blood acetaldehyde, overall hangover severity]
+
+  - id: cha_hovenia_2024
+    authors: Cha et al.
+    year: 2024
+    title: "Efficacy of Hovenia dulcis Fruit Extract in Hangover Mitigation: Double-Blind Randomized Clinical Evaluation"
+    journal: Foods (MDPI)
+    volume: 13
+    issue: 24
+    doi: 10.3390/foods13244084
+    pmc: PMC11675971
+    pmid: "39767027"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11675971/
+    design: randomized double-blind crossover placebo-controlled
+    n: 30
+    notes: >
+      Dose-finding component. Six test groups comparing beverage concentrations.
+      Confirms HD fruit extract reduces blood acetaldehyde at multiple timepoints.
+
+  - id: lee_plant_mixture_2023
+    authors: Lee et al.
+    year: 2023
+    title: >
+      Effects of Plant-Based Extract Mixture on Alcohol Metabolism and Hangover
+      Improvement in Humans: A Randomized, Double-Blind, Paralleled,
+      Placebo-Controlled Clinical Trial
+    journal: Journal of Clinical Medicine
+    volume: 12
+    issue: 16
+    doi: 10.3390/jcm12165244
+    pmc: PMC10455467
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10455467/
+    design: randomized double-blind parallel-group placebo-controlled
+    n: 80
+    combination:
+      - Mesembryanthemum crystallinum (ice plant)
+      - Pueraria lobata flower (kudzu flower)
+      - Artemisia indica (mugwort)
+    key_finding: >
+      Combination decreased blood acetaldehyde and improved hangover symptoms
+      of thirst and tiredness vs placebo. Multi-herb formula outperforms
+      individual components in pilot data.
+    symptoms_targeted: [thirst, tiredness, acetaldehyde accumulation]
+
+  - id: lee_red_ginseng_2014
+    authors: Lee MH, Kwak JH, Jeon G, et al.
+    year: 2014
+    title: "Red ginseng relieves the effects of alcohol consumption and hangover symptoms in healthy men: a randomized crossover study"
+    journal: Food & Function
+    pmid: "24458173"
+    url: https://pubmed.ncbi.nlm.nih.gov/24458173/
+    design: randomized crossover
+    n: 25
+    herb: red ginseng (Panax ginseng)
+    dose: "100 mL of 0.321 mg/mL red ginseng anti-hangover drink"
+    key_finding: >
+      Plasma alcohol concentrations significantly lower in red ginseng group at 30, 45,
+      and 60 minutes. Expiratory alcohol lower at 30 and 60 minutes. Hangover severity
+      reduced. Plasma acetaldehyde slightly elevated at 120 min but overall hangover
+      symptom burden reduced.
+
+  - id: korean_red_ginseng_complex_2026
+    authors: Not yet specified
+    year: 2026
+    title: >
+      Korean red ginseng complex accelerates alcohol metabolism and relieves hangover
+      symptoms in Humans: A randomized, double-blind, placebo-controlled crossover
+      clinical trial
+    journal: Journal of Ethnopharmacology (ScienceDirect)
+    url: https://www.sciencedirect.com/science/article/pii/S1226845326000023
+    combination:
+      - Korean red ginseng extract
+      - fermented rice-soybean extract
+      - yeast extract
+    key_finding: >
+      KGC100FYK accelerated initial reduction in serum ethanol and persistently
+      attenuated acetaldehyde accumulation throughout post-ingestion period vs placebo.
+
+  - id: wiese_opuntia_2004
+    authors: Wiese J, McPherson S, Odden MC, Shlipak MG
+    year: 2004
+    title: "Effect of Opuntia ficus indica on symptoms of the alcohol hangover"
+    journal: Archives of Internal Medicine
+    volume: 164
+    issue: 12
+    pages: 1334-1340
+    pmid: "15226168"
+    doi: 10.1001/archinte.164.12.1334
+    url: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/217133
+    design: double-blind placebo-controlled crossover
+    n: 64
+    herb: prickly pear (Opuntia ficus-indica)
+    dose: "1600 IU extract, 5 hours before alcohol"
+    key_finding: >
+      Moderate reduction in hangover severity. C-reactive protein (inflammatory marker)
+      40% lower in OFI group vs placebo. Nausea, dry mouth, and anorexia reduced.
+      Proposed mechanism: anti-inflammatory action reduces cytokine-driven hangover.
+    symptoms_targeted: [nausea, dry mouth, anorexia, inflammation (CRP)]
+
+  - id: lee_korean_pear_2013
+    authors: Lee HS, Isse T, Kawamoto T, et al.
+    year: 2013
+    title: "Effect of Korean pear (Pyrus pyrifolia cv. Shingo) juice on hangover severity following alcohol consumption"
+    journal: Food and Chemical Toxicology
+    pmid: "23587660"
+    doi: 10.1016/j.fct.2013.03.053
+    url: https://pubmed.ncbi.nlm.nih.gov/23587660/
+    design: randomized single-blind crossover
+    n: 14
+    herb: Korean pear (Pyrus pyrifolia)
+    key_finding: >
+      Total hangover severity decreased 16%, average hangover severity decreased 21%
+      vs control (p<0.05). Mechanism likely via phenols/flavonoids enhancing ADH/ALDH.
+    symptoms_targeted: [overall hangover severity, alcohol metabolism]
+
+  - id: theracurmin_2025
+    authors: Not yet specified
+    year: 2025
+    title: "Effect of Theracurmin Products for Alleviating Alcohol Hangovers in Healthy Adults"
+    journal: Journal of Clinical Medicine (MDPI)
+    volume: 14
+    issue: 19
+    doi: 10.3390/jcm14196996
+    url: https://www.mdpi.com/2077-0383/14/19/6996
+    herb: Theracurmin (highly bioavailable curcumin / Curcuma longa)
+    notes: Targets inflammation and oxidative stress pathways post-alcohol.
+
+  - id: rambaldi_artichoke_2003
+    authors: Rambaldi A, Jacobs RL, Iaquinto G, Gluud C
+    year: 2003
+    title: "Effectiveness of artichoke extract in preventing alcohol-induced hangovers: a randomized controlled trial"
+    journal: CMAJ (Canadian Medical Association Journal)
+    pmid: "14662662"
+    pmc: PMC280580
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC280580/
+    design: randomized double-blind crossover placebo-controlled
+    herb: artichoke (Cynara scolymus)
+    key_finding: >
+      No statistically significant difference between artichoke extract and placebo
+      for preventing hangover. Well-designed RCT; null result is informative. Artichoke
+      does not appear effective as a sole agent despite hepatoprotective mechanism data.
+    symptoms_targeted: [overall hangover prevention]
+    note: Null result — important negative control in the literature.
+
+traditional_formulas:
+  - id: hovenia_tang_materia_medica
+    herb: Hovenia dulcis (Japanese raisin tree / oriental raisin tree)
+    traditional_system: Chinese Traditional Medicine / Korean
+    first_recorded: "659 CE"
+    source: Tang Materia Medica (Tang Bencao), China's first pharmacopoeia
+    common_names: [Japanese raisin tree, kenponashi, heot-gae-na-mu]
+    active_compound: dihydromyricetin (DHM)
+    traditional_use: >
+      Included as anti-hangover herb in 659 CE. Used across China, Japan, Korea
+      for centuries. Modern Korean hangover drinks frequently include HD extract.
+    clinical_refs: [kim_hovenia_combinations_2024, cha_hovenia_2024]
+
+  - id: won21_korean_formula
+    formula_name: WON-21
+    traditional_system: Korean Traditional Medicine
+    year_studied: 2023
+    journal: Applied Biological Chemistry (Springer)
+    url: https://link.springer.com/article/10.1186/s13765-023-00800-7
+    components:
+      - Galhwahajung-tang (갈화해정탕 - kudzu flower sober-up decoction)
+      - Daekumeumja
+      - supplementary herbal medicines
+    active_compounds: [rutin, taxifolin, quercetin]
+    mechanisms: [ADH activation, ALDH activation, antioxidant, anti-inflammatory]
+    notes: >
+      Mixing ratio based on Oriental medicine principles. Rutin, taxifolin, and
+      quercetin showed superior antioxidant activity among components tested.
+
+  - id: ge_hua_jie_cheng_san
+    formula_name: Ge Hua Jie Cheng San (葛花解酲散)
+    traditional_system: Traditional Chinese Medicine
+    first_recorded: "Yuan Dynasty (13th–14th century CE)"
+    composition: >
+      Kudzu flower (Ge Hua / Puerariae Flos) as principal herb. Supporting herbs
+      include Atractylodes, Poria, Cardamom, Pueraria root, ginseng, citrus peel.
+    traditional_use: >
+      Classic TCM hangover formula. Clears damp-heat in Stomach and Spleen, resolves
+      alcohol toxicity, restores digestive function. Still in clinical use; basis for
+      many modern Korean and Chinese hangover products.
+    notes: >
+      Uses kudzu FLOWER (Pueraria flos), not kudzu root (Pueraria lobata root).
+      This distinction is clinically significant — see pueraria_tcm safety note below.
+
+  - id: pueraria_tcm
+    herb: Pueraria lobata / Pueraria thomsonii (kudzu)
+    traditional_system: Traditional Chinese Medicine
+    common_names: [kudzu, ge gen, gegen]
+    active_compounds: [puerarin, daidzin, daidzein, kakkalide, tectoridin, tectorigenin]
+    traditional_use: >
+      Kudzu root and flower used for centuries in TCM for alcohol-related problems,
+      hangover, and liver support. Puerariae Flos (kudzu flower) specifically indicated
+      for sobering and reducing alcohol toxicity.
+    safety_note: >
+      CRITICAL DISTINCTION — root vs. flower have opposing mechanisms:
+      Pueraria flos (flower): enhances acetaldehyde removal via ALDH upregulation.
+      Pueraria lobata root: INHIBITS mitochondrial ALDH2, INCREASES acetaldehyde.
+      Root is under investigation as aversion therapy (similar to disulfiram).
+      Only Pueraria flos is appropriate in anti-hangover formulas.
+      Reference: PMID 17980785 (Calder IC, 2008, Food and Chemical Toxicology).
+    clinical_refs: [lee_plant_mixture_2023]
+
+  - id: bo_he_wan
+    formula_name: Bo He Wan
+    traditional_system: Traditional Chinese Medicine
+    composition: >
+      Contains mint (Bo He) plus digestive herbs. Traditionally used for food stagnation.
+      Adaptable for hangover via digestive and liver-clearing actions.
+    notes: Lacks modern clinical evidence specifically for hangover; traditional use only.
+
+  - id: acanthopanax_senticosus
+    herb: Acanthopanax senticosus (Siberian ginseng / eleuthero)
+    traditional_system: Traditional Chinese Medicine / Russian folk medicine
+    active_compounds: [eleutherosides, polysaccharides, lignans]
+    traditional_use: Adaptogen; fatigue, immune support, stress resilience.
+    hangover_relevance: >
+      Polysaccharide-rich extract of A. senticosus showed significant improvement
+      in hangover symptoms vs placebo in controlled human study cited by
+      Jayawardena 2017 systematic review. Mechanism likely via anti-fatigue and
+      anti-inflammatory adaptogenic effects rather than direct alcohol metabolism.
+    symptoms_targeted: [fatigue, tiredness, immune-related hangover sequelae]
+
+  - id: ohk_formula
+    formula_name: "Oh!K"
+    traditional_system: Modern polyherbal (Ayurvedic-influenced)
+    composition:
+      - Zingiber officinale (ginger)
+      - Camellia sinensis (green tea)
+      - Curcuma longa (turmeric)
+      - Piper nigrum (black pepper)
+    mechanism: >
+      Antioxidant multi-pathway formula. Ginger for nausea; green tea polyphenols
+      for ADH/ALDH support; turmeric for anti-inflammation; piperine (pepper) enhances
+      curcumin bioavailability ~20x. Demonstrated reduction of post-alcohol disorders
+      in intoxicated drinkers per PMC6274469 review.
+    notes: Referenced as a liquid-based combination formula in Kim et al. 2016 natural products review.
+
+  - id: ginger_ayurvedic
+    herb: Zingiber officinale (ginger)
+    traditional_system: Ayurvedic / TCM
+    traditional_use: Nausea, cold, stomach upset. Recommended for hangover GI symptoms.
+    mechanism: Antioxidant, anti-nausea (5-HT3 antagonism), gastric motility.
+    notes: >
+      Covered in PMC6274469 review. No dedicated hangover RCT; evidence is
+      mechanistic and indirect via antiemetic and antioxidant properties.
+
+  - id: amla_ayurvedic
+    herb: Phyllanthus emblica / Emblica officinalis (amla, Indian gooseberry)
+    traditional_system: Ayurvedic
+    traditional_use: Liver support, antioxidant, detoxification, alcohol toxicity.
+    active_compounds: [emblicanin A, emblicanin B, punigluconin, pedunculagin, gallic acid]
+    mechanism: Antioxidant protection of hepatocytes, free radical scavenging.
+    notes: >
+      Phyllanthus amarus (a related Phyllanthus species) showed significant
+      reduction in hangover symptoms vs placebo in a controlled study
+      referenced in Jayawardena 2017 systematic review.
+
+  - id: partysmart_himalaya
+    formula_name: PartySmart (Himalaya Drug Company)
+    traditional_system: Ayurvedic polyherbal formula
+    composition:
+      - Phoenix dactylifera (date palm fruit)
+      - Cichorium intybus (chicory)
+      - Andrographis paniculata (green chiretta)
+      - Vitis vinifera (grape)
+      - Phyllanthus amarus
+      - Emblica officinalis (amla)
+    mechanism: >
+      Dose-dependently decreases blood ethanol and acetaldehyde AUC.
+      Enhances acetaldehyde metabolism by increasing ADH and ALDH activity.
+      Prevents formation of acetaldehyde adducts (protein crosslinks linked to
+      hangover severity and alcohol toxicity).
+    clinical_evidence:
+      - study: Pharmacodynamics & toxicological profile of PartySmart in Wistar rats
+        pmid: "18653909"
+        url: https://pubmed.ncbi.nlm.nih.gov/18653909/
+        finding: 500 mg/kg dose significantly reduced AUC of both ethanol and acetaldehyde.
+      - study: Phase III RCT — Evaluation of Efficacy and Safety of PartySmart
+        url: https://www.semanticscholar.org/paper/Evaluation-of-the-Efficacy-and-Safety-of-%E2%80%9C-%E2%80%9D-in-the-Ramakrishna-Manu/38ee9050739a37f1c48b5ed7be176d347098289d
+        finding: Prospective randomized double-blind comparative Phase III trial confirming efficacy for hangover prevention.
+    notes: >
+      One of the few Ayurvedic formulas with Phase III clinical trial data for hangover.
+      Available OTC as single capsule taken during drinking.
+
+mechanism_studies:
+  - id: moslemi_2023
+    authors: Moslemi M, Jannat B, Mahmoudzadeh M, Ghasemlou M, Abedi AS
+    year: 2023
+    title: >
+      Detoxification activity of bioactive food compounds against ethanol-induced
+      injuries and hangover symptoms: A review
+    journal: Food Science & Nutrition
+    volume: 11
+    pages: 5028-5040
+    doi: 10.1002/fsn3.3520
+    pmid: "37701198"
+    pmc: PMC10494618
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10494618/
+    mechanisms_covered:
+      - reducing intestinal absorption of ethanol and metabolites
+      - increasing ADH/ALDH enzyme activity
+      - enhancing fatty acid beta-oxidation in mitochondria
+      - inhibiting inflammatory response
+      - blocking ethanol target receptors
+      - antioxidant activity under oxidative stress
+    compounds_reviewed:
+      - pectin
+      - aloe vera polysaccharides
+      - chito-oligosaccharides
+      - plant polyphenols
+      - isoflavonoids
+
+  - id: kim_natural_products_2016
+    authors: Kim H, Kim YJ, Jeong HY, Kim JY, Choi EK, Chae SW, Kwon O
+    year: 2016
+    title: "Natural Products for the Prevention and Treatment of Hangover and Alcohol Use Disorder"
+    journal: Molecules
+    volume: 21
+    issue: 1
+    pages: 64
+    doi: 10.3390/molecules21010064
+    pmid: "26751438"
+    pmc: PMC6274469
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6274469/
+    scope: >
+      Comprehensive review: kudzu, ginger, asparagus, Camellia sinensis, Houttuynia
+      cordata, Nelumbo nucifera, Opuntia ficus-indica. Covers ADH/ALDH activation as
+      primary anti-hangover mechanism for most herbs. Also covers alcohol use disorder.
+
+  - id: shen_dhm_2012
+    authors: Shen Y, Lindemeyer AK, Gonzalez C, et al.
+    year: 2012
+    title: "Dihydromyricetin As a Novel Anti-Alcohol Intoxication Medication"
+    journal: Journal of Neuroscience
+    volume: 32
+    issue: 1
+    pages: 390-401
+    doi: 10.1523/JNEUROSCI.4639-11.2012
+    pmc: PMC3292407
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3292407/
+    herb: Hovenia dulcis / dihydromyricetin (DHM)
+    mechanism: >
+      DHM acts as a GABA-A receptor modulator antagonizing alcohol's effect on
+      these receptors. Also accelerates hepatic alcohol metabolism via ADH/ALDH
+      pathway. Reduces withdrawal signs in animal models. Liver-protective effects
+      confirmed in USC follow-up research.
+
+  - id: psyllium_fiber_2024
+    authors: Not yet specified
+    year: 2024
+    title: "Psyllium fiber improves hangovers and inflammatory liver injury by inhibiting intestinal drinking"
+    journal: Frontiers in Pharmacology
+    doi: 10.3389/fphar.2024.1378653
+    url: https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1378653/full
+    mechanism: >
+      Novel mechanism: psyllium fiber reduces alcohol absorption at the intestinal level
+      rather than accelerating metabolism. Reduces inflammatory liver injury.
+    notes: Not strictly herbal but plant-derived; mechanism study relevant to absorption pathway.
+
+  - id: chung_herbal_extracts_2022
+    authors: Chung et al.
+    year: 2022
+    title: "Effect of herbal extracts and supplement mixture on alcohol metabolism in Sprague Dawley-rats"
+    journal: Journal of Food Science and Technology (Springer Nature)
+    doi: 10.1007/s13197-022-05580-4
+    url: https://link.springer.com/article/10.1007/s13197-022-05580-4
+    herbs_tested: [Camellia sinensis, Houttuynia cordata, Nelumbo nucifera, Opuntia ficus-indica]
+    mechanism: >
+      Activation of ADH and ALDH as the key mechanism common across multiple herbs.
+      Isoflavonoid fractions suppress blood alcohol, acetaldehyde, and ketone
+      concentrations following alcohol intake.
+
+  - id: hovenia_frontiers_2024
+    authors: Not yet specified
+    year: 2024
+    title: "Hovenia dulcis: a Chinese medicine that plays an essential role in alcohol-associated liver disease"
+    journal: Frontiers in Pharmacology
+    doi: 10.3389/fphar.2024.1337633
+    pmc: PMC11033337
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11033337/
+    scope: >
+      Comprehensive review of HD mechanisms in alcohol-associated liver disease.
+      Covers DHM's dual role: hepatic enzyme induction (ADH1B, ALDH1A1, ALDH2 gene
+      expression upregulation) and GABA-A receptor modulation reducing intoxication
+      behavior. Includes in vivo ethanol-reduction data from animal models and summary
+      of human trial results.
+    mechanisms_covered:
+      - ADH1B, ALDH1A1, ALDH2 gene/protein expression induction
+      - GABA-A receptor antagonism (reduces intoxication signs)
+      - Hepatic lipid accumulation reduction
+      - Pro-inflammatory cytokine suppression (TNF-α, IL-6)
+      - Antioxidant enzyme upregulation (SOD, GPx)
+
+symptom_specific_summary:
+  nausea_vomiting:
+    best_evidence: [ginger, opuntia_ficus-indica]
+    mechanism: 5-HT3 antagonism (ginger), anti-inflammatory cytokine reduction (OFI)
+
+  headache:
+    best_evidence: [clove_extract, tolfenamic_acid_non_herbal]
+    mechanism: Unclear for clove; likely prostaglandin/inflammatory pathway
+
+  fatigue_tiredness:
+    best_evidence: [mesembryanthemum_crystallinum_plus_kudzu_plus_mugwort]
+    mechanism: Acetaldehyde reduction; antioxidant restoration
+    ref: lee_plant_mixture_2023
+
+  blood_alcohol_clearance:
+    best_evidence: [hovenia_dulcis, red_ginseng, korean_pear]
+    mechanism: ADH/ALDH upregulation and/or enhanced enzyme kinetics
+
+  thirst_dry_mouth:
+    best_evidence: [opuntia_ficus-indica, plant_mixture_mesembryanthemum]
+    mechanism: Anti-inflammatory, electrolyte/fluid-related
+
+  liver_protection:
+    best_evidence: [dihydromyricetin_DHM, pueraria_lobata, amla]
+    mechanism: Hepatoprotection via antioxidant, lipid metabolism, inflammation reduction
+
+combination_formulas_evidence:
+  notes: >
+    Combination formulas appear superior to single herbs in early RCTs. Common pairings:
+  pairings:
+    - herbs: [Hovenia dulcis, Pueraria lobata]
+      synergy: HD accelerates early metabolism; PL isoflavones suppress acetaldehyde/ketone rise
+      evidence: kim_hovenia_combinations_2024
+
+    - herbs: [Hovenia dulcis, glutathione yeast]
+      synergy: HD + antioxidant support (glutathione replenishment post-alcohol)
+      evidence: kim_hovenia_combinations_2024
+
+    - herbs: [Mesembryanthemum crystallinum, Pueraria lobata flower, Artemisia indica]
+      synergy: Multi-pathway attack on acetaldehyde, fatigue, and thirst
+      evidence: lee_plant_mixture_2023
+
+    - herbs: [Korean red ginseng, fermented rice-soybean, yeast extract]
+      synergy: Ginseng for early ethanol clearance; fermented components support gut flora
+      evidence: korean_red_ginseng_complex_2026
+
+market_survey:
+  - id: verster_us_market_2025
+    authors: Verster JC, Zijlstra MN, Barré Q, Schulz SE, Išerić E, Scholey A
+    year: 2025
+    title: "The alcohol hangover product market of the United States of America"
+    journal: Alcohol and Alcoholism (SAGE)
+    doi: 10.1177/20503245251355868
+    url: https://journals.sagepub.com/doi/10.1177/20503245251355868
+    notes: >
+      Market survey of US hangover products. Dihydromyricetin (DHM) was the most
+      frequently reported ingredient at 52.6% of products. Useful for understanding
+      which herbs are currently commercially deployed and industrially prioritized.
+
+evidence_quality_note: >
+  All herbal hangover trials are rated "very low quality" by Roberts et al. 2022
+  systematic review due to: small sample sizes, single-study findings without
+  replication, varied outcome measures, and short follow-up. No head-to-head
+  trial has compared two herbs directly against each other — comparisons are
+  indirect via placebo arms only. Combination formula RCTs (2024) are the
+  most methodologically recent but still require replication.

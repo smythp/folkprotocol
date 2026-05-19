@@ -1,0 +1,702 @@
+---
+# Tribulus terrestris Clinical Research Bibliography
+# Focus: Systematic reviews, RCTs, standardized extracts, dosing, bioavailability, safety
+# Created: 2026-02-27
+
+systematic_reviews_meta_analyses:
+  - id: suharyani_2025
+    title: "Tribulus terrestris for management of patients with erectile dysfunction: a systematic review and meta-analysis of randomized trials"
+    authors:
+      - Suharyani S
+      - Amanda B
+      - Angellee J
+      - William W
+      - Hariyanto TI
+      - I'tishom R
+    year: 2025
+    journal: International Journal of Impotence Research
+    pmid: 40360723
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40360723/
+    doi: "10.1038/s41443-025-01086-7"
+    study_type: Systematic review and meta-analysis of RCTs
+    studies_reviewed: 8 RCTs
+    key_findings:
+      - "IIEF-5 improved from baseline: MD 4.21 (p < 0.00001)"
+      - "IIEF-15 improved from baseline: MD 15.88 (p = 0.0004)"
+      - "TT outperformed placebo on IIEF-5: MD 3.23"
+      - "TT outperformed placebo on IIEF-15: MD 14.44"
+      - "No significant difference in total testosterone levels vs placebo"
+      - "No difference in adverse event incidence vs placebo"
+    statistical_findings:
+      iief5_vs_baseline_md: 4.21
+      iief15_vs_baseline_md: 15.88
+      iief5_vs_placebo_md: 3.23
+      iief15_vs_placebo_md: 14.44
+    safety: "Good tolerability; adverse event rate similar to placebo"
+
+  - id: vilar_neto_2025
+    title: "Effects of Tribulus (Tribulus terrestris L.) Supplementation on Erectile Dysfunction and Testosterone Levels in Men-A Systematic Review of Clinical Trials"
+    authors:
+      - Vilar Neto JO
+      - Monteiro de Moraes WMA
+      - Pinto DV
+      - da Silva CA
+      - Roriz Caminha JS
+      - Chaves Nunes Filho JC
+      - Gonçalves Reis CE
+      - Prestes J
+      - Santos HO
+      - De Francesco Daher E
+    year: 2025
+    journal: Nutrients
+    pmid: 40219032
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/40219032/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11990417/
+    study_type: Systematic review of clinical trials
+    studies_reviewed: 10 (9 clinical trials + 1 quasi-experimental)
+    sample_size: 483 participants total; individual trials 15–172 participants
+    dosing:
+      range: "400–750 mg/day"
+      duration: "1–3 months"
+    key_findings:
+      - "3 of 5 studies measuring erectile function showed improvements after supplementation"
+      - "Only 2 of 10 studies showed meaningful testosterone increases (~60–70 ng/dL)"
+      - "Testosterone increases occurred exclusively in hypogonadal subjects"
+      - "8 of 10 studies reported no significant hormonal changes"
+      - "50% of included studies had low methodological quality (Jadad score)"
+      - "Low overall evidence quality; no robust evidence for testosterone increase in eugonadal men"
+    populations: "Healthy males, oligozoospermia, erectile dysfunction, ED with hypogonadism, unexplained infertility"
+    testosterone_finding_detail: "Modest elevations of 60–70 ng/dL in hypogonadal subjects only"
+
+  - id: martimbianco_2020
+    title: "Tribulus Terrestris for Female Sexual Dysfunction: A Systematic Review"
+    authors:
+      - Martimbianco ALC
+      - Pacheco RL
+      - Vilarino FL
+      - Latorraca COC
+      - Torloni MR
+      - Riera R
+    year: 2020
+    journal: Revista Brasileira de Ginecologia e Obstetrícia
+    pmid: 32736394
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32736394/
+    study_type: Systematic review of RCTs
+    studies_reviewed: 5 RCTs
+    sample_size: 279 participants total
+    dosing:
+      duration: "1–3 months (specific doses varied by trial)"
+    key_findings:
+      - "Women receiving TT showed significant increase in sexual function scores after 1–3 months"
+      - "3 months of treatment produced significant increase in serum testosterone in premenopausal women"
+      - "No serious adverse events reported across included trials"
+      - "Meta-analysis could not be performed due to clinical heterogeneity and lack of data"
+      - "Overall evidence certainty rated 'very low'"
+    limitations: "Very low certainty evidence; meta-analysis not possible; shared decision-making recommended"
+
+  - id: fernandez_lazaro_2022
+    title: "Effects of Tribulus terrestris L. on Sport and Health Biomarkers in Physically Active Adult Males: A Systematic Review"
+    authors:
+      - Fernández-Lázaro D
+      - Fernandez-Lazaro CI
+      - Seco-Calvo J
+      - Garrosa E
+      - Adams DP
+      - Mielgo-Ayuso J
+    year: 2022
+    journal: International Journal of Environmental Research and Public Health
+    pmid: 35954909
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35954909/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC9368143/
+    study_type: Systematic review
+    studies_reviewed: 7 studies (from 340 initial records)
+    key_findings:
+      - "Significant improvements in lipid profile observed in TT groups"
+      - "Moderate beneficial effects on inflammatory and hematological markers"
+      - "No meaningful changes to kidney function measures"
+      - "No clear evidence of beneficial effects on muscle damage indicators"
+      - "No clear evidence of beneficial hormonal responses in athletes"
+      - "No TT-induced toxicity observed across included studies"
+    population: "Physically active adult males"
+    limitations: "Limited available literature; additional research needed"
+
+  - id: sanagoo_2019
+    title: "Effect of Tribulus terrestris L. on sperm parameters in men with idiopathic infertility: A systematic review"
+    authors:
+      - Sanagoo S
+      - Sadeghzadeh Oskouei B
+      - Gassab Abdollahi N
+      - Salehi-Pourmehr H
+      - Hazhir N
+      - Farshbaf-Khalili A
+    year: 2019
+    journal: Complementary Therapies in Medicine
+    pmid: 30670288
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30670288/
+    study_type: Systematic review
+    studies_reviewed: 7 articles (from 5,775 initial records, 3,509 after deduplication)
+    key_findings:
+      - "6 of 7 studies showed positive effects on sperm parameters"
+      - "Improvements documented in sperm number, motility, and morphology"
+      - "Only 1 quasi-experimental study (no control arm) reported ineffectiveness"
+      - "Results interpreted with caution due to small sample sizes and methodological differences"
+    limitations: "Small sample sizes; methodological heterogeneity; further trials needed"
+
+  - id: stefanescu_2020
+    title: "A Comprehensive Review of the Phytochemical, Pharmacological, and Toxicological Properties of Tribulus terrestris L."
+    authors:
+      - Ștefănescu R
+      - Tero-Vescan A
+      - Negroiu A
+      - Aurică E
+      - Vari CE
+    year: 2020
+    journal: Biomolecules
+    pmid: 32408715
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32408715/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC7277861/
+    doi: "10.3390/biom10050752"
+    study_type: Comprehensive literature review (phytochemical, pharmacological, toxicological)
+    key_findings:
+      - "Protodioscin ranges from 1–1530 mg/100g dry weight depending on geographic origin"
+      - "Remarkable variations noticed between samples from the same country"
+      - "Very little is known about pharmacokinetics of active compounds"
+      - "Saponins possess membrane permeabilizing properties; drug interaction risk"
+      - "No unified dosing standard emerged across reviewed studies"
+      - "Toxicity of TT extracts not fully evaluated; adulteration risk constant"
+    bioavailability_note: "Contradictory findings on protodioscin bioavailability; one study found low bioavailability in vivo; another found good bioavailability from Dioscorea extract"
+    adverse_effects_documented:
+      - "Nephrotoxicity case in young male consuming water extract"
+      - "Priapism case (72-hour duration)"
+      - "Hepatotoxicity with cholestasis"
+      - "In grazing livestock: hepatogenous photosensitivity and locomotor disorders"
+
+randomized_controlled_trials:
+  - id: kamenov_2017
+    title: "Evaluation of the efficacy and safety of Tribulus terrestris in male sexual dysfunction-A prospective, randomized, double-blind, placebo-controlled clinical trial"
+    authors:
+      - Kamenov Z
+      - Fileva S
+      - Kalinov K
+      - Jannini EA
+    year: 2017
+    journal: Maturitas
+    volume: 99
+    pages: "20-26"
+    pmid: 28364864
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/28364864/
+    study_type: Phase IV prospective randomized double-blind placebo-controlled clinical trial
+    sample_size:
+      enrolled: 180
+      completed: 172 (86 per arm)
+    population: "Males 18–65 years with mild to moderate erectile dysfunction"
+    dosing:
+      preparation: "Tribestan® film-coated tablets (Sopharma, Bulgaria)"
+      tablet_content: "250 mg TT extract standardized to minimum 112.5 mg furostanol saponins"
+      regimen: "3 × 2 tablets daily after meals (1,500 mg extract/day; ~675 mg furostanol saponins/day)"
+      duration: "12 weeks"
+    key_findings:
+      - "IIEF score improved significantly vs placebo (difference 2.70, p < 0.0001)"
+      - "Significant improvements in intercourse satisfaction, orgasmic function, sexual desire, overall satisfaction"
+      - "Well-tolerated with no drug-related serious adverse events"
+    standardization: "Furostanol saponins ≥ 112.5 mg per 250 mg tablet (≥ 45%)"
+
+  - id: gamalel_din_2019
+    title: "Tribulus terrestris versus placebo in the treatment of erectile dysfunction and lower urinary tract symptoms in patients with late-onset hypogonadism: A placebo-controlled study"
+    authors:
+      - GamalEl Din SF
+      - Abdel Salam MA
+      - Mohamed MS
+      - Ahmed AR
+      - Motawaa AT
+      - Saadeldin OA
+      - Elnabarway RR
+    year: 2019
+    journal: Urologia
+    pmid: 30253697
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30253697/
+    study_type: Placebo-controlled clinical trial
+    sample_size:
+      total: 70
+      treatment_group: 35
+      placebo_group: 35
+    population: "Men with late-onset hypogonadism"
+    dosing:
+      regimen: "Three times daily"
+      duration: "3 months"
+    key_findings:
+      - "Arabic IIEF score improved significantly: 10.7 → 16.1 (p < 0.001)"
+      - "Total testosterone increased significantly: 2.2 → 2.7 (p < 0.001)"
+      - "IPSS (lower urinary tract symptoms) unchanged: 14.4 → 14.6 (p = 0.67)"
+      - "AST modestly elevated after treatment: 26.5 → 27.8 (p = 0.03)"
+      - "Total PSA increased: 1.4 → 1.7 (p = 0.007)"
+    iief_scores:
+      baseline: 10.7
+      post_treatment: 16.1
+    testosterone_ng_dl:
+      baseline: 2.2
+      post_treatment: 2.7
+    safety_note: "Modest AST and PSA elevations warrant monitoring in clinical use"
+
+  - id: de_souza_2016
+    title: "Efficacy of Tribulus terrestris for the treatment of hypoactive sexual desire disorder in postmenopausal women: a randomized, double-blinded, placebo-controlled trial"
+    authors:
+      - Zanolla Dias de Souza K
+      - Bernardes Castro Vale F
+      - Geber S
+    year: 2016
+    journal: Menopause
+    volume: 23
+    issue: 11
+    pages: "1252-1256"
+    pmid: 27760089
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/27760089/
+    study_type: Randomized, double-blind, placebo-controlled trial
+    sample_size:
+      enrolled: 45
+      completed: 36
+      excluded: 9 (adverse effects or personal reasons)
+    population: "Postmenopausal women with hypoactive sexual desire disorder (HSDD)"
+    dosing:
+      dose: "750 mg/day TT"
+      duration: "120 days"
+    key_findings:
+      - "QS-F questionnaire: significant improvement in desire (P < 0.01)"
+      - "QS-F: significant improvement in arousal/lubrication (P = 0.02)"
+      - "QS-F: significant reduction in pain (P = 0.02)"
+      - "QS-F: significant improvement in anorgasmia (P < 0.01)"
+      - "FSFI: improvement across all domains except lubrication"
+      - "Free and bioavailable testosterone levels significantly increased (P < 0.05)"
+      - "Authors concluded TT 'might be a safe alternative' for postmenopausal HSDD"
+    hormonal_mechanism: "Increased free and bioavailable testosterone (mechanism proposed)"
+
+  - id: vale_2018
+    title: "Efficacy of Tribulus Terrestris for the treatment of premenopausal women with hypoactive sexual desire disorder: a randomized double-blinded, placebo-controlled trial"
+    authors:
+      - Bernardes Castro Vale F
+      - Zanolla Dias de Souza K
+      - Russi Rezende C
+      - Geber S
+    year: 2018
+    journal: Gynecology and Endocrinology
+    pmid: 29172782
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29172782/
+    study_type: Randomized, double-blind, placebo-controlled trial
+    sample_size: 40 premenopausal women with diminished libido
+    key_findings:
+      - "Significant improvement in total FSFI score vs placebo (p < .001)"
+      - "Significant improvements in desire, arousal, and satisfaction domains (all p < .001)"
+      - "Placebo group did not show comparable improvements"
+      - "Free and bioavailable testosterone levels increased in TT group"
+      - "Authors concluded TT 'might be a safe alternative' for premenopausal HSDD"
+    hormonal_mechanism: "Increased free and bioavailable testosterone (mechanism proposed)"
+
+  - id: santos_2014
+    title: "Tribulus terrestris versus placebo in the treatment of erectile dysfunction: A prospective, randomized, double blind study"
+    authors:
+      - Santos CA Jr
+      - Reis LO
+      - Destro-Saade R
+      - Luiza-Reis A
+      - Fregonesi A
+    year: 2014
+    journal: Actas Urológicas Españolas
+    pmid: 24630840
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/24630840/
+    study_type: Prospective, randomized, double-blind, placebo-controlled study
+    sample_size:
+      total: 30
+      intervention: 15
+      placebo: 15
+    population: "Healthy men with erectile dysfunction"
+    dosing:
+      dose: "800 mg/day TT (divided into 2 doses)"
+      duration: "30 days"
+    key_findings:
+      - "No significant difference between TT and placebo groups"
+      - "TT IIEF-5: 13.2 (baseline) → 15.3 (post)"
+      - "Placebo IIEF-5: 11.6 (baseline) → 13.7 (post)"
+      - "No meaningful testosterone changes in either group"
+      - "TT was not more effective than placebo for ED or testosterone"
+    iief5_scores:
+      tt_baseline: 13.2
+      tt_post: 15.3
+      placebo_baseline: 11.6
+      placebo_post: 13.7
+    conclusion: "Negative trial; 800 mg/day for 30 days showed no benefit over placebo"
+
+  - id: neychev_2005
+    title: "The aphrodisiac herb Tribulus terrestris does not influence the androgen production in young men"
+    authors:
+      - Neychev VK
+      - Mitev VI
+    year: 2005
+    journal: Journal of Ethnopharmacology
+    pmid: 15994038
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/15994038/
+    study_type: Randomized controlled trial
+    sample_size:
+      total: 21
+      tt1_group: 7
+      tt2_group: 7
+      placebo: 7
+    population: "Healthy males aged 20–36 years"
+    dosing:
+      tt1_dose: "20 mg/kg body weight/day"
+      tt2_dose: "10 mg/kg body weight/day"
+      administration: "3 divided doses daily"
+      duration: "4 weeks"
+    key_findings:
+      - "Testosterone: TT1 15.75±1.75 nmol/L; TT2 16.32±1.57 nmol/L; controls 17.74±1.09 nmol/L (p > 0.05)"
+      - "Androstenedione: TT1 1.927±0.126 ng/mL; TT2 2.026±0.256 ng/mL; controls 1.952±0.236 ng/mL (p > 0.05)"
+      - "Luteinizing hormone: TT1 4.662±0.274 U/L; TT2 4.103±0.869 U/L; controls 4.170±0.406 U/L (p > 0.05)"
+      - "No significant differences in any androgen measure between supplemented and control groups"
+    conclusion: "TT steroidal saponins possess neither direct nor indirect androgen-increasing properties in young eugonadal men"
+
+  - id: fernandez_lazaro_2021
+    title: "The Effects of 6 Weeks of Tribulus terrestris L. Supplementation on Body Composition, Hormonal Response, Perceived Exertion, and CrossFit® Performance: A Randomized, Single-Blind, Placebo-Controlled Study"
+    authors:
+      - Fernández-Lázaro D
+      - Mielgo-Ayuso J
+      - del Valle Soto M
+      - Adams DP
+      - González-Bernal JJ
+      - Seco-Calvo J
+    year: 2021
+    journal: Nutrients
+    volume: 13
+    issue: 11
+    pages: "3969"
+    pmid: 34836225
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/34836225/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC8623187/
+    study_type: Randomized, single-blind, placebo-controlled study
+    sample_size:
+      total: 30
+      intervention: 15
+      control: 15
+    population: "Healthy CrossFit®-trained adult males"
+    dosing:
+      dose: "770 mg/day TT extract (taken on empty stomach)"
+      extract_standardization: "72.64% active principles; 40% saponins (385 mg saponins/day)"
+      control: "Maltodextrin placebo"
+      duration: "6 weeks"
+    key_findings:
+      - "Testosterone: intervention group maintained levels (−0.20% change) vs controls declined (−21.85%); p < 0.05, η²p = 0.495"
+      - "Bench press improved significantly: 69.17±11.58 kg → 80.00±11.40 kg (+19.22% vs placebo +8.52%)"
+      - "No significant differences in body composition between groups"
+      - "No significant differences in other lifts (squat, deadlift) between groups"
+    hormonal_finding: "TT may attenuate exercise-induced testosterone decline rather than increase baseline testosterone"
+    standardization: "40% saponins; 72.64% active principles in 770 mg extract"
+
+  - id: sellandi_2012
+    title: "Clinical study of Tribulus terrestris Linn. in Oligozoospermia: A double blind study"
+    authors:
+      - Sellandi TM
+      - Thakar AB
+      - Baghel MS
+    year: 2012
+    journal: Ayu
+    volume: 33
+    issue: 3
+    pages: "356-364"
+    pmid: 23723641
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/23723641/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC3665088/
+    study_type: Double-blind, randomized, placebo-controlled trial (Ayurvedic framework)
+    population: "Males aged 21–50 years with oligozoospermia"
+    dosing:
+      preparation: "Gokshura (TT) granules"
+      duration: "60 days"
+    key_findings:
+      - "TT group: 78.11% improvement in clinical parameters (Rogi bala/Rogabala)"
+      - "Placebo group: 70.95% improvement in comparable parameters"
+      - "Gokshura granules showed superior results vs placebo for oligozoospermia management"
+      - "Significant improvement in total sperm count"
+      - "Improvement in semenogram analysis parameters"
+    framework: "Ayurvedic medicine; outcome measures include traditional parameters alongside semen analysis"
+
+  - id: salgado_2017
+    title: "Effect of oral administration of Tribulus terrestris extract on semen quality and body fat index of infertile men"
+    authors:
+      - Salgado RM
+      - Marques-Silva MH
+      - Gonçalves E
+      - Mathias AC
+      - Aguiar JG
+      - Wolff P
+    year: 2017
+    journal: Andrologia
+    pmid: 27401787
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/27401787/
+    study_type: Clinical trial
+    sample_size: 65 men with abnormal semen evaluation
+    dosing:
+      preparation: "Androsten® (250 mg TT dried extract per capsule)"
+      active_compound: "Protodioscin"
+    key_findings:
+      - "Significant decrease in percentage of body fat"
+      - "Significant increase in lean mass"
+      - "Significant increase in dihydrotestosterone levels"
+      - "Significant enhancement in sperm concentration, motility, and liquefaction time"
+    mechanism_proposed: "Protodioscin may convert testosterone to dihydrotestosterone (DHT), affecting spermatogenesis and body composition"
+
+safety_studies:
+  - id: mohy_ud_din_2024
+    title: "Severe Liver and Renal Injury From Tribulus Terrestris"
+    authors:
+      - Mohy-Ud-Din N
+      - Jonassaint N
+    year: 2024
+    journal: ACG Case Reports Journal
+    pmid: 38328764
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38328764/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC10849413/
+    study_type: Case report
+    case_description: "46-year-old male consumed tribulus supplements (marketed as testosterone booster) daily for 2 months"
+    lab_values:
+      peak_total_bilirubin: "48 mg/dL"
+      peak_creatinine: 7.1
+      follow_up_bilirubin: "1.1 mg/dL"
+    pathology: "Liver biopsy: marked cholestasis"
+    treatment: "3 plasmapheresis sessions with subsequent bilirubin decrease after each session"
+    outcome: "Full recovery; normalized bilirubin at follow-up"
+    clinical_significance: "High-dose or prolonged use may cause severe cholestatic hepatitis and acute kidney injury"
+
+  - id: talasaz_2010
+    title: "Tribulus terrestris-induced severe nephrotoxicity in a young healthy male"
+    authors:
+      - Hajhossein Talasaz A
+      - Abbasi MR
+      - Abkhiz S
+      - Dashti-Khavidaki S
+    year: 2010
+    journal: Nephrology Dialysis Transplantation
+    volume: 25
+    issue: 11
+    pages: "3792-3793"
+    pmid: 20667992
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/20667992/
+    study_type: Case report
+    case_description: "Iranian male consumed herbal water containing TT extract (reportedly for kidney stone prevention) for 2 days; presented with seizure"
+    lab_values:
+      findings: "Very high serum aminotransferases and creatinine (specific values not reported in abstract)"
+    outcome: "Improvement and normalization of liver enzymes after discontinuation"
+    manifestations:
+      - "Hepatotoxicity"
+      - "Nephrotoxicity"
+      - "Neurotoxicity (seizure)"
+    clinical_significance: "Multi-organ toxicity possible even with short-term use; safety not established for all preparations/doses"
+
+  - id: huff_2024
+    title: "Rhabdomyolysis Risk: The Dangers of Tribulus Terrestris, an Over-the-Counter Supplement"
+    authors:
+      - Huff R
+      - Karpinska-Leydier K
+      - Maddineni G
+      - Begosh-Mayne D
+    year: 2024
+    journal: American Journal of Case Reports
+    pmid: 39012853
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39012853/
+    study_type: Case report
+    case_description: "71-year-old male on long-term atorvastatin developed rhabdomyolysis after adding TT supplementation"
+    mechanism: "TT is a moderate CYP3A4 inhibitor; inhibition of atorvastatin metabolism led to elevated statin levels and muscle toxicity"
+    treatment: "Discontinuation of both substances plus aggressive hydration; lab markers peaked day 4 then improved"
+    clinical_significance: "Drug interaction risk with statins and other CYP3A4-metabolized medications; patients should be screened for supplement use"
+
+  - id: livertox_tribulus
+    title: "Tribulus - LiverTox: Clinical and Research Information on Drug-Induced Liver Injury"
+    organization: "National Institutes of Health, National Center for Biotechnology Information"
+    database: "LiverTox"
+    url: https://www.ncbi.nlm.nih.gov/books/NBK583201/
+    likelihood_score: "E* (unproven but possible rare cause of clinically apparent liver injury at high doses or in those with pre-existing liver disease)"
+    key_findings:
+      - "Not convincingly linked to liver damage at typical doses (250–750 mg/day)"
+      - "One documented case: 30-year-old bodybuilder; bilirubin 36 mg/dL, ALT 90 U/L, creatinine 3.1 mg/dL; bland cholestasis pattern"
+      - "Case authors noted injury was more likely due to unacknowledged anabolic steroid use"
+      - "Mild adverse effects: GI discomfort, nausea, dyspepsia at standard doses"
+      - "High doses warrant caution in patients with pre-existing liver disease"
+      - "Steroidal sapogenins form crystals in bile ducts and renal tubules in livestock; human relevance unclear"
+    standard_doses: "250–750 mg daily"
+
+bioavailability_pharmacokinetics:
+  - id: protodioscin_bioavailability
+    source: "Multiple reviews and Zhang et al. (Steroids, 2016)"
+    active_compound: "Protodioscin (dominant furostanol saponin; primary pharmacologically active compound)"
+    key_findings:
+      - "Protodioscin bioavailability: approximately 5.7% (low) in rat pharmacokinetic study (Zhang et al., Steroids 2016)"
+      - "Contradictory findings: separate study from Dioscorea extract showed good bioavailability—formulation may matter"
+      - "HPLC-ESI-MS/MS method in rat plasma developed for pharmacokinetic study"
+      - "Very little known about pharmacokinetics of TT's therapeutically active compounds (per Štefănescu 2020)"
+    clinical_implications:
+      - "Low oral bioavailability of protodioscin may explain need for higher clinical doses"
+      - "Formulation matrix may significantly affect absorption"
+    research_gap: "No pharmacokinetic data in humans; animal data only"
+
+  - id: saponin_variability
+    source: "Štefănescu et al. (Biomolecules, 2020); Zhu et al. (BMC Chemistry, 2017)"
+    key_findings:
+      - "Protodioscin concentration: 1–1530 mg/100g dry weight depending on geographic origin"
+      - "Remarkable variations between samples from the same country"
+      - "108 kinds of steroidal saponins isolated (58 spirostane + 50 furostane types)"
+      - "Saponin composition influenced by: geographic origin, plant part, developmental stage"
+      - "Furostanol saponins (including protodioscin) and spirostanol saponins are primary active compounds"
+      - "Saponins possess membrane permeabilizing properties—may affect absorption of co-administered drugs"
+    drug_interaction_mechanism: "CYP3A4 moderate inhibition (confirmed in Huff et al. 2024 case)"
+
+traditional_pharmacopoeia:
+  - id: chinese_pharmacopoeia
+    name: "Chinese Pharmacopoeia (Pharmacopoeia of China)"
+    editions:
+      - "2005 edition (referenced in systematic reviews)"
+      - "2015 edition (referenced in Zhu et al. 2017)"
+    plant_part: "Fruits (Tribuli Fructus / Ci Ji Li)"
+    traditional_indications:
+      - "Tonifying the kidneys"
+      - "Diuretic"
+      - "Cough expectorant"
+      - "Improves eyesight"
+      - "Treatment of skin pruritus, headache, vertigo"
+      - "Mammary duct blockage"
+    standardization: "Official pharmacopoeia monograph with quality standards"
+    source_reference: "Zhu W et al. BMC Chemistry 2017 (PMID 29086839)"
+
+  - id: japanese_pharmacopoeia
+    name: "Japanese Pharmacopoeia"
+    edition: "16th Edition (2012)"
+    status: "Monograph included"
+    plant_part: "Fruits"
+    source_reference: "Referenced in Štefănescu et al. (Biomolecules, 2020)"
+
+  - id: korean_pharmacopoeia
+    name: "Korean Pharmacopoeia"
+    edition: "9th Edition (2007)"
+    status: "Monograph included"
+    plant_part: "Fruits"
+    source_reference: "Referenced in Štefănescu et al. (Biomolecules, 2020)"
+
+  - id: siddha_pharmacopoeia
+    name: "Siddha Pharmacopoeia of India"
+    edition: "Volume 1 (2008)"
+    status: "Monograph included"
+    source_reference: "Referenced in Štefănescu et al. (Biomolecules, 2020)"
+
+  - id: ayurveda_traditional
+    name: "Ayurvedic Traditional Medicine (India)"
+    traditional_name: "Gokshura"
+    traditional_applications:
+      - "Treatment of infertility"
+      - "Treatment of impotence"
+      - "Erectile dysfunction"
+      - "Low libido"
+    history: "Used for thousands of years in China, India, Sudan, and Pakistan as folk medicine"
+    source_reference: "Zhu W et al. BMC Chemistry 2017 (PMID 29086839)"
+
+  - id: ema_assessment
+    name: "EMA (European Medicines Agency) Herba Assessment"
+    document: "Draft Assessment Report on Tribulus terrestris L., herba"
+    url: "https://www.ema.europa.eu/en/documents/herbal-report/draft-assessment-report-tribulus-terrestris-l-herba-first-version_en.pdf"
+    key_finding: "No information on traditional use of TT herb found in searched literature; traditional EU monograph could not be established"
+    regulatory_implication: "TT does not meet EMA criteria for traditional herbal medicinal product registration in the EU"
+
+  - id: who_monograph_status
+    name: "WHO Monograph Status"
+    status: "No WHO monograph found for Tribulus terrestris"
+    commission_e_status: "Not included in German Commission E monographs"
+    note: "Commission E was active 1984–1994; TT did not receive assessment during this period"
+
+reference_reviews:
+  - id: zhu_2017
+    title: "A review of traditional pharmacological uses, phytochemistry, and pharmacological activities of Tribulus terrestris"
+    authors:
+      - Zhu W
+      - Du Y
+      - Meng H
+      - Dong Y
+      - Li L
+    year: 2017
+    journal: Chemistry Central Journal (BMC Chemistry)
+    pmid: 29086839
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29086839/
+    pmc_link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5503856/
+    doi: "10.1186/s13065-017-0289-x"
+    study_type: Comprehensive traditional use and pharmacological review
+    key_findings:
+      - "Fruits and roots used as folk medicine for thousands of years in China, India, Sudan, Pakistan"
+      - "Saponins and flavonoids are primary bioactive constituents"
+      - "References Chinese Pharmacopoeia 2015 for official monograph status"
+      - "Historical use for vitality and sexual performance in men"
+
+dosing_summary:
+  clinical_trial_doses:
+    range: "250 mg–1,500 mg/day standardized extract"
+    most_common_dose: "750–1,500 mg/day (extract)"
+    tribestan_dose: "1,500 mg/day (6 × 250 mg tablets; ~675 mg/day furostanol saponins)"
+    postmenopausal_women: "750 mg/day for 120 days"
+    athletic_population: "770 mg/day (40% saponins) for 6 weeks"
+  standardization:
+    key_marker: "Furostanol saponins (particularly protodioscin)"
+    tribestan_standard: "≥ 112.5 mg furostanol saponins per 250 mg tablet (≥ 45%)"
+    typical_range_commercial: "40–45% furostanol saponins in standardized extracts"
+  duration:
+    most_studies: "30 days to 12 weeks"
+    typical_minimum: "4–8 weeks for observable effects"
+    postmenopausal_study: "120 days (4 months)"
+  forms:
+    standardized_extract: "Tribestan® (Sopharma); 250 mg tablets standardized to furostanol saponins"
+    dried_extract: "Androsten® (250 mg dried extract per capsule)"
+    granules: "Gokshura granules (Ayurvedic)"
+    water_extract: "Traditional; associated with toxicity cases"
+
+safety_profile_summary:
+  at_standard_doses:
+    adverse_effects:
+      - "GI discomfort, nausea, dyspepsia (mild, transient)"
+      - "No serious adverse events in major RCTs"
+    serious_case_reports:
+      - "Severe cholestatic jaundice + acute kidney injury (high dose, prolonged use)"
+      - "Nephrotoxicity + hepatotoxicity + neurotoxicity (after 2 days of herbal water extract)"
+      - "Rhabdomyolysis (CYP3A4 drug interaction with atorvastatin)"
+      - "Priapism (72-hour duration; case report)"
+  livertox_rating: "E* — Possible rare cause of liver injury at high doses or pre-existing disease"
+  drug_interactions:
+    cyp3a4_inhibition: "Moderate inhibitor; risk with statins (atorvastatin), immunosuppressants, and other CYP3A4 substrates"
+  psa_monitoring:
+    note: "One study found PSA increase from 1.4 to 1.7 (p = 0.007); monitoring recommended in men"
+  contraindications:
+    - "Pre-existing liver or kidney disease (cautionary)"
+    - "Concurrent statin therapy (drug interaction risk)"
+    - "Concurrent CYP3A4-metabolized medications"
+
+evidence_summary:
+  testosterone_in_eugonadal_men:
+    verdict: "No effect"
+    key_evidence: "Neychev 2005 (p > 0.05 all androgens); Santos 2014 (negative); Vilar Neto 2025 systematic review (8/10 studies no effect)"
+  testosterone_in_hypogonadal_men:
+    verdict: "Possible modest effect"
+    key_evidence: "GamalEl Din 2019 (2.2 → 2.7 ng/dL, p < 0.001); Vilar Neto 2025 (2/10 studies showed 60–70 ng/dL increase)"
+  erectile_dysfunction:
+    verdict: "Probable benefit"
+    key_evidence: "Suharyani 2025 meta-analysis (IIEF-5 MD 3.23 vs placebo); Kamenov 2017 (IIEF difference 2.70, p < 0.0001)"
+  female_sexual_dysfunction:
+    verdict: "Likely beneficial; mechanistically via free testosterone"
+    key_evidence: "De Souza 2016 (FSFI improvements, P < 0.01); Vale 2018 (FSFI improvements, p < .001); Martimbianco 2020 systematic review"
+  sperm_quality:
+    verdict: "Probable benefit; evidence limited by methodology"
+    key_evidence: "Sanagoo 2019 (6/7 studies positive); Salgado 2017 (sperm concentration, motility, liquefaction improved)"
+  athletic_performance:
+    verdict: "No clear benefit on most metrics; possible testosterone maintenance during training"
+    key_evidence: "Fernández-Lázaro 2022 systematic review (no clear hormonal benefit); Fernández-Lázaro 2021 RCT (attenuated testosterone decline)"
+
+research_gaps:
+  identified_needs:
+    - "No human pharmacokinetic data; only rat data on protodioscin (5.7% bioavailability)"
+    - "No WHO or Commission E monographs; EMA could not establish traditional use monograph"
+    - "Large sample size RCTs needed (most trials <100 participants)"
+    - "Long-term safety studies (>3 months) lacking"
+    - "Standardization across trials needed (preparation, dose, saponin content vary widely)"
+    - "Bioavailability studies in humans comparing different extract standardizations"
+    - "Head-to-head comparison of furostanol vs spirostanol standardized extracts"
+    - "Systematic investigation of CYP3A4 inhibition and drug interaction magnitude"
+    - "PSA monitoring studies in men using TT long-term"

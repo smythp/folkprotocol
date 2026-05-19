@@ -1,0 +1,210 @@
+---
+# Tongkat Ali (Eurycoma longifolia) Clinical Research Bibliography
+# Focus: Systematic reviews, RCTs, standardized extracts, dosing, bioavailability, safety
+# Created: 2026-03-30
+
+systematic_reviews_meta_analyses:
+  - id: leisegang_2022
+    title: "Eurycoma longifolia (Jack) improves serum total testosterone in men: A systematic review and meta-analysis of clinical trials"
+    authors:
+      - Leisegang K
+      - Finelli R
+      - Sikka SC
+      - Panner Selvam MK
+    year: 2022
+    journal: Medicina (Kaunas)
+    pmid: 36013514
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/36013514/
+    pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9415500/
+    doi: "10.3390/medicina58081047"
+    study_type: Systematic review and meta-analysis of clinical trials
+    studies_reviewed: 9 RCTs
+    sample_size: 799 males
+    key_findings:
+      - "Significantly increased total testosterone levels in men (MD 1.59 nmol/L; p = 0.02)"
+      - "Subgroup analysis showed significant increase only in hypogonadal men (MD 2.27 nmol/L; p = 0.02)"
+      - "No significant effect observed in healthy, eugonadal men (p = 0.50)"
+      - "Significant increase in testosterone was noted with supplementation durations > 8 weeks"
+      - "No significant differences in adverse events compared to placebo"
+    statistical_findings:
+      testosterone_increase_nmol_L_md: 1.59
+      hypogonadal_testosterone_increase_nmol_L_md: 2.27
+    dosing: "100-600 mg/day for 1 day to 24 weeks"
+    safety: "Supplementation was well-tolerated and safe."
+
+  - id: kotirum_2015
+    title: "Efficacy of Tongkat Ali (Eurycoma longifolia) on erectile function improvement: systematic review and meta-analysis of randomized controlled trials"
+    authors:
+      - Kotirum S
+      - Ismail SB
+      - Chaiyakunapruk N
+    year: 2015
+    journal: Complementary Therapies in Medicine
+    pmid: 26527235
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/26527235/
+    doi: "10.1016/j.ctim.2015.08.013"
+    study_type: Systematic review and meta-analysis of RCTs
+    studies_reviewed: 2 RCTs
+    sample_size: 139
+    key_findings:
+      - "No significant difference in overall change of IIEF-5 score (MD 1.34, p=0.45)"
+      - "Subgroup analysis of subjects with lower baseline IIEF-5 scores showed significant improvement (MD 3.32, p=0.04)"
+      - "No serious adverse side effects were reported in the included studies"
+    statistical_findings:
+      iief5_overall_md: 1.34
+      iief5_subgroup_md: 3.32
+    conclusion: "May have clinical effect on erectile function, especially for those with lower baseline function. More trials needed."
+
+randomized_controlled_trials:
+  - id: leitao_2021
+    title: "A 12-week clinical study on the effects of Physta standardized root extract of Eurycoma longifolia on testosterone levels and quality of life in men"
+    authors:
+      - Leitao AE
+      - de Souza Viana M
+      - El-Aziz MA
+      - de Almeida Vieira A
+      - Medeiros DC
+    year: 2021
+    journal: Andrologia
+    pmid: 33543660
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33543660/
+    doi: "10.1111/and.13963"
+    study_type: Randomized, double-blind, placebo-controlled, multicenter study
+    sample_size: 105 men (50-70 years) with low testosterone (<300 ng/dL)
+    dosing:
+      - "100 mg/day Physta"
+      - "200 mg/day Physta"
+      - "Placebo"
+    duration: "12 weeks"
+    key_findings:
+      - "Significant increase in total testosterone vs placebo in 200mg group at weeks 4, 8, 12."
+      - "100mg group: Total T increased from 8.85 to 10.11 nmol/L."
+      - "200mg group: Total T increased from 9.30 to 11.23 nmol/L."
+      - "Placebo group: Total T decreased from 9.47 to 9.22 nmol/L."
+      - "Significant reduction in Ageing Male Symptoms (AMS) and Fatigue Severity Scale (FSS) scores in both Physta groups."
+      - "Cortisol significantly decreased in the 200mg group."
+      - "Muscle strength (handgrip) significantly increased in both Physta groups."
+    standardization: "Physta standardized Eurycoma longifolia root extract."
+    funding: "Funded by Biotropics Malaysia, the product manufacturer."
+
+  - id: talbott_2013
+    title: "Effect of Tongkat Ali on stress hormones and psychological mood state in moderately stressed subjects"
+    authors:
+      - Talbott SM
+      - Talbott JA
+      - George A
+      - Pugh M
+    year: 2013
+    journal: Journal of the International Society of Sports Nutrition
+    pmid: 23705671
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/23705671/
+    pmc_link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669033/
+    doi: "10.1186/1550-2783-10-28"
+    study_type: Placebo-controlled trial
+    sample_size: 63 subjects (32 men, 31 women) with moderate stress
+    dosing: "200 mg/day standardized hot-water extract of Tongkat Ali (Physta)"
+    duration: "4 weeks"
+    key_findings:
+      - "Cortisol exposure (-16%) was significantly lower in the Tongkat Ali group (p < 0.05)."
+      - "Testosterone levels were significantly higher (+37%) in the Tongkat Ali group (p < 0.05)."
+      - "Significant improvement in mood state parameters: Tension (-11%), Anger (-12%), Confusion (-15%)."
+    standardization: "Physta standardized hot-water Eurycoma longifolia root extract."
+
+  - id: udani_2014
+    title: "Effects of a proprietary freeze-dried water extract of Eurycoma longifolia (Physta) and Polygonum minus on sexual performance and well-being in men: a randomized, double-blind, placebo-controlled study"
+    authors:
+      - Udani JK
+      - George AA
+      - Mufiza M
+      - Abas A
+      - Le-Fu P
+    year: 2014
+    journal: Evidence-Based Complementary and Alternative Medicine
+    pmid: 24386427
+    pubmed_link: https://pubmed.ncbi.nlm.nih.gov/24386427/
+    doi: "10.1155/2014/179529"
+    study_type: Randomized, double-blind, placebo-controlled study
+    sample_size: 26 men (40-65 years)
+    dosing: "300 mg/day (Physta 200mg, Polygonum minus 100mg)"
+    duration: "12 weeks"
+    key_findings:
+      - "Significant improvement in 'erection hardness scale' (p=0.038)"
+      - "Significant improvement in 'sexual health inventory for men' (p=0.005)"
+      - "No significant changes in testosterone levels"
+    standardization: "Physta standardized Eurycoma longifolia root extract."
+
+regulatory_professional_sources:
+  - id: efsa_2021
+    organization: "European Food Safety Authority (EFSA)"
+    document_title: "Safety of Tongkat Ali (Eurycoma longifolia) root extract as a novel food pursuant to Regulation (EU) 2015/2283"
+    year: 2021
+    url: https://www.efsa.europa.eu/en/efsajournal/pub/6936
+    key_findings:
+      - "The Panel concluded that the safety of the novel food has not been established."
+      - "The novel food has the potential to induce DNA damage and the Panel concluded that it is clastogenic in vitro."
+      - "In an in vivo mammalian alkaline comet assay, the novel food induced DNA damage in the stomach and duodenum."
+    proposed_use: "Up to 200 mg/day for adult population, excluding pregnant and lactating women."
+    conclusion: "Safety not established under any condition of use."
+
+  - id: malaysian_standard_2011
+    organization: "Department of Standards Malaysia"
+    document_title: "MS 2409:2011 - Phytopharmaceutical aspect of freeze dried water extract from Tongkat Ali roots - Specification"
+    year: 2011
+    key_findings:
+      - "Provides the commercial quality requirements for freeze-dried water extract from Eurycoma longifolia roots."
+      - "Based on Malaysian Herbal Monograph, 1999 (FRIM)."
+    standardization_focus:
+      - Eurycomanone content
+      - Total protein
+      - Total polysaccharide
+      - Glycosaponin
+
+  - id: ema_who_commission_e
+    organization: "EMA / WHO / Commission E"
+    status: "No monograph or formal assessment found."
+    note: "Eurycoma longifolia is not listed in WHO monographs on selected medicinal plants, was not assessed by the German Commission E, and does not have an established monograph with the European Medicines Agency (EMA)."
+
+traditional_use:
+  - id: southeast_asia_traditional
+    region: "Malaysia, Indonesia, Vietnam, and other Southeast Asian countries"
+    plant_part: "Mainly roots, but also bark, flowers, and fruits"
+    preparation: "Typically a water decoction (boiling the roots)."
+    traditional_indications:
+      - "Aphrodisiac, to enhance male sexual function and virility."
+      - "Tonic for general health, energy, and after childbirth."
+      - "Antimalarial and antipyretic (for fever)."
+      - "Treatment for aches, high blood pressure, anxiety."
+      - "Bark used as a vermifuge (expels worms)."
+      - "Flowers and fruits used for dysentery."
+    source_reference: "General ethnobotanical literature."
+
+safety_profile:
+  - id: adulteration_quality
+    issue: "Adulteration and Poor Quality Control"
+    key_findings:
+      - "A major issue for Tongkat Ali supplements."
+      - "Many products found to contain little to no Eurycoma longifolia."
+      - "Adulterants include undeclared prescription drugs like sildenafil or tadalafil."
+      - "Contamination with heavy metals (mercury, lead) is a documented risk."
+      - "Standardization is crucial. Look for extracts standardized to a specific percentage of eurycomanone (e.g., 0.8-1.5%)."
+      - "Ratio extracts (100:1, 200:1) are not a reliable indicator of quality or potency."
+    recommendation: "Use products from reputable manufacturers with third-party testing (e.g., Certificate of Analysis) and clear standardization information."
+
+  - id: drug_interactions
+    issue: "Potential Drug Interactions"
+    interactions:
+      - "Antidiabetic drugs: May enhance blood sugar lowering effect (e.g., metformin)."
+      - "Antihypertensive drugs: May interfere with propranolol."
+      - "Immunosuppressants: Potential to interfere with immunosuppressive therapy."
+      - "Anticoagulants/Antiplatelets: May increase bleeding risk."
+      - "CYP450 substrates: May inhibit enzymes like CYP3A4, affecting metabolism of many drugs."
+
+  - id: contraindications
+    issue: "Contraindications and High-Risk Populations"
+    populations:
+      - "Pregnant and breastfeeding women."
+      - "Individuals with hormone-sensitive cancers (e.g., prostate, breast)."
+      - "People with heart, liver, or kidney disease."
+      - "Those with weakened immune systems."
+      - "Children."
+    side_effects: "Commonly mild: insomnia, irritability, restlessness. Gastrointestinal upset is also possible."
