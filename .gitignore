@@ -25,3 +25,10 @@ pnpm-debug.log*
 
 # SKEIN agent collaboration state (local, not site content)
 .skein/
+
+# local Claude Code per-machine settings
+.claude/settings.local.json
+
+# shard worktrees and run logs (local, not site content)
+worktrees/
+logs/
