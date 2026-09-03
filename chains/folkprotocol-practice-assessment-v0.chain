@@ -1,0 +1,87 @@
+# Folkprotocol Practice Assessment v0
+#
+# Third experimental slice. It compares the reconstructed practice field and
+# chooses a bounded set of directions for protocol reconstruction. It performs
+# no new research and writes no page prose.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Codex: """Assess the practice field at research/source-maps/{slug}/ without doing
+new research.
+
+Required inputs are 00-commission.md, the six numbered source maps from 10
+through 60, and 70-practice-strains.md. Verify their completion markers before
+doing anything else. If one is absent or incomplete, do not write the output;
+report the exact path and stop.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md 70-practice-strains.md | sha256sum`. Write
+research/source-maps/{slug}/80-practice-assessment.md with that digest in YAML
+frontmatter as inputDigest. If a complete output already records the same
+digest and is at most 4,000 words, leave it unchanged. A changed or absent
+digest requires reconstruction from the current inputs.
+
+Read only the required inputs and the output itself. Do not search the web,
+open raw sources, delegate, or start another agent workflow. Write only the
+output file.
+
+The purpose is to decide what the mapped material actually gives an editor,
+without converting the field into either a supplement ranking or a protocol
+for every named remedy. Keep these dimensions separate:
+
+- source footprint: exactly what kind of record exists and where
+- operative plausibility: whether the proposed move has a coherent path to the
+  claimed effect, including when the source's own mechanism is likely wrong
+- practical signal: magnitude, repetition, specificity, negative reports, and
+  whether an effect large enough to notice is even claimed
+- concrete downside: only a risk or tradeoff that materially changes the move
+- missing detail: the exact preparation, timing, amount, population, or outcome
+  needed before a bounded protocol can be written
+
+Do not collapse these dimensions into an evidence score or tier. Published
+research is one kind of source record, not the court of appeal for forum,
+traditional, commercial, or practitioner material. A named traditional
+pathway can be accurately described on its own terms. A small study can support
+the preparation, population, timing, and outcome it actually tested. A few
+first-person accounts can establish a speculative direction. Commercial
+repetition does not become independent convergence when pages copy one another.
+
+Avoid generic recommendation-threshold language such as `insufficient evidence
+to recommend`, `not ready`, `needs an RCT`, or repeated reminders that evidence
+is limited. Avoid generic medical advice and obvious observations about effort,
+convenience, access, or individual variation. Record only concrete boundaries
+already supported by the inputs.
+
+Write these sections:
+
+1. `Working model of the problem` — a compact account of the distinct processes
+   or symptom paths the maps support. Treat the syndrome model as useful and
+   revisable, not as the page's controlling taxonomy.
+2. `Comparison across the field` — compare the broad strains without ranking
+   them. Identify convergence, contradictions, copied claims, negative results,
+   and mechanism/practice mismatches.
+3. `Directions for protocol reconstruction` — choose 4–7 exact directions.
+   Each must be a bounded practice or coherent combination, not a whole source
+   strain and not a shopping list. State why it merits exact reconstruction,
+   what source basis supports that decision, and the missing details the next
+   stage must retrieve. Selection means `worth reconstructing`, not `proven` or
+   `recommended`.
+4. `Other material to retain on the page` — account for every non-selected
+   strain and unclustered direction in compact form, saying how it should remain
+   visible without receiving a full protocol.
+5. `Questions for targeted research` — only questions whose answers could
+   change a preparation, timing, amount, claimed outcome, concrete boundary, or
+   source framing in one of the selected directions.
+
+Cross-map citations must retain the exact upstream form, such as [10:RF12] or
+[30:PR3]. Every factual characterization must cite the source-map material that
+supports it. Do not create a bibliography or invent raw citations.
+
+End with `ASSESSMENT COMPLETE — N protocol directions`, using the actual count.
+Run wc -w and shorten until the final file is at most 4,000 words without
+dropping any strain from the retention accounting.""" model=gpt-5.6-sol, timeout=1200

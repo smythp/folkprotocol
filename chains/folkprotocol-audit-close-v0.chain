@@ -1,0 +1,125 @@
+# Folkprotocol Audit Close v0
+#
+# Tenth experimental slice. After triage-directed repairs, it rechecks factual
+# fidelity and verifies only the accepted tone repairs. It deliberately does
+# not open a fresh global tone-review pass.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Parallel(3):
+    Codex: """Recheck citation completeness and provenance after triage-directed
+repairs to research/source-maps/{slug}/120-tone-draft.md.
+
+Required inputs are 00-commission.md, the six source maps from 10 through 60,
+70-practice-strains.md, 80-practice-assessment.md, 90-protocol-dossiers.md,
+100-factual-draft.md, 120-tone-draft.md, and 133-audit-triage.md. Require 133 to
+end with either `AUDIT TRIAGE COMPLETE — READY` or an exact
+`AUDIT TRIAGE COMPLETE — REPAIR REQUIRED — N findings` marker.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md 100-factual-draft.md 120-tone-draft.md
+133-audit-triage.md | sha256sum`. Write it as inputDigest in
+research/source-maps/{slug}/134-citation-recheck.md. If that file ends with
+`CITATION RECHECK COMPLETE` and records the same digest, leave it unchanged.
+
+Read only the required files and existing output. Do no web research and edit
+no input. Write only 134-citation-recheck.md. Work yourself; do not delegate or
+start another agent workflow. Check every prose citation token and reference
+entry, exact source-ID existence and expansion, numerical, preparation, and
+timing claims, and survival of material qualifications. Pay particular
+attention to text changed to resolve accepted findings in 133. Report only
+concrete mismatches with exact phrases and source locations. If none, write
+`CLEAN`. End with `CITATION RECHECK COMPLETE`.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1800
+
+    Codex: """Recheck the substantive shape after triage-directed repairs to
+research/source-maps/{slug}/120-tone-draft.md.
+
+Required inputs are 00-commission.md, 70-practice-strains.md,
+80-practice-assessment.md, 90-protocol-dossiers.md, 100-factual-draft.md,
+120-tone-draft.md, and 133-audit-triage.md. Require 133 to end with either
+`AUDIT TRIAGE COMPLETE — READY` or an exact
+`AUDIT TRIAGE COMPLETE — REPAIR REQUIRED — N findings` marker.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md 100-factual-draft.md 120-tone-draft.md
+133-audit-triage.md | sha256sum`. Write it as inputDigest in
+research/source-maps/{slug}/135-content-recheck.md. If that file ends with
+`CONTENT RECHECK COMPLETE` and records the same digest, leave it unchanged.
+
+Read only the required files and existing output. Do no web research and edit
+no input. Write only 135-content-recheck.md. Work yourself; do not delegate or
+start another agent workflow. Check that repairs did not lose a selected
+direction, source tradition, strange or thin lead, useful effect size,
+population or access boundary, preparation distinction, commissioner lead, or
+the difference between symptoms, function, alcohol exposure, and clearance.
+Check that no repair manufactured a protocol or strengthened a scoped claim.
+Do not propose new tone edits or a different page. If none, write `CLEAN`. End
+with `CONTENT RECHECK COMPLETE`.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1800
+
+    Codex: """Verify only the dispositioned tone repairs in
+research/source-maps/{slug}/133-audit-triage.md against the current
+120-tone-draft.md.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 120-tone-draft.md 133-audit-triage.md | sha256sum`. Write it as
+inputDigest in research/source-maps/{slug}/136-tone-repair-check.md. If that
+file ends with `TONE REPAIR CHECK COMPLETE` and records the same digest, leave
+it unchanged.
+
+Read only 120-tone-draft.md, 133-audit-triage.md, and the existing output. Do no
+web research and edit no input. Write only 136-tone-repair-check.md. Work
+yourself; do not delegate or start another agent workflow.
+
+If 133 ends READY, record that it contains no accepted unresolved repairs. If
+it ends REPAIR REQUIRED, enumerate every finding marked `accept` in 133 and
+classify it `repaired` or `unresolved` in the current draft. A repair may use
+different wording from the suggestion; judge whether the exact defect was
+removed while the constraint named in 133 survived. Do not perform a new tone
+audit, introduce a new style preference, revisit rejected findings, or inspect
+phrases not covered by an accepted finding. End with `TONE REPAIRS CLEAN` only
+if every accepted finding is repaired; otherwise end with
+`TONE REPAIRS UNRESOLVED — N findings`. In all cases, finish with
+`TONE REPAIR CHECK COMPLETE`.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1200
+
+Then Codex: """Close the bounded audit-repair cycle for
+research/source-maps/{slug}/120-tone-draft.md.
+
+Read only 120-tone-draft.md, 133-audit-triage.md,
+134-citation-recheck.md, 135-content-recheck.md,
+136-tone-repair-check.md, and the existing 137-audit-closure.md. Verify all
+completion markers. Verify each recheck is current by recomputing its exact
+documented digest from research/source-maps/{slug}/:
+
+- 134: `sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+  30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+  60-practitioner-folk-web.md 70-practice-strains.md
+  80-practice-assessment.md 90-protocol-dossiers.md 100-factual-draft.md
+  120-tone-draft.md 133-audit-triage.md | sha256sum`
+- 135: `sha256sum 00-commission.md 70-practice-strains.md
+  80-practice-assessment.md 90-protocol-dossiers.md 100-factual-draft.md
+  120-tone-draft.md 133-audit-triage.md | sha256sum`
+- 136: `sha256sum 120-tone-draft.md 133-audit-triage.md | sha256sum`
+
+The files named only in digest commands may be passed to sha256sum but must not
+otherwise be read. If a recheck is stale or incomplete, report the exact file
+and stop without writing.
+
+Compute the closure input digest with exactly `sha256sum 120-tone-draft.md
+133-audit-triage.md 134-citation-recheck.md 135-content-recheck.md
+136-tone-repair-check.md | sha256sum`. Write it as inputDigest in
+research/source-maps/{slug}/137-audit-closure.md. If a completed closure records
+the same digest, leave it unchanged. Write only 137-audit-closure.md. Do no web
+research, do not delegate, and do not start another agent workflow.
+
+If 134 and 135 are CLEAN and 136 says TONE REPAIRS CLEAN, end with
+`AUDIT CLOSURE COMPLETE — READY`. Otherwise account for every concrete finding
+from 134 through 136 and end with
+`AUDIT CLOSURE COMPLETE — REPAIR REQUIRED — N findings`. Do not add new tone
+findings or reopen findings rejected in 133.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1200

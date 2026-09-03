@@ -1,0 +1,83 @@
+# Folkprotocol Protocol Dossiers v0
+#
+# Fourth experimental slice. It performs bounded, targeted research for only
+# the selected protocol directions and reconstructs exact practices. It does
+# not draft the public page.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Codex: """Build protocol dossiers for the selected directions in
+research/source-maps/{slug}/80-practice-assessment.md.
+
+Required local inputs are 00-commission.md, the six source maps from 10 through
+60, 70-practice-strains.md, and 80-practice-assessment.md. Verify all completion
+markers first. If any required file is absent or incomplete, do not write the
+output; report the exact path and stop.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md 70-practice-strains.md
+80-practice-assessment.md | sha256sum`. Write
+research/source-maps/{slug}/90-protocol-dossiers.md with that digest in YAML
+frontmatter as inputDigest. If a complete output already records the same
+digest and is at most 6,000 words, leave it unchanged. Rebuild when the digest
+changes.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch Mill,
+Spindle, Horizon, or another agent workflow. Write only the output file. Web
+research is allowed, but only to answer the targeted questions in the
+assessment. Prefer direct sources: the actual paper, thread, product label,
+traditional text or close scholarly translation, regulatory record, or named
+practitioner account. Search results and reviews may locate a source but should
+not replace an accessible original. Mark an inaccessible source honestly.
+
+Reconstruct only the 4–7 selected directions. Do not add a dossier merely
+because a new remedy appears during research. Put genuinely relevant adjacent
+findings in a short `Research spillover` section instead.
+
+For each direction establish, where the record permits:
+
+- the exact practice, preparation, or product specification; distinguish plant
+  part, extract, formulation, route, and branded preparation when they matter
+- timing and amount actually used in a study, tradition, label, or recurring
+  community practice; do not manufacture a dose from mechanism alone
+- which outcome or symptom people claim or observed, the size and timing of the
+  effect when stated, and what kind of source produced that statement
+- the likely operative pathway, clearly separating the source's own explanation
+  from a later mechanistic interpretation; a practice can remain interesting
+  when its folk explanation is wrong
+- disagreements, null reports, preparation mismatches, and circumstances that
+  plausibly explain divergent outcomes
+- concrete boundaries that materially change use. Do not pad every dossier
+  with generic warnings or turn it into withdrawal care
+- an `ordinary-use test` describing what a noticeable result would look like
+  over normal use. Do not prescribe spreadsheets, symptom scales, fixed alcohol
+  challenges, or a quantified-self regimen
+
+Treat heterogeneous evidence in context. Do not require cross-domain
+convergence. Do not apologize for traditional or forum material by repeatedly
+holding it against clinical literature. Conversely, do not upgrade repetition,
+longevity, biochemical vocabulary, patents, or sales copy into validation.
+
+Use two citation systems without mixing them:
+
+- Retain cross-map citations such as [10:RF12] when describing what the map
+  found.
+- Assign direct-source citations [P1], [P2], and so on for sources opened in
+  this pass. Every exact amount, timing, outcome, mechanistic claim, preparation
+  distinction, or risk statement must cite a direct source. One ID names one
+  retrievable item.
+
+End with `Direct source index`, recording for every [Pn]: title, author or
+owner, date, stable URL/DOI/PMID, access status, source kind, which dossier it
+supports, and a short description of what was actually taken from it. Do not
+quote more than 25 words from any non-forum source or more than 10 words of song
+lyrics. Forum quotations may be longer when useful but should remain brief.
+
+End the file with `DOSSIERS COMPLETE — N directions, M direct sources`, using
+actual counts. Run wc -w and shorten until the file is at most 6,000 words
+without dropping protocol-critical details or citations.""" model=gpt-5.6-sol, permission=research, research_target=file:/home/patrick/projects/folkprotocol/research/source-maps/{slug}/90-protocol-dossiers.md, timeout=2400

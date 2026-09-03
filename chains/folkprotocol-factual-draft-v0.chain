@@ -1,0 +1,82 @@
+# Folkprotocol Factual Draft v0
+#
+# Fifth experimental slice. It assembles a cited page draft from the completed
+# maps, assessment, and protocol dossiers. Voice polishing is deliberately
+# deferred.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Codex: """Assemble a factual draft for the Folkprotocol topic in
+research/source-maps/{slug}/.
+
+Required inputs are 00-commission.md, the six source maps from 10 through 60,
+70-practice-strains.md, 80-practice-assessment.md, and
+90-protocol-dossiers.md. Verify every completion marker before writing. If an
+input is missing or incomplete, report the exact path and stop without changing
+the output.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md | sha256sum`. Write
+research/source-maps/{slug}/100-factual-draft.md with `inputDigest` and
+`draft: true` in YAML frontmatter. If the existing complete output has the same
+digest and the prose above `## References` is at most 5,500 words, leave it
+unchanged. Rebuild on input change.
+
+Read only the required inputs and the existing output. Do not search the web,
+open raw sources, delegate, or start another agent workflow. Write only the
+output file.
+
+This is a coherent page, not a report about the research process and not a
+laundry list of cures. Build its structure around what a reader is trying to
+understand and do:
+
+- explain compactly what a hangover appears to be, including that dehydration
+  is one aggravating path rather than the whole event
+- explain why the same nominal alcohol exposure can produce different outcomes,
+  using timing, food/absorption, beverage composition, sleep, physiology, and
+  symptom-path differences only where the inputs support them
+- present the reconstructed practices at the moment they are used and for the
+  outcome they target
+- give full protocol treatment only to the selected directions; retain the rest
+  as traditions, common practices, disputed moves, negative results, or
+  speculative directions in proportion to what the record contains
+- distinguish symptom relief from changing alcohol absorption, exposure,
+  metabolism, sleep disruption, or next-day state
+
+Do not lead with `do not drink`, `drink less`, or a generic lower-ABV rule. These
+may appear when a specific finding requires them but cannot substitute for the
+question commissioned. Do not organize supplements into tiers, recommend a
+stack, or crown a default pill. Do not call something `clinically proven`, and
+do not repeatedly say that evidence is limited or that more research is needed.
+State what each source actually establishes. Preserve weird or thin directions
+as weird or thin rather than deleting or laundering them.
+
+For ordinary-use tests, describe the result that would be large enough to
+matter in normal life. Do not require controlled drinking challenges, diaries,
+spreadsheets, numeric symptom scales, or pseudo-experimental routines.
+
+Use readable provisional prose, but do not perform a self-conscious tone
+rewrite. Avoid faux warmth, canned wellness language, clinician boilerplate,
+scolding, rhetorical questions, and unnecessary explanations of obvious
+practical friction. Do not imitate the commissioner's profanity or private
+conversation.
+
+Every factual claim must carry one or more citations. Retain cross-map IDs such
+as [20:TR3] and dossier direct-source IDs such as [P4]. At the end write a
+`References` section that expands every cited ID into its full source record by
+copying faithfully from the relevant map index or dossier direct-source index.
+Do not cite IDs that never appear in the prose, and do not leave prose IDs
+without a reference entry.
+
+End with `FACTUAL DRAFT COMPLETE — N references`, using the actual number of
+unique referenced IDs. Count only prose above `## References` with
+`sed -n '1,/^## References/p' research/source-maps/{slug}/100-factual-draft.md | wc -w`
+and shorten that prose until it is at most 5,500 words without removing needed
+protocols, important contrary material, or citation support. Reference entries
+do not count against the prose cap.""" model=gpt-5.6-sol, timeout=1800

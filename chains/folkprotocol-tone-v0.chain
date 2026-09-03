@@ -1,0 +1,101 @@
+# Folkprotocol Tone v0
+#
+# Sixth experimental slice. Claude Sonnet 4.5 diagnoses the factual draft,
+# rewrites it, and then performs a separate local prose review. It may not do
+# research or change the factual record.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+CC: """Create a tone brief for
+research/source-maps/{slug}/100-factual-draft.md.
+
+Verify that 100-factual-draft.md ends with its completion marker. Also read
+00-commission.md and 80-practice-assessment.md for purpose and editorial
+choices. From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 80-practice-assessment.md 100-factual-draft.md |
+sha256sum`. Write that digest as inputDigest in the YAML frontmatter of
+research/source-maps/{slug}/110-tone-brief.md. If an existing tone brief ends
+with `TONE BRIEF COMPLETE` and records the same digest, leave it unchanged.
+Read no other files, do no web research, and write only 110-tone-brief.md. Work
+yourself: do not delegate, spawn subagents, or start another agent workflow.
+
+Diagnose the draft at sentence and section level. The desired voice is a
+knowledgeable, curious person who has actually looked through the territory and
+can make judgments without posing as a clinician. It is warm through attention
+and specificity, not through chummy filler. It can say a direction is thin,
+strange, disputed, commercially inflated, or worth trying when that is the
+record. It does not make published trials the default ruler for every other
+kind of knowledge.
+
+Identify concrete instances of:
+
+- report voice, academic scaffolding, or source-method narration left in prose
+- medical-site habits: scolding, generic safety throat-clearing, reflexive
+  abstinence, `talk to your doctor`, or facile individual-variation caveats
+- evidence-status tics: repeating `limited evidence`, treating PubMed as the
+  court of appeal, or calling anything without an RCT merely anecdotal
+- assistant tics: symmetrical lists, canned transitions, repeated mini-verdicts,
+  `promising`, `classic`, `may help`, and overexplaining obvious things
+- false warmth, sales language, wellness copy, or imitation of the commissioner
+- places where qualifications swamp the actual observation
+- places where the draft hides its useful judgment or functional effect size
+- laundry-list structure, especially around supplements
+
+For each problem quote a short identifying phrase, explain what it does to the
+voice, and give a local rewrite direction. Also identify passages whose voice
+should be preserved. Do not rewrite the page in this pass. End with
+`TONE BRIEF COMPLETE`.""" model=claude-sonnet-4-5-20250929, timeout=1200
+
+Then CC: """Rewrite
+research/source-maps/{slug}/100-factual-draft.md using
+research/source-maps/{slug}/110-tone-brief.md. Write only
+research/source-maps/{slug}/120-tone-draft.md.
+
+This is a prose transformation, not a new research pass. Read the factual draft
+and tone brief only. From research/source-maps/{slug}/ compute the input digest
+with exactly `sha256sum 100-factual-draft.md 110-tone-brief.md | sha256sum`.
+Write that digest as inputDigest in the output YAML. If a 120-tone-draft.md ends
+with its completion marker, records the same digest, and its prose above
+`## References` is at most 5,500 words, leave it unchanged. Work yourself: do
+not delegate, spawn subagents, or start another agent workflow. Preserve every
+factual claim, number, preparation detail,
+timing, uncertainty, source-type distinction, citation token, reference entry,
+YAML field, and the final reference count. Do not add facts from memory, remove
+thin or strange directions, strengthen conclusions, or make a new protocol.
+
+Apply the brief locally rather than flattening the whole page into one house
+style. Prefer concrete sentences and paragraphs over repeated labels or tables.
+Keep useful judgments visible. Do not add generic warnings, evidence apologies,
+obvious convenience commentary, quantified-self homework, faux-folksy language,
+or a moral about drinking. Do not imitate profanity.
+
+Set YAML `tonePass: claude-sonnet-4.5-v0`. Replace the final completion marker with
+`TONE DRAFT COMPLETE — N references`, preserving the true unique-reference
+count. Count only prose above `## References` with awk and keep that prose at
+most 5,500 words; reference entries do not count against the prose cap.""" model=claude-sonnet-4-5-20250929, inherit_previous_output=false, timeout=1800
+
+Then CC: """Review the completed tone draft against the factual
+draft and tone brief. Read only 100-factual-draft.md, 110-tone-brief.md, and
+120-tone-draft.md. Solely for the idempotency check below, you may inspect the
+existing 121-tone-review.md frontmatter inputDigest and final marker; do not
+read or reuse its findings. From research/source-maps/{slug}/ compute the input digest
+with exactly `sha256sum 100-factual-draft.md 110-tone-brief.md
+120-tone-draft.md | sha256sum`. Write that digest as inputDigest in the YAML
+frontmatter of research/source-maps/{slug}/121-tone-review.md. If an existing
+review ends with `TONE REVIEW COMPLETE` and records the same digest, leave it
+unchanged. Do not edit the draft. Write only 121-tone-review.md. Work yourself:
+do not delegate, spawn subagents, or start another agent workflow.
+
+Report concrete remaining tone failures with an identifying phrase and a local
+repair. Also report any factual claim, number, citation, reference, preparation,
+or qualification that the rewrite added, removed, or changed. Do not propose a
+new structure or re-litigate the factual content. Do not suggest removing a
+useful effect size, exact community amount, source-access boundary, population
+limit, or material qualification merely to make prose smoother. Do not turn a
+failed search into proof of absence or replace an observational result with a
+causal claim. Source-kind language is appropriate where it tells the reader
+what kind of record an amount or claim comes from. If there are no concrete
+tone or fidelity defects, write `CLEAN`. End with `TONE REVIEW COMPLETE`.""" model=claude-sonnet-4-5-20250929, inherit_previous_output=false, timeout=1200

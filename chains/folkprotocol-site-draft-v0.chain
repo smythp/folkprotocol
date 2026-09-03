@@ -1,0 +1,60 @@
+# Folkprotocol Site Draft v0
+#
+# Eleventh experimental slice. It converts a closed, triaged tone draft into a
+# collection-compatible candidate without overwriting live site content.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Codex: """Prepare an editorial site candidate from the completed Folkprotocol
+run at research/source-maps/{slug}/.
+
+Required research inputs are 00-commission.md, 120-tone-draft.md,
+133-audit-triage.md, 134-citation-recheck.md, 135-content-recheck.md,
+136-tone-repair-check.md, and 137-audit-closure.md. Verify every completion
+marker and require the exact final line `AUDIT CLOSURE COMPLETE — READY`. If
+closure requires repair, stop without writing. Verify that 137 is current by
+recomputing its documented digest from research/source-maps/{slug}/ with
+exactly `sha256sum 120-tone-draft.md 133-audit-triage.md
+134-citation-recheck.md 135-content-recheck.md 136-tone-repair-check.md |
+sha256sum`; stop on any mismatch.
+
+Also read src/content/config.ts and docs/citations.md. Derive the topic filename
+by removing a terminal version suffix such as `-v1` from {slug}; for
+`hangover-v1`, this yields `hangover`. Read only
+`src/content/protocols/<derived-topic>.md` to learn the current collection frontmatter,
+citation conventions, and relevant internal links. Stop if the file is absent
+or its topic does not match 00-commission.md. Do not treat its prose or
+bibliography as authority.
+
+From research/source-maps/{slug}/ compute the research input digest with
+exactly `sha256sum 00-commission.md 120-tone-draft.md 133-audit-triage.md
+134-citation-recheck.md 135-content-recheck.md 136-tone-repair-check.md
+137-audit-closure.md | sha256sum`.
+Write research/source-maps/{slug}/140-site-draft.md with that digest as
+inputDigest and `draft: true` in YAML frontmatter. If a complete site draft
+records the same digest, leave it unchanged.
+
+Read only the named files and the existing output. Do no web research, do not
+delegate or start another agent workflow, and do not edit anything under
+src/content/. Write only 140-site-draft.md.
+
+Produce frontmatter accepted by the protocols collection:
+
+- `title`
+- a concrete one-sentence `summary`
+- `researchDepth`, using one allowed enum from src/content/config.ts
+- a short `symptoms` list grounded in the page
+- only existing relevant `related` slugs already present in the old page
+- `draft: true`
+- `inputDigest`
+
+Below frontmatter, preserve the triaged page's prose, claims, citations,
+reference entries, commissioner-lead status, and unique reference count.
+Remove only research-artifact YAML fields and replace the research completion
+marker with `SITE DRAFT COMPLETE — N references`. Do not add a recommendation
+tier, default stack, quantified-self routine, medical disclaimer, publication
+claim, or new factual content. This is a draft for editorial approval, not a
+live publish.""" model=gpt-5.6-sol, timeout=1200

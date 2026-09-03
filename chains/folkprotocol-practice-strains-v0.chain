@@ -1,0 +1,131 @@
+# Folkprotocol Practice Strains v0
+#
+# Second experimental slice of the replacement content flow. It reads a
+# completed source-map set and reconstructs a bounded field of approaches.
+# It does not perform new research, rank or select practices, assess overall
+# suitability, design protocols, draft a page, or rewrite for tone.
+#
+# Usage after lodging in ~/.mill/chains:
+#   mill crank folkprotocol-practice-strains-v0 slug=hangover-v1 --attach
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+CC: """Reconstruct the practice-strain field in the completed Folkprotocol source
+maps at research/source-maps/{slug}/.
+
+The required inputs are:
+- 00-commission.md ending with `COMMISSION COMPLETE`
+- 10-reddit-forums.md ending with `MAP COMPLETE — N sources used`
+- 20-traditional.md ending with `MAP COMPLETE — N sources used`
+- 30-published-research.md ending with `MAP COMPLETE — N sources used`
+- 40-commercial-web.md ending with `MAP COMPLETE — N sources used`
+- 50-experimental-communities.md ending with `MAP COMPLETE — N sources used`
+- 60-practitioner-folk-web.md ending with `MAP COMPLETE — N sources used`
+
+Check all seven files and their final markers before doing anything else. If an
+input is missing or incomplete, do not create or alter the output. Report the
+exact missing or incomplete paths and stop.
+
+Compute a stable input digest with
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md | sha256sum` from the source-map directory. The
+output is research/source-maps/{slug}/70-practice-strains.md and its YAML
+frontmatter must contain that digest as `inputDigest`. If the output already
+exists, its final nonblank line begins `STRAIN FIELD COMPLETE —`, its recorded
+inputDigest matches the current digest, and `wc -w` is at most 3,500 words,
+leave it unchanged and stop. If the digest is missing or differs, reconstruct
+the file from the current inputs. If the digest matches but the file is longer
+than 3,500 words, shorten the existing file without removing the marker and
+keep the marker counts matching the final contents.
+
+Read no files other than the seven required inputs and the output file itself.
+Do not search the web, open raw sources, or fill a gap from memory. Work on this
+pass yourself. Do not delegate, spawn subagents, or launch another Mill,
+Spindle, Horizon, or agent workflow. Write only 70-practice-strains.md; create
+no other files.
+
+A practice strain is a coherent family of approaches with a shared operative
+move or native logic. It is not an ingredient list, a source-domain bucket, or
+a verdict. Reconstruct the field in two forms:
+
+Before grouping, make an internal inventory of every concrete thing people do
+in the six maps. Include actions buried inside source summaries or offered with
+an implausible folk explanation. This inventory is a completeness aid, not an
+output section. A repeated action family must not disappear merely because a
+map foregrounded a different explanation for it.
+
+1. Aim for 8–12 broad strains, with 12 an absolute maximum rather than a quota.
+   Nest preparations, ingredients, cultural instances, products, and timing
+   variants beneath the relevant strain instead of promoting each to its own
+   candidate.
+2. Preserve up to five genuinely distinct source-backed directions that do not
+   honestly fit a broader strain under `Unclustered directions`. A sparse or
+   unusual direction belongs here when necessary; do not erase it merely
+   because it appears in one small study, one lineage, one thread, or a few
+   forum accounts.
+
+If more than five genuinely distinct directions remain unclustered, preserve
+five in `Unclustered directions` and name every remainder with its upstream
+citations in `Coverage and boundary note`; do not silently drop or force-fit
+the overflow.
+
+Do not require cross-domain convergence. Do not treat conventional familiarity
+as a proxy for plausibility. Do not use formal published research as a court of
+appeal for the other maps, and do not treat tradition, repetition, mechanistic
+language, or commercial uptake as automatic validation. Describe each kind of
+material as what it is.
+
+For each broad strain record:
+- a neutral, concrete name
+- the shared operative move or native logic
+- the distinct manifestations nested within it, without flattening named
+  traditions or incompatible rationales
+- its source footprint stated descriptively: which maps contain it, what kinds
+  of sources they contain, and whether the footprint is broad, narrow, copied,
+  disputed, negative, or sparse
+- meaningful internal variants or disputes already present in the maps
+
+For each unclustered direction record the idea, its exact source footprint, and
+why it does not fit a broader strain. A forum direction with approximately two
+affirmative accounts should be described that way. A small study may support a
+specific preparation, population, and outcome without being inflated into a
+general result. `Speculative` is a description of the footprint, not a reason
+to dismiss or omit a direction.
+
+Use cross-map citations in the form `[10:RF1]`, `[20:TR3]`, `[30:PR10]`,
+`[40:CW3]`, `[50:EX4]`, or `[60:PF1]`, where the number names the upstream map
+and the suffix is that map's local citation ID. Every substantive account of a
+strain, manifestation, disagreement, or source footprint must cite the
+relevant upstream IDs. Do not create a new bibliography or cite a raw source
+that is absent from the maps. When a map-level access failure, search gap, or
+negative-space note has no local source ID, name the upstream map and section
+in prose, for example `(10-reddit-forums §5)`; never invent an ID or use a bare
+bracketed map number such as `[10]`.
+
+Write these sections:
+1. `How this field was reconstructed` — short and factual
+2. `Broad practice strains`
+3. `Unclustered directions` — omit only when genuinely empty
+4. `Coverage and boundary note` — state which mapped territory could not be
+   represented without inventing a practice, and restate what this pass did not
+   decide
+
+Before finishing, reread all six maps in full. Ensure every source-backed
+approach is represented within a broad strain, an unclustered direction, or a
+cited overflow note, while negative-space material that contains no practice
+remains identified as negative space rather than being converted into one.
+
+Do not rank, score, recommend, reject, shortlist, or decide whether anything is
+safe, effective, suitable, page-worthy, medically respectable, or ready. Do not
+design doses, schedules, tests, or protocols. Avoid recommendation-threshold
+phrases such as `not ready`, `insufficient evidence to recommend`, or `needs an
+RCT`. End the file with `STRAIN FIELD COMPLETE — N broad strains, M unclustered
+directions`, replacing N and M with the actual counts. Then run
+`wc -w research/source-maps/{slug}/70-practice-strains.md`. If it exceeds 3,500 words,
+shorten it without removing the marker, keep the marker counts matching the
+final contents, and repeat the check until the final file is at most 3,500
+words.""" timeout=1200

@@ -1,0 +1,76 @@
+---
+slug: hangover-v1
+stage: experimental-communities-map
+---
+
+# Experimental Communities Map — Hangover Prevention and Recovery
+
+## 1. Communities and search routes visited
+
+Searches were run directly against biohacker (Bulletproof), psychonaut/harm-reduction (Bluelight, PsychonautWiki, TripSit, Shroomery), nootropics (r/nootropics, via secondary journalism since Reddit itself was unreachable), quantified-self (the Quantified Self forum, Gwern's self-experiment archive), and tech/rationalist-adjacent (Hacker News) venues, per the commission. A concrete link surfaced one adjacent strain not on the original list: psychedelic mushroom microdosing as a cross-substance folk remedy for alcohol hangover, found via a Shroomery search and kept because the thread is a direct, on-topic hit rather than a stretch.
+
+Routes attempted but not yielding directly-opened material: Reddit (r/nootropics, r/Biohackers, r/Drugs, r/researchchemicals) — the fetch tool cannot reach any reddit.com subdomain, a blanket block rather than a per-page failure; Erowid's dedicated hangover page (403 Forbidden, and the Wayback Machine mirror is also unreachable to this tool); Longecity's nootropics forum (repeated timeouts); LessWrong (searched specifically for a hangover self-experiment; the only alcohol-related thread found is about taste perception and supertasting, not hangover, so it is not used as a source); and a dedicated "research chemical" vendor/dosing forum distinct from the harm-reduction wikis already covered (none surfaced as a separate, on-topic, reachable source).
+
+## 2. Vocabulary and conceptual terrain
+
+Communities import vocabulary from their home domain rather than inventing hangover-specific terms. Nootropics culture calls a personal combination of substances a "stack" and its practitioners "human testers," maintains "reliable supplier" lists, and runs public vendor-warning threads for compounds that don't deliver [EX5]. Harm-reduction wikis translate alcohol into the same register used for illicit drugs: TripSit standardizes intake into "consumptions" via a conversion formula and calls the recovery period "coming-down" [EX2]; PsychonautWiki frames effects through its house "Subjective Effect Index" and gives alcohol a threshold/light/common/strong/heavy dosing table identical in structure to its entries for other substances, alongside "rehydration therapy" as a named intervention [EX3]. Biohacker sources lean on a toxin-clearance idiom — "metabolic hacking," "detox," "biohacking community" [EX6] — and one independent blogger extends this into "toxic backlog" and a "multi-system crash" model of what a hangover is, with supplements pitched as "practitioner-grade" [EX7]. Quantified-self participants talk instrumentation: "minimum effective dose," data export, API access, timestamped logging [EX9]. One Hacker News commenter's framing of DHM as a "cheat code" captures a register — hangovers as a system to be exploited rather than a biological process — that recurs informally across several of these spaces [EX12].
+
+## 3. Recurring experimental strains of thought
+
+**Toxin/congener-avoidance and clearance-supplement stacking.** Bulletproof ranks alcohol types by presumed "toxin" load (vodka best, beer and red wine worst, on a 12-point hierarchy) and pairs this with a stack of activated charcoal, glutathione, B vitamins, alpha lipoic acid, and NAC [EX6]. A smaller independent blog runs a parallel four-pillar stack — liver-support capsules, toxin binders, mitochondrial-support compounds, and electrolyte drops — dosed before drinking, before bed, and the morning after [EX7]. Hacker News commentary converges on DHM and the engineered probiotic Zbiotics as the two products people report actually noticing an effect from, despite cost [EX12].
+
+**Hydration and electrolyte loading as shared baseline.** Communities that disagree on almost everything else converge here: Bluelight posters recommend a glass of water or electrolyte drink per alcoholic drink [EX1]; TripSit's wiki recommends alternating water with alcohol and eating beforehand [EX2]; PsychonautWiki names rehydration as a specific therapy for hangover symptoms [EX3]; even the Shroomery thread's skeptics fall back on hydration as the one intervention they trust [EX4].
+
+**Harm-reduction dosing frameworks applied wholesale to alcohol.** PsychonautWiki and TripSit both port their standard apparatus — BAC/dose thresholds, standardized unit conversion, combination-risk warnings (alcohol with benzodiazepines, opioids, GHB) — onto alcohol as though it were any other tracked substance, rather than building an alcohol-specific model [EX2][EX3].
+
+**Cross-substance folk experimentation.** A Shroomery thread describes using small doses of psilocybin (down to roughly 0.1–0.25g) or LSD after a night of drinking to blunt hangover symptoms, discussed in the same experiential-report register the forum uses for any other dosing question, including replies proposing alternative doses and combinations (LSD plus ibuprofen) [EX4].
+
+**Quantified self-tracking as an instrumentation problem.** Two Quantified Self forum threads treat hangover-adjacent drinking as something to be logged and correlated: one participant wants automatic, timestamped drink-logging integrated with sleep and Apple Health data to find what's driving insomnia [EX8]; an earlier thread discusses wearable blood-alcohol sensors explicitly in terms of finding a "minimum effective dose" that produces intoxication's upside without the downside [EX9]. Gwern's independent, year-long correlational self-experiment sits in the same lineage, though it targeted sleep quality rather than hangover severity specifically [EX11].
+
+**Self-aware DIY stacking culture.** The nootropics community's own account of itself describes attempted "blind placebo-controlled" personal trials, explicit warnings about the limits of single-subject pseudonymous testing, and confound-awareness (fluctuating work stress corrupting a personal baseline) sitting alongside active stack-sharing and a founder's claim that his regimen "smooths" hangover effects [EX5].
+
+## 4. Measurement habits, disagreements, failures, and negative space
+
+1. **Whether dehydration is even the primary cause is disputed inside the same thread.** On Bluelight, one poster (Fresnel) challenges the hydration consensus by citing research against dehydration as the main driver; another (Deos68) counters that it remains a major cause alongside vitamin deficiency — the disagreement is unresolved within the thread itself [EX1].
+
+2. **Whether hangover is "curable" at all is a live fault line.** On Shroomery, one participant (Wolf8312) states flatly that "a true hangover cure will make its discoverer a very rich man," directly contradicting the thread's original poster, who is actively promoting a psilocybin-based fix in the same conversation [EX4].
+
+3. **A toxin/tier-ranking model versus a dose-and-combination model.** Bulletproof explicitly ranks alcoholic drinks by toxin content and recommends avoiding the "worst" categories [EX6], while the harm-reduction wikis in this map (TripSit, PsychonautWiki) never rank drinks by type at all — their frameworks are built entirely around total dose, combination risk, and individual variation [EX2][EX3]. These are two different causal stories about what a hangover even is, not variations on one theme.
+
+4. **A community naming its own measurement limits.** The nootropics-community profile is unusual in this map for including explicit self-criticism: acknowledgment that a pseudonymous forum can't run a real blind trial, and that personal baselines are confounded by ordinary life variation like work stress [EX5]. None of the other sources in this map include a comparable internal methodology critique.
+
+5. **A quantification ambition that outran the hardware.** The 2016 Quantified Self forum thread treats a wearable blood-alcohol sensor as close at hand, explicitly framed around finding the dose that produces elation "without hangover" [EX9]. The same device's later crowdfunded consumer version was marked refunded on its funding platform, with no explanation retrievable from the page itself [EX10] — a concrete instance of instrumentation ambition not converting into a working, distributed tool.
+
+6. **A self-experiment that returned nothing.** Gwern's year of alcohol-and-sleep tracking, analyzed with multivariate regression against a fitted trend, produced no measurable correlation at his own consumption levels, and he reports concluding his original suspicion was simply wrong [EX11]. This sits as a negative-space counterweight to the protocol-building enthusiasm found in the biohacker and nootropics sources above: not every self-tracker in this terrain found an effect worth building a stack around.
+
+## 5. Access failures and unanswered questions
+
+Reddit is categorically unreachable to the fetch tool used in this pass (every r/Nootropics, r/Biohackers, r/Drugs, and r/researchchemicals attempt failed at the domain level), which is a significant gap given that Reddit is very likely the largest single venue for this kind of discussion; the nootropics-community material here is a journalist's secondary account of that subreddit [EX5] rather than the threads themselves. Erowid's dedicated alcohol-hangover page could not be opened directly (403 Forbidden) and its Wayback Machine mirror is also unreachable to this tool, so it is not used as a source despite being an obvious, purpose-built candidate. Longecity's nootropics forum timed out on repeated attempts. Hacker News rate-limited nearly every fetch attempt after the first; one item's content is used here as snippet-only [EX12], and several other promising threads (a "10-year quest for a hangover cure," a study-skepticism thread with DHM/NAC discussion) could not be verified beyond search-engine summaries and are therefore not cited. No dedicated research-chemical vendor or dosing forum distinct from the harm-reduction wikis already covered was found reachable and clearly on-topic in this pass. Unanswered: whether the r/nootropics or r/Biohackers wikis contain a maintained, community-voted hangover stack (the kind of artifact these communities are known for elsewhere) could not be checked given the Reddit block.
+
+## 6. Source index
+
+[EX1] talkin2myself (thread starter) and replies (Tricomb, Zerwas, Fresnel, Deos68, SKL, Oakstone), "Tips about preventing hangover?," Bluelight.org, thread started 12 Dec 2015, bluelight.org/community/threads/tips-about-preventing-hangover.778055/. Accessed 2026-09-02. Opened directly. Contributed hydration/electrolyte practices, B-vitamin and magnesium supplementation, warnings against benzodiazepine/opioid use for recovery, and the internal dehydration-cause disagreement.
+
+[EX2] TripSit Wiki contributors (Shadow, reality, Eddie, and others), "Alcohol," TripSit Wiki, last edited 7 May 2025, wiki.tripsit.me/wiki/Alcohol. Accessed 2026-09-02. Opened directly. Contributed the harm-reduction dosing formula and unit vocabulary ("consumptions"), combination-risk warnings, and hydration/meal-timing guidance.
+
+[EX3] PsychonautWiki contributors, "Alcohol," psychonautwiki.org/wiki/Alcohol. Accessed 2026-09-02. Opened directly. Contributed the Subjective Effect Index framing, dosing-tier table, BAC thresholds, "rehydration therapy" terminology, and dangerous-combination warnings.
+
+[EX4] RichardCranium (thread starter) and replies (redgreenvines, Shroomerquest, Wolf8312, SigSaur99), "Microdosing to mitigate hangover," Shroomery Message Board (The Psychedelic Experience), thread started 17 Oct 2019, shroomery.org/forums/showflat.php/Number/26249044/fpart/all. Accessed 2026-09-02. Opened directly. Contributed the cross-substance psilocybin/LSD microdosing practice, dosing specifics, and the direct disagreement over whether any hangover cure is plausible.
+
+[EX5] Sarah Zhang, "Nootropics and the Human Lab Rats of Reddit," Gizmodo, 24 Mar 2015, gizmodo.com/nootropics-and-the-lab-rats-of-reddit-1692737550. Accessed 2026-09-02. Secondary journalism, opened directly; describes but does not substitute for the r/nootropics threads themselves, which were unreachable. Contributed "stack" vocabulary, vendor-warning-thread culture, the community's own methodology self-critique, and the founder's hangover-smoothing remark.
+
+[EX6] Dave Asprey, reviewed by Theresa Greenwell, "The 'Healthiest' Alcohols and How to Hack Your Hangover," Bulletproof, 10 Oct 2024, bulletproof.com/diet-articles/bulletproof-diet/alcohol-without-the-hangover-bulletproof-partying-business-networking/. Accessed 2026-09-02. Opened directly. Contributed the toxin/aldehyde causal model, the drink-type toxicity tier ranking, and the supplement stack (charcoal, glutathione, B vitamins, ALA, NAC).
+
+[EX7] Avo A Day Health, "My Go-To Hangover Prevention Protocol (That Actually Works)," avoaday.substack.com, 21 May 2025, avoaday.substack.com/p/my-go-to-hangover-prevention-protocol. Accessed 2026-09-02. Opened directly. Contributed the four-pillar independent-biohacker stack, its "multi-system crash" mechanistic model, and its distinctive vocabulary.
+
+[EX8] Neil Shah (ns47), "Tracking Drink Consumption?," Quantified Self Forum, 28 Jan 2021, forum.quantifiedself.com/t/tracking-drink-consumption/8935. Accessed 2026-09-02. Opened directly. Contributed the drink-and-sleep correlation-tracking use case and the app/device ecosystem (Oura, MyFitnessPal, Nomie) discussed in replies.
+
+[EX9] Bob Lansdorp and replies (Dan Dascalescu, Eric Jain, Jason Miller, Jeff, Gary Isaac Wolf), "How about quantifying and tracking your blood alcohol?," Quantified Self Forum, thread started Jan 2016, forum.quantifiedself.com/t/how-about-quantifying-and-tracking-your-blood-alcohol/1968. Accessed 2026-09-02. Opened directly. Contributed the wearable-BAC-sensor discussion, the "minimum effective dose without hangover" framing, and requested-feature list.
+
+[EX10] "REFUNDED: PROOF - Alcohol Tracking Wearable by Milo Sensors," Indiegogo, indiegogo.com/en/projects/milosensors/refunded-proof-alcohol-tracking-wearable. Accessed 2026-09-02. Opened directly, but only the campaign-status header was retrievable; full campaign updates and backer comments were not accessible to this tool. Contributed confirmation that the wearable discussed in [EX9] was later crowdfunded and refunded rather than delivered.
+
+[EX11] Gwern Branwen, "Zeo Sleep Self-Experiments," gwern.net, section on alcohol and sleep covering May 2013–May 2014, gwern.net/zeo/zeo. Accessed 2026-09-02. Opened directly. Contributed the correlational self-tracking methodology (multivariate regression against a fitted trend line) and its null result; addresses sleep quality rather than hangover severity specifically, noted as adjacent rather than on-topic.
+
+[EX12] Hacker News comment thread on item "DHM is the answer...," news.ycombinator.com/item?id=32554297. Accessed 2026-09-02. Not opened directly — the site returned repeated HTTP 429 errors on every fetch attempt this pass; cited via the search engine's summary of the page only, snippet-only. Contributed the "cheat code" framing of DHM and the comparison with Zbiotics as the two products commenters reported noticing an effect from.
+
+MAP COMPLETE — 12 sources used

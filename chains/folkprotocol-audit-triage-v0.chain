@@ -1,0 +1,65 @@
+# Folkprotocol Audit Triage v0
+#
+# Eighth experimental slice. It resolves conflicts among the citation, content,
+# and tone audits without editing the draft or treating every stylistic
+# suggestion as automatically compatible with factual fidelity.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Codex: """Triage the completed audits for
+research/source-maps/{slug}/120-tone-draft.md.
+
+Required inputs are 00-commission.md, 70-practice-strains.md,
+80-practice-assessment.md, 90-protocol-dossiers.md, 100-factual-draft.md,
+110-tone-brief.md, 120-tone-draft.md, 130-citation-audit.md,
+131-content-audit.md, and 132-tone-audit.md. Verify all completion markers.
+Verify that each audit is current by recomputing its exact documented digest
+from research/source-maps/{slug}/:
+
+- 130: `sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+  30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+  60-practitioner-folk-web.md 70-practice-strains.md
+  80-practice-assessment.md 90-protocol-dossiers.md 100-factual-draft.md
+  120-tone-draft.md | sha256sum`
+- 131: `sha256sum 00-commission.md 70-practice-strains.md
+  80-practice-assessment.md 90-protocol-dossiers.md 100-factual-draft.md
+  120-tone-draft.md | sha256sum`
+- 132: `sha256sum 110-tone-brief.md 120-tone-draft.md | sha256sum`
+
+If an audit is stale or incomplete, do not write the output; report the exact
+file and stop.
+
+From research/source-maps/{slug}/ compute the triage input digest with exactly
+`sha256sum 00-commission.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md 100-factual-draft.md 110-tone-brief.md
+120-tone-draft.md 130-citation-audit.md 131-content-audit.md
+132-tone-audit.md | sha256sum`. Write it as inputDigest in
+research/source-maps/{slug}/133-audit-triage.md. If a completed triage records
+the same digest, leave it unchanged.
+
+Read only the required files and the existing output. The six source maps from
+10 through 60 may be passed to sha256sum for the 130 currency check but must not
+otherwise be read. Do no web research and do not edit any input. Write only
+133-audit-triage.md. Work yourself: do not delegate, spawn subagents, or start
+another agent workflow.
+
+Account for every finding from all three audits. Mark each `accept`, `reject`,
+or `already repaired`, with an exact phrase and a concise reason. A rejection
+must cite the conflicting source, dossier, commission requirement, or factual
+constraint; preference alone is not enough. Citation support and factual
+fidelity take priority over a smoother sentence. A tone repair is invalid if it
+would remove a useful effect size, exact community amount, source-access
+boundary, population limit, or material qualification; strengthen a scoped
+negative into a universal one; turn a failed search into proof of absence;
+turn an observational association into causation; or introduce an unsupported
+contrast. Necessary source-kind language is not report voice merely because it
+names the kind of record.
+
+If any accepted finding remains unresolved in 120-tone-draft.md, end with
+`AUDIT TRIAGE COMPLETE — REPAIR REQUIRED — N findings`. If every finding is
+either already repaired or rejected with support, end with
+`AUDIT TRIAGE COMPLETE — READY`. Do not write READY merely because an audit
+itself used the word CLEAN.""" model=gpt-5.6-sol, timeout=1200

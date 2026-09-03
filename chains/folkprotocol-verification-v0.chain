@@ -1,0 +1,84 @@
+# Folkprotocol Verification v0
+#
+# Seventh experimental slice. Three independent read-only audits check the tone
+# draft. They write reports and never silently repair or publish it.
+
+Expect slug
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+Parallel(3):
+    Codex: """Audit citation completeness and provenance in
+research/source-maps/{slug}/120-tone-draft.md against 00-commission.md, the six
+source maps from 10 through 60, 70-practice-strains.md,
+80-practice-assessment.md, 90-protocol-dossiers.md, and
+100-factual-draft.md.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+30-published-research.md 40-commercial-web.md 50-experimental-communities.md
+60-practitioner-folk-web.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md 100-factual-draft.md 120-tone-draft.md | sha256sum`.
+Write it as inputDigest in the YAML frontmatter of
+research/source-maps/{slug}/130-citation-audit.md. If that file ends with
+`CITATION AUDIT COMPLETE` and records the same digest, leave it unchanged. Do no
+web research and do not edit any existing file. Write only 130-citation-audit.md.
+Work yourself: do not delegate, spawn subagents, or start another agent workflow.
+Check every citation token in
+the prose, every reference entry, exact source-ID existence, reference
+expansion, numerical claims, preparation/timing claims, and whether the cited
+source actually supports the adjacent wording. Check that all factual-draft
+citations and material qualifications survived the tone rewrite. Report only
+concrete mismatches with exact phrases and source locations. If none, write
+`CLEAN`. End with `CITATION AUDIT COMPLETE`.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1800
+
+    Codex: """Audit the substantive shape of
+research/source-maps/{slug}/120-tone-draft.md against 00-commission.md,
+70-practice-strains.md, 80-practice-assessment.md, 90-protocol-dossiers.md, and
+100-factual-draft.md.
+
+From research/source-maps/{slug}/ compute the input digest with exactly
+`sha256sum 00-commission.md 70-practice-strains.md 80-practice-assessment.md
+90-protocol-dossiers.md 100-factual-draft.md 120-tone-draft.md | sha256sum`.
+Write it as inputDigest in the YAML frontmatter of
+research/source-maps/{slug}/131-content-audit.md. If that file ends with
+`CONTENT AUDIT COMPLETE` and records the same digest, leave it unchanged. Do no
+web research and do not edit existing files. Write only 131-content-audit.md.
+Work yourself: do not delegate, spawn subagents, or start another agent workflow.
+Look for concrete failures:
+lost source traditions, a laundry list replacing the selected architecture,
+one evidence type silently used as a universal hierarchy, speculative material
+laundered into fact or deleted, protocol details invented beyond the dossiers,
+symptom relief confused with prevention or clearance, or generic safety copy
+that displaces useful content. Do not demand RCTs or propose a different page
+merely from preference. If none, write `CLEAN`. End with
+`CONTENT AUDIT COMPLETE`.""" model=gpt-5.6-sol, inherit_previous_output=false, timeout=1800
+
+    CC: """Audit the prose of
+research/source-maps/{slug}/120-tone-draft.md against 110-tone-brief.md. Do not
+read 121-tone-review.md, 130-citation-audit.md, or 131-content-audit.md: this
+must be an independent read, not a repetition of earlier findings. Solely for
+the idempotency check below, you may inspect the existing 132-tone-audit.md
+frontmatter inputDigest and final marker; do not read or reuse its findings.
+Do not read other project pages, search the web, or edit the draft. From
+research/source-maps/{slug}/ compute the input
+digest with exactly
+`sha256sum 110-tone-brief.md 120-tone-draft.md | sha256sum`.
+Write it as inputDigest in the YAML frontmatter of
+research/source-maps/{slug}/132-tone-audit.md. If that file ends with
+`FINAL TONE AUDIT COMPLETE` and records the same digest, leave it unchanged.
+Write only 132-tone-audit.md. Work yourself: do not delegate, spawn subagents,
+or start another agent workflow.
+
+Report concrete remaining instances of medical-site voice, evidence-status
+tics, assistant cadence, canned warmth, repeated mini-verdicts, qualifications
+that bury the observation, or laundry-list prose. Do not object merely because
+the page makes a judgment, uses first or second person, or includes thin and
+strange material. Do not suggest removing a useful effect size, exact community
+amount, source-access boundary, population limit, or material qualification.
+Do not turn a failed search into proof of absence, add an intervention claim to
+replace evidence-status wording, or exchange an observational result for a
+causal claim. Source-kind language is appropriate where it tells the reader
+what kind of record an amount or claim comes from. Give exact phrases and local
+repairs. If none, write `CLEAN`. End with `FINAL TONE AUDIT COMPLETE`.""" model=claude-sonnet-4-5-20250929, inherit_previous_output=false, timeout=1200

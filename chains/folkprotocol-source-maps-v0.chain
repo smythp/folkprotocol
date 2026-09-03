@@ -1,0 +1,392 @@
+# Folkprotocol Source Maps v0
+#
+# First experimental slice of a replacement content flow. It commissions a
+# bounded question, runs explicit source-domain passes, and stops with maps.
+# It does not select practices, compare domains, design protocols, or draft a
+# page.
+#
+# Usage after lodging in ~/.mill/chains:
+#   mill crank folkprotocol-source-maps-v0 \
+#     slug=hangover \
+#     question="What might reduce or prevent an alcohol hangover?" \
+#     boundaries="Adults; prevention and next-day symptoms; no withdrawal care" \
+#     seeds="Existing Folkprotocol hangover page and bibliography" \
+#     --attach
+
+Expect slug
+Expect question
+Default boundaries: none supplied
+Default seeds: none supplied
+Default work_dir: /home/patrick/projects/folkprotocol
+
+Work in {work_dir}
+
+# Stage 1: preserve the commission before research starts. The commission is
+# descriptive: it may clarify the supplied words but may not broaden them.
+CC: """Create research/source-maps/{slug}/00-commission.md for this Folkprotocol investigation.
+
+If that file already exists and its final nonblank line is `COMMISSION COMPLETE`, leave it unchanged and stop.
+
+Record exactly:
+- slug: {slug}
+- question: {question}
+- boundaries: {boundaries}
+- seeds supplied by the commissioner: {seeds}
+
+Add a short section called Working boundary which explains the supplied scope
+without adding adjacent goals. Add a section called Not decided yet stating
+that no practice, protocol, page thesis, or source hierarchy has been chosen.
+
+Do not research the topic in this step. Do not recommend anything. Do not
+silently widen the commission. Create the directory if needed and write only
+the commission file. End it with the exact final line `COMMISSION COMPLETE`.""" timeout=300
+
+# Stage 2: map deliberately seeded source domains. Each pass writes its own
+# file. These are maps of a knowledge territory, not lists of remedies and not
+# proto-protocols.
+Parallel(4):
+    CC: """Map the Reddit and general-forum territory around this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/10-reddit-forums.md already exists and its final
+nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it is at most
+2,500 words, leave it unchanged and stop. If it is longer, do not redo the
+research: shorten the existing map without removing the marker until it is at
+most 2,500 words, then stop.
+
+Use web search and direct page access. Do not use browser-harness. Look across
+more than one relevant community when the topic permits it. Search for useful
+vocabulary, recurring ways people frame the problem, recognizable schools of
+thought, preparation or timing patterns, disagreements, negative reports,
+follow-ups, and community-specific assumptions. Describe recurring practices
+only at map scale; do not turn every mention into a protocol candidate.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Evaluate community material as community material. Do not compare it with
+clinical research, and do not treat repetition as proof. Notice likely
+copying, influencer or vendor effects, deleted context, selection effects, and
+whether posters return with outcomes.
+
+Bound the pass: aim for 8–12 useful sources, with 12 an absolute maximum rather
+than a quota. Stop earlier when additional search routes are only repeating the
+same vocabulary and strains of thought. Never fill a gap from memory. Keep the
+entire map at most 2,500 words: no more than six broad strains of thought, six
+meaningful disagreements or gaps, and a concise source index.
+
+Write research/source-maps/{slug}/10-reddit-forums.md with:
+1. Search routes and communities visited
+2. Vocabulary and conceptual terrain
+3. Recurring strains of thought, kept broad
+4. Disagreements, negative space, and visible failures
+5. Access failures and unanswered questions
+6. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [RF1], [RF2], and so on in the map. Every substantive
+description must point to a source. For each source record title, author or
+handle when public, community/site, date, stable URL, access date, the relevant
+post/comment context, and what it contributed. Clearly label researcher
+inference rather than presenting it as a source claim. Mark any source not
+opened directly as snippet-only, and preserve one short verbatim excerpt from
+each source, no longer than 35 words, so later verification does not depend on
+the page remaining live. One citation ID must identify one retrievable page or
+thread; never bundle several sources under one ID. Every ID used in the body
+must have exactly one source-index entry, and every source-index entry must be
+cited at least once in the body. The N in the marker counts source-index
+entries.
+Do not recommend, compare domains, select practices, or design a test. End the
+file with `MAP COMPLETE — N sources used`, replacing N with the source count.
+Then run `wc -w research/source-maps/{slug}/10-reddit-forums.md`. If it exceeds
+2,500 words, shorten the map without removing the marker and repeat the check
+until the final file is at most 2,500 words.""" timeout=2400
+
+    CC: """Map traditional lineages and inherited practice around this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/20-traditional.md already exists and its final
+nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it is at most
+2,500 words, leave it unchanged and stop. If it is longer, do not redo the
+research: shorten the existing map without removing the marker until it is at
+most 2,500 words, then stop.
+
+Search across relevant named traditions rather than treating 'traditional use'
+as one bucket. Preserve each tradition's own categories, indications,
+preparations, sequencing, combinations, and internal disagreements. Note when
+modern English summaries appear to flatten or mistranslate the underlying
+pathway. Describe recurring practices only at map scale; do not extract an
+endless remedy list or force traditions into modern diagnostic categories.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Do not use formal clinical research as the judge of this domain. Also do not
+turn age, sacred status, or repetition into automatic truth. The task is to
+make the traditional terrain legible in context.
+
+Bound the pass: aim for 8–12 useful sources, with 12 an absolute maximum rather
+than a quota, favoring identifiable texts, lineages, archives, pharmacopoeias,
+or careful secondary sources. Stop earlier at clear saturation. Never invent
+inaccessible quotations or page references. Keep the entire map at most 2,500
+words: no more than six broad pathways, six meaningful variations or gaps, and
+a concise source index.
+
+Write research/source-maps/{slug}/20-traditional.md with:
+1. Traditions and search routes visited
+2. Native vocabulary and conceptual terrain
+3. Major pathways or strains of thought, kept intact and broad
+4. Variations, disagreements, and negative space
+5. Translation problems, access failures, and unanswered questions
+6. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [TR1], [TR2], and so on. Every substantive description
+must point to a source. Record title, author/editor, tradition, date, edition or
+page/section when available, URL or archive location, access date, and what the
+source contributed. Clearly distinguish quotation, paraphrase, and researcher
+inference. Mark any source not opened directly as snippet-only. Do not
+recommend, compare domains, select practices, or design a test. One citation ID
+must identify one retrievable text, page, or document; never bundle several
+sources under one ID. Every ID used in the body must have exactly one
+source-index entry, and every source-index entry must be cited at least once in
+the body. The N in the marker counts source-index entries. End the file
+with `MAP COMPLETE — N sources used`, replacing N with the source count. Then
+run `wc -w research/source-maps/{slug}/20-traditional.md`. If it exceeds 2,500
+words, shorten the map without removing the marker and repeat the check until
+the final file is at most 2,500 words.""" timeout=2400
+
+    CC: """Map the formal published-research territory around this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/30-published-research.md already exists and its
+final nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it is at
+most 2,500 words, leave it unchanged and stop. If it is longer, do not redo the
+research: shorten the existing map without removing the marker until it is at
+most 2,500 words, then stop.
+
+Search PubMed and other relevant scholarly indexes, including work outside
+Western medicine when discoverable. Map the questions researchers have asked,
+the preparations and populations actually studied, recurring mechanisms or
+models, null and adverse findings, review articles, and obvious blind spots.
+Do not reduce the map to an evidence ranking or a list of favorable trials.
+A study is one source situated in this domain, not the court of appeal for the
+other maps. Treat weak, irrelevant, or badly translated studies accordingly.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Bound the pass: aim for 8–12 useful sources, with 12 an absolute maximum rather
+than a quota, and stop earlier when new searches only repeat the same research
+programs. Prefer primary sources for specific study details; reviews may map
+the field but must not be misnamed as trials or meta-analyses. Never infer
+full-text details from an abstract or search snippet alone. Keep the entire map
+at most 2,500 words: no more than six broad research programs, six meaningful
+disputes or gaps, and a concise source index.
+
+Write research/source-maps/{slug}/30-published-research.md with:
+1. Indexes and search routes used
+2. Vocabulary and research terrain
+3. Major research programs or strains of thought
+4. Null results, disputes, and neglected questions
+5. Material, preparation, population, or outcome mismatches
+6. Access failures and unanswered questions
+7. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [PR1], [PR2], and so on. Every substantive description
+must point to a source. Record full citation, DOI/PMID or stable URL, access
+date, source type, what was actually studied, and what the source contributes
+to the map. Mark abstract-only access. Clearly label researcher inference. Do
+not recommend, compare domains, select practices, or design a test. One
+citation ID must identify one retrievable paper or document; never bundle
+several sources under one ID. Every ID used in the body must have exactly one
+source-index entry, and every source-index entry must be cited at least once in
+the body. The N in the marker counts source-index entries. End the
+file with `MAP COMPLETE — N sources used`, replacing N with the source count.
+Then run `wc -w research/source-maps/{slug}/30-published-research.md`. If it
+exceeds 2,500 words, shorten the map without removing the marker and repeat the
+check until the final file is at most 2,500 words.""" timeout=2400
+
+    CC: """Map the commercial web territory around this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/40-commercial-web.md already exists and its
+final nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it is at
+most 2,500 words, leave it unchanged and stop. If it is longer, do not redo the
+research: shorten the existing map without removing the marker until it is at
+most 2,500 words, then stop.
+
+Search product pages, supplement sellers, clinics, affiliate sites, marketing
+copy, patents when relevant, and visible product-review ecosystems. Map what is
+being sold, recurring formulations and doses, the stories used to justify
+them, market convergence, disagreement, and claims that appear copied across
+vendors. Treat this material neither as worthless nor as validation: it shows
+what products and narratives people actually encounter.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Bound the pass: aim for 8–12 useful sources across multiple owners, with 12 an
+absolute maximum rather than a quota. Do not let many storefronts repeating
+manufacturer copy masquerade as independent convergence. Stop when additional
+results add no new formulation or narrative. Keep the entire map at most 2,500
+words: no more than six broad formulation or narrative families, six
+meaningful disagreements or gaps, and a concise source index.
+
+Write research/source-maps/{slug}/40-commercial-web.md with:
+1. Search routes and market segments visited
+2. Product and claim vocabulary
+3. Recurring formulation and narrative families
+4. Disagreements, customer-reported failures, and negative space
+5. Copying, ownership, affiliate, and incentive notes
+6. Access failures and unanswered questions
+7. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [CW1], [CW2], and so on. Every substantive description
+must point to a source. Record company/site, page or product title, formulation
+when visible, date when visible, stable URL, access date, ownership or affiliate
+relationship when discoverable, and what it contributed. Separate vendor
+claims, customer reports, and researcher inference. Do not recommend, compare
+domains, select practices, or design a test. Mark any source not opened
+directly as snippet-only, and preserve one short verbatim excerpt per source so
+later verification does not depend on the page remaining live; each excerpt
+must be no longer than 35 words. One citation ID must identify one retrievable
+page or document; never bundle several sources under one ID. Every ID used in
+the body must have exactly one source-index entry, and every source-index entry
+must be cited at least once in the body. The N in the marker counts
+source-index entries. End the file
+with `MAP COMPLETE — N sources used`, replacing N with the source count. Then
+run `wc -w research/source-maps/{slug}/40-commercial-web.md`. If it exceeds
+2,500 words, shorten the map without removing the marker and repeat the check
+until the final file is at most 2,500 words.""" timeout=2400
+
+    CC: """Map experimental self-tracking communities around this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/50-experimental-communities.md already exists
+and its final nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it
+is at most 2,500 words, leave it unchanged and stop. If it is longer, do not
+redo the research: shorten the existing map without removing the marker until
+it is at most 2,500 words, then stop.
+
+Explicitly search biohacker, psychonaut, nootropics, rationalist, quantified-
+self, and 'rat' or research-chemical communities where relevant. Include other
+adjacent experimental communities only when the search finds a concrete link.
+Map their vocabulary, models, protocol habits, measurement practices, recurring
+ideas, disagreements, failed experiments, and post-hoc storytelling. Keep this
+as a terrain map rather than extracting every stack or turning it into advice.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Evaluate these communities on their own terms while noticing copying,
+confounding stacks, commercial influence, missing follow-up, and selective
+reporting. Do not compare them with PubMed.
+
+Bound the pass: aim for 8–12 useful sources across multiple communities, with
+12 an absolute maximum rather than a quota, and stop at saturation. Never fill
+inaccessible details from model memory. Keep the entire map at most 2,500 words:
+no more than six broad experimental strains, six meaningful disagreements or
+gaps, and a concise source index.
+
+Write research/source-maps/{slug}/50-experimental-communities.md with:
+1. Communities and search routes visited
+2. Vocabulary and conceptual terrain
+3. Recurring experimental strains of thought
+4. Measurement habits, disagreements, failures, and negative space
+5. Access failures and unanswered questions
+6. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [EX1], [EX2], and so on. Every substantive description
+must point to a source. Record author/handle when public, community/site, title,
+date, stable URL, access date, relevant context, and what it contributed.
+Clearly label inference. Do not recommend, compare domains, select practices,
+or design a test. Mark any source not opened directly as snippet-only, and
+preserve one short verbatim excerpt from each source, no longer than 35 words.
+One citation ID must identify one retrievable page, thread, or document; never
+bundle several sources under one ID. Every ID used in the body must have
+exactly one source-index entry, and every source-index entry must be cited at
+least once in the body. The N in the marker counts source-index entries. End
+the
+file with `MAP COMPLETE — N sources used`, replacing N with the source count.
+Then run `wc -w research/source-maps/{slug}/50-experimental-communities.md`. If
+it exceeds 2,500 words, shorten the map without removing the marker and repeat
+the check until the final file is at most 2,500 words.""" timeout=2400
+
+    CC: """Map practitioner, household, and independent folk-web material around
+this question:
+{question}
+
+Commission boundary: {boundaries}
+Commission seeds: {seeds}
+
+If research/source-maps/{slug}/60-practitioner-folk-web.md already exists and
+its final nonblank line begins `MAP COMPLETE —`, run `wc -w` on it. If it is
+at most 2,500 words, leave it unchanged and stop. If it is longer, do not redo
+the research: shorten the existing map without removing the marker until it is
+at most 2,500 words, then stop.
+
+Search practicing herbalists, community educators, household remedy archives,
+regional folk sources, newsletters, podcasts with transcripts or detailed show
+notes, and independent sites that do not fit Reddit, academia, or storefronts.
+Map named approaches, vocabulary, preparation traditions, recurring lines of
+reasoning, disagreements, and practical knowledge. Preserve attributable
+practice rather than collapsing everything into generic wellness content.
+
+Work on this pass yourself. Do not delegate, spawn subagents, or launch another
+Mill, Spindle, Horizon, or agent workflow.
+
+Notice credential theater, copied material, undisclosed sales relationships,
+universal-remedy language, missing failures, and cases where a source is
+specific about when something does not fit. Do not use clinical uptake as the
+default measure of value.
+
+Bound the pass: aim for 8–12 useful sources across multiple independent voices,
+with 12 an absolute maximum rather than a quota. Stop at saturation and never
+invent inaccessible details. Keep the entire map at most 2,500 words: no more
+than six broad lineages or strains, six meaningful disagreements or gaps, and
+a concise source index.
+
+Write research/source-maps/{slug}/60-practitioner-folk-web.md with:
+1. Search routes and kinds of practitioners/sources visited
+2. Vocabulary and conceptual terrain
+3. Major practice lineages or strains of thought, kept broad
+4. Disagreements, boundaries, failures, and negative space
+5. Independence and commercial-entanglement notes
+6. Access failures and unanswered questions
+7. Source index
+
+Write only this file; create no other files.
+Use local citation IDs [PF1], [PF2], and so on. Every substantive description
+must point to a source. Record author/practitioner, site or publication, title,
+date, stable URL, access date, relevant context, commercial relationship when
+visible, and what it contributed. Clearly label inference. Do not recommend,
+compare domains, select practices, or design a test. Mark any source not opened
+directly as snippet-only, and preserve one short verbatim excerpt from each
+source, no longer than 35 words. One citation ID must identify one retrievable
+page, episode, or document; never bundle several sources under one ID. Every ID
+used in the body must have exactly one source-index entry, and every
+source-index entry must be cited at least once in the body. The N in the marker
+counts source-index entries. End the file with
+`MAP COMPLETE — N sources used`, replacing N with the source count. Then run
+`wc -w research/source-maps/{slug}/60-practitioner-folk-web.md`. If it exceeds
+2,500 words, shorten the map without removing the marker and repeat the check
+until the final file is at most 2,500 words.""" timeout=2400
