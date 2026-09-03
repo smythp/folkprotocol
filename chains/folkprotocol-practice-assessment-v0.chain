@@ -1,7 +1,7 @@
 # Folkprotocol Practice Assessment v0
 #
 # Third experimental slice. It compares the reconstructed practice field and
-# chooses a bounded set of directions for protocol reconstruction. It performs
+# chooses a bounded set of directions for targeted reconstruction. It performs
 # no new research and writes no page prose.
 
 Expect slug
@@ -12,13 +12,13 @@ Work in {work_dir}
 Codex: """Assess the practice field at research/source-maps/{slug}/ without doing
 new research.
 
-Required inputs are 00-commission.md, the six numbered source maps from 10
+Required inputs are 00-commission.md, 01-editorial-direction.md, the six numbered source maps from 10
 through 60, and 70-practice-strains.md. Verify their completion markers before
 doing anything else. If one is absent or incomplete, do not write the output;
 report the exact path and stop.
 
 From research/source-maps/{slug}/ compute the input digest with exactly
-`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+`sha256sum 00-commission.md 01-editorial-direction.md 10-reddit-forums.md 20-traditional.md
 30-published-research.md 40-commercial-web.md 50-experimental-communities.md
 60-practitioner-folk-web.md 70-practice-strains.md | sha256sum`. Write
 research/source-maps/{slug}/80-practice-assessment.md with that digest in YAML
@@ -32,7 +32,16 @@ output file.
 
 The purpose is to decide what the mapped material actually gives an editor,
 without converting the field into either a supplement ranking or a protocol
-for every named remedy. Keep these dimensions separate:
+for every named remedy. The commission is an active selection input, not just
+scope metadata. Its seeds express commissioner impetus: what is most worth
+understanding in this run. They do not establish facts, but a strong observed
+effect or central question from the commission should not lose to an easier-to-
+document practice merely because the latter has a neat paper or exact dose.
+
+Keep these dimensions separate:
+
+- commissioner impetus: which supplied observations, questions, or priorities
+  make a direction worth pursuing now
 
 - source footprint: exactly what kind of record exists and where
 - operative plausibility: whether the proposed move has a coherent path to the
@@ -57,6 +66,14 @@ is limited. Avoid generic medical advice and obvious observations about effort,
 convenience, access, or individual variation. Record only concrete boundaries
 already supported by the inputs.
 
+Before selecting directions, account explicitly for every substantive seed in
+00-commission.md and 01-editorial-direction.md. Mark each `pursue now`,
+`research reserve`, or `outside this commission`, with a concrete reason from
+the maps. Missing external detail is
+often a reason to pursue a high-impetus direction, not a reason to demote it.
+Do not use a quota for commissioner-supplied directions, and do not silently
+substitute the directions that happen to be easiest to reconstruct.
+
 Write these sections:
 
 1. `Working model of the problem` — a compact account of the distinct processes
@@ -65,16 +82,21 @@ Write these sections:
 2. `Comparison across the field` — compare the broad strains without ranking
    them. Identify convergence, contradictions, copied claims, negative results,
    and mechanism/practice mismatches.
-3. `Directions for protocol reconstruction` — choose 4–7 exact directions.
-   Each must be a bounded practice or coherent combination, not a whole source
-   strain and not a shopping list. State why it merits exact reconstruction,
-   what source basis supports that decision, and the missing details the next
-   stage must retrieve. Selection means `worth reconstructing`, not `proven` or
-   `recommended`.
-4. `Other material to retain on the page` — account for every non-selected
-   strain and unclustered direction in compact form, saying how it should remain
-   visible without receiving a full protocol.
-5. `Questions for targeted research` — only questions whose answers could
+3. `Commissioner impetus accounting` — disposition every substantive seed as
+   described above. Keep first-person observations clearly identified without
+   apologizing for or generalizing them.
+4. `Directions for targeted reconstruction` — choose 3–6 directions. A
+   direction may be an exact practice, a coherent practice family whose parts
+   need separating, or a commissioner-prioritized causal question that could
+   change what someone tries. It must be bounded enough for targeted research,
+   not a whole source community or a shopping list. State why it is worth
+   pursuing, what is already known, and which missing details matter. Selection
+   means `worth reconstructing`, not `proven`, `recommended`, or `already easy
+   to specify`.
+5. `Research reserve` — account compactly for every non-selected strain and
+   unclustered direction. Preserve what might merit later work without deciding
+   that every item belongs on the public page.
+6. `Questions for targeted research` — only questions whose answers could
    change a preparation, timing, amount, claimed outcome, concrete boundary, or
    source framing in one of the selected directions.
 
@@ -82,6 +104,6 @@ Cross-map citations must retain the exact upstream form, such as [10:RF12] or
 [30:PR3]. Every factual characterization must cite the source-map material that
 supports it. Do not create a bibliography or invent raw citations.
 
-End with `ASSESSMENT COMPLETE — N protocol directions`, using the actual count.
+End with `ASSESSMENT COMPLETE — N pursuit directions`, using the actual count.
 Run wc -w and shorten until the final file is at most 4,000 words without
-dropping any strain from the retention accounting.""" model=gpt-5.6-sol, timeout=1200
+dropping any strain from the research-reserve accounting.""" model=gpt-5.6-sol, timeout=1200

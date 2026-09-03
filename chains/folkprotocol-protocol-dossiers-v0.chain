@@ -1,8 +1,8 @@
 # Folkprotocol Protocol Dossiers v0
 #
 # Fourth experimental slice. It performs bounded, targeted research for only
-# the selected protocol directions and reconstructs exact practices. It does
-# not draft the public page.
+# the selected pursuit directions and reconstructs exact practices where
+# possible. It does not draft the public page.
 
 Expect slug
 Default work_dir: /home/patrick/projects/folkprotocol
@@ -12,13 +12,14 @@ Work in {work_dir}
 Codex: """Build protocol dossiers for the selected directions in
 research/source-maps/{slug}/80-practice-assessment.md.
 
-Required local inputs are 00-commission.md, the six source maps from 10 through
-60, 70-practice-strains.md, and 80-practice-assessment.md. Verify all completion
+Required local inputs are 00-commission.md, 01-editorial-direction.md, the six
+source maps from 10 through 60, 70-practice-strains.md, and
+80-practice-assessment.md. Verify all completion
 markers first. If any required file is absent or incomplete, do not write the
 output; report the exact path and stop.
 
 From research/source-maps/{slug}/ compute the input digest with exactly
-`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+`sha256sum 00-commission.md 01-editorial-direction.md 10-reddit-forums.md 20-traditional.md
 30-published-research.md 40-commercial-web.md 50-experimental-communities.md
 60-practitioner-folk-web.md 70-practice-strains.md
 80-practice-assessment.md | sha256sum`. Write
@@ -35,9 +36,16 @@ traditional text or close scholarly translation, regulatory record, or named
 practitioner account. Search results and reviews may locate a source but should
 not replace an accessible original. Mark an inaccessible source honestly.
 
-Reconstruct only the 4–7 selected directions. Do not add a dossier merely
+Reconstruct only the 3–6 selected directions. Do not add a dossier merely
 because a new remedy appears during research. Put genuinely relevant adjacent
 findings in a short `Research spillover` section instead.
+
+A selected direction may be a practice family or causal question rather than
+an already specified intervention. In that case, separate its materially
+different practices or explanations, retrieve the details that would change
+ordinary use, and say plainly when no faithful protocol emerges. Do not replace
+a high-impetus unresolved direction with a lower-priority practice simply
+because the latter offers a cleaner dose or study design.
 
 For each direction establish, where the record permits:
 
@@ -54,9 +62,11 @@ For each direction establish, where the record permits:
   plausibly explain divergent outcomes
 - concrete boundaries that materially change use. Do not pad every dossier
   with generic warnings or turn it into withdrawal care
-- an `ordinary-use test` describing what a noticeable result would look like
-  over normal use. Do not prescribe spreadsheets, symptom scales, fixed alcohol
-  challenges, or a quantified-self regimen
+- `ordinary-use relevance`: when a usable practice exists, describe what a
+  noticeable result would look like over normal use; when it does not, identify
+  the missing fact that prevents a meaningful try. Do not prescribe
+  spreadsheets, symptom scales, fixed alcohol challenges, or a quantified-self
+  regimen
 
 Treat heterogeneous evidence in context. Do not require cross-domain
 convergence. Do not apologize for traditional or forum material by repeatedly

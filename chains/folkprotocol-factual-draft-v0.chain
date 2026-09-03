@@ -12,14 +12,14 @@ Work in {work_dir}
 Codex: """Assemble a factual draft for the Folkprotocol topic in
 research/source-maps/{slug}/.
 
-Required inputs are 00-commission.md, the six source maps from 10 through 60,
+Required inputs are 00-commission.md, 01-editorial-direction.md, the six source maps from 10 through 60,
 70-practice-strains.md, 80-practice-assessment.md, and
 90-protocol-dossiers.md. Verify every completion marker before writing. If an
 input is missing or incomplete, report the exact path and stop without changing
 the output.
 
 From research/source-maps/{slug}/ compute the input digest with exactly
-`sha256sum 00-commission.md 10-reddit-forums.md 20-traditional.md
+`sha256sum 00-commission.md 01-editorial-direction.md 10-reddit-forums.md 20-traditional.md
 30-published-research.md 40-commercial-web.md 50-experimental-communities.md
 60-practitioner-folk-web.md 70-practice-strains.md 80-practice-assessment.md
 90-protocol-dossiers.md | sha256sum`. Write
@@ -41,11 +41,17 @@ understand and do:
 - explain why the same nominal alcohol exposure can produce different outcomes,
   using timing, food/absorption, beverage composition, sleep, physiology, and
   symptom-path differences only where the inputs support them
-- present the reconstructed practices at the moment they are used and for the
-  outcome they target
-- give full protocol treatment only to the selected directions; retain the rest
-  as traditions, common practices, disputed moves, negative results, or
-  speculative directions in proportion to what the record contains
+- let the commission's impetus determine which unresolved questions remain
+  prominent, while keeping its first-person observations distinct from general
+  findings
+- present useful reconstructed practices at the moment they are used and for
+  the outcome they target
+- do not give every selected direction equal space. Selection authorizes
+  targeted research, not a guaranteed section in the page. Give full treatment
+  only where the resulting dossier gives the reader something usable or changes
+  their understanding; compress curiosities and unresolved directions
+- omit research-reserve material that does not improve this page. The research
+  artifacts preserve it; the public draft need not inventory the whole trawl
 - distinguish symptom relief from changing alcohol absorption, exposure,
   metabolism, sleep disruption, or next-day state
 
@@ -69,10 +75,12 @@ conversation.
 
 Every factual claim must carry one or more citations. Retain cross-map IDs such
 as [20:TR3] and dossier direct-source IDs such as [P4]. At the end write a
-`References` section that expands every cited ID into its full source record by
-copying faithfully from the relevant map index or dossier direct-source index.
-Do not cite IDs that never appear in the prose, and do not leave prose IDs
-without a reference entry.
+`References` section that preserves each source's bibliographic identity,
+stable link, and any access limitation that materially affects what the page
+says. Remove internal research-log prose such as `contributed`, `supports
+dossier`, `taken from it`, ownership bookkeeping, and fetch history. Do not
+cite IDs that never appear in the prose, and do not leave prose IDs without a
+reference entry.
 
 End with `FACTUAL DRAFT COMPLETE — N references`, using the actual number of
 unique referenced IDs. Count only prose above `## References` with

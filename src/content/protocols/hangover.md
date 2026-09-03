@@ -1,228 +1,133 @@
 ---
-title: "Hangover Recovery"
-summary: "What the evidence supports for hangover prevention and recovery — acetaldehyde metabolism, inflammation, and the herbs that actually have data behind them."
+title: "Hangover"
+summary: "A practical map of alcohol exposure, sleep, beverage composition, stomach symptoms, headache, and next-day state changes."
 researchDepth: moderate
 symptoms:
-  - headache after drinking
-  - nausea and vomiting
-  - fatigue and malaise
-  - brain fog after alcohol
+  - thirst and dry mouth
+  - headache
+  - nausea and gastrointestinal distress
+  - fatigue and disturbed sleep
+  - low motivation and physical heaviness
 related:
-  - materia/milk-thistle
-  - materia/ginger
-  - protocols/nausea
-  - protocols/liver-support
+  - nausea.md
+  - liver-support.md
 draft: true
 ---
 
-# Hangover Protocol
+# Hangover
 
-## Overview
+A hangover is not one process with one antidote. The same night can leave one person mainly thirsty, another with a headache, another nauseated, and another flat, unmotivated, and physically heavy. The likely contributors include the height and duration of alcohol exposure, effects on the stomach and fluid balance, sleep and circadian disruption, congeners and other features of the drink, nervous-system rebound, inflammation, and changes in energy metabolism. Their relative importance can change from one occasion to the next. [1][2][3]
 
-If you drink and want to feel better faster, here's what the evidence actually supports — and what doesn't have much behind it. The evidence is imperfect — all of it rates as "very low quality" by standard criteria[1] — but there's enough signal to make informed choices.
+That helps explain why water can be useful without being a cure. Alcohol promotes fluid loss, and replacing fluid may relieve thirst and dry mouth, but measured electrolyte disturbance does not track hangover severity consistently. A morning dominated by poor sleep or gastrointestinal irritation will not necessarily respond to the same thing as a dehydration-heavy one. [1]
 
-Here's why timing matters: most of your symptoms come from two separate processes. Acetaldehyde — the toxic byproduct your liver makes from alcohol — peaks 1–2 hours after drinking and drives most of the malaise and headache. Separately, alcohol triggers an inflammation wave that drives its own cluster of symptoms. Some herbs work best before or during drinking; others help the morning after. Different problems, different windows.
+It also explains why nominally similar drinking sessions can produce very different mornings. Food changes absorption, pace changes the exposure curve, beverage composition can change subjective severity, and alcohol can degrade sleep independently of total time in bed. [4][6][7]
 
-No herb cures a hangover outright — most resolve in 8–24 hours regardless. What you're trying to do is take the edge off and shorten the timeline.
+## Change the trajectory before bed
 
----
+The most useful prevention question may be less “what pill offsets alcohol?” than “what trajectory did the alcohol take?” Total amount matters, but so do how quickly it arrived, whether the stomach was empty, when drinking ended, and what was being drunk.
 
-## The Landscape
+### Food and pace
 
-Since there are no head-to-head comparisons between these herbs, the tiers are your best proxy for where to start. Start with Tier 1, add Tier 2 based on your specific symptoms, and treat Tier 3 as background support or personal experiments.
+Eating before drinking, taking longer over drinks, and alternating with water form a common harm-reduction pattern. [5] A small crossover trial gives one unusually clear example of how strongly food composition can change absorption. Twenty-one social drinkers ate a proprietary 70 g protein-and-fiber bar with eight ounces of water, then drank a standardized low dose of vodka and tonic. Mean peak blood alcohol was 0.031% with the bar and 0.064% while fasting; alcohol bioavailability over 90 minutes was 45% lower. The study measured the drinking trajectory, not the next day's hangover. [4]
 
-### Tier 1 — Start here: the most consistent evidence
+The exact bar cannot be reproduced because its ingredient weights were not published, and “this formulated bar beat fasting” does not establish a universal meal recipe. Still, the size of the absorption difference makes a substantial meal a more credible direction than most supplement stacks.
 
-**[[materia/hovenia-dulcis]] (Japanese raisin tree / DHM)**
-The best-studied option in this whole landscape. Three recent trials all point the same direction — it speeds up the way your body clears alcohol and acetaldehyde.[2][3] Combined with kudzu, it works faster: meaningful blood alcohol reduction within 15–30 minutes of drinking.[2] It also beat placebo in the larger meta-analysis.[1] An independent US market survey found DHM present in 52.6% of commercial hangover products — more than any other single ingredient.[16] Industry convergence adds a real-world signal on top of the trial evidence. This is where to start.
+One first-person lead in this project is stronger than the generic “eat something” version: a belly full of whole milk once made the same drinking feel dramatically weaker, especially at a younger age. [8] Milk could have mattered through calories, fat, protein, stomach emptying, or simply being part of a larger meal. The useful question is not whether milk is a cure; it is which ordinary meal shapes produce a noticeably slower and gentler rise.
 
-**[[materia/red-ginseng]] (Panax ginseng)**
-Clears alcohol about 50% faster — that finding holds across multiple trials, including the capsule form if you're not sourcing raw ginseng.[1][4][5] Good second option to HD, or layer them together. Dose: 3g dried root (or equivalent extract) taken with or shortly after drinking.
+### Time of the last drink
 
-### Tier 2 — Strong evidence, but narrower or unreplicated
+Another strong first-person lead is that drinking earlier has sometimes produced a much better next day. [8] This run did not reconstruct a study that isolates clock time. The obvious candidate explanations overlap: more alcohol may be cleared before sleep, less of the sleep period may coincide with intoxication and rebound, and an earlier session may come with different food, light, activity, or drink choice.
 
-**[[materia/opuntia-ficus-indica]] (prickly pear cactus)**
-The strongest anti-inflammation data in this whole landscape — cuts a key inflammation marker (CRP) by 40% vs. placebo, and directly reduces nausea, dry mouth, and appetite loss.[6] Catch: you have to take it 5 hours before you drink. No good for the morning after — the timing isn't flexible.
+Alcohol nights do produce worse objective and subjective sleep than control nights, and people may underestimate how much they drank even while reporting worse sleep quality. [7] That makes earlier finishing one of the more worthwhile ordinary changes to notice over time. It is cheap, potentially substantial, and still poorly separated from the rest of the evening.
 
-**Clove extract (Syzygium aromaticum)**
-Clove had the biggest symptom improvement in the meta-analysis — about twice the effect of placebo (roughly 42% vs. 19%).[1] Only one study, so don't make it your main plan. But if headache is your primary symptom, it's worth trying personally given how strong that signal was.
+### Beverage composition
 
-**[[materia/korean-pear]] (Pyrus pyrifolia)**
-Pre-drinking juice that reduced hangover severity roughly 20% vs. doing nothing.[7] Very small sample (14 people), but the direction is consistent and there's almost no downside to trying juice before drinking.
+Beverage choice can matter even when the ethanol dose is held constant. In one trial, 95 heavy drinkers received either 101-proof bourbon or 100-proof vodka mixed with caffeine-free cola. Mean peak breath alcohol was 0.11%. The next morning, the bourbon group's average hangover score was 1.88, compared with 1.38 after vodka—about a third worse. The bourbon was described as having 37 times the congeners, although the served bottles were not assayed. [6]
 
-**Ice plant + kudzu flower + mugwort combination**
-Specifically targets fatigue and thirst — those are the primary wins in the best-powered study here.[8] Different symptom cluster than HD/ginseng. Use this if tiredness and thirst are your main issues, not headache or nausea.
+The vodka group did not perform better on the next-morning attention and psychomotor tests. The substitution changed how bad people felt, not their measured function. Nor does one bourbon–vodka comparison establish a complete dark-versus-clear hierarchy.
 
-**Acanthopanax senticosus (Siberian ginseng / eleuthero)**
-One study shows it works — and it does so through a completely different mechanism than every other herb on this list.[12] It doesn't touch alcohol metabolism at all. Instead it's an adaptogen: anti-fatigue and anti-inflammatory. If fatigue is your dominant hangover symptom and the HD/ginseng approach isn't helping it, this is the one to try.
+IPA-specific headache and gastrointestinal symptoms are another commissioner lead. [8] This could involve congeners, fermentation products, hops, histamine-related effects, carbonation, serving size, strength, or the way IPAs are consumed. The present evidence does not separate them. Rather than burying that observation under “beer is worse,” it deserves a beverage-composition pass of its own.
 
-**PartySmart (Himalaya polyherbal)**
-Take 1 capsule during drinking. The appeal is simplicity — one pre-formulated capsule backed by Phase III trial data.[15] It works differently from HD and ginseng: they speed up alcohol clearance, but PartySmart also blocks a downstream effect (acetaldehyde binding to your proteins and causing longer-lasting damage) that the others don't address. Can take both together — they target different steps, so there's no conflict. Worth adding if you want that extra coverage or you're not getting full relief from HD alone.
+## Match the next-morning move to the morning
 
-### Tier 3 — Less proven, but useful for specific symptoms
+Once the night is over, the practical question changes. Most next-day measures are symptom relief or state changes; they do not accelerate sobriety or undo lost sleep.
 
-**[[materia/kudzu]] (Pueraria flos — kudzu flower only)** — Often combined with HD in Korean OTC products. Suppresses acetaldehyde rise. Better used as an add-on than standalone.[2] Safety note: kudzu *flower* (Pueraria flos) and kudzu *root* (Pueraria lobata root) have opposing mechanisms — the root actually inhibits acetaldehyde clearance (disulfiram-like effect). Only the flower belongs in an anti-hangover formula.[13]
+### Headache-dominant
 
-**[[materia/ginger]]** — No hangover-specific trial, but works by the same pathway as anti-nausea medications. If nausea is the problem, this is the morning-after move.
+Aspirin has been a consistently useful headache treatment for the commissioner. [8] There is also a labeled effervescent hangover product, Blowfish, containing aspirin 500 mg and caffeine 60 mg. Its claim is correspondingly narrow: temporary relief of headache and fatigue after the fact. [11]
 
-**[[materia/curcumin]] (Theracurmin form)** — Anti-inflammatory support, but takes hours to build effect. Standard curcumin is poorly absorbed — use bioavailability-enhanced forms.[9]
+That is a cleaner proposition than a multi-ingredient “detox” product. It targets two symptoms with two familiar drugs. It says nothing about nausea, alcohol clearance, coordination, or whether the rest of the hangover has changed.
 
-**[[materia/amla]] (Phyllanthus emblica)** — Antioxidant hepatoprotection. Background support rather than primary intervention.[12]
+### Stomach- or thirst-dominant
 
----
+Water, electrolyte drinks, and salty or greasy food repeat throughout the large AskReddit thread. [9] The recurrence probably contains several practices rather than one cure: replacing fluid, making drinking easier, supplying salt and carbohydrate, settling the stomach, and simply getting food down.
 
-## Core Protocol
+Alka-Seltzer has been particularly effective for the commissioner's gastrointestinal symptoms, usually near bedtime rather than as a next-morning headache treatment. [8] That timing and symptom specificity matter. It should be examined as a stomach intervention, not bundled with aspirin, hydration, or a theory of whole-hangover prevention.
 
-If you only follow one part of this, make it the during-drinking step (HD + kudzu or red ginseng) — that's where the best evidence is and where timing makes the biggest difference.[2][4]
+Pedialyte, Liquid I.V., sports drinks, and similar products fit the fluid-and-salt branch. The forum record contains many positive reports, but this research pass did not compare their formulations or show that a larger electrolyte dose produces a proportionally larger improvement. [9] Their value may be quite real when thirst, poor intake, vomiting, or salty-food craving dominate, and modest when they do not.
 
-### Prevention (5 hours before you start drinking)
+### Flat, heavy, or unmotivated
 
-**[[materia/opuntia-ficus-indica]] 1600 IU extract.**[6]
-What it does: knocks down inflammation, nausea, dry mouth, appetite loss. This one only works if you plan ahead — morning-after timing isn't supported. If you know you're drinking tonight, take it with dinner.
+Exercise is one of the more interesting signals in the folk record. Separate commenters describe running, cycling, hard cardio, stair-stepper work, or simply keeping moving; one reported feeling fine after about 30 minutes. Sauna, showers, food, and fluid were often bundled with it, so the active part is unclear. [9]
 
-### During / Around Drinking
+A naturalistic study followed 299 people walking the 15.8 km Samaria Gorge. Among the 176 who reported a hangover, average severity fell from 4.6/10 before the walk to 3.4 during it and 3.5 afterward. They also finished more exhausted than the non-hungover walkers. Because everyone walked, the study cannot separate movement from elapsed time, scenery, food, light, or the rest of the excursion. [10]
 
-**[[materia/hovenia-dulcis]] + [[materia/kudzu]] combination — take with your drinks.**[2]
-This is the core move. It speeds up alcohol and acetaldehyde clearance, with effects showing up within 15–30 minutes. Take it early in the evening, not after you're already several drinks in.
+Outdoor swimming is the strongest first-person version in this project, sometimes producing something like a large reduction rather than a marginal lift. [8] It combines rhythmic whole-body movement, breathing, temperature, circulation, bright light, and a change of setting. “Sweating out toxins” is unnecessary as an explanation. The promising object of study is the state transition itself—and which parts of swimming, sauna, cold or hot water, outdoor light, and forceful breathing can reproduce it.
 
-**[[materia/red-ginseng]] 3g dried root (or equivalent extract) — with or shortly after drinking.**[4][5]
-Adds more acetaldehyde suppression. Layer with HD or use as an alternative if HD isn't available.
+### Sleep-dominated
 
-### Morning After
+Some mornings appear to be mostly a sleep problem wearing a hangover's clothes. Alcohol can reduce sleep quality, and the resulting fatigue, low motivation, and physical laziness need not travel with much headache or nausea. [7][8] Food, aspirin, antacids, and electrolytes may then feel less effective because they are addressing other branches.
 
-Three options depending on your symptoms — you probably don't need all of them:
+This is also why the earlier-drinking lead matters. If finishing earlier reliably changes the morning, the gain may come less from a direct “hangover cure” than from moving intoxication and rebound away from the main sleep period.
 
-**If nausea is the problem:** [[materia/ginger]] — fresh tea or 500–1000 mg capsule. Works within 20–30 minutes.[10]
+## The useful core
 
-**If fatigue and inflammation are the problem:** [[materia/curcumin]] (Theracurmin or equivalent high-bioavailability form). Anti-inflammatory effect builds over hours, not immediate.[9] Take it early in the morning.
+The present record supports a compact approach rather than a stack:
 
-**Liver support:** [[materia/hovenia-dulcis]] / DHM — if you have it on hand, taking it the morning after may help.[2] But this is the least-studied timing in the protocol. If you're choosing between morning-after options, start with ginger (for nausea) and curcumin (for inflammation) — they have clearer data for this window.
+- Shape the drinking trajectory with a substantial meal, slower intake, and water alongside it. The meal effect may be large; the exact best meal is unresolved. [4][5]
+- When possible, finish earlier and preserve more of the sleep period for actual sleep. This is a strong commissioner lead with a coherent sleep connection, not yet an isolated finding. [7][8]
+- Treat beverage composition as real enough to investigate. Vodka was gentler than bourbon at the same dose in one trial; IPA remains a specific unresolved lead rather than a general beer rule. [6][8]
+- The next morning, identify the dominant branch. Headache, gastrointestinal distress, thirst, sleep loss, and the flat low-arousal state call for different moves.
+- Movement—especially outdoor swimming in the commissioner account—may produce one of the larger next-day shifts found in this pass. The next question is what component of that bundle matters. [8][9][10]
 
----
+## Leads still worth reconstructing
 
-## Alternative Approaches
+The published map surfaced Korean pear juice and L-cysteine among the substances tested in small placebo-controlled trials, but this pilot did not retrieve their exact preparations or results. [12] The commissioner specifically asked about NAC capsules, while the trial category here is L-cysteine; those names should not be silently treated as the same intervention. [8]
 
-If the core protocol isn't working for you, or you want to simplify, here's how to choose based on your actual symptoms:
+DHM itself did not yield a usable single-ingredient human protocol. The human work retrieved here used *Hovenia dulcis* fruit extracts rather than isolated DHM. [13][14] That does not prove pure DHM is inert. It means the capsule protocol has mostly been supplied by vendors rather than reconstructed from human use.
 
-**If fatigue is your dominant hangover symptom** (more than headache or nausea): Try Acanthopanax senticosus.[12] This adaptogen works through an entirely different mechanism — anti-fatigue, not alcohol metabolism. Treat it as a swap for the ginseng step, not an add-on to the whole protocol. The ice plant + kudzu flower + mugwort combo also specifically targets tiredness and thirst[8] — another option if that symptom cluster fits.
+One tomato experiment produced a noticeable result—1 of 20 hangover occasions with an alanine-fortified tomato preparation versus 6 of 20 with a sugar control—but the freeze-dried formulation included 10.4 g alanine, was tested with a large standardized meal in genotype-selected Japanese men, and is not reproducible as an ordinary kitchen preparation. [15] It is an interesting clue about food composition, not a reason to buy alanine pills.
 
-**If headache is your primary symptom:** Clove extract had the largest raw signal in the meta-analysis — about twice the symptom improvement of placebo.[1] One study, unreplicated, but worth tracking personally given the strong signal.
-
-**If you want the lowest-effort pre-drinking option:** Korean pear juice before you start drinking. Small sample but consistent direction — roughly 20% severity reduction.[7] Easy to test with essentially no downside.
-
-**If palpitations or elevated heart rate are prominent:** Herbal interventions don't reliably address cardiovascular hangover symptoms. Across everything studied — including all the herbs on this page — none reliably help with palpitations or elevated heart rate.[12] Hydration, rest, and time are what you have here.
-
-**If you want a simple multi-mechanism formula:** Oh!K — ginger + green tea + turmeric + black pepper. Each herb hits a different target: ginger for nausea (same pathway as anti-nausea medications), green tea polyphenols to support alcohol metabolism, turmeric for post-alcohol inflammation, and black pepper for one formulation-critical reason — it boosts curcumin bioavailability roughly 20-fold.[10] Standard turmeric supplements are poorly absorbed; black pepper fixes that. No standalone hangover RCT for this formula, but the four-mechanism coverage is sound if you want a single-formula option that doesn't require combining multiple products.
-
-**Artichoke (Cynara scolymus) — skip it:** Hepatoprotective mechanisms look plausible on paper, but a well-designed double-blind crossover RCT tested it specifically for hangover prevention and found no effect vs. placebo.[17] Good illustration that mechanistic plausibility doesn't predict clinical hangover benefit.
-
-**Classical formulas (background, no clinical trial data):**
-
-If you're buying a Korean or Chinese OTC hangover product, it probably uses Ge Hua Jie Cheng San as its base formula — that's the tradition HD and kudzu come from.[14] No modern RCT for this specific formula, but the core herbs overlap with Tier 1–2.
-
----
-
-## Comparison Table
-
-| Herb | Evidence Level | Timing | Primary Targets | Signal Size | Try this if... |
-|---|---|---|---|---|---|
-| [[materia/hovenia-dulcis]] | Tier 1 | During/after | Blood alcohol, acetaldehyde, liver | Consistent across 3 trials [1][2][3] | Starting from scratch — this is the default |
-| [[materia/red-ginseng]] | Tier 1 | During/after | Ethanol clearance, acetaldehyde | ~50% faster clearance vs. placebo [1][4] | HD isn't available, or you want to combine |
-| [[materia/opuntia-ficus-indica]] | Tier 2 | 5h pre-drinking | Inflammation, nausea, dry mouth | 40% CRP reduction [6] | You can plan ahead and nausea/inflammation are your main issues |
-| Clove extract | Tier 2 | Unclear | Headache, composite severity | ~twice placebo effect [1] | Headache is your primary symptom |
-| [[materia/korean-pear]] | Tier 2 | Pre-drinking | Composite severity | ~20% severity reduction [7] | Low-effort pre-drinking option with minimal downside |
-| Ice plant + kudzu flower + mugwort | Tier 2 | During/after | Fatigue, thirst, acetaldehyde | Reduces fatigue and thirst vs. placebo [8] | Fatigue and thirst are your main symptoms |
-| Acanthopanax senticosus | Tier 2 | During/after | Fatigue, immune symptoms | Reduces fatigue vs. placebo [12] | Fatigue is dominant and HD/ginseng isn't helping it |
-| PartySmart (Himalaya) | Tier 2 | During drinking | Blood alcohol, acetaldehyde, adduct prevention | Reduces blood alcohol and acetaldehyde vs. placebo [15] | You want a single pre-formulated capsule with multiple mechanisms |
-| [[materia/ginger]] | Tier 3 | Morning after | Nausea | Strong mechanism, no hangover-specific RCT [10] | Nausea is the problem the morning after |
-| [[materia/curcumin]] (Theracurmin) | Tier 3 | Morning after | Inflammation, fatigue | Not quantified [9] | Lingering inflammation/fatigue through the day |
-
-**Cardiovascular symptoms (palpitations, elevated heart rate):** No herb on this list reliably addresses these. Herbal hangover interventions have a consistent gap here.[12]
-
-Since no herb has been directly compared to another in the same trial, these tiers are the best proxy for where to start. Start with Tier 1, add Tier 2 based on your specific symptoms. The only direct comparison between HD formulations (Kim 2024) found HD+kudzu outperformed HD alone — which is why that combination is the default.[2] If you're adding Tier 2 options, one is usually enough — you don't need to stack multiple.
-
----
-
-## What to Expect
-
-**During drinking (with HD + kudzu or red ginseng):**
-- Meaningful blood alcohol reduction starts around 15–30 minutes after taking it[2]
-- The worst of the toxic buildup peaks 1–2 hours in — having HD/ginseng on board before that window is what makes the difference[2][5]
-
-**Morning after (acute treatment):**
-- Ginger for nausea: 20–30 min onset[10]
-- Curcumin for inflammation: builds over hours, not immediate[9]
-- OFI only works if you took it before drinking — no benefit starting it the morning after[6]
-
-**Without any intervention:**
-- Most hangovers resolve within 8–24 hours regardless
-
-**Best-case with herbs:**
-With the full protocol, most people notice a meaningfully shorter recovery — less severe morning symptoms, clearing up faster. You'll still have a hangover; just a milder one. HD/ginseng speeds up alcohol clearance by 15–30%[2][4], and the pre-drinking OFI step cuts the inflammation that drives nausea by about 40%[6] — that's what makes the biggest difference if nausea is your main issue.
-
----
-
-## N=1 Tracking
-
-Here's what to pay attention to when you're testing any of this:
-
-**Log after each drinking event:**
-- Date, number of drinks, drink type (beer/wine/spirits)
-- Which herbs you took, at what doses, at what times relative to drinking
-- Sleep quality (1–10)
-- Morning symptoms: headache, nausea, fatigue, dry mouth (each 0–5)
-- Composite severity (1–10)
-- Time to functional (hours until feeling normal)
-
-**Conditions worth comparing:**
-1. No intervention (your baseline)
-2. OFI pre-drinking only
-3. HD + kudzu during drinking only
-4. Full protocol (OFI pre + HD during + ginger/curcumin morning)
-5. Individual alternatives (clove, Korean pear, ice plant combo, Acanthopanax)
-
-**Specific questions to answer:**
-- Does pre-drinking OFI actually change your morning inflammation symptoms?
-- Does clove extract change headache severity vs. other herbs?
-- Does morning-after DHM make a measurable difference for you?
-- If fatigue is primary: does Acanthopanax outperform ginseng for that specific symptom?
-
-Confounders to control: hydration (track water intake), sleep hours, food consumed, time of last drink.
-
----
+Korean pear juice, NAC capsules, the IPA effect, earlier finishing, and the outdoor-swim state change are the clearest targets for the next focused pass. They are more useful as live questions than as footnotes beneath a long catalogue of nominal cures.
 
 ## References
 
-[1] Roberts E, et al. "Herbal and natural treatments for alcohol hangover." *Journal of Clinical Medicine*. 2022. Systematic review — rates all evidence "very low quality."
+[1] National Institute on Alcohol Abuse and Alcoholism. “Hangovers.” Accessed September 2, 2026. https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/hangovers
 
-[2] Kim SJ, et al. "Effects of Hovenia dulcis fruit extract combinations on alcohol metabolism." 2024. RCT, n=25 per arm. HD alone, HD+Pueraria, HD+glutathione yeast vs. placebo.
+[2] Swift R, Davidson D. “Alcohol hangover: mechanisms and mediators.” *Alcohol Health & Research World*. 1998;22(1):54–60. PMID 15706734. https://pmc.ncbi.nlm.nih.gov/articles/PMC6761819/
 
-[3] Cha YS, et al. "Hovenia dulcis extract effects on hangover symptoms and acetaldehyde." 2024.
+[3] Palmer E, Tyacke R, Sastre M, et al. “Alcohol Hangover: Underlying Biochemical, Inflammatory and Neurochemical Mechanisms.” *Alcohol*. 2019;54(3):196–203. PMID 30916313.
 
-[4] Lee HS, et al. "Effects of red ginseng on alcohol pharmacokinetics and hangover symptoms." 2014. RCT. Significant plasma alcohol reduction at 30, 45, 60 min.
+[4] Fisher JM, Wolever TMS, Campbell JE, et al. “Effect of a Snack Bar Optimized to Reduce Alcohol Bioavailability: A Randomized Controlled Clinical Trial in Healthy Individuals.” 2020. DOI 10.1089/jmf.2019.0228. https://pmc.ncbi.nlm.nih.gov/articles/PMC7185312/
 
-[5] KGC (Korea Ginseng Corp). "Korean red ginseng complex (KGC100FYK) with fermented rice-soybean and yeast for alcohol metabolism." 2026. Double-blind crossover RCT.
+[5] UK Department of Health and Social Care. “Clinical guidelines for alcohol treatment: 8. Harm reduction.” Updated April 17, 2026. https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/8-harm-reduction
 
-[6] Wiese J, et al. "Effect of Opuntia ficus indica on symptoms of the alcohol hangover." *Archives of Internal Medicine*. 2004. RCT, n=64. 1600 IU extract taken 5 hours before drinking.
+[6] Rohsenow DJ, Howland J, Arnedt JT, et al. “Intoxication with bourbon versus vodka: effects on hangover, sleep, and next-day neurocognitive performance in young adults.” 2010. DOI 10.1111/j.1530-0277.2009.01116.x. https://pmc.ncbi.nlm.nih.gov/articles/PMC3674844/
 
-[7] Lee HS, et al. "Korean pear (Pyrus pyrifolia) and hangover severity." 2013. RCT, n=14. Juice form, pre-drinking.
+[7] Devenney LE, Coyle KB, Roth T, Verster JC. “Sleep after Heavy Alcohol Consumption and Physical Activity Levels during Alcohol Hangover.” *Journal of Clinical Medicine*. 2019;8(5):752. PMID 31137775. The research record used an indexed summary rather than a directly rendered article.
 
-[8] Lee JH, et al. "Ice plant, kudzu flower, and mugwort combination for hangover symptoms." 2023. RCT, n=80. Largest single herbal hangover RCT in this bibliography.
+[8] Commissioner account from the pilot, including earlier drinking, a substantial whole-milk meal, IPA-specific effects, outdoor swimming, distinct aspirin and Alka-Seltzer uses, electrolyte products, Korean pear juice, and NAC capsules.
 
-[9] *Journal of Clinical Medicine*. 2025. Theracurmin (high-bioavailability curcumin) for post-alcohol inflammation. Specific dose not available from current bibliography.
+[9] pretendstoknow. “What is your go-to hangover cure?” Reddit r/AskReddit. September 18, 2023. Full old-Reddit capture supplied by the commissioner. https://www.reddit.com/r/AskReddit/comments/16lxffl/what_is_your_goto_hangover_cure/
 
-[10] Ginger: mechanistic evidence for 5-HT3 antagonism (antiemetic pathway). No hangover-specific RCT. Mechanistic basis shared with ondansetron pharmacology.
+[10] Verster JC, Anogeianaki A, Kruisselbrink D, Alford C, Stock AK. “Relationship between Alcohol Hangover and Physical Endurance Performance: Walking the Samaria Gorge.” 2019. DOI 10.3390/jcm9010114. https://pmc.ncbi.nlm.nih.gov/articles/PMC7019771/
 
-[11] Kim DH, et al. "WON-21 (Galhwahajung-tang + Daekumeumja) for alcohol metabolism: in vitro mechanisms." *Applied Biological Chemistry*. 2023. ADH activation, ALDH activation, antioxidant, anti-inflammatory mechanisms.
+[11] National Library of Medicine DailyMed. “BLOWFISH—aspirin, caffeine tablet, effervescent.” Label updated December 29, 2025. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d3798bc-04ef-584e-821b-7aa76036b7d1
 
-[12] Jayawardena R, et al. Systematic review including controlled human studies of Acanthopanax senticosus, red ginseng, Korean pear, and KSS formula for hangover. 2017. Acanthopanax: significant vs. placebo (p<0.05). Cardiovascular symptoms: consistently unimproved across all interventions.
+[12] Roberts E, Smith R, Hotopf M, Drummond C. “The efficacy and tolerability of pharmacologically active interventions for alcohol-induced hangover symptomatology: a systematic review of the evidence from randomised placebo-controlled trials.” *Addiction*. 2022;117(8):2157–2167. PMID 34972259. Abstract accessed. https://pubmed.ncbi.nlm.nih.gov/34972259/
 
-[13] Pueraria flos vs. Pueraria lobata root distinction: flower enhances ALDH2 activity (acetaldehyde clearance); root inhibits mitochondrial ALDH2, increasing acetaldehyde (disulfiram-like effect). PMID 17980785.
+[13] Kim H, Kim YJ, Jeong HY, et al. “A standardized extract of the fruit of Hovenia dulcis alleviated alcohol-induced hangover in healthy subjects with heterozygous ALDH2: a randomized, controlled, crossover trial.” 2017. DOI 10.1016/j.jep.2017.07.028. https://www.sciencedirect.com/science/article/pii/S0378874116321328
 
-[14] Ge Hua Jie Cheng San (葛花解酲散): Yuan Dynasty TCM formula. Classical indication for alcohol toxicity and damp-heat. Still in clinical use as basis for modern Korean/Chinese hangover products. No modern RCT for this specific formula.
+[14] Skinner SG, Matcha S, Davies DL. “Therapeutic Effects of Dihydromyricetin on Wholly Alcohol-Attributed Conditions: A Systematic Review.” 2026. DOI 10.3390/nu18142221. https://pubmed.ncbi.nlm.nih.gov/42514290/
 
-[15] PartySmart (Himalaya Drug Company). Phase III RCT data. Rat study: significantly reduces AUC of both ethanol and acetaldehyde at 500 mg/kg. Mechanism: ADH and ALDH enzyme activity enhancement + prevention of acetaldehyde-protein adduct formation — mechanistically distinct from all other reviewed herbs.
-
-[16] Verster JC, et al. US market survey of hangover remedy products. *Alcohol and Alcoholism*. 2025. doi:10.1177/20503245251355868. DHM (dihydromyricetin) present in 52.6% of US hangover products surveyed — the most commercially deployed single ingredient.
-
-[17] Rambaldi A, et al. Artichoke leaf extract for hangover prevention. Double-blind crossover RCT. PMC280580. 2003. Null result: no statistically significant difference vs. placebo for hangover prevention despite hepatoprotective mechanistic rationale.
+[15] Oshima S, Shiiya S, Tokumaru Y, Kanda T. “Alanine-fortified tomatoes relieve the acute alcohol-induced adverse effects in healthy men: a randomized cross-over study.” 2016. DOI 10.1186/s12986-016-0087-9. https://pmc.ncbi.nlm.nih.gov/articles/PMC4820955/

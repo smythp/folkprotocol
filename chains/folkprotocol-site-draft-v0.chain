@@ -11,7 +11,9 @@ Work in {work_dir}
 Codex: """Prepare an editorial site candidate from the completed Folkprotocol
 run at research/source-maps/{slug}/.
 
-Required research inputs are 00-commission.md, 120-tone-draft.md,
+Required research inputs are 00-commission.md, 01-editorial-direction.md,
+80-practice-assessment.md,
+120-tone-draft.md,
 133-audit-triage.md, 134-citation-recheck.md, 135-content-recheck.md,
 136-tone-repair-check.md, and 137-audit-closure.md. Verify every completion
 marker and require the exact final line `AUDIT CLOSURE COMPLETE — READY`. If
@@ -30,7 +32,8 @@ or its topic does not match 00-commission.md. Do not treat its prose or
 bibliography as authority.
 
 From research/source-maps/{slug}/ compute the research input digest with
-exactly `sha256sum 00-commission.md 120-tone-draft.md 133-audit-triage.md
+exactly `sha256sum 00-commission.md 01-editorial-direction.md 80-practice-assessment.md
+120-tone-draft.md 133-audit-triage.md
 134-citation-recheck.md 135-content-recheck.md 136-tone-repair-check.md
 137-audit-closure.md | sha256sum`.
 Write research/source-maps/{slug}/140-site-draft.md with that digest as
@@ -47,14 +50,38 @@ Produce frontmatter accepted by the protocols collection:
 - a concrete one-sentence `summary`
 - `researchDepth`, using one allowed enum from src/content/config.ts
 - a short `symptoms` list grounded in the page
-- only existing relevant `related` slugs already present in the old page
+- only existing relevant protocol collection IDs. Inspect the IDs produced by
+  the current collection and route rather than inferring them from a preferred
+  URL style. With the present loader, `nausea.md` produces
+  `/protocols/nausea.md/`; neither `nausea` nor `protocols/nausea` is the
+  correct ID. The old page may suggest relevance but is not authority for a
+  malformed ID
 - `draft: true`
 - `inputDigest`
 
-Below frontmatter, preserve the triaged page's prose, claims, citations,
-reference entries, commissioner-lead status, and unique reference count.
-Remove only research-artifact YAML fields and replace the research completion
-marker with `SITE DRAFT COMPLETE — N references`. Do not add a recommendation
-tier, default stack, quantified-self routine, medical disclaimer, publication
-claim, or new factual content. This is a draft for editorial approval, not a
-live publish.""" model=gpt-5.6-sol, timeout=1200
+Below frontmatter, make an editorial candidate from the verified material. You
+may cut, condense, and reorder prose, but may not add factual claims or change a
+claim's force. Use the commission and its accounting in 80 to decide what the
+page is principally about. A direction selected for research does not earn
+equal space merely because a dossier exists.
+
+Prefer a short explanatory structure organized around the distinct processes,
+symptom paths, or decision points that actually help the reader. Attach
+practices to the path and moment they address. Do not produce a parade of
+coequal remedy sections, an inventory of everything found, or a concluding
+miscellany that restores material cut earlier. Preserve unresolved commissioner
+leads when they define the next useful questions, clearly as first-person leads
+rather than general findings.
+
+Keep prose above `## References` between 1,200 and 2,800 words unless the
+verified material genuinely requires less. Include only references cited in
+that prose. Renumber citations and references sequentially. Render references
+as public bibliography entries: retain identity, title, date, stable URL, and
+material access qualifications; remove research workflow, ownership, and
+`contributed`/`taken from it` annotations. Verify mechanically that prose
+citations and reference numbers are identical sets with no gaps.
+
+Replace the research completion marker with `SITE DRAFT COMPLETE — N
+references`. Do not add a recommendation tier, default stack, quantified-self
+routine, medical disclaimer, publication claim, or new factual content. This
+is a draft for editorial approval, not a live publish.""" model=gpt-5.6-sol, timeout=1200

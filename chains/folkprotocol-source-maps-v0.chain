@@ -21,11 +21,18 @@ Default work_dir: /home/patrick/projects/folkprotocol
 
 Work in {work_dir}
 
-# Stage 1: preserve the commission before research starts. The commission is
-# descriptive: it may clarify the supplied words but may not broaden them.
-CC: """Create research/source-maps/{slug}/00-commission.md for this Folkprotocol investigation.
+# Stage 1: preserve the research commission and create a durable place for
+# editorial impetus. The commission is frozen before research; 01 may later be
+# amended without invalidating the independent source maps.
+CC: """Create research/source-maps/{slug}/00-commission.md and
+research/source-maps/{slug}/01-editorial-direction.md for this Folkprotocol
+investigation.
 
-If that file already exists and its final nonblank line is `COMMISSION COMPLETE`, leave it unchanged and stop.
+If 00-commission.md already exists and its final nonblank line is `COMMISSION
+COMPLETE`, leave it unchanged. If 01-editorial-direction.md also exists and its
+final nonblank line is `EDITORIAL DIRECTION COMPLETE`, leave it unchanged. Do
+not stop until both files have been checked; create only whichever is absent or
+incomplete.
 
 Record exactly:
 - slug: {slug}
@@ -37,9 +44,17 @@ Add a short section called Working boundary which explains the supplied scope
 without adding adjacent goals. Add a section called Not decided yet stating
 that no practice, protocol, page thesis, or source hierarchy has been chosen.
 
+In 01-editorial-direction.md record the slug and an `Initial impetus` section
+containing the supplied seeds without upgrading them into factual claims. Add
+`Later direction` containing `None supplied yet.` This file is the durable hook
+for commissioner observations or priorities supplied after mapping begins; it
+is not a source map or evidence record. End it with `EDITORIAL DIRECTION
+COMPLETE`.
+
 Do not research the topic in this step. Do not recommend anything. Do not
 silently widen the commission. Create the directory if needed and write only
-the commission file. End it with the exact final line `COMMISSION COMPLETE`.""" timeout=300
+these two files. End 00-commission.md with the exact final line `COMMISSION
+COMPLETE`.""" timeout=300
 
 # Stage 2: map deliberately seeded source domains. Each pass writes its own
 # file. These are maps of a knowledge territory, not lists of remedies and not
