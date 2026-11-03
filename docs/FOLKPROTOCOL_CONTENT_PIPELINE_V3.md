@@ -184,15 +184,17 @@ herbs = ["rhodiola", "elderberry", "passionflower", "ginger", "echinacea"]
 # Stage 1: Parallel bibliographies
 bib_ids = []
 for herb in herbs:
-    id = spin(f"Create {herb} bibliography", permission="shard", model="sonnet")
+    id = spin(f"Create {herb} bibliography", permission="shard", model="sonnet", working_dir="/home/patrick/projects/folkprotocol", wait=False)
     bib_ids.append(id)
 
 # Wait for all
 spin_wait(",".join(bib_ids))
 
 # Stage 2-4: Can run each herb through remaining stages
+content_ids = []
 for herb in herbs:
-    spin(f"Complete {herb} content pipeline stages 2-4", permission="shard")
+    content_ids.append(spin(f"Complete {herb} content pipeline stages 2-4", permission="shard", working_dir="/home/patrick/projects/folkprotocol", wait=False))
+spin_wait(",".join(content_ids), mode="gather")
 ```
 
 ## Testing Protocol
